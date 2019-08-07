@@ -1,72 +1,72 @@
 global:
-  name: LF AI Interactive Landscape
-  short_name: LFAI
-  repo: lfai/lfai-landscape
-  website: 'https://landscape.lfai.foundation'
-  short_domain: l.lfai.foundation
-  company_url: 'https://lfai.foundation'
-  email: info@lfai.foundation
+  name: ASWF Interactive Landscape
+  short_name: ASWF
+  repo: AcademySoftwareFoundation/aswf-landscape
+  website: 'https://landscape.aswf.io'
+  short_domain: l.aswf.io
+  company_url: 'https://aswf.io'
+  email: info@aswf.io
   meta:
-    title: LF AI Landscape
+    title: ASWF Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
-    twitter: '@LFAI_Foundation'
+    twitter: '@ASWF_Foundation'
     google_site_verification: x3QPMhFwxg1ZMS9tlhhgwIJKokbEkt1zByMLMXiqnds
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
     cncf_sandbox: false
-    companies: LF AI Member Company
+    companies: ASWF Member Company
 twitter:
-  search: landscape.lfai.foundation
-  url: 'https://landscape.lfai.foundation'
-  text: LF AI Landscape from @LFAI_Foundation
+  search: landscape.aswf.io
+  url: 'https://landscape.aswf.io'
+  text: ASWF Landscape from @AcademySwf
 relation:
-  label: LFAI Relation
-  url: lfai
+  label: ASWF Relation
+  url: aswf
   values:
     - id: hosted
-      label: LFAI Projects
+      label: ASWF Projects
       children:
         - id: graduated
-          label: Graduated LFAI Projects
-          prefix: LF AI
+          label: Graduated ASWF Projects
+          prefix: ASWF
           tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LFAI Graduated
+          big_picture_label: ASWF Graduated
           big_picture_color: 'rgb(24,54,114)'
         - id: incubating
-          label: Incubating LFAI Projects
-          prefix: LF AI
+          label: Incubating ASWF Projects
+          prefix: ASWF
           tag: Incubating
           color: '#00cbff'
           big_picture_order: 2
-          big_picture_label: LFAI Incubating
+          big_picture_label: ASWF Incubating
           big_picture_color: 'rgb(83, 113, 189)'
     - id: company
-      label: LFAI Members
+      label: ASWF Members
       tag: Company
       big_picture_order: 3
     - id: member
-      label: LFAI Member Products/Projects
-      tag: LFAI Member
+      label: ASWF Member Products/Projects
+      tag: ASWF Member
     - id: false
-      label: Non-LFAI Member Products/Projects
+      label: Non-ASWF Member Products/Projects
       url: 'no'
 membership:
   premier:
-    name: LFAI
+    name: ASWF
     label: Premier Member
     funding: Premier
   general:
-    name: LFAI
+    name: ASWF
     label: Member
     funding: General
   'false':
     funding: 'No'
 home:
   header: >
-    <h1>LF AI Foundation Interactive Landscape</h1> The LF AI Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    <h1>ASWF Interactive Landscape</h1> The Academy Software Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
     on the same open source code.
   footer: |
@@ -94,8 +94,8 @@ big_picture:
     tab_index: -1
     url: landscape
     name: Landscape
-    title: Linux Foundation AI Landscape
-    fullscreen_header: See the interactive landscape at l.lfai.foundation
+    title: Academy Software Foundation Landscape
+    fullscreen_header: See the interactive landscape at l.aswf.io
     method: getGroupedItemsForCncfBigPicture
     size:
       width: 1115
@@ -186,7 +186,7 @@ big_picture:
         color: 'rgb(108, 135, 75)'
         fit_width: true
       - type: HorizontalCategory
-        category: LF AI Member Company
+        category: ASWF Member Company
         rows: 6
         width: 730
         height: 200
@@ -203,7 +203,7 @@ big_picture:
           - type: text
             text: >
               This landscape is intended as a map to explore open source artificial intelligence (AI), machine learning (ML), and deep learning (DL) projects,
-              and also shows the member companies of the LF AI Foundation.
+              and also shows the member companies of the ASWF Foundation.
             top: 45
             left: 100
             right: 120
@@ -215,7 +215,7 @@ big_picture:
             width: 90
             height: 90
           - type: title
-            title: l.lfai.foundation
+            title: l.aswf.io
             top: 129
             left: 9
             font_size: 12
@@ -230,8 +230,8 @@ big_picture:
             right: 5
             top: 85
 test:
-  header: LF AI Foundation Interactive Landscape
-  section: Graduated LFAI Projects
+  header: ASWF Foundation Interactive Landscape
+  section: Graduated ASWF Projects
   logo: acumos.svg
 update_server:
   ip: 147.75.106.211
