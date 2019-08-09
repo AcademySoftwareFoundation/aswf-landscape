@@ -10,7 +10,7 @@ global:
     title: ASWF Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
-    twitter: '@ASWF_Foundation'
+    twitter: '@AcademySwf'
     google_site_verification: x3QPMhFwxg1ZMS9tlhhgwIJKokbEkt1zByMLMXiqnds
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
@@ -60,8 +60,12 @@ membership:
     funding: Premier
   general:
     name: ASWF
-    label: Member
+    label: General Member
     funding: General
+  associate:
+    name: ASWF
+    label: Associate Member
+    funding: Associate
   'false':
     funding: 'No'
 home:
@@ -79,16 +83,12 @@ ads:
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Open source cards by age
-  - url: /license=apache-license-2-0
-    label: Apache-2.0 landscape
   - url: /format=card-mode&grouping=category
     label: Cards in categories
   - url: /format=card-mode&grouping=no&sort=stars
     label: Cards by stars
   - url: /format=card-mode&grouping=headquarters
     label: Group by location
-  - url: /format=card-mode&grouping=no&sort=amount
-    label: Cards by MCap/Funding
 big_picture:
   main:
     tab_index: -1
@@ -105,7 +105,7 @@ big_picture:
       height: 840
     elements:
       - type: HorizontalCategory
-        category: Machine Learning
+        category: Rendering
         rows: 3
         width: 380
         height: 160
@@ -202,7 +202,7 @@ big_picture:
         children:
           - type: text
             text: >
-              This landscape is intended as a map to explore open source artificial intelligence (AI), machine learning (ML), and deep learning (DL) projects,
+              This landscape is intended as a map to explore open source projects within the visual and special effects industry,
               and also shows the member companies of the Academy Software Foundation.
             top: 45
             left: 100
