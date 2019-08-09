@@ -1,6 +1,6 @@
-[![Dependency Status](https://img.shields.io/david/lfai/lfai-landscape.svg?style=flat-square)](https://david-dm.org/lfai/lfai-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/a9f0f6cd-9dc2-44c1-baa1-98f288904d6b/deploy-status)](https://app.netlify.com/sites/lfailandscape/deploys)
+[![Dependency Status](https://img.shields.io/david/lfai/lfai-landscape.svg?style=flat-square)](https://david-dm.org/lfai/lfai-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/4e7f5868-c8de-4e99-8c77-a3b855c61f7d/deploy-status)](https://app.netlify.com/sites/awsf-landscape/deploys)
 
-# Linux Foundation Artificial Intelligence (LFAI) Landscape
+# Linux Foundation Academy Software Foundation Landscape
 
 ![LFAI Landscape Logo](https://landscape.lfdl.io/images/left-logo.svg)
 
