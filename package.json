@@ -1,7 +1,7 @@
 {
-  "name": "lfdl-interactive-landscape",
+  "name": "aswf-interactive-landscape",
   "version": "1.0.0",
-  "description": "Interactive visualization of Linux Foundation Deep Learning",
+  "description": "Interactive visualization of Academy Software Foundation",
   "engines": {
     "npm": ">=3",
     "node": ">= 10.5"
@@ -10,7 +10,7 @@
     "build": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build",
     "latest": "npm install interactive-landscape@latest"
   },
-  "author": "LFDL",
+  "author": "ASWF",
   "license": "Apache-2.0",
   "dependencies": {
     "eslint": "6.1.0",
@@ -20,6 +20,6 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/LFDLfoundation/lfdl-landscape"
+    "url": "https://github.com/AcademySoftwareFoundation/aswf-landscape"
   }
 }
