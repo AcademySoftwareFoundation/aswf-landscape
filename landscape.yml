@@ -41,9 +41,7 @@ landscape:
             homepage_url: 'http://sourceforge.net/projects/liquidmaya/'
             repo_url: 'https://sourceforge.net/p/liquidmaya/svn/HEAD/tree/'
             logo: liquid-maya.svg
-            twitter: 'http://twitter.com/PeregrineLabs'
-            linkedin: 'http://www.linkedin.com/company/peregrine-labs?trk=tabs_biz_home'
-            crunchbase: null
+            crunchbase: 'https://www.crunchbase.com/organization/peregrinelabs'
           - item:
             name: OpenEXR
             homepage_url: 'http://www.openexr.com/'
@@ -72,16 +70,14 @@ landscape:
             name: CgKit
             homepage_url: 'http://cgkit.sourceforge.net/'
             repo_url: 'https://sourceforge.net/p/cgkit/code/ci/master/tree/'
-            linkedin: null
-            twitter: null
-            crunchbase: null
+            crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
             logo: cgkit_title_600.svg
           - item:
             name: Pixie
             homepage_url: 'http://www.renderpixie.com/'
             repo_url: 'https://sourceforge.net/p/pixie/code/HEAD/tree/'
             logo: pixie.svg
-            crunchbase: null
+            crunchbase: 'https://www.crunchbase.com/organization/renderpixie'
           - item:
             name: Scala Migrations
             homepage_url: 'http://opensource.imageworks.com/?p=scalamigrations'
@@ -100,36 +96,36 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
             repo_url: 'https://github.com/imageworks/pystring'
             logo: pystring.svg
-          - item:
-            name: Open Dynamics Engine (ODE)
-            homepage_url: 'http://www.ode.org/'
-            repo_url: 'https://bitbucket.org/odedevs/ode/src/default/'
-            logo: ode.svg
-            linkedin: null
-            twitter: null
-            crunchbase: null
+          # - item:
+          #   name: Open Dynamics Engine (ODE)
+          #   homepage_url: 'http://www.ode.org/'
+          #   repo_url: 'https://bitbucket.org/odedevs/ode/src/default/'
+          #   logo: ode.svg
+          #   linkedin: null
+          #   twitter: null
+          #   crunchbase: null
           - item:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: 'http://www.cgal.org/'
             repo_url: 'http://www.cgal.org/'
             logo: cgal.svg
             crunchbase: 'https://www.crunchbase.com/organization/computational-geometry-algorithms-library'
-          - item:
-            name: Bullet Physics
-            homepage_url: 'http://bulletphysics.org/'
-            repo_url: 'https://github.com/bulletphysics/bullet3'
-            logo: bullet_logo.svg
-            linkedin: null
-            twitter: null
-            crunchbase: null
-          - item:
-            name: DJV Imaging
-            homepage_url: 'http://djv.sourceforge.net/'
-            repo_url: 'http://sourceforge.net/projects/djv/'
-            logo: djv-logo-large.svg
-            linkedin: 'https://www.linkedin.com/company/unexpected'
-            twitter: null
-            crunchbase: null
+          # - item:
+          #   name: Bullet Physics
+          #   homepage_url: 'http://bulletphysics.org/'
+          #   repo_url: 'https://github.com/bulletphysics/bullet3'
+          #   logo: bullet_logo.svg
+          #   linkedin: null
+          #   twitter: null
+          #   crunchbase: null
+          # - item:
+          #   name: DJV Imaging
+          #   homepage_url: 'http://djv.sourceforge.net/'
+          #   repo_url: 'http://sourceforge.net/projects/djv/'
+          #   logo: djv-logo-large.svg
+          #   linkedin: 'https://www.linkedin.com/company/unexpected'
+          #   twitter: null
+          #   crunchbase: null
           - item:
             name: OpenImageIO
             homepage_url: 'http://www.openimageio.org'
@@ -155,70 +151,70 @@ landscape:
             repo_url: 'https://github.com/eloop/hot'
             homepage_url: 'https://github.com/eloop/hot'
             crunchbase: 'https://www.crunchbase.com/organization/national-computational-infrastructure'
-          - item:
-            name: PyODE
-            homepage_url: 'http://pyode.sourceforge.net/'
-            repo_url: 'https://sourceforge.net/p/pyode/git/ci/master/tree/'
-            logo: ode.svg
-            linkedin: null
-            twitter: null
-            crunchbase: null
-          - item:
-            name: Imagemagick
-            homepage_url: 'http://www.imagemagick.org/'
-            repo_url: 'https://github.com/ImageMagick'
-            logo: ImageMagick_logo.svg
-            linkedin: null
-            twitter: 'https://twitter.com/imagemagick'
-            crunchbase: null
-          - item:
-            name: tracksperanto
-            homepage_url: 'http://guerilla-di.org/tracksperanto/'
-            repo_url: 'http://github.com/guerilla-di/tracksperanto'
-            logo: 'http://guerilla-di.org/images/tracksperanto.svg'
-            linkedin: null
-            twitter: 'https://twitter.com/guerilladi'
-            crunchbase: null
-          - item:
-            name: depix
-            homepage_url: 'http://guerilla-di.org/depix/'
-            repo_url: 'http://github.com/guerilla-di/depix'
-            logo: 'http://guerilla-di.org/images/depix.svg'
-            linkedin: null
-            twitter: 'https://twitter.com/guerilladi'
-            crunchbase: null
-          - item:
-            name: edl
-            homepage_url: 'http://guerilla-di.org/edl/'
-            repo_url: 'http://github.com/guerilla-di/edl'
-            logo: 'http://guerilla-di.org/images/edl.svg'
-            linkedin: null
-            twitter: 'https://twitter.com/guerilladi'
-            crunchbase: null
-          - item:
-            name: sequencer
-            homepage_url: 'http://guerilla-di.org/sequencer/'
-            repo_url: 'http://github.com/guerilla-di/sequencer'
-            logo: 'http://guerilla-di.org/images/sequencer.svg'
-            linkedin: null
-            twitter: 'https://twitter.com/guerilladi'
-            crunchbase: null
-          - item:
-            name: flame-channel-parser
-            homepage_url: 'http://guerilla-di.org/flame-channel-parser/'
-            repo_url: 'http://github.com/guerilla-di/flame-channel-parser'
-            logo: 'http://guerilla-di.org/images/flame-channel-parser.svg'
-            linkedin: null
-            twitter: 'https://twitter.com/guerilladi'
-            crunchbase: null
-          - item:
-            name: timecode
-            homepage_url: 'http://guerilla-di.org/timecode/'
-            repo_url: 'http://github.com/guerilla-di/timecode'
-            logo: 'http://guerilla-di.org/images/timecode.svg'
-            linkedin: null
-            twitter: 'https://twitter.com/guerilladi'
-            crunchbase: null
+          # - item:
+          #   name: PyODE
+          #   homepage_url: 'http://pyode.sourceforge.net/'
+          #   repo_url: 'https://sourceforge.net/p/pyode/git/ci/master/tree/'
+          #   logo: ode.svg
+          #   linkedin: null
+          #   twitter: null
+          #   crunchbase: null
+          # - item:
+          #   name: Imagemagick
+          #   homepage_url: 'http://www.imagemagick.org/'
+          #   repo_url: 'https://github.com/ImageMagick'
+          #   logo: ImageMagick_logo.svg
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/imagemagick'
+          #   crunchbase: null
+          # - item:
+          #   name: tracksperanto
+          #   homepage_url: 'http://guerilla-di.org/tracksperanto/'
+          #   repo_url: 'http://github.com/guerilla-di/tracksperanto'
+          #   logo: 'http://guerilla-di.org/images/tracksperanto.svg'
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/guerilladi'
+          #   crunchbase: null
+          # - item:
+          #   name: depix
+          #   homepage_url: 'http://guerilla-di.org/depix/'
+          #   repo_url: 'http://github.com/guerilla-di/depix'
+          #   logo: 'http://guerilla-di.org/images/depix.svg'
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/guerilladi'
+          #   crunchbase: null
+          # - item:
+          #   name: edl
+          #   homepage_url: 'http://guerilla-di.org/edl/'
+          #   repo_url: 'http://github.com/guerilla-di/edl'
+          #   logo: 'http://guerilla-di.org/images/edl.svg'
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/guerilladi'
+          #   crunchbase: null
+          # - item:
+          #   name: sequencer
+          #   homepage_url: 'http://guerilla-di.org/sequencer/'
+          #   repo_url: 'http://github.com/guerilla-di/sequencer'
+          #   logo: 'http://guerilla-di.org/images/sequencer.svg'
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/guerilladi'
+          #   crunchbase: null
+          # - item:
+          #   name: flame-channel-parser
+          #   homepage_url: 'http://guerilla-di.org/flame-channel-parser/'
+          #   repo_url: 'http://github.com/guerilla-di/flame-channel-parser'
+          #   logo: 'http://guerilla-di.org/images/flame-channel-parser.svg'
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/guerilladi'
+          #   crunchbase: null
+          # - item:
+          #   name: timecode
+          #   homepage_url: 'http://guerilla-di.org/timecode/'
+          #   repo_url: 'http://github.com/guerilla-di/timecode'
+          #   logo: 'http://guerilla-di.org/images/timecode.svg'
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/guerilladi'
+          #   crunchbase: null
           - item:
             name: PyMEL
             homepage_url: 'http://code.google.com/p/pymel/'
@@ -249,29 +245,28 @@ landscape:
             repo_url: 'https://github.com/DrQueue/drqueue'
             crunchbase: 'https://www.crunchbase.com/organization/bankinter'
             logo: nuke_examplebuild_small.svg
-          - item:
-            name: Aqsis Renderer
-            homepage_url: 'http://www.aqsis.org/'
-            repo_url: 'https://sourceforge.net/p/aqsis/code/ci/master/tree/'
-            logo: aquis_renderer.svg
-            linkedin: null
-            twitter: null
-            crunchbase: null
-          - item:
-            name: Processing
-            homepage_url: 'http://processing.org/'
-            repo_url: 'https://github.com/processing'
-            logo: processing3-logo.svg
-            linkedin: null
-            twitter: 'https://twitter.com/processingOrg'
-            crunchbase: null
+          # - item:
+          #   name: Aqsis Renderer
+          #   homepage_url: 'http://www.aqsis.org/'
+          #   repo_url: 'https://sourceforge.net/p/aqsis/code/ci/master/tree/'
+          #   logo: aquis_renderer.svg
+          #   linkedin: null
+          #   twitter: null
+          #   crunchbase: null
+          # - item:
+          #   name: Processing
+          #   homepage_url: 'http://processing.org/'
+          #   repo_url: 'https://github.com/processing'
+          #   logo: processing3-logo.svg
+          #   linkedin: null
+          #   twitter: 'https://twitter.com/processingOrg'
+          #   crunchbase: null
           - item:
             name: Cinepaint
             homepage_url: 'http://www.cinepaint.org/'
             repo_url: 'https://sourceforge.net/p/cinepaint/code/'
             crunchbase: 'https://www.crunchbase.com/person/robin-rowe'
             twitter: 'https://twitter.com/cinepaint'
-            linkedin: null
             logo: cinepaint_icon.svg
           - item:
             name: Earth
@@ -280,36 +275,34 @@ landscape:
             twitter: 'https://twitter.com/rspvfx'
             crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
             logo: affogatosmall.svg
-          - item:
-            name: OpenPipeline
-            homepage_url: 'http://openpipeline.cc/'
-            repo_url: 'https://code.google.com/archive/p/openpipeline/source'
-            logo: ProducedWithOpenPipeline.svg
-            crunchbase: null
-            twitter: null
-            linkedin: null
+          # - item:
+          #   name: OpenPipeline
+          #   homepage_url: 'http://openpipeline.cc/'
+          #   repo_url: 'https://code.google.com/archive/p/openpipeline/source'
+          #   logo: ProducedWithOpenPipeline.svg
+          #   crunchbase: null
           - item:
             name: Ptex
             homepage_url: 'http://ptex.us/'
             repo_url: 'http://github.com/wdas/ptex'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
             logo: PtexCubeOrange64.svg
-          - item:
-            name: Open Cinema Tools
-            homepage_url: 'http://code.google.com/p/opencinematools/'
-            repo_url: 'http://code.google.com/p/opencinematools/'
-            logo: null
-            crunchbase: null
-            twitter: null
-            linkedin: null
-          - item:
-            name: Hugin
-            homepage_url: 'http://hugin.sourceforge.net/'
-            repo_url: 'https://sourceforge.net/p/hugin/hugin/ci/default/tree/'
-            logo: Hugin.svg
-            crunchbase: null
-            twitter: null
-            linkedin: null
+          # - item:
+          #   name: Open Cinema Tools
+          #   homepage_url: 'http://code.google.com/p/opencinematools/'
+          #   repo_url: 'http://code.google.com/p/opencinematools/'
+          #   logo: null
+          #   crunchbase: null
+          #   twitter: null
+          #   linkedin: null
+          # - item:
+          #   name: Hugin
+          #   homepage_url: 'http://hugin.sourceforge.net/'
+          #   repo_url: 'https://sourceforge.net/p/hugin/hugin/ci/default/tree/'
+          #   logo: Hugin.svg
+          #   crunchbase: null
+          #   twitter: null
+          #   linkedin: null
           - item:
             name: pfstools
             homepage_url: 'http://pfstools.sourceforge.net/'
@@ -350,37 +343,46 @@ landscape:
             name: OpenFX
             homepage_url: 'http://openfx.sourceforge.net/'
             repo_url: 'http://sourceforge.net/projects/openfx/'
-          - item:
-            name: Brigks
-            homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/briqks.htm'
-            repo_url: 'http://github.com/studioNEST/Brigks'
-          - item:
-            name: Kratos
-            homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/kratos.html'
-            repo_url: 'http://github.com/studioNEST/Kratos'
-          - item:
-            name: Momentum
-            homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/momentum.html'
-            repo_url: 'http://github.com/studioNEST/Momentum'
-          - item:
-            name: Melena
-            homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/melena.html'
-            repo_url: 'http://github.com/studioNEST/Melena'
-          - item:
-            name: Essence
-            homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/essence.html'
-            repo_url: 'http://github.com/studioNEST/Essence'
+            logo: OFXLogo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/the-open-effects-association'
+          # - item:
+          #   name: Briqks
+          #   homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/briqks.htm'
+          #   repo_url: 'http://github.com/studioNEST/Brigks'
+          # - item:
+          #   name: Kratos
+          #   homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/kratos.html'
+          #   repo_url: 'http://github.com/studioNEST/Kratos'
+          # - item:
+          #   name: Momentum
+          #   homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/momentum.html'
+          #   repo_url: 'http://github.com/studioNEST/Momentum'
+          # - item:
+          #   name: Melena
+          #   homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/melena.html'
+          #   repo_url: 'http://github.com/studioNEST/Melena'
+          # - item:
+          #   name: Essence
+          #   homepage_url: 'http://opensource.studionestbarcelona.com/studio_NEST/essence.html'
+          #   repo_url: 'http://github.com/studioNEST/Essence'
           - item:
             name: Jupiter Skin
-            repo_url: 'http://code.google.com/p/jupiterskin/'
+            homepage_url: 'http://code.google.com/p/jupiterskin/'
+            logo: jupiter_skin.svg
+            repo_url: 'https://github.com/virtualritz/jupiterskin'
+            crunchbase: 'https://www.crunchbase.com/organization/jupiter-jazz'
           - item:
-            name: Arsenal Suite'
-            repo_url: 'http://code.google.com/p/arsenalsuite/'
+            name: Arsenal Suite
+            homepage_url: 'http://code.google.com/p/arsenalsuite/'
+            repo_url: 'https://github.com/mottosso/arsenalsuite'
+            logo: arsenalsuite.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dr-studios'
           - item:
             name: Open Shading Language (OSL)
             homepage_url: 'http://opensource.imageworks.com/?p=osl'
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
             repo_url: 'http://code.google.com/p/openshadinglanguage/'
+            logo: osl.svg
           - item:
             name: OpenColorIO
             homepage_url: 'http://opencolorio.org/'
@@ -394,34 +396,49 @@ landscape:
             homepage_url: 'http://www.disneyanimation.com/technology/partio.html'
             repo_url: 'https://github.com/wdas/partio'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
+            logo: partio.svg
           - item:
-            name: Afanasy
-            homepage_url: 'http://cgru.sourceforge.net/afanasy/doc/afanasy.html'
-            repo_url: 'http://sourceforge.net/projects/cgru/'
+            name: CGRU
+            homepage_url: 'http://cgru.info/'
+            repo_url: 'https://github.com/CGRU/cgru'
+            logo: cgru.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cgru'
           - item:
             name: SeExpr
             homepage_url: 'http://www.disneyanimation.com/technology/seexpr.html'
             repo_url: 'http://github.com/wdas/seexpr/'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
+            logo: seexpr.svg
           - item:
             name: Alembic
             homepage_url: 'http://alembic.io/'
-            repo_url: 'http://code.google.com/p/alembic/'
+            repo_url: 'https://github.com/alembic/alembic'
+            logo: alembic_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lucasfilm'
           - item:
             name: pimath
-            repo_url: 'http://code.google.com/p/pimath/'
+            homepage_url: 'http://code.google.com/p/pimath/'
+            repo_url: 'https://github.com/madpianist/pimath'
+            crunchbase: 'https://www.crunchbase.com/organization/dr-studios'
+            logo: pimath.svg
           - item:
             name: Rez
             homepage_url: 'http://code.google.com/p/rez-config/'
             repo_url: 'http://github.com/nerdvegas/rez'
+            logo: rez.svg
+            crunchbase: 'https://www.crunchbase.com/organization/rez'
           - item:
             name: vfxgal
             homepage_url: 'https://github.com/nerdvegas/vfxgal'
+            repo_url: 'https://github.com/nerdvegas/vfxgal'
+            crunchbase: 'https://www.crunchbase.com/organization/rez'
+            logo: vfxgal.svg
           - item:
             name: Open Subdiv
             homepage_url: 'http://graphics.pixar.com/opensubdiv'
             repo_url: 'https://github.com/PixarAnimationStudios/OpenSubdiv'
             crunchbase: 'https://www.crunchbase.com/organization/pixar'
+            logo: opensubdiv.svg
           - item:
             name: OpenVDB
             homepage_url: 'http://www.openvdb.org/'
@@ -433,59 +450,101 @@ landscape:
           - item:
             name: TACTIC
             homepage_url: 'http://www.southpawtech.com/tactic/'
+            repo_url: 'https://github.com/Southpaw-TACTIC/TACTIC'
+            logo: tactic.svg
+            crunchbase: 'https://www.crunchbase.com/organization/southpaw-technology-inc'
           - item:
             name: OpenDisplayCalib
             homepage_url: 'http://opensource.mikrosimage.eu/colortribe.html'
             repo_url: 'https://github.com/mikrosimage/OpenDisplayCalib'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: colortribe.svg
           - item:
             name: OpenRenderManagement
             homepage_url: 'http://opensource.mikrosimage.eu/puli.html'
             repo_url: 'https://github.com/mikrosimage/openrendermanagement'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: puli.svg
           - item:
             name: OpenBatchIO
             homepage_url: 'http://opensource.mikrosimage.eu/tuttle.html'
             repo_url: 'https://github.com/tuttleofx/TuttleOFX'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: tuttle.svg
           - item:
             name: OpenSequencePlayer
             homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
             repo_url: 'https://github.com/mikrosimage/duke'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: duke.svg
+          - item:
+            name: openMVG
+            homepage_url: 'http://opensource.mikrosimage.eu/openmvg.html'
+            repo_url: 'https://github.com/openMVG/openMVG'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: openmvg.svg
+          - item:
+            name: ColorPipe-tools
+            homepage_url: 'http://opensource.mikrosimage.eu/colorPipe.html'
+            repo_url: 'https://github.com/mikrosimage/ColorPipe-tools'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: colorpipe-tools.svg
+          - item:
+            name: File Meta Checker
+            homepage_url: 'http://opensource.mikrosimage.eu/fileMetaChecker.html'
+            repo_url: 'https://github.com/mikrosimage/FileMetaChecker'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            logo: filemetachecker.svg
           - item:
             name: OpenDCP
             homepage_url: 'http://www.opendcp.org/'
-            repo_url: 'https://code.google.com/p/opendcp/'
-          - item:
-            name: Dynamica
-            homepage_url: 'http://www.bulletphysics.org/mediawiki-1.5.8/index.php/Maya_Dynamica_Plugin'
-            repo_url: 'http://dynamica.googlecode.com'
+            repo_url: 'https://github.com/tmeiczin/opendcp'
+            logo: opendcp.svg
+            crunchbase: 'https://www.crunchbase.com/organization/spotlight-cinema-networks'
+          # - item:
+          #   name: Dynamica
+          #   homepage_url: 'http://www.bulletphysics.org/mediawiki-1.5.8/index.php/Maya_Dynamica_Plugin'
+          #   repo_url: 'http://dynamica.googlecode.com'
           - item:
             name: Gaffer
-            homepage_url: 'http://imageengine.github.io/gaffer/index.html'
-            repo_url: 'https://github.com/ImageEngine/gaffer'
+            homepage_url: 'http://www.gafferhq.org/'
+            repo_url: 'https://github.com/GafferHQ/gaffer'
             crunchbase: 'https://www.crunchbase.com/organization/image-engine-design'
+            logo: 'https://raw.githubusercontent.com/GafferHQ/gaffer/master/resources/GafferLogo.svg'
           - item:
             name: Aton
             homepage_url: 'http://sosoyan.github.io/Aton/'
             repo_url: 'https://github.com/Sosoyan/Aton'
+            linkedin: 'https://www.linkedin.com/company/rising-sun-pictures/'
+            twitter: 'https://twitter.com/rspvfx'
+            crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
+            logo: aton.svg
           - item:
             name: 'USD: Universal Scene Description'
             homepage_url: 'http://graphics.pixar.com/usd/'
-            repo_url: 'http://graphics.pixar.com/usd/'
+            repo_url: 'https://github.com/PixarAnimationStudios/USD'
             crunchbase: 'https://www.crunchbase.com/organization/pixar'
+            logo: usd.svg
           - item:
             name: 'ACES: Academy Color Encoding System'
             homepage_url: 'http://www.oscars.org/science-technology/sci-tech-projects/aces'
             repo_url: 'https://github.com/ampas/aces-dev/'
+            logo: aces.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
           - item:
             name: Natron
-            homepage_url: 'http://www.natron.fr'
-            repo_url: 'https://github.com/MrKepzie/Natron'
+            homepage_url: 'https://natrongithub.github.io/'
+            repo_url: 'https://github.com/NatronGitHub/Natron'
+            crunchbase: 'https://www.crunchbase.com/organization/natron'
+            logo: 'https://raw.githubusercontent.com/NatronGitHub/NatronGitHub.github.io/master/img/Natron_icon.svg'
           - item:
             name: AFX Nuke Plugins
             homepage_url: 'https://github.com/AuthorityFX/afx-nuke-plugins'
-          - item:
-            name: Kraken Rigging Framework'
-            repo_url: 'https://github.com/fabric-engine/Kraken'
+            crunchbase: 'https://www.crunchbase.com/organization/authorityfx'
+            logo: afx.svg
+          # - item:
+          #   name: Kraken Rigging Framework
+          #   repo_url: 'https://github.com/fabric-engine/Kraken'
           - item:
             name: OpenTimelineIO
             homepage_url: 'http://opentimeline.io/'
@@ -499,110 +558,110 @@ landscape:
       - subcategory:
         name: Premier
         items:
-           - item:
-             name: Amazon Web Services
-             logo: aws_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-           - item:
-             name: Animal Logic
-             logo: Animal_Logic_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/animal-logic'
-           - item:
-             name: Autodesk
-             homepage_url: 'https://www.amdocs.com/'
-             logo: Autodesk_Logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/autodesk'
-           - item:
-             name: Blue Sky Studios
-             logo: Blue_Sky_Studios_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/blue-sky-studios'
-           - item:
-             name: Cisco
-             logo: cisco_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/cisco'
-           - item:
-             name: Double Negative
-             logo: dneg-logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
-           - item:
-             name: Dreamworks Animation
-             logo: DreamWorks_Animation_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/dreamworks-studios'
-           - item:
-             name: Epic Games
-             logo: Epic_Games_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/epic-games-2'
-           - item:
-             name: Google Cloud Platform
-             logo: google-cloud-logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-           - item:
-             name: Intel
-             logo: Intel-logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/intel'
-           - item:
-             name: Netflix
-             logo: Netflix_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/netflix'
-           - item:
-             name: NVIDIA
-             logo: Nvidia_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/nvidia'
-           - item:
-             name: Sony Imageworks
-             logo: Sony_Pictures_Imageworks_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
-           - item:
-             name: Walt Disney Studios
-             logo: The_Walt_Disney_Studios_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-studios'
-           - item:
-             name: Weta Digital
-             logo: weta_digital_logo_BLACK.svg
-             crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
+          - item:
+            name: Amazon Web Services
+            logo: aws_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Animal Logic
+            logo: Animal_Logic_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/animal-logic'
+          - item:
+            name: Autodesk
+            homepage_url: 'https://www.amdocs.com/'
+            logo: Autodesk_Logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/autodesk'
+          - item:
+            name: Blue Sky Studios
+            logo: Blue_Sky_Studios_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/blue-sky-studios'
+          - item:
+            name: Cisco
+            logo: cisco_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cisco'
+          - item:
+            name: Double Negative
+            logo: dneg-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/double-negative'
+          - item:
+            name: Dreamworks Animation
+            logo: DreamWorks_Animation_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dreamworks-studios'
+          - item:
+            name: Epic Games
+            logo: Epic_Games_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/epic-games-2'
+          - item:
+            name: Google Cloud Platform
+            logo: google-cloud-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+          - item:
+            name: Intel
+            logo: Intel-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/intel'
+          - item:
+            name: Netflix
+            logo: Netflix_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+          - item:
+            name: NVIDIA
+            logo: Nvidia_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/nvidia'
+          - item:
+            name: Sony Imageworks
+            logo: Sony_Pictures_Imageworks_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
+          - item:
+            name: Walt Disney Studios
+            logo: The_Walt_Disney_Studios_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walt-disney-studios'
+          - item:
+            name: Weta Digital
+            logo: weta_digital_logo_BLACK.svg
+            crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
       - subcategory:
-         name: General
-         items:
-           - item:
-             name: Foundry
-             logo: foundry.svg
-             crunchbase: 'https://www.crunchbase.com/organization/foundry'
-           - item:
-             name: ftrack
-             logo: Ftrack-logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/ftrack'
-           - item:
-             name: RedHat
-             logo: redhat.svg
-             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-           - item:
-             name: RodeoFX
-             logo: Rodeo_FX_Logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/rodeo-fx'
-           - item:
-             name: SideFX
-             logo: SideFX_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/sidefx'
-           - item:
-             name: Warner Brothers
-             logo: Warner_Bros_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/warner-bros-interactive-entertainment'
+        name: General
+        items:
+          - item:
+            name: Foundry
+            logo: foundry.svg
+            crunchbase: 'https://www.crunchbase.com/organization/foundry'
+          - item:
+            name: ftrack
+            logo: Ftrack-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ftrack'
+          - item:
+            name: RedHat
+            logo: redhat.svg
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: RodeoFX
+            logo: Rodeo_FX_Logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/rodeo-fx'
+          - item:
+            name: SideFX
+            logo: SideFX_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sidefx'
+          - item:
+            name: Warner Brothers
+            logo: Warner_Bros_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/warner-bros-interactive-entertainment'
       - subcategory:
-         name: Associate
-         items:
-           - item:
-             name: Academy of Motion Picture Arts and Sciences
-             logo: Academy_of_Motion_Picture_Arts_and_Sciences_logo.svg
-             crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
-           - item:
-             name: Blender
-             logo: blender_logo_socket.svg
-             crunchbase: 'https://www.crunchbase.com/organization/blender-org'
-           - item:
-             name: MovieLabs
-             logo: movielabs.svg
-             crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
-           - item:
-             name: VES
-             logo: ves_logo_blk_on_wht.svg
-             crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
+        name: Associate
+        items:
+          - item:
+            name: Academy of Motion Picture Arts and Sciences
+            logo: Academy_of_Motion_Picture_Arts_and_Sciences_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
+          - item:
+            name: Blender
+            logo: blender_logo_socket.svg
+            crunchbase: 'https://www.crunchbase.com/organization/blender-org'
+          - item:
+            name: MovieLabs
+            logo: movielabs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
+          - item:
+            name: VES
+            logo: ves_logo_blk_on_wht.svg
+            crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
