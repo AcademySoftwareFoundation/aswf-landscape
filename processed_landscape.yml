@@ -41,7 +41,7 @@ landscape:
               member: false
             image_data:
               fileName: open-cue.svg
-              hash: Xq/phq0Af3nNSR3R51EBEBVtlb5dyjQR+OkxelzNoeo=
+              hash: Gd5CTaF1SNt0dp3li4nIRYY4PVc1+4XGPHv1gSgRNW0=
             best_practice_data:
               badge: false
               percentage: null
@@ -159,7 +159,7 @@ landscape:
               start_commit_link: /imageworks/Field3D/commit/d906e7cbe5a81031173743f5e7ba0de05d77bf4b
               start_date: '2009-07-23T22:50:58Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: field3-d.svg
               hash: rYuvY4sSnopZcxfNotY/7cfemtc7oMWa4OjAROMLH3I=
@@ -258,7 +258,7 @@ landscape:
             homepage_url: 'http://www.openexr.com/'
             repo_url: 'https://github.com/openexr/openexr'
             project: incubating
-            logo: 'https://www.aswf.io/wp-content/uploads/sites/69/2019/05/OpenEXR_logo.svg'
+            logo: openexr.svg
             twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
             crunchbase_data:
@@ -291,6 +291,7 @@ landscape:
               member: false
             image_data:
               fileName: open-exr.svg
+              hash: OSB4LqJ/50IoVISEFBZ/aKPMJxNkgl1uhSx+/m+rRwE=
             best_practice_data:
               badge: 2799
               percentage: 95
@@ -446,7 +447,7 @@ landscape:
               start_commit_link: /imageworks/scala-migrations/commit/bd146936d9fea4e1f9899947d27c1b2440022c09
               start_date: '2008-11-20T00:40:26Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: scala-migrations.svg
               hash: 4/HzbRZE3Gvdy9pLDf+tu49RYPe/aFkN4dTBLIcrLN4=
@@ -486,7 +487,7 @@ landscape:
               start_commit_link: /imageworks/spReticle/commit/b2a92f0cb2f8d682572fb446a0d33b74b82dd689
               start_date: '2009-07-29T17:18:33Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: maya-reticle.svg
               hash: Pg0YRuxmC+jFwc/zO2+p8vgaf8dTT92N/VDrkHLPzvo=
@@ -526,7 +527,7 @@ landscape:
               start_commit_link: /imageworks/pystring/commit/b8b6e0b486d927c816954612ca08e32b9046079e
               start_date: '2009-01-06T01:32:42Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: py-string.svg
               hash: xzvF6Q+Mjx7PvQ1wQb/lbnvQsQm3oD9OlOx7zeLJiIk=
@@ -655,7 +656,7 @@ landscape:
           - item:
             name: ANN
             homepage_url: 'http://www.cs.umd.edu/~mount/ANN/'
-            repo_url: null
+            repo_url: 'https://github.com/dials/annlib'
             logo: ann.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-maryland'
             crunchbase_data:
@@ -671,6 +672,19 @@ landscape:
               linkedin: 'https://www.linkedin.com/edu/school'
               kind: funding
               funding: 188050000
+            github_data:
+              stars: 12
+              license: Other
+              description: 'ANN: A Library for Approximate Nearest Neighbor Searching'
+              latest_commit_date: '2016-03-08T05:00:00.000Z'
+              latest_commit_link: /dials/annlib/commit/75439ecf691c0d73b773f13540180aa511a758d7
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/dials/annlib/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /dials/annlib/commit/75439ecf691c0d73b773f13540180aa511a758d7
+              start_date: '2016-03-08T07:41:26Z'
             membership_data:
               member: false
             image_data:
@@ -768,7 +782,7 @@ landscape:
             homepage_url: 'http://www.gimp.org/'
             repo_url: 'https://github.com/GNOME/gimp'
             crunchbase: 'https://www.crunchbase.com/organization/gnu'
-            logo: GIMP_Icon.svg
+            logo: gimp.svg
             crunchbase_data:
               name: GNU
               description: 'GNU is a Unix-like operating system that has a collection of programs, including user-oriented applications, libraries, games, and more.'
@@ -797,7 +811,7 @@ landscape:
               member: false
             image_data:
               fileName: gimp.svg
-              hash: pQmqS7E2trt+0GJhpXrxO/Jo0wNbGwTNXBd5ckpS27s=
+              hash: AS2SEn66+O0rBCeqgWO3K/lr2GSHlUmeSxHgVhXZKAQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -972,6 +986,7 @@ landscape:
           - item:
             name: Earth
             homepage_url: 'http://open.rsp.com.au/projects/earth'
+            repo_url: 'https://github.com/bdeluca/earth2'
             twitter: 'https://twitter.com/rspvfx'
             crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
             logo: affogatosmall.svg
@@ -986,6 +1001,19 @@ landscape:
               country: Australia
               twitter: 'https://www.twitter.com/cospective'
               linkedin: 'https://www.linkedin.com/company/cospective'
+            github_data:
+              stars: 12
+              license: GNU General Public License v2.0
+              description: earth from rsp
+              latest_commit_date: '2011-02-16T05:00:00.000Z'
+              latest_commit_link: /bdeluca/earth2/commit/995dfc87d6415809947a6b3a74910d85af0d83e9
+              release_date: null
+              release_link: null
+              contributors_count: 0
+              contributors_link: 'https://github.com/bdeluca/earth2/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /bdeluca/earth2/commit/412a58ad16b04c357ec6a17fed09811459aa5cfc
+              start_date: '2011-02-11T18:12:18Z'
             membership_data:
               member: false
             image_data:
@@ -1027,7 +1055,7 @@ landscape:
               start_commit_link: /wdas/ptex/commit/4af1ede1050e68e140c6a48aa2b73caeb35e207e
               start_date: '2009-10-23T14:47:55Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: ptex.svg
               hash: N607h9YZllMge/0izhoidjbsIkvUEKo8He+5Oks1bZc=
@@ -1384,7 +1412,7 @@ landscape:
               start_commit_link: /imageworks/OpenShadingLanguage/commit/ed210bbb0c5c74ad0b82c4a8a949ab97d1aa0ad6
               start_date: '2008-09-03T22:01:13Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: open-shading-language-osl.svg
               hash: 807LspdYAUXXtB2BKCmXAqK6knHAzNEn7GLQFHotiZ4=
@@ -1400,7 +1428,7 @@ landscape:
             project: incubating
             twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
-            logo: 'https://www.aswf.io/wp-content/uploads/sites/69/2019/06/opencolorio-stacked-color.svg'
+            logo: opencolorio.svg
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -1429,6 +1457,7 @@ landscape:
               member: false
             image_data:
               fileName: open-color-io.svg
+              hash: zqADcCu+evmuABh27N4fYerg97PLLpV9HafnTXWsm70=
             best_practice_data:
               badge: 2612
               percentage: 100
@@ -1467,7 +1496,7 @@ landscape:
               start_commit_link: /wdas/partio/commit/e2b92cc7e19269975e0f5d06973daf5210406c0a
               start_date: '2010-07-22T00:47:09Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: partio.svg
               hash: HaiJs614qgpPASbQ3s+4+CJk6hMgiQRgXoU5K0E1UQA=
@@ -1548,7 +1577,7 @@ landscape:
               start_commit_link: /wdas/SeExpr/commit/76ef35c5a97c06966f817b451f11325170f02a19
               start_date: '2011-05-04T00:33:18Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: se-expr.svg
               hash: qKSV0JTOFm5gCJaq7SZR4yCAV6qcz5XscemIUOPmWlU=
@@ -1588,7 +1617,7 @@ landscape:
               start_commit_link: /munki/munki/commit/456efb8289f2e397a4139e6cca9b3d668b19212c
               start_date: '2009-01-14T21:31:03Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: munki.svg
               hash: iKaW6fKc3SvwKcdXJhzxtg854jpqx0OrKitItWMAhfM=
@@ -1628,7 +1657,7 @@ landscape:
               start_commit_link: /alembic/alembic/commit/b7a7f142ae9a2faced93597adde234b0475a36f0
               start_date: '2010-07-27T18:27:07Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: alembic.svg
               hash: ZA9TLJCmuzvvMUPyYiWTBuSnyfxZ57mGOcmrMOac8Fs=
@@ -1709,7 +1738,7 @@ landscape:
               member: false
             image_data:
               fileName: rez.svg
-              hash: thug9bQRsm6fYkrbReDA+Dc08M9zHjwSKZFIyh9/Piw=
+              hash: TvoeA1WthwnY73L+GsF3HuTxXvUCM2j6n3autyA82js=
             best_practice_data:
               badge: false
               percentage: null
@@ -1787,7 +1816,7 @@ landscape:
               start_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/5e204a4c1e0076312cb22d415c217d5d8c0f7def
               start_date: '2012-04-24T00:12:01Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: open-subdiv.svg
               hash: ZwdVlPQCcoya02g5cSsdmcHLLp47Y5/WLhzxoBFA2So=
@@ -1803,7 +1832,7 @@ landscape:
             project: graduated
             twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
-            logo: 'https://www.aswf.io/wp-content/uploads/sites/69/2019/05/OpenVDB_illustrator.svg'
+            logo: openvdb.svg
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -1832,6 +1861,7 @@ landscape:
               member: false
             image_data:
               fileName: open-vdb.svg
+              hash: LXSXOmkNPOrRAkxLHINIjYYqMn69t7wIaNZ1uLfLRnA=
             best_practice_data:
               badge: 2774
               percentage: 100
@@ -2311,7 +2341,7 @@ landscape:
               start_commit_link: /PixarAnimationStudios/USD/commit/2eb01f5cd4c2dae4e1ef9912ca27a93083bb6ef4
               start_date: '2016-07-26T17:44:38Z'
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: usd-universal-scene-description.svg
               hash: 6caZLo7y2Ysch2hhez1luFcRZojKeVbVbOdbRQG+5Fc=
@@ -2354,7 +2384,7 @@ landscape:
               member: associate
             image_data:
               fileName: aces-academy-color-encoding-system.svg
-              hash: uhCon99MMOMQedMdeI7CD9ifHLTxgQWrP9x9i+nz1nA=
+              hash: 4CltlrgvBxUIzlo+A95IqrvsAsm2YS25SwOs18xBAQo=
             best_practice_data:
               badge: false
               percentage: null
@@ -2401,6 +2431,7 @@ landscape:
               latest_tweet_date: 2019-02-03T13:02:23.000Z
           - item:
             name: AFX Nuke Plugins
+            repo_url: 'https://github.com/AuthorityFX/afx-nuke-plugins'
             homepage_url: 'https://github.com/AuthorityFX/afx-nuke-plugins'
             crunchbase: 'https://www.crunchbase.com/organization/authorityfx'
             logo: afx.svg
@@ -2415,6 +2446,19 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/AuthorityFX'
               linkedin: 'https://www.linkedin.com/company/authority-fx-inc-/'
+            github_data:
+              stars: 45
+              license: Mozilla Public License 2.0
+              description: 'Useful, everyday compositing plugins for Nuke'
+              latest_commit_date: '2017-09-17T04:00:00.000Z'
+              latest_commit_link: /AuthorityFX/afx-nuke-plugins/commit/0b7ef6e7c2e58f7501109484bf290066bc4d22ad
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/AuthorityFX/afx-nuke-plugins/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /AuthorityFX/afx-nuke-plugins/commit/c20d359cc0783ab9f3619d6ed2d0991f1f9b826d
+              start_date: '2016-05-01T02:35:40Z'
             membership_data:
               member: false
             image_data:
@@ -2467,6 +2511,47 @@ landscape:
               percentage: 15
             twitter_data:
               latest_tweet_date: 2019-08-13T21:43:01.000Z
+          - item:
+            name: MaterialX
+            repo_url: 'https://github.com/materialx/MaterialX'
+            homepage_url: 'http://www.materialx.org/'
+            crunchbase: 'https://www.crunchbase.com/organization/lucasfilm'
+            twitter: 'https://twitter.com/MaterialXCG'
+            logo: materialx.svg
+            crunchbase_data:
+              name: Lucasfilm
+              description: 'Lucasfilm produces original content, postproduction effects, and audio for external clients, licensed products, and the gaming industry.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.lucasfilm.com/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/lucasfilm-animation/'
+            github_data:
+              stars: 441
+              license: Other
+              description: MaterialX is an open standard for transfer of rich material and look-development content between applications and renderers.
+              latest_commit_date: '2019-08-13T04:00:00.000Z'
+              latest_commit_link: /materialx/MaterialX/commit/a12207443da637059da46098ffb5448e27a4e006
+              release_date: '2019-08-03T20:14:17Z'
+              release_link: 'https://github.com/materialx/MaterialX/releases'
+              contributors_count: 12
+              contributors_link: 'https://github.com/materialx/MaterialX/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /materialx/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
+              start_date: '2017-07-05T22:18:25Z'
+            membership_data:
+              member: premier
+            image_data:
+              fileName: material-x.svg
+              hash: vlKzLWlpz/svn4WorCIGLURJCOerk3sXg0IJ9wE8i+Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-07-18T18:56:04.000Z
   - category:
     name: ASWF Member Company
     subcategories:
@@ -2581,7 +2666,7 @@ landscape:
               member: premier
             image_data:
               fileName: blue-sky-studios.svg
-              hash: gLEnlSvUBClPVe+xZFDwYV2E1Eke0kSaM+UEZZ7+Jbc=
+              hash: lQ2pnr2YJV2QmG8jFtfPB8o4Xc7sf1JJd3pkhtvf6lU=
             best_practice_data:
               badge: false
               percentage: null
@@ -2612,7 +2697,7 @@ landscape:
               effective_ticker: CSCO
             image_data:
               fileName: cisco.svg
-              hash: +vXWoha1ftlYBzox/Lm92yVSE01WmRc++jaI+RJxbdE=
+              hash: W0A1I3ySauD2e3CFP3CO2qlhaqvrV2EFOJhqnjUaJYE=
             best_practice_data:
               badge: false
               percentage: null
@@ -2638,7 +2723,7 @@ landscape:
               member: premier
             image_data:
               fileName: double-negative.svg
-              hash: 7QYasEw39EDBMaZd2mqKWVV1uoqefuSRnWiV7h8L5yc=
+              hash: 3Ov7bAxA09Y+EyDluegnrFAVgRxzL4KdTaeZw3mh4jk=
             best_practice_data:
               badge: false
               percentage: null
@@ -2693,7 +2778,7 @@ landscape:
               member: premier
             image_data:
               fileName: epic-games.svg
-              hash: oaU7RSFp8oS+cpI2Vfym9wzIXTxFWi3+Ds4Y68nD51U=
+              hash: aGvRE2PwTmbNyCFMWtIAQ/7yqmt+MR3WjnVQN5G6jG8=
             best_practice_data:
               badge: false
               percentage: null
@@ -2817,7 +2902,7 @@ landscape:
               effective_ticker: NVDA
             image_data:
               fileName: nvidia.svg
-              hash: oexU5oK5XAIo8KWriaM6PznvG6ByYNQhXO2+kRZn/vw=
+              hash: Y3xdwHcR/FvTdvymjpvtmdoMmmFZH/zaJiVIjOvYIS8=
             best_practice_data:
               badge: false
               percentage: null
@@ -2840,7 +2925,7 @@ landscape:
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
             membership_data:
-              member: false
+              member: premier
             image_data:
               fileName: sony-imageworks.svg
               hash: rz7KlcsvQCbXOGns/CMMsHQB2rpEcm48ewVtjqL05+Y=
@@ -2952,7 +3037,7 @@ landscape:
               member: general
             image_data:
               fileName: ftrack.svg
-              hash: WoLdoUxUZXSt5RRVEp3ObFGaFKn5a6zSYY3Hk86RDuY=
+              hash: cQPfx/5OGf25Flf4onDpYCXKJSQtOcaE65On3lkCgAQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -3169,7 +3254,7 @@ landscape:
               member: associate
             image_data:
               fileName: ves.svg
-              hash: XU/3PkFHH+viSo4B7f50tVCB5JS48ygOuSkR7tLnWPw=
+              hash: M6/aG8tUvsvMNSkRxP+S+c67VKhOS8UZo6BnNaf01sg=
             best_practice_data:
               badge: false
               percentage: null
