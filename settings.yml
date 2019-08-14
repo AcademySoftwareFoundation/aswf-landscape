@@ -99,15 +99,15 @@ big_picture:
     method: getGroupedItemsForCncfBigPicture
     size:
       width: 1115
-      height: 770
+      height: 670
     fullscreen_size:
       width: 1155
-      height: 840
+      height: 740
     elements:
       - type: HorizontalCategory
         category: Projects
         rows: 10
-        width: 1000
+        width: 700
         height: 600
         top: 0
         left: 0
@@ -188,7 +188,7 @@ big_picture:
       - type: HorizontalCategory
         category: ASWF Member Company
         rows: 6
-        width: 900
+        width: 800
         height: 300
         top: 570
         left: 0
@@ -197,8 +197,8 @@ big_picture:
       - type: LandscapeInfo
         width: 365
         height: 200
-        top: 570
-        left: 750
+        top: 0
+        left: 800
         children:
           - type: text
             text: >
