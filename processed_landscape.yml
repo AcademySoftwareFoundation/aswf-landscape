@@ -90,7 +90,7 @@ landscape:
               latest_tweet_date: 2019-08-09T16:29:02.000Z
           - item:
             name: dnPtcViewerNode
-            repo_url: 'http://github.com/dneg/dnPtcViewerNode'
+            repo_url: 'https://github.com/dneg/dnPtcViewerNode'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             homepage_url: 'http://github.com/dneg/dnPtcViewerNode'
             logo: dnPtcViewerNode.svg
@@ -105,6 +105,19 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/dneg'
               linkedin: 'https://www.linkedin.com/company/double-negative/'
+            github_data:
+              stars: 28
+              license: Unknown License
+              description: A maya node to display PrMan point clouds
+              latest_commit_date: '2009-10-16T04:00:00.000Z'
+              latest_commit_link: /dneg/dnPtcViewerNode/commit/bbeb73d87e5489a62b71b1dc74400e17dc9c202d
+              release_date: null
+              release_link: null
+              contributors_count: 0
+              contributors_link: 'https://github.com/dneg/dnPtcViewerNode/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /dneg/dnPtcViewerNode/commit/ce569f80dc7f34b4a47c2467f497a58026831d3d
+              start_date: '2009-09-25T16:11:13Z'
             membership_data:
               member: premier
             image_data:
@@ -158,7 +171,7 @@ landscape:
           - item:
             name: GTO
             homepage_url: 'http://www.tweaksoftware.com/products/open-source-software/gto/'
-            repo_url: 'http://github.com/jimhourihan/gto'
+            repo_url: 'https://github.com/jimhourihan/gto'
             crunchbase: 'https://www.crunchbase.com/organization/autodesk'
             logo: gto.svg
             crunchbase_data:
@@ -174,6 +187,19 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/autodesk'
               ticker: ADSK
               kind: market_cap
+            github_data:
+              stars: 23
+              license: Other
+              description: 'Production Kitchen Sink Computer Graphics File Format '
+              latest_commit_date: '2015-10-09T04:00:00.000Z'
+              latest_commit_link: /jimhourihan/gto/commit/668b3646d387e6dc363a0d42f5bb79d3aed650ec
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/jimhourihan/gto/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /jimhourihan/gto/commit/b58a81e2c107c7e3c596499b6cd3b0408fbbf54a
+              start_date: '2003-09-16T19:52:28Z'
             membership_data:
               member: premier
             yahoo_finance_data:
@@ -190,7 +216,7 @@ landscape:
           - item:
             name: LiquidMaya
             homepage_url: 'http://sourceforge.net/projects/liquidmaya/'
-            repo_url: 'https://sourceforge.net/p/liquidmaya/svn/HEAD/tree/'
+            repo_url: 'https://github.com/virtualritz/liquidmaya'
             logo: liquid-maya.svg
             crunchbase: 'https://www.crunchbase.com/organization/peregrinelabs'
             crunchbase_data:
@@ -204,6 +230,19 @@ landscape:
               country: Canada
               twitter: 'http://twitter.com/PeregrineLabs'
               linkedin: 'https://www.linkedin.com/company/peregrine-labs'
+            github_data:
+              stars: 0
+              license: Other
+              description: Maya Rendering Translator
+              latest_commit_date: '2007-05-23T04:00:00.000Z'
+              latest_commit_link: /virtualritz/liquidmaya/commit/c52f74326ac5702a9d0fdf7e8915f37f9117c524
+              release_date: null
+              release_link: null
+              contributors_count: 0
+              contributors_link: 'https://github.com/virtualritz/liquidmaya/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /virtualritz/liquidmaya/commit/915e1444088637991466d88c184bd774a52aa7e3
+              start_date: '2002-10-21T02:17:56Z'
             membership_data:
               member: false
             image_data:
@@ -260,7 +299,7 @@ landscape:
           - item:
             name: Affogato
             homepage_url: 'http://sourceforge.net/projects/affogato/'
-            repo_url: 'https://sourceforge.net/p/affogato/code/HEAD/tree/'
+            repo_url: 'https://github.com/virtualritz/affogato'
             twitter: 'https://twitter.com/rspvfx'
             crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
             logo: affogatosmall.svg
@@ -275,6 +314,19 @@ landscape:
               country: Australia
               twitter: 'https://www.twitter.com/cospective'
               linkedin: 'https://www.linkedin.com/company/cospective'
+            github_data:
+              stars: 0
+              license: GNU Lesser General Public License v2.1
+              description: XSI Rendering Translator
+              latest_commit_date: '2015-06-03T04:00:00.000Z'
+              latest_commit_link: /virtualritz/affogato/commit/225545ac24c60c78dc8fcd1865b276921a474b1d
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/virtualritz/affogato/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /virtualritz/affogato/commit/82c18b1b212204a3a1ddea1bac649104e5e9f275
+              start_date: '2007-02-01T08:53:53Z'
             membership_data:
               member: false
             image_data:
@@ -286,37 +338,9 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-08-13T04:26:58.000Z
           - item:
-            name: pyShake
-            homepage_url: 'http://open.rsp.com.au'
-            repo_url: 'http://open.rsp.com.au/projects/pyshake'
-            twitter: 'https://twitter.com/rspvfx'
-            crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
-            logo: affogatosmall.svg
-            crunchbase_data:
-              name: Cospective
-              description: Cospective - making the communication of visual ideas simple and elegant.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.cospective.com/'
-              city: Adelaide
-              region: South Australia
-              country: Australia
-              twitter: 'https://www.twitter.com/cospective'
-              linkedin: 'https://www.linkedin.com/company/cospective'
-            membership_data:
-              member: false
-            image_data:
-              fileName: py-shake.svg
-              hash: URT/Wjs+FScmK21KdaGiydt57xfr7fwVfaJj4ODg4f4=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-13T04:26:58.000Z
-          - item:
             name: CgKit
             homepage_url: 'http://cgkit.sourceforge.net/'
-            repo_url: 'https://sourceforge.net/p/cgkit/code/ci/master/tree/'
+            repo_url: 'https://github.com/behnam/cgkit'
             crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
             logo: cgkit_title_600.svg
             crunchbase_data:
@@ -330,6 +354,19 @@ landscape:
               country: New Zealand
               twitter: 'https://twitter.com/wetafx'
               linkedin: 'https://in.linkedin.com/company/weta-digital'
+            github_data:
+              stars: 3
+              license: Other
+              description: 'Python Computer Graphics Kit - Fork for patches to https://sourceforge.net/scm/?type=git&group_id=50475'
+              latest_commit_date: '2012-06-13T04:00:00.000Z'
+              latest_commit_link: /behnam/cgkit/commit/4b70aed7e0c436287ebcd71aa4362a82965edcb4
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/behnam/cgkit/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /behnam/cgkit/commit/aece3779a0ea022ec2a61366929ba51ed35724cd
+              start_date: '2006-05-28T11:35:31Z'
             membership_data:
               member: premier
             image_data:
@@ -343,7 +380,7 @@ landscape:
           - item:
             name: Pixie
             homepage_url: 'http://www.renderpixie.com/'
-            repo_url: 'https://sourceforge.net/p/pixie/code/HEAD/tree/'
+            repo_url: 'https://github.com/blkdev2/pixie'
             logo: pixie.svg
             crunchbase: 'https://www.crunchbase.com/organization/renderpixie'
             crunchbase_data:
@@ -357,6 +394,19 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+            github_data:
+              stars: 0
+              license: GNU Lesser General Public License v2.1
+              description: 'Mirror of http://www.renderpixie.com/ SVN repo'
+              latest_commit_date: '2014-05-04T04:00:00.000Z'
+              latest_commit_link: /blkdev2/pixie/commit/0e124cbcd51f5b093d415683e2ebead1c8471954
+              release_date: null
+              release_link: null
+              contributors_count: 2
+              contributors_link: 'https://github.com/blkdev2/pixie/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /blkdev2/pixie/commit/6f64d1ef0d04b5bff32e781b70626420c8f0b04b
+              start_date: '2006-09-22T09:12:43Z'
             membership_data:
               member: false
             image_data:
@@ -488,7 +538,7 @@ landscape:
           - item:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: 'http://www.cgal.org/'
-            repo_url: 'http://www.cgal.org/'
+            repo_url: 'https://github.com/CGAL/cgal'
             logo: cgal.svg
             crunchbase: 'https://www.crunchbase.com/organization/computational-geometry-algorithms-library'
             crunchbase_data:
@@ -502,6 +552,19 @@ landscape:
               country: France
               twitter: 'https://twitter.com/TheCGALProject'
               linkedin: null
+            github_data:
+              stars: 1454
+              license: Other
+              description: 'The public CGAL repository, see the README below'
+              latest_commit_date: '2019-08-12T04:00:00.000Z'
+              latest_commit_link: /CGAL/cgal/commit/760365987c059329278af80c18186fd3ce76aa1b
+              release_date: '2019-04-05T12:52:57Z'
+              release_link: 'https://github.com/CGAL/cgal/releases'
+              contributors_count: 96
+              contributors_link: 'https://github.com/CGAL/cgal/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /CGAL/cgal/commit/43dff0ce60d6af9a97582d175ba401b4dd1c0f5c
+              start_date: '1995-08-09T16:58:01Z'
             membership_data:
               member: false
             image_data:
@@ -554,7 +617,7 @@ landscape:
           - item:
             name: GTS
             homepage_url: 'http://gts.sourceforge.net/'
-            repo_url: 'http://sourceforge.net/projects/gts/'
+            repo_url: 'https://github.com/lsaavedr/gts'
             logo: gts_logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/gnu'
             crunchbase_data:
@@ -568,6 +631,19 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+            github_data:
+              stars: 9
+              license: Other
+              description: 'GTS stands for the GNU Triangulated Surface Library. (original page: http://gts.sourceforge.net)'
+              latest_commit_date: '2015-07-08T04:00:00.000Z'
+              latest_commit_link: /lsaavedr/gts/commit/f566256dcc760c5a9da0182d895e990ee49c460c
+              release_date: null
+              release_link: null
+              contributors_count: 2
+              contributors_link: 'https://github.com/lsaavedr/gts/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /lsaavedr/gts/commit/d5ccb01300ce33166c6399492aae64e3b2bb2cba
+              start_date: '2012-07-02T04:39:53Z'
             membership_data:
               member: false
             image_data:
@@ -580,6 +656,7 @@ landscape:
             name: ANN
             homepage_url: 'http://www.cs.umd.edu/~mount/ANN/'
             repo_url: null
+            logo: ann.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-maryland'
             crunchbase_data:
               name: University of Maryland
@@ -596,6 +673,9 @@ landscape:
               funding: 188050000
             membership_data:
               member: false
+            image_data:
+              fileName: ann.svg
+              hash: vu0pkcEohDtz6KZmvWC8PLc/u/q4VoirFDPQKWJ9YIA=
             best_practice_data:
               badge: false
               percentage: null
@@ -686,7 +766,7 @@ landscape:
           - item:
             name: GIMP
             homepage_url: 'http://www.gimp.org/'
-            repo_url: 'https://gitlab.gnome.org/GNOME/gimp/'
+            repo_url: 'https://github.com/GNOME/gimp'
             crunchbase: 'https://www.crunchbase.com/organization/gnu'
             logo: GIMP_Icon.svg
             crunchbase_data:
@@ -700,6 +780,19 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+            github_data:
+              stars: 1895
+              license: Other
+              description: GNU Image Manipulation Program
+              latest_commit_date: '2019-08-14T04:00:00.000Z'
+              latest_commit_link: /GNOME/gimp/commit/0b5f5bf70a60d962abb2a04da260e0d01f38b642
+              release_date: null
+              release_link: null
+              contributors_count: 282
+              contributors_link: 'https://github.com/GNOME/gimp/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /GNOME/gimp/commit/a88ba5154ba574640be33fde0d5477007cc6a863
+              start_date: '1997-01-01T16:47:44Z'
             membership_data:
               member: false
             image_data:
@@ -713,7 +806,7 @@ landscape:
             homepage_url: 'http://www.blender.org/'
             logo: blender.svg
             twitter: 'https://twitter.com/blender_org'
-            repo_url: 'https://developer.blender.org/diffusion/B/'
+            repo_url: 'https://github.com/sobotka/blender'
             crunchbase: 'https://www.crunchbase.com/organization/blender-org'
             crunchbase_data:
               name: Blender.org
@@ -728,6 +821,19 @@ landscape:
               linkedin: null
               kind: funding
               funding: 1200000
+            github_data:
+              stars: 236
+              license: Other
+              description: Mirror of the official Blender Git repository. Updated every hour.
+              latest_commit_date: '2019-08-14T04:00:00.000Z'
+              latest_commit_link: /sobotka/blender/commit/d2195d9ef24a0c8f9098e4791cf18468ba805dba
+              release_date: null
+              release_link: null
+              contributors_count: 186
+              contributors_link: 'https://github.com/sobotka/blender/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /sobotka/blender/commit/12315f4d0e0ae993805f141f64cb8c73c5297311
+              start_date: '2002-10-12T11:37:38Z'
             membership_data:
               member: associate
             image_data:
@@ -741,7 +847,7 @@ landscape:
           - item:
             name: RmanConnect
             homepage_url: 'http://danbethell.github.com/rmanconnect/'
-            repo_url: 'http://github.com/danbethell/rmanconnect'
+            repo_url: 'https://github.com/danbethell/rmanconnect'
             logo: nuke_examplebuild_small.svg
             crunchbase: 'https://www.crunchbase.com/organization/method-studios'
             crunchbase_data:
@@ -755,6 +861,19 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/method_studios'
               linkedin: 'https://www.linkedin.com/company/method-studios/'
+            github_data:
+              stars: 41
+              license: BSD 3-Clause "New" or "Revised" License
+              description: RenderMan Interface-compatible display driver and plugin for rendering directly into Nuke.
+              latest_commit_date: '2010-08-13T04:00:00.000Z'
+              latest_commit_link: /danbethell/rmanconnect/commit/225e818a92eeebce67b78a1670a5db7f1f621e4a
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/danbethell/rmanconnect/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /danbethell/rmanconnect/commit/631b7080772302940ba6be986fe299bc64635420
+              start_date: '2009-12-22T03:33:02Z'
             membership_data:
               member: false
             image_data:
@@ -813,7 +932,7 @@ landscape:
           - item:
             name: Cinepaint
             homepage_url: 'http://www.cinepaint.org/'
-            repo_url: 'https://sourceforge.net/p/cinepaint/code/'
+            repo_url: 'https://github.com/archont00/cinepaint-oyranos'
             crunchbase: 'https://www.crunchbase.com/organization/cinepaint'
             logo: cinepaint_icon.svg
             crunchbase_data:
@@ -827,6 +946,19 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/Cinepaint'
               linkedin: null
+            github_data:
+              stars: 1
+              license: Other
+              description: CinePaint is a painting and retouching tool. This is a maintenance fork of version 0.25.1 on Oyranos GIT.
+              latest_commit_date: '2014-10-12T04:00:00.000Z'
+              latest_commit_link: /archont00/cinepaint-oyranos/commit/c04f6f4d6e34f0d5f9b94be6c3f887571bca9a7d
+              release_date: '2014-10-12T09:34:06Z'
+              release_link: 'https://github.com/archont00/cinepaint-oyranos/releases'
+              contributors_count: 1
+              contributors_link: 'https://github.com/archont00/cinepaint-oyranos/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /archont00/cinepaint-oyranos/commit/aabbeb67aa5f55c5c584fd6e6023c88ee0d2a391
+              start_date: '2010-07-25T15:42:16Z'
             membership_data:
               member: false
             image_data:
@@ -867,7 +999,7 @@ landscape:
           - item:
             name: Ptex
             homepage_url: 'http://ptex.us/'
-            repo_url: 'http://github.com/wdas/ptex'
+            repo_url: 'https://github.com/wdas/ptex'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
             logo: PtexCubeOrange64.svg
             crunchbase_data:
@@ -881,6 +1013,19 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/DisneyAnimation'
               linkedin: 'https://www.linkedin.com/company/walt-disney-animation-studios'
+            github_data:
+              stars: 425
+              license: Unknown License
+              description: Per-Face Texture Mapping for Production Rendering
+              latest_commit_date: '2019-05-22T04:00:00.000Z'
+              latest_commit_link: /wdas/ptex/commit/ca5d68d9eb93f1b757e560bcbb0e1fb5e711bddd
+              release_date: null
+              release_link: null
+              contributors_count: 12
+              contributors_link: 'https://github.com/wdas/ptex/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /wdas/ptex/commit/4af1ede1050e68e140c6a48aa2b73caeb35e207e
+              start_date: '2009-10-23T14:47:55Z'
             membership_data:
               member: false
             image_data:
@@ -894,7 +1039,7 @@ landscape:
           - item:
             name: pfstools
             homepage_url: 'http://pfstools.sourceforge.net/'
-            repo_url: 'https://sourceforge.net/p/pfstools/git/ci/master/tree/'
+            repo_url: 'https://github.com/Steve132/pfstools'
             logo: pfstools.svg
             crunchbase: 'https://www.crunchbase.com/organization/max-planck-institute-for-informatics'
             crunchbase_data:
@@ -908,6 +1053,19 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/maxplanckpress'
               linkedin: null
+            github_data:
+              stars: 3
+              license: GNU Lesser General Public License v2.1
+              description: pfstools for HDR images
+              latest_commit_date: '2017-06-06T04:00:00.000Z'
+              latest_commit_link: /Steve132/pfstools/commit/4918330cc9f552acad8ab715b84af50fd9cbac04
+              release_date: null
+              release_link: null
+              contributors_count: 3
+              contributors_link: 'https://github.com/Steve132/pfstools/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /Steve132/pfstools/commit/fec04caf39286e638962e800446153b48e3fbc2a
+              start_date: '2014-10-13T10:07:24Z'
             membership_data:
               member: false
             image_data:
@@ -919,33 +1077,9 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-08-14T11:34:01.000Z
           - item:
-            name: Wavelet Turbulence for Fluid Simulation
-            homepage_url: 'http://www.cs.cornell.edu/~tedkim/WTURB'
-            repo_url: 'http://www.cs.cornell.edu/~tedkim/WTURB/source.html'
-            crunchbase: 'https://www.crunchbase.com/organization/cornell-university'
-            logo: null
-            crunchbase_data:
-              name: Cornell University
-              description: 'Cornell University is an American private Ivy League and federal land-grant research university located in Ithaca, New York.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.cornell.edu/'
-              city: Ithaca
-              region: New York
-              country: United States
-              twitter: 'http://twitter.com/Cornell'
-              linkedin: 'https://www.linkedin.com/edu/cornell-university-18946'
-            membership_data:
-              member: false
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-14T11:41:36.000Z
-          - item:
             name: rmanPtc SOP
             homepage_url: 'http://danbethell.github.com/rmanptcsop/'
-            repo_url: 'http://danbethell.github.com/rmanptcsop/'
+            repo_url: 'https://github.com/danbethell/rmanptcsop'
             logo: 'https://raw.githubusercontent.com/danbethell/rmanptcsop/master/share/SOP_rmanPtc.svg'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             crunchbase_data:
@@ -959,6 +1093,19 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/dneg'
               linkedin: 'https://www.linkedin.com/company/double-negative/'
+            github_data:
+              stars: 22
+              license: Other
+              description: Houdini geometry operator (SOP) for loading and displaying RenderMan point clouds.
+              latest_commit_date: '2011-06-29T04:00:00.000Z'
+              latest_commit_link: /danbethell/rmanptcsop/commit/cc244f036c7a5f2145f9eba6f41c4ef7d41bf687
+              release_date: null
+              release_link: null
+              contributors_count: 2
+              contributors_link: 'https://github.com/danbethell/rmanptcsop/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /danbethell/rmanptcsop/commit/bb3bafa73e951ab810dfb9a5f5afe50eec7c6739
+              start_date: '2010-01-24T06:41:21Z'
             membership_data:
               member: premier
             image_data:
@@ -1012,7 +1159,7 @@ landscape:
             name: OpenMesh
             homepage_url: 'http://openmesh.org'
             logo: openmesh.svg
-            repo_url: 'https://graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh'
+            repo_url: 'https://github.com/etlapale/OpenMesh'
             crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
             crunchbase_data:
               name: RWTH Aachen University
@@ -1025,6 +1172,19 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/rwth'
               linkedin: null
+            github_data:
+              stars: 9
+              license: Other
+              description: Clone of the official OpenMesh repository
+              latest_commit_date: '2017-01-16T05:00:00.000Z'
+              latest_commit_link: /etlapale/OpenMesh/commit/57bc372adc0042393d49b3ce14f638947cc7bd5e
+              release_date: null
+              release_link: null
+              contributors_count: 12
+              contributors_link: 'https://github.com/etlapale/OpenMesh/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /etlapale/OpenMesh/commit/c3321ebdd99650ff33f016bf6ae270b4ee419386
+              start_date: '2009-02-06T13:32:20Z'
             membership_data:
               member: false
             image_data:
@@ -1038,7 +1198,7 @@ landscape:
           - item:
             name: OpenFlipper
             homepage_url: 'http://openflipper.org'
-            repo_url: 'https://graphics.rwth-aachen.de:9000/OpenFlipper-Free/OpenFlipper-Free'
+            repo_url: 'https://github.com/heartvalve/OpenFlipper'
             logo: openflipper.svg
             crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
             crunchbase_data:
@@ -1052,6 +1212,19 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/rwth'
               linkedin: null
+            github_data:
+              stars: 0
+              license: GNU Lesser General Public License v3.0
+              description: 'Mirror of the OpenFlipper repository hosted at http://www.openflipper.org'
+              latest_commit_date: '2015-04-14T04:00:00.000Z'
+              latest_commit_link: /heartvalve/OpenFlipper/commit/6df7ec132b56a2fa3edd446daff05d4ad6653b4a
+              release_date: null
+              release_link: null
+              contributors_count: 2
+              contributors_link: 'https://github.com/heartvalve/OpenFlipper/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /heartvalve/OpenFlipper/commit/b9318c0d246337932696eacfba1fb3324451db08
+              start_date: '1970-01-01T00:00:00Z'
             membership_data:
               member: false
             image_data:
@@ -1064,8 +1237,8 @@ landscape:
               latest_tweet_date: 2019-08-01T13:34:15.000Z
           - item:
             name: OpenFX
-            homepage_url: 'http://openfx.sourceforge.net/'
-            repo_url: 'http://sourceforge.net/projects/openfx/'
+            homepage_url: 'http://openeffects.org/'
+            repo_url: 'https://github.com/ofxa/openfx'
             logo: OFXLogo.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-open-effects-association'
             crunchbase_data:
@@ -1079,6 +1252,19 @@ landscape:
               country: United Kingdom
               twitter: null
               linkedin: null
+            github_data:
+              stars: 143
+              license: Unknown License
+              description: OpenFX effects API
+              latest_commit_date: '2018-01-25T05:00:00.000Z'
+              latest_commit_link: /ofxa/openfx/commit/8eb68f606366da8d5a768c096d51279e1820f45b
+              release_date: '2015-09-01T02:19:20Z'
+              release_link: 'https://github.com/ofxa/openfx/releases'
+              contributors_count: 5
+              contributors_link: 'https://github.com/ofxa/openfx/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /ofxa/openfx/commit/0cd61763b848efa8daceccb9e19cdad98433cea4
+              start_date: '2004-04-27T12:13:45Z'
             membership_data:
               member: false
             image_data:
@@ -1171,7 +1357,7 @@ landscape:
             name: Open Shading Language (OSL)
             homepage_url: 'http://opensource.imageworks.com/?p=osl'
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
-            repo_url: 'http://code.google.com/p/openshadinglanguage/'
+            repo_url: 'https://github.com/imageworks/openshadinglanguage'
             logo: osl.svg
             crunchbase_data:
               name: Sony Pictures Imageworks
@@ -1184,6 +1370,19 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
+            github_data:
+              stars: 1011
+              license: Other
+              description: Advanced shading language for production GI renderers
+              latest_commit_date: '2019-08-09T04:00:00.000Z'
+              latest_commit_link: /imageworks/OpenShadingLanguage/commit/3635cd0e7e147915db223895a8db45eecefc0a65
+              release_date: '2019-07-08T21:12:52Z'
+              release_link: 'https://github.com/imageworks/openshadinglanguage/releases'
+              contributors_count: 41
+              contributors_link: 'https://github.com/imageworks/openshadinglanguage/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /imageworks/OpenShadingLanguage/commit/ed210bbb0c5c74ad0b82c4a8a949ab97d1aa0ad6
+              start_date: '2008-09-03T22:01:13Z'
             membership_data:
               member: false
             image_data:
@@ -1318,7 +1517,7 @@ landscape:
           - item:
             name: SeExpr
             homepage_url: 'http://www.disneyanimation.com/technology/seexpr.html'
-            repo_url: 'http://github.com/wdas/seexpr/'
+            repo_url: 'https://github.com/wdas/seexpr'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
             logo: seexpr.svg
             crunchbase_data:
@@ -1332,6 +1531,22 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/DisneyAnimation'
               linkedin: 'https://www.linkedin.com/company/walt-disney-animation-studios'
+            github_data:
+              stars: 266
+              license: Other
+              description: >-
+                SeExpr is an embeddable, arithmetic expression language that enables flexible artistic control and customization in creating computer graphics
+                images. Example uses include procedural geometry synthesis, image synthesis, simulation control, crowd animation, and geometry deformation. Our
+                library is licensed under the Apache License, Version 2.0.
+              latest_commit_date: '2019-07-17T04:00:00.000Z'
+              latest_commit_link: /wdas/SeExpr/commit/e586d07524df14528bb842f4be9335e07257d3f2
+              release_date: '2018-01-25T21:49:20Z'
+              release_link: 'https://github.com/wdas/seexpr/releases'
+              contributors_count: 11
+              contributors_link: 'https://github.com/wdas/seexpr/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /wdas/SeExpr/commit/76ef35c5a97c06966f817b451f11325170f02a19
+              start_date: '2011-05-04T00:33:18Z'
             membership_data:
               member: false
             image_data:
@@ -1463,7 +1678,7 @@ landscape:
           - item:
             name: Rez
             homepage_url: 'http://code.google.com/p/rez-config/'
-            repo_url: 'http://github.com/nerdvegas/rez'
+            repo_url: 'https://github.com/nerdvegas/rez'
             logo: rez.svg
             crunchbase: 'https://www.crunchbase.com/organization/rez'
             crunchbase_data:
@@ -1477,6 +1692,19 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/nerdvegas'
               linkedin: null
+            github_data:
+              stars: 415
+              license: GNU Lesser General Public License v3.0
+              description: 'An integrated package configuration, build and deployment system for software'
+              latest_commit_date: '2019-08-09T04:00:00.000Z'
+              latest_commit_link: /nerdvegas/rez/commit/af8f5278aeec80a42e971a84ad3e8435c4dcebaa
+              release_date: '2019-08-09T00:23:40Z'
+              release_link: 'https://github.com/nerdvegas/rez/releases'
+              contributors_count: 27
+              contributors_link: 'https://github.com/nerdvegas/rez/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /nerdvegas/rez/commit/2f66a76462ee778927b67a9a6385f776cb553b54
+              start_date: '2011-10-24T02:26:33Z'
             membership_data:
               member: false
             image_data:
@@ -2202,6 +2430,7 @@ landscape:
             homepage_url: 'http://opentimeline.io/'
             repo_url: 'https://github.com/PixarAnimationStudios/OpenTimelineIO'
             project: incubating
+            logo: opentimelineio.svg
             twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
             crunchbase_data:
@@ -2230,6 +2459,9 @@ landscape:
               start_date: '2016-09-06T19:52:15Z'
             membership_data:
               member: false
+            image_data:
+              fileName: open-timeline-io.svg
+              hash: RkblxFs5/U4dTzTAkRJO05VkZ0er+Pmnb7TB5VfJx88=
             best_practice_data:
               badge: 2288
               percentage: 15
@@ -2244,6 +2476,7 @@ landscape:
           - item:
             name: Amazon Web Services
             logo: amazon-web-services.svg
+            homepage_url: 'https://www.awsthinkbox.com/'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
               name: Amazon Web Services
@@ -2274,6 +2507,7 @@ landscape:
           - item:
             name: Animal Logic
             logo: animal-logic.svg
+            homepage_url: 'https://www.animallogic.com/'
             crunchbase: 'https://www.crunchbase.com/organization/animal-logic'
             crunchbase_data:
               name: Animal Logic
@@ -2298,7 +2532,7 @@ landscape:
               latest_tweet_date: 2019-08-14T08:41:01.000Z
           - item:
             name: Autodesk
-            homepage_url: 'https://www.amdocs.com/'
+            homepage_url: 'https://www.autodesk.com/'
             logo: autodesk.svg
             crunchbase: 'https://www.crunchbase.com/organization/autodesk'
             crunchbase_data:
@@ -2330,6 +2564,7 @@ landscape:
           - item:
             name: Blue Sky Studios
             logo: blue-sky-studios.svg
+            homepage_url: 'http://blueskystudios.com/'
             crunchbase: 'https://www.crunchbase.com/organization/blue-sky-studios'
             crunchbase_data:
               name: Blue Sky Studios
@@ -2355,6 +2590,7 @@ landscape:
           - item:
             name: Cisco
             logo: cisco.svg
+            homepage_url: 'https://www.cisco.com/'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
             crunchbase_data:
               name: Cisco
@@ -2385,6 +2621,7 @@ landscape:
           - item:
             name: Double Negative
             logo: double-negative.svg
+            homepage_url: 'https://www.dneg.com/'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             crunchbase_data:
               name: Double Negative
@@ -2411,6 +2648,7 @@ landscape:
             name: Dreamworks Animation
             logo: dreamworks-animation.svg
             twitter: 'https://twitter.com/dwanimation'
+            homepage_url: 'http://www.dreamworksanimation.com/'
             crunchbase: 'https://www.crunchbase.com/organization/dreamworks-studios'
             crunchbase_data:
               name: DreamWorks Studios
@@ -2436,6 +2674,7 @@ landscape:
           - item:
             name: Epic Games
             logo: epic-games.svg
+            homepage_url: 'https://www.unrealengine.com/'
             crunchbase: 'https://www.crunchbase.com/organization/epic-games-2'
             crunchbase_data:
               name: Epic Games
@@ -2463,6 +2702,7 @@ landscape:
           - item:
             name: Google Cloud Platform
             logo: google-cloud-platform.svg
+            homepage_url: 'https://cloud.google.com/'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             crunchbase_data:
               name: Google Cloud Platform
@@ -2493,6 +2733,7 @@ landscape:
           - item:
             name: Intel
             logo: intel.svg
+            homepage_url: 'https://www.intel.com/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
             crunchbase_data:
               name: Intel
@@ -2523,6 +2764,7 @@ landscape:
           - item:
             name: Netflix
             logo: netflix.svg
+            homepage_url: 'http://www.netflix.com/'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
             crunchbase_data:
               name: Netflix
@@ -2553,6 +2795,7 @@ landscape:
           - item:
             name: NVIDIA
             logo: nvidia.svg
+            homepage_url: 'http://www.nvidia.com/'
             crunchbase: 'https://www.crunchbase.com/organization/nvidia'
             crunchbase_data:
               name: NVIDIA
@@ -2583,6 +2826,7 @@ landscape:
           - item:
             name: Sony Imageworks
             logo: sony-imageworks.svg
+            homepage_url: 'http://www.sonypictures.com/'
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
             crunchbase_data:
               name: Sony Pictures Imageworks
@@ -2608,6 +2852,7 @@ landscape:
           - item:
             name: Walt Disney Studios
             logo: walt-disney-studios.svg
+            homepage_url: 'https://www.waltdisneystudios.com/'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-studios'
             crunchbase_data:
               name: Walt Disney Studios
@@ -2633,6 +2878,7 @@ landscape:
           - item:
             name: Weta Digital
             logo: weta-digital.svg
+            homepage_url: 'https://www.wetafx.co.nz/'
             crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
             crunchbase_data:
               name: Weta Digital
@@ -2661,6 +2907,7 @@ landscape:
           - item:
             name: Foundry
             logo: foundry.svg
+            homepage_url: 'https://www.foundry.com/'
             crunchbase: 'https://www.crunchbase.com/organization/foundry'
             crunchbase_data:
               name: Foundry
@@ -2686,6 +2933,7 @@ landscape:
           - item:
             name: ftrack
             logo: ftrack.svg
+            homepage_url: 'https://www.ftrack.com/en/'
             crunchbase: 'https://www.crunchbase.com/organization/ftrack'
             crunchbase_data:
               name: ftrack
@@ -2713,6 +2961,7 @@ landscape:
           - item:
             name: RedHat
             logo: red-hat.svg
+            homepage_url: 'http://www.redhat.com/'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
               name: Red Hat
@@ -2743,6 +2992,7 @@ landscape:
           - item:
             name: RodeoFX
             logo: rodeo-fx.svg
+            homepage_url: 'https://www.rodeofx.com/'
             crunchbase: 'https://www.crunchbase.com/organization/rodeo-fx'
             crunchbase_data:
               name: Rodeo FX
@@ -2768,6 +3018,7 @@ landscape:
           - item:
             name: SideFX
             logo: side-fx.svg
+            homepage_url: 'https://www.sidefx.com/'
             crunchbase: 'https://www.crunchbase.com/organization/sidefx'
             crunchbase_data:
               name: SideFX
@@ -2793,6 +3044,7 @@ landscape:
           - item:
             name: Warner Brothers
             logo: warner-brothers.svg
+            homepage_url: 'https://www.warnerbros.com/'
             crunchbase: 'https://www.crunchbase.com/organization/warner-bros-interactive-entertainment'
             crunchbase_data:
               name: Warner Bros. Interactive Entertainment
@@ -2821,6 +3073,7 @@ landscape:
           - item:
             name: Academy of Motion Picture Arts and Sciences
             logo: academy-of-motion-picture-arts-and-sciences.svg
+            homepage_url: 'https://akamai-d.oscars.org/'
             crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
             crunchbase_data:
               name: Academy of Motion Picture Arts and Sciences
@@ -2846,6 +3099,7 @@ landscape:
           - item:
             name: Blender Foundation
             logo: blender.svg
+            homepage_url: 'https://www.blender.org/'
             crunchbase: 'https://www.crunchbase.com/organization/blender-org'
             twitter: 'https://twitter.com/blender_org'
             crunchbase_data:
@@ -2874,6 +3128,7 @@ landscape:
           - item:
             name: MovieLabs
             logo: movie-labs.svg
+            homepage_url: 'https://movielabs.com/'
             crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
             crunchbase_data:
               name: Motion Picture Laboratories
@@ -2897,6 +3152,7 @@ landscape:
           - item:
             name: VES
             logo: ves.svg
+            homepage_url: 'https://www.visualeffectssociety.com/'
             crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
             crunchbase_data:
               name: Visual Effects Society

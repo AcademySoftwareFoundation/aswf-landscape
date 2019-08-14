@@ -20,7 +20,7 @@ landscape:
             logo: 'https://raw.githubusercontent.com/ImageEngine/cortex/master/graphics/CortexLogo.svg'
           - item:
             name: dnPtcViewerNode
-            repo_url: 'http://github.com/dneg/dnPtcViewerNode'
+            repo_url: 'https://github.com/dneg/dnPtcViewerNode'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             homepage_url: 'http://github.com/dneg/dnPtcViewerNode'
             logo: dnPtcViewerNode.svg
@@ -33,13 +33,13 @@ landscape:
           - item:
             name: GTO
             homepage_url: 'http://www.tweaksoftware.com/products/open-source-software/gto/'
-            repo_url: 'http://github.com/jimhourihan/gto'
+            repo_url: 'https://github.com/jimhourihan/gto'
             crunchbase: 'https://www.crunchbase.com/organization/autodesk'
             logo: gto.svg
           - item:
             name: LiquidMaya
             homepage_url: 'http://sourceforge.net/projects/liquidmaya/'
-            repo_url: 'https://sourceforge.net/p/liquidmaya/svn/HEAD/tree/'
+            repo_url: 'https://github.com/virtualritz/liquidmaya'
             logo: liquid-maya.svg
             crunchbase: 'https://www.crunchbase.com/organization/peregrinelabs'
           - item:
@@ -53,27 +53,27 @@ landscape:
           - item:
             name: Affogato
             homepage_url: 'http://sourceforge.net/projects/affogato/'
-            repo_url: 'https://sourceforge.net/p/affogato/code/HEAD/tree/'
+            repo_url: 'https://github.com/virtualritz/affogato'
             twitter: 'https://twitter.com/rspvfx'
             crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
             logo: affogatosmall.svg
-          - item:
-            name: pyShake
-            homepage_url: 'http://open.rsp.com.au'
-            repo_url: 'http://open.rsp.com.au/projects/pyshake'
-            twitter: 'https://twitter.com/rspvfx'
-            crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
-            logo: affogatosmall.svg
+          # - item:
+          #   name: pyShake
+          #   homepage_url: 'http://open.rsp.com.au'
+          #   repo_url: 'http://open.rsp.com.au/projects/pyshake'
+          #   twitter: 'https://twitter.com/rspvfx'
+          #   crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
+          #   logo: affogatosmall.svg
           - item:
             name: CgKit
             homepage_url: 'http://cgkit.sourceforge.net/'
-            repo_url: 'https://sourceforge.net/p/cgkit/code/ci/master/tree/'
+            repo_url: 'https://github.com/behnam/cgkit'
             crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
             logo: cgkit_title_600.svg
           - item:
             name: Pixie
             homepage_url: 'http://www.renderpixie.com/'
-            repo_url: 'https://sourceforge.net/p/pixie/code/HEAD/tree/'
+            repo_url: 'https://github.com/blkdev2/pixie'
             logo: pixie.svg
             crunchbase: 'https://www.crunchbase.com/organization/renderpixie'
           - item:
@@ -105,7 +105,7 @@ landscape:
           - item:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: 'http://www.cgal.org/'
-            repo_url: 'http://www.cgal.org/'
+            repo_url: 'https://github.com/CGAL/cgal'
             logo: cgal.svg
             crunchbase: 'https://www.crunchbase.com/organization/computational-geometry-algorithms-library'
           # - item:
@@ -134,13 +134,14 @@ landscape:
           - item:
             name: GTS
             homepage_url: 'http://gts.sourceforge.net/'
-            repo_url: 'http://sourceforge.net/projects/gts/'
+            repo_url: 'https://github.com/lsaavedr/gts'
             logo: gts_logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/gnu'
           - item:
             name: ANN
             homepage_url: 'http://www.cs.umd.edu/~mount/ANN/'
             repo_url: null
+            logo: ann.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-maryland'
           - item:
             name: Houdini Ocean Toolkit
@@ -221,7 +222,7 @@ landscape:
           - item:
             name: GIMP
             homepage_url: 'http://www.gimp.org/'
-            repo_url: 'https://gitlab.gnome.org/GNOME/gimp/'
+            repo_url: 'https://github.com/GNOME/gimp'
             crunchbase: 'https://www.crunchbase.com/organization/gnu'
             logo: GIMP_Icon.svg
           - item:
@@ -229,12 +230,12 @@ landscape:
             homepage_url: 'http://www.blender.org/'
             logo: blender.svg
             twitter: 'https://twitter.com/blender_org'
-            repo_url: 'https://developer.blender.org/diffusion/B/'
+            repo_url: 'https://github.com/sobotka/blender'
             crunchbase: 'https://www.crunchbase.com/organization/blender-org'
           - item:
             name: RmanConnect
             homepage_url: 'http://danbethell.github.com/rmanconnect/'
-            repo_url: 'http://github.com/danbethell/rmanconnect'
+            repo_url: 'https://github.com/danbethell/rmanconnect'
             logo: nuke_examplebuild_small.svg
             crunchbase: 'https://www.crunchbase.com/organization/method-studios'
           - item:
@@ -262,7 +263,7 @@ landscape:
           - item:
             name: Cinepaint
             homepage_url: 'http://www.cinepaint.org/'
-            repo_url: 'https://sourceforge.net/p/cinepaint/code/'
+            repo_url: 'https://github.com/archont00/cinepaint-oyranos'
             crunchbase: 'https://www.crunchbase.com/organization/cinepaint'
             logo: cinepaint_icon.svg
           - item:
@@ -280,7 +281,7 @@ landscape:
           - item:
             name: Ptex
             homepage_url: 'http://ptex.us/'
-            repo_url: 'http://github.com/wdas/ptex'
+            repo_url: 'https://github.com/wdas/ptex'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
             logo: PtexCubeOrange64.svg
           # - item:
@@ -302,19 +303,19 @@ landscape:
           - item:
             name: pfstools
             homepage_url: 'http://pfstools.sourceforge.net/'
-            repo_url: 'https://sourceforge.net/p/pfstools/git/ci/master/tree/'
+            repo_url: 'https://github.com/Steve132/pfstools'
             logo: pfstools.svg
             crunchbase: 'https://www.crunchbase.com/organization/max-planck-institute-for-informatics'
-          - item:
-            name: Wavelet Turbulence for Fluid Simulation
-            homepage_url: 'http://www.cs.cornell.edu/~tedkim/WTURB'
-            repo_url: 'http://www.cs.cornell.edu/~tedkim/WTURB/source.html'
-            crunchbase: 'https://www.crunchbase.com/organization/cornell-university'
-            logo: null
+          # - item:
+          #   name: Wavelet Turbulence for Fluid Simulation
+          #   homepage_url: 'http://www.cs.cornell.edu/~tedkim/WTURB'
+          #   repo_url: 'http://www.cs.cornell.edu/~tedkim/WTURB/source.html'
+          #   crunchbase: 'https://www.crunchbase.com/organization/cornell-university'
+          #   logo: null
           - item:
             name: rmanPtc SOP
             homepage_url: 'http://danbethell.github.com/rmanptcsop/'
-            repo_url: 'http://danbethell.github.com/rmanptcsop/'
+            repo_url: 'https://github.com/danbethell/rmanptcsop'
             logo: 'https://raw.githubusercontent.com/danbethell/rmanptcsop/master/share/SOP_rmanPtc.svg'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
           - item:
@@ -327,18 +328,18 @@ landscape:
             name: OpenMesh
             homepage_url: 'http://openmesh.org'
             logo: openmesh.svg
-            repo_url: 'https://graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh'
+            repo_url: 'https://github.com/etlapale/OpenMesh'
             crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
           - item:
             name: OpenFlipper
             homepage_url: 'http://openflipper.org'
-            repo_url: 'https://graphics.rwth-aachen.de:9000/OpenFlipper-Free/OpenFlipper-Free'
+            repo_url: 'https://github.com/heartvalve/OpenFlipper'
             logo: openflipper.svg
             crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
           - item:
             name: OpenFX
-            homepage_url: 'http://openfx.sourceforge.net/'
-            repo_url: 'http://sourceforge.net/projects/openfx/'
+            homepage_url: 'http://openeffects.org/'
+            repo_url: 'https://github.com/ofxa/openfx'
             logo: OFXLogo.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-open-effects-association'
           # - item:
@@ -377,7 +378,7 @@ landscape:
             name: Open Shading Language (OSL)
             homepage_url: 'http://opensource.imageworks.com/?p=osl'
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
-            repo_url: 'http://code.google.com/p/openshadinglanguage/'
+            repo_url: 'https://github.com/imageworks/openshadinglanguage'
             logo: osl.svg
           - item:
             name: OpenColorIO
@@ -402,7 +403,7 @@ landscape:
           - item:
             name: SeExpr
             homepage_url: 'http://www.disneyanimation.com/technology/seexpr.html'
-            repo_url: 'http://github.com/wdas/seexpr/'
+            repo_url: 'https://github.com/wdas/seexpr'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
             logo: seexpr.svg
           - item:
@@ -426,7 +427,7 @@ landscape:
           - item:
             name: Rez
             homepage_url: 'http://code.google.com/p/rez-config/'
-            repo_url: 'http://github.com/nerdvegas/rez'
+            repo_url: 'https://github.com/nerdvegas/rez'
             logo: rez.svg
             crunchbase: 'https://www.crunchbase.com/organization/rez'
           - item:
@@ -553,6 +554,7 @@ landscape:
             homepage_url: 'http://opentimeline.io/'
             repo_url: 'https://github.com/PixarAnimationStudios/OpenTimelineIO'
             project: incubating
+            logo: opentimelineio.svg
             twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
   - category:
@@ -564,64 +566,78 @@ landscape:
           - item:
             name: Amazon Web Services
             logo: amazon-web-services.svg
+            homepage_url: 'https://www.awsthinkbox.com/'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
             name: Animal Logic
             logo: animal-logic.svg
+            homepage_url: 'https://www.animallogic.com/'
             crunchbase: 'https://www.crunchbase.com/organization/animal-logic'
           - item:
             name: Autodesk
-            homepage_url: 'https://www.amdocs.com/'
+            homepage_url: 'https://www.autodesk.com/'
             logo: autodesk.svg
             crunchbase: 'https://www.crunchbase.com/organization/autodesk'
           - item:
             name: Blue Sky Studios
             logo: blue-sky-studios.svg
+            homepage_url: 'http://blueskystudios.com/'
             crunchbase: 'https://www.crunchbase.com/organization/blue-sky-studios'
           - item:
             name: Cisco
             logo: cisco.svg
+            homepage_url: 'https://www.cisco.com/'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
           - item:
             name: Double Negative
             logo: double-negative.svg
+            homepage_url: 'https://www.dneg.com/'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
           - item:
             name: Dreamworks Animation
             logo: dreamworks-animation.svg
             twitter: 'https://twitter.com/dwanimation'
+            homepage_url: 'http://www.dreamworksanimation.com/'
             crunchbase: 'https://www.crunchbase.com/organization/dreamworks-studios'
           - item:
             name: Epic Games
             logo: epic-games.svg
+            homepage_url: 'https://www.unrealengine.com/'
             crunchbase: 'https://www.crunchbase.com/organization/epic-games-2'
           - item:
             name: Google Cloud Platform
             logo: google-cloud-platform.svg
+            homepage_url: 'https://cloud.google.com/'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
             name: Intel
             logo: intel.svg
+            homepage_url: 'https://www.intel.com/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
             name: Netflix
             logo: netflix.svg
+            homepage_url: 'http://www.netflix.com/'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
             name: NVIDIA
             logo: nvidia.svg
+            homepage_url: 'http://www.nvidia.com/'
             crunchbase: 'https://www.crunchbase.com/organization/nvidia'
           - item:
             name: Sony Imageworks
             logo: sony-imageworks.svg
+            homepage_url: 'http://www.sonypictures.com/'
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
           - item:
             name: Walt Disney Studios
             logo: walt-disney-studios.svg
+            homepage_url: 'https://www.waltdisneystudios.com/'
             crunchbase: 'https://www.crunchbase.com/organization/walt-disney-studios'
           - item:
             name: Weta Digital
             logo: weta-digital.svg
+            homepage_url: 'https://www.wetafx.co.nz/'
             crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
       - subcategory:
         name: General
@@ -629,26 +645,32 @@ landscape:
           - item:
             name: Foundry
             logo: foundry.svg
+            homepage_url: 'https://www.foundry.com/'
             crunchbase: 'https://www.crunchbase.com/organization/foundry'
           - item:
             name: ftrack
             logo: ftrack.svg
+            homepage_url: 'https://www.ftrack.com/en/'
             crunchbase: 'https://www.crunchbase.com/organization/ftrack'
           - item:
             name: RedHat
             logo: red-hat.svg
+            homepage_url: 'http://www.redhat.com/'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: RodeoFX
             logo: rodeo-fx.svg
+            homepage_url: 'https://www.rodeofx.com/'
             crunchbase: 'https://www.crunchbase.com/organization/rodeo-fx'
           - item:
             name: SideFX
             logo: side-fx.svg
+            homepage_url: 'https://www.sidefx.com/'
             crunchbase: 'https://www.crunchbase.com/organization/sidefx'
           - item:
             name: Warner Brothers
             logo: warner-brothers.svg
+            homepage_url: 'https://www.warnerbros.com/'
             crunchbase: 'https://www.crunchbase.com/organization/warner-bros-interactive-entertainment'
       - subcategory:
         name: Associate
@@ -656,17 +678,21 @@ landscape:
           - item:
             name: Academy of Motion Picture Arts and Sciences
             logo: academy-of-motion-picture-arts-and-sciences.svg
+            homepage_url: 'https://akamai-d.oscars.org/'
             crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
           - item:
             name: Blender Foundation
             logo: blender.svg
+            homepage_url: 'https://www.blender.org/'
             crunchbase: 'https://www.crunchbase.com/organization/blender-org'
             twitter: 'https://twitter.com/blender_org'
           - item:
             name: MovieLabs
             logo: movie-labs.svg
+            homepage_url: 'https://movielabs.com/'
             crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
           - item:
             name: VES
             logo: ves.svg
+            homepage_url: 'https://www.visualeffectssociety.com/'
             crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
