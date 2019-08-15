@@ -23,7 +23,7 @@ landscape:
             repo_url: 'https://github.com/dneg/dnPtcViewerNode'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             homepage_url: 'http://github.com/dneg/dnPtcViewerNode'
-            logo: dnPtcViewerNode.svg
+            logo: dn-ptc-viewer-node.svg
           - item:
             name: Field3D
             homepage_url: 'http://opensource.imageworks.com/?p=field3d'
@@ -97,33 +97,27 @@ landscape:
           # - item:
           #   name: Open Dynamics Engine (ODE)
           #   homepage_url: 'http://www.ode.org/'
-          #   repo_url: 'https://bitbucket.org/odedevs/ode/src/default/'
+          #   repo_url: 'https://github.com/thomasmarsh/ODE'
           #   logo: ode.svg
-          #   linkedin: null
-          #   twitter: null
-          #   crunchbase: null
+          #   crunchbase: 'https://www.crunchbase.com/organization/q12'
           - item:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: 'http://www.cgal.org/'
             repo_url: 'https://github.com/CGAL/cgal'
             logo: cgal.svg
             crunchbase: 'https://www.crunchbase.com/organization/computational-geometry-algorithms-library'
-          # - item:
-          #   name: Bullet Physics
-          #   homepage_url: 'http://bulletphysics.org/'
-          #   repo_url: 'https://github.com/bulletphysics/bullet3'
-          #   logo: bullet_logo.svg
-          #   linkedin: null
-          #   twitter: null
-          #   crunchbase: null
-          # - item:
-          #   name: DJV Imaging
-          #   homepage_url: 'http://djv.sourceforge.net/'
-          #   repo_url: 'http://sourceforge.net/projects/djv/'
-          #   logo: djv-logo-large.svg
-          #   linkedin: 'https://www.linkedin.com/company/unexpected'
-          #   twitter: null
-          #   crunchbase: null
+          - item:
+            name: Bullet Physics
+            homepage_url: 'http://bulletphysics.org/'
+            repo_url: 'https://github.com/bulletphysics/bullet3'
+            logo: bullet.svg
+            crunchbase: 'https://www.crunchbase.com/organization/bullet-physics'
+          - item:
+            name: DJV Imaging
+            homepage_url: 'http://djv.sourceforge.net/'
+            repo_url: 'https://github.com/darbyjohnston/DJV'
+            logo: djv.svg
+            crunchbase: 'https://www.crunchbase.com/organization/djv-imaging'
           - item:
             name: OpenImageIO
             homepage_url: 'http://www.openimageio.org'
@@ -152,19 +146,15 @@ landscape:
           # - item:
           #   name: PyODE
           #   homepage_url: 'http://pyode.sourceforge.net/'
-          #   repo_url: 'https://sourceforge.net/p/pyode/git/ci/master/tree/'
+          #   repo_url: 'https://github.com/kephale/pyode'
           #   logo: ode.svg
-          #   linkedin: null
-          #   twitter: null
-          #   crunchbase: null
-          # - item:
-          #   name: Imagemagick
-          #   homepage_url: 'http://www.imagemagick.org/'
-          #   repo_url: 'https://github.com/ImageMagick'
-          #   logo: ImageMagick_logo.svg
-          #   linkedin: null
-          #   twitter: 'https://twitter.com/imagemagick'
-          #   crunchbase: null
+          #   crunchbase: 'https://www.crunchbase.com/organization/q12'
+          - item:
+            name: Imagemagick
+            homepage_url: 'http://www.imagemagick.org/'
+            repo_url: 'https://github.com/ImageMagick/ImageMagick'
+            logo: ImageMagick_logo.svg
+            crunchbase: https://www.crunchbase.com/organization/imagemagick-studio-llc
           # - item:
           #   name: tracksperanto
           #   homepage_url: 'http://guerilla-di.org/tracksperanto/'
@@ -317,7 +307,7 @@ landscape:
             name: rmanPtc SOP
             homepage_url: 'http://danbethell.github.com/rmanptcsop/'
             repo_url: 'https://github.com/danbethell/rmanptcsop'
-            logo: 'https://raw.githubusercontent.com/danbethell/rmanptcsop/master/share/SOP_rmanPtc.svg'
+            logo: rmanPtc-SOP.svg
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
           - item:
             name: JupiterFileCache
@@ -508,8 +498,8 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/spotlight-cinema-networks'
           # - item:
           #   name: Dynamica
-          #   homepage_url: 'http://www.bulletphysics.org/mediawiki-1.5.8/index.php/Maya_Dynamica_Plugin'
-          #   repo_url: 'http://dynamica.googlecode.com'
+          #   homepage_url: 'https://code.google.com/archive/p/dynamica/'
+          #   repo_url: 'https://github.com/erwincoumans/dynamica'
           - item:
             name: Gaffer
             homepage_url: 'http://www.gafferhq.org/'

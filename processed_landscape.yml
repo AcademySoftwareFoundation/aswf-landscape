@@ -93,7 +93,7 @@ landscape:
             repo_url: 'https://github.com/dneg/dnPtcViewerNode'
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             homepage_url: 'http://github.com/dneg/dnPtcViewerNode'
-            logo: dnPtcViewerNode.svg
+            logo: dn-ptc-viewer-node.svg
             crunchbase_data:
               name: Double Negative
               description: 'Double Negative is a visual effects, animation and stereo conversion companies for feature film and television, with studios.'
@@ -122,7 +122,7 @@ landscape:
               member: premier
             image_data:
               fileName: dn-ptc-viewer-node.svg
-              hash: 7QYasEw39EDBMaZd2mqKWVV1uoqefuSRnWiV7h8L5yc=
+              hash: LFrOXuNb3lewMk8UZFKmVVvl1ArSvAX+rSpitiKUJio=
             best_practice_data:
               badge: false
               percentage: null
@@ -577,6 +577,84 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-08-06T07:57:49.000Z
           - item:
+            name: Bullet Physics
+            homepage_url: 'http://bulletphysics.org/'
+            repo_url: 'https://github.com/bulletphysics/bullet3'
+            logo: bullet.svg
+            crunchbase: 'https://www.crunchbase.com/organization/bullet-physics'
+            crunchbase_data:
+              name: Bullet Physics
+              description: 'Home of Bullet and PyBullet: physics simulation for games, visual effects, robotics and reinforcement learning.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://bulletphysics.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/erwincoumans'
+              linkedin: null
+            github_data:
+              stars: 5276
+              license: Other
+              description: 'Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.'
+              latest_commit_date: '2019-08-15T04:00:00.000Z'
+              latest_commit_link: /bulletphysics/bullet3/commit/cb654ddc803a56567fdc8f6dcc4eb3e8291b3e98
+              release_date: '2018-12-31T21:03:07Z'
+              release_link: 'https://github.com/bulletphysics/bullet3/releases'
+              contributors_count: 147
+              contributors_link: 'https://github.com/bulletphysics/bullet3/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /bulletphysics/bullet3/commit/e061ec1ebfbf3fd331e8a01ba2b05be123884639
+              start_date: '2006-05-25T19:18:29Z'
+            membership_data:
+              member: false
+            image_data:
+              fileName: bullet-physics.svg
+              hash: XVn7doyVmhbTSsMLxy80JD1UVw5kYwrieezENYj4Sgo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-08-15T12:58:20.000Z
+          - item:
+            name: DJV Imaging
+            homepage_url: 'http://djv.sourceforge.net/'
+            repo_url: 'https://github.com/darbyjohnston/DJV'
+            logo: djv.svg
+            crunchbase: 'https://www.crunchbase.com/organization/djv-imaging'
+            crunchbase_data:
+              name: DJV Imaging
+              description: 'Professional media review software for VFX, animation, and film production'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://djv.sourceforge.net/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: null
+              linkedin: null
+            github_data:
+              stars: 94
+              license: Other
+              description: 'Professional media review software for VFX, animation, and film production'
+              latest_commit_date: '2019-08-11T04:00:00.000Z'
+              latest_commit_link: /darbyjohnston/DJV/commit/27ac298d72b027fe864474181ab75482daab8bba
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/darbyjohnston/DJV/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /darbyjohnston/DJV/commit/133c9d6dacd80b8b2ab6fa0521a6535796d525cc
+              start_date: '2014-10-04T19:19:24Z'
+            membership_data:
+              member: false
+            image_data:
+              fileName: djv-imaging.svg
+              hash: dJHl1q9MvCliGlWm0SLLdAbb865ZGqrlurJpz4tDKHA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: OpenImageIO
             homepage_url: 'http://www.openimageio.org'
             repo_url: 'https://github.com/OpenImageIO/oiio'
@@ -689,7 +767,7 @@ landscape:
               member: false
             image_data:
               fileName: ann.svg
-              hash: vu0pkcEohDtz6KZmvWC8PLc/u/q4VoirFDPQKWJ9YIA=
+              hash: zAxKAdvhbAJuO7yxay/SP0Arj0Mp+zJemxazrbrmVWU=
             best_practice_data:
               badge: false
               percentage: null
@@ -737,6 +815,46 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-08-13T06:06:06.000Z
+          - item:
+            name: Imagemagick
+            homepage_url: 'http://www.imagemagick.org/'
+            repo_url: 'https://github.com/ImageMagick/ImageMagick'
+            logo: ImageMagick_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/imagemagick-studio-llc'
+            crunchbase_data:
+              name: ImageMagick Studio LLC
+              description: 'Use ImageMagick® to create, edit, compose, or convert bitmap images.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://imagemagick.org/'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/imagemagick'
+              linkedin: null
+            github_data:
+              stars: 3074
+              license: Other
+              description: ImageMagick 7
+              latest_commit_date: '2019-08-15T04:00:00.000Z'
+              latest_commit_link: /ImageMagick/ImageMagick/commit/963e99fea57eb33944bd925d637957c8d430577b
+              release_date: '2019-08-12T21:30:50Z'
+              release_link: 'https://github.com/ImageMagick/ImageMagick/releases'
+              contributors_count: 68
+              contributors_link: 'https://github.com/ImageMagick/ImageMagick/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /ImageMagick/ImageMagick/commit/3ed852eea50f9d4cd633efb8c2b054b8e33c2530
+              start_date: '2009-09-05T21:47:34Z'
+            membership_data:
+              member: false
+            image_data:
+              fileName: imagemagick.svg
+              hash: GD2YSyezbvAeo6Wr6aywcGFAYxZs3oKELP3Z8GfBU4w=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-08-08T17:55:14.000Z
           - item:
             name: PyMEL
             homepage_url: 'http://code.google.com/p/pymel/'
@@ -1108,7 +1226,7 @@ landscape:
             name: rmanPtc SOP
             homepage_url: 'http://danbethell.github.com/rmanptcsop/'
             repo_url: 'https://github.com/danbethell/rmanptcsop'
-            logo: 'https://raw.githubusercontent.com/danbethell/rmanptcsop/master/share/SOP_rmanPtc.svg'
+            logo: rmanPtc-SOP.svg
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
             crunchbase_data:
               name: Double Negative
@@ -1138,6 +1256,7 @@ landscape:
               member: premier
             image_data:
               fileName: rman-ptc-sop.svg
+              hash: d5Li3R6cxmHzTpIXaUW+eXi7ggAnNdGixXh/iPdYf9M=
             best_practice_data:
               badge: false
               percentage: null
@@ -1499,7 +1618,7 @@ landscape:
               member: premier
             image_data:
               fileName: partio.svg
-              hash: HaiJs614qgpPASbQ3s+4+CJk6hMgiQRgXoU5K0E1UQA=
+              hash: 968EnzxC9RIdjy3Rhe6SoICwh1cLKx0tgegf28h/M7M=
             best_practice_data:
               badge: false
               percentage: null
@@ -1580,7 +1699,7 @@ landscape:
               member: premier
             image_data:
               fileName: se-expr.svg
-              hash: qKSV0JTOFm5gCJaq7SZR4yCAV6qcz5XscemIUOPmWlU=
+              hash: oc2I+mIb8hJF6IJ0k8OdYHaukoAOK2KzgpUnMQP43rk=
             best_practice_data:
               badge: false
               percentage: null
@@ -1660,7 +1779,7 @@ landscape:
               member: premier
             image_data:
               fileName: alembic.svg
-              hash: ZA9TLJCmuzvvMUPyYiWTBuSnyfxZ57mGOcmrMOac8Fs=
+              hash: jpkmMVLUWOELz+YXB95XvhIFfhaddGYz3oSK3qmReq4=
             best_practice_data:
               badge: false
               percentage: null
@@ -2303,7 +2422,7 @@ landscape:
               member: false
             image_data:
               fileName: aton.svg
-              hash: BnOLo+Gn1RPWI7IXKPgJzCPp8tPX7ItbG/aq8pBZc24=
+              hash: pyQ6BXWjDBGZUgizXS1mm1yqT6S/M91W6LYVXCEVvU4=
             best_practice_data:
               badge: false
               percentage: null
@@ -2384,7 +2503,7 @@ landscape:
               member: associate
             image_data:
               fileName: aces-academy-color-encoding-system.svg
-              hash: 4CltlrgvBxUIzlo+A95IqrvsAsm2YS25SwOs18xBAQo=
+              hash: 68U6gVEb9RLWDPDkf3nSlAcVq4mfUcRl57XVUNh37lM=
             best_practice_data:
               badge: false
               percentage: null
