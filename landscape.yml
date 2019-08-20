@@ -74,7 +74,7 @@ landscape:
             name: Pixie
             homepage_url: 'http://www.renderpixie.com/'
             repo_url: 'https://github.com/blkdev2/pixie'
-            logo: pixie.svg
+            logo: render-pixie.svg
             crunchbase: 'https://www.crunchbase.com/organization/renderpixie'
           - item:
             name: Scala Migrations
@@ -87,7 +87,7 @@ landscape:
             homepage_url: 'http://opensource.imageworks.com/?p=mayareticle'
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
             repo_url: 'https://github.com/imageworks/spReticle'
-            logo: mayareticle.svg
+            logo: spreticle.svg
           - item:
             name: pyString
             homepage_url: 'http://opensource.imageworks.com/?p=pystring'
@@ -205,10 +205,10 @@ landscape:
           #   crunchbase: null
           - item:
             name: PyMEL
-            homepage_url: 'https://code.google.com/p/pymel'
+            homepage_url: 'https://github.com/LumaPictures/pymel'
             repo_url: 'https://github.com/LumaPictures/pymel'
             crunchbase: 'https://www.crunchbase.com/organization/luma-pictures'
-            logo: luma_pictures.svg
+            logo: py-mel.svg
           - item:
             name: GIMP
             homepage_url: 'https://www.gimp.org/'
@@ -255,7 +255,7 @@ landscape:
             homepage_url: 'http://www.cinepaint.org/'
             repo_url: 'https://github.com/archont00/cinepaint-oyranos'
             crunchbase: 'https://www.crunchbase.com/organization/cinepaint'
-            logo: cinepaint_icon.svg
+            logo: cinepaint.svg
           - item:
             name: Earth
             homepage_url: 'https://github.com/bdeluca/earth2'
@@ -311,7 +311,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
           - item:
             name: JupiterFileCache
-            homepage_url: 'https://code.google.com/p/jupiterfilecache'
+            homepage_url: 'https://github.com/virtualritz/jupiterfilecache'
             repo_url: 'https://github.com/virtualritz/jupiterfilecache'
             logo: JupiterFileCache.svg
             crunchbase: 'https://www.crunchbase.com/organization/jupiter-jazz'
@@ -355,13 +355,13 @@ landscape:
           #   repo_url: 'http://github.com/studioNEST/Essence'
           - item:
             name: Jupiter Skin
-            homepage_url: 'https://code.google.com/p/jupiterskin'
+            homepage_url: 'https://github.com/virtualritz/jupiterskin'
             logo: jupiter_skin.svg
             repo_url: 'https://github.com/virtualritz/jupiterskin'
             crunchbase: 'https://www.crunchbase.com/organization/jupiter-jazz'
           - item:
             name: Arsenal Suite
-            homepage_url: 'https://code.google.com/p/arsenalsuite'
+            homepage_url: 'https://github.com/mottosso/arsenalsuite'
             repo_url: 'https://github.com/mottosso/arsenalsuite'
             logo: arsenalsuite.svg
             crunchbase: 'https://www.crunchbase.com/organization/dr-studios'
@@ -373,7 +373,7 @@ landscape:
             logo: osl.svg
           - item:
             name: OpenColorIO
-            homepage_url: 'http://opencolorio.org/'
+            homepage_url: 'https://opencolorio.org/'
             repo_url: 'https://github.com/imageworks/OpenColorIO'
             project: incubating
             twitter: 'https://twitter.com/AcademySwf'
@@ -411,7 +411,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/lucasfilm'
           - item:
             name: pimath
-            homepage_url: 'https://code.google.com/p/pimath'
+            homepage_url: 'https://github.com/madpianist/pimath'
             repo_url: 'https://github.com/madpianist/pimath'
             crunchbase: 'https://www.crunchbase.com/organization/dr-studios'
             logo: pimath.svg
@@ -483,7 +483,7 @@ landscape:
             homepage_url: 'http://opensource.mikrosimage.eu/colorPipe.html'
             repo_url: 'https://github.com/mikrosimage/ColorPipe-tools'
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
-            logo: colorpipe-tools.svg
+            logo: colorpipetools.svg
           - item:
             name: File Meta Checker
             homepage_url: 'http://opensource.mikrosimage.eu/fileMetaChecker.html'
@@ -537,7 +537,25 @@ landscape:
             repo_url: 'https://github.com/AuthorityFX/afx-nuke-plugins'
             homepage_url: 'https://github.com/AuthorityFX/afx-nuke-plugins'
             crunchbase: 'https://www.crunchbase.com/organization/authorityfx'
-            logo: afx.svg
+            logo: AFX-Nuke-Plugins.svg
+          - item:
+            name: AFX Nuke Gizmos
+            repo_url: 'https://github.com/AuthorityFX/afx-nuke-gizmos'
+            homepage_url: 'https://github.com/AuthorityFX/afx-nuke-gizmos'
+            crunchbase: 'https://www.crunchbase.com/organization/authorityfx'
+            logo: AFX-Nuke-Gizmos.svg
+          - item:
+            name: AFX Nuke Tools
+            repo_url: 'https://github.com/AuthorityFX/afxnuketools'
+            homepage_url: 'https://github.com/AuthorityFX/afxnuketools'
+            crunchbase: 'https://www.crunchbase.com/organization/authorityfx'
+            logo: AFX-Nuke-Tools.svg
+          - item:
+            name: AFX Threads
+            repo_url: 'https://github.com/AuthorityFX/afxthreads'
+            homepage_url: 'https://github.com/AuthorityFX/afxthreads'
+            crunchbase: 'https://www.crunchbase.com/organization/authorityfx'
+            logo: AFX-Threads.svg
           # - item:
           #   name: Kraken Rigging Framework
           #   repo_url: 'https://github.com/fabric-engine/Kraken'
