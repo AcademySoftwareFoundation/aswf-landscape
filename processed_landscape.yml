@@ -207,7 +207,7 @@ landscape:
               effective_ticker: ADSK
             image_data:
               fileName: gto.svg
-              hash: YkpQTA9eZv2aGuNlbDFFWno5WEsfLI3uKoxyj03/KpU=
+              hash: qwi4dsj80ouopIwGaLjwpe7BKdK7yM4c0x4bSdGNaKY=
             best_practice_data:
               badge: false
               percentage: null
@@ -298,46 +298,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-08-13T04:26:58.000Z
-          - item:
-            name: CgKit
-            homepage_url: 'http://cgkit.sourceforge.net/'
-            repo_url: 'https://github.com/behnam/cgkit'
-            crunchbase: 'https://www.crunchbase.com/organization/weta-digital'
-            logo: cgkit_title_600.svg
-            crunchbase_data:
-              name: Weta Digital
-              description: 'Weta Digital is a world leading visual effects company based in Wellington, New Zealand.'
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: 'https://www.wetafx.co.nz/'
-              city: Wellington
-              region: Wellington
-              country: New Zealand
-              twitter: 'https://twitter.com/wetafx'
-              linkedin: 'https://in.linkedin.com/company/weta-digital'
-            github_data:
-              stars: 3
-              license: Other
-              description: 'Python Computer Graphics Kit - Fork for patches to https://sourceforge.net/scm/?type=git&group_id=50475'
-              latest_commit_date: '2012-06-13T04:00:00.000Z'
-              latest_commit_link: /behnam/cgkit/commit/4b70aed7e0c436287ebcd71aa4362a82965edcb4
-              release_date: null
-              release_link: null
-              contributors_count: 1
-              contributors_link: 'https://github.com/behnam/cgkit/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /behnam/cgkit/commit/aece3779a0ea022ec2a61366929ba51ed35724cd
-              start_date: '2006-05-28T11:35:31Z'
-            membership_data:
-              member: Premier
-            image_data:
-              fileName: cg-kit.svg
-              hash: 6OaYOfBtNqQ88luyqTDU9i/tKZP3zLqr3MjLlG4/r3U=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2018-04-30T13:27:28.000Z
           - item:
             name: Pixie
             homepage_url: 'http://www.renderpixie.com/'
@@ -2623,6 +2583,45 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-07-18T18:56:04.000Z
+          - item:
+            name: Jeri
+            repo_url: 'https://github.com/disneyresearch/jeri'
+            homepage_url: 'https://jeri.io/'
+            logo: jeri.svg
+            crunchbase: 'https://www.crunchbase.com/organization/disney-research'
+            twitter: null
+            crunchbase_data:
+              name: Disney Research
+              description: Disney Research is an international network of research labs.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'http://www.disneyresearch.com/'
+              city: Los Angeles
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/disneyresearch'
+              linkedin: 'https://www.linkedin.com/company/disney-research?trk=mini-profile'
+            github_data:
+              stars: 54
+              license: Other
+              description: Javascript Extended Range Imaging Viewer
+              latest_commit_date: '2019-09-04T04:00:00.000Z'
+              latest_commit_link: /disneyresearch/jeri/commit/4b071a380184e4ffe66fd9cae15a0ee7c9c26460
+              release_date: '2018-10-01T12:48:16Z'
+              release_link: 'https://github.com/disneyresearch/jeri/releases'
+              contributors_count: 3
+              contributors_link: 'https://github.com/disneyresearch/jeri/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /disneyresearch/jeri/commit/499cfce2a264ce9d50d4b44d7419ac5eda2aafb9
+              start_date: '2018-05-14T10:32:10Z'
+            membership_data:
+              member: false
+            image_data:
+              fileName: jeri.svg
+              hash: Ea1bDeCPHdPJh8HkGI6E2eerotXnL8+ZZKCyvoQDF2o=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             name: NVIDIA MDL SDK
             repo_url: 'https://github.com/NVIDIA/MDL-SDK'
