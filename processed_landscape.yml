@@ -23,7 +23,7 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/theacademy'
               linkedin: 'https://www.facebook.com/TheAcademy/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 359
               license: Other
@@ -61,7 +61,7 @@ landscape:
               country: Australia
               twitter: 'https://www.twitter.com/cospective'
               linkedin: 'https://www.linkedin.com/company/cospective'
-              acquisited: []
+              parents: []
             github_data:
               stars: 0
               license: GNU Lesser General Public License v2.1
@@ -80,7 +80,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T04:41:10.000Z
+              latest_tweet_date: 2019-09-11T07:25:44.000Z
           - item:
             name: AFX Nuke Gizmos
             homepage_url: 'https://github.com/AuthorityFX/afx-nuke-gizmos'
@@ -98,7 +98,7 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/AuthorityFX'
               linkedin: 'https://www.linkedin.com/company/authority-fx-inc-/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 14
               license: Mozilla Public License 2.0
@@ -135,7 +135,7 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/AuthorityFX'
               linkedin: 'https://www.linkedin.com/company/authority-fx-inc-/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 46
               license: Mozilla Public License 2.0
@@ -172,7 +172,7 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/AuthorityFX'
               linkedin: 'https://www.linkedin.com/company/authority-fx-inc-/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 4
               license: Mozilla Public License 2.0
@@ -209,14 +209,14 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/AuthorityFX'
               linkedin: 'https://www.linkedin.com/company/authority-fx-inc-/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 2
               license: Mozilla Public License 2.0
               description: A fully featured python multithreading module
               latest_commit_date: '2017-02-09T00:00:00.000Z'
               latest_commit_link: /AuthorityFX/afxthreads/commit/7c938952a4a9c28e8eb76f45e44f31b0f0b60fcc
-              contributors_count: 1
+              contributors_count: 0
               contributors_link: 'https://github.com/AuthorityFX/afxthreads/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /AuthorityFX/afxthreads/commit/7c938952a4a9c28e8eb76f45e44f31b0f0b60fcc
@@ -246,8 +246,8 @@ landscape:
               country: United States
               twitter: null
               linkedin: 'https://www.linkedin.com/company/lucasfilm-animation/'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/lucasarts'
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
@@ -264,7 +264,7 @@ landscape:
               start_commit_link: /alembic/alembic/commit/b7a7f142ae9a2faced93597adde234b0475a36f0
               start_date: '2010-07-27T18:27:07Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: alembic.svg
@@ -289,7 +289,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/UofMaryland'
               linkedin: 'https://www.linkedin.com/edu/school'
-              acquisited: []
+              parents: []
               kind: funding
               funding: 191050000
             github_data:
@@ -298,7 +298,7 @@ landscape:
               description: 'ANN: A Library for Approximate Nearest Neighbor Searching'
               latest_commit_date: '2016-03-08T00:00:00.000Z'
               latest_commit_link: /dials/annlib/commit/75439ecf691c0d73b773f13540180aa511a758d7
-              contributors_count: 1
+              contributors_count: 0
               contributors_link: 'https://github.com/dials/annlib/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /dials/annlib/commit/75439ecf691c0d73b773f13540180aa511a758d7
@@ -310,7 +310,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T16:10:13.000Z
+              latest_tweet_date: 2019-09-11T18:35:33.000Z
           - item:
             name: Aton
             homepage_url: 'http://sosoyan.github.io/Aton/'
@@ -329,7 +329,7 @@ landscape:
               country: Australia
               twitter: 'https://www.twitter.com/cospective'
               linkedin: 'https://www.linkedin.com/company/cospective'
-              acquisited: []
+              parents: []
             github_data:
               stars: 78
               license: BSD 3-Clause "New" or "Revised" License
@@ -350,7 +350,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T04:41:10.000Z
+              latest_tweet_date: 2019-09-11T07:25:44.000Z
           - item:
             name: Blender
             homepage_url: 'https://www.blender.org/'
@@ -369,15 +369,15 @@ landscape:
               country: The Netherlands
               twitter: 'http://twitter.com/blender3d'
               linkedin: null
-              acquisited: []
+              parents: []
               kind: funding
               funding: 1200000
             github_data:
               stars: 270
               license: Other
               description: Mirror of the official Blender Git repository. Updated every hour.
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /sobotka/blender/commit/4ce3fbd52ae8bd054cfbac06ef3a1aea7568386b
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /sobotka/blender/commit/1e375ab5a104a71c45c1bf85ea34ab886c61e93d
               contributors_count: 189
               contributors_link: 'https://github.com/sobotka/blender/graphs/contributors'
             github_start_commit_data:
@@ -408,9 +408,9 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/erwincoumans'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
-              stars: 5348
+              stars: 5355
               license: Other
               description: 'Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.'
               latest_commit_date: '2019-09-10T00:00:00.000Z'
@@ -429,7 +429,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T11:38:25.000Z
+              latest_tweet_date: 2019-09-11T14:15:37.000Z
           - item:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: 'https://www.cgal.org/'
@@ -447,13 +447,13 @@ landscape:
               country: France
               twitter: 'https://twitter.com/TheCGALProject'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
-              stars: 1477
+              stars: 1478
               license: Other
               description: 'The public CGAL repository, see the README below'
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /CGAL/cgal/commit/75c4062fb80e8b3efa68515af48f4b985dcc7363
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /CGAL/cgal/commit/c442b693fc46902f0c220226f86595659b904fad
               release_date: '2019-04-05T12:52:57Z'
               release_link: 'https://github.com/CGAL/cgal/releases'
               contributors_count: 96
@@ -486,7 +486,7 @@ landscape:
               country: Russian Federation
               twitter: null
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 177
               license: Unknown License
@@ -523,7 +523,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/Cinepaint'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 1
               license: Other
@@ -562,7 +562,7 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 64
               license: Other
@@ -583,7 +583,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: Cortex
             homepage_url: 'https://github.com/ImageEngine/cortex'
@@ -601,7 +601,7 @@ landscape:
               country: Canada
               twitter: 'http://twitter.com/ImageEngine'
               linkedin: null
-              acquisited: []
+              parents: []
               kind: funding
               funding: 2200000
             github_data:
@@ -623,7 +623,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T17:38:40.000Z
+              latest_tweet_date: 2019-09-11T16:30:20.000Z
           - item:
             name: depix
             homepage_url: 'http://guerilla-di.org/depix/'
@@ -641,7 +641,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/guerilladi'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 7
               license: Unknown License
@@ -677,7 +677,7 @@ landscape:
               country: Germany
               twitter: null
               linkedin: 'https://www.linkedin.com/company/unexpected'
-              acquisited: []
+              parents: []
             github_data:
               stars: 107
               license: Other
@@ -712,7 +712,7 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/dneg'
               linkedin: 'https://www.linkedin.com/company/double-negative/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 28
               license: Unknown License
@@ -731,7 +731,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T18:55:12.000Z
+              latest_tweet_date: 2019-09-11T08:24:05.000Z
           - item:
             name: Earth
             homepage_url: 'https://github.com/bdeluca/earth2'
@@ -750,7 +750,7 @@ landscape:
               country: Australia
               twitter: 'https://www.twitter.com/cospective'
               linkedin: 'https://www.linkedin.com/company/cospective'
-              acquisited: []
+              parents: []
             github_data:
               stars: 12
               license: GNU General Public License v2.0
@@ -769,7 +769,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T04:41:10.000Z
+              latest_tweet_date: 2019-09-11T07:25:44.000Z
           - item:
             name: edl
             homepage_url: 'http://guerilla-di.org/edl/'
@@ -787,7 +787,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/guerilladi'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 16
               license: MIT License
@@ -823,7 +823,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 250
               license: Other
@@ -860,7 +860,7 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 5
               license: Unknown License
@@ -879,7 +879,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: flame-channel-parser
             homepage_url: 'http://guerilla-di.org/flame-channel-parser/'
@@ -897,7 +897,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/guerilladi'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 2
               license: Unknown License
@@ -934,7 +934,7 @@ landscape:
               country: Canada
               twitter: 'http://twitter.com/ImageEngine'
               linkedin: null
-              acquisited: []
+              parents: []
               kind: funding
               funding: 2200000
             github_data:
@@ -956,7 +956,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T17:38:40.000Z
+              latest_tweet_date: 2019-09-11T16:30:20.000Z
           - item:
             name: GIMP
             homepage_url: 'https://www.gimp.org/'
@@ -974,13 +974,13 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 1943
               license: Other
               description: GNU Image Manipulation Program
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /GNOME/gimp/commit/f3fb3d1a57944a459ecc053c55587470c0029da2
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /GNOME/gimp/commit/7fa730b1c75ab86dbcec37c336ae020e91b20704
               contributors_count: 286
               contributors_link: 'https://github.com/GNOME/gimp/graphs/contributors'
             github_start_commit_data:
@@ -1009,76 +1009,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/autodesk'
               linkedin: 'https://www.linkedin.com/company/autodesk'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/buildingconnected'
-                - 'https://www.crunchbase.com/organization/plangrid'
-                - 'https://www.crunchbase.com/organization/assemble-systems'
-                - 'https://www.crunchbase.com/organization/cadsoft-computer-gmbh'
-                - 'https://www.crunchbase.com/organization/eagle-software'
-                - 'https://www.crunchbase.com/organization/solid-angle-s-l'
-                - 'https://www.crunchbase.com/organization/netfabb'
-                - 'https://www.crunchbase.com/organization/seecontrol'
-                - 'https://www.crunchbase.com/organization/synthicity'
-                - 'https://www.crunchbase.com/organization/modio'
-                - 'https://www.crunchbase.com/organization/lagoa'
-                - 'https://www.crunchbase.com/organization/within'
-                - 'https://www.crunchbase.com/organization/topolabs'
-                - 'https://www.crunchbase.com/organization/shotgun-software'
-                - 'https://www.crunchbase.com/organization/bitsquid-ab'
-                - 'https://www.crunchbase.com/organization/hsmworks-technology'
-                - 'https://www.crunchbase.com/organization/colourlovers'
-                - 'https://www.crunchbase.com/organization/ilesfay-technology-group'
-                - 'https://www.crunchbase.com/organization/delcam'
-                - 'https://www.crunchbase.com/organization/graitec-group'
-                - 'https://www.crunchbase.com/organization/tinkercad'
-                - 'https://www.crunchbase.com/organization/firehole-composites'
-                - 'https://www.crunchbase.com/organization/allpoint-systems'
-                - 'https://www.crunchbase.com/organization/qontext'
-                - 'https://www.crunchbase.com/organization/inforbix'
-                - 'https://www.crunchbase.com/organization/socialcam'
-                - 'https://www.crunchbase.com/organization/vela-systems'
-                - 'https://www.crunchbase.com/organization/horizontal-systems'
-                - 'https://www.crunchbase.com/organization/grip-entertainment'
-                - 'https://www.crunchbase.com/organization/meshmixer'
-                - 'https://www.crunchbase.com/organization/micro-application-packages-ltd'
-                - 'https://www.crunchbase.com/organization/numenus'
-                - 'https://www.crunchbase.com/organization/evolver'
-                - 'https://www.crunchbase.com/organization/instructables'
-                - 'https://www.crunchbase.com/organization/pixlr'
-                - 'https://www.crunchbase.com/organization/scaleform'
-                - 'https://www.crunchbase.com/organization/blue-ridge-numerics'
-                - 'https://www.crunchbase.com/organization/wild-pockets'
-                - 'https://www.crunchbase.com/organization/simopsstudios'
-                - 'https://www.crunchbase.com/organization/illuminate-labs'
-                - 'https://www.crunchbase.com/organization/planplatform'
-                - 'https://www.crunchbase.com/organization/bimworld-assets'
-                - 'https://www.crunchbase.com/organization/algor'
-                - 'https://www.crunchbase.com/organization/softimage'
-                - 'https://www.crunchbase.com/organization/elektro-cae-software-gmbh'
-                - 'https://www.crunchbase.com/organization/3d-geo'
-                - 'https://www.crunchbase.com/organization/ecotect'
-                - 'https://www.crunchbase.com/organization/realviz-s-a'
-                - 'https://www.crunchbase.com/organization/moldflow'
-                - 'https://www.crunchbase.com/organization/kynogon'
-                - 'https://www.crunchbase.com/organization/carmel-software-corp'
-                - 'https://www.crunchbase.com/organization/skymatter'
-                - 'https://www.crunchbase.com/organization/plassotech'
-                - 'https://www.crunchbase.com/organization/cumulate-labs'
-                - 'https://www.crunchbase.com/organization/navisworks'
-                - 'https://www.crunchbase.com/organization/robobat'
-                - 'https://www.crunchbase.com/organization/constructware'
-                - 'https://www.crunchbase.com/organization/alias-systems'
-                - 'https://www.crunchbase.com/organization/compass-systems'
-                - 'https://www.crunchbase.com/organization/mechsoft'
-                - 'https://www.crunchbase.com/organization/linius-technologies-assets'
-                - 'https://www.crunchbase.com/organization/caice-software-corp'
-                - 'https://www.crunchbase.com/organization/revit-technology-corporation'
-                - 'https://www.crunchbase.com/organization/buzzsaw-com-an-autodesk-venture'
-                - 'https://www.crunchbase.com/organization/gentry-systems'
-                - 'https://www.crunchbase.com/organization/discreet-logic'
-                - 'https://www.crunchbase.com/organization/softdesk'
-                - 'https://www.crunchbase.com/organization/ithaca-software-2'
-                - 'https://www.crunchbase.com/organization/micro-engineering-solutions'
+              parents: []
               ticker: ADSK
               kind: market_cap
             github_data:
@@ -1093,7 +1024,7 @@ landscape:
               start_commit_link: /jimhourihan/gto/commit/b58a81e2c107c7e3c596499b6cd3b0408fbbf54a
               start_date: '2003-09-16T19:52:28Z'
             yahoo_finance_data:
-              market_cap: 30886191104
+              market_cap: 32768538624
               effective_ticker: ADSK
             image_data:
               fileName: gto.svg
@@ -1102,7 +1033,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T19:00:01.000Z
+              latest_tweet_date: 2019-09-11T16:31:00.000Z
           - item:
             name: Imagemagick
             homepage_url: 'https://www.imagemagick.org/'
@@ -1120,13 +1051,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/imagemagick'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
-              stars: 3129
+              stars: 3133
               license: Other
               description: ImageMagick 7
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /ImageMagick/ImageMagick/commit/55abbb4022327c54beb0a774deb79647fde78a85
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /ImageMagick/ImageMagick/commit/90ceb2688228a0be3d79714b3e985c57827eb50e
               release_date: '2019-09-08T18:15:54Z'
               release_link: 'https://github.com/ImageMagick/ImageMagick/releases'
               contributors_count: 68
@@ -1160,7 +1091,8 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/disneyresearch'
               linkedin: 'https://www.linkedin.com/company/disney-research?trk=mini-profile'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
@@ -1177,7 +1109,7 @@ landscape:
               start_commit_link: /disneyresearch/jeri/commit/499cfce2a264ce9d50d4b44d7419ac5eda2aafb9
               start_date: '2018-05-14T10:32:10Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: jeri.svg
@@ -1203,12 +1135,12 @@ landscape:
               country: United States
               twitter: null
               linkedin: 'https://www.linkedin.com/company/lucasfilm-animation/'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/lucasarts'
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
-              stars: 464
+              stars: 465
               license: Other
               description: MaterialX is an open standard for transfer of rich material and look-development content between applications and renderers.
               latest_commit_date: '2019-09-09T00:00:00.000Z'
@@ -1221,7 +1153,7 @@ landscape:
               start_commit_link: /materialx/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
               start_date: '2017-07-05T22:18:25Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: material-x.svg
@@ -1248,7 +1180,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 20
               license: Unknown License
@@ -1285,9 +1217,10 @@ landscape:
               country: Belgium
               twitter: 'https://twitter.com/eu_h2020'
               linkedin: null
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/european-commission'
             github_data:
-              stars: 3144
+              stars: 3153
               license: Other
               description: 3D Reconstruction Software
               latest_commit_date: '2019-09-10T00:00:00.000Z'
@@ -1306,7 +1239,7 @@ landscape:
               badge: 2997
               percentage: 77
             twitter_data:
-              latest_tweet_date: 2019-09-10T12:42:03.000Z
+              latest_tweet_date: 2019-09-11T14:11:24.000Z
           - item:
             name: Munki
             homepage_url: 'https://www.munki.org/munki/'
@@ -1324,11 +1257,12 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/DisneyAnimation'
               linkedin: 'https://www.linkedin.com/company/walt-disney-animation-studios'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
-              stars: 1858
+              stars: 1862
               license: Other
               description: Managed software installation for macOS —
               latest_commit_date: '2019-09-04T00:00:00.000Z'
@@ -1341,7 +1275,7 @@ landscape:
               start_commit_link: /munki/munki/commit/456efb8289f2e397a4139e6cca9b3d668b19212c
               start_date: '2009-01-14T21:31:03Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: munki.svg
@@ -1368,9 +1302,9 @@ landscape:
               country: France
               twitter: 'https://twitter.com/natronvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
-              stars: 819
+              stars: 820
               license: Other
               description: Open-source compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
               latest_commit_date: '2019-09-09T00:00:00.000Z'
@@ -1407,21 +1341,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/nvidia'
               linkedin: 'https://www.linkedin.com/company/3608'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/mellanox-technologies'
-                - 'https://www.crunchbase.com/organization/transgaming'
-                - 'https://www.crunchbase.com/organization/pgi-2'
-                - 'https://www.crunchbase.com/organization/icera'
-                - 'https://www.crunchbase.com/organization/rayscale'
-                - 'https://www.crunchbase.com/organization/ageia-technologies'
-                - 'https://www.crunchbase.com/organization/mental-images'
-                - 'https://www.crunchbase.com/organization/portalplayer'
-                - 'https://www.crunchbase.com/organization/hybrid-graphics'
-                - 'https://www.crunchbase.com/organization/uli-electronics'
-                - 'https://www.crunchbase.com/organization/iready'
-                - 'https://www.crunchbase.com/organization/mediaq-inc'
-                - 'https://www.crunchbase.com/organization/exluna'
-                - 'https://www.crunchbase.com/organization/3dfx-interactive'
+              parents: []
               ticker: NVDA
               kind: market_cap
             github_data:
@@ -1438,7 +1358,7 @@ landscape:
               start_commit_link: /NVIDIA/MDL-SDK/commit/dbe16f8b0ed0339ba77fa4f9f65a018e9fbed6c8
               start_date: '2018-08-09T14:30:09Z'
             yahoo_finance_data:
-              market_cap: 104600363008
+              market_cap: 112256974848
               effective_ticker: NVDA
             image_data:
               fileName: nvidia-mdl-sdk.svg
@@ -1447,7 +1367,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T17:28:00.000Z
+              latest_tweet_date: 2019-09-11T15:25:01.000Z
           - item:
             name: Open Shading Language (OSL)
             homepage_url: 'http://opensource.imageworks.com/?p=osl'
@@ -1465,7 +1385,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 1028
               license: BSD 3-Clause "New" or "Revised" License
@@ -1505,7 +1425,8 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/disneypixar'
               linkedin: 'https://www.linkedin.com/company/pixar-animation-studios/'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
@@ -1514,13 +1435,13 @@ landscape:
               description: An Open-Source subdivision surface library.
               latest_commit_date: '2019-06-28T00:00:00.000Z'
               latest_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/9be5a298270a42d89d7925c8cdd9e335869ec6ce
-              contributors_count: 41
+              contributors_count: 40
               contributors_link: 'https://github.com/PixarAnimationStudios/OpenSubdiv/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/5e204a4c1e0076312cb22d415c217d5d8c0f7def
               start_date: '2012-04-24T00:12:01Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: open-subdiv.svg
@@ -1547,7 +1468,7 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 135
               license: Other
@@ -1570,7 +1491,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: OpenColorIO
             homepage_url: 'https://opencolorio.org/'
@@ -1590,13 +1511,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 764
               license: Other
               description: A color management framework for visual effects and animation.
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /imageworks/OpenColorIO/commit/b0adba2b1b91e4df5b70e460c505a7849243eaaa
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /imageworks/OpenColorIO/commit/f81ab95816e6e5868f0c8bd8241df4f7e02376f0
               release_date: '2019-04-03T05:21:22Z'
               release_link: 'https://github.com/imageworks/OpenColorIO/releases'
               contributors_count: 41
@@ -1630,13 +1551,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 397
               license: Apache License 2.0
               description: A render management system you can deploy for visual effects and animation productions.
-              latest_commit_date: '2019-09-06T00:00:00.000Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/95e39f35386dcd211f08da50b680d0fadf3e079a
+              latest_commit_date: '2019-09-12T00:00:00.000Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/152ef145d6cc232a4dcd092c3df30db35fc0ff28
               release_date: '2019-07-23T23:39:17Z'
               release_link: 'https://github.com/AcademySoftwareFoundation/OpenCue/releases'
               contributors_count: 7
@@ -1669,7 +1590,7 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 27
               license: Other
@@ -1690,7 +1611,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: OpenEXR
             homepage_url: 'https://www.openexr.com/'
@@ -1710,7 +1631,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 710
               license: BSD 3-Clause "New" or "Revised" License
@@ -1751,7 +1672,7 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/rwth'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 0
               license: GNU Lesser General Public License v3.0
@@ -1770,7 +1691,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T13:41:41.000Z
+              latest_tweet_date: 2019-09-11T12:25:11.000Z
           - item:
             name: OpenFX
             homepage_url: 'http://openeffects.org/'
@@ -1788,7 +1709,7 @@ landscape:
               country: United Kingdom
               twitter: null
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 144
               license: Unknown License
@@ -1826,13 +1747,13 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/hashtag/openimageio'
               linkedin: 'https://www.linkedin.com/search/results/all/?keywords=OpenImageIO'
-              acquisited: []
+              parents: []
             github_data:
               stars: 964
               license: Other
               description: OpenImageIO
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /OpenImageIO/oiio/commit/a902f2fb1ab93cd77a450a4c0f7017fa724adc9f
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /OpenImageIO/oiio/commit/a21db2a06ab88015d99d454365df69eb094dc593
               release_date: '2019-08-02T18:45:50Z'
               release_link: 'https://github.com/OpenImageIO/oiio/releases'
               contributors_count: 114
@@ -1863,7 +1784,7 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/rwth'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 10
               license: Other
@@ -1882,7 +1803,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T13:41:41.000Z
+              latest_tweet_date: 2019-09-11T12:25:11.000Z
           - item:
             name: openMVG
             homepage_url: 'http://opensource.mikrosimage.eu/openmvg.html'
@@ -1900,9 +1821,9 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
-              stars: 2431
+              stars: 2434
               license: Other
               description: open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
               latest_commit_date: '2019-07-15T00:00:00.000Z'
@@ -1920,7 +1841,7 @@ landscape:
               badge: 1744
               percentage: 73
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: OpenRenderManagement
             homepage_url: 'http://opensource.mikrosimage.eu/puli.html'
@@ -1938,7 +1859,7 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 56
               license: Other
@@ -1959,7 +1880,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: OpenSequencePlayer
             homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
@@ -1977,14 +1898,14 @@ landscape:
               country: France
               twitter: 'https://twitter.com/Mikrosimage'
               linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 107
               license: MIT License
               description: Duke is an opensource high resolution image and sequence viewer dedicated to visual effect and post production companies.
               latest_commit_date: '2014-11-12T00:00:00.000Z'
               latest_commit_link: /mikrosimage/duke/commit/efacf7139cd1d7c2cd2f5127079721bd263dda50
-              contributors_count: 4
+              contributors_count: 5
               contributors_link: 'https://github.com/mikrosimage/duke/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /mikrosimage/duke/commit/3ae9e77b300272431e2679f0273586f6e7f1077c
@@ -1996,7 +1917,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:24:32.000Z
+              latest_tweet_date: 2019-09-11T07:46:01.000Z
           - item:
             name: OpenTimelineIO
             homepage_url: 'http://opentimeline.io/'
@@ -2016,7 +1937,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 466
               license: Other
@@ -2057,9 +1978,9 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              acquisited: []
+              parents: []
             github_data:
-              stars: 911
+              stars: 913
               license: Other
               description: OpenVDB - Sparse volume data structure and tools
               latest_commit_date: '2019-09-09T00:00:00.000Z'
@@ -2096,7 +2017,8 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/DisneyAnimation'
               linkedin: 'https://www.linkedin.com/company/walt-disney-animation-studios'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
@@ -2113,7 +2035,7 @@ landscape:
               start_commit_link: /wdas/partio/commit/e2b92cc7e19269975e0f5d06973daf5210406c0a
               start_date: '2010-07-22T00:47:09Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: partio.svg
@@ -2140,7 +2062,7 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/maxplanckpress'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 3
               license: GNU Lesser General Public License v2.1
@@ -2159,7 +2081,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T10:29:07.000Z
+              latest_tweet_date: 2019-09-11T14:03:30.000Z
           - item:
             name: PhotoFlow
             homepage_url: 'http://aferrero2707.github.io/PhotoFlow/'
@@ -2177,7 +2099,7 @@ landscape:
               country: Canada
               twitter: null
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 187
               license: GNU General Public License v3.0
@@ -2214,7 +2136,7 @@ landscape:
               country: United Kingdom
               twitter: 'http://twitter.com/DRStudiosUK'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 0
               license: BSD 3-Clause "New" or "Revised" License
@@ -2251,7 +2173,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 0
               license: GNU Lesser General Public License v2.1
@@ -2286,7 +2208,8 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/DisneyAnimation'
               linkedin: 'https://www.linkedin.com/company/walt-disney-animation-studios'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
@@ -2295,13 +2218,13 @@ landscape:
               description: Per-Face Texture Mapping for Production Rendering
               latest_commit_date: '2019-05-22T00:00:00.000Z'
               latest_commit_link: /wdas/ptex/commit/ca5d68d9eb93f1b757e560bcbb0e1fb5e711bddd
-              contributors_count: 13
+              contributors_count: 12
               contributors_link: 'https://github.com/wdas/ptex/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /wdas/ptex/commit/4af1ede1050e68e140c6a48aa2b73caeb35e207e
               start_date: '2009-10-23T14:47:55Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: ptex.svg
@@ -2328,9 +2251,9 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/lumapictures'
               linkedin: 'https://www.linkedin.com/company/luma-pictures/'
-              acquisited: []
+              parents: []
             github_data:
-              stars: 301
+              stars: 302
               license: Other
               description: Python in Maya Done Right
               latest_commit_date: '2018-12-15T00:00:00.000Z'
@@ -2365,9 +2288,9 @@ landscape:
               country: Canada
               twitter: null
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
-              stars: 755
+              stars: 756
               license: Other
               description: ':movie_camera: Python and OpenCV-based scene cut/transition detection program & library.'
               latest_commit_date: '2019-09-07T00:00:00.000Z'
@@ -2402,7 +2325,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 393
               license: Other
@@ -2439,14 +2362,14 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/nerdvegas'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 424
               license: GNU Lesser General Public License v3.0
               description: 'An integrated package configuration, build and deployment system for software'
-              latest_commit_date: '2019-09-10T00:00:00.000Z'
-              latest_commit_link: /nerdvegas/rez/commit/1ec3a47301f60f6aaec01504d31e6619e138e3f3
-              release_date: '2019-09-10T11:14:33Z'
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /nerdvegas/rez/commit/f5f77814ffc6e2dd6a6f21fd1257519a1241f875
+              release_date: '2019-09-11T01:40:53Z'
               release_link: 'https://github.com/nerdvegas/rez/releases'
               contributors_count: 29
               contributors_link: 'https://github.com/nerdvegas/rez/graphs/contributors'
@@ -2478,7 +2401,7 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/dneg'
               linkedin: 'https://www.linkedin.com/company/double-negative/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 22
               license: Other
@@ -2497,7 +2420,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T18:55:12.000Z
+              latest_tweet_date: 2019-09-11T08:24:05.000Z
           - item:
             name: Scala Migrations
             homepage_url: 'http://opensource.imageworks.com/?p=scalamigrations'
@@ -2515,7 +2438,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 14
               license: Other
@@ -2552,7 +2475,8 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/DisneyAnimation'
               linkedin: 'https://www.linkedin.com/company/walt-disney-animation-studios'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
@@ -2572,7 +2496,7 @@ landscape:
               start_commit_link: /wdas/SeExpr/commit/76ef35c5a97c06966f817b451f11325170f02a19
               start_date: '2011-05-04T00:33:18Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: se-expr.svg
@@ -2599,7 +2523,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/guerilladi'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 4
               license: Unknown License
@@ -2635,7 +2559,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/tactic_software'
               linkedin: 'https://www.linkedin.com/company/southpaw-technology/'
-              acquisited: []
+              parents: []
             github_data:
               stars: 202
               license: Eclipse Public License 1.0
@@ -2672,7 +2596,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/guerilladi'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 22
               license: Unknown License
@@ -2708,7 +2632,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/guerilladi'
               linkedin: null
-              acquisited: []
+              parents: []
             github_data:
               stars: 40
               license: MIT License
@@ -2745,11 +2669,12 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/disneypixar'
               linkedin: 'https://www.linkedin.com/company/pixar-animation-studios/'
-              acquisited: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
               ticker: DIS
               kind: market_cap
             github_data:
-              stars: 1992
+              stars: 1993
               license: Other
               description: Universal Scene Description
               latest_commit_date: '2019-06-17T00:00:00.000Z'
@@ -2762,7 +2687,7 @@ landscape:
               start_commit_link: /PixarAnimationStudios/USD/commit/2eb01f5cd4c2dae4e1ef9912ca27a93083bb6ef4
               start_date: '2016-07-26T17:44:38Z'
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: usd-universal-scene-description.svg
@@ -2794,17 +2719,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/awscloud'
               linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/tso-logic'
-                - 'https://www.crunchbase.com/organization/sqrrl'
-                - 'https://www.crunchbase.com/organization/do'
-                - 'https://www.crunchbase.com/organization/thinkbox-software'
-                - 'https://www.crunchbase.com/organization/nice-3'
-                - 'https://www.crunchbase.com/organization/appthwack'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
               ticker: AMZN
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 872442167296
+              market_cap: 879829712896
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services.svg
@@ -2813,7 +2733,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T23:47:01.000Z
+              latest_tweet_date: 2019-09-12T00:02:03.000Z
           - item:
             name: Animal Logic
             homepage_url: 'https://www.animallogic.com/'
@@ -2830,7 +2750,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AnimalLogic'
               linkedin: 'https://www.linkedin.com/company-beta/162459/'
-              acquisited: []
+              parents: []
             image_data:
               fileName: animal-logic.svg
               hash: Tr2E8eG9I564MDgli3FR9QnbJ0jr2f3eTR3lP9H2e38=
@@ -2855,80 +2775,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/autodesk'
               linkedin: 'https://www.linkedin.com/company/autodesk'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/buildingconnected'
-                - 'https://www.crunchbase.com/organization/plangrid'
-                - 'https://www.crunchbase.com/organization/assemble-systems'
-                - 'https://www.crunchbase.com/organization/cadsoft-computer-gmbh'
-                - 'https://www.crunchbase.com/organization/eagle-software'
-                - 'https://www.crunchbase.com/organization/solid-angle-s-l'
-                - 'https://www.crunchbase.com/organization/netfabb'
-                - 'https://www.crunchbase.com/organization/seecontrol'
-                - 'https://www.crunchbase.com/organization/synthicity'
-                - 'https://www.crunchbase.com/organization/modio'
-                - 'https://www.crunchbase.com/organization/lagoa'
-                - 'https://www.crunchbase.com/organization/within'
-                - 'https://www.crunchbase.com/organization/topolabs'
-                - 'https://www.crunchbase.com/organization/shotgun-software'
-                - 'https://www.crunchbase.com/organization/bitsquid-ab'
-                - 'https://www.crunchbase.com/organization/hsmworks-technology'
-                - 'https://www.crunchbase.com/organization/colourlovers'
-                - 'https://www.crunchbase.com/organization/ilesfay-technology-group'
-                - 'https://www.crunchbase.com/organization/delcam'
-                - 'https://www.crunchbase.com/organization/graitec-group'
-                - 'https://www.crunchbase.com/organization/tinkercad'
-                - 'https://www.crunchbase.com/organization/firehole-composites'
-                - 'https://www.crunchbase.com/organization/allpoint-systems'
-                - 'https://www.crunchbase.com/organization/qontext'
-                - 'https://www.crunchbase.com/organization/inforbix'
-                - 'https://www.crunchbase.com/organization/socialcam'
-                - 'https://www.crunchbase.com/organization/vela-systems'
-                - 'https://www.crunchbase.com/organization/horizontal-systems'
-                - 'https://www.crunchbase.com/organization/grip-entertainment'
-                - 'https://www.crunchbase.com/organization/meshmixer'
-                - 'https://www.crunchbase.com/organization/micro-application-packages-ltd'
-                - 'https://www.crunchbase.com/organization/numenus'
-                - 'https://www.crunchbase.com/organization/evolver'
-                - 'https://www.crunchbase.com/organization/instructables'
-                - 'https://www.crunchbase.com/organization/pixlr'
-                - 'https://www.crunchbase.com/organization/scaleform'
-                - 'https://www.crunchbase.com/organization/blue-ridge-numerics'
-                - 'https://www.crunchbase.com/organization/wild-pockets'
-                - 'https://www.crunchbase.com/organization/simopsstudios'
-                - 'https://www.crunchbase.com/organization/illuminate-labs'
-                - 'https://www.crunchbase.com/organization/planplatform'
-                - 'https://www.crunchbase.com/organization/bimworld-assets'
-                - 'https://www.crunchbase.com/organization/algor'
-                - 'https://www.crunchbase.com/organization/softimage'
-                - 'https://www.crunchbase.com/organization/elektro-cae-software-gmbh'
-                - 'https://www.crunchbase.com/organization/3d-geo'
-                - 'https://www.crunchbase.com/organization/ecotect'
-                - 'https://www.crunchbase.com/organization/realviz-s-a'
-                - 'https://www.crunchbase.com/organization/moldflow'
-                - 'https://www.crunchbase.com/organization/kynogon'
-                - 'https://www.crunchbase.com/organization/carmel-software-corp'
-                - 'https://www.crunchbase.com/organization/skymatter'
-                - 'https://www.crunchbase.com/organization/plassotech'
-                - 'https://www.crunchbase.com/organization/cumulate-labs'
-                - 'https://www.crunchbase.com/organization/navisworks'
-                - 'https://www.crunchbase.com/organization/robobat'
-                - 'https://www.crunchbase.com/organization/constructware'
-                - 'https://www.crunchbase.com/organization/alias-systems'
-                - 'https://www.crunchbase.com/organization/compass-systems'
-                - 'https://www.crunchbase.com/organization/mechsoft'
-                - 'https://www.crunchbase.com/organization/linius-technologies-assets'
-                - 'https://www.crunchbase.com/organization/caice-software-corp'
-                - 'https://www.crunchbase.com/organization/revit-technology-corporation'
-                - 'https://www.crunchbase.com/organization/buzzsaw-com-an-autodesk-venture'
-                - 'https://www.crunchbase.com/organization/gentry-systems'
-                - 'https://www.crunchbase.com/organization/discreet-logic'
-                - 'https://www.crunchbase.com/organization/softdesk'
-                - 'https://www.crunchbase.com/organization/ithaca-software-2'
-                - 'https://www.crunchbase.com/organization/micro-engineering-solutions'
+              parents: []
               ticker: ADSK
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 30886191104
+              market_cap: 32768538624
               effective_ticker: ADSK
             image_data:
               fileName: autodesk.svg
@@ -2937,7 +2788,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T19:00:01.000Z
+              latest_tweet_date: 2019-09-11T16:31:00.000Z
           - item:
             name: Blue Sky Studios
             homepage_url: 'http://blueskystudios.com/'
@@ -2954,7 +2805,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/blueskystudios'
               linkedin: 'https://www.linkedin.com/company/blue-sky-studios?trk=mini-profile'
-              acquisited: []
+              parents: []
             image_data:
               fileName: blue-sky-studios.svg
               hash: lQ2pnr2YJV2QmG8jFtfPB8o4Xc7sf1JJd3pkhtvf6lU=
@@ -2962,7 +2813,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T18:49:17.000Z
+              latest_tweet_date: 2019-09-11T16:08:04.000Z
           - item:
             name: Cisco
             homepage_url: 'https://www.cisco.com/'
@@ -2979,111 +2830,11 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/cisco'
               linkedin: 'https://www.linkedin.com/company/cisco'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/cloudcherry'
-                - 'https://www.crunchbase.com/organization/workfit'
-                - 'https://www.crunchbase.com/organization/acacia-communications'
-                - 'https://www.crunchbase.com/organization/sentryo'
-                - 'https://www.crunchbase.com/organization/singularity-networks'
-                - 'https://www.crunchbase.com/organization/luxtera'
-                - 'https://www.crunchbase.com/organization/ensoft-ltd'
-                - 'https://www.crunchbase.com/organization/duo-security'
-                - 'https://www.crunchbase.com/organization/july-systems'
-                - 'https://www.crunchbase.com/organization/accompany'
-                - 'https://www.crunchbase.com/organization/skyport-systems'
-                - 'https://www.crunchbase.com/organization/batch-ly'
-                - 'https://www.crunchbase.com/organization/broadsoft'
-                - 'https://www.crunchbase.com/organization/perspica'
-                - 'https://www.crunchbase.com/organization/springpath-inc'
-                - 'https://www.crunchbase.com/organization/observable-networks'
-                - 'https://www.crunchbase.com/organization/mindmeld'
-                - 'https://www.crunchbase.com/organization/viptela'
-                - 'https://www.crunchbase.com/organization/appdynamics'
-                - 'https://www.crunchbase.com/organization/worklife'
-                - 'https://www.crunchbase.com/organization/containerx'
-                - 'https://www.crunchbase.com/organization/cloudlock'
-                - 'https://www.crunchbase.com/organization/synata'
-                - 'https://www.crunchbase.com/organization/leaba-semiconductor'
-                - 'https://www.crunchbase.com/organization/cliqr-technologies'
-                - 'https://www.crunchbase.com/organization/jasper-wireless'
-                - 'https://www.crunchbase.com/organization/acano'
-                - 'https://www.crunchbase.com/organization/1-mainstream'
-                - 'https://www.crunchbase.com/organization/lancope'
-                - 'https://www.crunchbase.com/organization/parstream'
-                - 'https://www.crunchbase.com/organization/pawaa-software'
-                - 'https://www.crunchbase.com/organization/portcullis'
-                - 'https://www.crunchbase.com/organization/maintenancenet'
-                - 'https://www.crunchbase.com/organization/opendns'
-                - 'https://www.crunchbase.com/organization/piston-cloud-computing'
-                - 'https://www.crunchbase.com/organization/tropo'
-                - 'https://www.crunchbase.com/organization/embrane'
-                - 'https://www.crunchbase.com/organization/ksr'
-                - 'https://www.crunchbase.com/organization/memoir-systems'
-                - 'https://www.crunchbase.com/organization/metacloud'
-                - 'https://www.crunchbase.com/organization/assemblage'
-                - 'https://www.crunchbase.com/organization/tail-f-systems'
-                - 'https://www.crunchbase.com/organization/threatgrid'
-                - 'https://www.crunchbase.com/organization/collaborate-com'
-                - 'https://www.crunchbase.com/organization/insieme'
-                - 'https://www.crunchbase.com/organization/pioneer-sourcefire'
-                - 'https://www.crunchbase.com/organization/whiptail'
-                - 'https://www.crunchbase.com/organization/sourcefire'
-                - 'https://www.crunchbase.com/organization/composite-software-inc'
-                - 'https://www.crunchbase.com/organization/joulex'
-                - 'https://www.crunchbase.com/organization/ubiquisys'
-                - 'https://www.crunchbase.com/organization/solvedirect-service-management'
-                - 'https://www.crunchbase.com/organization/cognitive-security'
-                - 'https://www.crunchbase.com/organization/intucell'
-                - 'https://www.crunchbase.com/organization/broadhop'
-                - 'https://www.crunchbase.com/organization/cariden-technologies'
-                - 'https://www.crunchbase.com/organization/meraki'
-                - 'https://www.crunchbase.com/organization/cloupia'
-                - 'https://www.crunchbase.com/organization/vcider'
-                - 'https://www.crunchbase.com/organization/thinksmart-technologies'
-                - 'https://www.crunchbase.com/organization/virtuata'
-                - 'https://www.crunchbase.com/organization/truviso'
-                - 'https://www.crunchbase.com/organization/clearaccess'
-                - 'https://www.crunchbase.com/organization/nds-group-2'
-                - 'https://www.crunchbase.com/organization/nds'
-                - 'https://www.crunchbase.com/organization/lightwire'
-                - 'https://www.crunchbase.com/organization/bni-video'
-                - 'https://www.crunchbase.com/organization/versly'
-                - 'https://www.crunchbase.com/organization/axiom-systems'
-                - 'https://www.crunchbase.com/organization/axioss'
-                - 'https://www.crunchbase.com/organization/newscale'
-                - 'https://www.crunchbase.com/organization/pari-networks'
-                - 'https://www.crunchbase.com/organization/inlet-technologies'
-                - 'https://www.crunchbase.com/organization/linesider-technologies'
-                - 'https://www.crunchbase.com/organization/arch-rock-corporationarch-rock-corporation'
-                - 'https://www.crunchbase.com/organization/extend-media'
-                - 'https://www.crunchbase.com/organization/coreoptics'
-                - 'https://www.crunchbase.com/organization/moto-development-group'
-                - 'https://www.crunchbase.com/organization/rohati-systems'
-                - 'https://www.crunchbase.com/organization/starent-networks'
-                - 'https://www.crunchbase.com/organization/dvn'
-                - 'https://www.crunchbase.com/organization/scansafe'
-                - 'https://www.crunchbase.com/organization/tandberg'
-                - 'https://www.crunchbase.com/organization/tidal-software'
-                - 'https://www.crunchbase.com/organization/pure-digital-technologies'
-                - 'https://www.crunchbase.com/organization/richards-zeta-building-intelligence'
-                - 'https://www.crunchbase.com/organization/jabber'
-                - 'https://www.crunchbase.com/organization/postpath'
-                - 'https://www.crunchbase.com/organization/pure-networks'
-                - 'https://www.crunchbase.com/organization/divitech-a-s'
-                - 'https://www.crunchbase.com/organization/fast-data-technology'
-                - 'https://www.crunchbase.com/organization/nuova-systems'
-                - 'https://www.crunchbase.com/organization/securent'
-                - 'https://www.crunchbase.com/organization/navini-networks'
-                - 'https://www.crunchbase.com/organization/latigent'
-                - 'https://www.crunchbase.com/organization/cognio'
-                - 'https://www.crunchbase.com/organization/broadware-technologies'
-                - 'https://www.crunchbase.com/organization/spans-logic'
-                - 'https://www.crunchbase.com/organization/webex'
-                - 'https://www.crunchbase.com/organization/neopath-networks'
+              parents: []
               ticker: CSCO
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 201899278336
+              market_cap: 206362247168
               effective_ticker: CSCO
             image_data:
               fileName: cisco.svg
@@ -3092,7 +2843,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T23:08:31.000Z
+              latest_tweet_date: 2019-09-11T23:08:22.000Z
           - item:
             name: Double Negative
             homepage_url: 'https://www.dneg.com/'
@@ -3109,7 +2860,7 @@ landscape:
               country: United Kingdom
               twitter: 'https://twitter.com/dneg'
               linkedin: 'https://www.linkedin.com/company/double-negative/'
-              acquisited: []
+              parents: []
             image_data:
               fileName: double-negative.svg
               hash: 3Ov7bAxA09Y+EyDluegnrFAVgRxzL4KdTaeZw3mh4jk=
@@ -3117,7 +2868,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T18:55:12.000Z
+              latest_tweet_date: 2019-09-11T08:24:05.000Z
           - item:
             name: Dreamworks Animation
             homepage_url: 'https://www.dreamworks.com'
@@ -3135,7 +2886,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/dw_studios'
               linkedin: null
-              acquisited: []
+              parents: []
             image_data:
               fileName: dreamworks-animation.svg
               hash: xBhFUXWNxkHJ4oRFSgZrTVf/jf4NgbSKIlUcC0g1G8s=
@@ -3143,7 +2894,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T19:00:01.000Z
+              latest_tweet_date: 2019-09-11T19:00:19.000Z
           - item:
             name: Epic Games
             homepage_url: 'https://www.unrealengine.com/'
@@ -3160,14 +2911,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/epicgames'
               linkedin: 'https://www.linkedin.com/company/19327'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/life-on-air'
-                - 'https://www.crunchbase.com/organization/twinmotion'
-                - 'https://www.crunchbase.com/organization/psyonix'
-                - 'https://www.crunchbase.com/organization/agog-labs'
-                - 'https://www.crunchbase.com/organization/3lateral'
-                - 'https://www.crunchbase.com/organization/kamu'
-                - 'https://www.crunchbase.com/organization/cloudgine'
+              parents: []
               kind: funding
               funding: 1580000000
             image_data:
@@ -3177,7 +2921,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T21:10:24.000Z
+              latest_tweet_date: 2019-09-11T21:18:32.000Z
           - item:
             name: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/'
@@ -3194,12 +2938,13 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/googlecloud'
               linkedin: 'https://www.linkedin.com/company/google-cloud'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/bitium'
+              parents:
+                - 'https://www.crunchbase.com/organization/google'
+                - 'https://www.crunchbase.com/organization/alphabet'
               ticker: GOOG
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 825399705600
+              market_cap: 834357166080
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud-platform.svg
@@ -3208,7 +2953,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-11T00:02:55.000Z
+              latest_tweet_date: 2019-09-11T21:42:26.000Z
           - item:
             name: Intel
             homepage_url: 'https://www.intel.com/'
@@ -3225,106 +2970,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/intel'
               linkedin: 'https://www.linkedin.com/company/intel-corporation'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/barefoot-networks'
-                - 'https://www.crunchbase.com/organization/omnitek'
-                - 'https://www.crunchbase.com/organization/ineda-systems'
-                - 'https://www.crunchbase.com/organization/netspeed-systems'
-                - 'https://www.crunchbase.com/organization/vertex-ai'
-                - 'https://www.crunchbase.com/organization/easic'
-                - 'https://www.crunchbase.com/organization/mobileye-vision-technologies'
-                - 'https://www.crunchbase.com/organization/voke'
-                - 'https://www.crunchbase.com/organization/mavinci-gmbh'
-                - 'https://www.crunchbase.com/organization/soft-machines'
-                - 'https://www.crunchbase.com/organization/movidius'
-                - 'https://www.crunchbase.com/organization/nervana-systems'
-                - 'https://www.crunchbase.com/organization/itseez'
-                - 'https://www.crunchbase.com/organization/yogitech'
-                - 'https://www.crunchbase.com/organization/replay-technologies'
-                - 'https://www.crunchbase.com/organization/ascending-technologies'
-                - 'https://www.crunchbase.com/organization/saffron-technology'
-                - 'https://www.crunchbase.com/organization/docea-power'
-                - 'https://www.crunchbase.com/organization/recon-instruments'
-                - 'https://www.crunchbase.com/organization/altera'
-                - 'https://www.crunchbase.com/organization/lemoptix'
-                - 'https://www.crunchbase.com/organization/lantiq'
-                - 'https://www.crunchbase.com/organization/composyt-light-labs'
-                - 'https://www.crunchbase.com/organization/passwordbox'
-                - 'https://www.crunchbase.com/organization/lsi-corporation'
-                - 'https://www.crunchbase.com/organization/basis-science'
-                - 'https://www.crunchbase.com/organization/appmobi'
-                - 'https://www.crunchbase.com/organization/hacker-league'
-                - 'https://www.crunchbase.com/organization/kno'
-                - 'https://www.crunchbase.com/organization/sensory-networks'
-                - 'https://www.crunchbase.com/organization/indisys'
-                - 'https://www.crunchbase.com/organization/xtreme-insights'
-                - 'https://www.crunchbase.com/organization/omek-interactive'
-                - 'https://www.crunchbase.com/organization/aepona'
-                - 'https://www.crunchbase.com/organization/mashery'
-                - 'https://www.crunchbase.com/organization/ziilabs'
-                - 'https://www.crunchbase.com/organization/whamcloud'
-                - 'https://www.crunchbase.com/organization/idesia'
-                - 'https://www.crunchbase.com/organization/olaworks'
-                - 'https://www.crunchbase.com/organization/telmap'
-                - 'https://www.crunchbase.com/organization/cofluent-design'
-                - 'https://www.crunchbase.com/organization/fulcrum-microsystems'
-                - 'https://www.crunchbase.com/organization/siport'
-                - 'https://www.crunchbase.com/organization/nordic-edge'
-                - 'https://www.crunchbase.com/organization/silicon-hive'
-                - 'https://www.crunchbase.com/organization/sysdsoft'
-                - 'https://www.crunchbase.com/organization/cognovision'
-                - 'https://www.crunchbase.com/organization/mcafee'
-                - 'https://www.crunchbase.com/organization/infineon'
-                - 'https://www.crunchbase.com/organization/rapidmind'
-                - 'https://www.crunchbase.com/organization/cilk'
-                - 'https://www.crunchbase.com/organization/cilk-arts'
-                - 'https://www.crunchbase.com/organization/wind-river'
-                - 'https://www.crunchbase.com/organization/swiftfoot-graphics-ab'
-                - 'https://www.crunchbase.com/organization/net-effect-systems'
-                - 'https://www.crunchbase.com/organization/neteffect-corp'
-                - 'https://www.crunchbase.com/organization/opened-hand'
-                - 'https://www.crunchbase.com/organization/havok'
-                - 'https://www.crunchbase.com/organization/conformative-systems'
-                - 'https://www.crunchbase.com/organization/sarvega'
-                - 'https://www.crunchbase.com/organization/oplus-technologies'
-                - 'https://www.crunchbase.com/organization/envara'
-                - 'https://www.crunchbase.com/organization/mobilian'
-                - 'https://www.crunchbase.com/organization/acirro'
-                - 'https://www.crunchbase.com/organization/west-bay-semiconductor'
-                - 'https://www.crunchbase.com/organization/scale-eight'
-                - 'https://www.crunchbase.com/organization/iospan-wireless'
-                - 'https://www.crunchbase.com/organization/sparkolor-corporation'
-                - 'https://www.crunchbase.com/organization/lightlogic'
-                - 'https://www.crunchbase.com/organization/cognet-2'
-                - 'https://www.crunchbase.com/organization/icp-vortex-computersysteme'
-                - 'https://www.crunchbase.com/organization/cad-ul'
-                - 'https://www.crunchbase.com/organization/vxtel'
-                - 'https://www.crunchbase.com/organization/xircom'
-                - 'https://www.crunchbase.com/organization/ziatech'
-                - 'https://www.crunchbase.com/organization/datakinetics'
-                - 'https://www.crunchbase.com/organization/ford-microelectronics'
-                - 'https://www.crunchbase.com/organization/picazo-communications'
-                - 'https://www.crunchbase.com/organization/kuck-associates'
-                - 'https://www.crunchbase.com/organization/basis-communications'
-                - 'https://www.crunchbase.com/organization/giga'
-                - 'https://www.crunchbase.com/organization/voice-technologies'
-                - 'https://www.crunchbase.com/organization/thinkit-technologies'
-                - 'https://www.crunchbase.com/organization/ambient-technologies'
-                - 'https://www.crunchbase.com/organization/parity-software-development'
-                - 'https://www.crunchbase.com/organization/ipivot'
-                - 'https://www.crunchbase.com/organization/xlnt'
-                - 'https://www.crunchbase.com/organization/netboost'
-                - 'https://www.crunchbase.com/organization/softcom-microsystems'
-                - 'https://www.crunchbase.com/organization/level-one-communications'
-                - 'https://www.crunchbase.com/organization/icat'
-                - 'https://www.crunchbase.com/organization/shiva-corporation'
-                - 'https://www.crunchbase.com/organization/corollary'
-                - 'https://www.crunchbase.com/organization/dayna-communications'
-                - 'https://www.crunchbase.com/organization/chips-and-technologies'
+              parents: []
               ticker: INTC
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 213738323968
+              market_cap: 214911778816
               effective_ticker: INTC
             image_data:
               fileName: intel.svg
@@ -3333,7 +2983,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T21:59:00.000Z
+              latest_tweet_date: 2019-09-11T22:35:08.000Z
           - item:
             name: Netflix
             homepage_url: 'https://www.netflix.com/'
@@ -3350,13 +3000,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/netflix'
               linkedin: 'https://www.linkedin.com/company/netflix'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/storybots'
-                - 'https://www.crunchbase.com/organization/millarworld'
+              parents: []
               ticker: NFLX
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 127647817728
+              market_cap: 128739074048
               effective_ticker: NFLX
             image_data:
               fileName: netflix.svg
@@ -3365,7 +3013,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T23:58:58.000Z
+              latest_tweet_date: 2019-09-11T23:58:05.000Z
           - item:
             name: NVIDIA
             homepage_url: 'https://www.nvidia.com/'
@@ -3382,25 +3030,11 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/nvidia'
               linkedin: 'https://www.linkedin.com/company/3608'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/mellanox-technologies'
-                - 'https://www.crunchbase.com/organization/transgaming'
-                - 'https://www.crunchbase.com/organization/pgi-2'
-                - 'https://www.crunchbase.com/organization/icera'
-                - 'https://www.crunchbase.com/organization/rayscale'
-                - 'https://www.crunchbase.com/organization/ageia-technologies'
-                - 'https://www.crunchbase.com/organization/mental-images'
-                - 'https://www.crunchbase.com/organization/portalplayer'
-                - 'https://www.crunchbase.com/organization/hybrid-graphics'
-                - 'https://www.crunchbase.com/organization/uli-electronics'
-                - 'https://www.crunchbase.com/organization/iready'
-                - 'https://www.crunchbase.com/organization/mediaq-inc'
-                - 'https://www.crunchbase.com/organization/exluna'
-                - 'https://www.crunchbase.com/organization/3dfx-interactive'
+              parents: []
               ticker: NVDA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 104600363008
+              market_cap: 112256974848
               effective_ticker: NVDA
             image_data:
               fileName: nvidia.svg
@@ -3409,7 +3043,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T17:28:00.000Z
+              latest_tweet_date: 2019-09-11T15:25:01.000Z
           - item:
             name: Sony Imageworks
             homepage_url: 'https://www.sonypictures.com/'
@@ -3426,7 +3060,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/imageworksvfx'
               linkedin: null
-              acquisited: []
+              parents: []
             image_data:
               fileName: sony-imageworks.svg
               hash: rz7KlcsvQCbXOGns/CMMsHQB2rpEcm48ewVtjqL05+Y=
@@ -3451,37 +3085,11 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
-              acquisited:
-                - 'https://www.crunchbase.com/organization/21st-century-fox'
-                - 'https://www.crunchbase.com/organization/bamtech'
-                - 'https://www.crunchbase.com/organization/makielab'
-                - 'https://www.crunchbase.com/organization/maker-studios'
-                - 'https://www.crunchbase.com/organization/lucasfilm'
-                - 'https://www.crunchbase.com/organization/utv-software-communications'
-                - 'https://www.crunchbase.com/organization/babble'
-                - 'https://www.crunchbase.com/organization/rocket-pack'
-                - 'https://www.crunchbase.com/organization/playdom'
-                - 'https://www.crunchbase.com/organization/tapulous'
-                - 'https://www.crunchbase.com/organization/marvel-entertainment'
-                - 'https://www.crunchbase.com/organization/kaboose'
-                - 'https://www.crunchbase.com/organization/kerpoof'
-                - 'https://www.crunchbase.com/organization/jetix'
-                - 'https://www.crunchbase.com/organization/fanlib'
-                - 'https://www.crunchbase.com/organization/ideal-bite'
-                - 'https://www.crunchbase.com/organization/clubpenguin'
-                - 'https://www.crunchbase.com/organization/hungama-tv'
-                - 'https://www.crunchbase.com/organization/pixar'
-                - 'https://www.crunchbase.com/organization/living-mobile'
-                - 'https://www.crunchbase.com/organization/minds-eye-productions'
-                - 'https://www.crunchbase.com/organization/baby-einstein'
-                - 'https://www.crunchbase.com/organization/fox-family-worldwide'
-                - 'https://www.crunchbase.com/organization/infoseek'
-                - 'https://www.crunchbase.com/organization/jumbo-pictures'
-                - 'https://www.crunchbase.com/organization/abc'
+              parents: []
               ticker: DIS
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 240595435520
+              market_cap: 241304174592
               effective_ticker: DIS
             image_data:
               fileName: walt-disney-studios.svg
@@ -3505,7 +3113,7 @@ landscape:
               country: New Zealand
               twitter: 'https://twitter.com/wetafx'
               linkedin: 'https://in.linkedin.com/company/weta-digital'
-              acquisited: []
+              parents: []
             image_data:
               fileName: weta-digital.svg
               hash: Ouw5QiyHrryssXInmOmwsGE3AzqgmjrbwqE5u5BSe4Q=
@@ -3533,8 +3141,7 @@ landscape:
               country: United Kingdom
               twitter: 'https://www.twitter.com/thefoundryteam'
               linkedin: 'https://www.linkedin.com/company-beta/33583/'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/luxology'
+              parents: []
             image_data:
               fileName: foundry.svg
               hash: dX3yDKZs/DQbHlwLh1aYMkV6hEpANcNCMo5znicdeHw=
@@ -3542,7 +3149,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T13:00:00.000Z
+              latest_tweet_date: 2019-09-11T15:27:57.000Z
           - item:
             name: ftrack
             homepage_url: 'https://www.ftrack.com/en/'
@@ -3559,7 +3166,7 @@ landscape:
               country: Sweden
               twitter: 'https://twitter.com/ftrackhq'
               linkedin: 'https://www.linkedin.com/company/ftrack/'
-              acquisited: []
+              parents: []
               kind: funding
               funding: 3500000
             image_data:
@@ -3569,7 +3176,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T21:00:27.000Z
+              latest_tweet_date: 2019-09-11T22:00:25.000Z
           - item:
             name: RedHat
             homepage_url: 'https://www.redhat.com/'
@@ -3587,33 +3194,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/redhat'
               linkedin: 'https://www.linkedin.com/company/red-hat'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/noobaa'
-                - 'https://www.crunchbase.com/organization/coreos'
-                - 'https://www.crunchbase.com/organization/permabit'
-                - 'https://www.crunchbase.com/organization/codenvy'
-                - 'https://www.crunchbase.com/organization/3scale'
-                - 'https://www.crunchbase.com/organization/ansible'
-                - 'https://www.crunchbase.com/organization/feedhenry'
-                - 'https://www.crunchbase.com/organization/enovance'
-                - 'https://www.crunchbase.com/organization/inktank'
-                - 'https://www.crunchbase.com/organization/manageiq'
-                - 'https://www.crunchbase.com/organization/bpm-technology'
-                - 'https://www.crunchbase.com/organization/polymita-technologies'
-                - 'https://www.crunchbase.com/organization/fusesource'
-                - 'https://www.crunchbase.com/organization/gluster'
-                - 'https://www.crunchbase.com/organization/makara'
-                - 'https://www.crunchbase.com/organization/qumranet-inc'
-                - 'https://www.crunchbase.com/organization/identyx'
-                - 'https://www.crunchbase.com/organization/amentra'
-                - 'https://www.crunchbase.com/organization/metamatrix-red-hat'
-                - 'https://www.crunchbase.com/organization/jboss'
-                - 'https://www.crunchbase.com/organization/sistina-software'
-                - 'https://www.crunchbase.com/organization/nocpulse'
+              parents: []
               ticker: RHT
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123889098752
+              market_cap: 120904597504
               effective_ticker: IBM
             image_data:
               fileName: red-hat.svg
@@ -3622,7 +3207,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T20:00:08.000Z
+              latest_tweet_date: 2019-09-11T21:07:01.000Z
           - item:
             name: RodeoFX
             homepage_url: 'https://www.rodeofx.com/'
@@ -3639,8 +3224,7 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/FXRodeo'
               linkedin: 'https://www.linkedin.com/company/rodeo-fx/'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/rodeo-production'
+              parents: []
             image_data:
               fileName: rodeo-fx.svg
               hash: SNA03v9WN70YKzcEbWGyTQnDEgT6LawaPWCYjx89qbw=
@@ -3648,7 +3232,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T22:01:51.000Z
+              latest_tweet_date: 2019-09-11T22:42:51.000Z
           - item:
             name: SideFX
             homepage_url: 'https://www.sidefx.com/'
@@ -3665,7 +3249,7 @@ landscape:
               country: Canada
               twitter: 'https://twitter.com/sidefx'
               linkedin: 'https://www.linkedin.com/company/20479/'
-              acquisited: []
+              parents: []
             image_data:
               fileName: side-fx.svg
               hash: bnTkA6/b4ExrCe3Q9t7IqK5PASc+pl1TrW3lm7+PwLk=
@@ -3690,8 +3274,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/Warnerbrosent'
               linkedin: 'https://www.linkedin.com/company/2470'
-              acquisited:
-                - 'https://www.crunchbase.com/organization/plexchat'
+              parents: []
             image_data:
               fileName: warner-brothers.svg
               hash: eeHTn2fsVVUVRhu8aylgbG9UKRUz3tuN4IXjncHlV9k=
@@ -3719,7 +3302,7 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/theacademy'
               linkedin: 'https://www.facebook.com/TheAcademy/'
-              acquisited: []
+              parents: []
             image_data:
               fileName: academy-of-motion-picture-arts-and-sciences.svg
               hash: YPvhIL6BEdtzg78+TVM0N7B9UwcJGXCuDbMGik6zKxw=
@@ -3745,7 +3328,7 @@ landscape:
               country: The Netherlands
               twitter: 'http://twitter.com/blender3d'
               linkedin: null
-              acquisited: []
+              parents: []
               kind: funding
               funding: 1200000
             image_data:
@@ -3772,7 +3355,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: 'https://www.linkedin.com/company/3100263'
-              acquisited: []
+              parents: []
             image_data:
               fileName: movie-labs.svg
               hash: GXQPZlWAByoxV0ZgF3ls55NsenAEq9Ry5pabeXCnEkA=
@@ -3795,7 +3378,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/VFXSociety'
               linkedin: 'https://www.linkedin.com/in/visualeffectssociety/en'
-              acquisited: []
+              parents: []
             image_data:
               fileName: ves.svg
               hash: M6/aG8tUvsvMNSkRxP+S+c67VKhOS8UZo6BnNaf01sg=
