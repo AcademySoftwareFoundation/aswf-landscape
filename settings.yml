@@ -113,7 +113,7 @@ big_picture:
         category: Imaging and Color
         rows: 3
         width: 750
-        height: 150
+        height: 170
         top: 0
         left: 0
         color: 'rgb(78,171,207)'
@@ -122,8 +122,8 @@ big_picture:
         category: Assets and Workflow
         rows: 3
         width: 750
-        height: 150
-        top: 180
+        height: 170
+        top: 210
         left: 0
         color: 'rgb(104,145,145)'
         fit_width: true
@@ -131,8 +131,8 @@ big_picture:
         category: Rendering and Queueing
         rows: 4
         width: 365
-        height: 200
-        top: 360
+        height: 170
+        top: 420
         left: 0
         color: 'rgb(108,135,75)'
         fit_width: true
@@ -140,23 +140,23 @@ big_picture:
         category: Math and Simulation
         rows: 4
         width: 365
-        height: 200
-        top: 360
+        height: 170
+        top: 420
         left: 385
         color: 'rgb(130,207,231)'
         fit_width: true
       - type: VerticalCategory
         category: ASWF Member Company
         cols: 8
-        width: 365
-        height: 340
-        top: 220
+        width: 355
+        height: 390
+        top: 210
         left: 770
         color: 'rgb(124, 200, 182)'
         fit_width: true
       - type: LandscapeInfo
         width: 365
-        height: 200
+        height: 190
         top: 0
         left: 770
         children:
