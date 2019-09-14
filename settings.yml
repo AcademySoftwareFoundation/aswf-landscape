@@ -99,35 +99,62 @@ big_picture:
     fullscreen_header: See the interactive landscape at l.aswf.io
     method: getGroupedItemsForCncfBigPicture
     size:
-      width: 1115
-      height: 670
+      width: 1155
+      height: 600
     fullscreen_size:
       width: 1155
-      height: 740
+      height: 600
     elements:
       - type: HorizontalCategory
-        category: Projects
-        rows: 10
-        width: 700
-        height: 500
+        category: Imaging and Color
+        rows: 3
+        width: 750
+        height: 150
         top: 0
         left: 0
         color: 'rgb(78,171,207)'
-        fit_width: false
+        fit_width: true
       - type: HorizontalCategory
-        category: ASWF Member Company
-        rows: 6
-        width: 800
-        height: 300
-        top: 570
+        category: Assets and Workflow
+        rows: 3
+        width: 750
+        height: 150
+        top: 180
         left: 0
+        color: 'rgb(104,145,145)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Rendering and Queueing
+        rows: 4
+        width: 365
+        height: 200
+        top: 360
+        left: 0
+        color: 'rgb(108,135,75)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Math and Simulation
+        rows: 4
+        width: 365
+        height: 200
+        top: 360
+        left: 385
+        color: 'rgb(130,207,231)'
+        fit_width: true
+      - type: VerticalCategory
+        category: ASWF Member Company
+        cols: 8
+        width: 365
+        height: 340
+        top: 220
+        left: 770
         color: 'rgb(124, 200, 182)'
         fit_width: true
       - type: LandscapeInfo
         width: 365
         height: 200
         top: 0
-        left: 750
+        left: 770
         children:
           - type: text
             text: >
