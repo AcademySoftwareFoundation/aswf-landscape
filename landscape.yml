@@ -32,7 +32,7 @@ landscape:
             logo: colortribe.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
       - subcategory:
-        name: Image Formats, I/O, and Processing Libraries
+        name: 'Image Formats, I/O, and Processing Libraries'
         items:
           - item:
             name: depix
@@ -80,17 +80,17 @@ landscape:
             logo: 'https://github.com/openMVG/openMVG/blob/master/logo/openMVG_Logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
           - item:
-            name: Ptex
-            homepage_url: 'http://ptex.us/'
-            repo_url: 'https://github.com/wdas/ptex'
-            logo: PtexCubeOrange64.svg
-            crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
-          - item:
             name: pfstools
             homepage_url: 'http://pfstools.sourceforge.net/'
             repo_url: 'https://github.com/Steve132/pfstools'
             logo: pfstools.svg
             crunchbase: 'https://www.crunchbase.com/organization/max-planck-institute-for-informatics'
+          - item:
+            name: Ptex
+            homepage_url: 'http://ptex.us/'
+            repo_url: 'https://github.com/wdas/ptex'
+            logo: PtexCubeOrange64.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walt-disney-animation-studios'
           - item:
             name: PySceneDetect
             homepage_url: 'http://bcastell.com/projects/PySceneDetect/'
@@ -113,18 +113,18 @@ landscape:
             logo: djv.svg
             crunchbase: 'https://www.crunchbase.com/organization/unexpected-gmbh'
           - item:
+            name: Duke
+            homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
+            repo_url: 'https://github.com/mikrosimage/duke'
+            logo: duke.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+          - item:
             name: Jeri
             homepage_url: 'https://jeri.io/'
             repo_url: 'https://github.com/disneyresearch/jeri'
             logo: jeri.svg
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/disney-research'
-          - item:
-            name: Duke
-            homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
-            repo_url: 'https://github.com/mikrosimage/duke'
-            logo: duke.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
       - subcategory:
         name: Interactive Compositing and Painting
         items:
@@ -220,6 +220,13 @@ landscape:
             logo: meshroom.svg
             crunchbase: 'https://www.crunchbase.com/organization/horizon-2020'
           - item:
+            name: Open Subdiv
+            homepage_url: 'http://graphics.pixar.com/opensubdiv/'
+            repo_url: 'https://github.com/PixarAnimationStudios/OpenSubdiv'
+            logo: opensubdiv.svg
+            twitter: 'https://twitter.com/pixar'
+            crunchbase: 'https://www.crunchbase.com/organization/pixar'
+          - item:
             name: OpenFlipper
             homepage_url: 'http://openflipper.org'
             repo_url: 'https://github.com/heartvalve/OpenFlipper'
@@ -231,13 +238,6 @@ landscape:
             repo_url: 'https://github.com/etlapale/OpenMesh'
             logo: openmesh.svg
             crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
-          - item:
-            name: Open Subdiv
-            homepage_url: 'http://graphics.pixar.com/opensubdiv/'
-            repo_url: 'https://github.com/PixarAnimationStudios/OpenSubdiv'
-            logo: opensubdiv.svg
-            twitter: 'https://twitter.com/pixar'
-            crunchbase: 'https://www.crunchbase.com/organization/pixar'
           - item:
             name: 'USD: Universal Scene Description'
             homepage_url: 'http://graphics.pixar.com/usd/'
@@ -352,7 +352,7 @@ landscape:
     name: Rendering and Queueing
     subcategories:
       - subcategory:
-        name: Rendering, Lighting, and Lookdev
+        name: 'Rendering, Lighting, and Lookdev'
         items:
           - item:
             name: MaterialX
@@ -540,6 +540,11 @@ landscape:
             logo: intel.svg
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
+            name: Microsoft
+            homepage_url: 'http://www.microsoft.com/'
+            logo: microsoft.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
             name: Netflix
             homepage_url: 'https://www.netflix.com/'
             logo: netflix.svg
@@ -549,11 +554,6 @@ landscape:
             homepage_url: 'https://www.nvidia.com/'
             logo: nvidia.svg
             crunchbase: 'https://www.crunchbase.com/organization/nvidia'
-          - item:
-            name: Microsoft
-            homepage_url: 'http://www.microsoft.com/'
-            logo: microsoft.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Sony Imageworks
             homepage_url: 'https://www.sonypictures.com/'

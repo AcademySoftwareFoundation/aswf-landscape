@@ -28,10 +28,8 @@ landscape:
               stars: 359
               license: Other
               description: AMPAS Academy Color Encoding System Developer Resources
-              latest_commit_date: '2018-06-21T04:00:00.000Z'
+              latest_commit_date: '2018-06-21T00:00:00.000Z'
               latest_commit_link: /ampas/aces-dev/commit/76ea982a988d278dd12b563602771f46a5da3b83
-              release_date: null
-              release_link: null
               contributors_count: 6
               contributors_link: 'https://github.com/ampas/aces-dev/graphs/contributors'
             github_start_commit_data:
@@ -44,7 +42,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-07T16:43:00.000Z
+              latest_tweet_date: 2019-09-13T16:58:17.000Z
           - item:
             name: ColorPipe-tools
             homepage_url: 'http://opensource.mikrosimage.eu/colorPipe.html'
@@ -67,7 +65,7 @@ landscape:
               stars: 64
               license: Other
               description: ColorPipe-tools is a set of tools to handle and process LUTs or color spaces.
-              latest_commit_date: '2015-05-21T04:00:00.000Z'
+              latest_commit_date: '2015-05-21T00:00:00.000Z'
               latest_commit_link: /mikrosimage/ColorPipe-tools/commit/8e92c1f82e912179abf0bc446e7ec872f99be845
               release_date: '2015-05-21T21:07:04Z'
               release_link: 'https://github.com/mikrosimage/ColorPipe-tools/releases'
@@ -83,7 +81,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
           - item:
             name: OpenColorIO
             homepage_url: 'https://opencolorio.org/'
@@ -103,13 +101,14 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               stars: 764
               license: Other
               description: A color management framework for visual effects and animation.
-              latest_commit_date: '2019-09-10T04:00:00.000Z'
-              latest_commit_link: /imageworks/OpenColorIO/commit/b0adba2b1b91e4df5b70e460c505a7849243eaaa
+              latest_commit_date: '2019-09-12T00:00:00.000Z'
+              latest_commit_link: /imageworks/OpenColorIO/commit/c4fac7617a33aba6ca08549aa7aeb36c422362e1
               release_date: '2019-04-03T05:21:22Z'
               release_link: 'https://github.com/imageworks/OpenColorIO/releases'
               contributors_count: 41
@@ -124,7 +123,7 @@ landscape:
               badge: 2612
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-09-04T16:40:40.000Z
+              latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
             name: OpenDisplayCalib
             homepage_url: 'http://opensource.mikrosimage.eu/colortribe.html'
@@ -147,7 +146,7 @@ landscape:
               stars: 27
               license: Other
               description: Color measurement and calibration software suite for display devices
-              latest_commit_date: '2014-01-07T05:00:00.000Z'
+              latest_commit_date: '2014-01-07T00:00:00.000Z'
               latest_commit_link: /mikrosimage/OpenDisplayCalib/commit/a8cc37aa72d378faedc4a44171bcb29a20394432
               release_date: '2013-09-13T17:24:09Z'
               release_link: 'https://github.com/mikrosimage/OpenDisplayCalib/releases'
@@ -163,7 +162,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
       - subcategory:
         name: 'Image Formats, I/O, and Processing Libraries'
         items:
@@ -189,9 +188,9 @@ landscape:
               stars: 7
               license: Unknown License
               description: Read and write DPX file headers
-              latest_commit_date: '2015-07-26T04:00:00.000Z'
+              latest_commit_date: '2015-07-26T00:00:00.000Z'
               latest_commit_link: /guerilla-di/depix/commit/39e6dd364ff19e76a8588187d178c336612f4df8
-              contributors_count: 1
+              contributors_count: 0
               contributors_link: 'https://github.com/guerilla-di/depix/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /guerilla-di/depix/commit/b2431099b71d3d23d04e5b5cf66c18e2c118a0c3
@@ -225,7 +224,7 @@ landscape:
               stars: 5
               license: Unknown License
               description: File Meta Checker is a tool to extract metadata.
-              latest_commit_date: '2013-12-09T05:00:00.000Z'
+              latest_commit_date: '2013-12-09T00:00:00.000Z'
               latest_commit_link: /mikrosimage/FileMetaChecker/commit/7095eee63575b61e994c87e0e771ad2c45a34719
               contributors_count: 1
               contributors_link: 'https://github.com/mikrosimage/FileMetaChecker/graphs/contributors'
@@ -239,7 +238,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
           - item:
             name: Imagemagick
             homepage_url: 'https://www.imagemagick.org/'
@@ -262,8 +261,8 @@ landscape:
               stars: 3137
               license: Other
               description: ImageMagick 7
-              latest_commit_date: '2019-09-13T04:00:00.000Z'
-              latest_commit_link: /ImageMagick/ImageMagick/commit/d1f35c6534543041ffee4d48c712279ec6c6037f
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
+              latest_commit_link: /ImageMagick/ImageMagick/commit/3000960100df719f5ff8dee1cadccc32e115769d
               release_date: '2019-09-08T18:15:54Z'
               release_link: 'https://github.com/ImageMagick/ImageMagick/releases'
               contributors_count: 68
@@ -303,7 +302,7 @@ landscape:
               description: >-
                 Tuttle OFX is a library to connect and batch operations with OpenFx plugins. It comes with a set of plugins that allows you to batch process on
                 movies and file sequences.
-              latest_commit_date: '2018-03-13T04:00:00.000Z'
+              latest_commit_date: '2018-03-13T00:00:00.000Z'
               latest_commit_link: /tuttleofx/TuttleOFX/commit/36fc4cae15092a84ea8c29b9c6658c7cabfadb6e
               release_date: '2017-04-20T12:38:07Z'
               release_link: 'https://github.com/tuttleofx/TuttleOFX/releases'
@@ -319,7 +318,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
           - item:
             name: OpenEXR
             homepage_url: 'https://www.openexr.com/'
@@ -339,15 +338,16 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
-              stars: 717
+              stars: 719
               license: BSD 3-Clause "New" or "Revised" License
               description: >-
                 OpenEXR is a high dynamic-range (HDR) image file format for use in computer imaging applications, originally developed by Industrial Light &
                 Magic, now a part of the Academy Software Foundation.
-              latest_commit_date: '2019-09-09T04:00:00.000Z'
-              latest_commit_link: /openexr/openexr/commit/0503c62120c16e3262b4ab05d243feea030ee826
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
+              latest_commit_link: /openexr/openexr/commit/249acf138194e6d7e00cfc21ba1542f8170de16f
               release_date: '2019-09-05T21:50:03Z'
               release_link: 'https://github.com/openexr/openexr/releases'
               contributors_count: 49
@@ -362,7 +362,7 @@ landscape:
               badge: 2799
               percentage: 95
             twitter_data:
-              latest_tweet_date: 2019-09-04T16:40:40.000Z
+              latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
             name: OpenImageIO
             homepage_url: 'http://www.openimageio.org'
@@ -386,7 +386,7 @@ landscape:
               stars: 965
               license: Other
               description: OpenImageIO
-              latest_commit_date: '2019-09-12T04:00:00.000Z'
+              latest_commit_date: '2019-09-12T00:00:00.000Z'
               latest_commit_link: /OpenImageIO/oiio/commit/74267420f9b3f0158bc2a2b08b6dc33232933692
               release_date: '2019-08-02T18:45:50Z'
               release_link: 'https://github.com/OpenImageIO/oiio/releases'
@@ -423,7 +423,7 @@ landscape:
               stars: 2436
               license: Other
               description: open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
-              latest_commit_date: '2019-07-15T04:00:00.000Z'
+              latest_commit_date: '2019-07-15T00:00:00.000Z'
               latest_commit_link: /openMVG/openMVG/commit/606d1c9e82123dd50de282128151a50bf42262fc
               release_date: '2019-07-15T22:42:14Z'
               release_link: 'https://github.com/openMVG/openMVG/releases'
@@ -438,7 +438,44 @@ landscape:
               badge: 1744
               percentage: 73
             twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
+          - item:
+            name: pfstools
+            homepage_url: 'http://pfstools.sourceforge.net/'
+            repo_url: 'https://github.com/Steve132/pfstools'
+            logo: pfstools.svg
+            crunchbase: 'https://www.crunchbase.com/organization/max-planck-institute-for-informatics'
+            crunchbase_data:
+              name: Max Planck Institute for Informatics
+              description: The Max Planck Institute for Informatics is a research institute in computer science.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.mpi-inf.mpg.de/home/'
+              city: Saarbrücken
+              region: Saarland
+              country: Germany
+              twitter: 'https://www.twitter.com/maxplanckpress'
+              linkedin: null
+              parents: []
+            github_data:
+              stars: 3
+              license: GNU Lesser General Public License v2.1
+              description: pfstools for HDR images
+              latest_commit_date: '2017-06-06T00:00:00.000Z'
+              latest_commit_link: /Steve132/pfstools/commit/4918330cc9f552acad8ab715b84af50fd9cbac04
+              contributors_count: 0
+              contributors_link: 'https://github.com/Steve132/pfstools/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /Steve132/pfstools/commit/fec04caf39286e638962e800446153b48e3fbc2a
+              start_date: '2014-10-13T10:07:24Z'
+            image_data:
+              fileName: pfstools.svg
+              hash: eVNUXZP/f0cAOxnKxgtSktXOcgrVYX4Zwn1ElY3jHAc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T18:46:14.000Z
           - item:
             name: Ptex
             homepage_url: 'http://ptex.us/'
@@ -464,7 +501,7 @@ landscape:
               stars: 429
               license: Unknown License
               description: Per-Face Texture Mapping for Production Rendering
-              latest_commit_date: '2019-05-22T04:00:00.000Z'
+              latest_commit_date: '2019-05-22T00:00:00.000Z'
               latest_commit_link: /wdas/ptex/commit/ca5d68d9eb93f1b757e560bcbb0e1fb5e711bddd
               contributors_count: 12
               contributors_link: 'https://github.com/wdas/ptex/graphs/contributors'
@@ -481,44 +518,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:00:03.000Z
-          - item:
-            name: pfstools
-            homepage_url: 'http://pfstools.sourceforge.net/'
-            repo_url: 'https://github.com/Steve132/pfstools'
-            logo: pfstools.svg
-            crunchbase: 'https://www.crunchbase.com/organization/max-planck-institute-for-informatics'
-            crunchbase_data:
-              name: Max Planck Institute for Informatics
-              description: The Max Planck Institute for Informatics is a research institute in computer science.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'https://www.mpi-inf.mpg.de/home/'
-              city: Saarbrücken
-              region: Saarland
-              country: Germany
-              twitter: 'https://www.twitter.com/maxplanckpress'
-              linkedin: null
-              parents: []
-            github_data:
-              stars: 3
-              license: GNU Lesser General Public License v2.1
-              description: pfstools for HDR images
-              latest_commit_date: '2017-06-06T04:00:00.000Z'
-              latest_commit_link: /Steve132/pfstools/commit/4918330cc9f552acad8ab715b84af50fd9cbac04
-              contributors_count: 3
-              contributors_link: 'https://github.com/Steve132/pfstools/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /Steve132/pfstools/commit/fec04caf39286e638962e800446153b48e3fbc2a
-              start_date: '2014-10-13T10:07:24Z'
-            image_data:
-              fileName: pfstools.svg
-              hash: eVNUXZP/f0cAOxnKxgtSktXOcgrVYX4Zwn1ElY3jHAc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-09-13T20:56:14.000Z
+              latest_tweet_date: 2019-09-14T17:34:35.000Z
           - item:
             name: PySceneDetect
             homepage_url: 'http://bcastell.com/projects/PySceneDetect/'
@@ -538,10 +538,10 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 758
+              stars: 760
               license: Other
               description: ':movie_camera: Python and OpenCV-based scene cut/transition detection program & library.'
-              latest_commit_date: '2019-09-07T04:00:00.000Z'
+              latest_commit_date: '2019-09-07T00:00:00.000Z'
               latest_commit_link: /Breakthrough/PySceneDetect/commit/9e684985ab88f4f18bdc4b0fb9c4517701924acb
               release_date: '2019-08-03T23:24:27Z'
               release_link: 'https://github.com/Breakthrough/PySceneDetect/releases'
@@ -578,7 +578,7 @@ landscape:
               stars: 4
               license: Unknown License
               description: Slice and dice image sequences like there's no tomorrow
-              latest_commit_date: '2018-10-04T04:00:00.000Z'
+              latest_commit_date: '2018-10-04T00:00:00.000Z'
               latest_commit_link: /guerilla-di/sequencer/commit/9ae826bae0a4af112a4bbc076c14609ace088d8a
               contributors_count: 1
               contributors_link: 'https://github.com/guerilla-di/sequencer/graphs/contributors'
@@ -617,8 +617,8 @@ landscape:
               stars: 108
               license: Other
               description: 'Professional media review software for VFX, animation, and film production'
-              latest_commit_date: '2019-09-13T04:00:00.000Z'
-              latest_commit_link: /darbyjohnston/DJV/commit/503726ffb52d883a16395fd05ca289afac7b86b1
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
+              latest_commit_link: /darbyjohnston/DJV/commit/9863069c28fc96ee77eb5ddb62febfa2cd3a05c4
               contributors_count: 1
               contributors_link: 'https://github.com/darbyjohnston/DJV/graphs/contributors'
             github_start_commit_data:
@@ -630,6 +630,43 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Duke
+            homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
+            repo_url: 'https://github.com/mikrosimage/duke'
+            logo: duke.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            crunchbase_data:
+              name: Mikros Image
+              description: Mikros Image operates as a production and postproduction company.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'http://www.mikrosimage.com/'
+              city: Levallois-perret
+              region: Ile-de-France
+              country: France
+              twitter: 'https://twitter.com/Mikrosimage'
+              linkedin: 'https://www.linkedin.com/company-beta/14263/'
+              parents: []
+            github_data:
+              stars: 107
+              license: MIT License
+              description: Duke is an opensource high resolution image and sequence viewer dedicated to visual effect and post production companies.
+              latest_commit_date: '2014-11-12T00:00:00.000Z'
+              latest_commit_link: /mikrosimage/duke/commit/efacf7139cd1d7c2cd2f5127079721bd263dda50
+              contributors_count: 5
+              contributors_link: 'https://github.com/mikrosimage/duke/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /mikrosimage/duke/commit/3ae9e77b300272431e2679f0273586f6e7f1077c
+              start_date: '2012-12-22T11:28:38Z'
+            image_data:
+              fileName: duke.svg
+              hash: mrxLMY7P7DobvdjNCtT9TlXDXT0o+YL5X77Dysw9JYk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
           - item:
             name: Jeri
             homepage_url: 'https://jeri.io/'
@@ -656,7 +693,7 @@ landscape:
               stars: 54
               license: Other
               description: Javascript Extended Range Imaging Viewer
-              latest_commit_date: '2019-09-04T04:00:00.000Z'
+              latest_commit_date: '2019-09-04T00:00:00.000Z'
               latest_commit_link: /disneyresearch/jeri/commit/4b071a380184e4ffe66fd9cae15a0ee7c9c26460
               release_date: '2018-10-01T12:48:16Z'
               release_link: 'https://github.com/disneyresearch/jeri/releases'
@@ -674,43 +711,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Duke
-            homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
-            repo_url: 'https://github.com/mikrosimage/duke'
-            logo: duke.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
-            crunchbase_data:
-              name: Mikros Image
-              description: Mikros Image operates as a production and postproduction company.
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: 'http://www.mikrosimage.com/'
-              city: Levallois-perret
-              region: Ile-de-France
-              country: France
-              twitter: 'https://twitter.com/Mikrosimage'
-              linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              parents: []
-            github_data:
-              stars: 107
-              license: MIT License
-              description: Duke is an opensource high resolution image and sequence viewer dedicated to visual effect and post production companies.
-              latest_commit_date: '2014-11-12T05:00:00.000Z'
-              latest_commit_link: /mikrosimage/duke/commit/efacf7139cd1d7c2cd2f5127079721bd263dda50
-              contributors_count: 5
-              contributors_link: 'https://github.com/mikrosimage/duke/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /mikrosimage/duke/commit/3ae9e77b300272431e2679f0273586f6e7f1077c
-              start_date: '2012-12-22T11:28:38Z'
-            image_data:
-              fileName: duke.svg
-              hash: mrxLMY7P7DobvdjNCtT9TlXDXT0o+YL5X77Dysw9JYk=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
       - subcategory:
         name: Interactive Compositing and Painting
         items:
@@ -736,7 +736,7 @@ landscape:
               stars: 14
               license: Mozilla Public License 2.0
               description: 'Useful, everyday gizmos for Nuke (some ported from afx-nuke-plugins)'
-              latest_commit_date: '2017-03-24T04:00:00.000Z'
+              latest_commit_date: '2017-03-24T00:00:00.000Z'
               latest_commit_link: /AuthorityFX/afx-nuke-gizmos/commit/93085d1b4b720fe770edec15fa3eb271bffec26c
               contributors_count: 1
               contributors_link: 'https://github.com/AuthorityFX/afx-nuke-gizmos/graphs/contributors'
@@ -773,7 +773,7 @@ landscape:
               stars: 46
               license: Mozilla Public License 2.0
               description: 'Useful, everyday compositing plugins for Nuke'
-              latest_commit_date: '2017-09-17T04:00:00.000Z'
+              latest_commit_date: '2017-09-17T00:00:00.000Z'
               latest_commit_link: /AuthorityFX/afx-nuke-plugins/commit/0b7ef6e7c2e58f7501109484bf290066bc4d22ad
               contributors_count: 1
               contributors_link: 'https://github.com/AuthorityFX/afx-nuke-plugins/graphs/contributors'
@@ -810,7 +810,7 @@ landscape:
               stars: 4
               license: Mozilla Public License 2.0
               description: Python modules for Nuke
-              latest_commit_date: '2017-03-24T04:00:00.000Z'
+              latest_commit_date: '2017-03-24T00:00:00.000Z'
               latest_commit_link: /AuthorityFX/afxnuketools/commit/8192176c87f584eaf5bec5ce785415e78e292809
               contributors_count: 1
               contributors_link: 'https://github.com/AuthorityFX/afxnuketools/graphs/contributors'
@@ -848,7 +848,7 @@ landscape:
               stars: 78
               license: BSD 3-Clause "New" or "Revised" License
               description: Arnold Interface-compatible display driver and Nuke plugin for direct rendering into the Nuke interface.
-              latest_commit_date: '2019-09-10T04:00:00.000Z'
+              latest_commit_date: '2019-09-10T00:00:00.000Z'
               latest_commit_link: /Sosoyan/Aton/commit/db0b4f459e37ed61e4654a3eb59ec1dac0ead8d4
               release_date: '2019-07-01T09:13:08Z'
               release_link: 'https://github.com/Sosoyan/Aton/releases'
@@ -887,7 +887,7 @@ landscape:
               stars: 1
               license: Other
               description: CinePaint is a painting and retouching tool. This is a maintenance fork of version 0.25.1 on Oyranos GIT.
-              latest_commit_date: '2014-10-12T04:00:00.000Z'
+              latest_commit_date: '2014-10-12T00:00:00.000Z'
               latest_commit_link: /archont00/cinepaint-oyranos/commit/c04f6f4d6e34f0d5f9b94be6c3f887571bca9a7d
               release_date: '2014-10-12T09:34:06Z'
               release_link: 'https://github.com/archont00/cinepaint-oyranos/releases'
@@ -923,11 +923,11 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 1944
+              stars: 1945
               license: Other
               description: GNU Image Manipulation Program
-              latest_commit_date: '2019-09-14T04:00:00.000Z'
-              latest_commit_link: /GNOME/gimp/commit/f73f813e1f103ec5973c160969489f7cb8971104
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
+              latest_commit_link: /GNOME/gimp/commit/b9426822800b7bacfd4b239732c33c17f37a3fce
               contributors_count: 286
               contributors_link: 'https://github.com/GNOME/gimp/graphs/contributors'
             github_start_commit_data:
@@ -958,10 +958,10 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 822
+              stars: 824
               license: Other
               description: Open-source compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
-              latest_commit_date: '2019-09-09T04:00:00.000Z'
+              latest_commit_date: '2019-09-09T00:00:00.000Z'
               latest_commit_link: /NatronGitHub/Natron/commit/0b1ab2853bf405de94f14857133bea3ebb188d2f
               release_date: '2019-08-28T04:56:42Z'
               release_link: 'https://github.com/NatronGitHub/Natron/releases'
@@ -1000,7 +1000,7 @@ landscape:
               stars: 187
               license: GNU General Public License v3.0
               description: A fully non-destructive photo retouching program providing a complete layer-based workflow including RAW image development.
-              latest_commit_date: '2019-08-02T04:00:00.000Z'
+              latest_commit_date: '2019-08-02T00:00:00.000Z'
               latest_commit_link: /aferrero2707/PhotoFlow/commit/898050de5365b502ec16f624f520a2b5c6822e9f
               release_date: '2018-12-06T11:56:47Z'
               release_link: 'https://github.com/aferrero2707/PhotoFlow/releases'
@@ -1037,7 +1037,7 @@ landscape:
               stars: 40
               license: MIT License
               description: THE 2-d track conversion app for VFX professionals
-              latest_commit_date: '2019-03-31T04:00:00.000Z'
+              latest_commit_date: '2019-03-31T00:00:00.000Z'
               latest_commit_link: /guerilla-di/tracksperanto/commit/cf80e3f66cfb03d443a85b5cbe837534f82a5e8e
               contributors_count: 1
               contributors_link: 'https://github.com/guerilla-di/tracksperanto/graphs/contributors'
@@ -1082,7 +1082,7 @@ landscape:
               stars: 520
               license: Other
               description: 'Alembic is an open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.'
-              latest_commit_date: '2019-07-11T04:00:00.000Z'
+              latest_commit_date: '2019-07-11T00:00:00.000Z'
               latest_commit_link: /alembic/alembic/commit/0a344b6d91c823b6e2cfe56614886133d511b476
               release_date: '2019-05-16T21:00:16Z'
               release_link: 'https://github.com/alembic/alembic/releases'
@@ -1122,7 +1122,7 @@ landscape:
               stars: 28
               license: Unknown License
               description: A maya node to display PrMan point clouds
-              latest_commit_date: '2009-10-16T04:00:00.000Z'
+              latest_commit_date: '2009-10-16T00:00:00.000Z'
               latest_commit_link: /dneg/dnPtcViewerNode/commit/bbeb73d87e5489a62b71b1dc74400e17dc9c202d
               contributors_count: 0
               contributors_link: 'https://github.com/dneg/dnPtcViewerNode/graphs/contributors'
@@ -1136,7 +1136,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T15:01:27.000Z
+              latest_tweet_date: 2019-09-13T11:30:13.000Z
           - item:
             name: GTO
             homepage_url: 'http://www.tweaksoftware.com/products/open-source-software/gto/'
@@ -1154,14 +1154,14 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/autodesk'
               linkedin: 'https://www.linkedin.com/company/autodesk'
+              parents: []
               ticker: ADSK
               kind: market_cap
-              parents: []
             github_data:
               stars: 23
               license: Other
               description: 'Production Kitchen Sink Computer Graphics File Format '
-              latest_commit_date: '2015-10-09T04:00:00.000Z'
+              latest_commit_date: '2015-10-09T00:00:00.000Z'
               latest_commit_link: /jimhourihan/gto/commit/668b3646d387e6dc363a0d42f5bb79d3aed650ec
               contributors_count: 1
               contributors_link: 'https://github.com/jimhourihan/gto/graphs/contributors'
@@ -1169,7 +1169,7 @@ landscape:
               start_commit_link: /jimhourihan/gto/commit/b58a81e2c107c7e3c596499b6cd3b0408fbbf54a
               start_date: '2003-09-16T19:52:28Z'
             yahoo_finance_data:
-              market_cap: 30670268416
+              market_cap: 33702365184
               effective_ticker: ADSK
             image_data:
               fileName: gto.svg
@@ -1178,7 +1178,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T17:54:00.000Z
+              latest_tweet_date: 2019-09-14T19:00:00.000Z
           - item:
             name: Maya Reticle
             homepage_url: 'http://opensource.imageworks.com/?p=mayareticle'
@@ -1201,7 +1201,7 @@ landscape:
               stars: 20
               license: Unknown License
               description: ' A plugin to create a reticle for a camera in Maya'
-              latest_commit_date: '2014-03-05T05:00:00.000Z'
+              latest_commit_date: '2014-03-05T00:00:00.000Z'
               latest_commit_link: /imageworks/spReticle/commit/62a79ffe6e3cda54000a35e827180a797fb743b0
               contributors_count: 2
               contributors_link: 'https://github.com/imageworks/spReticle/graphs/contributors'
@@ -1215,7 +1215,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T08:17:51.000Z
+              latest_tweet_date: 2019-09-13T15:54:20.000Z
           - item:
             name: Meshroom
             homepage_url: 'https://github.com/alicevision/meshroom'
@@ -1236,10 +1236,10 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/european-commission'
             github_data:
-              stars: 3176
+              stars: 3179
               license: Other
               description: 3D Reconstruction Software
-              latest_commit_date: '2019-09-14T04:00:00.000Z'
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
               latest_commit_link: /alicevision/meshroom/commit/6e8a6defe496f01a7191fe6413e7be62da7343ad
               release_date: '2019-08-14T16:32:47Z'
               release_link: 'https://github.com/alicevision/meshroom/releases'
@@ -1256,80 +1256,6 @@ landscape:
               percentage: 77
             twitter_data:
               latest_tweet_date: 2019-09-13T08:59:25.000Z
-          - item:
-            name: OpenFlipper
-            homepage_url: 'http://openflipper.org'
-            repo_url: 'https://github.com/heartvalve/OpenFlipper'
-            logo: openflipper.svg
-            crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
-            crunchbase_data:
-              name: RWTH Aachen University
-              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.rwth-aachen.de/lang/en'
-              city: Aachen
-              region: Nordrhein-Westfalen
-              country: Germany
-              twitter: 'https://www.twitter.com/rwth'
-              linkedin: null
-              parents: []
-            github_data:
-              stars: 0
-              license: GNU Lesser General Public License v3.0
-              description: 'Mirror of the OpenFlipper repository hosted at http://www.openflipper.org'
-              latest_commit_date: '2015-04-14T04:00:00.000Z'
-              latest_commit_link: /heartvalve/OpenFlipper/commit/6df7ec132b56a2fa3edd446daff05d4ad6653b4a
-              contributors_count: 2
-              contributors_link: 'https://github.com/heartvalve/OpenFlipper/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /heartvalve/OpenFlipper/commit/b3aa485fe8c0def9603ce437118cc50d05e31dd9
-              start_date: '2008-08-27T11:47:46Z'
-            image_data:
-              fileName: open-flipper.svg
-              hash: OSvDp5EkCRWQyOc/fqxEmIm2FfRCCSrD8xE/15By0fw=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-09-14T11:37:02.000Z
-          - item:
-            name: OpenMesh
-            homepage_url: 'http://openmesh.org'
-            repo_url: 'https://github.com/etlapale/OpenMesh'
-            logo: openmesh.svg
-            crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
-            crunchbase_data:
-              name: RWTH Aachen University
-              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.rwth-aachen.de/lang/en'
-              city: Aachen
-              region: Nordrhein-Westfalen
-              country: Germany
-              twitter: 'https://www.twitter.com/rwth'
-              linkedin: null
-              parents: []
-            github_data:
-              stars: 10
-              license: Other
-              description: Clone of the official OpenMesh repository
-              latest_commit_date: '2017-01-16T05:00:00.000Z'
-              latest_commit_link: /etlapale/OpenMesh/commit/57bc372adc0042393d49b3ce14f638947cc7bd5e
-              contributors_count: 12
-              contributors_link: 'https://github.com/etlapale/OpenMesh/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /etlapale/OpenMesh/commit/c3321ebdd99650ff33f016bf6ae270b4ee419386
-              start_date: '2009-02-06T13:32:20Z'
-            image_data:
-              fileName: open-mesh.svg
-              hash: H5dFBTC7qXrrwhSLxsd/pgGPt3Sz1dm6iYK5DHhnqNA=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-09-14T11:37:02.000Z
           - item:
             name: Open Subdiv
             homepage_url: 'http://graphics.pixar.com/opensubdiv/'
@@ -1356,7 +1282,7 @@ landscape:
               stars: 2238
               license: Apache License 2.0
               description: An Open-Source subdivision surface library.
-              latest_commit_date: '2019-06-28T04:00:00.000Z'
+              latest_commit_date: '2019-06-28T00:00:00.000Z'
               latest_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/9be5a298270a42d89d7925c8cdd9e335869ec6ce
               contributors_count: 40
               contributors_link: 'https://github.com/PixarAnimationStudios/OpenSubdiv/graphs/contributors'
@@ -1373,7 +1299,81 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:37:43.000Z
+              latest_tweet_date: 2019-09-14T18:11:01.000Z
+          - item:
+            name: OpenFlipper
+            homepage_url: 'http://openflipper.org'
+            repo_url: 'https://github.com/heartvalve/OpenFlipper'
+            logo: openflipper.svg
+            crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
+            crunchbase_data:
+              name: RWTH Aachen University
+              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.rwth-aachen.de/lang/en'
+              city: Aachen
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: 'https://www.twitter.com/rwth'
+              linkedin: null
+              parents: []
+            github_data:
+              stars: 0
+              license: GNU Lesser General Public License v3.0
+              description: 'Mirror of the OpenFlipper repository hosted at http://www.openflipper.org'
+              latest_commit_date: '2015-04-14T00:00:00.000Z'
+              latest_commit_link: /heartvalve/OpenFlipper/commit/6df7ec132b56a2fa3edd446daff05d4ad6653b4a
+              contributors_count: 2
+              contributors_link: 'https://github.com/heartvalve/OpenFlipper/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /heartvalve/OpenFlipper/commit/b3aa485fe8c0def9603ce437118cc50d05e31dd9
+              start_date: '2008-08-27T11:47:46Z'
+            image_data:
+              fileName: open-flipper.svg
+              hash: OSvDp5EkCRWQyOc/fqxEmIm2FfRCCSrD8xE/15By0fw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T14:17:10.000Z
+          - item:
+            name: OpenMesh
+            homepage_url: 'http://openmesh.org'
+            repo_url: 'https://github.com/etlapale/OpenMesh'
+            logo: openmesh.svg
+            crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
+            crunchbase_data:
+              name: RWTH Aachen University
+              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.rwth-aachen.de/lang/en'
+              city: Aachen
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: 'https://www.twitter.com/rwth'
+              linkedin: null
+              parents: []
+            github_data:
+              stars: 10
+              license: Other
+              description: Clone of the official OpenMesh repository
+              latest_commit_date: '2017-01-16T00:00:00.000Z'
+              latest_commit_link: /etlapale/OpenMesh/commit/57bc372adc0042393d49b3ce14f638947cc7bd5e
+              contributors_count: 12
+              contributors_link: 'https://github.com/etlapale/OpenMesh/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /etlapale/OpenMesh/commit/c3321ebdd99650ff33f016bf6ae270b4ee419386
+              start_date: '2009-02-06T13:32:20Z'
+            image_data:
+              fileName: open-mesh.svg
+              hash: H5dFBTC7qXrrwhSLxsd/pgGPt3Sz1dm6iYK5DHhnqNA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T14:17:10.000Z
           - item:
             name: 'USD: Universal Scene Description'
             homepage_url: 'http://graphics.pixar.com/usd/'
@@ -1397,10 +1397,10 @@ landscape:
               ticker: DIS
               kind: market_cap
             github_data:
-              stars: 1999
+              stars: 2000
               license: Other
               description: Universal Scene Description
-              latest_commit_date: '2019-06-17T04:00:00.000Z'
+              latest_commit_date: '2019-06-17T00:00:00.000Z'
               latest_commit_link: /PixarAnimationStudios/USD/commit/32ca7df94c83ae19e6fd38f7928d07f0e4cf5040
               release_date: '2019-06-18T18:56:34Z'
               release_link: 'https://github.com/PixarAnimationStudios/USD/releases'
@@ -1419,7 +1419,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:37:43.000Z
+              latest_tweet_date: 2019-09-14T18:11:01.000Z
       - subcategory:
         name: Timelines and Animation
         items:
@@ -1445,7 +1445,7 @@ landscape:
               stars: 16
               license: MIT License
               description: Manage EDLs (Edit Decision Lists) from Ruby
-              latest_commit_date: '2017-07-19T04:00:00.000Z'
+              latest_commit_date: '2017-07-19T00:00:00.000Z'
               latest_commit_link: /guerilla-di/edl/commit/a4ccc05e3c31ac7de00bda276a0ac4b142f0b9c6
               contributors_count: 3
               contributors_link: 'https://github.com/guerilla-di/edl/graphs/contributors'
@@ -1481,7 +1481,7 @@ landscape:
               stars: 2
               license: Unknown License
               description: Extracts animation channels from Flame setups and computes their values
-              latest_commit_date: '2018-12-19T05:00:00.000Z'
+              latest_commit_date: '2018-12-19T00:00:00.000Z'
               latest_commit_link: /guerilla-di/flame_channel_parser/commit/1a35317c07c66597633229187e26460b75afa0c2
               contributors_count: 1
               contributors_link: 'https://github.com/guerilla-di/flame_channel_parser/graphs/contributors'
@@ -1515,12 +1515,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
-              stars: 470
+              stars: 471
               license: Other
               description: Open Source API and interchange format for editorial timeline information.
-              latest_commit_date: '2019-09-12T04:00:00.000Z'
+              latest_commit_date: '2019-09-12T00:00:00.000Z'
               latest_commit_link: /PixarAnimationStudios/OpenTimelineIO/commit/d5324e8f96eec69a05ff1813c49cb7b00a55ddb5
               release_date: '2019-07-22T20:36:02Z'
               release_link: 'https://github.com/PixarAnimationStudios/OpenTimelineIO/releases'
@@ -1536,7 +1537,7 @@ landscape:
               badge: 2288
               percentage: 15
             twitter_data:
-              latest_tweet_date: 2019-09-04T16:40:40.000Z
+              latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
             name: timecode
             homepage_url: 'http://guerilla-di.org/timecode/'
@@ -1559,7 +1560,7 @@ landscape:
               stars: 22
               license: Unknown License
               description: Work with SMPTE timecode data
-              latest_commit_date: '2017-06-04T04:00:00.000Z'
+              latest_commit_date: '2017-06-04T00:00:00.000Z'
               latest_commit_link: /guerilla-di/timecode/commit/45d98d01d9705a716e4e6b12ebcdc154bc6606cb
               contributors_count: 4
               contributors_link: 'https://github.com/guerilla-di/timecode/graphs/contributors'
@@ -1594,15 +1595,15 @@ landscape:
               country: The Netherlands
               twitter: 'http://twitter.com/blender3d'
               linkedin: null
+              parents: []
               kind: funding
               funding: 1200000
-              parents: []
             github_data:
-              stars: 275
+              stars: 276
               license: Other
               description: Mirror of the official Blender Git repository. Updated every hour.
-              latest_commit_date: '2019-09-14T04:00:00.000Z'
-              latest_commit_link: /sobotka/blender/commit/5b00ecf70bf6876d1279e8e8f73a5d722f77cb51
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
+              latest_commit_link: /sobotka/blender/commit/e2df789c4800565ab54ad5356e74b274634467c2
               contributors_count: 189
               contributors_link: 'https://github.com/sobotka/blender/graphs/contributors'
             github_start_commit_data:
@@ -1615,7 +1616,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T14:01:14.000Z
+              latest_tweet_date: 2019-09-13T13:56:04.000Z
           - item:
             name: Cortex
             homepage_url: 'https://github.com/ImageEngine/cortex'
@@ -1640,7 +1641,7 @@ landscape:
               stars: 340
               license: Other
               description: Libraries for visual effects software development
-              latest_commit_date: '2019-09-03T04:00:00.000Z'
+              latest_commit_date: '2019-09-03T00:00:00.000Z'
               latest_commit_link: /ImageEngine/cortex/commit/69d58314aee23543d9beb98a3dbc8ba0691b4a86
               release_date: '2019-09-03T23:34:18Z'
               release_link: 'https://github.com/ImageEngine/cortex/releases'
@@ -1680,7 +1681,7 @@ landscape:
               stars: 515
               license: Other
               description: Gaffer is an open source application framework designed specifically for creating tools for use in visual effects production.
-              latest_commit_date: '2019-09-06T04:00:00.000Z'
+              latest_commit_date: '2019-09-06T00:00:00.000Z'
               latest_commit_link: /GafferHQ/gaffer/commit/c425c503d6c4b24a37242222e631c9a107b014f4
               release_date: '2019-08-16T12:42:53Z'
               release_link: 'https://github.com/GafferHQ/gaffer/releases'
@@ -1718,7 +1719,7 @@ landscape:
               stars: 202
               license: Eclipse Public License 1.0
               description: 'TACTIC - http://tacticopensource.com'
-              latest_commit_date: '2019-05-24T04:00:00.000Z'
+              latest_commit_date: '2019-05-24T00:00:00.000Z'
               latest_commit_link: /Southpaw-TACTIC/TACTIC/commit/4c1886a9ce1d2d1af6c6cba8b15d2172cf017496
               contributors_count: 36
               contributors_link: 'https://github.com/Southpaw-TACTIC/TACTIC/graphs/contributors'
@@ -1758,7 +1759,7 @@ landscape:
               stars: 2
               license: Mozilla Public License 2.0
               description: A fully featured python multithreading module
-              latest_commit_date: '2017-02-09T05:00:00.000Z'
+              latest_commit_date: '2017-02-09T00:00:00.000Z'
               latest_commit_link: /AuthorityFX/afxthreads/commit/7c938952a4a9c28e8eb76f45e44f31b0f0b60fcc
               contributors_count: 1
               contributors_link: 'https://github.com/AuthorityFX/afxthreads/graphs/contributors'
@@ -1796,7 +1797,7 @@ landscape:
               stars: 12
               license: GNU General Public License v2.0
               description: earth from rsp
-              latest_commit_date: '2011-02-16T05:00:00.000Z'
+              latest_commit_date: '2011-02-16T00:00:00.000Z'
               latest_commit_link: /bdeluca/earth2/commit/995dfc87d6415809947a6b3a74910d85af0d83e9
               contributors_count: 0
               contributors_link: 'https://github.com/bdeluca/earth2/graphs/contributors'
@@ -1836,7 +1837,7 @@ landscape:
               stars: 1860
               license: Other
               description: Managed software installation for macOS —
-              latest_commit_date: '2019-09-04T04:00:00.000Z'
+              latest_commit_date: '2019-09-04T00:00:00.000Z'
               latest_commit_link: /munki/munki/commit/8f3d5d0d15a5a8497bf90a0deb9e1a7bbd77312d
               release_date: '2019-04-23T13:21:03Z'
               release_link: 'https://github.com/munki/munki/releases'
@@ -1855,7 +1856,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:00:03.000Z
+              latest_tweet_date: 2019-09-14T17:34:35.000Z
           - item:
             name: PyMEL
             homepage_url: 'https://github.com/LumaPictures/pymel'
@@ -1878,7 +1879,7 @@ landscape:
               stars: 302
               license: Other
               description: Python in Maya Done Right
-              latest_commit_date: '2018-12-15T05:00:00.000Z'
+              latest_commit_date: '2018-12-15T00:00:00.000Z'
               latest_commit_link: /LumaPictures/pymel/commit/84423dbb756000472d2bfc13d7ce16c1586e2a41
               contributors_count: 21
               contributors_link: 'https://github.com/LumaPictures/pymel/graphs/contributors'
@@ -1915,7 +1916,7 @@ landscape:
               stars: 394
               license: Other
               description: 'C++ functions matching the interface and behavior of python string methods with std::string'
-              latest_commit_date: '2019-03-21T04:00:00.000Z'
+              latest_commit_date: '2019-03-21T00:00:00.000Z'
               latest_commit_link: /imageworks/pystring/commit/4af4a865208b400b9cd5ae71b0e162a6baf331f9
               contributors_count: 6
               contributors_link: 'https://github.com/imageworks/pystring/graphs/contributors'
@@ -1929,7 +1930,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T08:17:51.000Z
+              latest_tweet_date: 2019-09-13T15:54:20.000Z
           - item:
             name: Rez
             homepage_url: 'https://github.com/nerdvegas/rez'
@@ -1952,7 +1953,7 @@ landscape:
               stars: 424
               license: GNU Lesser General Public License v3.0
               description: 'An integrated package configuration, build and deployment system for software'
-              latest_commit_date: '2019-09-13T04:00:00.000Z'
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
               latest_commit_link: /nerdvegas/rez/commit/62d05f3609e5fe0fd903fdb770abbba89a637dca
               release_date: '2019-09-13T05:50:57Z'
               release_link: 'https://github.com/nerdvegas/rez/releases'
@@ -1991,7 +1992,7 @@ landscape:
               stars: 14
               license: Other
               description: Database migrations written in Scala
-              latest_commit_date: '2013-11-27T05:00:00.000Z'
+              latest_commit_date: '2013-11-27T00:00:00.000Z'
               latest_commit_link: /imageworks/scala-migrations/commit/91341118d7c61e6a558ef65ea663dadb57af8de1
               contributors_count: 3
               contributors_link: 'https://github.com/imageworks/scala-migrations/graphs/contributors'
@@ -2005,7 +2006,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T08:17:51.000Z
+              latest_tweet_date: 2019-09-13T15:54:20.000Z
   - category:
     name: Rendering and Queueing
     subcategories:
@@ -2038,7 +2039,7 @@ landscape:
               stars: 465
               license: Other
               description: MaterialX is an open standard for transfer of rich material and look-development content between applications and renderers.
-              latest_commit_date: '2019-09-09T04:00:00.000Z'
+              latest_commit_date: '2019-09-09T00:00:00.000Z'
               latest_commit_link: /materialx/MaterialX/commit/7936a98d50c4c4c6059364e5471c169759509c0c
               release_date: '2019-08-03T20:14:17Z'
               release_link: 'https://github.com/materialx/MaterialX/releases'
@@ -2075,24 +2076,24 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/nvidia'
               linkedin: 'https://www.linkedin.com/company/3608'
+              parents: []
               ticker: NVDA
               kind: market_cap
-              parents: []
             github_data:
               stars: 198
               license: Other
               description: NVIDIA Material Definition Language SDK
-              latest_commit_date: '2019-06-14T04:00:00.000Z'
+              latest_commit_date: '2019-06-14T00:00:00.000Z'
               latest_commit_link: /NVIDIA/MDL-SDK/commit/3e6182bc3141ea79c10ddf092a081232ced8e5f3
               release_date: '2019-06-18T09:59:41Z'
               release_link: 'https://github.com/NVIDIA/MDL-SDK/releases'
-              contributors_count: 1
+              contributors_count: 0
               contributors_link: 'https://github.com/NVIDIA/MDL-SDK/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /NVIDIA/MDL-SDK/commit/dbe16f8b0ed0339ba77fa4f9f65a018e9fbed6c8
               start_date: '2018-08-09T14:30:09Z'
             yahoo_finance_data:
-              market_cap: 104321302528
+              market_cap: 111497011200
               effective_ticker: NVDA
             image_data:
               fileName: nvidia-mdl-sdk.svg
@@ -2101,7 +2102,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T17:28:00.000Z
+              latest_tweet_date: 2019-09-13T19:25:54.000Z
           - item:
             name: Open Shading Language (OSL)
             homepage_url: 'http://opensource.imageworks.com/?p=osl'
@@ -2124,7 +2125,7 @@ landscape:
               stars: 1031
               license: BSD 3-Clause "New" or "Revised" License
               description: Advanced shading language for production GI renderers
-              latest_commit_date: '2019-09-13T04:00:00.000Z'
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
               latest_commit_link: /imageworks/OpenShadingLanguage/commit/e4b59038ad2b7060d37f8d6f7a4946ba90a3193a
               release_date: '2019-07-08T21:12:52Z'
               release_link: 'https://github.com/imageworks/openshadinglanguage/releases'
@@ -2137,10 +2138,10 @@ landscape:
               fileName: open-shading-language-osl.svg
               hash: ty0SEj8lvuD+RsWWo8lTEt50rivqINjNCUWkazvw7ac=
             best_practice_data:
-              badge: 3061
-              percentage: 91
+              badge: false
+              percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T08:17:51.000Z
+              latest_tweet_date: 2019-09-13T15:54:20.000Z
           - item:
             name: Pixie
             homepage_url: 'http://www.renderpixie.com/'
@@ -2163,7 +2164,7 @@ landscape:
               stars: 0
               license: GNU Lesser General Public License v2.1
               description: 'Mirror of http://www.renderpixie.com/ SVN repo'
-              latest_commit_date: '2014-05-04T04:00:00.000Z'
+              latest_commit_date: '2014-05-04T00:00:00.000Z'
               latest_commit_link: /blkdev2/pixie/commit/0e124cbcd51f5b093d415683e2ebead1c8471954
               contributors_count: 2
               contributors_link: 'https://github.com/blkdev2/pixie/graphs/contributors'
@@ -2202,7 +2203,7 @@ landscape:
               stars: 0
               license: GNU Lesser General Public License v2.1
               description: XSI Rendering Translator
-              latest_commit_date: '2015-06-03T04:00:00.000Z'
+              latest_commit_date: '2015-06-03T00:00:00.000Z'
               latest_commit_link: /virtualritz/affogato/commit/225545ac24c60c78dc8fcd1865b276921a474b1d
               contributors_count: 1
               contributors_link: 'https://github.com/virtualritz/affogato/graphs/contributors'
@@ -2239,7 +2240,7 @@ landscape:
               stars: 177
               license: Unknown License
               description: CGRU - AFANASY
-              latest_commit_date: '2019-08-23T04:00:00.000Z'
+              latest_commit_date: '2019-08-23T00:00:00.000Z'
               latest_commit_link: /CGRU/cgru/commit/2925d273075a84f84d688d7033486a817e33f44f
               release_date: '2019-03-11T20:07:19Z'
               release_link: 'https://github.com/CGRU/cgru/releases'
@@ -2272,12 +2273,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               stars: 398
               license: Apache License 2.0
               description: A render management system you can deploy for visual effects and animation productions.
-              latest_commit_date: '2019-09-13T04:00:00.000Z'
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
               latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/10d9a8925dd7b73e53fce40e99c546813c033a06
               release_date: '2019-07-23T23:39:17Z'
               release_link: 'https://github.com/AcademySoftwareFoundation/OpenCue/releases'
@@ -2293,7 +2295,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-04T16:40:40.000Z
+              latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
             name: Puli
             homepage_url: 'http://opensource.mikrosimage.eu/puli.html'
@@ -2316,7 +2318,7 @@ landscape:
               stars: 56
               license: Other
               description: Dispatcher Puli
-              latest_commit_date: '2015-11-20T05:00:00.000Z'
+              latest_commit_date: '2015-11-20T00:00:00.000Z'
               latest_commit_link: /mikrosimage/OpenRenderManagement/commit/6f9237a86cb8e4b206313f9c22424c8002fd5e4d
               release_date: '2015-06-11T14:43:21Z'
               release_link: 'https://github.com/mikrosimage/openrendermanagement/releases'
@@ -2332,7 +2334,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T11:27:43.000Z
+              latest_tweet_date: 2019-09-12T15:56:26.000Z
   - category:
     name: Math and Simulation
     subcategories:
@@ -2361,7 +2363,7 @@ landscape:
               stars: 250
               license: Other
               description: A library for storing voxel data on disk and in memory.
-              latest_commit_date: '2016-10-13T04:00:00.000Z'
+              latest_commit_date: '2016-10-13T00:00:00.000Z'
               latest_commit_link: /imageworks/Field3D/commit/071129f57d8222683b4bfa45975d56e675d6ffcc
               contributors_count: 10
               contributors_link: 'https://github.com/imageworks/Field3D/graphs/contributors'
@@ -2375,7 +2377,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T08:17:51.000Z
+              latest_tweet_date: 2019-09-13T15:54:20.000Z
           - item:
             name: OpenFX
             homepage_url: 'http://openeffects.org/'
@@ -2398,7 +2400,7 @@ landscape:
               stars: 144
               license: Unknown License
               description: OpenFX effects API
-              latest_commit_date: '2018-01-25T05:00:00.000Z'
+              latest_commit_date: '2018-01-25T00:00:00.000Z'
               latest_commit_link: /ofxa/openfx/commit/8eb68f606366da8d5a768c096d51279e1820f45b
               release_date: '2015-09-01T02:19:20Z'
               release_link: 'https://github.com/ofxa/openfx/releases'
@@ -2432,13 +2434,14 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/AcademySwf'
               linkedin: 'https://www.linkedin.com/company/academysoftwarefoundation/'
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               stars: 917
               license: Other
               description: OpenVDB - Sparse volume data structure and tools
-              latest_commit_date: '2019-09-09T04:00:00.000Z'
-              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/3cfda24959b67e28049d1ce62d6ef7d13b9ba698
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
+              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/b5af82007f869a29f6fa1af729f14763e99f85be
               release_date: '2019-05-07T21:50:59Z'
               release_link: 'https://github.com/AcademySoftwareFoundation/openvdb/releases'
               contributors_count: 22
@@ -2453,7 +2456,7 @@ landscape:
               badge: 2774
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-09-04T16:40:40.000Z
+              latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
             name: Partio
             homepage_url: 'http://www.disneyanimation.com/technology/partio.html'
@@ -2481,7 +2484,7 @@ landscape:
               description: >-
                 C++ (with python bindings) library for easily reading/writing/manipulating common animation particle formats such as PDB, BGEO, PTC.   See the
                 discussion group @ http://groups.google.com/group/partio-discuss
-              latest_commit_date: '2019-07-11T04:00:00.000Z'
+              latest_commit_date: '2019-07-11T00:00:00.000Z'
               latest_commit_link: /wdas/partio/commit/be48d2b18d8a48cbe3b548d45b086f1b2a165d02
               contributors_count: 21
               contributors_link: 'https://github.com/wdas/partio/graphs/contributors'
@@ -2498,7 +2501,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:00:03.000Z
+              latest_tweet_date: 2019-09-14T17:34:35.000Z
           - item:
             name: rmanPtc SOP
             homepage_url: 'http://danbethell.github.io/rmanptcsop/'
@@ -2521,7 +2524,7 @@ landscape:
               stars: 22
               license: Other
               description: Houdini geometry operator (SOP) for loading and displaying RenderMan point clouds.
-              latest_commit_date: '2011-06-29T04:00:00.000Z'
+              latest_commit_date: '2011-06-29T00:00:00.000Z'
               latest_commit_link: /danbethell/rmanptcsop/commit/cc244f036c7a5f2145f9eba6f41c4ef7d41bf687
               contributors_count: 2
               contributors_link: 'https://github.com/danbethell/rmanptcsop/graphs/contributors'
@@ -2535,7 +2538,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T15:01:27.000Z
+              latest_tweet_date: 2019-09-13T11:30:13.000Z
       - subcategory:
         name: Simulation
         items:
@@ -2558,10 +2561,10 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 5367
+              stars: 5368
               license: Other
               description: 'Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.'
-              latest_commit_date: '2019-09-14T04:00:00.000Z'
+              latest_commit_date: '2019-09-14T00:00:00.000Z'
               latest_commit_link: /bulletphysics/bullet3/commit/ce28bd5369586cfce95885f7f99e421aa2384cd7
               release_date: '2018-12-31T21:03:07Z'
               release_link: 'https://github.com/bulletphysics/bullet3/releases'
@@ -2605,7 +2608,7 @@ landscape:
               stars: 14
               license: Other
               description: 'ANN: A Library for Approximate Nearest Neighbor Searching'
-              latest_commit_date: '2016-03-08T05:00:00.000Z'
+              latest_commit_date: '2016-03-08T00:00:00.000Z'
               latest_commit_link: /dials/annlib/commit/75439ecf691c0d73b773f13540180aa511a758d7
               contributors_count: 1
               contributors_link: 'https://github.com/dials/annlib/graphs/contributors'
@@ -2642,7 +2645,7 @@ landscape:
               stars: 1478
               license: Other
               description: 'The public CGAL repository, see the README below'
-              latest_commit_date: '2019-09-13T04:00:00.000Z'
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
               latest_commit_link: /CGAL/cgal/commit/9c54068936abea2b445e3e2d7adb8eabe14fdca0
               release_date: '2019-04-05T12:52:57Z'
               release_link: 'https://github.com/CGAL/cgal/releases'
@@ -2681,7 +2684,7 @@ landscape:
               stars: 0
               license: BSD 3-Clause "New" or "Revised" License
               description: Automatically exported from code.google.com/p/pimath
-              latest_commit_date: '2011-07-22T04:00:00.000Z'
+              latest_commit_date: '2011-07-22T00:00:00.000Z'
               latest_commit_link: /madpianist/pimath/commit/d79c56d492887d52e1e6f7ec0ffa1966a4717b0a
               contributors_count: 0
               contributors_link: 'https://github.com/madpianist/pimath/graphs/contributors'
@@ -2724,7 +2727,7 @@ landscape:
                 SeExpr is an embeddable, arithmetic expression language that enables flexible artistic control and customization in creating computer graphics
                 images. Example uses include procedural geometry synthesis, image synthesis, simulation control, crowd animation, and geometry deformation. Our
                 library is licensed under the Apache License, Version 2.0.
-              latest_commit_date: '2019-09-04T04:00:00.000Z'
+              latest_commit_date: '2019-09-04T00:00:00.000Z'
               latest_commit_link: /wdas/SeExpr/commit/6d8479583a8072856e0e98b5fcf178b33e58d9c1
               release_date: '2018-01-25T21:58:02Z'
               release_link: 'https://github.com/wdas/seexpr/releases'
@@ -2743,7 +2746,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:00:03.000Z
+              latest_tweet_date: 2019-09-14T17:34:35.000Z
   - category:
     name: ASWF Member Company
     subcategories:
@@ -2766,11 +2769,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/awscloud'
               linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
               ticker: AMZN
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 870419857408
+              market_cap: 909840547840
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services.svg
@@ -2779,7 +2783,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T18:23:01.000Z
+              latest_tweet_date: 2019-09-15T00:00:24.000Z
           - item:
             name: Animal Logic
             homepage_url: 'https://www.animallogic.com/'
@@ -2821,11 +2825,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/autodesk'
               linkedin: 'https://www.linkedin.com/company/autodesk'
+              parents: []
               ticker: ADSK
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 30670268416
+              market_cap: 33702365184
               effective_ticker: ADSK
             image_data:
               fileName: autodesk.svg
@@ -2834,7 +2838,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T17:54:00.000Z
+              latest_tweet_date: 2019-09-14T19:00:00.000Z
           - item:
             name: Blue Sky Studios
             homepage_url: 'http://blueskystudios.com/'
@@ -2851,7 +2855,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/blueskystudios'
               linkedin: 'https://www.linkedin.com/company/blue-sky-studios?trk=mini-profile'
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/the-walt-disney-company'
+              ticker: DIS
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 248626462720
+              effective_ticker: DIS
             image_data:
               fileName: blue-sky-studios.svg
               hash: lQ2pnr2YJV2QmG8jFtfPB8o4Xc7sf1JJd3pkhtvf6lU=
@@ -2859,7 +2869,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T16:29:02.000Z
+              latest_tweet_date: 2019-09-13T19:52:31.000Z
           - item:
             name: Cisco
             homepage_url: 'https://www.cisco.com/'
@@ -2876,11 +2886,11 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/cisco'
               linkedin: 'https://www.linkedin.com/company/cisco'
+              parents: []
               ticker: CSCO
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 201140273152
+              market_cap: 212391854080
               effective_ticker: CSCO
             image_data:
               fileName: cisco.svg
@@ -2889,7 +2899,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T16:02:02.000Z
+              latest_tweet_date: 2019-09-14T14:08:00.000Z
           - item:
             name: Double Negative
             homepage_url: 'https://www.dneg.com/'
@@ -2914,7 +2924,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-06T15:01:27.000Z
+              latest_tweet_date: 2019-09-13T11:30:13.000Z
           - item:
             name: Dreamworks Animation
             homepage_url: 'https://www.dreamworks.com'
@@ -2940,7 +2950,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T16:48:34.000Z
+              latest_tweet_date: 2019-09-14T21:39:19.000Z
           - item:
             name: Epic Games
             homepage_url: 'https://www.unrealengine.com/'
@@ -2957,9 +2967,9 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/epicgames'
               linkedin: 'https://www.linkedin.com/company/19327'
+              parents: []
               kind: funding
               funding: 1580000000
-              parents: []
             image_data:
               fileName: epic-games.svg
               hash: aGvRE2PwTmbNyCFMWtIAQ/7yqmt+MR3WjnVQN5G6jG8=
@@ -2967,7 +2977,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T16:59:40.000Z
+              latest_tweet_date: 2019-09-14T22:37:44.000Z
           - item:
             name: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/'
@@ -2984,11 +2994,13 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/googlecloud'
               linkedin: 'https://www.linkedin.com/company/google-cloud'
+              parents:
+                - 'https://www.crunchbase.com/organization/google'
+                - 'https://www.crunchbase.com/organization/alphabet'
               ticker: GOOG
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 822668886016
+              market_cap: 859758854144
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud-platform.svg
@@ -2997,7 +3009,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T16:48:56.000Z
+              latest_tweet_date: 2019-09-14T23:07:01.000Z
           - item:
             name: Intel
             homepage_url: 'https://www.intel.com/'
@@ -3014,11 +3026,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/intel'
               linkedin: 'https://www.linkedin.com/company/intel-corporation'
+              parents: []
               ticker: INTC
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 212645298176
+              market_cap: 232752218112
               effective_ticker: INTC
             image_data:
               fileName: intel.svg
@@ -3027,67 +3039,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T21:54:09.000Z
-          - item:
-            name: Netflix
-            homepage_url: 'https://www.netflix.com/'
-            logo: netflix.svg
-            crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            crunchbase_data:
-              name: Netflix
-              description: 'Netflix is an online platform that enables users to watch TV shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. '
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://www.netflix.com'
-              city: Los Gatos
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/netflix'
-              linkedin: 'https://www.linkedin.com/company/netflix'
-              ticker: NFLX
-              kind: market_cap
-              parents: []
-            yahoo_finance_data:
-              market_cap: 125573472256
-              effective_ticker: NFLX
-            image_data:
-              fileName: netflix.svg
-              hash: DBLVN0JH4W/O1WWiB9AQvznx61XuA5RYHO1nsub6e5I=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-09-10T18:00:20.000Z
-          - item:
-            name: NVIDIA
-            homepage_url: 'https://www.nvidia.com/'
-            logo: nvidia.svg
-            crunchbase: 'https://www.crunchbase.com/organization/nvidia'
-            crunchbase_data:
-              name: NVIDIA
-              description: 'NVIDIA manufactures integrated circuits for use in motherboard chip-sets, graphic processing units, and game consoles.'
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.nvidia.com'
-              city: Santa Clara
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/nvidia'
-              linkedin: 'https://www.linkedin.com/company/3608'
-              ticker: NVDA
-              kind: market_cap
-              parents: []
-            yahoo_finance_data:
-              market_cap: 104321302528
-              effective_ticker: NVDA
-            image_data:
-              fileName: nvidia.svg
-              hash: Y3xdwHcR/FvTdvymjpvtmdoMmmFZH/zaJiVIjOvYIS8=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-09-10T17:28:00.000Z
+              latest_tweet_date: 2019-09-13T20:18:01.000Z
           - item:
             name: Microsoft
             homepage_url: 'http://www.microsoft.com/'
@@ -3119,6 +3071,66 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-09-14T00:30:00.000Z
           - item:
+            name: Netflix
+            homepage_url: 'https://www.netflix.com/'
+            logo: netflix.svg
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            crunchbase_data:
+              name: Netflix
+              description: 'Netflix is an online platform that enables users to watch TV shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. '
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.netflix.com'
+              city: Los Gatos
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/netflix'
+              linkedin: 'https://www.linkedin.com/company/netflix'
+              parents: []
+              ticker: NFLX
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 128789168128
+              effective_ticker: NFLX
+            image_data:
+              fileName: netflix.svg
+              hash: DBLVN0JH4W/O1WWiB9AQvznx61XuA5RYHO1nsub6e5I=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T16:24:28.000Z
+          - item:
+            name: NVIDIA
+            homepage_url: 'https://www.nvidia.com/'
+            logo: nvidia.svg
+            crunchbase: 'https://www.crunchbase.com/organization/nvidia'
+            crunchbase_data:
+              name: NVIDIA
+              description: 'NVIDIA manufactures integrated circuits for use in motherboard chip-sets, graphic processing units, and game consoles.'
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.nvidia.com'
+              city: Santa Clara
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/nvidia'
+              linkedin: 'https://www.linkedin.com/company/3608'
+              parents: []
+              ticker: NVDA
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 111497011200
+              effective_ticker: NVDA
+            image_data:
+              fileName: nvidia.svg
+              hash: Y3xdwHcR/FvTdvymjpvtmdoMmmFZH/zaJiVIjOvYIS8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T19:25:54.000Z
+          - item:
             name: Sony Imageworks
             homepage_url: 'https://www.sonypictures.com/'
             logo: sony-imageworks.svg
@@ -3142,7 +3154,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T08:17:51.000Z
+              latest_tweet_date: 2019-09-13T15:54:20.000Z
           - item:
             name: Walt Disney Studios
             homepage_url: 'https://www.waltdisneystudios.com/'
@@ -3159,11 +3171,11 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+              parents: []
               ticker: DIS
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 239922151424
+              market_cap: 248626462720
               effective_ticker: DIS
             image_data:
               fileName: walt-disney-studios.svg
@@ -3223,7 +3235,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T13:00:00.000Z
+              latest_tweet_date: 2019-09-13T11:00:01.000Z
           - item:
             name: ftrack
             homepage_url: 'https://www.ftrack.com/en/'
@@ -3240,9 +3252,9 @@ landscape:
               country: Sweden
               twitter: 'https://twitter.com/ftrackhq'
               linkedin: 'https://www.linkedin.com/company/ftrack/'
+              parents: []
               kind: funding
               funding: 3500000
-              parents: []
             image_data:
               fileName: ftrack.svg
               hash: cQPfx/5OGf25Flf4onDpYCXKJSQtOcaE65On3lkCgAQ=
@@ -3250,7 +3262,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T16:29:37.000Z
+              latest_tweet_date: 2019-09-14T22:45:04.000Z
           - item:
             name: RedHat
             homepage_url: 'https://www.redhat.com/'
@@ -3268,11 +3280,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/redhat'
               linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents: []
               ticker: RHT
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 123299758080
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: red-hat.svg
@@ -3280,7 +3292,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T17:40:03.000Z
+              latest_tweet_date: 2019-09-14T19:15:14.000Z
           - item:
             name: RodeoFX
             homepage_url: 'https://www.rodeofx.com/'
@@ -3305,7 +3317,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T19:35:12.000Z
+              latest_tweet_date: 2019-09-13T20:33:46.000Z
           - item:
             name: SideFX
             homepage_url: 'https://www.sidefx.com/'
@@ -3383,7 +3395,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-07T16:43:00.000Z
+              latest_tweet_date: 2019-09-13T16:58:17.000Z
           - item:
             name: Blender Foundation
             homepage_url: 'https://www.blender.org/'
@@ -3401,9 +3413,9 @@ landscape:
               country: The Netherlands
               twitter: 'http://twitter.com/blender3d'
               linkedin: null
+              parents: []
               kind: funding
               funding: 1200000
-              parents: []
             image_data:
               fileName: blender-foundation.svg
               hash: AN5XlbWx+qnWXEsW8ucbtYoDtkbhexDwj8e8UObaLkY=
@@ -3411,7 +3423,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-09T14:01:14.000Z
+              latest_tweet_date: 2019-09-13T13:56:04.000Z
           - item:
             name: MovieLabs
             homepage_url: 'https://movielabs.com/'
