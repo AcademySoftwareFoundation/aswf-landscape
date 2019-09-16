@@ -85,7 +85,7 @@ landscape:
           - item:
             name: OpenColorIO
             homepage_url: 'https://opencolorio.org/'
-            project: incubating
+            project: graduated
             repo_url: 'https://github.com/imageworks/OpenColorIO'
             logo: opencolorio.svg
             twitter: 'https://twitter.com/AcademySwf'
@@ -157,7 +157,7 @@ landscape:
               start_date: '2012-07-12T13:13:41Z'
             image_data:
               fileName: open-display-calib.svg
-              hash: 2iyXXRfspqnyL2iU6BpuYN0kLRiAcBXWyyZfkvx1otI=
+              hash: moc/IaphOrWEDItX/CtLT9bUWn0z6fPyIuRfk+QHWq8=
             best_practice_data:
               badge: false
               percentage: null
@@ -241,7 +241,7 @@ landscape:
               latest_tweet_date: 2019-09-12T15:56:26.000Z
           - item:
             name: Imagemagick
-            homepage_url: 'https://www.imagemagick.org/'
+            homepage_url: 'https://imagemagick.org/index.php'
             repo_url: 'https://github.com/ImageMagick/ImageMagick'
             logo: ImageMagick_logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/imagemagick-studio-llc'
@@ -365,9 +365,9 @@ landscape:
               latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
             name: OpenImageIO
-            homepage_url: 'http://www.openimageio.org'
+            homepage_url: 'https://sites.google.com/site/openimageio/home'
             repo_url: 'https://github.com/OpenImageIO/oiio'
-            logo: oiio-logo-no-alpha.svg
+            logo: open-image-io.svg
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/openimageio'
             crunchbase_data:
@@ -397,7 +397,7 @@ landscape:
               start_date: '2008-04-21T20:46:21Z'
             image_data:
               fileName: open-image-io.svg
-              hash: zf9ZIKgPuQf/061+zcqSq1rZybq9FnlTzeu277oYZdc=
+              hash: sze9GPzYR17hYWPDOp9ZkhJ2RwxRpxcQlLgurzvdXTc=
             best_practice_data:
               badge: 2694
               percentage: 100
@@ -1258,7 +1258,7 @@ landscape:
               latest_tweet_date: 2019-09-15T08:00:00.000Z
           - item:
             name: Open Subdiv
-            homepage_url: 'http://graphics.pixar.com/opensubdiv/'
+            homepage_url: 'http://graphics.pixar.com/opensubdiv/docs/intro.html'
             repo_url: 'https://github.com/PixarAnimationStudios/OpenSubdiv'
             logo: opensubdiv.svg
             twitter: 'https://twitter.com/pixar'
@@ -1376,7 +1376,7 @@ landscape:
               latest_tweet_date: 2019-09-14T14:17:10.000Z
           - item:
             name: 'USD: Universal Scene Description'
-            homepage_url: 'http://graphics.pixar.com/usd/'
+            homepage_url: 'http://graphics.pixar.com/usd/docs/index.html'
             repo_url: 'https://github.com/PixarAnimationStudios/USD'
             logo: usd.svg
             twitter: 'https://twitter.com/pixar'
@@ -1498,7 +1498,7 @@ landscape:
               latest_tweet_date: 2015-02-11T17:30:21.000Z
           - item:
             name: OpenTimelineIO
-            homepage_url: 'http://opentimeline.io/'
+            homepage_url: 'https://github.com/PixarAnimationStudios/OpenTimelineIO'
             project: incubating
             repo_url: 'https://github.com/PixarAnimationStudios/OpenTimelineIO'
             logo: opentimelineio.svg
@@ -1806,7 +1806,7 @@ landscape:
               start_date: '2011-02-11T18:12:18Z'
             image_data:
               fileName: earth.svg
-              hash: /wtEVBJ190xsCsQXs3bmzBeP7tPld6tl/ZpfCKatyTk=
+              hash: Y02hZbNFQkMzNVhCUysxUY244/OK4CsOAtKGjTByCXA=
             best_practice_data:
               badge: false
               percentage: null
@@ -2212,7 +2212,7 @@ landscape:
               start_date: '2007-02-01T08:53:53Z'
             image_data:
               fileName: affogato.svg
-              hash: 4TOL2hkB/8NDQoZFdQnx5n37Rr3iq0O/F/0Qs1207hc=
+              hash: FUykz9pqHH10vFHGhpE9579RioktjAdZ/DuGakDH0xk=
             best_practice_data:
               badge: false
               percentage: null
@@ -2262,6 +2262,7 @@ landscape:
             repo_url: 'https://github.com/AcademySoftwareFoundation/OpenCue'
             logo: opencue.svg
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
+            url_for_bestpractices: 'https://github.com/imageworks/OpenCue'
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -2292,8 +2293,8 @@ landscape:
               fileName: open-cue.svg
               hash: Gd5CTaF1SNt0dp3li4nIRYY4PVc1+4XGPHv1gSgRNW0=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 2837
+              percentage: 83
             twitter_data:
               latest_tweet_date: 2019-09-13T13:04:07.000Z
           - item:
@@ -2544,7 +2545,7 @@ landscape:
         items:
           - item:
             name: Bullet Physics
-            homepage_url: 'http://bulletphysics.org/'
+            homepage_url: 'http://pybullet.org/'
             repo_url: 'https://github.com/bulletphysics/bullet3'
             logo: bullet.svg
             crunchbase: 'https://www.crunchbase.com/organization/bullet-physics'
@@ -2953,7 +2954,7 @@ landscape:
               latest_tweet_date: 2019-09-15T22:07:01.000Z
           - item:
             name: Epic Games
-            homepage_url: 'https://www.unrealengine.com/'
+            homepage_url: 'https://www.unrealengine.com/en-US/'
             logo: epic-games.svg
             crunchbase: 'https://www.crunchbase.com/organization/epic-games-2'
             crunchbase_data:
@@ -3012,7 +3013,7 @@ landscape:
               latest_tweet_date: 2019-09-15T12:08:01.000Z
           - item:
             name: Intel
-            homepage_url: 'https://www.intel.com/'
+            homepage_url: 'https://www.intel.com/content/www/us/en/homepage.html'
             logo: intel.svg
             crunchbase: 'https://www.crunchbase.com/organization/intel'
             crunchbase_data:
@@ -3102,7 +3103,7 @@ landscape:
               latest_tweet_date: 2019-09-15T23:51:53.000Z
           - item:
             name: NVIDIA
-            homepage_url: 'https://www.nvidia.com/'
+            homepage_url: 'https://www.nvidia.com/en-us/'
             logo: nvidia.svg
             crunchbase: 'https://www.crunchbase.com/organization/nvidia'
             crunchbase_data:
@@ -3265,7 +3266,7 @@ landscape:
               latest_tweet_date: 2019-09-15T06:45:06.000Z
           - item:
             name: RedHat
-            homepage_url: 'https://www.redhat.com/'
+            homepage_url: 'https://www.redhat.com/en'
             stock_ticker: IBM
             logo: 'https://landscape.cncf.io/logos/red-hat-member.svg'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
