@@ -87,13 +87,17 @@ ads:
     image: /images/info1.jpg
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
-    label: Open source cards by age
+    label: OS cards by age
   - url: /format=card-mode&grouping=category
     label: Cards in categories
   - url: /format=card-mode&grouping=no&sort=stars
     label: Cards by stars
   - url: /format=card-mode&grouping=headquarters
     label: Group by location
+  - url: /format=card-mode&grouping=license&license=open-source
+    label: Group by license
+  - url: /format=card-mode&grouping=no&license=open-source&sort=latest-commit
+    label: OS cards by latest commit
 big_picture:
   main:
     tab_index: -1
