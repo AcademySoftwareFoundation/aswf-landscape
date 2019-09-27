@@ -196,11 +196,25 @@ landscape:
             logo: alembic.svg
             crunchbase: 'https://www.crunchbase.com/organization/lucasfilm'
           - item:
+            name: Collada
+            homepage_url: 'https://www.khronos.org/collada'
+            repo_url: 'https://github.com/KhronosGroup/OpenCOLLADA'
+            logo: collada.svg
+            twitter: 'https://twitter.com/thekhronosgroup'
+            crunchbase: 'https://www.crunchbase.com/organization/khronos-group-2'
+          - item:
             name: dnPtcViewerNode
             homepage_url: 'https://github.com/dneg/dnPtcViewerNode'
             repo_url: 'https://github.com/dneg/dnPtcViewerNode'
             logo: dn-ptc-viewer-node.svg
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
+          - item:
+            name: Embree
+            homepage_url: 'https://www.embree.org'
+            repo_url: 'https://github.com/embree/embree'
+            logo: embree.svg
+            twitter: 'https://twitter.com/IntelSoftware'
+            crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
             name: GTO
             homepage_url: 'http://www.tweaksoftware.com/products/open-source-software/gto/'
@@ -354,6 +368,13 @@ landscape:
       - subcategory:
         name: 'Rendering, Lighting, and Lookdev'
         items:
+          - item:
+            name: Cryptomatte
+            homepage_url: 'https://github.com/Psyop/Cryptomatte'
+            repo_url: 'https://github.com/Psyop/Cryptomatte'
+            logo: cryptomatte.svg
+            twitter: 'https://twitter.com/psyop'
+            crunchbase: 'https://www.crunchbase.com/organization/psyop'
           - item:
             name: MaterialX
             homepage_url: 'http://www.materialx.org/'
