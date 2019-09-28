@@ -59,6 +59,13 @@ landscape:
             logo: tuttle.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
           - item:
+            name: OpenCV
+            homepage_url: 'https://opencv.org/'
+            repo_url: 'https://github.com/opencv/opencv'
+            logo: opencv.svg
+            twitter: 'https://twitter.com/opencvlibrary'
+            crunchbase: 'https://www.crunchbase.com/organization/opencv'
+          - item:
             name: OpenEXR
             homepage_url: 'https://www.openexr.com/'
             project: incubating
@@ -369,6 +376,13 @@ landscape:
         name: 'Rendering, Lighting, and Lookdev'
         items:
           - item:
+            name: Affogato
+            homepage_url: 'https://sourceforge.net/projects/affogato/'
+            repo_url: 'https://github.com/virtualritz/affogato'
+            logo: affogato.svg
+            twitter: 'https://twitter.com/rspvfx'
+            crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
+          - item:
             name: Cryptomatte
             homepage_url: 'https://github.com/Psyop/Cryptomatte'
             repo_url: 'https://github.com/Psyop/Cryptomatte'
@@ -403,13 +417,6 @@ landscape:
       - subcategory:
         name: Queueing and Render Management
         items:
-          - item:
-            name: Affogato
-            homepage_url: 'https://sourceforge.net/projects/affogato/'
-            repo_url: 'https://github.com/virtualritz/affogato'
-            logo: affogato.svg
-            twitter: 'https://twitter.com/rspvfx'
-            crunchbase: 'https://www.crunchbase.com/organization/rising-sun-research'
           - item:
             name: CGRU
             homepage_url: 'http://cgru.info/'
