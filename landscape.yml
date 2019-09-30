@@ -216,13 +216,6 @@ landscape:
             logo: dn-ptc-viewer-node.svg
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
           - item:
-            name: Embree
-            homepage_url: 'https://www.embree.org'
-            repo_url: 'https://github.com/embree/embree'
-            logo: embree.svg
-            twitter: 'https://twitter.com/IntelSoftware'
-            crunchbase: 'https://www.crunchbase.com/organization/intel'
-          - item:
             name: GTO
             homepage_url: 'http://www.tweaksoftware.com/products/open-source-software/gto/'
             repo_url: 'https://github.com/jimhourihan/gto'
@@ -414,6 +407,13 @@ landscape:
             repo_url: 'https://github.com/blkdev2/pixie'
             logo: render-pixie.svg
             crunchbase: 'https://www.crunchbase.com/organization/renderpixie'
+          - item:
+            name: Embree
+            homepage_url: 'https://www.embree.org'
+            repo_url: 'https://github.com/embree/embree'
+            logo: embree.svg
+            twitter: 'https://twitter.com/IntelSoftware'
+            crunchbase: 'https://www.crunchbase.com/organization/intel'
       - subcategory:
         name: Queueing and Render Management
         items:
