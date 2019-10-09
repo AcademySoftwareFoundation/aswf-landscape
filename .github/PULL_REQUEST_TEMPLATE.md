@@ -3,7 +3,7 @@
 *Please check each of these after submitting your pull request:*
 
 * [ ] Are you including a `repo_url`? You need to pick the single best GitHub repository for your project, not a GitHub organization.
-* [ ] Is your project open source, and does your project have at least 300 GitHub stars?
+* [ ] Is your project open source?
 * [ ] Has this project been used successfully in the production of a film, television program, animated content or other projects within the scope of the ASWF. Was it designed specifically for the entertainment industry?
 * [ ] Have you picked the single best (existing) category for your project?
 * [ ] Does it follow the other guidelines from the [new entries](https://github.com/cncf/landscape#new-entries) section?
