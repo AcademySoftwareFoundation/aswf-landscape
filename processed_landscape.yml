@@ -318,47 +318,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-08-23T12:19:19.000Z
           - item:
-            name: OpenBatchIO
-            homepage_url: 'http://opensource.mikrosimage.eu/tuttle.html'
-            repo_url: 'https://github.com/tuttleofx/TuttleOFX'
-            logo: tuttle.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
-            crunchbase_data:
-              name: Mikros Image
-              description: Mikros Image operates as a production and postproduction company.
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: 'http://www.mikrosimage.com/'
-              city: Levallois-perret
-              region: Ile-de-France
-              country: France
-              twitter: 'https://twitter.com/Mikrosimage'
-              linkedin: 'https://www.linkedin.com/company-beta/14263/'
-              parents: []
-            github_data:
-              stars: 135
-              license: Other
-              description: >-
-                Tuttle OFX is a library to connect and batch operations with OpenFx plugins. It comes with a set of plugins that allows you to batch process on
-                movies and file sequences.
-              latest_commit_date: '2018-03-13T15:16:06Z'
-              latest_commit_link: /tuttleofx/TuttleOFX/commit/36fc4cae15092a84ea8c29b9c6658c7cabfadb6e
-              release_date: '2017-04-20T12:38:07Z'
-              release_link: 'https://github.com/tuttleofx/TuttleOFX/releases'
-              contributors_count: 21
-              contributors_link: 'https://github.com/tuttleofx/TuttleOFX/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /tuttleofx/TuttleOFX/commit/bd4fc3367faed51ba01b0c8141014a6aa91c7be7
-              start_date: '2009-10-20T16:22:50Z'
-            image_data:
-              fileName: open-batch-io.svg
-              hash: sIhx0XvWbmGlkKeP+JLqKsbnQTxLL3q0+syhxjENxmQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-10-11T08:38:31.000Z
-          - item:
             name: OpenCV
             homepage_url: 'https://opencv.org/'
             repo_url: 'https://github.com/opencv/opencv'
@@ -671,6 +630,47 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2015-02-11T17:30:21.000Z
+          - item:
+            name: Tuttle OFX
+            homepage_url: 'http://opensource.mikrosimage.eu/tuttle.html'
+            repo_url: 'https://github.com/tuttleofx/TuttleOFX'
+            logo: tuttle.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+            crunchbase_data:
+              name: Mikros Image
+              description: Mikros Image operates as a production and postproduction company.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'http://www.mikrosimage.com/'
+              city: Levallois-perret
+              region: Ile-de-France
+              country: France
+              twitter: 'https://twitter.com/Mikrosimage'
+              linkedin: 'https://www.linkedin.com/company-beta/14263/'
+              parents: []
+            github_data:
+              stars: 135
+              license: Other
+              description: >-
+                Tuttle OFX is a library to connect and batch operations with OpenFx plugins. It comes with a set of plugins that allows you to batch process on
+                movies and file sequences.
+              latest_commit_date: '2018-03-13T15:16:06Z'
+              latest_commit_link: /tuttleofx/TuttleOFX/commit/36fc4cae15092a84ea8c29b9c6658c7cabfadb6e
+              release_date: '2017-04-20T12:38:07Z'
+              release_link: 'https://github.com/tuttleofx/TuttleOFX/releases'
+              contributors_count: 21
+              contributors_link: 'https://github.com/tuttleofx/TuttleOFX/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /tuttleofx/TuttleOFX/commit/bd4fc3367faed51ba01b0c8141014a6aa91c7be7
+              start_date: '2009-10-20T16:22:50Z'
+            image_data:
+              fileName: tuttle-ofx.svg
+              hash: sIhx0XvWbmGlkKeP+JLqKsbnQTxLL3q0+syhxjENxmQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-11T08:38:31.000Z
       - subcategory:
         name: Display and Review
         items:
