@@ -33,9 +33,8 @@ Please see [landscape.aswf.io](https://landscape.aswf.io).
 ## New Entries
 
 * Projects must be open source and hosted on or mirrored to GitHub.
-* Projects must have been used successfully in the production of a film or animated production. It also should have been designed specifically for the entertainment industry.
-* Projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
-* We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
+* Projects must have been used successfully in the production of a film, television program, animated content or other projects within the scope of the ASWF. It also should have been designed specifically for the entertainment industry.
+* Projects that clearly fit in an existing category are generally included. Put the project in the single category where it best fits. We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
 

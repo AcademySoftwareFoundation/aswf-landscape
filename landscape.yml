@@ -18,12 +18,17 @@ landscape:
             logo: colorpipetools.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
           - item:
+            name: Colour
+            homepage_url: 'https://www.colour-science.org/'
+            repo_url: 'https://github.com/colour-science/colour'
+            logo: colour.svg
+            crunchbase: 'https://www.crunchbase.com/organization/colour-science'
+          - item:
             name: OpenColorIO
             homepage_url: 'https://opencolorio.org/'
             project: graduated
             repo_url: 'https://github.com/AcademySoftwareFoundation/OpenColorIO'
             logo: opencolorio.svg
-            twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
           - item:
             name: OpenDisplayCalib
@@ -53,12 +58,6 @@ landscape:
             logo: ImageMagick_logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/imagemagick-studio-llc'
           - item:
-            name: OpenBatchIO
-            homepage_url: 'http://opensource.mikrosimage.eu/tuttle.html'
-            repo_url: 'https://github.com/tuttleofx/TuttleOFX'
-            logo: tuttle.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
-          - item:
             name: OpenCV
             homepage_url: 'https://opencv.org/'
             repo_url: 'https://github.com/opencv/opencv'
@@ -71,7 +70,6 @@ landscape:
             project: incubating
             repo_url: 'https://github.com/openexr/openexr'
             logo: openexr.svg
-            twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
           - item:
             name: OpenImageIO
@@ -110,6 +108,12 @@ landscape:
             repo_url: 'https://github.com/guerilla-di/sequencer'
             logo: 'http://guerilla-di.org/images/sequencer.svg'
             crunchbase: 'https://www.crunchbase.com/organization/guerilla-di'
+          - item:
+            name: Tuttle OFX
+            homepage_url: 'http://opensource.mikrosimage.eu/tuttle.html'
+            repo_url: 'https://github.com/tuttleofx/TuttleOFX'
+            logo: tuttle.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
       - subcategory:
         name: Display and Review
         items:
@@ -118,7 +122,7 @@ landscape:
             homepage_url: 'http://djv.sourceforge.net/'
             repo_url: 'https://github.com/darbyjohnston/DJV'
             logo: djv.svg
-            crunchbase: 'https://www.crunchbase.com/organization/unexpected-gmbh'
+            crunchbase: 'https://www.crunchbase.com/organization/djv'
           - item:
             name: Duke
             homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
@@ -132,6 +136,12 @@ landscape:
             logo: jeri.svg
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/disney-research'
+          - item:
+            name: mrViewer
+            homepage_url: 'https://mrviewer.sourceforge.io'
+            repo_url: 'https://github.com/ggarra13/mrviewer'
+            logo: mrviewer.svg
+            crunchbase: 'https://www.crunchbase.com/organization/film-aura'
       - subcategory:
         name: Interactive Compositing and Painting
         items:
@@ -207,7 +217,6 @@ landscape:
             homepage_url: 'https://www.khronos.org/collada'
             repo_url: 'https://github.com/KhronosGroup/OpenCOLLADA'
             logo: collada.svg
-            twitter: 'https://twitter.com/thekhronosgroup'
             crunchbase: 'https://www.crunchbase.com/organization/khronos-group-2'
           - item:
             name: dnPtcViewerNode
@@ -215,13 +224,6 @@ landscape:
             repo_url: 'https://github.com/dneg/dnPtcViewerNode'
             logo: dn-ptc-viewer-node.svg
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
-          - item:
-            name: Embree
-            homepage_url: 'https://www.embree.org'
-            repo_url: 'https://github.com/embree/embree'
-            logo: embree.svg
-            twitter: 'https://twitter.com/IntelSoftware'
-            crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
             name: GTO
             homepage_url: 'http://www.tweaksoftware.com/products/open-source-software/gto/'
@@ -232,6 +234,7 @@ landscape:
             name: Maya Reticle
             homepage_url: 'http://opensource.imageworks.com/?p=mayareticle'
             repo_url: 'https://github.com/imageworks/spReticle'
+            stock_ticker: SNEJF
             logo: spreticle.svg
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
           - item:
@@ -287,7 +290,6 @@ landscape:
             project: incubating
             repo_url: 'https://github.com/PixarAnimationStudios/OpenTimelineIO'
             logo: opentimelineio.svg
-            twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
           - item:
             name: timecode
@@ -355,8 +357,16 @@ landscape:
             name: pyString
             homepage_url: 'http://opensource.imageworks.com/?p=pystring'
             repo_url: 'https://github.com/imageworks/pystring'
+            stock_ticker: SNEJF
             logo: pystring.svg
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
+          - item:
+            name: QtPyConvert
+            homepage_url: 'https://github.com/digitaldomain/QtPyConvert'
+            repo_url: 'https://github.com/digitaldomain/QtPyConvert'
+            stock_ticker: 0547.HK
+            logo: qtpyconvert.svg
+            crunchbase: 'https://www.crunchbase.com/organization/digital-domain'
           - item:
             name: Rez
             homepage_url: 'https://github.com/nerdvegas/rez'
@@ -367,6 +377,7 @@ landscape:
             name: Scala Migrations
             homepage_url: 'http://opensource.imageworks.com/?p=scalamigrations'
             repo_url: 'https://github.com/imageworks/scala-migrations'
+            stock_ticker: SNEJF
             logo: scalamigrations.svg
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
   - category:
@@ -387,8 +398,14 @@ landscape:
             homepage_url: 'https://github.com/Psyop/Cryptomatte'
             repo_url: 'https://github.com/Psyop/Cryptomatte'
             logo: cryptomatte.svg
-            twitter: 'https://twitter.com/psyop'
             crunchbase: 'https://www.crunchbase.com/organization/psyop'
+          - item:
+            name: Embree
+            homepage_url: 'https://www.embree.org'
+            repo_url: 'https://github.com/embree/embree'
+            logo: embree.svg
+            twitter: 'https://twitter.com/IntelSoftware'
+            crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
             name: MaterialX
             homepage_url: 'http://www.materialx.org/'
@@ -406,6 +423,7 @@ landscape:
             name: Open Shading Language (OSL)
             homepage_url: 'http://opensource.imageworks.com/?p=osl'
             repo_url: 'https://github.com/imageworks/openshadinglanguage'
+            stock_ticker: SNEJF
             logo: osl.svg
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
           - item:
@@ -446,6 +464,7 @@ landscape:
             name: Field3D
             homepage_url: 'http://opensource.imageworks.com/?p=field3d'
             repo_url: 'https://github.com/imageworks/Field3D'
+            stock_ticker: SNEJF
             logo: field3d.svg
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
           - item:
@@ -460,7 +479,6 @@ landscape:
             project: graduated
             repo_url: 'https://github.com/AcademySoftwareFoundation/openvdb'
             logo: openvdb.svg
-            twitter: 'https://twitter.com/AcademySwf'
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
           - item:
             name: Partio
@@ -542,7 +560,7 @@ landscape:
             logo: cisco.svg
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
           - item:
-            name: Double Negative
+            name: DNEG
             homepage_url: 'https://www.dneg.com/'
             logo: double-negative.svg
             crunchbase: 'https://www.crunchbase.com/organization/double-negative'
@@ -585,6 +603,7 @@ landscape:
           - item:
             name: Sony Imageworks
             homepage_url: 'https://www.sonypictures.com/'
+            stock_ticker: SNEJF
             logo: sony-imageworks.svg
             crunchbase: 'https://www.crunchbase.com/organization/sony-pictures-imageworks'
           - item:
