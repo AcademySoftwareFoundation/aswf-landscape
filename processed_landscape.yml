@@ -60,7 +60,7 @@ landscape:
               latest_tweet_date: 2019-11-04T15:50:00.000Z
           - item:
             name: ColorPipe-tools
-            homepage_url: 'http://opensource.mikrosimage.eu/colorPipe.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/mikrosimage/ColorPipe-tools'
             logo: colorpipetools.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -229,7 +229,7 @@ landscape:
               latest_tweet_date: 2019-11-01T23:00:07.000Z
           - item:
             name: OpenDisplayCalib
-            homepage_url: 'http://opensource.mikrosimage.eu/colortribe.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/mikrosimage/OpenDisplayCalib'
             logo: colortribe.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -331,7 +331,7 @@ landscape:
               latest_tweet_date: 2015-02-11T17:30:21.000Z
           - item:
             name: File Meta Checker
-            homepage_url: 'http://opensource.mikrosimage.eu/fileMetaChecker.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/mikrosimage/FileMetaChecker'
             logo: filemetachecker.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -552,7 +552,7 @@ landscape:
             name: OpenEXR
             homepage_url: 'https://www.openexr.com/'
             project: incubating
-            repo_url: 'https://github.com/openexr/openexr'
+            repo_url: 'https://github.com/AcademySoftwareFoundation/openexr'
             logo: openexr.svg
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
             crunchbase_data:
@@ -569,57 +569,26 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
-              languages:
-                - name: C++
-                  value: 5673803
-                  color: '#f34b7d'
-                - name: M4
-                  value: 226855
-                - name: Python
-                  value: 201777
-                  color: '#3572A5'
-                - name: C
-                  value: 169113
-                  color: '#555555'
-                - name: CMake
-                  value: 101415
-                - name: Makefile
-                  value: 42442
-                  color: '#427819'
-                - name: Objective-C
-                  value: 14606
-                  color: '#438eff'
-                - name: Shell
-                  value: 14142
-                  color: '#89e051'
-                - name: Batchfile
-                  value: 9272
-                  color: '#C1F12E'
-                - name: PowerShell
-                  value: 4438
-                  color: '#012456'
-              contributions: 0;1;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;1;1;1;0;0;1;5;0;0;0;5;10;7;14;12;27;55;20;2;14;6;15;5;8;13;5;3;10;2;9;3;11
-              firstWeek: 2018-11-11Z
-              stars: 741
+              stars: 746
               license: BSD 3-Clause "New" or "Revised" License
               description: >-
                 The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format
                 of the motion picture industry.
-              latest_commit_date: '2019-10-31T23:56:38Z'
-              latest_commit_link: /openexr/openexr/commit/a2c12ec3619de1923de86436c134be458523e5fd
+              latest_commit_date: '2019-12-03T05:00:00.000Z'
+              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/824ed557b3c59288a685356c708e5806b1122fe1
               release_date: '2019-09-19T23:33:19Z'
-              release_link: 'https://github.com/openexr/openexr/releases'
-              contributors_count: 49
-              contributors_link: 'https://github.com/openexr/openexr/graphs/contributors'
+              release_link: 'https://github.com/AcademySoftwareFoundation/openexr/releases'
+              contributors_count: 51
+              contributors_link: 'https://github.com/AcademySoftwareFoundation/openexr/graphs/contributors'
             github_start_commit_data:
-              start_commit_link: /openexr/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
+              start_commit_link: /AcademySoftwareFoundation/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
               start_date: '2003-01-21T06:34:28Z'
             image_data:
               fileName: open-exr.svg
               hash: OSB4LqJ/50IoVISEFBZ/aKPMJxNkgl1uhSx+/m+rRwE=
             best_practice_data:
-              badge: 2799
-              percentage: 100
+              badge: false
+              percentage: null
             twitter_data:
               latest_tweet_date: 2019-11-01T23:00:07.000Z
           - item:
@@ -685,7 +654,7 @@ landscape:
               percentage: 100
           - item:
             name: OpenMVG
-            homepage_url: 'http://opensource.mikrosimage.eu/openmvg.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/openMVG/openMVG'
             logo: 'https://github.com/openMVG/openMVG/blob/master/logo/openMVG_Logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -983,7 +952,7 @@ landscape:
               latest_tweet_date: 2015-02-11T17:30:21.000Z
           - item:
             name: Tuttle OFX
-            homepage_url: 'http://opensource.mikrosimage.eu/tuttle.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/tuttleofx/TuttleOFX'
             logo: tuttle.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -1047,7 +1016,7 @@ landscape:
         items:
           - item:
             name: DJV Imaging
-            homepage_url: 'http://djv.sourceforge.net/'
+            homepage_url: 'https://darbyjohnston.github.io/DJV/'
             repo_url: 'https://github.com/darbyjohnston/DJV'
             logo: djv.svg
             crunchbase: 'https://www.crunchbase.com/organization/djv'
@@ -1108,7 +1077,7 @@ landscape:
               percentage: null
           - item:
             name: Duke
-            homepage_url: 'http://opensource.mikrosimage.eu/duke.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/mikrosimage/duke'
             logo: duke.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -1904,7 +1873,7 @@ landscape:
               percentage: null
           - item:
             name: Collada
-            homepage_url: 'https://www.khronos.org/collada'
+            homepage_url: 'https://www.khronos.org/collada/'
             repo_url: 'https://github.com/KhronosGroup/OpenCOLLADA'
             logo: collada.svg
             crunchbase: 'https://www.crunchbase.com/organization/khronos-group-2'
@@ -2946,7 +2915,7 @@ landscape:
               latest_tweet_date: 2019-10-29T01:23:20.000Z
           - item:
             name: TACTIC
-            homepage_url: 'https://www.southpawtech.com/tactic/'
+            homepage_url: 'https://southpawtech.com/tactic/'
             repo_url: 'https://github.com/Southpaw-TACTIC/TACTIC'
             logo: tactic.svg
             crunchbase: 'https://www.crunchbase.com/organization/southpaw-technology-inc'
@@ -4050,7 +4019,7 @@ landscape:
               latest_tweet_date: 2019-11-01T23:00:07.000Z
           - item:
             name: Puli
-            homepage_url: 'http://opensource.mikrosimage.eu/puli.html'
+            homepage_url: 'http://opensource.mikrosimage.eu/'
             repo_url: 'https://github.com/mikrosimage/openrendermanagement'
             logo: puli.svg
             crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
@@ -4414,7 +4383,7 @@ landscape:
         items:
           - item:
             name: Bullet Physics
-            homepage_url: 'http://pybullet.org/'
+            homepage_url: 'https://pybullet.org/'
             repo_url: 'https://github.com/bulletphysics/bullet3'
             logo: bullet.svg
             crunchbase: 'https://www.crunchbase.com/organization/bullet-physics'
@@ -5478,7 +5447,7 @@ landscape:
               percentage: null
           - item:
             name: VES
-            homepage_url: 'https://www.visualeffectssociety.com/'
+            homepage_url: 'https://visualeffectssociety.com/'
             logo: ves.svg
             crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
             crunchbase_data:
