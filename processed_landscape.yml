@@ -5480,6 +5480,49 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-04-25T05:28:36.000Z
           - item:
+            name: 'Advanced Micro Devices, Inc.'
+            homepage_url: 'https://www.amd.com'
+            logo: advanced-micro-devices-inc.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amd'
+            crunchbase_data:
+              name: AMD
+              description: 'Advanced Micro Devices (AMD) is a semiconductor company that designs and develops graphics units, processors, and media solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.amd.com'
+              city: Santa Clara
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/amd'
+              linkedin: 'https://www.linkedin.com/company/amd'
+              acquisitions:
+                - date: '2017-04-10'
+                  acquiree: Nitero
+                - date: '2016-06-29'
+                  acquiree: HiAlgo
+                - date: '2012-02-29'
+                  acquiree: SeaMicro
+                  price: 334000000
+                - date: '2006-07-24'
+                  acquiree: ATI Technologies
+                  price: 5400000000
+                - date: '2002-02-06'
+                  acquiree: Alchemy Semiconductor
+              parents: []
+              ticker: AMD
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 65778356224
+              effective_ticker: AMD
+            image_data:
+              fileName: advanced-micro-devices-inc.svg
+              hash: 2Za4zJY0wFoO5LflFP238qc7drUBfIwmuqMPxhAaABo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-24T23:00:44.000Z
+          - item:
             name: Animal Logic
             homepage_url: 'https://www.animallogic.com/'
             logo: animal-logic.svg
