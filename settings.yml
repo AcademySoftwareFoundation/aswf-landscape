@@ -107,9 +107,6 @@ big_picture:
     name: Landscape
     title: Academy Software Foundation Landscape
     fullscreen_header: See the interactive landscape at l.aswf.io
-    size:
-      width: 1165
-      height: 700
     fullscreen_size:
       width: 1165
       height: 700
@@ -154,48 +151,48 @@ big_picture:
         category: ASWF Member Company
         cols: 8
         width: 355
-        height: 430
-        top: 190
+        height: 464
+        top: 156
         left: 770
         color: 'rgb(193,83,21)'
         fit_width: true
       - type: LandscapeInfo
         width: 365
-        height: 160
+        height: 126
         top: 10
-        left: 770
+        left: 765
         children:
           - type: text
             text: >
               This landscape is intended as a map to explore open source projects within the animation and visual effects industry, and also shows the member
               companies of the Academy Software Foundation.
-            top: 20
-            left: 100
+            top: 10
+            left: 85
             right: 120
             font_size: 10
           - type: image
             image: qr.svg
-            top: 20
-            left: 5
-            width: 90
+            top: 4
+            left: 1
+            width: 88
             height: 90
             title: QR Code
           - type: title
             title: l.aswf.io
-            top: 104
-            left: 30
+            top: 84
+            left: 24
             font_size: 12
           - type: image
             image: left-logo.svg
             width: 110
             right: 5
-            top: 20
+            top: 10
             title: Landscape Logo
           - type: image
             image: right-logo.svg
             width: 109
             right: 5
-            top: 80
+            top: 65
             title: ASWF Logo
 test:
   header: ASWF Interactive Landscape
