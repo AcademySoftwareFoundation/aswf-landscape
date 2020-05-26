@@ -15,8 +15,8 @@ landscape:
             crunchbase_data:
               name: Academy of Motion Picture Arts and Sciences
               description: Academy of Motion Picture Arts and Sciences is a movie-related organization with a goal of advancing arts and sciences of motion pictures.
-              num_employees_min: 251
-              num_employees_max: 500
+              num_employees_min: null
+              num_employees_max: null
               homepage: 'https://www.oscars.org/'
               city: Beverly Hills
               region: California
@@ -150,7 +150,7 @@ landscape:
               latest_commit_link: /colour-science/colour/commit/055adb2d993a14878dc269cbb40086b8ae5cf2aa
               release_date: '2020-01-25T05:18:15Z'
               release_link: 'https://github.com/colour-science/colour/releases'
-              contributors_count: 23
+              contributors_count: 22
               contributors_link: 'https://github.com/colour-science/colour/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /colour-science/colour/commit/90bc42b9fedfc7291c7023247eab14b41d5c29af
@@ -216,7 +216,7 @@ landscape:
               latest_commit_link: /AcademySoftwareFoundation/OpenColorIO/commit/d69dde5a2425c57b9439f311ed58175c8c66f075
               release_date: '2019-04-03T05:21:22Z'
               release_link: 'https://github.com/AcademySoftwareFoundation/OpenColorIO/releases'
-              contributors_count: 49
+              contributors_count: 48
               contributors_link: 'https://github.com/AcademySoftwareFoundation/OpenColorIO/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/OpenColorIO/commit/3a4a30dba6be65613e80c9858169cd9d53e58ff2
@@ -500,7 +500,7 @@ landscape:
                   value: 755209
                   color: '#b07219'
                 - name: Python
-                  value: 662192
+                  value: 657662
                   color: '#3572A5'
                 - name: Cuda
                   value: 208975
@@ -597,7 +597,7 @@ landscape:
                 - name: M4
                   value: 227311
                 - name: Python
-                  value: 210135
+                  value: 201777
                   color: '#3572A5'
                 - name: CMake
                   value: 109351
@@ -935,7 +935,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 283706
+                  value: 283698
                   color: '#3572A5'
                 - name: Batchfile
                   value: 781
@@ -948,8 +948,8 @@ landscape:
               stars: 922
               license: Other
               description: ':movie_camera: Python and OpenCV-based scene cut/transition detection program & library.'
-              latest_commit_date: '2020-04-18T15:32:15Z'
-              latest_commit_link: /Breakthrough/PySceneDetect/commit/e1ee8e3d95fc025c12973ce985eb73ff8c488c81
+              latest_commit_date: '2020-03-29T18:57:06Z'
+              latest_commit_link: /Breakthrough/PySceneDetect/commit/516b3be6428d74a3604ea2d24c09e00876eb7403
               release_date: '2020-03-29T18:25:58Z'
               release_link: 'https://github.com/Breakthrough/PySceneDetect/releases'
               contributors_count: 15
@@ -1105,7 +1105,7 @@ landscape:
                   value: 78736
                   color: '#ecdebe'
                 - name: Python
-                  value: 68496
+                  value: 67796
                   color: '#3572A5'
                 - name: GLSL
                   value: 20336
@@ -1278,7 +1278,7 @@ landscape:
                 - name: CMake
                   value: 130834
                 - name: C
-                  value: 124416
+                  value: 124370
                   color: '#555555'
                 - name: Ruby
                   value: 20796
@@ -1806,7 +1806,7 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 10428731
+                  value: 10429796
                   color: '#f34b7d'
                 - name: C
                   value: 2935955
@@ -2545,7 +2545,7 @@ landscape:
               description: An Open-Source subdivision surface library.
               latest_commit_date: '2020-04-02T06:04:53Z'
               latest_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/82ab1b9f54c87fdd7e989a3470d53e137b8ca270
-              contributors_count: 42
+              contributors_count: 41
               contributors_link: 'https://github.com/PixarAnimationStudios/OpenSubdiv/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/5e204a4c1e0076312cb22d415c217d5d8c0f7def
@@ -2933,7 +2933,7 @@ landscape:
               latest_commit_link: /PixarAnimationStudios/OpenTimelineIO/commit/39aae41f23ce03a5a76808ca45d8b53c2d2c071f
               release_date: '2020-03-27T20:43:00Z'
               release_link: 'https://github.com/PixarAnimationStudios/OpenTimelineIO/releases'
-              contributors_count: 40
+              contributors_count: 39
               contributors_link: 'https://github.com/PixarAnimationStudios/OpenTimelineIO/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /PixarAnimationStudios/OpenTimelineIO/commit/0f685780a69e491dd8b8f0e720671a8be22349cf
@@ -3241,6 +3241,7 @@ landscape:
                 - name: GLSL
                   value: 6236
               contributions: >-
+
                 45;23;20;48;33;40;30;24;58;46;45;36;29;27;11;10;24;29;32;29;26;45;30;21;29;41;22;41;39;25;0;12;54;49;19;61;33;57;40;37;30;31;29;44;50;9;19;44;32;21;21;24
               firstWeek: 2019-06-02Z
               stars: 596
@@ -3331,7 +3332,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-15T17:07:50.000Z
+              latest_tweet_date: 2020-04-09T18:27:03.000Z
       - subcategory:
         name: Software Foundation and System Administration
         items:
@@ -3453,22 +3454,22 @@ landscape:
             github_data:
               languages:
                 - name: Scala
-                  value: 210185
+                  value: 206879
                   color: '#c22d40'
                 - name: Java
                   value: 25289
                   color: '#b07219'
                 - name: Shell
-                  value: 6021
+                  value: 6042
                   color: '#89e051'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;5;3;0;0;0;0;0;0;0;0;0;0;4;16;1;0;0;0;0;4;0;7;0;0;14;0;0;0;0
               firstWeek: 2019-06-02Z
               stars: 16
               license: Apache License 2.0
               description: ForestFlow is a policy-driven Machine Learning Model Server. It is an LF AI Foundation incubation project.
-              latest_commit_date: '2020-04-23T00:46:07Z'
-              latest_commit_link: /ForestFlow/ForestFlow/commit/d9f0fa28dee5d2454e8ec61a09b84e2235c0e29d
-              contributors_count: 3
+              latest_commit_date: '2020-04-02T03:41:19Z'
+              latest_commit_link: /ForestFlow/ForestFlow/commit/a38af22faa902b0f05404d7df63a9d7faddbbfee
+              contributors_count: 2
               contributors_link: 'https://github.com/ForestFlow/ForestFlow/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /ForestFlow/ForestFlow/commit/357e4c41a9c09c4069d36ec4692e4463c2f1a5d0
@@ -3511,7 +3512,7 @@ landscape:
                   value: 1139460
                   color: '#3572A5'
                 - name: Swift
-                  value: 301711
+                  value: 301268
                   color: '#ffac45'
                 - name: Shell
                   value: 66851
@@ -4485,25 +4486,28 @@ landscape:
                   value: 59059
                   color: '#3A4E3A'
                 - name: Yacc
-                  value: 49969
+                  value: 52694
                   color: '#4B6C4B'
                 - name: HTML
-                  value: 43861
+                  value: 43631
                   color: '#e34c26'
                 - name: Shell
                   value: 26103
                   color: '#89e051'
                 - name: Lex
-                  value: 25022
+                  value: 27746
                   color: '#DBCA00'
                 - name: C
                   value: 24796
                   color: '#555555'
+                - name: Shell
+                  value: 22822
+                  color: '#89e051'
                 - name: Makefile
-                  value: 16706
+                  value: 16273
                   color: '#427819'
                 - name: Objective-C
-                  value: 14226
+                  value: 15551
                   color: '#438eff'
                 - name: CSS
                   value: 4165
@@ -4643,7 +4647,7 @@ landscape:
                   value: 66934
                   color: '#563d7c'
                 - name: HTML
-                  value: 65145
+                  value: 65062
                   color: '#e34c26'
                 - name: Batchfile
                   value: 29328
@@ -4919,10 +4923,10 @@ landscape:
                   value: 1306568
                   color: '#f34b7d'
                 - name: C
-                  value: 820619
+                  value: 819610
                   color: '#555555'
                 - name: Shell
-                  value: 222165
+                  value: 221508
                   color: '#89e051'
                 - name: HTML
                   value: 101231
@@ -4950,11 +4954,11 @@ landscape:
               stars: 173
               license: Unknown License
               description: OpenFX effects API
-              latest_commit_date: '2020-04-21T13:26:56Z'
-              latest_commit_link: /ofxa/openfx/commit/f6c60f92edc05578410d16f0eabe499b18e2507b
+              latest_commit_date: '2019-11-25T22:15:07Z'
+              latest_commit_link: /ofxa/openfx/commit/35e3680f5b6d7f83895095697451f25ff0312e74
               release_date: '2015-09-01T02:19:20Z'
               release_link: 'https://github.com/ofxa/openfx/releases'
-              contributors_count: 6
+              contributors_count: 5
               contributors_link: 'https://github.com/ofxa/openfx/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /ofxa/openfx/commit/0cd61763b848efa8daceccb9e19cdad98433cea4
@@ -5311,7 +5315,7 @@ landscape:
                   value: 12239830
                   color: '#dbb284'
                 - name: C
-                  value: 917083
+                  value: 914352
                   color: '#555555'
                 - name: CMake
                   value: 830527
@@ -7744,8 +7748,8 @@ landscape:
             crunchbase_data:
               name: ftrack
               description: ftrack is a scalable cloud-based project management solution used in the media & entertainment industry.
-              num_employees_min: 51
-              num_employees_max: 100
+              num_employees_min: null
+              num_employees_max: null
               homepage: 'https://www.ftrack.com'
               city: Stockholm
               region: Stockholms Lan
@@ -7949,8 +7953,8 @@ landscape:
             crunchbase_data:
               name: Academy of Motion Picture Arts and Sciences
               description: Academy of Motion Picture Arts and Sciences is a movie-related organization with a goal of advancing arts and sciences of motion pictures.
-              num_employees_min: 251
-              num_employees_max: 500
+              num_employees_min: null
+              num_employees_max: null
               homepage: 'https://www.oscars.org/'
               city: Beverly Hills
               region: California
