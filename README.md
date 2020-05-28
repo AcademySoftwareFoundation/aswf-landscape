@@ -1,4 +1,4 @@
-[![Dependency Status](https://img.shields.io/david/AcademySoftwareFoundation/aswf-landscape.svg?style=flat-square)](https://david-dm.org/AcademySoftwareFoundation/aswf-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/4e7f5868-c8de-4e99-8c77-a3b855c61f7d/deploy-status)](https://app.netlify.com/sites/awsf-landscape/deploys)
+[![dependencies Status](https://david-dm.org/AcademySoftwareFoundation/aswf-landscape/status.svg)](https://david-dm.org/AcademySoftwareFoundation/aswf-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/4e7f5868-c8de-4e99-8c77-a3b855c61f7d/deploy-status)](https://app.netlify.com/sites/awsf-landscape/deploys)
 
 # Academy Software Foundation Landscape
 
