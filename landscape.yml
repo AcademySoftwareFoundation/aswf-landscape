@@ -12,12 +12,6 @@ landscape:
             logo: aces.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
           - item:
-            name: ColorPipe-tools
-            homepage_url: 'http://opensource.mikrosimage.eu/'
-            repo_url: 'https://github.com/mikrosimage/ColorPipe-tools'
-            logo: colorpipetools.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
-          - item:
             name: Colour
             homepage_url: 'https://www.colour-science.org/'
             repo_url: 'https://github.com/colour-science/colour'
@@ -30,12 +24,6 @@ landscape:
             repo_url: 'https://github.com/AcademySoftwareFoundation/OpenColorIO'
             logo: opencolorio.svg
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
-          - item:
-            name: OpenDisplayCalib
-            homepage_url: 'http://opensource.mikrosimage.eu/'
-            repo_url: 'https://github.com/mikrosimage/OpenDisplayCalib'
-            logo: colortribe.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
       - subcategory:
         name: 'Image Formats, I/O, and Processing Libraries'
         items:
@@ -45,12 +33,6 @@ landscape:
             repo_url: 'https://github.com/guerilla-di/depix'
             logo: depix.svg
             crunchbase: 'https://www.crunchbase.com/organization/guerilla-di'
-          - item:
-            name: File Meta Checker
-            homepage_url: 'http://opensource.mikrosimage.eu/'
-            repo_url: 'https://github.com/mikrosimage/FileMetaChecker'
-            logo: filemetachecker.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
           - item:
             name: Imagemagick
             homepage_url: 'https://imagemagick.org/index.php'
@@ -108,12 +90,6 @@ landscape:
             repo_url: 'https://github.com/guerilla-di/sequencer'
             logo: sequencer.svg
             crunchbase: 'https://www.crunchbase.com/organization/guerilla-di'
-          - item:
-            name: Tuttle OFX
-            homepage_url: 'http://opensource.mikrosimage.eu/'
-            repo_url: 'https://github.com/tuttleofx/TuttleOFX'
-            logo: tuttle.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
       - subcategory:
         name: Display and Review
         items:
@@ -123,12 +99,6 @@ landscape:
             repo_url: 'https://github.com/darbyjohnston/DJV'
             logo: djv.svg
             crunchbase: 'https://www.crunchbase.com/organization/djv'
-          - item:
-            name: Duke
-            homepage_url: 'http://opensource.mikrosimage.eu/'
-            repo_url: 'https://github.com/mikrosimage/duke'
-            logo: duke.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
           - item:
             name: Jeri
             homepage_url: 'https://jeri.io/'
@@ -213,6 +183,12 @@ landscape:
             logo: alembic.svg
             crunchbase: 'https://www.crunchbase.com/organization/lucasfilm'
           - item:
+            name: AliceVision
+            homepage_url: 'https://alicevision.org/'
+            repo_url: 'https://github.com/alicevision/AliceVision'
+            logo: alicevision.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
+          - item:
             name: Collada
             homepage_url: 'https://www.khronos.org/collada/'
             repo_url: 'https://github.com/KhronosGroup/OpenCOLLADA'
@@ -241,7 +217,7 @@ landscape:
             homepage_url: 'https://github.com/alicevision/meshroom'
             repo_url: 'https://github.com/alicevision/meshroom'
             logo: meshroom.svg
-            crunchbase: 'https://www.crunchbase.com/organization/horizon-2020'
+            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
           - item:
             name: Open Subdiv
             homepage_url: 'http://graphics.pixar.com/opensubdiv/docs/intro.html'
@@ -443,12 +419,6 @@ landscape:
             repo_url: 'https://github.com/AcademySoftwareFoundation/OpenCue'
             logo: opencue.svg
             crunchbase: 'https://www.crunchbase.com/organization/academy-software-foundation'
-          - item:
-            name: Puli
-            homepage_url: 'http://opensource.mikrosimage.eu/'
-            repo_url: 'https://github.com/mikrosimage/openrendermanagement'
-            logo: puli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mikros-image'
   - category:
     name: Math and Simulation
     subcategories:
