@@ -2,6 +2,8 @@ name: Update members
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
 
 jobs:
   build:
@@ -26,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r landscape-tools/requirements.txt
       - name: Run build
-        working-directory: ./main
+        working-directory: ./master
         env:
           SF_USERNAME: ${{ secrets.SF_USERNAME }}
           SF_PASSWORD: ${{ secrets.SF_PASSWORD }}
@@ -37,13 +39,13 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: missing-members 
-          path: ./main/missing.csv
+          path: ./master/missing.csv
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.PAT }}
           branch-suffix: timestamp
-          path: ./main
+          path: ./master
           title: Update members
           labels: automated-build
           commit-message: Update members
