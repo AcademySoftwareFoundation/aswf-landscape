@@ -30,20 +30,20 @@ relation:
       label: ASWF Projects
       children:
         - id: graduated
-          label: Graduated ASWF Projects
+          label: Adopted ASWF Projects
           prefix: ASWF
-          tag: Graduated
+          tag: Adopted
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: ASWF Graduated
+          big_picture_label: ASWF Adopted
           big_picture_color: rgb(24,54,114)
         - id: incubating
-          label: Incubating ASWF Projects
+          label: Incubation ASWF Projects
           prefix: ASWF
-          tag: Incubating
+          tag: Incubation
           color: '#00cbff'
           big_picture_order: 2
-          big_picture_label: ASWF Incubating
+          big_picture_label: ASWF Incubation
           big_picture_color: rgb(83, 113, 189)
     - id: company
       label: ASWF Members
