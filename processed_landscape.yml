@@ -110,24 +110,11 @@ landscape:
             homepage_url: https://www.colour-science.org/
             repo_url: https://github.com/colour-science/colour
             logo: colour.svg
-            crunchbase: https://www.crunchbase.com/organization/colour-science
+            organization:
+              name: test
             crunchbase_data:
-              name: Colour Science
-              description: Colour Science for Python
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: https://www.colour-science.org/
-              city: Wellington
-              region: Wellington
-              country: New Zealand
-              twitter: https://twitter.com/colour_science
-              linkedin: https://www.linkedin.com/in/thomasmansencal/
-              acquisitions: []
+              name: test
               parents: []
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Software
             github_data:
               languages:
                 - name: Python
@@ -159,8 +146,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-10-10T21:10:51.000Z
           - item:
             name: OpenColorIO
             homepage_url: https://opencolorio.org/
