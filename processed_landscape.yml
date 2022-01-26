@@ -262,7 +262,7 @@ landscape:
               start_date: '2010-06-17T02:34:03Z'
             image_data:
               fileName: open-color-io.svg
-              hash: zqADcCu+evmuABh27N4fYerg97PLLpV9HafnTXWsm70=
+              hash: BDX99eHn8bJuuaWsuRC6aeE3Eip6UnBF7Zelg0/O7W0=
             best_practice_data:
               badge: 2612
               percentage: 100
@@ -274,7 +274,7 @@ landscape:
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
             logo: rawtoaces.svg
-            crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               user_mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
               slack_channel: '#rawtoaces'
@@ -282,22 +282,26 @@ landscape:
               calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
               project_lead: (See email list)
             crunchbase_data:
-              name: Academy of Motion Picture Arts and Sciences
-              description: Academy of Motion Picture Arts and Sciences is a movie-related organization with a goal of advancing arts and sciences of motion pictures.
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: https://www.oscars.org/
-              city: Beverly Hills
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
               region: California
               country: United States
-              twitter: https://twitter.com/theacademy
-              linkedin: https://www.linkedin.com/company/academy-of-motion-picture-arts-and-sciences/
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
               acquisitions: []
-              parents: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
               stockExchange: null
-              company_type: For Profit
+              company_type: Non Profit
               industries:
-                - Association
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
             github_data:
               languages:
                 - name: C++
@@ -330,7 +334,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-01-25T22:08:01.000Z
+              latest_tweet_date: 2022-01-25T22:10:27.000Z
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -6182,7 +6186,6 @@ landscape:
             name: Adobe Inc.
             homepage_url: https://adobe.com/
             logo: adobe_inc.svg
-            twitter: https://twitter.com/Adobe
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
             crunchbase_data:
               name: Adobe
@@ -6468,7 +6471,6 @@ landscape:
             name: Autodesk
             homepage_url: https://autodesk.com/
             logo: autodesk.svg
-            twitter: https://twitter.com/autodesk
             crunchbase: https://www.crunchbase.com/organization/autodesk
             crunchbase_data:
               name: Autodesk
@@ -6673,7 +6675,6 @@ landscape:
             name: DNEG
             homepage_url: https://dneg.com/
             logo: dneg.svg
-            twitter: https://twitter.com/dneg
             crunchbase: https://www.crunchbase.com/organization/double-negative
             crunchbase_data:
               name: DNEG
@@ -7394,7 +7395,6 @@ landscape:
             name: Intel Corporation
             homepage_url: https://www.intel.com/content/www/us/en/homepage.html
             logo: intel_corporation.svg
-            twitter: https://twitter.com/intel
             crunchbase: https://www.crunchbase.com/organization/intel
             crunchbase_data:
               name: Intel
@@ -7673,7 +7673,6 @@ landscape:
             name: Microsoft Corporation
             homepage_url: https://www.microsoft.com/en-us
             logo: microsoft_corporation.svg
-            twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
             crunchbase_data:
               name: Microsoft
@@ -8257,7 +8256,6 @@ landscape:
             name: Netflix, Inc.
             homepage_url: https://netflix.com/
             logo: netflix_inc.svg
-            twitter: https://twitter.com/netflix
             crunchbase: https://www.crunchbase.com/organization/netflix
             crunchbase_data:
               name: Netflix
@@ -8307,7 +8305,6 @@ landscape:
             name: NVIDIA Corporation
             homepage_url: https://www.nvidia.com/en-us
             logo: nvidia_corporation.svg
-            twitter: https://twitter.com/nvidia
             crunchbase: https://www.crunchbase.com/organization/nvidia
             crunchbase_data:
               name: NVIDIA
@@ -8668,7 +8665,6 @@ landscape:
             name: ftrack AB
             homepage_url: https://www.ftrack.com/en
             logo: ftrack_ab.svg
-            twitter: https://twitter.com/ftrackhq
             crunchbase: https://www.crunchbase.com/organization/ftrack
             crunchbase_data:
               name: ftrack
@@ -8849,7 +8845,6 @@ landscape:
             name: RodeoFX
             homepage_url: https://rodeofx.com/
             logo: rodeofx.svg
-            twitter: https://twitter.com/FXRodeo
             crunchbase: https://www.crunchbase.com/organization/rodeo-fx
             crunchbase_data:
               name: Rodeo FX
@@ -8886,7 +8881,6 @@ landscape:
             name: SideFX (Side Effects Software Inc)
             homepage_url: https://sidefx.com/
             logo: sidefx_side_effects_software_inc.svg
-            twitter: https://twitter.com/sidefx
             crunchbase: https://www.crunchbase.com/organization/side-effects-software-inc
             crunchbase_data:
               name: SideFX
@@ -9090,7 +9084,6 @@ landscape:
             name: Society of Motion Picture and Television Engineers
             homepage_url: https://smpte.org/
             logo: society_of_motion_picture_and_television_engineers.svg
-            twitter: https://twitter.com/smpteconnect
             crunchbase: https://www.crunchbase.com/organization/smpte
             crunchbase_data:
               name: SMPTE
@@ -9124,7 +9117,6 @@ landscape:
             name: Visual Effects Society
             homepage_url: https://visualeffectssociety.com/
             logo: visual_effects_society.svg
-            twitter: https://twitter.com/VFXSociety
             crunchbase: https://www.crunchbase.com/organization/visual-effects-society
             crunchbase_data:
               name: Visual Effects Society
