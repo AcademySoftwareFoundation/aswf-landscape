@@ -28,6 +28,8 @@ landscape:
             homepage_url: https://opencolorio.org/
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES 
             logo: opencolorio.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -81,6 +83,11 @@ landscape:
             homepage_url: https://www.openexr.com/
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openexr
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/Imath
+              - repo_url: https://github.com/AcademySoftwareFoundation/openexr-images
+              - repo_url: https://github.com/AcademySoftwareFoundation/openexr-examples
+              - repo_url: https://github.com/AcademySoftwareFoundation/openexr-website
             url_for_bestpractices: https://github.com/openexr/openexr
             logo: open-exr.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -514,6 +521,8 @@ landscape:
             homepage_url: https://www.opencue.io/
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
             logo: opencue.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -549,6 +558,8 @@ landscape:
             homepage_url: https://www.openvdb.org/
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openvdb
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/openvdb-website
             logo: openvdb.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
