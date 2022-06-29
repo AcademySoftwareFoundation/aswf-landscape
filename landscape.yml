@@ -34,15 +34,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               user_mailing_list_url: https://lists.aswf.io/g/ocio-user
-              Dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
+              dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
               slack_channel_url: https://slack.opencolorio.org
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencolorio/dashboard;quicktime=time_filter_3Y
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencolorio/dashboard;quicktime=time_filter_3Y
               wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
-              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
+              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
+              tsc_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
               contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
-              project_lead: Carol Payne - Imaging Technologist at Netflix, Inc
+              leads: Carol Payne - Imaging Technologist at Netflix, Inc
           - item:
             name: RAW to ACES Utility
             homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
@@ -51,11 +51,11 @@ landscape:
             logo: rawtoaces.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              user_mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
+              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
               slack_channel: '#rawtoaces'
-              TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
+              tsc_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
               calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
-              project_lead: Alex Forsythe - Director, Imaging Technology at the Academy of Motion Picture Arts and Sciences
+              leads: Alex Forsythe - Director, Imaging Technology at the Academy of Motion Picture Arts and Sciences
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -92,14 +92,14 @@ landscape:
             logo: open-exr.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              user_mailing_list_url: https://lists.aswf.io/g/openexr-dev
+              mailing_list_url: https://lists.aswf.io/g/openexr-dev
               slack_channel: '#openexr'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenexr/dashboard;quicktime=time_filter_3Y
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenexr/dashboard;quicktime=time_filter_3Y
               wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
-              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
+              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
+              tsc_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
               calendar: https://lists.aswf.io/g/openexr-dev/calendar
-              project_lead: Cary Phillips - R&D Supervisor at Industrial Light & Magic
+              leads: Cary Phillips - R&D Supervisor at Industrial Light & Magic
           - item:
             name: OpenImageIO
             homepage_url: https://sites.google.com/site/openimageio/home
@@ -323,14 +323,14 @@ landscape:
             logo: opentimelineio.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              user_mailing_list_url: https://lists.aswf.io/g/otio-discussion
+              mailing_list_url: https://lists.aswf.io/g/otio-discussion
               slack_channel: '#opentimelineio'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopentimelineio/dashboard;quicktime=time_filter_3Y
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
-              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              Calendar: https://lists.aswf.io/g/otio-discussion/calendar
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopentimelineio/dashboard;quicktime=time_filter_3Y
+              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
+              tsc_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
+              calendar: https://lists.aswf.io/g/otio-discussion/calendar
               contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
-              project_lead: Joshua Minor - Lead Software Engineer, Story & Editorial Tools Group at Pixar Animation Studios
+              leads: Joshua Minor - Lead Software Engineer, Story & Editorial Tools Group at Pixar Animation Studios
           - item:
             name: timecode
             homepage_url: https://github.com/guerilla-di/timecode
@@ -448,12 +448,11 @@ landscape:
             logo: rez.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              user_mailing_list_url: rez-discussion@lists.aswf.io
-              Dev_mailing_list_url: rez-tsc-private@lists.aswf.io
+              mailing_list_url: https://lists.aswf.io/g/rez-discussion
               slack_channel: '#Rez'
-              TSC_meeting_notes: Request links
+              tsc_meeting_notes: Request links
               contribution_guidelines: Request links
-              project_lead: Allan Johns - Lead Core Pipeline Engineer at Method Studios
+              leads: Allan Johns - Lead Core Pipeline Engineer at Method Studios
           - item:
             name: Scala Migrations
             homepage_url: http://opensource.imageworks.com/?p=scalamigrations
@@ -488,13 +487,13 @@ landscape:
             twitter: https://twitter.com/MaterialXCG
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              user_mailing_list_url: https://lists.aswf.io/g/materialx-discussion
+              mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_channel: '#materialx'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fmaterialx/dashboard;quicktime=time_filter_3Y
-              TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fmaterialx/dashboard;quicktime=time_filter_3Y
+              tsc_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
               calendar: https://lists.aswf.io/g/materialx-discussion/calendar
               contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
-              project_lead: Jonathan Stone -  Lead Rendering Engineer, Materials and Shading at Lucasfilm Advanced Development Group
+              leads: Jonathan Stone -  Lead Rendering Engineer, Materials and Shading at Lucasfilm Advanced Development Group
           - item:
             name: NVIDIA MDL SDK
             homepage_url: https://github.com/NVIDIA/MDL-SDK
@@ -510,14 +509,14 @@ landscape:
             logo: osl.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              user_mailing_list_url: https://lists.aswf.io/g/osl-dev
+              mailing_list_url: https://lists.aswf.io/g/osl-dev
               Slack_Channel: '#openshadinglanguage'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenshadinglanguage/dashboard;quicktime=time_filter_3Y
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
-              TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenshadinglanguage/dashboard;quicktime=time_filter_3Y
+              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
+              tsc_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
               calendar: https://lists.aswf.io/g/osl-dev/calendar
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
-              project_lead: Chris Kulla - Senior Rendering Programmer at Epic Games
+              leads: Chris Kulla - Senior Rendering Programmer at Epic Games
           - item:
             name: Pixie
             homepage_url: http://www.renderpixie.com/
@@ -544,14 +543,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               user_mailing_list_url: https://lists.aswf.io/g/opencue-user
-              Dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
+              dev_mailing_list_url: https://lists.aswf.io/g/opencue-dev
               slack_channel: '#opencue'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencue/dashboard;quicktime=time_filter_3Y
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencue/dashboard;quicktime=time_filter_3Y
+              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
+              tsc_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
               contribution_guidelines: https://www.opencue.io/contributing/
-              project_lead: Brian Cipriano - Senior Software Engineer at Google
+              leads: Brian Cipriano - Senior Software Engineer at Google
   - category:
     name: Math and Simulation
     subcategories:
@@ -581,14 +580,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               user_mailing_list_url: https://lists.aswf.io/g/openvdb-user
-              Dev_mailing_list_url: https://lists.aswf.io/g/openvdb-dev
+              dev_mailing_list_url: https://lists.aswf.io/g/openvdb-dev
               slack_channel: '#openvdb'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenvdb/dashboard;quicktime=time_filter_3Y
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
+              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenvdb/dashboard;quicktime=time_filter_3Y
+              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
+              tsc_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/openvdb-dev/calendar
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
-              project_lead: Ken Museth - Senior Director, Simulation Technology at NVIDIA
+              leads: Ken Museth - Senior Director, Simulation Technology at NVIDIA
           - item:
             name: Partio
             homepage_url: http://partio.us/
