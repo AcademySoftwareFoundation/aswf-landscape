@@ -192,10 +192,10 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/ocio-user
               dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
               slack_channel_url: https://slack.opencolorio.org
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencolorio/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencolorio/dashboard;quicktime=time_filter_3Y
               wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
-              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
-              tsc_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
+              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
               contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
               leads: Carol Payne - Imaging Technologist at Netflix, Inc
@@ -291,7 +291,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
               slack_channel: '#rawtoaces'
-              tsc_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
+              TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
               calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
               leads: Alex Forsythe - Director, Imaging Technology at the Academy of Motion Picture Arts and Sciences
             crunchbase_data:
@@ -604,10 +604,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
               slack_channel: '#openexr'
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenexr/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenexr/dashboard;quicktime=time_filter_3Y
               wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
-              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
-              tsc_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
+              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
               calendar: https://lists.aswf.io/g/openexr-dev/calendar
               leads: Cary Phillips - R&D Supervisor at Industrial Light & Magic
             crunchbase_data:
@@ -1108,9 +1108,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/assets-discussion
               slack_channel: '#assets'
-              lfx_insights: None
+              LFX_insights: None
               wiki_page: https://wiki.aswf.io/display/ARW/DPEL+Wiki
-              tsc_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
+              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
               calendar: https://lists.aswf.io/g/assets-discussion/calendar
               leads: Eric Enderton - Dir. Film Rendering Tech. at NVIDIA Corporation
             crunchbase_data:
@@ -3163,9 +3163,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/otio-discussion
               slack_channel: '#opentimelineio'
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopentimelineio/dashboard;quicktime=time_filter_3Y
-              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
-              tsc_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopentimelineio/dashboard;quicktime=time_filter_3Y
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
+              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/otio-discussion/calendar
               contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
               leads: Joshua Minor - Lead Software Engineer, Story & Editorial Tools Group at Pixar Animation Studios
@@ -3773,42 +3773,57 @@ landscape:
               latest_tweet_date: 2022-06-10T05:55:16.000Z
           - item:
             name: OpenAssetIO
-            homepage_url: https://github.com/OpenAssetIO/OpenAssetIO
-            project: null
+            homepage_url: https://openassetio.org
+            project: sandbox
             repo_url: https://github.com/OpenAssetIO/OpenAssetIO
+            project_org: https://github.com/OpenAssetIO
             logo: openassetio.svg
-            crunchbase: https://www.crunchbase.com/organization/foundry
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
+              slack_channel: '#openassetio'
+              LFX_insights: none
+              LFX_security: none
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
+              TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
+              calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
+              contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
+              leads: TBD
             crunchbase_data:
-              name: Foundry
-              description: Foundry develops creative software for the Digital Design, Media and Entertainment industries.
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: http://foundry.com/
-              city: London
-              region: England
-              country: United Kingdom
-              twitter: https://www.twitter.com/thefoundryteam
-              linkedin: https://www.linkedin.com/company/foundryteam/
-              acquisitions:
-                - date: '2012-09-25'
-                  acquiree: Luxology
-              parents: []
-              funding: 0
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
               stockExchange: null
-              company_type: For Profit
+              company_type: Non Profit
               industries:
-                - 3D Printing
+                - Film
+                - Media and Entertainment
+                - Open Source
                 - Software
             github_data:
+              description: An open-source interoperability standard for tools and content management systems used in media production.
+              contributors_count: 9
+              contributions: 0;0;0;0;0;1;0;0;0;9;7;20;17;12;9;14;20;25;29;22;45;76;38;0;25;5;3;20;25;26;38;8;18;25;17;22;13;15;30;6;23;19;27;33;52;8;30;23;23;9;13;17
+              stars: 106
               languages:
                 - name: Python
-                  value: 405297
+                  value: 431709
                   color: '#3572A5'
                 - name: C++
-                  value: 193535
+                  value: 219793
                   color: '#f34b7d'
                 - name: CMake
-                  value: 51604
+                  value: 51856
                 - name: C
                   value: 26794
                   color: '#555555'
@@ -3818,31 +3833,36 @@ landscape:
                 - name: Batchfile
                   value: 693
                   color: '#C1F12E'
-              contributions: 0;0;0;0;0;0;0;1;0;0;0;3;13;11;14;23;5;6;32;17;20;33;26;77;63;0;0;27;4;20;16;21;28;14;9;13;17;18;13;11;31;12;15;16;21;10;50;24;11;34;23;12
-              firstWeek: 2021-07-04Z
-              stars: 92
+                - name: HTML
+                  value: 131
+                  color: '#e34c26'
+              latest_commit_link: /OpenAssetIO/OpenAssetIO/commit/0ade99b1167057ca2e4e3e723d8094d70c9f4aab
+              latest_commit_date: '2022-07-14T10:36:40Z'
+              firstWeek: 2021-07-18Z
               license: Apache License 2.0
-              description: An open-source interoperability standard for tools and content management systems used in media production.
-              latest_commit_date: '2022-06-28T07:06:45Z'
-              latest_commit_link: /OpenAssetIO/OpenAssetIO/commit/9e919289fbd25402b4ed1dfab6d04daebe8ab486
-              release_date: '2022-05-19T14:55:41Z'
-              release_link: https://github.com/OpenAssetIO/OpenAssetIO/releases
-              contributors_count: 8
               contributors_link: https://github.com/OpenAssetIO/OpenAssetIO/graphs/contributors
             repos:
               - url: https://github.com/OpenAssetIO/OpenAssetIO
-                stars: 92
+                stars: 95
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-WG
+                stars: 4
+              - url: https://github.com/OpenAssetIO/otio-openassetio
+                stars: 4
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
+                stars: 3
+              - url: https://github.com/OpenAssetIO/openassetio.github.io
+                stars: 0
             github_start_commit_data:
               start_commit_link: /OpenAssetIO/OpenAssetIO/commit/a6303fa9e2dcef654ce88f7cb5056932843ac60b
               start_date: '2021-08-23T10:54:51Z'
             image_data:
               fileName: open-asset-io.svg
-              hash: 7RqOPJZyC+0LAnTfHLZCqeub9COC1edzxjwY/nMAYnA=
+              hash: 6GjkmjvxAMaV254LqqLNIyI3A06m9AJ6tf+leks0z1s=
             best_practice_data:
               badge: 6046
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-06-28T16:00:17.000Z
+              latest_tweet_date: 2022-06-22T20:39:06.000Z
           - item:
             name: OpenPype
             homepage_url: https://openpype.io
@@ -4413,7 +4433,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/rez-discussion
               slack_channel: '#Rez'
-              tsc_meeting_notes: Request links
+              TSC_meeting_notes: Request links
               contribution_guidelines: Request links
               leads: Allan Johns - Lead Core Pipeline Engineer at Method Studios
             crunchbase_data:
@@ -4946,8 +4966,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_channel: '#materialx'
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fmaterialx/dashboard;quicktime=time_filter_3Y
-              tsc_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fmaterialx/dashboard;quicktime=time_filter_3Y
+              TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
               calendar: https://lists.aswf.io/g/materialx-discussion/calendar
               contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
               leads: Jonathan Stone -  Lead Rendering Engineer, Materials and Shading at Lucasfilm Advanced Development Group
@@ -5160,9 +5180,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/osl-dev
               Slack_Channel: '#openshadinglanguage'
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenshadinglanguage/dashboard;quicktime=time_filter_3Y
-              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
-              tsc_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenshadinglanguage/dashboard;quicktime=time_filter_3Y
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
+              TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
               calendar: https://lists.aswf.io/g/osl-dev/calendar
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
               leads: Chris Kulla - Senior Rendering Programmer at Epic Games
@@ -5428,9 +5448,9 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/opencue-user
               dev_mailing_list_url: https://lists.aswf.io/g/opencue-dev
               slack_channel: '#opencue'
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencue/dashboard;quicktime=time_filter_3Y
-              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
-              tsc_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencue/dashboard;quicktime=time_filter_3Y
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
+              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
               contribution_guidelines: https://www.opencue.io/contributing/
               leads: Brian Cipriano - Senior Software Engineer at Google
@@ -5691,9 +5711,9 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/openvdb-user
               dev_mailing_list_url: https://lists.aswf.io/g/openvdb-dev
               slack_channel: '#openvdb'
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenvdb/dashboard;quicktime=time_filter_3Y
-              sbom: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
-              tsc_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
+              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenvdb/dashboard;quicktime=time_filter_3Y
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
+              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/openvdb-dev/calendar
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
               leads: Ken Museth - Senior Director, Simulation Technology at NVIDIA
