@@ -584,10 +584,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sony-pictures-imageworks
           - item:
             name: OpenFX
+            project: incubating
             homepage_url: http://openeffects.org/
             repo_url: https://github.com/ofxa/openfx
             logo: OFXLogo.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
+              slack_channel: '#openfx'
+              contribution_guidelines: https://github.com/ofxa/openfx/wiki/Extending-OpenFX-Guidelines
           - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
