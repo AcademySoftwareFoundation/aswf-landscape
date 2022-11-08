@@ -36,16 +36,18 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/ocio-user
               dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
               slack_channel_url: https://slack.opencolorio.org
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencolorio/dashboard;quicktime=time_filter_3Y
+              documentation: https://opencolorio.readthedocs.io/
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
               wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
-              contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
+              contribution_guidelines: https://opencolorio.readthedocs.io/en/latest/guides/contributing/contributing.html
               leads: Carol Payne - Imaging Technologist at Netflix, Inc
           - item:
             name: RAW to ACES Utility
-            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            homepage_url: https://rawtoaces.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
             logo: rawtoaces.svg
@@ -53,6 +55,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
               slack_channel: '#rawtoaces'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
               TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
               calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
               leads: Alex Forsythe - Director, Imaging Technology at the Academy of Motion Picture Arts and Sciences
@@ -94,7 +97,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
               slack_channel: '#openexr'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenexr/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
+              documentation: https://openexr.readthedocs.io
               wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
               TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
@@ -349,7 +354,7 @@ landscape:
               name: Ahead.io
           - item:
             name: OpenTimelineIO
-            homepage_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+            homepage_url: https://opentimeline.io
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
             logo: opentimelineio.svg
@@ -357,7 +362,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/otio-discussion
               slack_channel: '#opentimelineio'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopentimelineio/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-timeline-io/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
+              documentation: https://opentimelineio.readthedocs.io
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/otio-discussion/calendar
@@ -425,6 +432,7 @@ landscape:
               slack_channel: '#openassetio'
               LFX_insights: none
               LFX_security: none
+              documentation: https://openassetio.github.io/OpenAssetIO/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
               calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
@@ -493,6 +501,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/rez-discussion
               slack_channel: '#Rez'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rez/trends
+              LFX_security: none
+              documentation: https://github.com/AcademySoftwareFoundation/rez/wiki
               TSC_meeting_notes: Request links
               contribution_guidelines: Request links
               leads: Allan Johns - Lead Core Pipeline Engineer at Method Studios
@@ -532,7 +543,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_channel: '#materialx'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fmaterialx/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
+              documentation: https://materialx.org/docs/api/index.html
               TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
               calendar: https://lists.aswf.io/g/materialx-discussion/calendar
               contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
@@ -556,7 +569,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nvidia
           - item:
             name: Open Shading Language (OSL)
-            homepage_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
+            homepage_url: https://openshadinglanguage.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
             url_for_bestpractices: https://github.com/imageworks/OpenShadingLanguage
@@ -565,7 +578,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/osl-dev
               Slack_Channel: '#openshadinglanguage'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenshadinglanguage/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
+              documentation: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/tree/main/doc
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
               TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
               calendar: https://lists.aswf.io/g/osl-dev/calendar
@@ -599,7 +614,9 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/opencue-user
               dev_mailing_list_url: https://lists.aswf.io/g/opencue-dev
               slack_channel: '#opencue'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencue/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencue/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
+              documentation: https://www.opencue.io/docs/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
@@ -643,7 +660,9 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/openvdb-user
               dev_mailing_list_url: https://lists.aswf.io/g/openvdb-dev
               slack_channel: '#openvdb'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenvdb/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openvdb/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
+              documentation: https://www.openvdb.org/documentation/doxygen/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/openvdb-dev/calendar
