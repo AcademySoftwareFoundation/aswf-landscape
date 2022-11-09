@@ -37,7 +37,7 @@ landscape:
                 - name: Shell
                   value: 1217
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;2;0;0;0;0;0;0;0;0;0;1;0;1;1;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;2;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
               stars: 632
               license: Other
@@ -59,7 +59,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T18:59:16.000Z
+              latest_tweet_date: 2022-11-08T23:45:16.000Z
           - item:
             name: Color Transformation Language (CTL)
             homepage_url: https://www.oscars.org/science-technology/sci-tech-projects/color-transformation-language
@@ -102,7 +102,7 @@ landscape:
                 - name: Makefile
                   value: 492
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;6;0;0;0;1;0;4;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;6;0;0;0;1;4;0;0;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
               stars: 187
               license: Other
@@ -124,7 +124,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T18:59:16.000Z
+              latest_tweet_date: 2022-11-08T23:45:16.000Z
           - item:
             name: Colour
             homepage_url: https://www.colour-science.org/
@@ -156,7 +156,7 @@ landscape:
                 - name: TeX
                   value: 163213
                   color: '#3D6117'
-              contributions: 7;2;2;1;1;4;2;0;8;21;1;66;31;52;24;20;12;3;5;13;4;4;0;2;1;7;21;7;13;8;17;8;2;6;7;10;4;3;10;4;4;12;0;9;1;0;3;0;5;16;11;5
+              contributions: 4;0;2;1;1;4;2;0;8;21;1;73;27;52;23;23;7;4;4;16;1;4;0;2;2;6;21;7;15;6;17;8;3;6;6;10;4;4;9;5;4;11;0;9;1;0;3;0;5;16;12;4
               firstWeek: 2021-11-14Z
               stars: 1562
               license: BSD 3-Clause "New" or "Revised" License
@@ -192,12 +192,14 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/ocio-user
               dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
               slack_channel_url: https://slack.opencolorio.org
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencolorio/dashboard;quicktime=time_filter_3Y
+              documentation: https://opencolorio.readthedocs.io/
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
               wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
-              contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
+              contribution_guidelines: https://opencolorio.readthedocs.io/en/latest/guides/contributing/contributing.html
               leads: Carol Payne - Imaging Technologist at Netflix, Inc
             crunchbase_data:
               name: Academy Software Foundation
@@ -254,9 +256,9 @@ landscape:
                 - name: Dockerfile
                   value: 1804
                   color: '#384d54'
-              contributions: 0;1;1;2;4;2;0;0;1;5;2;0;1;1;1;0;0;1;3;1;0;3;2;0;0;0;2;2;1;1;1;0;2;0;1;0;1;1;4;1;0;0;0;1;3;2;1;4;0;7;19;0
+              contributions: 0;2;0;2;4;2;0;0;3;3;2;1;0;2;0;0;0;2;2;1;3;0;2;0;0;1;1;3;0;2;0;0;2;0;1;0;2;0;5;0;0;0;1;1;2;3;1;3;0;10;16;0
               firstWeek: 2021-11-14Z
-              stars: 1501
+              stars: 1502
               license: BSD 3-Clause "New" or "Revised" License
               description: A color management framework for visual effects and animation.
               latest_commit_date: '2022-10-31T20:07:20Z'
@@ -267,7 +269,7 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/OpenColorIO/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/OpenColorIO
-                stars: 1394
+                stars: 1395
               - url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
                 stars: 107
             github_start_commit_data:
@@ -283,7 +285,7 @@ landscape:
               latest_tweet_date: 2022-10-18T01:15:01.000Z
           - item:
             name: RAW to ACES Utility
-            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            homepage_url: https://rawtoaces.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
             logo: rawtoaces.svg
@@ -291,6 +293,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
               slack_channel: '#rawtoaces'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
               TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
               calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
               leads: Alex Forsythe - Director, Imaging Technology at the Academy of Motion Picture Arts and Sciences
@@ -462,9 +465,9 @@ landscape:
                   value: 1746
                   color: '#384d54'
               contributions: >-
-                15;44;16;12;14;10;12;37;24;42;28;30;35;37;53;18;20;9;16;31;39;22;30;48;37;23;17;7;10;36;31;31;13;34;18;27;30;23;20;26;6;35;30;14;11;13;5;14;6;5;13;32
+                15;48;15;10;14;10;13;39;22;41;28;29;39;39;49;16;20;9;17;31;38;26;29;46;38;24;14;7;11;45;21;33;12;34;17;29;34;17;20;27;6;35;34;9;17;7;9;10;6;5;17;28
               firstWeek: 2021-11-14Z
-              stars: 7961
+              stars: 7965
               license: Other
               description: 🧙‍♂️ ImageMagick 7
               latest_commit_date: '2022-11-07T19:58:40Z'
@@ -475,7 +478,7 @@ landscape:
               contributors_link: https://github.com/ImageMagick/ImageMagick/graphs/contributors
             repos:
               - url: https://github.com/ImageMagick/ImageMagick
-                stars: 7961
+                stars: 7965
             github_start_commit_data:
               start_commit_link: /ImageMagick/ImageMagick/commit/3ed852eea50f9d4cd633efb8c2b054b8e33c2530
               start_date: '2009-09-05T21:47:34Z'
@@ -513,13 +516,13 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 35954343
+                  value: 35955700
                   color: '#f34b7d'
                 - name: C
                   value: 1543870
                   color: '#555555'
                 - name: Python
-                  value: 1027049
+                  value: 1028500
                   color: '#3572A5'
                 - name: CMake
                   value: 1009555
@@ -571,20 +574,20 @@ landscape:
                   value: 309
                   color: '#384d54'
               contributions: >-
-                26;19;38;46;37;52;58;13;17;28;32;34;25;25;26;8;14;8;24;18;30;11;14;12;23;5;39;25;19;16;10;16;19;21;17;26;30;11;31;22;18;24;21;31;47;21;34;30;21;20;20;6
+                26;19;42;44;40;53;53;13;19;30;29;33;26;26;20;9;12;13;21;18;34;8;13;13;20;6;45;24;18;12;11;14;19;27;19;28;22;19;21;23;18;29;22;30;48;18;41;22;22;19;17;7
               firstWeek: 2021-11-14Z
-              stars: 64721
+              stars: 64733
               license: Apache License 2.0
               description: Open Source Computer Vision Library
-              latest_commit_date: '2022-11-07T20:51:38Z'
-              latest_commit_link: /opencv/opencv/commit/8a90948a1ce9eb5661f4dfd1cc213bdd3c213c1d
+              latest_commit_date: '2022-11-08T11:43:38Z'
+              latest_commit_link: /opencv/opencv/commit/2aad039b4f64d8e4a6136388c48d1368c120feec
               release_date: '2022-06-07T09:42:37Z'
               release_link: https://github.com/opencv/opencv/releases
               contributors_count: 1953
               contributors_link: https://github.com/opencv/opencv/graphs/contributors
             repos:
               - url: https://github.com/opencv/opencv
-                stars: 64721
+                stars: 64733
             github_start_commit_data:
               start_commit_link: /opencv/opencv/commit/127d6649a1c83397bf42799ac807af41aa507b30
               start_date: '2010-05-11T17:44:00Z'
@@ -607,7 +610,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
               slack_channel: '#openexr'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenexr/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
+              documentation: https://openexr.readthedocs.io
               wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
               TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
@@ -657,22 +662,22 @@ landscape:
                 - name: PowerShell
                   value: 4852
                   color: '#012456'
-              contributions: 6;1;0;3;0;0;0;0;0;8;6;2;0;11;0;0;0;2;6;4;10;2;0;0;1;2;5;0;0;4;0;0;0;0;0;0;0;5;0;0;0;0;0;0;0;4;0;0;6;9;0;5
+              contributions: 6;1;0;3;0;0;0;0;0;9;5;2;0;11;0;0;0;2;9;1;12;0;0;0;3;1;4;0;2;2;0;0;0;0;0;0;0;5;0;0;0;0;0;0;0;4;0;3;3;9;0;6
               firstWeek: 2021-11-14Z
-              stars: 1582
+              stars: 1583
               license: BSD 3-Clause "New" or "Revised" License
               description: >-
                 The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format
                 of the motion picture industry.
-              latest_commit_date: '2022-11-06T23:34:32Z'
-              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/c0c81eabcd3ecd2954ab81fffb378c50ab70d8ec
+              latest_commit_date: '2022-11-08T20:33:37Z'
+              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/60b9bf9a2593573a2db2896909b4dfdcf3a14c82
               release_date: '2022-04-11T22:32:00Z'
               release_link: https://github.com/AcademySoftwareFoundation/openexr/releases
               contributors_count: 92
               contributors_link: https://github.com/AcademySoftwareFoundation/openexr/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/openexr
-                stars: 1286
+                stars: 1287
               - url: https://github.com/AcademySoftwareFoundation/Imath
                 stars: 214
               - url: https://github.com/AcademySoftwareFoundation/openexr-images
@@ -736,7 +741,7 @@ landscape:
                 - name: Makefile
                   value: 18697
                   color: '#427819'
-              contributions: 3;11;10;10;16;7;4;14;7;5;8;11;9;9;10;9;7;3;6;6;4;2;11;5;5;4;2;3;1;6;6;5;4;6;9;9;22;3;7;8;5;4;5;6;9;7;9;13;12;20;3;16
+              contributions: 4;13;9;13;14;5;4;15;5;5;9;10;11;8;10;8;9;2;5;6;4;4;9;6;4;4;2;3;3;5;5;5;4;7;9;13;17;3;7;9;7;3;4;8;7;11;5;13;14;17;9;10
               firstWeek: 2021-11-14Z
               stars: 1559
               license: BSD 3-Clause "New" or "Revised" License
@@ -808,9 +813,9 @@ landscape:
                 - name: Dockerfile
                   value: 1113
                   color: '#384d54'
-              contributions: 0;1;0;7;5;3;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;7;1;1;0;0;2;0;0;0;3;2;0;1;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;1;1
+              contributions: 0;1;0;7;5;3;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;8;0;1;0;0;2;0;0;0;5;0;0;1;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;1;1
               firstWeek: 2021-11-14Z
-              stars: 4508
+              stars: 4510
               license: Mozilla Public License 2.0
               description: open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
               latest_commit_date: '2022-11-04T02:23:10Z'
@@ -821,7 +826,7 @@ landscape:
               contributors_link: https://github.com/openMVG/openMVG/graphs/contributors
             repos:
               - url: https://github.com/openMVG/openMVG
-                stars: 4508
+                stars: 4510
             github_start_commit_data:
               start_commit_link: /openMVG/openMVG/commit/5c5c221ca8e93a58eb1d1dd83394f75b5f43f48b
               start_date: '2013-02-08T16:21:30Z'
@@ -832,7 +837,7 @@ landscape:
               badge: 1744
               percentage: 73
             twitter_data:
-              latest_tweet_date: 2022-11-08T02:25:02.000Z
+              latest_tweet_date: 2022-11-08T20:13:01.000Z
           - item:
             name: pfstools
             homepage_url: https://sourceforge.net/projects/pfstools
@@ -964,7 +969,7 @@ landscape:
                 - name: JavaScript
                   value: 92
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;1;2;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;1;3;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
               stars: 604
               license: Other
@@ -980,7 +985,7 @@ landscape:
               start_commit_link: /wdas/ptex/commit/4af1ede1050e68e140c6a48aa2b73caeb35e207e
               start_date: '2009-10-23T14:47:55Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: ptex.svg
@@ -989,7 +994,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T17:00:01.000Z
+              latest_tweet_date: 2022-11-08T23:14:22.000Z
           - item:
             name: PySceneDetect
             homepage_url: http://bcastell.com/projects/PySceneDetect/
@@ -1026,7 +1031,7 @@ landscape:
                 - name: CSS
                   value: 508
                   color: '#563d7c'
-              contributions: 0;1;0;0;0;0;0;0;0;0;0;0;1;17;14;13;28;35;20;45;0;2;0;15;6;1;6;10;36;5;2;0;1;0;0;1;0;1;0;0;1;0;0;0;0;0;0;2;0;2;0;0
+              contributions: 0;1;0;0;0;0;0;0;0;0;0;1;0;18;15;16;25;35;18;45;0;2;0;15;6;1;6;10;36;5;2;0;1;0;0;1;0;1;0;0;1;0;0;0;0;0;0;2;0;2;0;0
               firstWeek: 2021-11-14Z
               stars: 1769
               license: Other
@@ -1276,7 +1281,7 @@ landscape:
               start_commit_link: /disneyresearch/jeri/commit/499cfce2a264ce9d50d4b44d7419ac5eda2aafb9
               start_date: '2018-05-14T10:32:10Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: jeri.svg
@@ -1348,7 +1353,7 @@ landscape:
                 - name: Batchfile
                   value: 197
                   color: '#C1F12E'
-              contributions: 5;3;9;7;9;19;4;12;6;0;9;0;16;11;22;14;8;16;38;26;22;41;33;41;20;13;8;24;17;24;13;9;2;6;6;2;0;3;4;26;13;16;5;1;0;0;0;1;0;1;0;0
+              contributions: 5;4;9;7;15;13;4;16;1;0;9;0;18;15;20;11;7;16;46;19;23;40;34;51;9;13;8;23;19;22;13;10;1;9;3;2;1;2;10;20;16;16;2;1;0;0;0;1;0;1;0;0
               firstWeek: 2021-11-14Z
               stars: 23
               license: Unknown License
@@ -1400,9 +1405,9 @@ landscape:
                 - Software
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0
               firstWeek: 2021-11-14Z
-              stars: 0
+              stars: 1
               license: Unknown License
               description: 'Test for CLAs for Open Review Initiative '
               latest_commit_date: '2022-10-04T16:31:31Z'
@@ -1411,7 +1416,7 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/openreviewinitiative-test/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/openreviewinitiative-test
-                stars: 0
+                stars: 1
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/openreviewinitiative-test/commit/2f47d9c3505bcb5b38fe1da24532cb2bb68cf6c9
               start_date: '2022-10-04T16:31:31Z'
@@ -1460,7 +1465,7 @@ landscape:
                 - name: Shell
                   value: 982
                   color: '#89e051'
-              contributions: 7;7;12;58;14;17;8;18;12;13;4;16;56;27;25;13;30;4;2;3;5;7;5;1;10;11;11;11;14;11;18;3;5;0;10;5;15;22;3;1;13;15;15;9;6;4;5;13;6;17;27;1
+              contributions: 5;12;9;62;10;14;15;13;10;14;7;17;54;29;20;13;31;3;4;1;5;7;5;2;12;8;11;11;14;18;13;3;3;0;11;7;16;19;2;1;14;16;19;4;5;6;4;12;15;11;24;1
               firstWeek: 2021-11-14Z
               stars: 80
               license: BSD 3-Clause "New" or "Revised" License
@@ -1803,13 +1808,13 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 39759098
+                  value: 39776531
                   color: '#555555'
                 - name: Python
                   value: 420212
                   color: '#3572A5'
                 - name: Makefile
-                  value: 412320
+                  value: 412691
                   color: '#427819'
                 - name: Scheme
                   value: 316750
@@ -1867,18 +1872,18 @@ landscape:
                   value: 151
                   color: '#c065db'
               contributions: >-
-                29;6;11;17;10;24;31;18;12;8;32;45;47;60;71;30;43;51;26;35;54;25;35;18;23;26;33;21;17;24;38;24;42;23;30;11;27;46;26;27;62;17;20;20;11;8;24;12;40;32;14;0
+                25;8;14;15;10;23;36;14;13;7;35;50;42;70;65;24;44;50;28;49;38;24;32;23;29;17;35;22;13;30;31;28;39;24;31;15;27;48;20;30;60;19;16;21;9;9;24;16;42;27;28;22
               firstWeek: 2021-11-14Z
-              stars: 3641
+              stars: 3644
               license: Other
               description: Read-only mirror of https://gitlab.gnome.org/GNOME/gimp
-              latest_commit_date: '2022-10-28T04:13:49Z'
-              latest_commit_link: /GNOME/gimp/commit/1f635a50aa28bc42a8d49765cb3099d3f2ef1d16
+              latest_commit_date: '2022-11-09T01:42:23Z'
+              latest_commit_link: /GNOME/gimp/commit/6b787312c02a95fa06dfea086fc5a4ab021f73f4
               contributors_count: 1050
               contributors_link: https://github.com/GNOME/gimp/graphs/contributors
             repos:
               - url: https://github.com/GNOME/gimp
-                stars: 3641
+                stars: 3644
             github_start_commit_data:
               start_commit_link: /GNOME/gimp/commit/a88ba5154ba574640be33fde0d5477007cc6a863
               start_date: '1997-01-01T16:47:44Z'
@@ -1922,10 +1927,10 @@ landscape:
                   value: 1484208
                   color: '#555555'
                 - name: Shell
-                  value: 933953
+                  value: 934011
                   color: '#89e051'
                 - name: Tcl
-                  value: 514810
+                  value: 516421
                   color: '#e4cc98'
                 - name: Python
                   value: 243932
@@ -1962,13 +1967,13 @@ landscape:
                 - name: sed
                   value: 1561
                   color: '#64b970'
-              contributions: 2;12;15;24;15;14;8;6;10;20;20;3;7;2;13;0;0;0;1;0;0;1;0;0;0;1;5;0;0;3;3;15;1;6;0;3;16;0;1;1;0;0;0;2;0;0;0;2;14;0;2;0
+              contributions: 2;12;14;28;11;14;10;4;18;16;16;8;2;2;13;0;0;1;0;0;1;0;0;0;0;1;5;0;0;3;5;13;4;3;0;3;16;0;1;1;0;0;2;0;0;0;0;3;13;0;2;2
               firstWeek: 2021-11-14Z
               stars: 3404
               license: GNU General Public License v2.0
               description: Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
-              latest_commit_date: '2022-10-27T16:21:13Z'
-              latest_commit_link: /NatronGitHub/Natron/commit/3b331acd48de322ed8919b1e017f96610fef8fb8
+              latest_commit_date: '2022-11-08T17:35:26Z'
+              latest_commit_link: /NatronGitHub/Natron/commit/8c50c181325b26e38ba245820bbdcc5dc9e4de9f
               release_date: '2022-02-19T01:38:13Z'
               release_link: https://github.com/NatronGitHub/Natron/releases
               contributors_count: 58
@@ -2172,7 +2177,7 @@ landscape:
                 - name: Shell
                   value: 697
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;2
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;2
               firstWeek: 2021-11-14Z
               stars: 885
               license: Other
@@ -2190,7 +2195,7 @@ landscape:
               start_commit_link: /alembic/alembic/commit/b7a7f142ae9a2faced93597adde234b0475a36f0
               start_date: '2010-07-27T18:27:07Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: alembic.svg
@@ -2244,9 +2249,9 @@ landscape:
                 - name: Batchfile
                   value: 1202
                   color: '#C1F12E'
-              contributions: 13;39;7;0;0;4;0;1;0;1;0;5;0;0;0;3;7;1;0;0;1;4;1;15;8;0;0;0;0;5;5;2;3;3;5;0;18;5;8;0;3;13;0;24;27;16;97;40;12;7;0;0
+              contributions: 15;36;5;0;0;4;0;1;0;1;0;5;0;0;1;4;5;1;0;0;1;5;0;20;3;0;0;0;0;7;3;2;3;3;5;0;20;3;8;0;6;10;0;24;32;36;73;41;15;2;0;0
               firstWeek: 2021-11-14Z
-              stars: 2328
+              stars: 2329
               license: Other
               description: Photogrammetric Computer Vision Framework
               latest_commit_date: '2022-10-20T16:09:23Z'
@@ -2257,7 +2262,7 @@ landscape:
               contributors_link: https://github.com/alicevision/AliceVision/graphs/contributors
             repos:
               - url: https://github.com/alicevision/AliceVision
-                stars: 2328
+                stars: 2329
             github_start_commit_data:
               start_commit_link: /alicevision/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
               start_date: '2003-01-21T06:34:28Z'
@@ -2268,7 +2273,7 @@ landscape:
               badge: 2995
               percentage: 99
             twitter_data:
-              latest_tweet_date: 2022-11-08T02:25:02.000Z
+              latest_tweet_date: 2022-11-08T20:13:01.000Z
           - item:
             name: Collada
             homepage_url: https://www.khronos.org/collada/
@@ -2396,7 +2401,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T18:08:21.000Z
+              latest_tweet_date: 2022-11-08T20:07:35.000Z
           - item:
             name: dnPtcViewerNode
             homepage_url: https://github.com/dneg/dnPtcViewerNode
@@ -2450,7 +2455,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:24:57.000Z
+              latest_tweet_date: 2022-11-08T18:04:38.000Z
           - item:
             name: GTO
             homepage_url: https://www.shotgridsoftware.com/rv/open-source-software
@@ -2691,7 +2696,7 @@ landscape:
               start_commit_link: /jimhourihan/gto/commit/b58a81e2c107c7e3c596499b6cd3b0408fbbf54a
               start_date: '2003-09-16T19:52:28Z'
             yahoo_finance_data:
-              market_cap: 42066604032
+              market_cap: 42958098432
               effective_ticker: ADSK
             image_data:
               fileName: gto.svg
@@ -2700,7 +2705,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-10-28T18:00:43.000Z
+              latest_tweet_date: 2022-11-08T23:52:01.000Z
           - item:
             name: Maya Reticle
             homepage_url: http://opensource.imageworks.com/?p=mayareticle
@@ -2758,7 +2763,7 @@ landscape:
               start_commit_link: /imageworks/spReticle/commit/b2a92f0cb2f8d682572fb446a0d33b74b82dd689
               start_date: '2009-07-29T17:18:33Z'
             yahoo_finance_data:
-              market_cap: 92708290560
+              market_cap: 95236890624
               effective_ticker: SNEJF
             image_data:
               fileName: maya-reticle.svg
@@ -2767,7 +2772,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-04T11:24:59.000Z
+              latest_tweet_date: 2022-11-08T17:26:36.000Z
           - item:
             name: Meshroom
             homepage_url: https://github.com/alicevision/meshroom
@@ -2798,7 +2803,7 @@ landscape:
                   value: 812433
                   color: '#3572A5'
                 - name: QML
-                  value: 638375
+                  value: 638789
                   color: '#44a51c'
                 - name: Modula-3
                   value: 29855
@@ -2818,20 +2823,20 @@ landscape:
                 - name: Batchfile
                   value: 508
                   color: '#C1F12E'
-              contributions: 2;1;1;0;0;1;0;0;0;0;1;0;1;1;0;10;1;0;0;2;0;3;0;3;2;0;0;0;0;5;0;0;0;0;1;5;11;7;7;0;6;5;9;14;3;22;28;15;10;16;3;7
+              contributions: 2;2;0;0;1;0;0;0;0;0;1;0;1;1;10;1;0;0;0;2;0;3;0;4;1;0;0;0;0;5;0;0;0;0;4;6;9;6;6;2;6;4;12;10;4;29;24;14;8;15;3;11
               firstWeek: 2021-11-14Z
-              stars: 8537
+              stars: 8540
               license: Other
               description: 3D Reconstruction Software
-              latest_commit_date: '2022-11-04T13:00:41Z'
-              latest_commit_link: /alicevision/Meshroom/commit/7aaae3a14ee1f5d159c903300c5b5be751e9042e
+              latest_commit_date: '2022-11-08T07:58:40Z'
+              latest_commit_link: /alicevision/Meshroom/commit/c4d44aa55022d36024f3799107d340b5ca695d67
               release_date: '2021-02-26T18:11:42Z'
               release_link: https://github.com/alicevision/meshroom/releases
               contributors_count: 49
               contributors_link: https://github.com/alicevision/meshroom/graphs/contributors
             repos:
               - url: https://github.com/alicevision/meshroom
-                stars: 8537
+                stars: 8540
             github_start_commit_data:
               start_commit_link: /alicevision/meshroom/commit/3ed29541811e8f037283ae9eee2cc7b1badbe5f5
               start_date: '2017-09-16T21:09:00Z'
@@ -2842,7 +2847,7 @@ landscape:
               badge: 2997
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-11-08T02:25:02.000Z
+              latest_tweet_date: 2022-11-08T20:13:01.000Z
           - item:
             name: Open Subdiv
             homepage_url: https://graphics.pixar.com/opensubdiv/docs/intro.html
@@ -2906,7 +2911,7 @@ landscape:
                 - name: Makefile
                   value: 1603
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;1;0;0;1;0;2;7;0;0;7;13;14;12;5;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;1;0;1;0;2;0;7;0;0;12;8;17;9;5;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
               stars: 2667
               license: Other
@@ -2922,7 +2927,7 @@ landscape:
               start_commit_link: /PixarAnimationStudios/OpenSubdiv/commit/5e204a4c1e0076312cb22d415c217d5d8c0f7def
               start_date: '2012-04-24T00:12:01Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: open-subdiv.svg
@@ -3004,7 +3009,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T15:05:47.000Z
+              latest_tweet_date: 2022-11-08T10:14:50.000Z
           - item:
             name: OpenMesh
             homepage_url: https://www.graphics.rwth-aachen.de/software/openmesh/
@@ -3073,7 +3078,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T15:05:47.000Z
+              latest_tweet_date: 2022-11-08T10:14:50.000Z
           - item:
             name: 'USD: Universal Scene Description'
             homepage_url: https://graphics.pixar.com/usd/release/index.html
@@ -3139,9 +3144,9 @@ landscape:
                   value: 129
                   color: '#384d54'
               contributions: >-
-                35;50;20;15;13;80;0;0;45;39;24;29;15;44;54;19;29;22;16;26;58;21;27;30;28;40;41;19;6;21;29;36;16;21;10;21;31;30;22;15;13;31;35;12;23;24;37;11;9;3;0;0
+                38;54;13;27;2;79;0;1;47;38;41;20;11;55;37;19;39;12;16;51;37;24;26;33;25;34;41;20;5;33;21;32;25;12;10;22;38;23;21;15;13;40;27;11;29;33;25;10;8;2;0;0
               firstWeek: 2021-11-14Z
-              stars: 3912
+              stars: 3918
               license: Other
               description: Universal Scene Description
               latest_commit_date: '2022-10-21T17:48:04Z'
@@ -3152,12 +3157,12 @@ landscape:
               contributors_link: https://github.com/PixarAnimationStudios/USD/graphs/contributors
             repos:
               - url: https://github.com/PixarAnimationStudios/USD
-                stars: 3912
+                stars: 3918
             github_start_commit_data:
               start_commit_link: /PixarAnimationStudios/USD/commit/2eb01f5cd4c2dae4e1ef9912ca27a93083bb6ef4
               start_date: '2016-07-26T17:44:38Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: usd-universal-scene-description.svg
@@ -3309,7 +3314,7 @@ landscape:
               latest_tweet_date: 2022-11-05T00:52:58.000Z
           - item:
             name: OpenTimelineIO
-            homepage_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+            homepage_url: https://opentimeline.io
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
             logo: opentimelineio.svg
@@ -3317,7 +3322,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/otio-discussion
               slack_channel: '#opentimelineio'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopentimelineio/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-timeline-io/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
+              documentation: https://opentimelineio.readthedocs.io
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               calendar: https://lists.aswf.io/g/otio-discussion/calendar
@@ -3362,13 +3369,13 @@ landscape:
                 - name: C
                   value: 438
                   color: '#555555'
-              contributions: 1;3;1;3;2;1;0;0;1;2;2;1;3;1;1;0;1;10;2;5;2;4;1;4;0;3;1;6;1;1;2;1;1;0;4;1;3;1;1;1;2;1;1;3;6;9;10;9;7;5;4;0
+              contributions: 2;2;1;3;2;1;0;0;2;1;3;0;3;1;1;0;6;5;2;5;3;3;2;3;1;3;2;4;1;3;0;1;1;0;4;1;4;0;1;1;2;1;1;4;5;10;11;9;10;0;4;1
               firstWeek: 2021-11-14Z
               stars: 1121
               license: Apache License 2.0
               description: Open Source API and interchange format for editorial timeline information.
-              latest_commit_date: '2022-10-31T17:47:40Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/b52667d18b4cfa5d3e1f8128b93ebb39fc4d3b73
+              latest_commit_date: '2022-11-08T07:44:56Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/b6fbca272eefc34858410d190c21c8c202848268
               release_date: '2022-09-26T19:15:27Z'
               release_link: https://github.com/AcademySoftwareFoundation/OpenTimelineIO/releases
               contributors_count: 67
@@ -3507,18 +3514,18 @@ landscape:
                   value: 912
                   color: '#101F1F'
               contributions: >-
-                198;209;207;150;160;117;92;83;160;168;141;228;218;190;188;186;158;165;156;194;179;157;132;168;200;240;242;231;161;175;141;175;146;166;132;132;177;180;200;190;200;164;243;192;186;174;173;179;136;160;74;141
+                182;232;175;157;139;114;100;83;170;163;150;228;199;201;203;178;175;133;168;194;184;139;143;170;216;239;239;213;179;172;136;158;156;161;130;155;161;190;201;187;196;180;231;193;177;175;176;178;120;160;81;167
               firstWeek: 2021-11-14Z
-              stars: 6983
+              stars: 6990
               license: Other
               description: Official mirror of Blender
-              latest_commit_date: '2022-11-08T01:18:52Z'
-              latest_commit_link: /blender/blender/commit/fddcdcc20c5a2b761a2becccc0a07f5fd8d43e54
-              contributors_count: 820
+              latest_commit_date: '2022-11-09T03:34:08Z'
+              latest_commit_link: /blender/blender/commit/800b025518e497d5298e6d44c769613481034bca
+              contributors_count: 821
               contributors_link: https://github.com/blender/blender/graphs/contributors
             repos:
               - url: https://github.com/blender/blender
-                stars: 6983
+                stars: 6990
             github_start_commit_data:
               start_commit_link: /blender/blender/commit/12315f4d0e0ae993805f141f64cb8c73c5297311
               start_date: '2002-10-12T11:37:38Z'
@@ -3560,10 +3567,10 @@ landscape:
             github_data:
               languages:
                 - name: Vue
-                  value: 1811469
+                  value: 1811661
                   color: '#2c3e50'
                 - name: JavaScript
-                  value: 1075955
+                  value: 1076766
                   color: '#f1e05a'
                 - name: SCSS
                   value: 2287
@@ -3573,14 +3580,14 @@ landscape:
                 - name: HTML
                   value: 1099
                   color: '#e34c26'
-              contributions: 11;17;6;15;0;3;5;2;17;6;8;2;11;25;9;10;11;10;19;1;5;20;23;31;23;12;7;10;23;26;32;10;27;16;28;16;2;4;9;4;37;8;7;25;12;3;17;11;13;12;13;9
+              contributions: 18;16;0;15;0;3;6;5;13;10;4;6;20;13;9;9;12;12;16;2;7;22;18;41;14;13;5;10;35;22;26;15;24;21;26;9;2;11;2;16;27;6;13;28;3;8;12;18;12;6;17;15
               firstWeek: 2021-11-14Z
               stars: 247
               license: GNU Affero General Public License v3.0
               description: "Collaboration Platform for Animation\_Productions"
-              latest_commit_date: '2022-11-04T15:33:40Z'
-              latest_commit_link: /cgwire/kitsu/commit/080a96763e79d5fef6d7ee1e39cce143003a0d83
-              release_date: '2022-11-02T11:15:32Z'
+              latest_commit_date: '2022-11-08T18:32:32Z'
+              latest_commit_link: /cgwire/kitsu/commit/9d7d5886bc012c90ac444bdd9ecb52ecb88b2952
+              release_date: '2022-11-08T18:37:04Z'
               release_link: https://github.com/cgwire/kitsu/releases
               contributors_count: 27
               contributors_link: https://github.com/cgwire/kitsu/graphs/contributors
@@ -3597,7 +3604,7 @@ landscape:
               badge: 3580
               percentage: 30
             twitter_data:
-              latest_tweet_date: 2022-10-31T11:45:22.000Z
+              latest_tweet_date: 2022-11-08T11:12:10.000Z
           - item:
             name: Cortex
             homepage_url: https://github.com/ImageEngine/cortex
@@ -3648,7 +3655,7 @@ landscape:
                 - name: Batchfile
                   value: 1374
                   color: '#C1F12E'
-              contributions: 22;35;19;3;3;0;8;0;15;23;0;10;9;42;14;5;8;9;1;18;6;5;3;8;7;3;11;7;8;14;9;9;8;3;9;6;0;4;2;2;17;5;1;10;10;7;1;1;8;5;4;16
+              contributions: 39;20;20;0;3;0;8;1;20;17;0;10;11;41;13;5;13;4;6;13;6;6;4;10;5;5;11;5;7;13;10;8;8;10;3;5;2;2;2;15;4;5;1;14;6;8;0;2;8;5;5;14
               firstWeek: 2021-11-14Z
               stars: 478
               license: Other
@@ -3703,10 +3710,10 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 10180944
+                  value: 10182988
                   color: '#3572A5'
                 - name: C++
-                  value: 9483271
+                  value: 9483698
                   color: '#f34b7d'
                 - name: CMake
                   value: 85201
@@ -3725,13 +3732,13 @@ landscape:
                   value: 419
                   color: '#701516'
               contributions: >-
-                24;55;29;20;13;12;3;17;25;29;41;30;39;48;38;10;36;38;25;31;8;23;12;18;24;21;74;37;30;33;42;61;36;17;37;30;14;15;25;14;54;41;7;41;25;51;56;54;46;36;22;11
+                19;59;25;29;2;14;4;15;29;38;29;40;41;47;25;23;28;33;33;24;18;14;18;16;22;28;67;33;42;27;47;59;32;27;26;36;6;16;22;16;61;32;14;36;30;51;56;56;44;45;9;16
               firstWeek: 2021-11-14Z
               stars: 786
               license: BSD 3-Clause "New" or "Revised" License
               description: Gaffer is a node-based application for lookdev, lighting and automation
-              latest_commit_date: '2022-11-07T10:17:50Z'
-              latest_commit_link: /GafferHQ/gaffer/commit/54bb24388d6915270eca258a7e56642bb1ac45c9
+              latest_commit_date: '2022-11-08T14:16:18Z'
+              latest_commit_link: /GafferHQ/gaffer/commit/6981a5b11b38923eae394a882cb897a628d4afbb
               release_date: '2022-10-25T09:03:57Z'
               release_link: https://github.com/GafferHQ/gaffer/releases
               contributors_count: 56
@@ -3781,13 +3788,13 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 7633217
+                  value: 7698885
                   color: '#f34b7d'
                 - name: QML
-                  value: 518790
+                  value: 519263
                   color: '#44a51c'
                 - name: CMake
-                  value: 47871
+                  value: 48290
                 - name: Shell
                   value: 16323
                   color: '#89e051'
@@ -3807,18 +3814,18 @@ landscape:
                   value: 1645
                   color: '#555555'
               contributions: >-
-                87;50;27;30;26;21;21;36;47;48;31;24;27;26;20;59;33;27;76;46;34;37;8;36;17;19;16;34;56;51;26;39;25;21;17;36;45;40;63;47;26;22;11;18;14;20;55;76;22;33;23;15
+                90;37;25;44;15;20;22;43;48;42;28;25;29;21;28;53;36;26;87;37;32;39;2;36;20;19;20;31;77;28;26;43;23;25;11;47;32;89;28;35;25;25;9;16;15;25;56;71;20;40;28;43
               firstWeek: 2021-11-14Z
-              stars: 1773
+              stars: 1775
               license: GNU General Public License v3.0
               description: Free and open source video editor, based on MLT Framework and KDE Frameworks 5
-              latest_commit_date: '2022-11-08T02:00:16Z'
-              latest_commit_link: /KDE/kdenlive/commit/774f0ba38aa2922b1b715759b50846aa8c38ac11
+              latest_commit_date: '2022-11-09T02:00:22Z'
+              latest_commit_link: /KDE/kdenlive/commit/7d8c83f034731bcec192f2bc636850df74073844
               contributors_count: 152
               contributors_link: https://github.com/KDE/kdenlive/graphs/contributors
             repos:
               - url: https://github.com/KDE/kdenlive
-                stars: 1773
+                stars: 1775
             github_start_commit_data:
               start_commit_link: /KDE/kdenlive/commit/1ecbd5b62783247938e9873868e6ce625ef23b6c
               start_date: '2007-12-29T20:13:27Z'
@@ -3829,7 +3836,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T09:15:22.000Z
+              latest_tweet_date: 2022-11-08T20:03:38.000Z
           - item:
             name: Olive Editor
             homepage_url: https://olivevideoeditor.org/
@@ -3857,11 +3864,11 @@ landscape:
               description: https://olivevideoeditor.org
               contributors_count: 216
               contributions: >-
-                36;51;19;21;15;17;2;30;35;17;47;93;16;6;8;5;7;22;11;20;10;17;19;13;35;121;92;29;26;16;13;6;15;13;4;14;24;36;12;13;11;16;14;10;28;26;32;23;13;24;15;36
-              stars: 6556
+                47;38;18;20;17;14;4;35;31;17;75;69;10;5;8;6;10;22;8;19;12;25;9;18;47;124;79;27;26;14;10;16;13;5;5;16;39;18;13;15;8;17;14;9;28;27;36;28;3;26;21;31
+              stars: 6554
               languages:
                 - name: C++
-                  value: 16287308
+                  value: 16287140
                   color: '#f34b7d'
                 - name: Roff
                   value: 867637
@@ -3902,14 +3909,14 @@ landscape:
                 - name: CSS
                   value: 1532
                   color: '#563d7c'
-              latest_commit_link: /olive-editor/olive/commit/373717629e52887fd4200d022dec2e422365f39f
-              latest_commit_date: '2022-11-07T18:42:41Z'
+              latest_commit_link: /olive-editor/olive/commit/2aaa2fb87cdab2b9fd51ded329cce987f25639b8
+              latest_commit_date: '2022-11-08T06:01:52Z'
               firstWeek: 2021-11-14Z
               license: Other
               contributors_link: https://github.com/olive-editor/olive/graphs/contributors
             repos:
               - url: https://github.com/olive-editor/olive
-                stars: 6554
+                stars: 6552
               - url: https://github.com/olive-editor/OpenColorIO
                 stars: 2
               - url: https://github.com/olive-editor/dependencies
@@ -3946,6 +3953,7 @@ landscape:
               slack_channel: '#openassetio'
               LFX_insights: none
               LFX_security: none
+              documentation: https://openassetio.github.io/OpenAssetIO/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
               calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
@@ -3976,17 +3984,17 @@ landscape:
               description: An open-source interoperability standard for tools and content management systems used in media production.
               contributors_count: 11
               contributions: >-
-                14;28;31;24;53;89;5;0;26;4;11;19;32;32;22;6;27;21;29;14;15;26;17;12;20;36;16;50;37;5;37;23;21;11;18;14;9;25;12;23;29;17;16;14;16;9;11;7;8;18;45;42
-              stars: 174
+                17;20;33;26;77;63;0;0;27;4;20;17;29;35;16;9;26;24;25;14;12;33;12;16;23;32;13;60;28;11;34;26;13;11;18;13;13;22;22;16;29;17;16;15;11;11;10;11;12;12;67;34
+              stars: 175
               languages:
                 - name: Python
-                  value: 687916
+                  value: 576629
                   color: '#3572A5'
                 - name: C++
                   value: 315888
                   color: '#f34b7d'
                 - name: CMake
-                  value: 69728
+                  value: 69102
                 - name: C
                   value: 29415
                   color: '#555555'
@@ -3999,14 +4007,14 @@ landscape:
                 - name: HTML
                   value: 131
                   color: '#e34c26'
-              latest_commit_link: /OpenAssetIO/OpenAssetIO/commit/42e486d05c60ed4d86f3baa3e95461dda3e3a8a8
-              latest_commit_date: '2022-11-04T17:18:14Z'
+              latest_commit_link: /OpenAssetIO/OpenAssetIO/commit/78a3055f8157f9f347cc7427811e73b0961f863b
+              latest_commit_date: '2022-11-08T18:40:43Z'
               firstWeek: 2021-11-14Z
               license: Apache License 2.0
               contributors_link: https://github.com/OpenAssetIO/OpenAssetIO/graphs/contributors
             repos:
               - url: https://github.com/OpenAssetIO/OpenAssetIO
-                stars: 158
+                stars: 159
               - url: https://github.com/OpenAssetIO/otio-openassetio
                 stars: 6
               - url: https://github.com/OpenAssetIO/OpenAssetIO-WG
@@ -4063,7 +4071,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 11029030
+                  value: 11029125
                   color: '#3572A5'
                 - name: JavaScript
                   value: 352288
@@ -4100,13 +4108,13 @@ landscape:
                 - name: CMake
                   value: 1444
               contributions: >-
-                275;245;186;157;130;135;79;48;195;162;168;128;183;207;193;169;180;219;214;295;254;219;120;222;152;110;145;131;163;86;205;183;181;176;102;249;154;209;110;211;207;301;171;151;215;146;77;168;149;159;114;52
+                264;221;181;158;143;118;64;77;190;151;181;120;202;189;219;154;190;193;245;291;236;220;114;232;150;98;146;128;166;99;206;190;190;143;144;215;176;171;140;210;221;283;151;184;198;119;91;178;134;151;124;38
               firstWeek: 2021-11-14Z
               stars: 167
               license: MIT License
               description: Main repo of OpenPype. Pipeline with support - https://openpype.io
-              latest_commit_date: '2022-11-07T19:10:46Z'
-              latest_commit_link: /pypeclub/OpenPype/commit/37eb905281698a4001095b1b75e6ef7ee7ea9ae1
+              latest_commit_date: '2022-11-09T03:50:20Z'
+              latest_commit_link: /pypeclub/OpenPype/commit/bf09157e7b35ba1b345aa302af87a3b1318d2845
               release_date: '2022-10-28T13:32:56Z'
               release_link: https://github.com/pypeclub/OpenPype/releases
               contributors_count: 71
@@ -4180,9 +4188,9 @@ landscape:
                 - name: Batchfile
                   value: 234
                   color: '#C1F12E'
-              contributions: 1;2;16;1;13;0;0;0;1;0;17;7;1;7;1;8;10;1;3;10;8;6;6;2;5;3;5;4;2;1;0;1;5;8;13;2;10;0;0;0;5;7;1;0;5;5;4;3;3;2;0;0
+              contributions: 1;8;10;1;13;0;0;0;1;2;15;7;2;7;3;8;7;1;3;11;7;6;7;1;5;3;5;6;0;1;0;2;6;6;13;8;4;0;0;0;7;5;1;1;4;6;3;3;4;1;0;0
               firstWeek: 2021-11-14Z
-              stars: 465
+              stars: 466
               license: Eclipse Public License 1.0
               description: Open source remote collaboration platform used for configuring and deploying enterprise Workflow solutions.
               latest_commit_date: '2022-10-20T17:46:58Z'
@@ -4191,7 +4199,7 @@ landscape:
               contributors_link: https://github.com/Southpaw-TACTIC/TACTIC/graphs/contributors
             repos:
               - url: https://github.com/Southpaw-TACTIC/TACTIC
-                stars: 465
+                stars: 466
             github_start_commit_data:
               start_commit_link: /Southpaw-TACTIC/TACTIC/commit/39b8a75c060379b2e3ba272649d972f6ae935a75
               start_date: '2013-07-06T22:22:58Z'
@@ -4369,7 +4377,7 @@ landscape:
                 - name: JavaScript
                   value: 7024
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;1;0;0;0;2;0;4;0;2;3;6;4;1;5;4;6;7;0;0;0;0;0;0;1;7;0;26;10;6;5;0;8;11;0;2;1;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;1;0;0;0;2;0;4;0;3;5;7;0;5;3;6;2;7;0;0;0;0;0;0;1;7;0;32;4;11;0;4;9;6;0;3;0;0
               firstWeek: 2021-11-14Z
               stars: 2759
               license: Other
@@ -4387,7 +4395,7 @@ landscape:
               start_commit_link: /munki/munki/commit/456efb8289f2e397a4139e6cca9b3d668b19212c
               start_date: '2009-01-14T21:31:03Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: munki.svg
@@ -4396,7 +4404,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T17:00:01.000Z
+              latest_tweet_date: 2022-11-08T23:14:22.000Z
           - item:
             name: PyMEL
             homepage_url: https://github.com/LumaPictures/pymel
@@ -4500,9 +4508,9 @@ landscape:
                   color: '#427819'
                 - name: CMake
                   value: 400
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;2;1;2;0;0;0;3;0;0;0;0;1;1;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;2;1;2;0;0;0;3;0;0;0;0;2;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
-              stars: 759
+              stars: 760
               license: BSD 3-Clause "New" or "Revised" License
               description: C++ functions matching the interface and behavior of python string methods with std::string
               latest_commit_date: '2022-09-27T00:28:46Z'
@@ -4511,12 +4519,12 @@ landscape:
               contributors_link: https://github.com/imageworks/pystring/graphs/contributors
             repos:
               - url: https://github.com/imageworks/pystring
-                stars: 759
+                stars: 760
             github_start_commit_data:
               start_commit_link: /imageworks/pystring/commit/b8b6e0b486d927c816954612ca08e32b9046079e
               start_date: '2009-01-06T01:32:42Z'
             yahoo_finance_data:
-              market_cap: 92708290560
+              market_cap: 95236890624
               effective_ticker: SNEJF
             image_data:
               fileName: py-string.svg
@@ -4525,7 +4533,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-04T11:24:59.000Z
+              latest_tweet_date: 2022-11-08T17:26:36.000Z
           - item:
             name: QtPyConvert
             homepage_url: https://github.com/digitaldomain/QtPyConvert
@@ -4584,7 +4592,7 @@ landscape:
               start_commit_link: /digitaldomain/QtPyConvert/commit/21d3fe87e9dc6f4fa7ce4df1b18c6001a411cb63
               start_date: '2017-05-25T16:34:17Z'
             yahoo_finance_data:
-              market_cap: 159928910
+              market_cap: 154424833
               effective_ticker: 0547.HK
             image_data:
               fileName: qt-py-convert.svg
@@ -4604,6 +4612,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/rez-discussion
               slack_channel: '#Rez'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rez/trends
+              LFX_security: none
+              documentation: https://github.com/AcademySoftwareFoundation/rez/wiki
               TSC_meeting_notes: Request links
               contribution_guidelines: Request links
               leads: Allan Johns - Lead Core Pipeline Engineer at Method Studios
@@ -4641,9 +4652,9 @@ landscape:
                 - name: Batchfile
                   value: 13
                   color: '#C1F12E'
-              contributions: 14;35;0;8;50;18;32;0;0;2;0;1;2;43;32;34;6;0;14;63;54;46;0;15;0;0;0;0;8;0;11;7;5;1;0;0;1;0;4;0;5;7;0;1;0;9;0;0;0;0;0;0
+              contributions: 0;35;0;9;49;25;25;0;0;2;0;1;13;46;33;20;5;1;16;87;38;35;6;9;0;0;0;0;8;0;17;1;5;1;0;0;1;4;0;0;6;6;0;1;2;7;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
-              stars: 731
+              stars: 732
               license: Apache License 2.0
               description: An integrated package configuration, build and deployment system for software
               latest_commit_date: '2022-09-22T05:31:53Z'
@@ -4654,7 +4665,7 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/rez/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/rez
-                stars: 731
+                stars: 732
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/rez/commit/2f66a76462ee778927b67a9a6385f776cb553b54
               start_date: '2011-10-24T02:26:33Z'
@@ -4717,7 +4728,7 @@ landscape:
               start_commit_link: /imageworks/scala-migrations/commit/bd146936d9fea4e1f9899947d27c1b2440022c09
               start_date: '2008-11-20T00:40:26Z'
             yahoo_finance_data:
-              market_cap: 92708290560
+              market_cap: 95236890624
               effective_ticker: SNEJF
             image_data:
               fileName: scala-migrations.svg
@@ -4726,7 +4737,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-04T11:24:59.000Z
+              latest_tweet_date: 2022-11-08T17:26:36.000Z
   - category:
     name: Rendering and Queueing
     subcategories:
@@ -4790,7 +4801,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-02T15:25:14.000Z
+              latest_tweet_date: 2022-11-08T20:02:49.000Z
           - item:
             name: Embree
             homepage_url: https://www.embree.org
@@ -5098,7 +5109,7 @@ landscape:
                 - name: Batchfile
                   value: 415
                   color: '#C1F12E'
-              contributions: 2;6;3;2;1;4;0;1;1;1;1;6;15;10;5;0;6;10;0;3;1;0;0;0;0;0;0;0;1;0;19;8;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 3;5;5;1;1;3;0;1;2;0;2;8;12;10;5;0;6;10;0;4;0;0;0;0;0;0;0;1;0;0;25;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
               stars: 1853
               license: Apache License 2.0
@@ -5116,7 +5127,7 @@ landscape:
               start_commit_link: /embree/embree/commit/97540553c192c0dc9efa4d72c04d35fcad0e93aa
               start_date: '2012-11-30T22:07:39Z'
             yahoo_finance_data:
-              market_cap: 117248073728
+              market_cap: 117536956416
               effective_ticker: INTC
             image_data:
               fileName: embree.svg
@@ -5125,7 +5136,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:54:57.000Z
+              latest_tweet_date: 2022-11-08T21:19:31.000Z
           - item:
             name: MaterialX
             homepage_url: https://www.materialx.org
@@ -5137,7 +5148,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_channel: '#materialx'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fmaterialx/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
+              documentation: https://materialx.org/docs/api/index.html
               TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
               calendar: https://lists.aswf.io/g/materialx-discussion/calendar
               contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
@@ -5189,9 +5202,9 @@ landscape:
                 - name: Batchfile
                   value: 1306
                   color: '#C1F12E'
-              contributions: 7;8;3;4;10;6;2;3;6;1;7;6;5;4;5;2;5;10;3;5;8;7;6;5;6;6;11;5;8;9;7;7;9;2;6;0;3;1;1;3;3;3;3;1;7;1;6;7;5;7;13;2
+              contributions: 6;9;3;2;13;4;1;5;5;1;8;5;5;3;5;2;6;9;5;3;9;7;7;3;9;4;12;3;10;8;7;6;9;2;6;1;3;1;0;3;3;3;3;2;6;1;6;7;5;8;12;2
               firstWeek: 2021-11-14Z
-              stars: 1169
+              stars: 1168
               license: Apache License 2.0
               description: MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.
               latest_commit_date: '2022-11-07T01:09:14Z'
@@ -5202,7 +5215,7 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/MaterialX/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/MaterialX
-                stars: 1169
+                stars: 1168
             github_start_commit_data:
               start_commit_link: /materialx/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
               start_date: '2017-07-05T22:18:25Z'
@@ -5366,7 +5379,7 @@ landscape:
               start_commit_link: /NVIDIA/MDL-SDK/commit/dbe16f8b0ed0339ba77fa4f9f65a018e9fbed6c8
               start_date: '2018-08-09T14:30:09Z'
             yahoo_finance_data:
-              market_cap: 356380901376
+              market_cap: 363881857024
               effective_ticker: NVDA
             image_data:
               fileName: nvidia-mdl-sdk.svg
@@ -5375,10 +5388,10 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T16:46:13.000Z
+              latest_tweet_date: 2022-11-08T22:51:31.000Z
           - item:
             name: Open Shading Language (OSL)
-            homepage_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
+            homepage_url: https://openshadinglanguage.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
             url_for_bestpractices: https://github.com/imageworks/OpenShadingLanguage
@@ -5387,7 +5400,9 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/osl-dev
               Slack_Channel: '#openshadinglanguage'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenshadinglanguage/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
+              documentation: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/tree/main/doc
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
               TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
               calendar: https://lists.aswf.io/g/osl-dev/calendar
@@ -5453,7 +5468,7 @@ landscape:
                   color: '#563d7c'
                 - name: GLSL
                   value: 939
-              contributions: 0;3;4;3;3;1;0;0;7;1;3;4;0;4;2;5;3;4;1;3;2;4;3;2;4;5;15;0;2;6;2;4;1;2;1;2;6;5;5;2;5;8;10;6;3;4;9;10;4;4;0;4
+              contributions: 0;3;4;3;3;1;0;0;7;1;5;2;0;4;2;5;4;4;1;3;1;4;4;1;4;6;14;0;2;6;2;4;1;2;1;4;4;8;2;2;7;7;10;7;3;5;6;13;1;4;0;4
               firstWeek: 2021-11-14Z
               stars: 1760
               license: BSD 3-Clause "New" or "Revised" License
@@ -5579,10 +5594,10 @@ landscape:
                   value: 2874835
                   color: '#f34b7d'
                 - name: Python
-                  value: 1341361
+                  value: 1341896
                   color: '#3572A5'
                 - name: JavaScript
-                  value: 975317
+                  value: 975339
                   color: '#f1e05a'
                 - name: QML
                   value: 261160
@@ -5621,20 +5636,20 @@ landscape:
                 - name: Makefile
                   value: 405
                   color: '#427819'
-              contributions: 2;2;0;2;0;2;1;0;1;5;6;18;11;15;8;1;8;1;4;0;16;5;19;7;12;2;8;6;13;5;13;15;9;7;0;0;1;2;0;1;0;3;1;6;10;9;5;1;0;1;5;6
+              contributions: 0;2;1;1;0;2;1;0;3;7;5;16;16;15;2;1;8;1;4;2;16;3;23;11;4;2;10;10;8;7;12;15;9;5;0;0;2;1;0;1;0;3;2;5;10;9;6;0;0;4;4;7
               firstWeek: 2021-11-14Z
-              stars: 250
+              stars: 251
               license: GNU Lesser General Public License v3.0
               description: CGRU - AFANASY
-              latest_commit_date: '2022-11-03T08:07:13Z'
-              latest_commit_link: /CGRU/cgru/commit/de69f0390de8fbb8911b21ffe47b626e23cfc1f3
+              latest_commit_date: '2022-11-08T11:05:53Z'
+              latest_commit_link: /CGRU/cgru/commit/375e50c61927fa3776ee49fffe56833f425ac15e
               release_date: '2022-07-25T10:04:59Z'
               release_link: https://github.com/CGRU/cgru/releases
               contributors_count: 72
               contributors_link: https://github.com/CGRU/cgru/graphs/contributors
             repos:
               - url: https://github.com/CGRU/cgru
-                stars: 250
+                stars: 251
             github_start_commit_data:
               start_commit_link: /CGRU/cgru/commit/19878b6c4f238fc60a49f20bc3ee0792a9d25340
               start_date: '2012-03-02T10:51:23Z'
@@ -5655,7 +5670,9 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/opencue-user
               dev_mailing_list_url: https://lists.aswf.io/g/opencue-dev
               slack_channel: '#opencue'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopencue/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencue/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
+              documentation: https://www.opencue.io/docs/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/ocio-dev/calendar
@@ -5711,7 +5728,7 @@ landscape:
                 - name: CSS
                   value: 1604
                   color: '#563d7c'
-              contributions: 0;0;0;4;1;8;0;0;2;6;1;0;2;0;0;2;0;0;0;0;6;3;0;3;3;0;9;2;6;2;0;0;0;0;4;2;2;1;0;2;0;1;0;0;1;1;5;1;0;0;3;1
+              contributions: 0;0;0;4;8;1;0;0;2;7;0;2;0;0;0;2;0;0;0;1;5;3;0;3;3;7;4;0;6;2;0;0;0;0;4;2;2;1;0;2;1;0;0;0;2;0;5;1;0;1;2;1
               firstWeek: 2021-11-14Z
               stars: 734
               license: Apache License 2.0
@@ -5812,7 +5829,7 @@ landscape:
               start_commit_link: /imageworks/Field3D/commit/d906e7cbe5a81031173743f5e7ba0de05d77bf4b
               start_date: '2009-07-23T22:50:58Z'
             yahoo_finance_data:
-              market_cap: 92708290560
+              market_cap: 95236890624
               effective_ticker: SNEJF
             image_data:
               fileName: field3-d.svg
@@ -5821,7 +5838,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-04T11:24:59.000Z
+              latest_tweet_date: 2022-11-08T17:26:36.000Z
           - item:
             name: OpenFX
             homepage_url: http://openeffects.org/
@@ -5859,7 +5876,7 @@ landscape:
             github_data:
               description: Open Standard for visual effects plug-ins
               contributors_count: 9
-              contributions: 7;0;0;0;0;0;0;1;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;5;1;2;0;0;0;0;0;0;1;0;0;0
+              contributions: 0;0;0;0;0;0;0;1;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;5;1;2;0;0;0;0;0;1;0;0;0;0
               stars: 296
               languages:
                 - name: JavaScript
@@ -5935,7 +5952,9 @@ landscape:
               user_mailing_list_url: https://lists.aswf.io/g/openvdb-user
               dev_mailing_list_url: https://lists.aswf.io/g/openvdb-dev
               slack_channel: '#openvdb'
-              LFX_insights: https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation%2Fopenvdb/dashboard;quicktime=time_filter_3Y
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openvdb/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
+              documentation: https://www.openvdb.org/documentation/doxygen/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
               calendar: https://lists.aswf.io/g/openvdb-dev/calendar
@@ -5970,7 +5989,7 @@ landscape:
                 - name: Mathematica
                   value: 674029
                 - name: CMake
-                  value: 322806
+                  value: 322876
                 - name: Batchfile
                   value: 194966
                   color: '#C1F12E'
@@ -6009,20 +6028,20 @@ landscape:
                 - name: QML
                   value: 1098
                   color: '#44a51c'
-              contributions: 20;16;9;0;11;4;0;1;0;10;11;5;2;1;3;1;7;0;13;9;12;7;20;6;27;8;11;15;18;29;17;9;11;10;3;5;5;2;10;1;11;10;16;3;7;16;16;51;23;70;51;5
+              contributions: 20;15;7;0;11;4;1;0;1;15;8;4;0;1;4;5;2;1;17;4;17;11;12;11;25;4;12;16;32;14;18;13;8;9;1;5;7;0;11;0;15;8;14;8;14;8;21;45;23;84;38;5
               firstWeek: 2021-11-14Z
-              stars: 1904
+              stars: 1905
               license: Mozilla Public License 2.0
               description: OpenVDB - Sparse volume data structure and tools
-              latest_commit_date: '2022-11-06T19:17:32Z'
-              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/f20fd6741ba1967179c185d5a0419386b0c64abb
+              latest_commit_date: '2022-11-08T20:09:30Z'
+              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/65a39c880769da171261b5d00b2e350a8c015b26
               release_date: '2022-10-28T00:15:19Z'
               release_link: https://github.com/AcademySoftwareFoundation/openvdb/releases
               contributors_count: 47
               contributors_link: https://github.com/AcademySoftwareFoundation/openvdb/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/openvdb
-                stars: 1891
+                stars: 1892
               - url: https://github.com/AcademySoftwareFoundation/openvdb-website
                 stars: 13
             github_start_commit_data:
@@ -6112,7 +6131,7 @@ landscape:
               start_commit_link: /wdas/partio/commit/e2b92cc7e19269975e0f5d06973daf5210406c0a
               start_date: '2010-07-22T00:47:09Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: partio.svg
@@ -6121,7 +6140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T17:00:01.000Z
+              latest_tweet_date: 2022-11-08T23:14:22.000Z
           - item:
             name: rmanPtc SOP
             homepage_url: http://danbethell.github.io/rmanptcsop/
@@ -6175,7 +6194,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:24:57.000Z
+              latest_tweet_date: 2022-11-08T18:04:38.000Z
       - subcategory:
         name: Simulation
         items:
@@ -6227,9 +6246,9 @@ landscape:
                 - name: Makefile
                   value: 5001
                   color: '#427819'
-              contributions: 10;9;7;5;8;0;0;6;1;2;0;12;0;8;17;10;23;7;3;10;2;0;3;12;6;0;1;6;2;0;0;1;0;1;0;0;1;0;1;4;2;0;1;0;0;2;0;0;0;0;0;0
+              contributions: 12;10;4;5;8;0;0;7;0;2;1;11;0;9;17;11;24;4;3;10;2;0;4;17;0;0;1;6;2;0;0;1;0;1;0;0;1;0;1;4;2;0;1;0;0;2;0;0;0;0;0;0
               firstWeek: 2021-11-14Z
-              stars: 9937
+              stars: 9945
               license: Other
               description: 'Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.'
               latest_commit_date: '2022-09-25T03:00:36Z'
@@ -6240,7 +6259,7 @@ landscape:
               contributors_link: https://github.com/bulletphysics/bullet3/graphs/contributors
             repos:
               - url: https://github.com/bulletphysics/bullet3
-                stars: 9937
+                stars: 9945
             github_start_commit_data:
               start_commit_link: /bulletphysics/bullet3/commit/e061ec1ebfbf3fd331e8a01ba2b05be123884639
               start_date: '2006-05-25T19:18:29Z'
@@ -6251,7 +6270,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-06T23:30:04.000Z
+              latest_tweet_date: 2022-11-08T16:37:26.000Z
       - subcategory:
         name: Math Foundations
         items:
@@ -6318,7 +6337,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T22:00:01.000Z
+              latest_tweet_date: 2022-11-08T22:00:01.000Z
           - item:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: https://www.cgal.org/
@@ -6413,20 +6432,20 @@ landscape:
                   value: 38
                   color: '#aa2afe'
               contributions: >-
-                39;39;39;32;12;59;27;38;76;48;92;30;70;52;52;96;57;111;112;102;109;79;59;47;61;112;63;42;54;64;87;96;79;78;45;30;39;38;16;10;15;19;10;11;47;74;51;115;66;23;13;39
+                43;43;35;21;22;47;35;52;57;79;57;44;76;41;83;61;60;126;117;97;91;87;54;45;76;103;62;49;41;73;78;114;61;82;45;38;29;37;9;14;14;18;9;35;33;79;99;63;55;31;6;39
               firstWeek: 2021-11-14Z
-              stars: 3473
+              stars: 3475
               license: Other
               description: The public CGAL repository, see the README below
-              latest_commit_date: '2022-11-07T09:09:13Z'
-              latest_commit_link: /CGAL/cgal/commit/fbcf90c5b75ac716e6423624f7a7b80ca4d326f2
+              latest_commit_date: '2022-11-08T13:04:35Z'
+              latest_commit_link: /CGAL/cgal/commit/01f8f1bc1d734bfced694853f668598ba2a36990
               release_date: '2022-10-12T14:00:04Z'
               release_link: https://github.com/CGAL/cgal/releases
               contributors_count: 275
               contributors_link: https://github.com/CGAL/cgal/graphs/contributors
             repos:
               - url: https://github.com/CGAL/cgal
-                stars: 3473
+                stars: 3475
             github_start_commit_data:
               start_commit_link: /CGAL/cgal/commit/43dff0ce60d6af9a97582d175ba401b4dd1c0f5c
               start_date: '1995-08-09T16:58:01Z'
@@ -6571,7 +6590,7 @@ landscape:
               start_commit_link: /wdas/SeExpr/commit/76ef35c5a97c06966f817b451f11325170f02a19
               start_date: '2011-05-04T00:33:18Z'
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: se-expr.svg
@@ -6580,7 +6599,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T17:00:01.000Z
+              latest_tweet_date: 2022-11-08T23:14:22.000Z
   - category:
     name: ASWF Member Company
     subcategories:
@@ -6617,7 +6636,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T18:59:16.000Z
+              latest_tweet_date: 2022-11-08T23:45:16.000Z
           - item:
             name: Adobe Inc.
             homepage_url: https://adobe.com/
@@ -6783,7 +6802,7 @@ landscape:
                 - SaaS
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 139256152064
+              market_cap: 140478840832
               effective_ticker: ADBE
             image_data:
               fileName: adobe-inc.svg
@@ -6841,7 +6860,7 @@ landscape:
                 - Semiconductor
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 101831311360
+              market_cap: 103074332672
               effective_ticker: AMD
             image_data:
               fileName: advanced-micro-devices-amd.svg
@@ -6850,7 +6869,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T20:58:33.000Z
+              latest_tweet_date: 2022-11-08T19:18:13.000Z
           - item:
             name: Amazon Web Services, Inc.
             homepage_url: https://aws.amazon.com/
@@ -6900,7 +6919,7 @@ landscape:
                 - Web Development
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 923559919616
+              market_cap: 917949054976
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services-inc.svg
@@ -6909,7 +6928,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-08T02:18:58.000Z
+              latest_tweet_date: 2022-11-09T02:28:42.000Z
           - item:
             name: Autodesk
             homepage_url: https://autodesk.com/
@@ -7107,7 +7126,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 42066604032
+              market_cap: 42958098432
               effective_ticker: ADSK
             image_data:
               fileName: autodesk.svg
@@ -7116,7 +7135,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-10-28T18:00:43.000Z
+              latest_tweet_date: 2022-11-08T23:52:01.000Z
           - item:
             name: DNEG
             homepage_url: https://dneg.com/
@@ -7150,7 +7169,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:24:57.000Z
+              latest_tweet_date: 2022-11-08T18:04:38.000Z
           - item:
             name: DreamWorks Animation
             homepage_url: https://dreamworks.com/
@@ -7183,7 +7202,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-08T04:31:16.000Z
+              latest_tweet_date: 2022-11-09T01:20:09.000Z
           - item:
             name: Epic Games, Inc
             homepage_url: https://epicgames.com/
@@ -7255,7 +7274,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T20:02:40.000Z
+              latest_tweet_date: 2022-11-08T20:20:37.000Z
           - item:
             name: Google LLC
             homepage_url: https://google.com/
@@ -7850,7 +7869,7 @@ landscape:
                 - Search Engine
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1146554810368
+              market_cap: 1124622663680
               effective_ticker: GOOG
             image_data:
               fileName: google-llc.svg
@@ -7859,7 +7878,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-08T04:29:48.000Z
+              latest_tweet_date: 2022-11-09T04:23:50.000Z
           - item:
             name: Intel Corporation
             homepage_url: https://intel.com/
@@ -8142,7 +8161,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 117248073728
+              market_cap: 117536956416
               effective_ticker: INTC
             image_data:
               fileName: intel-corporation.svg
@@ -8151,7 +8170,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:10:59.000Z
+              latest_tweet_date: 2022-11-08T18:30:01.000Z
           - item:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
@@ -8729,7 +8748,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1698650128384
+              market_cap: 1706104586240
               effective_ticker: MSFT
             image_data:
               fileName: microsoft-corporation.svg
@@ -8788,7 +8807,7 @@ landscape:
                 - Video Streaming
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 115082174464
+              market_cap: 117244968960
               effective_ticker: NFLX
             image_data:
               fileName: netflix-inc.svg
@@ -8797,7 +8816,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-08T00:44:35.000Z
+              latest_tweet_date: 2022-11-08T23:07:09.000Z
           - item:
             name: NVIDIA Corporation
             homepage_url: https://nvidia.com/
@@ -8876,7 +8895,7 @@ landscape:
                 - Virtual Reality
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 356380901376
+              market_cap: 363881857024
               effective_ticker: NVDA
             image_data:
               fileName: nvidia-corporation.svg
@@ -8885,7 +8904,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T16:46:13.000Z
+              latest_tweet_date: 2022-11-08T22:51:31.000Z
           - item:
             name: Sony Pictures Entertainment
             homepage_url: https://sonypictures.com/
@@ -8939,7 +8958,7 @@ landscape:
                 - TV Production
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 92708290560
+              market_cap: 95236890624
               effective_ticker: SNEJF
             image_data:
               fileName: sony-pictures-entertainment.svg
@@ -8948,7 +8967,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T19:30:27.000Z
+              latest_tweet_date: 2022-11-08T20:00:01.000Z
           - item:
             name: The Walt Disney Studios
             homepage_url: https://disney.com/
@@ -8990,7 +9009,7 @@ landscape:
                 - Web Development
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 183089905664
+              market_cap: 182123692032
               effective_ticker: DIS
             image_data:
               fileName: the-walt-disney-studios.svg
@@ -9088,7 +9107,7 @@ landscape:
                 - Virtual Reality
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 7445621760
+              market_cap: 7139143168
               effective_ticker: U
             image_data:
               fileName: unity-technologies.svg
@@ -9097,7 +9116,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:00:01.000Z
+              latest_tweet_date: 2022-11-08T22:14:09.000Z
           - item:
             name: Weta Digital Limited
             homepage_url: https://wetafx.co.nz/
@@ -9130,7 +9149,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-04T19:44:44.000Z
+              latest_tweet_date: 2022-11-08T21:51:31.000Z
       - subcategory:
         name: General
         items:
@@ -9201,7 +9220,43 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-05T15:54:01.000Z
+              latest_tweet_date: 2022-11-08T13:38:05.000Z
+          - item:
+            name: Framestore
+            homepage_url: https://framestore.com/
+            logo: framestore.svg
+            twitter: https://twitter.com/Framestore
+            crunchbase: https://www.crunchbase.com/organization/framestore
+            crunchbase_data:
+              name: Framestore
+              description: Framestore is a creative studio that offers production, pre-production, and post-production services for its users.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.framestore.com
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: http://twitter.com/framestore
+              linkedin: https://www.linkedin.com/company/framestore
+              acquisitions:
+                - date: '2020-11-04'
+                  acquiree: Company 3
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Film
+                - Film Production
+                - Media and Entertainment
+            image_data:
+              fileName: framestore.svg
+              hash: FnqMLdUTtHz0IUtS36IqzorDHhzhO2jb9baa27P3o20=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-11-07T17:00:51.000Z
           - item:
             name: ftrack AB
             homepage_url: https://ftrack.com/
@@ -9505,7 +9560,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 28920774656
+              market_cap: 29021368320
               effective_ticker: HPQ
             image_data:
               fileName: hp-inc.svg
@@ -9514,7 +9569,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-08T04:43:43.000Z
+              latest_tweet_date: 2022-11-09T04:59:09.000Z
           - item:
             name: Maxon Computer GmbH
             homepage_url: https://maxon.net/
@@ -9550,7 +9605,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5063488682
+              market_cap: 5298037055
               effective_ticker: NEM.DE
             image_data:
               fileName: maxon-computer-gmb-h.svg
@@ -9559,7 +9614,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T17:48:01.000Z
+              latest_tweet_date: 2022-11-08T19:37:32.000Z
           - item:
             name: Red Hat, Inc.
             homepage_url: https://redhat.com/
@@ -9649,7 +9704,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123996905472
+              market_cap: 125520650240
               effective_ticker: IBM
             image_data:
               fileName: red-hat-inc.svg
@@ -9658,7 +9713,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T21:00:07.000Z
+              latest_tweet_date: 2022-11-08T19:09:01.000Z
           - item:
             name: RodeoFX
             homepage_url: https://rodeofx.com/
@@ -10009,7 +10064,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-11-07T18:08:21.000Z
+              latest_tweet_date: 2022-11-08T20:07:35.000Z
           - item:
             name: Visual Effects Society
             homepage_url: https://vesglobal.org/
@@ -10044,4 +10099,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2022-11-08T05:09:23.325Z
+updated_at: 2022-11-09T05:08:33.679Z
