@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Automerge Pull Request if possible
-        uses: "pascalgn/automerge-action@v0.13.0"
+        uses: "pascalgn/automerge-action@v0.15.5"
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
           MERGE_LABELS: "automerge"
