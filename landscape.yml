@@ -541,6 +541,16 @@ landscape:
         name: Rendering, Lighting, and Lookdev
         items:
           - item:
+            name: Appleseed
+            homepage_url: https://appleseedhq.net/
+            project: null
+            repo_url: https://github.com/appleseedhq/appleseed
+            project_org: https://github.com/appleseedhq
+            logo: appleseed.svg
+            twitter: https://twitter.com/appleseedhq
+            organization:
+              name: The appleseedhq Organization
+          - item:
             name: Cryptomatte
             homepage_url: https://github.com/Psyop/Cryptomatte
             repo_url: https://github.com/Psyop/Cryptomatte
@@ -613,16 +623,6 @@ landscape:
             repo_url: https://github.com/blkdev2/pixie
             logo: render-pixie.svg
             crunchbase: https://www.crunchbase.com/organization/renderpixie
-          - item:
-            name: Appleseed
-            homepage_url: https://appleseedhq.net/
-            project: null
-            repo_url: https://github.com/appleseedhq/appleseed
-            project_org: https://github.com/appleseedhq
-            logo: appleseed.svg
-            twitter: https://twitter.com/appleseedhq
-            organization:
-              name: The appleseedhq Organization
       - subcategory:
         name: Queueing and Render Management
         items:
