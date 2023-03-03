@@ -161,7 +161,6 @@ landscape:
           - item:
             name: three.js
             homepage_url: https://threejs.org/
-            project: null
             repo_url: https://github.com/mrdoob/three.js
             logo: threejs.svg
             organization:
@@ -224,14 +223,13 @@ landscape:
               LFX_security: none
               TSC_meeting_notes: none
               calendar: https://lists.aswf.io/g/open-review-initiative-discussion/calendar
-              leads: Eric Enderton
+              leads: Erik Strauss
               date_accepted: ^2022-08-08
               last_review_date: ''
               next_review_date: ^2023-04-19
           - item:
             name: tlRender
             homepage_url: https://github.com/darbyjohnston/tlRender
-            project: null
             repo_url: https://github.com/darbyjohnston/tlRender
             logo: tlrender.svg
             crunchbase: https://www.crunchbase.com/organization/djv
@@ -365,7 +363,6 @@ landscape:
           - item:
             name: PhysX
             homepage_url: https://github.com/NVIDIA-Omniverse/PhysX
-            project: null
             repo_url: https://github.com/NVIDIA-Omniverse/PhysX
             logo: physx.svg
             crunchbase: https://www.crunchbase.com/organization/nvidia
@@ -394,7 +391,6 @@ landscape:
           - item:
             name: OpenAnnotationIO
             homepage_url: https://openannotation.io/
-            project: null
             repo_url: https://github.com/AheadIO/OpenAnnotationIO
             logo: openannotationio.svg
             twitter: https://twitter.com/ahead_io
@@ -481,8 +477,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
               slack_channel: '#openassetio'
-              LFX_insights: none
-              LFX_security: none
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openassetio/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001L17vCQAR/overview
               documentation: https://openassetio.github.io/OpenAssetIO/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
@@ -579,7 +575,6 @@ landscape:
           - item:
             name: Appleseed
             homepage_url: https://appleseedhq.net/
-            project: null
             repo_url: https://github.com/appleseedhq/appleseed
             project_org: https://github.com/appleseedhq
             logo: appleseed.svg
@@ -628,7 +623,6 @@ landscape:
               was developed at DreamWorks and is in continuous active development and includes an extensive library of production-tested, physically based
               materials, a USD Hydra render delegate, multi-machine and cloud rendering via the Arras distributed computation framework.
             homepage_url: https://openmoonray.org/
-            project: null
             logo: moonray.svg
             crunchbase: https://www.crunchbase.com/organization/dreamworks-9660
           - item:
@@ -721,6 +715,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.aswf.io/g/openfx-discussion
               slack_channel: '#openfx'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openfx/trends
               contribution_guidelines: https://github.com/ofxa/openfx/wiki/Extending-OpenFX-Guidelines
               leads: Gary Oberbrunner
               date_accepted: ^2022-08-08
