@@ -88,6 +88,14 @@ landscape:
             logo: lgl.svg
             crunchbase: https://www.crunchbase.com/organization/netography-com
           - item:
+            name: libitmf
+            homepage_url: https://www.immersivealliance.org/download/download-itmf/
+            project: null
+            repo_url: https://github.com/ImmersiveAlliance/libitmf
+            logo: libitmf.svg
+            organization:
+              name: Immersive Digital Experiences Alliance
+          - item:
             name: OpenCV
             homepage_url: https://opencv.org
             repo_url: https://github.com/opencv/opencv
@@ -166,14 +174,6 @@ landscape:
             logo: threejs.svg
             organization:
               name: Three.js
-          - item:
-            name: libitmf
-            homepage_url: https://www.immersivealliance.org/download/download-itmf/
-            project: null
-            repo_url: https://github.com/ImmersiveAlliance/libitmf
-            logo: libitmf.svg
-            organization:
-              name: Immersive Digital Experiences Alliance
       - subcategory:
         name: Display and Review
         items:
