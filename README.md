@@ -1,4 +1,4 @@
-[![Dependency Status](https://img.shields.io/david/AcademySoftwareFoundation/aswf-landscape.svg?style=flat-square)](https://david-dm.org/AcademySoftwareFoundation/aswf-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/4e7f5868-c8de-4e99-8c77-a3b855c61f7d/deploy-status)](https://app.netlify.com/sites/awsf-landscape/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e7f5868-c8de-4e99-8c77-a3b855c61f7d/deploy-status)](https://app.netlify.com/sites/awsf-landscape/deploys)
 
 # Academy Software Foundation Landscape
 
@@ -34,8 +34,7 @@ Please see [landscape.aswf.io](https://landscape.aswf.io).
 
 * Projects must be open source and hosted on or mirrored to GitHub.
 * Projects must have been used successfully in the production of a film, television program, animated content or other projects within the scope of the ASWF. It also should have been designed specifically for the entertainment industry.
-* Projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
-* We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
+* Projects that clearly fit in an existing category are generally included. Put the project in the single category where it best fits. We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
 
@@ -48,7 +47,7 @@ Netlify will generate a staging server for you to preview your updates. Please c
 The following rules will produce the most readable and attractive logos:
 
 1. We require SVGs, as they are smaller, display correctly at any scale, and work on all modern browsers. If you only have the logo in another vector format (like AI or EPS), please open an issue and we'll convert it to an SVG for you, or you can often do it yourself at https://cloudconvert.com/. Note that you may need to zip your file to attach it to a GitHub issue. Please note that we require pure SVGs and will reject SVGs that contain embedded PNGs since they have the same problems of being bigger and not scaling seamlessly. We also require that SVGs convert fonts to outlines so that they will render correctly whether or not a font is installed. See [Proper SVGs](#proper-svgs) below.
-1. When multiple variants exist, use stacked (not horizontal) logos. For example, we use the second column (stacked), not the first (horizontal), of CNCF project [logos](https://github.com/cncf/artwork/#cncf-incubating-logos).
+1. When multiple variants exist, use stacked (not horizontal) logos.
 1. Don't use reversed logos (i.e., with a non-white, non-transparent background color). If you only have a reversed logo, create an issue with it attached and we'll produce a non-reversed version for you.
 1. Logos must include the company, product or project name in English. It's fine to also include words from another language. If you don't have a version of your logo with the name in it, please open an issue and we'll create one for you (and please specify the font).
 1. Match the item name to the English words in the logos. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme Rocket", the product name should be "Acme Rocket". Otherwise, logos looks out of place when you sort alphabetically.
@@ -89,7 +88,7 @@ The update server enhances the source data with the fetched data and saves the r
 As explained at https://bestpractices.coreinfrastructure.org/:
 >The Linux Foundation (LF) Core Infrastructure Initiative (CII) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. The CII Best Practices Badge is inspired by the many badges available to projects on GitHub. Consumers of the badge can quickly assess which FLOSS projects are following best practices and as a result are more likely to produce higher-quality secure software.
 
-The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](https://landscape.lfdl.io/bestpractices=yes) and [without](https://landscape.aswf.io/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) in the CNCF.
+The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](https://landscape.aswf.io/bestpractices=yes) and [without](https://landscape.aswf.io/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/lifecycle.md) in ASWF.
 
 ## Non-Updated Items
 
@@ -118,7 +117,7 @@ You can install and run locally with the [install directions](INSTALL.md). It's 
 
 ## Vulnerability reporting
 
-Please open an [issue](https://github.com/cncf/landscape/issues/new) or, for sensitive information, email info@cncf.io.
+Please open an [issue](https://github.com/AcademySoftwareFoundation/aswf-landscape/issues/new) or, for sensitive information, email info@aswf.io.
 
 ## Adjusting the Landscape View
 The file src/components/MainContent2.js describes the key elements of a
