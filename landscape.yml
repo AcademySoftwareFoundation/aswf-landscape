@@ -48,6 +48,7 @@ landscape:
               date_accepted: ^2019-02-08
               last_review_date: ''
               next_review_date: ^2023-06-28
+              contributed_by: Sony Pictures Imageworks
           - item:
             name: RAW to ACES Utility
             homepage_url: https://rawtoaces.org
@@ -66,6 +67,7 @@ landscape:
               date_accepted: ^2022-03-10
               last_review_date: ''
               next_review_date: ^2023-05-17
+              contributed_by: The Academy of Motion Picture Arts and Sciences
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -129,14 +131,30 @@ landscape:
               date_accepted: ^2019-05-01
               last_review_date: ^2022-12-14
               next_review_date: ^2023-12-13
+              contributed_by: Lucasfilm
           - item:
             name: OpenImageIO
-            homepage_url: https://sites.google.com/site/openimageio/home
+            homepage_url: https://openimageio.org
             project: incubating
             repo_url: https://github.com/OpenImageIO/oiio
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
+              slack_channel: '#openimageio'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
+              LFX_security: none
+              documentation: https://openimageio.readthedocs.io
+              wiki_page: none
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
+              TSC_meeting_notes: none
+              calendar: https://lists.aswf.io/g/oiio-dev/calendar
+              leads: Cary Phillips
+              date_accepted: ^2023-05-03
+              last_review_date: none
+              next_review_date: ^2024-05-01
+              contributed_by: Larry Gritz
           - item:
             name: OpenMVG
             homepage_url: https://opensource.mikrosimage.eu/
