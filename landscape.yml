@@ -48,6 +48,7 @@ landscape:
               date_accepted: ^2019-02-08
               last_review_date: ''
               next_review_date: ^2023-06-28
+              contributed_by: Sony Pictures Imageworks
           - item:
             name: RAW to ACES Utility
             homepage_url: https://rawtoaces.org
@@ -66,6 +67,7 @@ landscape:
               date_accepted: ^2022-03-10
               last_review_date: ''
               next_review_date: ^2023-05-17
+              contributed_by: The Academy of Motion Picture Arts and Sciences
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -129,14 +131,30 @@ landscape:
               date_accepted: ^2019-05-01
               last_review_date: ^2022-12-14
               next_review_date: ^2023-12-13
+              contributed_by: Lucasfilm
           - item:
             name: OpenImageIO
-            homepage_url: https://sites.google.com/site/openimageio/home
+            homepage_url: https://openimageio.org
             project: incubating
             repo_url: https://github.com/OpenImageIO/oiio
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
+              slack_channel: '#openimageio'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
+              LFX_security: none
+              documentation: https://openimageio.readthedocs.io
+              wiki_page: none
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
+              TSC_meeting_notes: none
+              calendar: https://lists.aswf.io/g/oiio-dev/calendar
+              leads: Cary Phillips
+              date_accepted: ^2023-05-03
+              last_review_date: none
+              next_review_date: ^2024-05-01
+              contributed_by: Larry Gritz
           - item:
             name: OpenMVG
             homepage_url: https://opensource.mikrosimage.eu/
@@ -195,6 +213,7 @@ landscape:
               date_accepted: ^2022-03-10
               last_review_date: ''
               next_review_date: ^2023-06-14
+              contributed_by: Academy Software Foundation
           - item:
             name: DJV Imaging
             homepage_url: https://darbyjohnston.github.io/DJV/
@@ -237,6 +256,7 @@ landscape:
               date_accepted: ^2022-08-08
               last_review_date: ''
               next_review_date: ^2023-04-19
+              contributed_by: Academy Software Foundation
           - item:
             name: tlRender
             homepage_url: https://github.com/darbyjohnston/tlRender
@@ -427,6 +447,7 @@ landscape:
               date_accepted: ^2019-07-29
               last_review_date: ^2022-11-16
               next_review_date: ^2023-05-31
+              contributed_by: Pixar Animation Studios
           - item:
             name: timecode
             homepage_url: https://github.com/guerilla-di/timecode
@@ -498,6 +519,7 @@ landscape:
               date_accepted: ^2022-08-08
               last_review_date: ''
               next_review_date: ^2023-07-26
+              contributed_by: Foundry
           - item:
             name: OpenPype
             homepage_url: https://openpype.io
@@ -571,6 +593,7 @@ landscape:
               date_accepted: ^2022-03-10
               last_review_date: ''
               next_review_date: ^2023-03-08 (Pending Reschedule)
+              contributed_by: Allan Johns
           - item:
             name: Scala Migrations
             homepage_url: https://github.com/blair/scala-migrations
@@ -634,6 +657,7 @@ landscape:
               date_accepted: ^2021-08-04
               last_review_date: ^2023-01-25
               next_review_date: ^2024-01-24
+              contributed_by: Lucasfilm
           - item:
             name: MoonRay
             description: >-
@@ -673,6 +697,7 @@ landscape:
               date_accepted: ^2020-04-16
               last_review_date: ''
               next_review_date: ^2023-05-03
+              contributed_by: Sony Pictures Imageworks
           - item:
             name: Pixie
             homepage_url: http://www.renderpixie.com/
@@ -712,6 +737,7 @@ landscape:
               date_accepted: ^2019-05-01
               last_review_date: ^2023-02-22 (Pending Reschedule)
               next_review_date: ^
+              contributed_by: Sony Pictures Imageworks and Google Cloud
   - category:
     name: Math and Simulation
     subcategories:
@@ -741,6 +767,7 @@ landscape:
               date_accepted: ^2022-08-08
               last_review_date: ''
               next_review_date: ^2023-05-31
+              contributed_by: Open Effects Association
           - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
@@ -765,6 +792,7 @@ landscape:
               date_accepted: ^2018-10-23
               last_review_date: ^2022-11-30
               next_review_date: ^2023-11-29
+              contributed_by: Dreamworks Animation
           - item:
             name: Partio
             homepage_url: https://partio.us/
