@@ -263,6 +263,7 @@ landscape:
             repo_url: https://github.com/darbyjohnston/tlRender
             logo: tlrender.svg
             crunchbase: https://www.crunchbase.com/organization/djv
+            second_path: Using OpenTimelineIO / Projects
       - subcategory:
         name: Interactive Compositing and Painting
         items:
@@ -497,6 +498,7 @@ landscape:
             project_org: https://github.com/olive-editor
             logo: olive.svg
             crunchbase: https://www.crunchbase.com/organization/olive-editor
+            second_path: Using OpenTimelineIO / Projects
           - item:
             name: OpenAssetIO
             homepage_url: https://openassetio.org
@@ -1060,3 +1062,32 @@ landscape:
             homepage_url: https://vesglobal.org/
             logo: visual_effects_society.svg
             crunchbase: https://www.crunchbase.com/organization/visual-effects-society
+  - category:
+    name: Using OpenTimelineIO
+    subcategories:
+      - subcategory:
+        name: Projects
+        items:
+          - item:
+            name: Altera
+            description: Altera is a clip-based metadata management application for camera footage and clip-data used by media professionals on-set and in post-production.
+            homepage_url: https://cine.dev
+            logo: altera.svg
+            organization:
+              name: CineDev
+          - item:
+            name: Cezanne Studio
+            homepage_url: https://cezanne.ahead.io/cezanne-studio/
+            organization:
+              name: ahead.io
+          - item:
+            name: EditReader
+            homepage_url: http://www.editreader.co.uk/
+            organization:
+              name: Banoffeesoft
+          - item:
+            name: cineSync
+            description: Emmy and Academy Award-winning creative review and approval that ensures everyone sees the same frame at the same time.
+            homepage_url: https://www.ftrack.com/en/cinesync
+            logo: cinesync.svg
+            crunchbase: https://www.crunchbase.com/organization/ftrack
