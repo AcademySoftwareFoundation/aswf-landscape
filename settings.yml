@@ -53,6 +53,14 @@ relation:
           big_picture_order: 2
           big_picture_label: ASWF Sandbox
           big_picture_color: rgb(108, 165, 209)
+        - id: workinggroup
+          label: Working Groups
+          prefix: ASWF
+          tag: Working Group
+          color: '#666666'
+          big_picture_order: 2
+          big_picture_label: ASWF Working Group
+          big_picture_color: rgb(200,200,200)
     - id: company
       label: ASWF Members
       tag: Company
@@ -125,6 +133,7 @@ big_picture:
         left: 0
         color: rgb(103,66,18)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Assets and Workflow
         rows: 3
@@ -134,6 +143,7 @@ big_picture:
         left: 0
         color: rgb(19,105,73)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Rendering and Queueing
         rows: 4
@@ -143,6 +153,7 @@ big_picture:
         left: 0
         color: rgb(47,116,190)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Math and Simulation
         rows: 4
@@ -152,6 +163,7 @@ big_picture:
         left: 385
         color: rgb(165,9,77)
         fit_width: true
+        is_large: false
       - type: VerticalCategory
         category: ASWF Member Company
         cols: 8
@@ -161,6 +173,7 @@ big_picture:
         left: 765
         color: rgb(193,83,21)
         fit_width: true
+        is_large: false
       - type: LandscapeInfo
         width: 380
         height: 130
