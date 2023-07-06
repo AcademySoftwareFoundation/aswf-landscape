@@ -408,7 +408,7 @@ landscape:
             license: Creative Commons Attribution 4.0 International
             description: Assisting with issues raised in USD support channels, consolidating and sharing best practices for deployment of USD technologies.
             homepage_url: https://wiki.aswf.io/display/WGUSD
-            project: null
+            project: workinggroup
             logo: usdwg.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -859,6 +859,27 @@ landscape:
             repo_url: https://github.com/wdas/seexpr
             logo: seexpr.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
+          - item:
+            name: Rust WG
+            description: >-
+              The Rust bindings working group is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
+              entertainment industry.
+            homepage_url: https://github.com/vfx-rs/organization
+            project: workinggroup
+            repo_url: https://github.com/vfx-rs/organization
+            project_org: https://github.com/vfx-rs
+            logo: rustwg.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/wg-rust
+              slack_channel: '#rust'
+              TSC_meeting_notes: https://wiki.aswf.io/pages/viewpage.action?pageId=1736722
+              calendar: https://lists.aswf.io/g/wg-rust/calendar
+              leads: Scott Wilson
+              date_accepted: ^2021-03-04
+              last_review_date: ^2023-02-08
+              next_review_date: ^2024-02-07
+              contributed_by: Scott Wilson
   - category:
     name: ASWF Member Company
     subcategories:
