@@ -397,18 +397,11 @@ landscape:
             logo: physx.svg
             crunchbase: https://www.crunchbase.com/organization/nvidia
           - item:
-            name: 'USD: Universal Scene Description'
-            homepage_url: https://openusd.org/
-            repo_url: https://github.com/PixarAnimationStudios/USD
-            logo: usd.svg
-            twitter: https://twitter.com/pixar
-            crunchbase: https://www.crunchbase.com/organization/pixar
-          - item:
             name: USD Working Group
-            license: Creative Commons Attribution 4.0 International
             description: Assisting with issues raised in USD support channels, consolidating and sharing best practices for deployment of USD technologies.
             homepage_url: https://wiki.aswf.io/display/WGUSD
             project: workinggroup
+            license: Creative Commons Attribution 4.0 International
             logo: usdwg.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -421,6 +414,13 @@ landscape:
               last_review_date: ^2023-04-05
               next_review_date: ^2024-04-03
               contributed_by: Pixar
+          - item:
+            name: 'USD: Universal Scene Description'
+            homepage_url: https://openusd.org/
+            repo_url: https://github.com/PixarAnimationStudios/USD
+            logo: usd.svg
+            twitter: https://twitter.com/pixar
+            crunchbase: https://www.crunchbase.com/organization/pixar
       - subcategory:
         name: Timelines and Animation
         items:
@@ -854,12 +854,6 @@ landscape:
             logo: pimath.svg
             crunchbase: https://www.crunchbase.com/organization/dr-studios
           - item:
-            name: SeExpr
-            homepage_url: https://wdas.github.io/SeExpr/
-            repo_url: https://github.com/wdas/seexpr
-            logo: seexpr.svg
-            crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
-          - item:
             name: Rust WG
             description: >-
               The Rust bindings working group is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
@@ -880,6 +874,12 @@ landscape:
               last_review_date: ^2023-02-08
               next_review_date: ^2024-02-07
               contributed_by: Scott Wilson
+          - item:
+            name: SeExpr
+            homepage_url: https://wdas.github.io/SeExpr/
+            repo_url: https://github.com/wdas/seexpr
+            logo: seexpr.svg
+            crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
   - category:
     name: ASWF Member Company
     subcategories:
@@ -1106,24 +1106,6 @@ landscape:
         name: Other
         items:
           - item:
-            name: D&I Working Group
-            license: Creative Commons Attribution 4.0 International
-            description: Encouraging diversity and inclusion across the open source software ecosystem for VFX and animation.
-            homepage_url: https://www.aswf.io/diversity/
-            project: workinggroup
-            logo: diwg.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              mailing_list_url: https://lists.aswf.io/g/diversity
-              slack_channel: '#diversity'
-              TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/diversity/calendar
-              leads: Rachel Rose and Carol Payne
-              date_accepted: ^2020-06-07
-              last_review_date: ^2022-05-20
-              next_review_date: ^2023-10-04
-              contributed_by: Academy Software Foundation
-          - item:
             name: CI Working Group
             description: Managing multiple version builds, plus requirements for dependencies via the VFX Reference Platform.
             homepage_url: https://github.com/AcademySoftwareFoundation/wg-ci
@@ -1140,4 +1122,22 @@ landscape:
               date_accepted: ^2018-10-01
               last_review_date: ^2023-05-17
               next_review_date: ^2024-05-15
+              contributed_by: Academy Software Foundation
+          - item:
+            name: D&I Working Group
+            description: Encouraging diversity and inclusion across the open source software ecosystem for VFX and animation.
+            homepage_url: https://www.aswf.io/diversity/
+            project: workinggroup
+            license: Creative Commons Attribution 4.0 International
+            logo: diwg.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/diversity
+              slack_channel: '#diversity'
+              TSC_meeting_notes: none
+              calendar: https://lists.aswf.io/g/diversity/calendar
+              leads: Rachel Rose and Carol Payne
+              date_accepted: ^2020-06-07
+              last_review_date: ^2022-05-20
+              next_review_date: ^2023-10-04
               contributed_by: Academy Software Foundation
