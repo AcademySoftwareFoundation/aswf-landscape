@@ -78,6 +78,15 @@ landscape:
             logo: depix.svg
             crunchbase: https://www.crunchbase.com/organization/guerilla-di
           - item:
+            name: FFmpeg
+            homepage_url: https://ffmpeg.org/
+            project: null
+            repo_url: https://github.com/FFmpeg/FFmpeg
+            project_org: https://github.com/FFmpeg
+            url_for_bestpractices: https://git.ffmpeg.org/ffmpeg.git
+            logo: ffmpeg.svg
+            crunchbase: https://www.crunchbase.com/organization/ffmpeg
+          - item:
             name: Imagemagick
             homepage_url: https://imagemagick.org/script/index.php
             repo_url: https://github.com/ImageMagick/ImageMagick
@@ -193,15 +202,6 @@ landscape:
             logo: threejs.svg
             organization:
               name: Three.js
-          - item:
-            name: FFmpeg
-            homepage_url: https://ffmpeg.org/
-            project: null
-            repo_url: https://github.com/FFmpeg/FFmpeg
-            project_org: https://github.com/FFmpeg
-            url_for_bestpractices: https://git.ffmpeg.org/ffmpeg.git
-            logo: ffmpeg.svg
-            crunchbase: https://www.crunchbase.com/organization/ffmpeg
       - subcategory:
         name: Display and Review
         items:
