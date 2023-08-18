@@ -15,10 +15,8 @@ global:
     twitter: '@AcademySwf'
     google_site_verification: crYr16dyu7npMmK-fw42gMkXKTWg_A-7c2PosXgtPZo
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
-    extra: >
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=360578303"></script>
-      <script>
+    extra: |
+      <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=360578303"></script> <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
