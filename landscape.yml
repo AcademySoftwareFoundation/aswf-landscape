@@ -26,7 +26,6 @@ landscape:
           - item:
             name: OpenColorIO
             homepage_url: https://opencolorio.org/
-            project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
@@ -49,6 +48,7 @@ landscape:
               last_review_date: ^2022-04-06
               next_review_date: ^2023-10-18
               contributed_by: Sony Pictures Imageworks
+            project: graduated
           - item:
             name: RAW to ACES Utility
             homepage_url: https://rawtoaces.org
