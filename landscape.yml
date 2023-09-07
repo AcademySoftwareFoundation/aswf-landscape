@@ -26,7 +26,6 @@ landscape:
           - item:
             name: OpenColorIO
             homepage_url: https://opencolorio.org/
-            project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
@@ -49,6 +48,7 @@ landscape:
               last_review_date: ^2022-04-06
               next_review_date: ^2023-10-18
               contributed_by: Sony Pictures Imageworks
+            project: adopted
           - item:
             name: RAW to ACES Utility
             homepage_url: https://rawtoaces.org
@@ -116,7 +116,7 @@ landscape:
           - item:
             name: OpenEXR
             homepage_url: https://www.openexr.com/
-            project: graduated
+            project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/openexr
             url_for_bestpractices: https://github.com/openexr/openexr
             additional_repos:
@@ -415,7 +415,7 @@ landscape:
             name: USD Working Group
             description: Assisting with issues raised in USD support channels, consolidating and sharing best practices for deployment of USD technologies.
             homepage_url: https://wiki.aswf.io/display/WGUSD
-            project: workinggroup
+            project: working-group
             license: Creative Commons Attribution 4.0 International
             logo: usdwg.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -725,7 +725,7 @@ landscape:
           - item:
             name: Open Shading Language (OSL)
             homepage_url: https://openshadinglanguage.org
-            project: graduated
+            project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
             url_for_bestpractices: https://github.com/imageworks/OpenShadingLanguage
             logo: osl.svg
@@ -763,7 +763,7 @@ landscape:
           - item:
             name: OpenCue
             homepage_url: https://www.opencue.io/
-            project: graduated
+            project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
@@ -818,7 +818,7 @@ landscape:
           - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
-            project: graduated
+            project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/openvdb
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/openvdb-website
@@ -888,7 +888,7 @@ landscape:
               The Rust bindings working group is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
               entertainment industry.
             homepage_url: https://github.com/vfx-rs/organization
-            project: workinggroup
+            project: working-group
             repo_url: https://github.com/vfx-rs/organization
             project_org: https://github.com/vfx-rs
             logo: rustwg.svg
@@ -1138,7 +1138,7 @@ landscape:
             name: CI Working Group
             description: Managing multiple version builds, plus requirements for dependencies via the VFX Reference Platform.
             homepage_url: https://github.com/AcademySoftwareFoundation/wg-ci
-            project: workinggroup
+            project: working-group
             repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
             logo: ciwg.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -1156,7 +1156,7 @@ landscape:
             name: D&I Working Group
             description: Encouraging diversity and inclusion across the open source software ecosystem for VFX and animation.
             homepage_url: https://www.aswf.io/diversity/
-            project: workinggroup
+            project: working-group
             license: Creative Commons Attribution 4.0 International
             logo: diwg.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation

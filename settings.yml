@@ -36,7 +36,7 @@ relation:
     - id: hosted
       label: ASWF Projects
       children:
-        - id: graduated
+        - id: adopted
           label: Adopted Projects
           prefix: ASWF
           tag: Adopted
@@ -60,7 +60,7 @@ relation:
           big_picture_order: 2
           big_picture_label: ASWF Sandbox
           big_picture_color: rgb(108, 165, 209)
-        - id: workinggroup
+        - id: working-group
           label: Working Groups
           prefix: ASWF
           tag: Working Group
