@@ -11578,32 +11578,49 @@ landscape:
             name: Visual Effects Society
             homepage_url: https://vesglobal.org/
             logo: visual_effects_society.svg
-            crunchbase: https://www.crunchbase.com/organization/visual-effects-society
+            crunchbase: https://www.crunchbase.com/organization/verisign
             crunchbase_data:
-              name: Visual Effects Society
-              description: Visual Effects Society is a global professional honorary society that represents the full breadth of visual effects practitioners.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: http://www.visualeffectssociety.com
-              city: Sherman Oaks
+              name: VeriSign Authentication Services
+              description: VeriSign Authentication Services provides network infrastructure, security and telecommunications services for companies and individuals.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.verisign.com
+              city: Mountain View
               region: California
               country: United States
-              twitter: https://twitter.com/VFXSociety
-              linkedin: https://www.linkedin.com/in/visualeffectssociety/en
-              acquisitions: []
-              parents: []
-              stockExchange: null
+              twitter: null
+              linkedin: https://www.linkedin.com/company/verisign
+              acquisitions:
+                - date: '2002-01-07'
+                  acquiree: The .tv Corporation
+                - date: '2003-12-17'
+                  acquiree: Guardent
+                - date: '2005-01-01'
+                  acquiree: LightSurf
+                - date: '2008-10-01'
+                  acquiree: Global Name Registry
+                - date: '2010-04-01'
+                  acquiree: TrustBearer Labs
+              parents:
+                - https://www.crunchbase.com/organization/verisign-2
+              ticker: VRS.F
+              funding: 39311110
+              stockExchange: nasdaq
               company_type: For Profit
               industries:
-                - Non Profit
+                - Cyber Security
+                - Information Technology
+                - Internet
+                - Security
+                - Telecommunications
+            yahoo_finance_data:
+              effective_ticker: VRS.F
             image_data:
               fileName: visual-effects-society.svg
               hash: QAeeXaBFlSU49CTr9OJeJUBy91NLcoyznNJBCtZBdSU=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-17T17:45:53.000Z
   - category:
     name: Other
     subcategories:
@@ -11728,4 +11745,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2023-09-30T02:20:55.876Z
+updated_at: 2023-10-01T02:22:40.723Z
