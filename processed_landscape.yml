@@ -3669,7 +3669,7 @@ landscape:
                 - Software
             image_data:
               fileName: usd-working-group.svg
-              hash: iQiMuFCBAOVPf3t9vnc8bSH8Ek7IvqQypKzI6FzNiSM=
+              hash: FStPNc3zk6Ox9MoK7Zt0TLBRv58jdVrugeDN7H3lOY8=
             best_practice_data:
               badge: false
               percentage: null
@@ -8031,9 +8031,95 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-01-18T15:08:19.000Z
           - item:
-            name: Rust WG
+            name: SeExpr
+            homepage_url: https://wdas.github.io/SeExpr/
+            repo_url: https://github.com/wdas/seexpr
+            logo: seexpr.svg
+            crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
+            crunchbase_data:
+              name: Walt Disney Animation Studios
+              description: Walt Disney Animation Studios creates animated feature films and is owned by The Walt Disney Company.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.disneyanimation.com/
+              city: Burbank
+              region: California
+              country: United States
+              twitter: https://twitter.com/DisneyAnimation
+              linkedin: https://www.linkedin.com/company/walt-disney-animation-studios
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/the-walt-disney-company
+              ticker: DIS
+              funding: 11000000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Animation
+                - Graphic Design
+                - Media and Entertainment
+            github_data:
+              languages:
+                - name: C++
+                  value: 1812538
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 45285
+                - name: Yacc
+                  value: 42649
+                  color: '#4B6C4B'
+                - name: Python
+                  value: 37349
+                  color: '#3572A5'
+                - name: C
+                  value: 20660
+                  color: '#555555'
+                - name: Lex
+                  value: 8407
+                  color: '#DBCA00'
+                - name: Slash
+                  value: 2930
+                  color: '#007eff'
+                - name: Makefile
+                  value: 1188
+                  color: '#427819'
+                - name: Shell
+                  value: 741
+                  color: '#89e051'
+              contributions: 0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;4;0;0;0;0
+              firstWeek: 2022-10-16Z
+              stars: 390
+              license: Other
+              description: >-
+                SeExpr is an embeddable, arithmetic expression language that enables flexible artistic control and customization in creating computer graphics
+                images. Example uses include procedural geometry synthesis, image synthesis, simulation control, crowd animation, and geometry deformation.
+                https://wdas.github.io/SeExpr
+              latest_commit_date: '2023-09-09T23:58:32Z'
+              latest_commit_link: /wdas/SeExpr/commit/80fa99cccc85060513642033a896cc50abf2a05c
+              release_date: '2018-01-25T21:50:33Z'
+              release_link: https://github.com/wdas/seexpr/releases
+              contributors_count: 20
+              contributors_link: https://github.com/wdas/seexpr/graphs/contributors
+            repos:
+              - url: https://github.com/wdas/seexpr
+                stars: 390
+            github_start_commit_data:
+              start_commit_link: /wdas/SeExpr/commit/76ef35c5a97c06966f817b451f11325170f02a19
+              start_date: '2011-05-04T00:33:18Z'
+            yahoo_finance_data:
+              effective_ticker: DIS
+            image_data:
+              fileName: se-expr.svg
+              hash: SS+0eQ9VXxQa0XJBievXtZQFzzcBRH+t0mcgMVSNeXc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T21:02:31.000Z
+          - item:
+            name: Working Group for Rust Bindings
             description: >-
-              The Rust bindings working group is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
+              The Working Group for Rust Bindings is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
               entertainment industry.
             homepage_url: https://github.com/vfx-rs/organization
             project: working-group
@@ -8155,99 +8241,13 @@ landscape:
               start_commit_link: /vfx-rs/usd-rs/commit/e477bdea1b45c9f68c8f7e823f2741d166220bf6
               start_date: '2020-09-16T15:11:32Z'
             image_data:
-              fileName: rust-wg.svg
-              hash: pxCfnTGg/Zk1zQRdWEf4nCQgWX3N/gyAakosV3OAfAE=
+              fileName: working-group-for-rust-bindings.svg
+              hash: EDtnKI8Ty7iHnDPx2au+tAmiGj6DbHiTVNg2SUtHbZY=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
-            name: SeExpr
-            homepage_url: https://wdas.github.io/SeExpr/
-            repo_url: https://github.com/wdas/seexpr
-            logo: seexpr.svg
-            crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
-            crunchbase_data:
-              name: Walt Disney Animation Studios
-              description: Walt Disney Animation Studios creates animated feature films and is owned by The Walt Disney Company.
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: https://www.disneyanimation.com/
-              city: Burbank
-              region: California
-              country: United States
-              twitter: https://twitter.com/DisneyAnimation
-              linkedin: https://www.linkedin.com/company/walt-disney-animation-studios
-              acquisitions: []
-              parents:
-                - https://www.crunchbase.com/organization/the-walt-disney-company
-              ticker: DIS
-              funding: 11000000000
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Animation
-                - Graphic Design
-                - Media and Entertainment
-            github_data:
-              languages:
-                - name: C++
-                  value: 1812538
-                  color: '#f34b7d'
-                - name: CMake
-                  value: 45285
-                - name: Yacc
-                  value: 42649
-                  color: '#4B6C4B'
-                - name: Python
-                  value: 37349
-                  color: '#3572A5'
-                - name: C
-                  value: 20660
-                  color: '#555555'
-                - name: Lex
-                  value: 8407
-                  color: '#DBCA00'
-                - name: Slash
-                  value: 2930
-                  color: '#007eff'
-                - name: Makefile
-                  value: 1188
-                  color: '#427819'
-                - name: Shell
-                  value: 741
-                  color: '#89e051'
-              contributions: 0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;4;0;0;0;0
-              firstWeek: 2022-10-16Z
-              stars: 390
-              license: Other
-              description: >-
-                SeExpr is an embeddable, arithmetic expression language that enables flexible artistic control and customization in creating computer graphics
-                images. Example uses include procedural geometry synthesis, image synthesis, simulation control, crowd animation, and geometry deformation.
-                https://wdas.github.io/SeExpr
-              latest_commit_date: '2023-09-09T23:58:32Z'
-              latest_commit_link: /wdas/SeExpr/commit/80fa99cccc85060513642033a896cc50abf2a05c
-              release_date: '2018-01-25T21:50:33Z'
-              release_link: https://github.com/wdas/seexpr/releases
-              contributors_count: 20
-              contributors_link: https://github.com/wdas/seexpr/graphs/contributors
-            repos:
-              - url: https://github.com/wdas/seexpr
-                stars: 390
-            github_start_commit_data:
-              start_commit_link: /wdas/SeExpr/commit/76ef35c5a97c06966f817b451f11325170f02a19
-              start_date: '2011-05-04T00:33:18Z'
-            yahoo_finance_data:
-              effective_ticker: DIS
-            image_data:
-              fileName: se-expr.svg
-              hash: SS+0eQ9VXxQa0XJBievXtZQFzzcBRH+t0mcgMVSNeXc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-20T21:02:31.000Z
   - category:
     name: ASWF Member Company
     subcategories:
@@ -11692,7 +11692,7 @@ landscape:
               start_date: '2021-09-15T04:20:11Z'
             image_data:
               fileName: ci-working-group.svg
-              hash: 205w74Ns5HQqaj3F4VuOoC57cH1MfnOV8hx0Cp0Y0Fg=
+              hash: CXemJGFrOTI12YRYa6ttd2AUN7dlIGEYycdK57ncZLU=
             best_practice_data:
               badge: false
               percentage: null
@@ -11741,7 +11741,7 @@ landscape:
                 - Software
             image_data:
               fileName: d-i-working-group.svg
-              hash: jGzWtSZiHDI9E/7/lElYco8Y8rPLIE+2+n37hK1ZQy8=
+              hash: U0CVYYJTQQvVoHPdL1f/U08TQ5E3f//EvffkVqKx1Zo=
             best_practice_data:
               badge: false
               percentage: null
@@ -11750,4 +11750,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2023-10-11T02:30:23.624Z
+updated_at: 2023-10-12T02:21:59.594Z
