@@ -3571,7 +3571,7 @@ landscape:
                   acquiree: OmniML
               parents: []
               ticker: NVDA
-              funding: 4186000000
+              funding: 4095000000
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -6557,7 +6557,7 @@ landscape:
                   acquiree: OmniML
               parents: []
               ticker: NVDA
-              funding: 4186000000
+              funding: 4095000000
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -7099,6 +7099,58 @@ landscape:
             image_data:
               fileName: pixie.svg
               hash: b/W51GacXNydeJcgkR+ShhzBL80rDA6xozAQ1jyERic=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: StratusGFX
+            homepage_url: https://ktstephano.github.io/portfolio
+            project: null
+            repo_url: https://github.com/KTStephano/StratusGFX
+            logo: stratusgfx.svg
+            organization:
+              name: KTStephano
+            crunchbase_data:
+              name: KTStephano
+              parents: []
+            github_data:
+              languages:
+                - name: C++
+                  value: 2319773
+                  color: '#f34b7d'
+                - name: GLSL
+                  value: 169232
+                - name: C
+                  value: 71467
+                  color: '#555555'
+                - name: C#
+                  value: 39830
+                  color: '#178600'
+                - name: CMake
+                  value: 11580
+                - name: Python
+                  value: 3022
+                  color: '#3572A5'
+              contributions: 0;0;0;0;4;23;45;16;41;28;16;23;29;33;13;6;26;78;20;19;16;6;0;0;0;0;0;0;0;2;30;16;48;107;47;15;3;0;0;0;0;0;0;4;3;0;0;0;0;0;0;0
+              firstWeek: 2022-12-04Z
+              stars: 555
+              license: Mozilla Public License 2.0
+              description: Realtime 3D rendering engine
+              latest_commit_date: '2023-10-09T23:32:59Z'
+              latest_commit_link: /KTStephano/StratusGFX/commit/e07a9cbcf93e8b8576190b5a263faf7a8a5bd78c
+              release_date: '2023-08-04T08:07:08Z'
+              release_link: https://github.com/KTStephano/StratusGFX/releases
+              contributors_count: 2
+              contributors_link: https://github.com/KTStephano/StratusGFX/graphs/contributors
+            repos:
+              - url: https://github.com/KTStephano/StratusGFX
+                stars: 555
+            github_start_commit_data:
+              start_commit_link: /KTStephano/StratusGFX/commit/a70fe79b76168e7e483d71f22017d479e90fa5f8
+              start_date: '2019-02-17T03:56:26Z'
+            image_data:
+              fileName: stratus-gfx.svg
+              hash: fclE3Cnu7/Y4BpeLNnN4iEmX/pZsRiAu1XYtvAgxUPc=
             best_practice_data:
               badge: false
               percentage: null
@@ -8845,8 +8897,8 @@ landscape:
             crunchbase_data:
               name: Epic Games
               description: Epic Games is an interactive entertainment company that develops games and offers its game engine technology to other developers.
-              num_employees_min: 5001
-              num_employees_max: 10000
+              num_employees_min: 1001
+              num_employees_max: 5000
               homepage: http://www.epicgames.com
               city: Cary
               region: North Carolina
@@ -10398,7 +10450,7 @@ landscape:
                   acquiree: OmniML
               parents: []
               ticker: NVDA
-              funding: 4186000000
+              funding: 4095000000
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -11785,4 +11837,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2023-11-28T02:12:43.076Z
+updated_at: 2023-11-29T02:01:45.569Z
