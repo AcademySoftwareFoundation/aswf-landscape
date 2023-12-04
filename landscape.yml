@@ -54,6 +54,8 @@ landscape:
             homepage_url: https://rawtoaces.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces-data
             logo: rawtoaces.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -80,7 +82,6 @@ landscape:
           - item:
             name: FFmpeg
             homepage_url: https://ffmpeg.org/
-            project: null
             repo_url: https://github.com/FFmpeg/FFmpeg
             project_org: https://github.com/FFmpeg
             url_for_bestpractices: https://git.ffmpeg.org/ffmpeg.git
@@ -89,7 +90,6 @@ landscape:
           - item:
             name: gatling
             homepage_url: https://github.com/pablode/gatling
-            project: null
             repo_url: https://github.com/pablode/gatling
             logo: gatling.svg
             organization:
@@ -109,7 +109,6 @@ landscape:
           - item:
             name: libitmf
             homepage_url: https://www.immersivealliance.org/download/download-itmf/
-            project: null
             repo_url: https://github.com/ImmersiveAlliance/libitmf
             logo: libitmf.svg
             organization:
@@ -154,6 +153,8 @@ landscape:
             homepage_url: https://openimageio.org
             project: incubating
             repo_url: https://github.com/OpenImageIO/oiio
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
@@ -218,6 +219,7 @@ landscape:
             homepage_url: https://dpel.aswf.io/
             project: incubating
             logo: dpel.svg
+            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               mailing_list_url: https://lists.aswf.io/g/assets-discussion
@@ -577,7 +579,6 @@ landscape:
           - item:
             name: USD Notice Framework
             homepage_url: https://disneyanimation.com/open-source/usd-notice-framework/
-            project: null
             repo_url: https://github.com/wdas/unf
             logo: usd-notice-framework.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
@@ -666,7 +667,6 @@ landscape:
           - item:
             name: Aurora
             homepage_url: https://github.com/Autodesk/Aurora
-            project: null
             repo_url: https://github.com/Autodesk/Aurora
             logo: Aurora.svg
             crunchbase: https://www.crunchbase.com/organization/autodesk
@@ -688,6 +688,9 @@ landscape:
             homepage_url: https://www.materialx.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/MaterialX
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
+              - repo_url: https://github.com/AcademySoftwareFoundation/materialx-website
             logo: materialx.svg
             twitter: https://twitter.com/MaterialXCG
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -769,7 +772,6 @@ landscape:
           - item:
             name: StratusGFX
             homepage_url: https://ktstephano.github.io/portfolio
-            project: null
             repo_url: https://github.com/KTStephano/StratusGFX
             logo: stratusgfx.svg
             organization:
@@ -887,7 +889,6 @@ landscape:
           - item:
             name: Connected Spaces Platform
             homepage_url: https://www.magnopus.com/csp
-            project: null
             repo_url: https://github.com/magnopus-opensource/connected-spaces-platform
             logo: connectedspaces.svg
             crunchbase: https://www.crunchbase.com/organization/magnopus
