@@ -357,13 +357,13 @@ landscape:
               description: RAW to ACES Utility
               latest_commit_date: '2023-11-16T22:18:03Z'
               latest_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/71418e5ea30805e5a99bd1aa644132681bf62173
-              contributors_count: 20
+              contributors_count: 15
               contributors_link: https://github.com/AcademySoftwareFoundation/rawtoaces/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/rawtoaces
                 stars: 129
             github_start_commit_data:
-              start_commit_link: /ampas/rawtoaces/commit/92adb20a08f549ab6574cda5480c03275f80a985
+              start_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/92adb20a08f549ab6574cda5480c03275f80a985
               start_date: '2016-07-08T21:31:48Z'
             image_data:
               fileName: raw-to-aces-utility.svg
@@ -429,7 +429,6 @@ landscape:
           - item:
             name: FFmpeg
             homepage_url: https://ffmpeg.org/
-            project: null
             repo_url: https://github.com/FFmpeg/FFmpeg
             project_org: https://github.com/FFmpeg
             url_for_bestpractices: https://git.ffmpeg.org/ffmpeg.git
@@ -548,7 +547,6 @@ landscape:
           - item:
             name: gatling
             homepage_url: https://github.com/pablode/gatling
-            project: null
             repo_url: https://github.com/pablode/gatling
             logo: gatling.svg
             organization:
@@ -767,7 +765,6 @@ landscape:
           - item:
             name: libitmf
             homepage_url: https://www.immersivealliance.org/download/download-itmf/
-            project: null
             repo_url: https://github.com/ImmersiveAlliance/libitmf
             logo: libitmf.svg
             organization:
@@ -1075,27 +1072,29 @@ landscape:
                   value: 131894
                   color: '#555555'
                 - name: Shell
-                  value: 61624
+                  value: 66872
                   color: '#89e051'
                 - name: Makefile
                   value: 19571
                   color: '#427819'
-              contributions: 7;7;8;11;14;6;7;3;5;5;2;1;3;7;2;0;5;2;6;6;7;5;8;5;1;6;8;12;3;7;3;5;5;11;3;1;2;10;8;6;7;7;7;3;11;10;1;2;0;5;9;3
+              contributions: 7;7;8;11;17;3;8;2;6;6;0;1;3;7;2;1;5;1;7;7;6;7;5;5;2;5;13;7;4;6;4;5;4;11;3;1;5;9;7;5;7;9;5;4;11;9;1;2;0;7;9;1
               firstWeek: 2022-12-11Z
-              stars: 1797
+              stars: 1832
               license: Apache License 2.0
               description: Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.
               latest_commit_date: '2023-11-28T03:00:03Z'
               latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/c098d7fd3616f2a0601b552e2fbb3f65c7406163
               release_date: '2023-12-02T13:23:21Z'
               release_link: https://github.com/OpenImageIO/oiio/releases
-              contributors_count: 247
+              contributors_count: 196
               contributors_link: https://github.com/OpenImageIO/oiio/graphs/contributors
             repos:
               - url: https://github.com/OpenImageIO/oiio
-                stars: 1797
+                stars: 1798
+              - url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
+                stars: 34
             github_start_commit_data:
-              start_commit_link: /OpenImageIO/oiio/commit/70121c7e5dcc1e83656fd3d029d3f3a9590aae26
+              start_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/70121c7e5dcc1e83656fd3d029d3f3a9590aae26
               start_date: '2008-04-21T20:46:21Z'
             image_data:
               fileName: open-image-io.svg
@@ -1495,6 +1494,7 @@ landscape:
             name: Digital Production Example Library (DPEL)
             homepage_url: https://dpel.aswf.io/
             project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             logo: dpel.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -1532,6 +1532,31 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
+            github_data:
+              languages:
+                - name: Astro
+                  value: 33413
+                - name: CSS
+                  value: 1742
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 1524
+                  color: '#f1e05a'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;3;0;5;0;1;0;0;0;0;2
+              firstWeek: 2022-12-11Z
+              stars: 5
+              license: Creative Commons Attribution 4.0 International
+              description: Website for the Digital Production Example Library
+              latest_commit_date: '2023-11-28T19:11:11Z'
+              latest_commit_link: /AcademySoftwareFoundation/dpel-website/commit/1f1c19f5104d3e3a0196412ed9148e8b90bc07b3
+              contributors_count: 8
+              contributors_link: https://github.com/AcademySoftwareFoundation/dpel-website/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/dpel-website
+                stars: 5
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/dpel-website/commit/44d380fc53c1f65f8b0d5c4ab1f23448f5a08ee8
+              start_date: '2022-03-10T14:40:15Z'
             image_data:
               fileName: digital-production-example-library-dpel.svg
               hash: KEf1AdvxUHPmww+2MCo3Nz7IiQWsf1+6lpJ0mr58ATU=
@@ -4962,7 +4987,6 @@ landscape:
           - item:
             name: USD Notice Framework
             homepage_url: https://disneyanimation.com/open-source/usd-notice-framework/
-            project: null
             repo_url: https://github.com/wdas/unf
             logo: usd-notice-framework.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
@@ -5779,7 +5803,6 @@ landscape:
           - item:
             name: Aurora
             homepage_url: https://github.com/Autodesk/Aurora
-            project: null
             repo_url: https://github.com/Autodesk/Aurora
             logo: Aurora.svg
             crunchbase: https://www.crunchbase.com/organization/autodesk
@@ -6426,13 +6449,16 @@ landscape:
                 - name: JavaScript
                   value: 146555
                   color: '#f1e05a'
+                - name: CSS
+                  value: 116598
+                  color: '#563d7c'
+                - name: HTML
+                  value: 98376
+                  color: '#e34c26'
                 - name: GLSL
                   value: 98353
                 - name: CMake
                   value: 86492
-                - name: CSS
-                  value: 60037
-                  color: '#563d7c'
                 - name: C
                   value: 54254
                   color: '#555555'
@@ -6447,22 +6473,26 @@ landscape:
                 - name: Batchfile
                   value: 1227
                   color: '#C1F12E'
-              contributions: 1;1;6;11;6;4;3;2;7;9;12;5;5;5;10;12;1;9;13;6;2;2;1;7;6;1;2;6;2;6;3;6;2;5;0;0;6;18;13;8;2;1;1;8;6;4;4;2;1;1;2;5
+              contributions: 1;1;7;10;6;5;2;2;8;9;11;6;6;4;12;9;3;9;11;8;3;2;1;10;7;1;6;8;9;6;17;18;20;7;1;1;7;18;13;9;11;2;3;13;27;8;5;2;1;3;4;3
               firstWeek: 2022-12-11Z
-              stars: 1617
+              stars: 1857
               license: Apache License 2.0
               description: MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.
               latest_commit_date: '2023-11-30T01:50:52Z'
               latest_commit_link: /AcademySoftwareFoundation/MaterialX/commit/eb24c5ed9a524955604fe898a77c664225cb2a70
               release_date: '2023-09-08T19:39:07Z'
               release_link: https://github.com/AcademySoftwareFoundation/MaterialX/releases
-              contributors_count: 70
+              contributors_count: 72
               contributors_link: https://github.com/AcademySoftwareFoundation/MaterialX/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/MaterialX
-                stars: 1617
+                stars: 1616
+              - url: https://github.com/AcademySoftwareFoundation/OpenPBR
+                stars: 240
+              - url: https://github.com/AcademySoftwareFoundation/materialx-website
+                stars: 1
             github_start_commit_data:
-              start_commit_link: /materialx/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
+              start_commit_link: /AcademySoftwareFoundation/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
               start_date: '2017-07-05T22:18:25Z'
             image_data:
               fileName: material-x.svg
@@ -7190,7 +7220,6 @@ landscape:
           - item:
             name: StratusGFX
             homepage_url: https://ktstephano.github.io/portfolio
-            project: null
             repo_url: https://github.com/KTStephano/StratusGFX
             logo: stratusgfx.svg
             organization:
@@ -7944,7 +7973,6 @@ landscape:
           - item:
             name: Connected Spaces Platform
             homepage_url: https://www.magnopus.com/csp
-            project: null
             repo_url: https://github.com/magnopus-opensource/connected-spaces-platform
             logo: connectedspaces.svg
             crunchbase: https://www.crunchbase.com/organization/magnopus
@@ -12019,4 +12047,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2023-12-04T02:11:11.243Z
+updated_at: 2023-12-05T01:59:54.257Z
