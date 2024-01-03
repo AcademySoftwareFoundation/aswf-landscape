@@ -350,7 +350,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;5;3;0;0;1;2;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0
               firstWeek: 2023-01-08Z
               stars: 130
               license: Unknown License
@@ -8723,64 +8723,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-20T22:45:31.000Z
           - item:
-            name: Advanced Micro Devices (AMD)
-            homepage_url: https://amd.com/
-            logo: advanced_micro_devices_amd.svg
-            twitter: https://twitter.com/AMD
-            crunchbase: https://www.crunchbase.com/organization/amd
-            crunchbase_data:
-              name: AMD
-              description: Advanced Micro Devices (AMD) is a semiconductor company that designs and develops graphics units, processors, and media solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.amd.com
-              city: Santa Clara
-              region: California
-              country: United States
-              twitter: https://www.twitter.com/amd
-              linkedin: https://www.linkedin.com/company/amd
-              acquisitions:
-                - date: '2002-02-06'
-                  acquiree: Alchemy Semiconductor
-                - date: '2006-07-24'
-                  acquiree: ATI Technologies
-                - date: '2012-02-29'
-                  acquiree: SeaMicro
-                - date: '2016-06-29'
-                  acquiree: HiAlgo
-                - date: '2017-04-10'
-                  acquiree: Nitero
-                - date: '2020-10-27'
-                  acquiree: Xilinx
-                - date: '2022-04-04'
-                  acquiree: AMD Pensando
-                - date: '2023-08-24'
-                  acquiree: Mipsology
-                - date: '2023-10-10'
-                  acquiree: Nod
-              parents: []
-              ticker: AMD
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Cloud Computing
-                - Computer
-                - Embedded Systems
-                - GPU
-                - Hardware
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: AMD
-            image_data:
-              fileName: advanced-micro-devices-amd.svg
-              hash: 2Za4zJY0wFoO5LflFP238qc7drUBfIwmuqMPxhAaABo=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-20T22:18:27.000Z
-          - item:
             name: Amazon Web Services, Inc.
             homepage_url: https://amazon.com/
             logo: amazon_web_services_inc.svg
@@ -10523,7 +10465,7 @@ landscape:
                   acquiree: Fungible
               parents: []
               ticker: MSFT
-              funding: 100000000
+              funding: 1000000
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -10787,98 +10729,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-21T00:30:00.000Z
-          - item:
-            name: Unity Technologies
-            homepage_url: https://unity.com/
-            logo: unity_technologies.svg
-            twitter: https://twitter.com/unity
-            crunchbase: https://www.crunchbase.com/organization/unity-technologies
-            crunchbase_data:
-              name: Unity
-              description: Unity provides multiplatform tools and services to developers of interactive content.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: https://unity.com
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: http://twitter.com/unity3d
-              linkedin: https://www.linkedin.com/company/unity-technologies
-              acquisitions:
-                - date: '2011-09-28'
-                  acquiree: Mécanim
-                - date: '2014-03-13'
-                  acquiree: Applifier
-                - date: '2014-04-16'
-                  acquiree: Playnomics
-                - date: '2014-08-20'
-                  acquiree: Tsugi
-                - date: '2015-11-18'
-                  acquiree: Engine Room Games
-                - date: '2017-11-28'
-                  acquiree: Multiplay
-                - date: '2018-02-15'
-                  acquiree: ProCore Tools
-                - date: '2018-10-23'
-                  acquiree: Digital Monarch Media
-                - date: '2019-01-29'
-                  acquiree: Vivox
-                - date: '2019-03-18'
-                  acquiree: Graphine Software
-                - date: '2019-09-20'
-                  acquiree: DeltaDNA
-                - date: '2019-10-03'
-                  acquiree: ChilliConnect
-                - date: '2019-11-01'
-                  acquiree: Obvioos
-                - date: '2019-12-23'
-                  acquiree: Artomatix
-                - date: '2020-05-07'
-                  acquiree: Finger Food Studios
-                - date: '2020-08-17'
-                  acquiree: Códice Software
-                - date: '2020-12-15'
-                  acquiree: RestAR
-                - date: '2021-03-09'
-                  acquiree: VisualLive
-                - date: '2021-06-22'
-                  acquiree: PiXYZ Software
-                - date: '2021-07-22'
-                  acquiree: SpeedTree
-                - date: '2021-08-10'
-                  acquiree: Parsec
-                - date: '2021-08-24'
-                  acquiree: OTO Systems
-                - date: '2021-11-09'
-                  acquiree: Weta Digital
-                - date: '2021-11-30'
-                  acquiree: SyncSketch
-                - date: '2022-01-24'
-                  acquiree: Ziva Dynamics
-                - date: '2022-07-13'
-                  acquiree: ironSource
-              parents:
-                - https://www.crunchbase.com/organization/unity-gaming
-              ticker: US3.F
-              funding: 2301800000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Augmented Reality
-                - Developer Platform
-                - Metaverse
-                - Mobile Apps
-                - Virtual Reality
-            yahoo_finance_data:
-              effective_ticker: US3.F
-            image_data:
-              fileName: unity-technologies.svg
-              hash: wtbpwvdzXhan8QCfDUHLXuNz/M3jU5d8T6c3AODEDAE=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-19T14:00:11.000Z
           - item:
             name: Weta Digital Limited
             homepage_url: https://wetafx.co.nz/
@@ -11232,7 +11082,7 @@ landscape:
                 - date: '2005-09-19'
                   acquiree: AppIQ
                 - date: '2005-09-19'
-                  acquiree: Peregrine Systems
+                  acquiree: Peregrine Capital Management
                 - date: '2005-10-03'
                   acquiree: RLX Technologies
                 - date: '2005-11-30'
@@ -12033,4 +11883,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-01-02T00:50:29.369Z
+updated_at: 2024-01-03T00:41:00.544Z
