@@ -352,7 +352,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;5;3;0;0;1;2;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0
               firstWeek: 2023-02-19Z
               stars: 132
               license: Unknown License
@@ -7361,6 +7361,105 @@ landscape:
               badge: 4459
               percentage: 100
           - item:
+            name: Open Job Description
+            homepage_url: https://github.com/OpenJobDescription/openjd-specifications/wiki
+            project: null
+            repo_url: https://github.com/OpenJobDescription/openjd-specifications
+            project_org: https://github.com/OpenJobDescription
+            logo: OpenJobDescription.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://aws.amazon.com
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: http://www.twitter.com/awscloud
+              linkedin: https://www.linkedin.com/company/amazon-web-services
+              acquisitions:
+                - date: '2015-07-14'
+                  acquiree: AppThwack
+                - date: '2016-02-11'
+                  acquiree: NICE
+                - date: '2017-03-06'
+                  acquiree: Thinkbox Software
+                - date: '2017-03-08'
+                  acquiree: Do
+                - date: '2018-01-23'
+                  acquiree: Sqrrl
+                - date: '2019-01-14'
+                  acquiree: TSO Logic
+                - date: '2020-02-21'
+                  acquiree: TeamSQL, Inc.
+                - date: '2021-01-28'
+                  acquiree: DB Best Technologies
+                - date: '2021-06-25'
+                  acquiree: Wickr
+              parents:
+                - https://www.crunchbase.com/organization/amazon
+              ticker: AMZN
+              funding: 8108000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Computer
+                - Consulting
+                - DevOps
+                - Information Services
+                - Information Technology
+                - Internet
+                - Service Industry
+                - Software
+                - Web Development
+            github_data:
+              description: ''
+              contributors_count: 19
+              contributions: 1;2;0;1;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;6;5;12;1;0;2;3;6;10;0;1;1;2;3;2;20;6;0;16;11;7;17;50
+              stars: 62
+              languages:
+                - name: Python
+                  value: 1341351
+                  color: '#3572A5'
+                - name: Shell
+                  value: 13293
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 6113
+                  color: '#384d54'
+                - name: PowerShell
+                  value: 189
+                  color: '#012456'
+              latest_commit_link: /OpenJobDescription/openjd-specifications/commit/1549008c71404fb81e0a4fbe40e725ed36a79b04
+              latest_commit_date: '2024-02-13T17:12:28Z'
+              firstWeek: 2023-02-19Z
+              license: Other
+              contributors_link: https://github.com/OpenJobDescription/openjd-specifications/graphs/contributors
+            repos:
+              - url: https://github.com/OpenJobDescription/openjd-specifications
+                stars: 44
+              - url: https://github.com/OpenJobDescription/openjd-cli
+                stars: 6
+              - url: https://github.com/OpenJobDescription/openjd-model-for-python
+                stars: 6
+              - url: https://github.com/OpenJobDescription/openjd-sessions-for-python
+                stars: 6
+              - url: https://github.com/OpenJobDescription/.github
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /OpenJobDescription/.github/commit/ffbf83638841b4cf06a986e6594f6e1fdca0821c
+              start_date: '2019-02-18T18:59:23Z'
+            yahoo_finance_data:
+              effective_ticker: AMZN
+            image_data:
+              fileName: open-job-description.svg
+              hash: XPq2BG7YI4P0HwuJLY0wJwWe060szBj6c7PWnmER7zM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: OpenCue
             homepage_url: https://www.opencue.io/
             project: adopted
@@ -11897,4 +11996,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-02-13T03:48:17.831Z
+updated_at: 2024-02-14T03:38:00.074Z
