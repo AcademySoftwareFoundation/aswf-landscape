@@ -352,7 +352,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;5;3;0;0;1;2;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-02-26Z
               stars: 132
               license: Unknown License
@@ -1022,7 +1022,7 @@ landscape:
             name: OpenImageIO
             homepage_url: https://openimageio.org
             project: incubating
-            repo_url: https://github.com/OpenImageIO/oiio
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
@@ -1060,7 +1060,7 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 6921647
+                  value: 6922186
                   color: '#f34b7d'
                 - name: POV-Ray SDL
                   value: 5056106
@@ -1078,19 +1078,19 @@ landscape:
                 - name: Makefile
                   value: 19571
                   color: '#427819'
-              contributions: 1;3;7;2;1;5;1;7;7;6;7;5;5;2;5;13;7;4;6;4;5;4;11;3;1;5;9;7;5;7;9;5;4;11;9;1;2;0;7;9;1;3;2;8;6;9;2;9;5;14;5;2
+              contributions: 2;2;6;2;1;5;2;6;9;5;7;5;4;2;8;12;5;4;6;4;5;6;10;2;1;5;9;10;4;5;10;4;5;13;6;1;2;0;7;10;0;3;4;6;10;6;2;10;10;8;4;5
               firstWeek: 2023-02-26Z
               stars: 1879
               license: Apache License 2.0
               description: Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.
-              latest_commit_date: '2024-02-20T00:50:26Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/92a9b4d8e034742d6c26a48306537ed9c43e0c52
+              latest_commit_date: '2024-02-20T04:33:21Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/43fea763945991d1b83f5c0bb65f12bfab09b99b
               release_date: '2024-02-01T06:01:38Z'
-              release_link: https://github.com/OpenImageIO/oiio/releases
+              release_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/releases
               contributors_count: 193
-              contributors_link: https://github.com/OpenImageIO/oiio/graphs/contributors
+              contributors_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/graphs/contributors
             repos:
-              - url: https://github.com/OpenImageIO/oiio
+              - url: https://github.com/AcademySoftwareFoundation/OpenImageIO
                 stars: 1845
               - url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
                 stars: 34
@@ -1101,8 +1101,8 @@ landscape:
               fileName: open-image-io.svg
               hash: OkP9WX7Q+hf35fsExY9Uvzb+WZ+kWqJ/1dej+nYuOVA=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 2694
+              percentage: 100
           - item:
             name: OpenMVG
             homepage_url: https://opensource.mikrosimage.eu/
@@ -2943,7 +2943,7 @@ landscape:
               latest_tweet_date: 2023-04-20T16:13:51.000Z
           - item:
             name: GTO
-            homepage_url: https://www.shotgridsoftware.com/rv/open-source-software
+            homepage_url: https://github.com/jimhourihan/gto
             repo_url: https://github.com/jimhourihan/gto
             logo: gto.svg
             crunchbase: https://www.crunchbase.com/organization/autodesk
@@ -3738,7 +3738,7 @@ landscape:
           - item:
             name: 'USD: Universal Scene Description'
             homepage_url: https://openusd.org/
-            repo_url: https://github.com/PixarAnimationStudios/USD
+            repo_url: https://github.com/PixarAnimationStudios/OpenUSD
             logo: usd.svg
             twitter: https://twitter.com/pixar
             crunchbase: https://www.crunchbase.com/organization/pixar
@@ -3798,22 +3798,22 @@ landscape:
                 - name: Shell
                   value: 212
                   color: '#89e051'
-              contributions: 55;17;24;19;10;54;12;48;38;3;52;31;39;31;17;0;48;51;38;13;13;7;114;18;23;31;24;11;26;59;12;42;1;4;5;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 31;26;16;26;5;50;30;32;36;3;54;50;18;31;17;0;65;47;27;13;11;108;13;37;14;31;24;5;52;34;13;37;0;4;5;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-02-26Z
-              stars: 5250
+              stars: 5251
               license: Other
               description: Universal Scene Description
               latest_commit_date: '2023-10-26T20:50:57Z'
               latest_commit_link: /PixarAnimationStudios/OpenUSD/commit/0b18ad3f840c24eb25e16b795a5b0821cf05126e
               release_date: '2023-10-26T23:08:35Z'
-              release_link: https://github.com/PixarAnimationStudios/USD/releases
+              release_link: https://github.com/PixarAnimationStudios/OpenUSD/releases
               contributors_count: 207
-              contributors_link: https://github.com/PixarAnimationStudios/USD/graphs/contributors
+              contributors_link: https://github.com/PixarAnimationStudios/OpenUSD/graphs/contributors
             repos:
-              - url: https://github.com/PixarAnimationStudios/USD
-                stars: 5250
+              - url: https://github.com/PixarAnimationStudios/OpenUSD
+                stars: 5251
             github_start_commit_data:
-              start_commit_link: /PixarAnimationStudios/USD/commit/2eb01f5cd4c2dae4e1ef9912ca27a93083bb6ef4
+              start_commit_link: /PixarAnimationStudios/OpenUSD/commit/2eb01f5cd4c2dae4e1ef9912ca27a93083bb6ef4
               start_date: '2016-07-26T17:44:38Z'
             yahoo_finance_data:
               effective_ticker: DIS
@@ -4797,7 +4797,7 @@ landscape:
           - item:
             name: OpenPype
             homepage_url: https://openpype.io
-            repo_url: https://github.com/pypeclub/OpenPype
+            repo_url: https://github.com/ynput/OpenPype
             logo: openpype.svg
             twitter: https://twitter.com/openpype
             crunchbase: https://www.crunchbase.com/organization/pype-club
@@ -4825,7 +4825,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 13838549
+                  value: 13839954
                   color: '#3572A5'
                 - name: Mathematica
                   value: 876626
@@ -4864,22 +4864,22 @@ landscape:
                   value: 539
                   color: '#00a6a6'
               contributions: >-
-                304;155;129;237;275;253;163;140;131;68;170;147;112;164;155;121;98;148;138;151;126;100;76;166;101;43;118;223;164;115;136;150;219;161;202;146;172;158;137;131;77;144;95;85;23;68;61;55;76;49;46;16
+                228;161;135;243;241;254;164;135;122;79;170;147;127;164;146;106;109;150;140;140;133;92;80;170;88;61;115;255;122;125;126;173;196;186;204;138;175;171;124;112;80;157;73;77;35;60;73;61;65;54;47;24
               firstWeek: 2023-02-26Z
               stars: 271
               license: MIT License
               description: Main OpenPype repository and AYON openpype addon codebase
-              latest_commit_date: '2024-02-19T16:14:01Z'
-              latest_commit_link: /ynput/OpenPype/commit/3ad9320142a098010a9687691e25f6614419167b
-              release_date: '2024-02-01T15:48:18Z'
-              release_link: https://github.com/pypeclub/OpenPype/releases
+              latest_commit_date: '2024-02-21T03:25:06Z'
+              latest_commit_link: /ynput/OpenPype/commit/51026fbca803ec1281fdc30bc4c55314f36825fd
+              release_date: '2024-02-20T13:05:46Z'
+              release_link: https://github.com/ynput/OpenPype/releases
               contributors_count: 104
-              contributors_link: https://github.com/pypeclub/OpenPype/graphs/contributors
+              contributors_link: https://github.com/ynput/OpenPype/graphs/contributors
             repos:
-              - url: https://github.com/pypeclub/OpenPype
+              - url: https://github.com/ynput/OpenPype
                 stars: 271
             github_start_commit_data:
-              start_commit_link: /pypeclub/OpenPype/commit/33c731ef76967f4bd3f6ba8b287ecc0c52412f33
+              start_commit_link: /ynput/OpenPype/commit/33c731ef76967f4bd3f6ba8b287ecc0c52412f33
               start_date: '2017-06-23T13:35:00Z'
             image_data:
               fileName: open-pype.svg
@@ -12005,4 +12005,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-02-20T03:53:16.928Z
+updated_at: 2024-02-21T03:42:17.410Z
