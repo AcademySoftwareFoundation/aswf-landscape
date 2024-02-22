@@ -55,6 +55,8 @@ landscape:
             homepage_url: https://rawtoaces.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces-data
             logo: rawtoaces.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -88,6 +90,13 @@ landscape:
             logo: ffmpeg.svg
             crunchbase: https://www.crunchbase.com/organization/ffmpeg
           - item:
+            name: gatling
+            homepage_url: https://github.com/pablode/gatling
+            repo_url: https://github.com/pablode/gatling
+            logo: gatling.svg
+            organization:
+              name: Pablo Delgado Krämer
+          - item:
             name: Imagemagick
             homepage_url: https://imagemagick.org/script/index.php
             repo_url: https://github.com/ImageMagick/ImageMagick
@@ -118,7 +127,6 @@ landscape:
             homepage_url: https://www.openexr.com/
             project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/openexr
-            url_for_bestpractices: https://github.com/openexr/openexr
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/Imath
               - repo_url: https://github.com/AcademySoftwareFoundation/openexr-images
@@ -146,7 +154,9 @@ landscape:
             name: OpenImageIO
             homepage_url: https://openimageio.org
             project: incubating
-            repo_url: https://github.com/OpenImageIO/oiio
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
@@ -211,6 +221,7 @@ landscape:
             name: Digital Production Example Library (DPEL)
             homepage_url: https://dpel.aswf.io/
             project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             logo: dpel.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -375,7 +386,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/double-negative
           - item:
             name: GTO
-            homepage_url: https://www.shotgridsoftware.com/rv/open-source-software
+            homepage_url: https://github.com/jimhourihan/gto
             repo_url: https://github.com/jimhourihan/gto
             logo: gto.svg
             crunchbase: https://www.crunchbase.com/organization/autodesk
@@ -438,7 +449,7 @@ landscape:
           - item:
             name: 'USD: Universal Scene Description'
             homepage_url: https://openusd.org/
-            repo_url: https://github.com/PixarAnimationStudios/USD
+            repo_url: https://github.com/PixarAnimationStudios/OpenUSD
             logo: usd.svg
             twitter: https://twitter.com/pixar
             crunchbase: https://www.crunchbase.com/organization/pixar
@@ -556,7 +567,7 @@ landscape:
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
               calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
               contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
-              leads: Tom Cowland
+              leads: Elliot Morris
               date_accepted: ^2022-08-08
               last_review_date: ^2023-07-12
               next_review_date: ^2024-07-10
@@ -564,7 +575,7 @@ landscape:
           - item:
             name: OpenPype
             homepage_url: https://openpype.io
-            repo_url: https://github.com/pypeclub/OpenPype
+            repo_url: https://github.com/ynput/OpenPype
             logo: openpype.svg
             twitter: https://twitter.com/openpype
             crunchbase: https://www.crunchbase.com/organization/pype-club
@@ -580,6 +591,13 @@ landscape:
             repo_url: https://github.com/wdas/unf
             logo: usd-notice-framework.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
+          - item:
+            name: OpenProductionDataIO
+            homepage_url: https://googlecloudplatform.github.io/opdio/
+            project: null
+            repo_url: https://github.com/googlecloudplatform/opdio
+            logo: OpenProductionDataIO.svg
+            crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
       - subcategory:
         name: Software Foundation and System Administration
         items:
@@ -687,6 +705,9 @@ landscape:
             homepage_url: https://www.materialx.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/MaterialX
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
+              - repo_url: https://github.com/AcademySoftwareFoundation/materialx-website
             logo: materialx.svg
             twitter: https://twitter.com/MaterialXCG
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -735,7 +756,6 @@ landscape:
             homepage_url: https://openshadinglanguage.org
             project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
-            url_for_bestpractices: https://github.com/imageworks/OpenShadingLanguage
             logo: osl.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -760,6 +780,20 @@ landscape:
             repo_url: https://github.com/blkdev2/pixie
             logo: render-pixie.svg
             crunchbase: https://www.crunchbase.com/organization/renderpixie
+          - item:
+            name: QuiltiX
+            homepage_url: https://pypi.org/project/QuiltiX/
+            repo_url: https://github.com/PrismPipeline/QuiltiX
+            logo: QuiltiX.svg
+            organization:
+              name: Prism Software GmbH
+          - item:
+            name: StratusGFX
+            homepage_url: https://ktstephano.github.io/portfolio
+            repo_url: https://github.com/KTStephano/StratusGFX
+            logo: stratusgfx.svg
+            organization:
+              name: KTStephano
       - subcategory:
         name: Queueing and Render Management
         items:
@@ -769,6 +803,14 @@ landscape:
             repo_url: https://github.com/CGRU/cgru
             logo: cgru.svg
             crunchbase: https://www.crunchbase.com/organization/cgru
+          - item:
+            name: Open Job Description
+            homepage_url: https://github.com/OpenJobDescription/openjd-specifications/wiki
+            project: null
+            repo_url: https://github.com/OpenJobDescription/openjd-specifications
+            project_org: https://github.com/OpenJobDescription
+            logo: OpenJobDescription.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
             name: OpenCue
             homepage_url: https://www.opencue.io/
@@ -873,6 +915,12 @@ landscape:
             repo_url: https://github.com/bulletphysics/bullet3
             logo: bullet.svg
             crunchbase: https://www.crunchbase.com/organization/bullet-physics
+          - item:
+            name: Connected Spaces Platform
+            homepage_url: https://www.magnopus.com/csp
+            repo_url: https://github.com/magnopus-opensource/connected-spaces-platform
+            logo: connectedspaces.svg
+            crunchbase: https://www.crunchbase.com/organization/magnopus
       - subcategory:
         name: Math Foundations
         items:
@@ -931,6 +979,7 @@ landscape:
             name: Academy of Motion Picture Arts and Sciences
             homepage_url: https://oscars.org/
             logo: academy_of_motion_picture_arts_and_sciences.svg
+            twitter: https://twitter.com/TheAcademy
             crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
           - item:
             name: Adobe Inc.
@@ -938,12 +987,6 @@ landscape:
             logo: adobe_inc.svg
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
             joined: '2022-10-13'
-          - item:
-            name: Advanced Micro Devices (AMD)
-            homepage_url: https://amd.com/
-            logo: advanced_micro_devices_amd.svg
-            twitter: https://twitter.com/AMD
-            crunchbase: https://www.crunchbase.com/organization/amd
           - item:
             name: Amazon Web Services, Inc.
             homepage_url: https://amazon.com/
@@ -965,6 +1008,7 @@ landscape:
             name: DreamWorks Animation
             homepage_url: https://dreamworks.com/
             logo: dreamworks_animation.svg
+            twitter: https://twitter.com/Dreamworks
             crunchbase: https://www.crunchbase.com/organization/dreamworks-9660
           - item:
             name: Epic Games, Inc
@@ -1002,6 +1046,7 @@ landscape:
             name: Sony Pictures Entertainment
             homepage_url: https://sonypictures.com/
             logo: sony_pictures_entertainment.svg
+            twitter: https://twitter.com/SonyPictures
             crunchbase: https://www.crunchbase.com/organization/sony-pictures-entertainment
           - item:
             name: The Walt Disney Studios
@@ -1009,12 +1054,6 @@ landscape:
             logo: the_walt_disney_studios.svg
             twitter: https://twitter.com/Disney
             crunchbase: https://www.crunchbase.com/organization/walt-disney-internet-group
-          - item:
-            name: Unity Technologies
-            homepage_url: https://unity.com/
-            logo: unity_technologies.svg
-            twitter: https://twitter.com/unity
-            crunchbase: https://www.crunchbase.com/organization/unity-technologies
           - item:
             name: Weta Digital Limited
             homepage_url: https://wetafx.co.nz/
@@ -1108,6 +1147,7 @@ landscape:
             name: Warner Bros. Entertainment Inc.
             homepage_url: https://warnerbros.com/
             logo: warner_bros_entertainment_inc.svg
+            twitter: https://twitter.com/warnerbros
             crunchbase: https://www.crunchbase.com/organization/new-line-cinema
           - item:
             name: Wevr
@@ -1148,7 +1188,7 @@ landscape:
             name: Visual Effects Society
             homepage_url: https://vesglobal.org/
             logo: visual_effects_society.svg
-            crunchbase: https://www.crunchbase.com/organization/verisign
+            crunchbase: https://www.crunchbase.com/organization/visual-effects-society
   - category:
     name: Other
     subcategories:
