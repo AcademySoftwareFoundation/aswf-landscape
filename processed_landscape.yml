@@ -296,6 +296,63 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
+            name: PhysLight
+            homepage_url: https://github.com/wetadigital/physlight
+            project: null
+            repo_url: https://github.com/wetadigital/physlight
+            logo: PhysLight.svg
+            crunchbase: https://www.crunchbase.com/organization/weta-digital
+            crunchbase_data:
+              name: Weta Digital
+              description: Weta Digital is a film production company that offers visual effects and 3D animations.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.wetafx.co.nz/
+              city: Wellington
+              region: Wellington
+              country: New Zealand
+              twitter: https://twitter.com/wetafx
+              linkedin: https://in.linkedin.com/company/weta-digital
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Film
+                - Film Production
+                - TV
+            github_data:
+              languages:
+                - name: Jupyter Notebook
+                  value: 2179757
+                  color: '#DA5B0B'
+                - name: CMake
+                  value: 45815
+                - name: Python
+                  value: 93
+                  color: '#3572A5'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;3;5;0;0;5;2;4;12;3;0;2;0;0;0;1;1;1;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 175
+              license: Apache License 2.0
+              description: null
+              latest_commit_date: '2024-01-16T17:25:42Z'
+              latest_commit_link: /wetadigital/physlight/commit/5ce913d77b90b3bf90ad9d5c6242d7a7e3439235
+              contributors_count: 3
+              contributors_link: https://github.com/wetadigital/physlight/graphs/contributors
+            repos:
+              - url: https://github.com/wetadigital/physlight
+                stars: 175
+            github_start_commit_data:
+              start_commit_link: /wetadigital/physlight/commit/c74c372d41e6a5c8ef785f0da93895ad9ce7db28
+              start_date: '2020-07-09T04:44:28Z'
+            image_data:
+              fileName: phys-light.svg
+              hash: fQvwkyBuzU4ryCKvi6vYum655auUSgjFYAuqh34YyLc=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: RAW to ACES Utility
             homepage_url: https://rawtoaces.org
             project: incubating
@@ -354,7 +411,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;0;2;1;8;0;0;1;1;1;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-02-26Z
               stars: 132
               license: Unknown License
@@ -4804,6 +4861,73 @@ landscape:
               percentage: 100
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: OpenProductionDataIO
+            homepage_url: https://googlecloudplatform.github.io/opdio/
+            project: null
+            repo_url: https://github.com/googlecloudplatform/opdio
+            logo: OpenProductionDataIO.svg
+            crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
+            crunchbase_data:
+              name: Google Cloud
+              description: Google Cloud focuses on business challenges that head-on with cloud computing services from Google.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://cloud.google.com/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: http://www.twitter.com/googlecloud
+              linkedin: https://www.linkedin.com/showcase/google-cloud
+              acquisitions:
+                - date: '2017-09-26'
+                  acquiree: Bitium
+                - date: '2019-11-18'
+                  acquiree: CloudSimple
+                - date: '2020-02-19'
+                  acquiree: Cornerstone
+                - date: '2020-12-02'
+                  acquiree: Actifio
+                - date: '2020-12-08'
+                  acquiree: Dataform
+                - date: '2022-04-29'
+                  acquiree: MobiledgeX
+              parents:
+                - https://www.crunchbase.com/organization/google
+                - https://www.crunchbase.com/organization/alphabet
+              ticker: GOOG
+              funding: 26100000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Cloud Computing
+                - Cloud Data Services
+                - Developer Platform
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;16;19
+              firstWeek: 2023-02-26Z
+              stars: 5
+              license: Apache License 2.0
+              description: null
+              latest_commit_date: '2024-02-22T01:58:05Z'
+              latest_commit_link: /GoogleCloudPlatform/opdio/commit/3fa5e251fffad1161cbd6dd35bd669873653fde5
+              contributors_count: 3
+              contributors_link: https://github.com/googlecloudplatform/opdio/graphs/contributors
+            repos:
+              - url: https://github.com/googlecloudplatform/opdio
+                stars: 5
+            github_start_commit_data:
+              start_commit_link: /GoogleCloudPlatform/opdio/commit/2c6987f653f78871a670d99a515ce9adc5cdbac2
+              start_date: '2023-12-21T03:23:51Z'
+            yahoo_finance_data:
+              effective_ticker: GOOG
+            image_data:
+              fileName: open-production-data-io.svg
+              hash: +27TngJ/GXMqt3hOa0S45J4mCyrdOFgt5orR91CwqXM=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             name: OpenPype
             homepage_url: https://openpype.io
@@ -10601,7 +10725,7 @@ landscape:
                   acquiree: Fungible
               parents: []
               ticker: MSFT
-              funding: 1000000
+              funding: 26000000
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -12021,4 +12145,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-02-22T03:50:54.414Z
+updated_at: 2024-02-23T03:43:40.909Z
