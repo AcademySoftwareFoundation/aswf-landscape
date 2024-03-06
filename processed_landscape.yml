@@ -161,7 +161,7 @@ landscape:
                   color: '#3D6117'
                 - name: Visual Basic 6.0
                   value: 1176
-              contributions: 6;5;0;8;4;0;16;14;14;6;1;5;10;1;0;2;3;0;2;1;9;14;3;0;37;0;0;9;4;0;0;13;26;19;12;4;10;5;4;0;23;2;0;11;1;5;16;4;2;5;0;0
+              contributions: 9;2;2;6;4;2;15;13;14;6;1;7;8;1;0;2;3;0;2;1;9;14;3;0;37;0;0;9;4;0;0;17;26;16;13;2;10;5;4;1;22;2;0;11;1;7;17;1;2;5;0;0
               firstWeek: 2023-03-12Z
               stars: 1918
               license: BSD 3-Clause "New" or "Revised" License
@@ -268,7 +268,7 @@ landscape:
                 - name: Dockerfile
                   value: 1804
                   color: '#384d54'
-              contributions: 3;0;3;0;1;2;0;0;6;0;1;0;0;1;1;0;2;0;1;0;3;0;0;0;6;10;0;3;1;3;0;1;1;5;2;1;6;1;0;3;0;0;0;0;0;3;4;1;1;0;0;0
+              contributions: 3;0;3;1;0;2;0;1;5;1;0;0;0;2;0;1;1;0;1;0;3;0;0;1;7;8;0;3;3;1;0;1;1;5;2;4;3;1;2;1;0;0;0;0;0;6;2;0;1;0;0;0
               firstWeek: 2023-03-12Z
               stars: 1908
               license: BSD 3-Clause "New" or "Revised" License
@@ -331,7 +331,7 @@ landscape:
                 - name: Python
                   value: 93
                   color: '#3572A5'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;5;0;4;1;5;3;13;0;2;0;0;0;0;2;1;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;1;2;6;0;0;4;1;5;7;9;0;2;0;0;0;0;2;1;1;1;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 176
               license: Apache License 2.0
@@ -518,17 +518,17 @@ landscape:
               description: null
               contributors_count: 332
               contributions: >-
-                48;52;89;64;46;103;63;93;79;92;132;106;62;52;131;53;51;91;134;61;48;61;68;38;37;72;119;66;111;131;72;27;56;82;52;58;40;62;48;89;94;56;58;62;52;44;88;100;83;104;75;71
-              stars: 42094
+                54;55;95;53;59;104;57;85;84;92;133;108;58;54;147;28;61;81;135;62;53;73;62;22;40;79;121;61;120;130;61;38;46;83;53;56;40;72;57;73;94;52;59;65;49;73;67;95;101;98;78;75
+              stars: 42123
               languages:
                 - name: C
-                  value: 64213532
+                  value: 64221373
                   color: '#555555'
                 - name: Assembly
                   value: 5251917
                   color: '#6E4C13'
                 - name: Makefile
-                  value: 912479
+                  value: 914834
                   color: '#427819'
                 - name: C++
                   value: 121732
@@ -543,7 +543,7 @@ landscape:
                   value: 84917
                   color: '#3A4E3A'
                 - name: Shell
-                  value: 67997
+                  value: 68369
                   color: '#89e051'
                 - name: Less
                   value: 10925
@@ -576,16 +576,16 @@ landscape:
                 - name: Roff
                   value: 132
                   color: '#ecdebe'
-              latest_commit_link: /FFmpeg/FFmpeg/commit/44e5749462e0b7f804b1844206047404ee3e7526
-              latest_commit_date: '2024-03-05T00:14:17Z'
+              latest_commit_link: /FFmpeg/FFmpeg/commit/d65908c3d416e331e075c3a5ffe7bc670112a018
+              latest_commit_date: '2024-03-06T00:39:52Z'
               firstWeek: 2023-03-12Z
               license: Other
               contributors_link: https://github.com/FFmpeg/FFmpeg/graphs/contributors
             repos:
               - url: https://github.com/FFmpeg/FFmpeg
-                stars: 41285
+                stars: 41313
               - url: https://github.com/FFmpeg/nv-codec-headers
-                stars: 250
+                stars: 251
               - url: https://github.com/FFmpeg/web
                 stars: 248
               - url: https://github.com/FFmpeg/FFV1
@@ -627,9 +627,9 @@ landscape:
                 - name: C
                   value: 6300
                   color: '#555555'
-              contributions: 5;7;7;0;2;3;20;0;6;12;24;26;6;24;3;3;2;1;1;0;0;9;0;7;16;7;7;2;3;3;6;5;15;16;15;0;1;0;5;0;0;0;0;0;0;9;7;5;28;16;0;0
+              contributions: 0;8;6;0;2;3;20;0;6;27;20;16;5;24;4;3;1;2;0;0;0;9;0;8;15;9;7;0;4;7;1;7;15;20;9;0;1;0;5;0;0;0;0;0;0;9;7;9;24;16;0;0
               firstWeek: 2023-03-12Z
-              stars: 265
+              stars: 266
               license: GNU General Public License v3.0
               description: Hydra-enabled GPU path tracer that supports MaterialX and MDL
               latest_commit_date: '2024-02-25T16:25:13Z'
@@ -640,7 +640,7 @@ landscape:
               contributors_link: https://github.com/pablode/gatling/graphs/contributors
             repos:
               - url: https://github.com/pablode/gatling
-                stars: 265
+                stars: 266
             github_start_commit_data:
               start_commit_link: /pablode/gatling/commit/7727e9acc9eaae228d35a88a3563bea5b1a19781
               start_date: '2019-10-29T09:29:42Z'
@@ -711,9 +711,9 @@ landscape:
                   value: 2425
                   color: '#384d54'
               contributions: >-
-                26;17;14;25;70;28;12;8;10;10;21;27;5;8;4;18;10;13;13;8;13;20;23;69;48;35;38;29;28;15;17;28;26;15;15;7;14;37;23;22;16;37;33;22;3;13;10;11;14;14;11;7
+                27;14;15;24;73;28;9;10;8;10;21;28;4;8;5;20;10;12;13;6;13;20;30;68;43;35;42;31;23;16;14;28;27;23;6;8;16;37;21;23;15;39;33;19;3;14;10;10;14;14;11;7
               firstWeek: 2023-03-12Z
-              stars: 10764
+              stars: 10767
               license: Other
               description: 🧙‍♂️ ImageMagick 7
               latest_commit_date: '2024-03-02T10:22:37Z'
@@ -724,7 +724,7 @@ landscape:
               contributors_link: https://github.com/ImageMagick/ImageMagick/graphs/contributors
             repos:
               - url: https://github.com/ImageMagick/ImageMagick
-                stars: 10764
+                stars: 10767
             github_start_commit_data:
               start_commit_link: /ImageMagick/ImageMagick/commit/3ed852eea50f9d4cd633efb8c2b054b8e33c2530
               start_date: '2009-09-05T21:47:34Z'
@@ -890,16 +890,16 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 41276013
+                  value: 41289699
                   color: '#f34b7d'
                 - name: C
-                  value: 1557707
+                  value: 1557649
                   color: '#555555'
                 - name: Python
                   value: 1298889
                   color: '#3572A5'
                 - name: CMake
-                  value: 971612
+                  value: 971483
                 - name: Java
                   value: 751251
                   color: '#b07219'
@@ -946,20 +946,20 @@ landscape:
                   value: 309
                   color: '#384d54'
               contributions: >-
-                10;25;28;14;18;23;27;21;11;11;37;37;21;24;44;39;17;25;32;26;17;19;18;16;7;16;35;20;20;18;22;12;21;13;16;30;14;16;33;38;28;66;27;22;33;27;19;15;16;24;27;19
+                18;25;19;16;24;20;27;16;11;19;32;39;19;28;49;30;22;35;18;25;22;12;20;13;8;26;26;24;14;27;13;14;24;10;19;27;17;20;32;35;34;63;21;31;31;21;18;16;17;23;30;22
               firstWeek: 2023-03-12Z
-              stars: 74428
+              stars: 74444
               license: Apache License 2.0
               description: Open Source Computer Vision Library
-              latest_commit_date: '2024-03-04T07:21:23Z'
-              latest_commit_link: /opencv/opencv/commit/ef611df09b90e8860f9f70649f7a59700b8f490f
+              latest_commit_date: '2024-03-05T17:25:35Z'
+              latest_commit_link: /opencv/opencv/commit/0f468a7f3549f4ca5edacba3d013f404386d9506
               release_date: '2023-12-28T15:57:30Z'
               release_link: https://github.com/opencv/opencv/releases
-              contributors_count: 2128
+              contributors_count: 2129
               contributors_link: https://github.com/opencv/opencv/graphs/contributors
             repos:
               - url: https://github.com/opencv/opencv
-                stars: 74428
+                stars: 74444
             github_start_commit_data:
               start_commit_link: /opencv/opencv/commit/127d6649a1c83397bf42799ac807af41aa507b30
               start_date: '2010-05-11T17:44:00Z'
@@ -1020,13 +1020,13 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 10399243
+                  value: 10397332
                   color: '#555555'
                 - name: C++
-                  value: 5949546
+                  value: 5956544
                   color: '#f34b7d'
                 - name: CMake
-                  value: 151291
+                  value: 151403
                 - name: Python
                   value: 113260
                   color: '#3572A5'
@@ -1036,25 +1036,25 @@ landscape:
                   value: 22941
                   color: '#89e051'
                 - name: Starlark
-                  value: 22878
+                  value: 22924
                 - name: Batchfile
                   value: 6522
                   color: '#C1F12E'
                 - name: PowerShell
                   value: 3917
                   color: '#012456'
-              contributions: 6;15;1;2;1;10;5;10;0;6;17;6;0;1;6;7;6;10;2;3;5;14;6;7;3;8;1;5;11;0;0;10;0;0;0;1;0;0;0;1;3;4;1;0;1;11;1;4;13;3;4;12
+              contributions: 6;15;1;2;3;8;9;6;0;8;15;6;0;1;7;8;6;8;3;2;8;11;10;3;4;7;5;4;8;0;1;9;0;0;0;1;0;0;0;1;4;3;1;0;1;11;1;4;14;4;2;14
               firstWeek: 2023-03-12Z
               stars: 1989
               license: BSD 3-Clause "New" or "Revised" License
               description: >-
                 The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format
                 of the motion picture industry.
-              latest_commit_date: '2024-03-04T20:47:30Z'
-              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/b7e936c60bc317796f607113c8545e49a147c88e
+              latest_commit_date: '2024-03-05T23:19:22Z'
+              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/2a579fd39268a16bd0c86cbdab5af8eccc4f73a3
               release_date: '2024-02-12T04:16:34Z'
               release_link: https://github.com/AcademySoftwareFoundation/openexr/releases
-              contributors_count: 124
+              contributors_count: 125
               contributors_link: https://github.com/AcademySoftwareFoundation/openexr/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/openexr
@@ -1121,7 +1121,7 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 6968898
+                  value: 6970933
                   color: '#f34b7d'
                 - name: POV-Ray SDL
                   value: 5056106
@@ -1139,13 +1139,13 @@ landscape:
                 - name: Makefile
                   value: 19571
                   color: '#427819'
-              contributions: 7;2;1;5;1;7;7;6;7;5;5;2;5;13;7;4;6;4;5;4;11;3;1;5;9;7;5;7;9;5;4;11;9;1;2;0;7;9;1;3;2;8;6;9;2;9;5;14;5;2;4;8
+              contributions: 6;2;1;5;2;6;9;5;7;5;4;2;8;12;5;4;6;4;5;6;10;2;1;5;9;10;4;5;10;4;5;13;6;1;2;0;7;10;0;3;4;6;10;6;2;10;10;8;4;5;1;11
               firstWeek: 2023-03-12Z
               stars: 1889
               license: Apache License 2.0
               description: Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.
-              latest_commit_date: '2024-03-02T17:52:11Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/2fc8fe990c2aa574d0690f4eaa5269ceab0c6b07
+              latest_commit_date: '2024-03-06T00:11:48Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/0f033b00d8ed7fa976a6e5345827962fc0db5f20
               release_date: '2024-03-01T17:53:32Z'
               release_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/releases
               contributors_count: 193
@@ -1213,7 +1213,7 @@ landscape:
                 - name: Dockerfile
                   value: 1116
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;1;1;0;2;0;1;0;0;0;2;3;0;0;0;0;0;0;0;7;0;0;0;1;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;1;0;1;0;2;0;1;0;0;1;1;3;0;0;0;0;0;0;0;7;0;0;0;1;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 5376
               license: Mozilla Public License 2.0
@@ -1368,7 +1368,7 @@ landscape:
                 - name: JavaScript
                   value: 92
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 667
               license: Other
@@ -1426,9 +1426,9 @@ landscape:
                 - name: HTML
                   value: 360
                   color: '#e34c26'
-              contributions: 0;0;0;0;0;1;0;0;2;0;5;1;0;0;12;20;12;34;28;66;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;4;1;0;0;0;0;0
+              contributions: 0;0;0;0;0;1;0;0;2;0;5;1;0;0;19;14;15;30;36;59;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;0;0;4;1;0;0;0;0;0
               firstWeek: 2023-03-12Z
-              stars: 2655
+              stars: 2658
               license: Other
               description: ':movie_camera: Python and OpenCV-based scene cut/transition detection program & library.'
               latest_commit_date: '2024-01-27T22:08:14Z'
@@ -1439,7 +1439,7 @@ landscape:
               contributors_link: https://github.com/Breakthrough/PySceneDetect/graphs/contributors
             repos:
               - url: https://github.com/Breakthrough/PySceneDetect
-                stars: 2655
+                stars: 2658
             github_start_commit_data:
               start_commit_link: /Breakthrough/PySceneDetect/commit/f260ee1aec821ee7fd7890ebfb3b00b68f2bf45d
               start_date: '2014-06-04T04:43:21Z'
@@ -1512,7 +1512,7 @@ landscape:
             github_data:
               languages:
                 - name: JavaScript
-                  value: 6955247
+                  value: 6955253
                   color: '#f1e05a'
                 - name: HTML
                   value: 6538440
@@ -1526,20 +1526,20 @@ landscape:
                   value: 250811
                   color: '#563d7c'
               contributions: >-
-                46;19;21;34;40;52;33;38;52;30;48;53;23;38;29;23;29;28;39;20;23;17;13;24;25;19;25;35;25;40;31;54;42;41;28;39;37;28;44;28;26;32;33;33;25;27;34;39;40;37;46;37
+                43;17;28;33;36;56;33;40;48;37;60;33;23;36;33;25;25;28;41;21;19;18;10;27;22;23;24;33;32;37;31;52;43;41;31;34;37;36;41;27;25;30;35;35;18;43;29;30;41;41;45;32
               firstWeek: 2023-03-12Z
-              stars: 97800
+              stars: 97826
               license: MIT License
               description: JavaScript 3D Library.
-              latest_commit_date: '2024-03-04T15:15:48Z'
-              latest_commit_link: /mrdoob/three.js/commit/7e74e4cc6458005ea9a4c3176f933c33bde17e72
+              latest_commit_date: '2024-03-06T00:49:11Z'
+              latest_commit_link: /mrdoob/three.js/commit/a3bf3208dffd029a01239cb078894062b356bfbb
               release_date: '2024-02-29T08:57:10Z'
               release_link: https://github.com/mrdoob/three.js/releases
-              contributors_count: 2233
+              contributors_count: 2234
               contributors_link: https://github.com/mrdoob/three.js/graphs/contributors
             repos:
               - url: https://github.com/mrdoob/three.js
-                stars: 97800
+                stars: 97826
             github_start_commit_data:
               start_commit_link: /mrdoob/three.js/commit/214dd9dcfc56b0d85484d6841110fe1f089ff055
               start_date: '2010-03-23T19:03:00Z'
@@ -1605,7 +1605,7 @@ landscape:
                 - name: JavaScript
                   value: 1523
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;1;0;0;3;0;0;0;0;0;0;0;0;0;1;0;0;0;3;0;0;2;3;0;5;0;1;0;0;0;0;2;3;5;0;0;0;0;1;1;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;1;0;0;3;0;0;0;0;0;0;0;0;0;0;1;0;0;0;3;0;0;5;0;5;0;1;0;0;0;0;2;0;4;4;0;0;0;0;2;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 5
               license: Creative Commons Attribution 4.0 International
@@ -1827,9 +1827,9 @@ landscape:
                   value: 542
                   color: '#C1F12E'
               contributions: >-
-                23;87;105;129;81;35;0;47;39;41;15;21;38;100;43;65;91;56;35;17;61;66;67;40;39;60;94;84;174;145;198;88;125;55;63;77;48;37;26;21;15;5;29;21;42;75;20;54;75;98;79;37
+                25;100;99;131;88;12;16;38;33;40;19;17;60;82;45;62;90;60;34;15;74;57;61;49;31;77;83;88;176;167;175;88;125;52;62;82;35;38;25;20;15;5;31;24;45;73;17;54;86;91;81;30
               firstWeek: 2023-03-12Z
-              stars: 135
+              stars: 136
               license: BSD 3-Clause "New" or "Revised" License
               description: Professional player and review tool for vfx, animation and computer graphics.
               latest_commit_date: '2024-03-05T00:13:14Z'
@@ -1840,7 +1840,7 @@ landscape:
               contributors_link: https://github.com/ggarra13/mrv2/graphs/contributors
             repos:
               - url: https://github.com/ggarra13/mrv2
-                stars: 135
+                stars: 136
             github_start_commit_data:
               start_commit_link: /ggarra13/mrv2/commit/9ce3694e538bb0a4442f9f5c3c07cf78f4a9b6d9
               start_date: '2022-09-05T02:00:13Z'
@@ -1949,7 +1949,7 @@ landscape:
                   value: 693773
                   color: '#3572A5'
                 - name: CMake
-                  value: 362038
+                  value: 364483
                 - name: GLSL
                   value: 174223
                 - name: HTML
@@ -1985,13 +1985,15 @@ landscape:
                 - name: Perl
                   value: 430
                   color: '#0298c3'
-              contributions: 0;0;0;0;3;3;1;6;18;0;2;6;2;7;1;2;3;4;5;1;7;7;3;5;4;0;2;2;4;6;8;4;4;8;5;6;4;3;1;5;4;4;0;1;3;5;4;0;1;2;3;0
+              contributions: 0;0;0;1;3;2;1;6;18;1;4;4;6;2;2;2;2;5;4;5;4;7;3;6;2;1;2;1;6;5;7;7;4;6;6;6;4;1;1;6;5;2;0;1;4;6;2;0;1;4;1;1
               firstWeek: 2023-03-12Z
               stars: 517
               license: Other
               description: Open source version of RV, the Sci-Tech award-winning media review and playback software.
-              latest_commit_date: '2024-02-22T16:20:07Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenRV/commit/bd7058b42cae8d22f73b6b1f40b9a08fb66deba1
+              latest_commit_date: '2024-03-05T16:45:20Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenRV/commit/bcb27071462fa387fb663544b511f4b26329488b
+              release_date: '2024-03-05T15:37:31Z'
+              release_link: https://github.com/AcademySoftwareFoundation/OpenRV/releases
               contributors_count: 21
               contributors_link: https://github.com/AcademySoftwareFoundation/OpenRV/graphs/contributors
             repos:
@@ -2053,7 +2055,7 @@ landscape:
                 - name: Batchfile
                   value: 952
                   color: '#C1F12E'
-              contributions: 13;15;10;18;37;12;10;21;40;44;25;35;6;26;33;32;29;15;23;20;31;43;16;14;49;10;22;39;28;52;29;8;20;20;31;22;9;15;9;5;7;13;14;27;17;9;4;10;2;4;14;0
+              contributions: 10;12;11;19;44;3;10;23;41;46;30;25;17;15;42;23;29;20;26;14;29;43;17;18;45;11;24;41;27;63;13;9;19;25;32;19;7;18;9;1;8;12;15;29;18;5;8;6;2;6;12;0
               firstWeek: 2023-03-12Z
               stars: 156
               license: BSD 3-Clause "New" or "Revised" License
@@ -2396,7 +2398,7 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 41048462
+                  value: 41048514
                   color: '#555555'
                 - name: Scheme
                   value: 507426
@@ -2451,18 +2453,18 @@ landscape:
                   value: 151
                   color: '#c065db'
               contributions: >-
-                15;23;51;46;57;73;43;20;15;28;68;62;17;46;55;58;45;34;76;60;39;44;60;38;30;24;33;22;31;52;39;57;29;45;25;28;22;33;16;42;42;62;27;34;39;45;35;31;55;85;44;41
+                15;27;48;55;48;71;43;22;11;28;73;58;26;55;46;55;42;39;74;60;33;43;64;37;28;26;35;20;34;51;41;52;37;39;22;29;23;32;16;43;45;63;29;28;46;44;33;32;57;78;44;44
               firstWeek: 2023-03-12Z
-              stars: 4456
+              stars: 4454
               license: Other
               description: Read-only mirror of https://gitlab.gnome.org/GNOME/gimp
-              latest_commit_date: '2024-03-05T01:42:22Z'
-              latest_commit_link: /GNOME/gimp/commit/625b74ea00fa10c22285fb486a1233c030e56444
+              latest_commit_date: '2024-03-05T20:09:50Z'
+              latest_commit_link: /GNOME/gimp/commit/a905208873c4e2371d5e90638d090c9842811586
               contributors_count: 1088
               contributors_link: https://github.com/GNOME/gimp/graphs/contributors
             repos:
               - url: https://github.com/GNOME/gimp
-                stars: 4456
+                stars: 4454
             github_start_commit_data:
               start_commit_link: /GNOME/gimp/commit/a88ba5154ba574640be33fde0d5477007cc6a863
               start_date: '1997-01-01T16:47:44Z'
@@ -2546,9 +2548,9 @@ landscape:
                 - name: sed
                   value: 1561
                   color: '#64b970'
-              contributions: 0;0;0;0;13;10;3;1;4;2;8;4;1;6;1;0;7;1;2;0;0;0;2;2;0;4;5;2;2;1;1;0;0;0;5;0;0;2;3;0;0;0;2;1;0;3;0;2;0;2;1;0
+              contributions: 0;0;0;3;12;8;4;0;4;4;7;3;1;6;1;0;8;1;1;0;0;0;2;2;1;4;5;1;2;1;1;0;0;1;4;0;0;5;0;0;0;0;2;1;0;3;0;2;1;2;0;0
               firstWeek: 2023-03-12Z
-              stars: 4275
+              stars: 4302
               license: GNU General Public License v2.0
               description: Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
               latest_commit_date: '2024-02-20T20:17:45Z'
@@ -2559,7 +2561,7 @@ landscape:
               contributors_link: https://github.com/NatronGitHub/Natron/graphs/contributors
             repos:
               - url: https://github.com/NatronGitHub/Natron
-                stars: 4275
+                stars: 4302
             github_start_commit_data:
               start_commit_link: /NatronGitHub/Natron/commit/7f5ec1e49c017bbc66ce29713fa53342f7de29a2
               start_date: '2013-05-06T21:00:00Z'
@@ -2755,7 +2757,7 @@ landscape:
                 - name: Shell
                   value: 697
                   color: '#89e051'
-              contributions: 4;1;1;0;0;0;0;0;0;2;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;2;3;6;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 1;2;0;0;0;0;0;0;0;2;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;2;3;6;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 1007
               license: Other
@@ -2807,7 +2809,7 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 8047420
+                  value: 8049850
                   color: '#f34b7d'
                 - name: C
                   value: 534898
@@ -2828,20 +2830,20 @@ landscape:
                 - name: Batchfile
                   value: 1202
                   color: '#C1F12E'
-              contributions: 19;73;21;10;26;56;19;14;2;18;16;21;73;52;19;22;28;8;12;10;18;9;11;22;33;14;27;21;25;30;21;24;12;8;8;17;12;15;13;10;16;7;8;35;16;20;8;14;15;9;2;1
+              contributions: 26;72;14;12;29;62;9;12;3;22;23;13;74;49;25;21;21;11;13;10;19;4;11;29;28;14;26;29;18;33;24;18;12;8;8;18;10;19;9;14;12;6;9;35;18;20;10;12;14;8;1;3
               firstWeek: 2023-03-12Z
-              stars: 2802
+              stars: 2804
               license: Other
               description: Photogrammetric Computer Vision Framework
-              latest_commit_date: '2024-02-29T13:50:10Z'
-              latest_commit_link: /alicevision/AliceVision/commit/a27ac294480b831aa52047ae7d1652982d18bafc
+              latest_commit_date: '2024-03-05T16:47:54Z'
+              latest_commit_link: /alicevision/AliceVision/commit/cf42a8e6d172b60d553fe7e2b016132f6a0335dc
               release_date: '2023-12-11T11:26:28Z'
               release_link: https://github.com/alicevision/AliceVision/releases
               contributors_count: 218
               contributors_link: https://github.com/alicevision/AliceVision/graphs/contributors
             repos:
               - url: https://github.com/alicevision/AliceVision
-                stars: 2802
+                stars: 2804
             github_start_commit_data:
               start_commit_link: /alicevision/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
               start_date: '2003-01-21T06:34:28Z'
@@ -3367,7 +3369,7 @@ landscape:
                 - name: Batchfile
                   value: 508
                   color: '#C1F12E'
-              contributions: 29;29;36;6;16;23;12;12;0;8;5;12;34;36;50;16;18;20;16;12;9;14;7;11;20;12;7;5;23;7;12;12;13;6;10;8;4;9;0;7;7;22;1;5;11;1;1;15;5;3;2;0
+              contributions: 32;27;32;6;15;28;9;10;0;10;7;13;33;40;44;18;17;21;14;13;12;12;3;18;18;8;7;7;23;5;14;20;3;8;12;3;7;6;0;7;9;20;2;4;12;0;2;14;6;4;0;0
               firstWeek: 2023-03-12Z
               stars: 10364
               license: Other
@@ -3454,7 +3456,7 @@ landscape:
                 - name: Makefile
                   value: 1603
                   color: '#427819'
-              contributions: 4;1;0;0;0;0;0;1;0;0;0;0;0;0;1;3;6;4;0;3;0;0;0;0;2;0;9;8;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 4;1;0;0;0;0;0;1;0;0;0;0;0;0;3;1;6;4;1;2;0;0;0;0;2;0;9;8;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 2810
               license: Other
@@ -3723,9 +3725,9 @@ landscape:
                 - name: Shell
                   value: 21330
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
-              stars: 2197
+              stars: 2200
               license: BSD 3-Clause "New" or "Revised" License
               description: NVIDIA PhysX SDK
               latest_commit_date: '2024-01-23T15:02:19Z'
@@ -3736,7 +3738,7 @@ landscape:
               contributors_link: https://github.com/NVIDIA-Omniverse/PhysX/graphs/contributors
             repos:
               - url: https://github.com/NVIDIA-Omniverse/PhysX
-                stars: 2197
+                stars: 2200
             github_start_commit_data:
               start_commit_link: /NVIDIA-Omniverse/PhysX/commit/80c0aab63e67fcc269c849bbfc2ac76bee4a129a
               start_date: '2022-10-27T07:37:03Z'
@@ -3863,10 +3865,9 @@ landscape:
                 - name: Shell
                   value: 212
                   color: '#89e051'
-              contributions: >-
-                24;19;11;55;12;48;38;3;52;31;40;31;19;0;48;53;39;13;14;8;115;19;24;33;27;12;36;66;14;44;14;45;32;21;32;23;49;16;56;44;34;27;5;12;22;18;2;43;2;2;4;0
+              contributions: 16;26;6;51;30;32;36;3;54;50;19;31;19;0;65;49;28;13;12;109;15;37;16;33;26;7;63;40;14;46;6;46;32;30;22;48;24;48;24;45;50;12;7;9;21;18;2;44;1;2;4;0
               firstWeek: 2023-03-12Z
-              stars: 5281
+              stars: 5284
               license: Other
               description: Universal Scene Description
               latest_commit_date: '2024-02-23T23:50:21Z'
@@ -3877,7 +3878,7 @@ landscape:
               contributors_link: https://github.com/PixarAnimationStudios/OpenUSD/graphs/contributors
             repos:
               - url: https://github.com/PixarAnimationStudios/OpenUSD
-                stars: 5281
+                stars: 5284
             github_start_commit_data:
               start_commit_link: /PixarAnimationStudios/OpenUSD/commit/2eb01f5cd4c2dae4e1ef9912ca27a93083bb6ef4
               start_date: '2016-07-26T17:44:38Z'
@@ -4094,9 +4095,9 @@ landscape:
                 - name: C
                   value: 438
                   color: '#555555'
-              contributions: 1;0;0;2;0;1;0;0;0;0;1;2;1;0;0;0;0;0;0;2;0;0;0;0;1;2;0;0;0;0;1;1;0;2;0;0;0;0;0;2;1;0;0;0;0;0;1;0;0;3;0;0
+              contributions: 1;0;0;2;0;1;0;0;0;0;3;0;1;0;0;0;0;0;0;2;0;0;0;0;1;2;0;0;0;0;1;1;0;2;0;0;0;0;0;2;1;0;0;0;0;0;1;0;0;3;0;0
               firstWeek: 2023-03-12Z
-              stars: 1338
+              stars: 1339
               license: Apache License 2.0
               description: Open Source API and interchange format for editorial timeline information.
               latest_commit_date: '2024-02-19T22:04:02Z'
@@ -4107,7 +4108,7 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/OpenTimelineIO/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
-                stars: 1338
+                stars: 1339
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/0f685780a69e491dd8b8f0e720671a8be22349cf
               start_date: '2016-09-06T19:52:15Z'
@@ -4202,20 +4203,20 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 87949072
+                  value: 87997839
                   color: '#f34b7d'
                 - name: Python
-                  value: 12413061
+                  value: 12413240
                   color: '#3572A5'
                 - name: C
-                  value: 6684691
+                  value: 6642533
                   color: '#555555'
                 - name: GLSL
-                  value: 2395493
+                  value: 2395882
                 - name: CMake
-                  value: 1439433
+                  value: 1439437
                 - name: Objective-C++
-                  value: 1168177
+                  value: 1168219
                   color: '#6866fb'
                 - name: Hack
                   value: 94585
@@ -4242,18 +4243,18 @@ landscape:
                   value: 2608
                   color: '#e34c26'
               contributions: >-
-                208;208;166;134;121;207;218;180;213;182;193;263;240;276;249;259;181;203;201;170;217;227;226;179;173;265;246;253;265;327;345;385;300;118;208;194;148;190;228;244;228;134;70;149;238;224;210;258;292;325;306;293
+                186;207;170;141;111;229;203;188;203;194;203;271;217;277;255;251;187;209;176;179;226;196;232;192;186;267;236;259;286;314;366;360;294;140;206;155;169;185;226;259;213;111;76;193;214;225;208;280;301;306;325;272
               firstWeek: 2023-03-12Z
-              stars: 11015
+              stars: 11023
               license: Other
               description: Official mirror of Blender
-              latest_commit_date: '2024-03-05T02:54:17Z'
-              latest_commit_link: /blender/blender/commit/d27ddccc60a5ffb733a327d4554133ff114f372b
+              latest_commit_date: '2024-03-06T02:36:28Z'
+              latest_commit_link: /blender/blender/commit/d37328840a934e418d6cbdd25f31f179b94883c2
               contributors_count: 1080
               contributors_link: https://github.com/blender/blender/graphs/contributors
             repos:
               - url: https://github.com/blender/blender
-                stars: 11015
+                stars: 11023
             github_start_commit_data:
               start_commit_link: /blender/blender/commit/12315f4d0e0ae993805f141f64cb8c73c5297311
               start_date: '2002-10-12T11:37:38Z'
@@ -4295,7 +4296,7 @@ landscape:
             github_data:
               languages:
                 - name: Vue
-                  value: 2331836
+                  value: 2332010
                   color: '#2c3e50'
                 - name: JavaScript
                   value: 1158605
@@ -4314,14 +4315,14 @@ landscape:
                   value: 144
                   color: '#89e051'
               contributions: >-
-                16;18;10;13;8;28;45;7;18;27;14;6;13;24;8;22;9;16;16;12;20;5;1;27;23;22;37;35;37;44;28;21;23;15;22;24;16;37;19;21;38;17;2;4;58;45;27;21;18;59;39;27
+                15;23;4;17;13;26;37;10;27;23;6;6;19;18;14;16;9;20;16;13;15;5;4;36;17;18;47;29;39;37;32;26;21;8;24;28;15;36;23;22;39;6;2;6;68;41;25;23;22;64;29;24
               firstWeek: 2023-03-12Z
               stars: 339
               license: GNU Affero General Public License v3.0
               description: "Collaboration Platform for Animation and VFX\_Productions"
-              latest_commit_date: '2024-03-05T01:14:10Z'
-              latest_commit_link: /cgwire/kitsu/commit/3ea8a850274d446fbdb0372c2844eab35ac41e24
-              release_date: '2024-03-05T01:15:57Z'
+              latest_commit_date: '2024-03-05T14:31:27Z'
+              latest_commit_link: /cgwire/kitsu/commit/1289050d5b51b945ee8115ad3c1529c39cf254a0
+              release_date: '2024-03-05T14:33:55Z'
               release_link: https://github.com/cgwire/kitsu/releases
               contributors_count: 29
               contributors_link: https://github.com/cgwire/kitsu/graphs/contributors
@@ -4389,7 +4390,7 @@ landscape:
                 - name: Batchfile
                   value: 1228
                   color: '#C1F12E'
-              contributions: 2;4;9;13;5;11;6;5;10;13;7;7;11;5;4;10;0;2;9;23;5;2;6;3;0;0;0;8;0;0;0;0;7;1;4;8;3;4;3;2;0;1;0;1;0;2;1;8;6;7;3;0
+              contributions: 1;5;12;10;4;13;4;5;14;9;9;5;12;5;8;5;1;5;9;24;1;1;6;3;0;0;0;8;0;0;0;6;1;1;4;9;2;7;0;2;1;0;0;1;1;1;1;11;4;6;3;0
               firstWeek: 2023-03-12Z
               stars: 513
               license: Other
@@ -4444,10 +4445,10 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 11499520
+                  value: 11521984
                   color: '#3572A5'
                 - name: C++
-                  value: 10415927
+                  value: 10440350
                   color: '#f34b7d'
                 - name: CMake
                   value: 85201
@@ -4466,14 +4467,14 @@ landscape:
                   value: 419
                   color: '#701516'
               contributions: >-
-                46;37;18;44;22;32;53;32;14;43;19;22;18;24;29;21;44;28;42;12;13;12;27;21;26;32;5;19;31;30;16;22;26;36;42;45;39;33;47;56;26;21;1;42;20;21;10;32;29;34;46;41
+                46;38;24;40;22;40;45;30;12;47;15;24;21;24;26;31;34;37;37;10;10;14;26;18;34;23;10;16;32;31;14;24;34;25;49;39;45;41;41;58;31;5;8;37;29;19;24;26;29;34;60;45
               firstWeek: 2023-03-12Z
               stars: 907
               license: BSD 3-Clause "New" or "Revised" License
               description: Gaffer is a node-based application for lookdev, lighting and automation
-              latest_commit_date: '2024-03-04T12:28:08Z'
-              latest_commit_link: /GafferHQ/gaffer/commit/3afc4c2919efe09c755f13a4c596efa27494b683
-              release_date: '2024-02-23T15:10:33Z'
+              latest_commit_date: '2024-03-05T18:37:51Z'
+              latest_commit_link: /GafferHQ/gaffer/commit/550ceaef34e7534dcd22831e2a807100312f8806
+              release_date: '2024-03-05T18:42:08Z'
               release_link: https://github.com/GafferHQ/gaffer/releases
               contributors_count: 61
               contributors_link: https://github.com/GafferHQ/gaffer/graphs/contributors
@@ -4522,7 +4523,7 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 8594693
+                  value: 8604766
                   color: '#f34b7d'
                 - name: QML
                   value: 524270
@@ -4551,18 +4552,18 @@ landscape:
                   value: 1966
                   color: '#555555'
               contributions: >-
-                51;48;47;62;43;54;23;35;61;33;33;54;42;35;40;30;15;31;46;64;56;32;48;49;30;40;27;20;22;47;36;40;43;41;62;46;24;26;27;22;19;26;17;29;58;54;50;64;55;40;27;32
+                53;47;46;65;45;44;24;45;52;37;34;50;41;38;45;22;17;33;50;62;54;37;46;46;29;39;30;15;26;49;36;37;42;46;68;39;16;34;21;23;27;18;29;26;52;56;50;76;39;44;23;41
               firstWeek: 2023-03-12Z
-              stars: 2705
+              stars: 2707
               license: GNU General Public License v3.0
               description: Free and open source video editor, based on MLT Framework and KDE Frameworks 5
-              latest_commit_date: '2024-03-05T01:18:11Z'
-              latest_commit_link: /KDE/kdenlive/commit/93eb67e7245492b7feacad31720441a410a90cd1
+              latest_commit_date: '2024-03-06T01:17:57Z'
+              latest_commit_link: /KDE/kdenlive/commit/3b1dcbce58c9a24acd69dd221883b8fbf9dbd4a1
               contributors_count: 173
               contributors_link: https://github.com/KDE/kdenlive/graphs/contributors
             repos:
               - url: https://github.com/KDE/kdenlive
-                stars: 2705
+                stars: 2707
             github_start_commit_data:
               start_commit_link: /KDE/kdenlive/commit/1ecbd5b62783247938e9873868e6ce625ef23b6c
               start_date: '2007-12-29T20:13:27Z'
@@ -4600,8 +4601,8 @@ landscape:
             github_data:
               description: https://olivevideoeditor.org
               contributors_count: 257
-              contributions: 11;13;4;1;1;1;0;17;7;0;0;3;1;7;0;0;0;0;0;0;0;0;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0
-              stars: 7699
+              contributions: 14;10;4;1;1;1;0;24;0;0;0;4;0;7;0;0;0;0;0;0;0;0;0;0;0;0;3;1;1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0
+              stars: 7701
               languages:
                 - name: C++
                   value: 18014854
@@ -4663,7 +4664,7 @@ landscape:
               contributors_link: https://github.com/olive-editor/olive/graphs/contributors
             repos:
               - url: https://github.com/olive-editor/olive
-                stars: 7694
+                stars: 7696
               - url: https://github.com/olive-editor/core
                 stars: 3
               - url: https://github.com/olive-editor/OpenColorIO
@@ -4741,8 +4742,9 @@ landscape:
             github_data:
               description: An open-source interoperability standard for tools and content management systems used in media production.
               contributors_count: 405
-              contributions: 12;21;16;23;26;27;22;8;20;20;13;16;15;13;9;9;7;18;10;17;3;17;23;14;18;23;30;11;32;17;32;19;31;1;17;15;15;17;25;7;11;5;0;25;5;4;14;13;10;16;12;15
-              stars: 308
+              contributions: >-
+                13;22;12;29;29;26;19;6;24;15;13;15;21;10;9;5;10;15;15;14;1;22;25;13;26;19;27;15;21;27;25;19;28;1;19;13;22;12;23;7;12;4;1;26;4;3;15;12;11;15;16;11
+              stars: 309
               languages:
                 - name: Python
                   value: 9606748
@@ -4830,7 +4832,7 @@ landscape:
               contributors_link: https://github.com/OpenAssetIO/OpenAssetIO/graphs/contributors
             repos:
               - url: https://github.com/OpenAssetIO/OpenAssetIO
-                stars: 253
+                stars: 254
               - url: https://github.com/OpenAssetIO/usdOpenAssetIOResolver
                 stars: 20
               - url: https://github.com/OpenAssetIO/otio-openassetio
@@ -4960,7 +4962,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 13851184
+                  value: 13851236
                   color: '#3572A5'
                 - name: Mathematica
                   value: 876626
@@ -4999,13 +5001,13 @@ landscape:
                   value: 539
                   color: '#00a6a6'
               contributions: >-
-                129;237;275;253;163;140;131;68;170;147;112;164;155;121;98;148;138;151;126;100;76;166;101;43;118;223;164;115;136;150;219;161;202;146;172;158;137;131;77;144;95;88;23;71;69;62;78;53;53;21;23;4
+                135;243;241;254;164;135;122;79;170;147;127;164;146;106;109;150;140;140;133;92;80;170;88;61;115;255;122;125;126;173;196;186;204;138;175;171;124;112;80;157;73;78;35;63;80;61;67;54;53;26;14;5
               firstWeek: 2023-03-12Z
               stars: 273
               license: MIT License
               description: Main OpenPype repository and AYON openpype addon codebase
-              latest_commit_date: '2024-03-04T15:48:15Z'
-              latest_commit_link: /ynput/OpenPype/commit/edfc7156b078b808b5fba9485bde4f1b4036501a
+              latest_commit_date: '2024-03-05T11:01:59Z'
+              latest_commit_link: /ynput/OpenPype/commit/3a3b535001460d4e20cbccc3e05ca265872c4037
               release_date: '2024-02-20T13:05:46Z'
               release_link: https://github.com/ynput/OpenPype/releases
               contributors_count: 105
@@ -5079,7 +5081,7 @@ landscape:
                 - name: Batchfile
                   value: 234
                   color: '#C1F12E'
-              contributions: 0;0;0;5;5;8;1;1;3;0;2;0;5;10;4;1;0;2;3;5;3;1;0;0;2;0;0;0;1;8;1;4;3;0;1;2;1;2;0;2;2;5;0;6;4;12;12;0;12;0;0;11
+              contributions: 0;0;2;7;1;8;1;4;0;1;1;0;6;11;2;1;0;2;3;5;3;1;0;2;0;0;0;1;2;6;2;4;2;0;3;0;3;0;0;2;4;3;0;6;6;10;12;3;9;0;3;8
               firstWeek: 2023-03-12Z
               stars: 476
               license: Eclipse Public License 1.0
@@ -5140,7 +5142,7 @@ landscape:
                   color: '#3572A5'
                 - name: CMake
                   value: 25289
-              contributions: 2;2;0;0;0;0;0;0;0;7;2;3;0;0;2;1;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 2;2;0;0;0;0;0;0;0;7;2;3;0;0;3;0;0;1;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 46
               license: Other
@@ -5256,7 +5258,7 @@ landscape:
                 - name: Shell
                   value: 6021
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;2;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;2;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 69
               license: Apache License 2.0
@@ -5330,9 +5332,9 @@ landscape:
                 - name: JavaScript
                   value: 7024
                   color: '#f1e05a'
-              contributions: 3;6;10;0;1;0;3;2;5;0;0;0;0;1;0;0;3;1;1;1;1;1;0;1;0;0;0;1;0;0;0;0;1;0;2;4;13;4;2;6;0;0;0;2;0;3;2;0;0;0;0;0
+              contributions: 6;8;5;0;1;3;0;5;2;0;0;0;0;1;0;3;0;1;1;1;2;0;0;1;0;0;0;1;0;0;0;1;0;0;3;3;13;4;4;4;0;0;2;0;0;3;2;0;0;0;0;0
               firstWeek: 2023-03-12Z
-              stars: 2973
+              stars: 2974
               license: Other
               description: Managed software installation for macOS —
               latest_commit_date: '2024-01-24T22:39:06Z'
@@ -5343,7 +5345,7 @@ landscape:
               contributors_link: https://github.com/munki/munki/graphs/contributors
             repos:
               - url: https://github.com/munki/munki
-                stars: 2973
+                stars: 2974
             github_start_commit_data:
               start_commit_link: /munki/munki/commit/456efb8289f2e397a4139e6cca9b3d668b19212c
               start_date: '2009-01-14T21:31:03Z'
@@ -5397,9 +5399,9 @@ landscape:
                 - name: Batchfile
                   value: 348
                   color: '#C1F12E'
-              contributions: 0;0;0;2;0;9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;2;5;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
-              stars: 464
+              stars: 465
               license: Other
               description: Python in Maya Done Right
               latest_commit_date: '2023-04-12T15:48:35Z'
@@ -5408,7 +5410,7 @@ landscape:
               contributors_link: https://github.com/LumaPictures/pymel/graphs/contributors
             repos:
               - url: https://github.com/LumaPictures/pymel
-                stars: 464
+                stars: 465
             github_start_commit_data:
               start_commit_link: /LumaPictures/pymel/commit/03474c16b97544dbf29afa6f895fede51b3fb39c
               start_date: '2007-11-16T21:07:21Z'
@@ -5610,13 +5612,13 @@ landscape:
                 - name: Batchfile
                   value: 13
                   color: '#C1F12E'
-              contributions: 0;0;3;0;1;0;2;0;0;0;3;0;1;0;0;0;0;0;0;4;0;1;0;0;1;1;7;5;0;1;0;0;1;2;0;14;4;5;4;1;2;0;1;2;0;0;5;3;8;5;1;2
+              contributions: 0;0;3;1;0;0;2;0;0;0;3;0;1;0;0;0;0;0;2;2;0;1;0;0;1;1;7;5;0;1;0;0;1;2;0;14;4;6;3;1;2;1;0;2;0;0;5;3;9;4;1;3
               firstWeek: 2023-03-12Z
               stars: 876
               license: Apache License 2.0
               description: An integrated package configuration, build and deployment system for software
-              latest_commit_date: '2024-03-05T02:36:53Z'
-              latest_commit_link: /AcademySoftwareFoundation/rez/commit/5d82dd04414dbe7776991e2328247991deefd65b
+              latest_commit_date: '2024-03-06T00:55:45Z'
+              latest_commit_link: /AcademySoftwareFoundation/rez/commit/153bd87c8a983e5902b92abd3487c2f3357dbc5b
               release_date: '2024-02-08T23:50:02Z'
               release_link: https://github.com/AcademySoftwareFoundation/rez/releases
               contributors_count: 77
@@ -6137,7 +6139,7 @@ landscape:
                   color: '#C1F12E'
               contributions: 0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
-              stars: 449
+              stars: 450
               license: Apache License 2.0
               description: Real-time GPU path tracing with a USD Hydra render delegate
               latest_commit_date: '2023-07-20T19:00:51Z'
@@ -6148,7 +6150,7 @@ landscape:
               contributors_link: https://github.com/Autodesk/Aurora/graphs/contributors
             repos:
               - url: https://github.com/Autodesk/Aurora
-                stars: 449
+                stars: 450
             github_start_commit_data:
               start_commit_link: /Autodesk/Aurora/commit/7badafee0f72bee7550a774085535d690947d59e
               start_date: '2022-06-24T01:55:14Z'
@@ -6493,7 +6495,7 @@ landscape:
                 - name: PowerShell
                   value: 685
                   color: '#012456'
-              contributions: 22;8;0;3;1;3;5;19;9;8;4;4;12;1;5;6;1;2;3;7;7;4;1;0;0;6;5;5;4;11;1;3;0;2;0;0;0;2;0;5;1;0;0;3;16;9;0;4;18;0;0;0
+              contributions: 22;6;0;3;1;5;8;14;12;7;4;4;10;2;5;5;3;0;4;9;6;2;1;0;0;6;6;4;9;6;1;3;2;0;0;0;2;0;2;3;1;0;0;5;16;7;1;3;18;0;0;0
               firstWeek: 2023-03-12Z
               stars: 2233
               license: Apache License 2.0
@@ -6605,9 +6607,9 @@ landscape:
                 - name: Batchfile
                   value: 1557
                   color: '#C1F12E'
-              contributions: 4;12;9;3;9;11;8;3;2;1;10;7;1;6;8;9;6;17;18;20;7;1;1;7;18;13;9;11;2;3;13;27;8;5;2;1;3;4;4;3;2;7;2;12;6;9;7;11;14;4;6;0
+              contributions: 4;17;4;4;9;11;7;3;2;2;11;5;1;7;7;11;4;22;22;13;6;0;1;11;16;15;7;10;1;6;11;27;10;3;1;1;5;3;4;2;5;4;3;11;6;10;7;10;15;4;5;1
               firstWeek: 2023-03-12Z
-              stars: 1973
+              stars: 1974
               license: Apache License 2.0
               description: MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.
               latest_commit_date: '2024-02-26T17:01:47Z'
@@ -6618,7 +6620,7 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/MaterialX/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/MaterialX
-                stars: 1694
+                stars: 1695
               - url: https://github.com/AcademySoftwareFoundation/OpenPBR
                 stars: 277
               - url: https://github.com/AcademySoftwareFoundation/materialx-website
@@ -6677,9 +6679,9 @@ landscape:
                 - name: Dockerfile
                   value: 1030
                   color: '#384d54'
-              contributions: 0;6;1;1;2;0;3;1;0;0;1;1;0;0;3;1;2;0;2;2;0;1;0;1;0;0;0;0;0;0;0;0;1;0;1;1;0;0;0;0;0;1;0;0;2;1;0;0;0;2;0;0
+              contributions: 1;5;2;0;2;0;4;0;0;0;1;1;0;0;4;0;2;1;1;2;0;1;1;0;0;0;0;0;0;0;0;0;1;0;1;1;0;0;0;0;0;1;0;0;2;1;0;0;1;1;0;0
               firstWeek: 2023-03-12Z
-              stars: 4053
+              stars: 4061
               license: Apache License 2.0
               description: MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer.
               latest_commit_date: '2024-02-15T17:23:21Z'
@@ -6690,7 +6692,7 @@ landscape:
               contributors_link: https://github.com/dreamworksanimation/openmoonray/graphs/contributors
             repos:
               - url: https://github.com/dreamworksanimation/openmoonray
-                stars: 4053
+                stars: 4061
             github_start_commit_data:
               start_commit_link: /dreamworksanimation/openmoonray/commit/9b629e0999bfe2394ad56d31c3314c5199c4db3c
               start_date: '2023-03-14T22:24:47Z'
@@ -6796,9 +6798,9 @@ landscape:
                 - name: Batchfile
                   value: 208
                   color: '#C1F12E'
-              contributions: 0;0;0;0;0;1;0;1;0;0;0;1;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;1;1;0;1;0;0
+              contributions: 0;0;0;0;1;0;0;1;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;1;0;1;0;1;0;1;0;0
               firstWeek: 2023-03-12Z
-              stars: 463
+              stars: 464
               license: Other
               description: NVIDIA Material Definition Language SDK
               latest_commit_date: '2024-02-20T14:19:25Z'
@@ -6809,7 +6811,7 @@ landscape:
               contributors_link: https://github.com/NVIDIA/MDL-SDK/graphs/contributors
             repos:
               - url: https://github.com/NVIDIA/MDL-SDK
-                stars: 463
+                stars: 464
             github_start_commit_data:
               start_commit_link: /NVIDIA/MDL-SDK/commit/dbe16f8b0ed0339ba77fa4f9f65a018e9fbed6c8
               start_date: '2018-08-09T14:30:09Z'
@@ -7074,8 +7076,8 @@ landscape:
             github_data:
               description: High-Performance Denoising Library for Ray Tracing
               contributors_count: 146
-              contributions: 3;9;10;6;18;13;9;14;16;22;42;21;9;8;8;13;12;12;5;1;0;6;6;1;0;0;0;0;1;26;20;15;10;4;0;4;14;15;1;0;5;2;0;2;1;0;15;11;9;7;9;5
-              stars: 1660
+              contributions: 4;6;10;7;20;11;10;16;16;20;48;13;14;4;8;13;13;11;5;0;0;6;6;1;0;0;0;0;3;28;18;16;9;2;0;7;17;9;1;0;6;1;0;2;1;0;16;12;9;7;9;3
+              stars: 1662
               languages:
                 - name: C++
                   value: 20859060
@@ -7122,7 +7124,7 @@ landscape:
               contributors_link: https://github.com/OpenImageDenoise/oidn/graphs/contributors
             repos:
               - url: https://github.com/OpenImageDenoise/oidn
-                stars: 1634
+                stars: 1636
               - url: https://github.com/OpenImageDenoise/OpenImageDenoise.github.io
                 stars: 15
               - url: https://github.com/OpenImageDenoise/mkl-dnn
@@ -7227,7 +7229,7 @@ landscape:
                   color: '#563d7c'
                 - name: GLSL
                   value: 939
-              contributions: 2;4;4;2;3;5;2;0;6;4;1;3;3;3;7;1;0;0;0;1;0;0;1;6;4;2;3;4;1;4;8;0;0;5;1;0;6;0;3;0;0;3;3;0;2;1;1;1;0;4;4;3
+              contributions: 2;4;4;2;6;2;2;3;3;4;2;2;4;3;7;0;0;0;0;1;0;0;1;6;4;2;5;2;2;7;4;0;0;5;1;0;6;1;2;0;0;3;3;0;2;2;0;1;0;4;4;3
               firstWeek: 2023-03-12Z
               stars: 1986
               license: BSD 3-Clause "New" or "Revised" License
@@ -7337,9 +7339,9 @@ landscape:
                 - name: Python
                   value: 221057
                   color: '#3572A5'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;20;37;2;5;1;5;0;0;0;0;0;0;0;0;0;0;3;2;0;0;0;0;0;0;0;0;0;7;1;4;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;33;24;5;2;1;5;0;0;0;0;0;0;0;0;0;0;3;2;0;0;0;0;0;0;0;0;0;8;0;4;0;0
               firstWeek: 2023-03-12Z
-              stars: 226
+              stars: 227
               license: Apache License 2.0
               description: QuiltiX is a graphical node editor to edit, and author MaterialX based materials of 3D assets
               latest_commit_date: '2024-02-16T18:25:37Z'
@@ -7350,7 +7352,7 @@ landscape:
               contributors_link: https://github.com/PrismPipeline/QuiltiX/graphs/contributors
             repos:
               - url: https://github.com/PrismPipeline/QuiltiX
-                stars: 226
+                stars: 227
             github_start_commit_data:
               start_commit_link: /PrismPipeline/QuiltiX/commit/c68be8d3e842c5d7c6027fc3b1155b73cbad7f72
               start_date: '2023-07-30T11:23:16Z'
@@ -7388,7 +7390,7 @@ landscape:
                 - name: Python
                   value: 3022
                   color: '#3572A5'
-              contributions: 18;6;13;87;22;20;14;9;0;0;0;0;0;0;0;2;21;25;37;118;43;19;3;0;0;0;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 13;6;26;78;20;19;16;6;0;0;0;0;0;0;0;2;30;16;48;107;47;15;3;0;0;0;0;0;0;4;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 582
               license: Mozilla Public License 2.0
@@ -7445,7 +7447,7 @@ landscape:
                   value: 1410438
                   color: '#3572A5'
                 - name: JavaScript
-                  value: 1003536
+                  value: 1009186
                   color: '#f1e05a'
                 - name: QML
                   value: 261160
@@ -7457,7 +7459,7 @@ landscape:
                   value: 80530
                   color: '#4F5D95'
                 - name: CSS
-                  value: 79884
+                  value: 80528
                   color: '#563d7c'
                 - name: HTML
                   value: 70016
@@ -7484,13 +7486,13 @@ landscape:
                 - name: Makefile
                   value: 405
                   color: '#427819'
-              contributions: 6;2;5;11;0;9;3;2;6;6;4;1;0;1;0;0;0;4;0;0;0;5;0;1;3;2;2;6;8;13;1;1;5;2;1;0;5;0;0;0;0;0;1;0;3;6;10;11;10;5;3;0
+              contributions: 6;2;5;11;3;6;3;3;5;7;3;1;0;1;0;0;0;4;0;0;0;5;0;1;3;2;2;8;10;9;1;1;5;3;0;0;5;0;0;0;0;1;0;0;5;5;12;13;9;1;3;2
               firstWeek: 2023-03-12Z
               stars: 274
               license: GNU Lesser General Public License v3.0
               description: CGRU - AFANASY
-              latest_commit_date: '2024-02-21T16:41:48Z'
-              latest_commit_link: /CGRU/cgru/commit/91f328b17d33a6aa3c7a35054da8e55ddd9a1a93
+              latest_commit_date: '2024-03-05T16:38:23Z'
+              latest_commit_link: /CGRU/cgru/commit/c5f8ed898cf65b313e00285a2c8f4fa7f6bf3726
               release_date: '2023-03-12T16:39:29Z'
               release_link: https://github.com/CGRU/cgru/releases
               contributors_count: 75
@@ -7564,11 +7566,11 @@ landscape:
             github_data:
               description: ''
               contributors_count: 20
-              contributions: 1;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;4;10;11;2;0;2;2;7;7;3;0;2;2;2;2;21;5;1;13;14;6;15;42;16;21;1
-              stars: 76
+              contributions: 1;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;6;5;12;1;0;2;3;6;10;0;1;1;2;3;2;20;6;0;16;11;7;17;50;6;21;3
+              stars: 77
               languages:
                 - name: Python
-                  value: 1352642
+                  value: 1383661
                   color: '#3572A5'
                 - name: Shell
                   value: 13293
@@ -7576,9 +7578,6 @@ landscape:
                 - name: Dockerfile
                   value: 6113
                   color: '#384d54'
-                - name: PowerShell
-                  value: 189
-                  color: '#012456'
               latest_commit_link: /OpenJobDescription/openjd-specifications/commit/1692bd4f3d1a46bfa3c2ccfd24329f4ed7510224
               latest_commit_date: '2024-02-26T20:39:41Z'
               firstWeek: 2023-03-12Z
@@ -7586,7 +7585,7 @@ landscape:
               contributors_link: https://github.com/OpenJobDescription/openjd-specifications/graphs/contributors
             repos:
               - url: https://github.com/OpenJobDescription/openjd-specifications
-                stars: 52
+                stars: 53
               - url: https://github.com/OpenJobDescription/openjd-cli
                 stars: 9
               - url: https://github.com/OpenJobDescription/openjd-model-for-python
@@ -7656,10 +7655,10 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 3382501
+                  value: 3383873
                   color: '#3572A5'
                 - name: Java
-                  value: 2367610
+                  value: 2367912
                   color: '#b07219'
                 - name: PLpgSQL
                   value: 138268
@@ -7682,13 +7681,13 @@ landscape:
                 - name: CSS
                   value: 1604
                   color: '#563d7c'
-              contributions: 0;1;3;0;0;1;0;0;0;0;0;0;1;1;2;0;0;0;5;0;0;0;1;0;0;0;0;0;0;4;2;0;0;0;0;3;0;0;0;0;0;0;0;0;0;2;1;2;1;2;0;0
+              contributions: 0;4;0;0;0;1;0;0;0;0;0;1;0;1;2;0;0;0;5;0;0;0;1;0;0;0;0;0;0;6;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;2;3;0;1;2;0;1
               firstWeek: 2023-03-12Z
               stars: 818
               license: Apache License 2.0
               description: A render management system you can deploy for visual effects and animation productions.
-              latest_commit_date: '2024-02-16T15:54:52Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/3ce95a9367cca12153406c807243a31f26545e88
+              latest_commit_date: '2024-03-05T17:35:34Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/0d3cc6900af64dab98f63aa8dd64deb88644df50
               release_date: '2023-07-13T18:31:16Z'
               release_link: https://github.com/AcademySoftwareFoundation/OpenCue/releases
               contributors_count: 48
@@ -7763,7 +7762,7 @@ landscape:
                 - name: Shell
                   value: 172
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
               stars: 302
               license: BSD 3-Clause "New" or "Revised" License
@@ -7855,7 +7854,7 @@ landscape:
                 - name: HTML
                   value: 3350
                   color: '#e34c26'
-              contributions: 1;8;0;0;1;1;0;1;3;1;0;0;0;1;7;0;0;0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;10;1;0;4;0;0;0;0;0;0;2;3;0;0;8;0
+              contributions: 1;8;0;1;0;1;0;2;3;0;0;0;1;0;7;0;0;0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;10;1;0;4;0;0;0;0;0;0;4;1;0;0;8;0
               firstWeek: 2023-03-12Z
               stars: 369
               license: Other
@@ -7935,7 +7934,7 @@ landscape:
                 - name: Mathematica
                   value: 674029
                 - name: CMake
-                  value: 299140
+                  value: 299438
                 - name: Cuda
                   value: 275844
                   color: '#3A4E3A'
@@ -7955,7 +7954,7 @@ landscape:
                   value: 47887
                   color: '#e34c26'
                 - name: Python
-                  value: 45339
+                  value: 45340
                   color: '#3572A5'
                 - name: Yacc
                   value: 24927
@@ -7974,13 +7973,13 @@ landscape:
                 - name: QML
                   value: 1098
                   color: '#44a51c'
-              contributions: 1;0;1;0;3;2;0;1;3;3;0;4;1;2;0;3;0;4;3;8;6;12;0;1;6;1;3;0;4;2;11;17;7;15;14;0;0;0;0;6;5;8;0;2;12;7;9;3;0;2;0;0
+              contributions: 1;0;1;2;3;0;0;4;0;3;0;4;3;0;0;3;2;5;5;4;6;11;1;0;6;3;1;0;5;3;15;16;11;13;7;0;0;0;1;8;7;3;0;6;8;12;5;2;1;2;3;0
               firstWeek: 2023-03-12Z
               stars: 2389
               license: Mozilla Public License 2.0
               description: OpenVDB - Sparse volume data structure and tools
-              latest_commit_date: '2024-02-15T00:30:39Z'
-              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/9ae369e7abbb649f8b98d45eb349b908f66166f1
+              latest_commit_date: '2024-03-06T02:47:57Z'
+              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/0c1727fdfb767f482ffdedeb6443f93516a115f8
               release_date: '2023-11-01T23:28:55Z'
               release_link: https://github.com/AcademySoftwareFoundation/openvdb/releases
               contributors_count: 55
@@ -8058,7 +8057,7 @@ landscape:
                 - name: Dockerfile
                   value: 149
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;5
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;5
               firstWeek: 2023-03-12Z
               stars: 443
               license: Other
@@ -8190,9 +8189,9 @@ landscape:
                 - name: Makefile
                   value: 5001
                   color: '#427819'
-              contributions: 1;0;0;0;0;1;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;1;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-03-12Z
-              stars: 11690
+              stars: 11697
               license: Other
               description: 'Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.'
               latest_commit_date: '2023-11-28T22:23:32Z'
@@ -8203,7 +8202,7 @@ landscape:
               contributors_link: https://github.com/bulletphysics/bullet3/graphs/contributors
             repos:
               - url: https://github.com/bulletphysics/bullet3
-                stars: 11690
+                stars: 11697
             github_start_commit_data:
               start_commit_link: /bulletphysics/bullet3/commit/e061ec1ebfbf3fd331e8a01ba2b05be123884639
               start_date: '2006-05-25T19:18:29Z'
@@ -8255,26 +8254,26 @@ landscape:
                   value: 2628995
                   color: '#f34b7d'
                 - name: C#
-                  value: 596413
+                  value: 595655
                   color: '#178600'
                 - name: JavaScript
                   value: 294245
                   color: '#f1e05a'
                 - name: Python
-                  value: 222895
+                  value: 224011
                   color: '#3572A5'
                 - name: Jinja
                   value: 141972
                 - name: Mustache
-                  value: 134742
+                  value: 134762
                 - name: Lua
-                  value: 41932
+                  value: 43243
                   color: '#000080'
                 - name: C
                   value: 12787
                   color: '#555555'
                 - name: Shell
-                  value: 8256
+                  value: 9029
                   color: '#89e051'
                 - name: Batchfile
                   value: 4971
@@ -8288,14 +8287,14 @@ landscape:
                 - name: PowerShell
                   value: 434
                   color: '#012456'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;56;61;43;23;49;60;44;21;16;22;3;18;23;8;14;9;4;5;6;4;3;10;5;8;4;7;0;0;5;2;2;9;8;1;6;2;1
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;70;55;40;35;36;59;44;16;23;13;6;18;21;10;13;8;3;8;4;3;4;10;7;6;4;6;0;0;5;2;3;8;8;6;3;0;4
               firstWeek: 2023-03-12Z
               stars: 76
               license: Apache License 2.0
               description: '"An interoperable communication library for the spatial internet."'
-              latest_commit_date: '2024-03-01T17:23:30Z'
-              latest_commit_link: /magnopus-opensource/connected-spaces-platform/commit/6a141782579c7b59855d09a10415dfade31fab1c
-              release_date: '2024-02-13T14:58:35Z'
+              latest_commit_date: '2024-03-05T14:36:10Z'
+              latest_commit_link: /magnopus-opensource/connected-spaces-platform/commit/67eaec22e2b6acda4d0c6323b1cbc24893bb8559
+              release_date: '2024-03-05T11:59:11Z'
               release_link: https://github.com/magnopus-opensource/connected-spaces-platform/releases
               contributors_count: 21
               contributors_link: https://github.com/magnopus-opensource/connected-spaces-platform/graphs/contributors
@@ -8474,20 +8473,20 @@ landscape:
                   value: 38
                   color: '#aa2afe'
               contributions: >-
-                68;73;80;70;62;96;105;58;65;51;71;65;67;57;72;73;43;59;54;36;45;38;34;38;61;11;55;52;51;56;47;77;64;44;34;18;49;28;56;92;57;15;11;61;39;19;40;22;18;47;18;9
+                67;76;81;72;65;95;98;57;59;67;70;64;52;70;76;63;34;62;54;32;51;33;37;46;53;11;55;60;50;51;58;76;54;40;33;22;45;29;71;93;40;18;14;62;31;20;45;19;27;37;16;10
               firstWeek: 2023-03-12Z
-              stars: 4442
+              stars: 4443
               license: Other
               description: The public CGAL repository, see the README below
-              latest_commit_date: '2024-03-04T09:32:53Z'
-              latest_commit_link: /CGAL/cgal/commit/e7158f6e98511a64998f0444405a605ae21736ac
+              latest_commit_date: '2024-03-05T12:13:25Z'
+              latest_commit_link: /CGAL/cgal/commit/b34d9d6808e661adc3db62e02dcc1f30f32b8486
               release_date: '2024-02-28T13:42:19Z'
               release_link: https://github.com/CGAL/cgal/releases
               contributors_count: 294
               contributors_link: https://github.com/CGAL/cgal/graphs/contributors
             repos:
               - url: https://github.com/CGAL/cgal
-                stars: 4442
+                stars: 4443
             github_start_commit_data:
               start_commit_link: /CGAL/cgal/commit/43dff0ce60d6af9a97582d175ba401b4dd1c0f5c
               start_date: '1995-08-09T16:58:01Z'
@@ -8688,7 +8687,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 10
-              contributions: 0;0;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;31;11;0;0;1;0;3;1;1;0;0;8;0;1;0;6;4;10;1;0;0;0;0;0;0;0;0;0;0;2;12;5
+              contributions: 0;0;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;31;11;0;1;0;3;0;1;1;0;0;8;0;1;0;6;4;10;1;0;0;0;0;0;0;0;0;0;0;2;12;5
               stars: 227
               languages:
                 - name: C++
@@ -12098,7 +12097,7 @@ landscape:
                   color: '#185619'
                 - name: QMake
                   value: 237
-              contributions: 0;3;0;2;0;2;6;5;0;5;1;2;5;4;0;4;0;0;0;2;0;0;15;4;0;0;0;2;0;0;0;2;0;0;0;6;0;0;0;2;0;0;0;2;0;0;0;20;0;0;6;2
+              contributions: 3;0;0;2;0;2;8;3;0;6;0;2;6;3;0;4;0;0;0;2;0;0;16;3;0;0;0;2;0;0;0;2;0;0;0;6;0;0;0;2;0;0;0;2;0;0;0;20;0;3;3;2
               firstWeek: 2023-03-12Z
               stars: 146
               license: Creative Commons Attribution 4.0 International
@@ -12176,4 +12175,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-03-06T03:48:58.915Z
+updated_at: 2024-03-06T03:57:09.010Z
