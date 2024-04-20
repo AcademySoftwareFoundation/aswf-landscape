@@ -411,7 +411,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;0;2;1;8;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;1;2;7;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-04-23Z
               stars: 137
               license: Unknown License
@@ -8979,6 +8979,62 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-20T22:45:31.000Z
           - item:
+            name: Advanced Micro Devices (AMD)
+            homepage_url: https://amd.com/
+            logo: advanced_micro_devices_amd.svg
+            twitter: https://twitter.com/AMD
+            crunchbase: https://www.crunchbase.com/organization/amd
+            crunchbase_data:
+              name: AMD
+              description: Advanced Micro Devices (AMD) is a semiconductor company that designs and develops graphics units, processors, and media solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.amd.com
+              city: Santa Clara
+              region: California
+              country: United States
+              twitter: https://www.twitter.com/amd
+              linkedin: https://www.linkedin.com/company/amd
+              acquisitions:
+                - date: '2002-02-06'
+                  acquiree: Alchemy Semiconductor
+                - date: '2006-07-24'
+                  acquiree: ATI Technologies
+                - date: '2012-02-29'
+                  acquiree: SeaMicro
+                - date: '2016-06-29'
+                  acquiree: HiAlgo
+                - date: '2017-04-10'
+                  acquiree: Nitero
+                - date: '2020-10-27'
+                  acquiree: Xilinx
+                - date: '2022-04-04'
+                  acquiree: AMD Pensando
+                - date: '2023-08-24'
+                  acquiree: Mipsology
+                - date: '2023-10-10'
+                  acquiree: Nod
+              parents: []
+              ticker: AMD
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Cloud Computing
+                - Computer
+                - Embedded Systems
+                - GPU
+                - Hardware
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: AMD
+            image_data:
+              fileName: advanced-micro-devices-amd.svg
+              hash: 2Za4zJY0wFoO5LflFP238qc7drUBfIwmuqMPxhAaABo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: Amazon Web Services, Inc.
             homepage_url: https://amazon.com/
             logo: amazon_web_services_inc.svg
@@ -12185,4 +12241,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-04-19T04:23:28.531Z
+updated_at: 2024-04-20T04:13:44.431Z
