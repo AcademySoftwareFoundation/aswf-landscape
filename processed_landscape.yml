@@ -1554,6 +1554,117 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Video Multi-Method Assessment Fusion (VMAF)
+            homepage_url: https://github.com/Netflix/vmaf
+            project: null
+            repo_url: https://github.com/Netflix/vmaf
+            license: BSD-2-Clause Plus Patent License
+            logo: vmaf.svg
+            crunchbase: https://www.crunchbase.com/organization/netflix
+            crunchbase_data:
+              name: Netflix
+              description: Netflix is an online streaming platform that enables users to watch TV shows and movies.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.netflix.com
+              city: Los Gatos
+              region: California
+              country: United States
+              twitter: http://www.twitter.com/netflix
+              linkedin: https://www.linkedin.com/company/netflix
+              acquisitions:
+                - date: '2017-08-07'
+                  acquiree: Millarworld
+                - date: '2019-05-09'
+                  acquiree: StoryBots
+                - date: '2021-09-22'
+                  acquiree: The Roald Dahl Story
+                - date: '2021-09-29'
+                  acquiree: Night School Studio
+                - date: '2021-11-22'
+                  acquiree: Scanline VFX
+                - date: '2022-03-02'
+                  acquiree: Next Games
+                - date: '2022-03-24'
+                  acquiree: Boss Fight Entertainment
+                - date: '2022-07-19'
+                  acquiree: Animal Logic
+                - date: '2022-10-31'
+                  acquiree: Spry Fox
+              parents: []
+              ticker: NFLX
+              funding: 5007714724
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Digital Entertainment
+                - Media and Entertainment
+                - TV
+                - Video Streaming
+            github_data:
+              languages:
+                - name: Python
+                  value: 1589930
+                  color: '#3572A5'
+                - name: C
+                  value: 1534275
+                  color: '#555555'
+                - name: MATLAB
+                  value: 316888
+                  color: '#e16737'
+                - name: Cuda
+                  value: 89507
+                  color: '#3A4E3A'
+                - name: C++
+                  value: 67112
+                  color: '#f34b7d'
+                - name: Assembly
+                  value: 56666
+                  color: '#6E4C13'
+                - name: Meson
+                  value: 28915
+                  color: '#007800'
+                - name: Cython
+                  value: 5708
+                - name: Shell
+                  value: 1094
+                  color: '#89e051'
+                - name: Makefile
+                  value: 604
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 528
+                  color: '#384d54'
+              contributions: 0;1;0;2;0;1;1;1;8;12;4;5;3;2;2;1;1;1;0;5;0;0;3;7;7;12;0;0;10;7;0;0;2;1;6;2;3;3;1;0;3;2;2;5;0;0;0;8;0;0;0;0
+              firstWeek: 2023-05-28Z
+              stars: 4254
+              license: BSD-2-Clause Plus Patent License
+              description: Perceptual video quality assessment based on multi-method fusion.
+              latest_commit_date: '2024-04-30T16:28:01Z'
+              latest_commit_link: /Netflix/vmaf/commit/b24c3d685617e7a38b1521a2731d360240f13081
+              release_date: '2023-12-07T19:38:28Z'
+              release_link: https://github.com/Netflix/vmaf/releases
+              contributors_count: 86
+              contributors_link: https://github.com/Netflix/vmaf/graphs/contributors
+            repos:
+              - url: https://github.com/Netflix/vmaf
+                stars: 4241
+              - url: https://github.com/Netflix/vmaf_resource
+                stars: 13
+            github_start_commit_data:
+              start_commit_link: /Netflix/vmaf/commit/c35b50e4de2665d9bc399ea3f601929f846e3723
+              start_date: '2016-01-30T07:51:38Z'
+            yahoo_finance_data:
+              effective_ticker: NFLX
+            image_data:
+              fileName: video-multi-method-assessment-fusion-vmaf.svg
+              hash: U6mQRswdVh2icoutyQ0QqELN9Wv4tRPfA1T29gn8oFg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T00:30:02.000Z
       - subcategory:
         name: Display and Review
         items:
@@ -3190,6 +3301,8 @@ landscape:
                   acquiree: Payapps
                 - date: '2024-02-05'
                   acquiree: PIX System
+                - date: '2024-05-21'
+                  acquiree: Wonder Dynamics
               parents: []
               ticker: ADSK
               funding: 0
@@ -6109,6 +6222,8 @@ landscape:
                   acquiree: Payapps
                 - date: '2024-02-05'
                   acquiree: PIX System
+                - date: '2024-05-21'
+                  acquiree: Wonder Dynamics
               parents: []
               ticker: ADSK
               funding: 0
@@ -7985,6 +8100,94 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
+            name: OpenVPCal
+            description: OpenVPCal is an open-source calibration tool for In-Camera Visual Effects pipelines.
+            homepage_url: https://github.com/Netflix/OpenVPCal
+            project: null
+            repo_url: https://github.com/Netflix/OpenVPCal
+            logo: openvpcal.svg
+            crunchbase: https://www.crunchbase.com/organization/netflix
+            crunchbase_data:
+              name: Netflix
+              description: Netflix is an online streaming platform that enables users to watch TV shows and movies.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.netflix.com
+              city: Los Gatos
+              region: California
+              country: United States
+              twitter: http://www.twitter.com/netflix
+              linkedin: https://www.linkedin.com/company/netflix
+              acquisitions:
+                - date: '2017-08-07'
+                  acquiree: Millarworld
+                - date: '2019-05-09'
+                  acquiree: StoryBots
+                - date: '2021-09-22'
+                  acquiree: The Roald Dahl Story
+                - date: '2021-09-29'
+                  acquiree: Night School Studio
+                - date: '2021-11-22'
+                  acquiree: Scanline VFX
+                - date: '2022-03-02'
+                  acquiree: Next Games
+                - date: '2022-03-24'
+                  acquiree: Boss Fight Entertainment
+                - date: '2022-07-19'
+                  acquiree: Animal Logic
+                - date: '2022-10-31'
+                  acquiree: Spry Fox
+              parents: []
+              ticker: NFLX
+              funding: 5007714724
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Digital Entertainment
+                - Media and Entertainment
+                - TV
+                - Video Streaming
+            github_data:
+              languages:
+                - name: Python
+                  value: 1070357
+                  color: '#3572A5'
+                - name: Inno Setup
+                  value: 1906
+                - name: Batchfile
+                  value: 653
+                  color: '#C1F12E'
+                - name: Shell
+                  value: 539
+                  color: '#89e051'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;19;37;0;24;31;11;17;0;0;14;5;6;10;0;0;0;3;34;0;1;0;6;0;3;1;19;3;0;17
+              firstWeek: 2023-05-28Z
+              stars: 55
+              license: Apache License 2.0
+              description: null
+              latest_commit_date: '2024-05-17T18:41:36Z'
+              latest_commit_link: /Netflix/OpenVPCal/commit/76b225e8f35fc68828e9fd5df16cd69193e01626
+              release_date: '2024-05-17T00:35:08Z'
+              release_link: https://github.com/Netflix/OpenVPCal/releases
+              contributors_count: 3
+              contributors_link: https://github.com/Netflix/OpenVPCal/graphs/contributors
+            repos:
+              - url: https://github.com/Netflix/OpenVPCal
+                stars: 55
+            github_start_commit_data:
+              start_commit_link: /Netflix/OpenVPCal/commit/3825f1dd8dfb95b5583553c7a25ef4c53aa1d6d9
+              start_date: '2023-11-06T12:14:35Z'
+            yahoo_finance_data:
+              effective_ticker: NFLX
+            image_data:
+              fileName: open-vp-cal.svg
+              hash: nJls8gI/8Wn7mMtsT8u4j5spgzaGpOxWY80YDwxIMC0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T00:30:02.000Z
+          - item:
             name: Partio
             homepage_url: https://partio.us/
             repo_url: https://github.com/wdas/partio
@@ -9252,6 +9455,8 @@ landscape:
                   acquiree: Payapps
                 - date: '2024-02-05'
                   acquiree: PIX System
+                - date: '2024-05-21'
+                  acquiree: Wonder Dynamics
               parents: []
               ticker: ADSK
               funding: 0
@@ -12217,4 +12422,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-05-22T04:24:29.263Z
+updated_at: 2024-05-23T04:16:23.589Z
