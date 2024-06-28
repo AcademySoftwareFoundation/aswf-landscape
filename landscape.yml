@@ -534,10 +534,10 @@ landscape:
             twitter: https://twitter.com/blender
             crunchbase: https://www.crunchbase.com/organization/blender-org
           - item:
-            name: CGWire
-            homepage_url: https://www.cg-wire.com/
+            name: Kitsu
+            homepage_url: https://kitsu.cg-wire.com/
             repo_url: https://github.com/cgwire/kitsu
-            logo: cgwire.svg
+            logo: kitsu.svg
             twitter: https://twitter.com/cgwirekitsu
             crunchbase: https://www.crunchbase.com/organization/cgwire
           - item:
@@ -598,12 +598,13 @@ landscape:
             logo: OpenProductionDataIO.svg
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
           - item:
-            name: OpenPype
-            homepage_url: https://openpype.io
-            repo_url: https://github.com/ynput/OpenPype
-            logo: openpype.svg
+            name: AYON
+            homepage_url: https://ynput.io/ayon/
+            repo_url: https://github.com/ynput/ayon-core
+            logo: ayon.svg
             twitter: https://twitter.com/openpype
-            crunchbase: https://www.crunchbase.com/organization/pype-club
+            crunchbase: https://www.crunchbase.com/organization/ynput
+            project_org: https://github.com/ynput
           - item:
             name: TACTIC
             homepage_url: https://southpawtech.com/tactic-open-source/
@@ -616,6 +617,13 @@ landscape:
             repo_url: https://github.com/wdas/unf
             logo: usd-notice-framework.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
+          - item:
+            name: Prism Pipeline
+            homepage_url: https://prism-pipeline.com/
+            repo_url: https://github.com/PrismPipeline/Prism
+            logo: prism-pipeline.svg
+            organization:
+              name: Prism Software GmbH
       - subcategory:
         name: Software Foundation and System Administration
         items:
