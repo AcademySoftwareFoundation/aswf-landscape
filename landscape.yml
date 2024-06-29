@@ -527,19 +527,20 @@ landscape:
         name: Pipelines and Frameworks
         items:
           - item:
+            name: AYON
+            homepage_url: https://ynput.io/ayon/
+            repo_url: https://github.com/ynput/ayon-core
+            project_org: https://github.com/ynput
+            logo: ayon.svg
+            twitter: https://twitter.com/openpype
+            crunchbase: https://www.crunchbase.com/organization/ynput
+          - item:
             name: Blender
             homepage_url: https://www.blender.org/
             repo_url: https://github.com/blender/blender
             logo: blender.svg
             twitter: https://twitter.com/blender
             crunchbase: https://www.crunchbase.com/organization/blender-org
-          - item:
-            name: Kitsu
-            homepage_url: https://kitsu.cg-wire.com/
-            repo_url: https://github.com/cgwire/kitsu
-            logo: kitsu.svg
-            twitter: https://twitter.com/cgwirekitsu
-            crunchbase: https://www.crunchbase.com/organization/cgwire
           - item:
             name: Cortex
             homepage_url: https://github.com/ImageEngine/cortex
@@ -559,6 +560,13 @@ landscape:
             logo: kdenlive.svg
             twitter: https://twitter.com/kdecommunity
             crunchbase: https://www.crunchbase.com/organization/kde-e-v
+          - item:
+            name: Kitsu
+            homepage_url: https://kitsu.cg-wire.com/
+            repo_url: https://github.com/cgwire/kitsu
+            logo: kitsu.svg
+            twitter: https://twitter.com/cgwirekitsu
+            crunchbase: https://www.crunchbase.com/organization/cgwire
           - item:
             name: Olive Editor
             homepage_url: https://olivevideoeditor.org/
@@ -598,13 +606,12 @@ landscape:
             logo: OpenProductionDataIO.svg
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
           - item:
-            name: AYON
-            homepage_url: https://ynput.io/ayon/
-            repo_url: https://github.com/ynput/ayon-core
-            logo: ayon.svg
-            twitter: https://twitter.com/openpype
-            crunchbase: https://www.crunchbase.com/organization/ynput
-            project_org: https://github.com/ynput
+            name: Prism Pipeline
+            homepage_url: https://prism-pipeline.com/
+            repo_url: https://github.com/PrismPipeline/Prism
+            logo: prism-pipeline.svg
+            organization:
+              name: Prism Software GmbH
           - item:
             name: TACTIC
             homepage_url: https://southpawtech.com/tactic-open-source/
@@ -617,13 +624,6 @@ landscape:
             repo_url: https://github.com/wdas/unf
             logo: usd-notice-framework.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
-          - item:
-            name: Prism Pipeline
-            homepage_url: https://prism-pipeline.com/
-            repo_url: https://github.com/PrismPipeline/Prism
-            logo: prism-pipeline.svg
-            organization:
-              name: Prism Software GmbH
       - subcategory:
         name: Software Foundation and System Administration
         items:
