@@ -858,9 +858,9 @@ landscape:
             name: Continuous Integration Working Group
             description: The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to improve best
               practices and address the unique challenges we face.
-            homepage_url: https://github.com/AcademySoftwareFoundation/tac/tree/master/meetings/CI-workinggroup
+            homepage_url: https://wiki.aswf.io/display/CIWG
             project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/tac/tree/master/meetings/CI-workinggroup
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/aswf-docker
             logo: continuous_integration_working_group.svg
@@ -901,6 +901,7 @@ landscape:
               contributed_by: Academy Software Foundation
               artwork_url: https://artwork.aswf.io/working-groups/diversity-inclusion-wg/
               accepted: '2020-06-11'
+            repo_url: https://github.com/chaoss/wg-diversity-inclusion
           - item:
             second_path:
               - Imaging and Color / Color Science
@@ -932,6 +933,8 @@ landscape:
               contributed_by: Sony Pictures Imageworks
               slug: opencolorio
               accepted: '2020-04-24'
+            description: The OpenColorIO project is committed to providing an industry standard solution for highly precise, performant, and consistent color management across digital
+              content creation applications and pipelines.
           - item:
             name: RAW to ACES Utility
             second_path:
@@ -989,14 +992,15 @@ landscape:
               contributed_by: Lucasfilm
               slug: openexr
               accepted: '2020-04-24'
+            description: The goal of the OpenEXR project is to keep the format reliable and modern and to maintain its place as the preferred image format for entertainment content creation.
           - item:
             name: OpenImageIO
             second_path:
               - Imaging and Color / Image Formats, I/O, and Processing Libraries
               - Dev Days 2024 / Participating Project
-            homepage_url: https://github.com/OpenImageIO
+            homepage_url: https://openimageio.org
             project: incubating
-            repo_url: https://github.com/OpenImageIO
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
             logo: openimageio.svg
@@ -1020,6 +1024,9 @@ landscape:
               contributed_by: Larry Gritz
               slug: openimageio
               accepted: '2023-06-27'
+            project_org: https://github.com/OpenImageIO
+            description: 'The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation via a format-
+              agnostic API, with a feature set, scalability, and robustness needed for production. '
           - item:
             name: Digital Production Example Library (DPEL)
             second_path:
@@ -1044,6 +1051,10 @@ landscape:
               contributed_by: Academy Software Foundation
               slug: aswf-assets-repository
               accepted: '2021-09-02'
+            description: In order to encourage development and research that addresses the true scale, scope and requirements of computer graphics film production, the Asset Repository
+              seeks to publish and maintain curated exemplars of the data sets used in our industry. Research projects and commercial development projects often have trouble obtaining
+              input datasets with full film complexity, and that are licensed to allow publishing research results and software demonstrations. Disney’s Moana Island is a prime example
+              of what we want to encourage, but in addition to 3D scene data, assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
           - item:
             name: Open Review Initiative
             description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
@@ -1098,6 +1109,7 @@ landscape:
               contributed_by: Pixar
               artwork_url: https://artwork.aswf.io/working-groups/usd-wg/
               accepted: '2020-03-04'
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
           - item:
             name: OpenTimelineIO
             second_path:
@@ -1105,7 +1117,7 @@ landscape:
               - Dev Days 2024 / Participating Project
             homepage_url: http://opentimeline.io/
             project: incubating
-            repo_url: https://github.com/PixarAnimationStudios/OpenTimelineIO
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
             logo: opentimelineio.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -1126,6 +1138,9 @@ landscape:
               contributed_by: Pixar Animation Studios
               slug: open-timeline-io
               accepted: '2021-03-08'
+            description: OpenTimelineIO (OTIO) is an API and interchange format for editorial cut information. You can think of it as a modern Edit Decision List (EDL) that also includes
+              an API for reading, writing, and manipulating editorial data. It also includes a plugin system for translating to/from existing editorial formats as well as a plugin system
+              for linking to proprietary media storage schemas.
           - item:
             name: OpenAssetIO
             homepage_url: https://openassetio.org/
@@ -1154,6 +1169,7 @@ landscape:
               contributed_by: Foundry
               slug: openassetio
               accepted: '2022-11-01'
+            description: The mission of the Project is to develop an open-source interoperability standard for tools and content management systems used in media production.
           - item:
             name: Rez
             homepage_url: https://github.com/nerdvegas/rez
@@ -1180,6 +1196,9 @@ landscape:
               contributed_by: Allan Johns
               slug: rez
               accepted: '2022-03-08'
+            description: |-
+              Rez is a cross-platform package manager. Using Rez you can create runtimes
+              configured for a given set of packages.
           - item:
             name: MaterialX
             second_path:
@@ -1212,6 +1231,8 @@ landscape:
               contributed_by: Lucasfilm
               slug: materialx
               accepted: '2021-09-15'
+            description: MaterialX addresses the need for a common, open standard to represent the data values and relationships required to transfer the complete look of a computer
+              graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex nested materials and geometric assignments.
           - item:
             name: Open Shading Language
             second_path:
@@ -1240,6 +1261,8 @@ landscape:
               contributed_by: Sony Pictures Imageworks
               slug: open-shading-language
               accepted: '2020-12-11'
+            description: Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for describing materials,
+              lights, displacement, and pattern generation.
           - item:
             name: OpenCue
             homepage_url: https://opencue.io/
@@ -1269,6 +1292,8 @@ landscape:
               contributed_by: Sony Pictures Imageworks and Google Cloud
               slug: opencue
               accepted: '2020-04-24'
+            description: OpenCue is an open source render management system. You can use OpenCue in visual effects and animation production to break down complex jobs into individual
+              tasks. You can submit jobs to a configurable dispatch queue that allocates the necessary computational resources.
           - item:
             name: OpenFX
             homepage_url: https://openeffects.org/
@@ -1292,6 +1317,7 @@ landscape:
               contributed_by: Open Effects Association
               slug: openfx
               accepted: '2022-09-02'
+            description: The mission of the OpenFX Project is to promote and develop an image processing plug-in standard.
           - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
@@ -1321,6 +1347,8 @@ landscape:
               contributed_by: Dreamworks Animation
               slug: openvdb
               accepted: '2019-01-11'
+            description: OpenVDB provides an industry standard for authoring, processing and storing of high-resolution volumetric data. As such, we are committed to improving and maintaining
+              both the hierarchical VDB data structure and the large suite of tools for its efficient traversal and manipulation.
           - item:
             name: Working Group for Rust Bindings
             second_path:
