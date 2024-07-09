@@ -187,119 +187,8 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-20T08:05:16.000Z
           - item:
-            name: OpenColorIO
-            second_path: Dev Days 2024 / Participating Project
-            homepage_url: https://opencolorio.org/
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
-            logo: opencolorio.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/opencolorio/
-              user_mailing_list_url: https://lists.aswf.io/g/ocio-user
-              dev_mailing_list_url: https://lists.aswf.io/g/ocio-dev
-              slack_channel_url: https://slack.opencolorio.org
-              documentation: https://opencolorio.readthedocs.io/
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
-              wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
-              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              calendar: https://lists.aswf.io/g/ocio-dev/calendar
-              contribution_guidelines: https://opencolorio.readthedocs.io/en/latest/guides/contributing/contributing.html
-              leads: Carol Payne
-              date_accepted: ^2019-02-08
-              last_review_date: ^2023-11-01
-              next_review_date: ^2024-11-05
-              contributed_by: Sony Pictures Imageworks
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C++
-                  value: 7991286
-                  color: '#f34b7d'
-                - name: Python
-                  value: 1609194
-                  color: '#3572A5'
-                - name: Roff
-                  value: 867637
-                  color: '#ecdebe'
-                - name: CMake
-                  value: 286197
-                - name: Java
-                  value: 73341
-                  color: '#b07219'
-                - name: C
-                  value: 61491
-                  color: '#555555'
-                - name: Objective-C++
-                  value: 37712
-                  color: '#6866fb'
-                - name: Batchfile
-                  value: 25991
-                  color: '#C1F12E'
-                - name: Shell
-                  value: 19174
-                  color: '#89e051'
-                - name: Objective-C
-                  value: 6826
-                  color: '#438eff'
-                - name: Dockerfile
-                  value: 1814
-                  color: '#384d54'
-              contributions: 1;0;3;0;0;0;3;12;1;2;1;4;0;1;1;2;3;2;7;1;0;3;0;0;0;0;0;0;7;1;1;0;0;0;0;1;2;0;3;0;1;0;2;2;1;0;0;0;1;0;1;0
-              firstWeek: 2023-07-09Z
-              stars: 1994
-              license: BSD 3-Clause "New" or "Revised" License
-              description: A color management framework for visual effects and animation.
-              latest_commit_date: '2024-06-24T19:30:30Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenColorIO/commit/dc13f2933c935596251218b157f6676ed7a2720f
-              release_date: '2024-01-30T08:03:19Z'
-              release_link: https://github.com/AcademySoftwareFoundation/OpenColorIO/releases
-              contributors_count: 94
-              contributors_link: https://github.com/AcademySoftwareFoundation/OpenColorIO/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/OpenColorIO
-                stars: 1737
-              - url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
-                stars: 257
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/OpenColorIO/commit/3a4a30dba6be65613e80c9858169cd9d53e58ff2
-              start_date: '2010-06-17T02:34:03Z'
-            image_data:
-              fileName: open-color-io.svg
-              hash: BDX99eHn8bJuuaWsuRC6aeE3Eip6UnBF7Zelg0/O7W0=
-            best_practice_data:
-              badge: 2612
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
             name: PhysLight
             homepage_url: https://github.com/wetadigital/physlight
-            project: null
             repo_url: https://github.com/wetadigital/physlight
             logo: PhysLight.svg
             crunchbase: https://www.crunchbase.com/organization/weta-digital
@@ -353,88 +242,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: RAW to ACES Utility
-            homepage_url: https://rawtoaces.org
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
-            logo: rawtoaces.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/rawtoaces/
-              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
-              slack_channel: '#rawtoaces'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
-              TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
-              calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rawtoaces
-              leads: Alexander Forsythe
-              date_accepted: ^2022-03-10
-              last_review_date: ^2024-01-10
-              next_review_date: ^2025-01-08
-              contributed_by: The Academy of Motion Picture Arts and Sciences
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C++
-                  value: 674759
-                  color: '#f34b7d'
-                - name: CMake
-                  value: 15448
-                - name: C
-                  value: 4579
-                  color: '#555555'
-                - name: Shell
-                  value: 1551
-                  color: '#89e051'
-                - name: Dockerfile
-                  value: 1408
-                  color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;1;2;7;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-07-09Z
-              stars: 138
-              license: Unknown License
-              description: RAW to ACES Utility
-              latest_commit_date: '2023-12-15T21:20:34Z'
-              latest_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/e022b7e78baa8cdc3475ff7b42137a23579961fd
-              contributors_count: 15
-              contributors_link: https://github.com/AcademySoftwareFoundation/rawtoaces/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/rawtoaces
-                stars: 138
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/92adb20a08f549ab6574cda5480c03275f80a985
-              start_date: '2016-07-08T21:31:48Z'
-            image_data:
-              fileName: raw-to-aces-utility.svg
-              hash: Fji15PsvZQbxZTi+WkyZ94fW3I1MkJuEvw+TRduk/Xg=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -975,204 +782,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-12-29T21:30:12.000Z
           - item:
-            name: OpenEXR
-            second_path: Dev Days 2024 / Participating Project
-            homepage_url: https://www.openexr.com/
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/openexr
-            logo: open-exr.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/openexr/
-              mailing_list_url: https://lists.aswf.io/g/openexr-dev
-              slack_channel: '#openexr'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
-              documentation: https://openexr.readthedocs.io
-              wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
-              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
-              calendar: https://lists.aswf.io/g/openexr-dev/calendar
-              leads: Cary Phillips
-              date_accepted: ^2019-05-01
-              last_review_date: ^2024-04-17
-              next_review_date: ^2025-04-16
-              contributed_by: Lucasfilm
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C
-                  value: 10396606
-                  color: '#555555'
-                - name: C++
-                  value: 5972052
-                  color: '#f34b7d'
-                - name: CMake
-                  value: 149822
-                - name: Python
-                  value: 117243
-                  color: '#3572A5'
-                - name: M4
-                  value: 26297
-                - name: Shell
-                  value: 23979
-                  color: '#89e051'
-                - name: Starlark
-                  value: 22764
-                - name: Batchfile
-                  value: 6522
-                  color: '#C1F12E'
-                - name: PowerShell
-                  value: 3917
-                  color: '#012456'
-                - name: HTML
-                  value: 1144
-                  color: '#e34c26'
-              contributions: 7;2;7;10;5;12;0;11;0;5;8;4;0;6;4;0;0;1;0;0;0;0;1;7;0;1;1;0;11;4;5;12;4;7;15;9;15;8;7;12;5;9;0;5;3;0;0;3;0;0;0;0
-              firstWeek: 2023-07-09Z
-              stars: 2055
-              license: BSD 3-Clause "New" or "Revised" License
-              description: >-
-                The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format
-                of the motion picture industry.
-              latest_commit_date: '2024-06-02T17:17:42Z'
-              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/8169016e5cf9a6fe84ef55009f38589b3e410f15
-              release_date: '2024-03-26T16:52:40Z'
-              release_link: https://github.com/AcademySoftwareFoundation/openexr/releases
-              contributors_count: 133
-              contributors_link: https://github.com/AcademySoftwareFoundation/openexr/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/openexr
-                stars: 1597
-              - url: https://github.com/AcademySoftwareFoundation/Imath
-                stars: 357
-              - url: https://github.com/AcademySoftwareFoundation/openexr-images
-                stars: 95
-              - url: https://github.com/AcademySoftwareFoundation/openexr-examples
-                stars: 5
-              - url: https://github.com/AcademySoftwareFoundation/openexr-website
-                stars: 1
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
-              start_date: '2003-01-21T06:34:28Z'
-            image_data:
-              fileName: open-exr.svg
-              hash: mCaamfkPxudUodckr61sfxJj/xd+A1ohxuO4Awp2/Jk=
-            best_practice_data:
-              badge: 2799
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
-            name: OpenImageIO
-            second_path: Dev Days 2024 / Participating Project
-            homepage_url: https://openimageio.org
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
-            logo: open-image-io.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/openimageio
-            extra:
-              artwork: https://artwork.aswf.io/projects/openimageio/
-              mailing_list_url: https://lists.aswf.io/g/oiio-dev
-              slack_channel: '#openimageio'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
-              LFX_security: none
-              documentation: https://openimageio.readthedocs.io
-              wiki_page: none
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
-              TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/oiio-dev/calendar
-              leads: Daniel Greenstein
-              date_accepted: ^2023-05-03
-              last_review_date: ^2024-05-01
-              next_review_date: ^2025-04-30
-              contributed_by: Larry Gritz
-            crunchbase_data:
-              name: OpenImageIO
-              description: OpenImageIO is a library for reading and writing images, and a bunch of related classes, utilities, and applications.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: https://sites.google.com/site/openimageio/home
-              city: Vancouver
-              region: British Columbia
-              country: Canada
-              twitter: https://twitter.com/hashtag/openimageio
-              linkedin: https://www.linkedin.com/search/results/all/?keywords=OpenImageIO
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: Non Profit
-              industries: []
-            github_data:
-              languages:
-                - name: C++
-                  value: 7095095
-                  color: '#f34b7d'
-                - name: POV-Ray SDL
-                  value: 5056106
-                - name: Python
-                  value: 342646
-                  color: '#3572A5'
-                - name: CMake
-                  value: 258661
-                - name: C
-                  value: 131894
-                  color: '#555555'
-                - name: Shell
-                  value: 70497
-                  color: '#89e051'
-                - name: Makefile
-                  value: 16404
-                  color: '#427819'
-              contributions: 4;3;8;10;1;0;11;9;6;5;9;5;3;9;13;2;2;0;5;9;3;1;3;6;5;10;4;7;7;12;7;2;4;6;8;7;8;10;10;8;9;8;5;4;5;8;6;3;6;6;8;12
-              firstWeek: 2023-07-09Z
-              stars: 1945
-              license: Apache License 2.0
-              description: Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.
-              latest_commit_date: '2024-07-03T15:24:42Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/979e5f99f7c02efdf8da0ab92d64486153577394
-              release_date: '2024-07-01T18:37:59Z'
-              release_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/releases
-              contributors_count: 200
-              contributors_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/OpenImageIO
-                stars: 1910
-              - url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
-                stars: 35
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/70121c7e5dcc1e83656fd3d029d3f3a9590aae26
-              start_date: '2008-04-21T20:46:21Z'
-            image_data:
-              fileName: open-image-io.svg
-              hash: OkP9WX7Q+hf35fsExY9Uvzb+WZ+kWqJ/1dej+nYuOVA=
-            best_practice_data:
-              badge: 2694
-              percentage: 100
-          - item:
             name: OpenMVG
             homepage_url: https://opensource.mikrosimage.eu/
             repo_url: https://github.com/openMVG/openMVG
@@ -1560,7 +1169,6 @@ landscape:
           - item:
             name: Video Multi-Method Assessment Fusion (VMAF)
             homepage_url: https://github.com/Netflix/vmaf
-            project: null
             repo_url: https://github.com/Netflix/vmaf
             license: BSD-2-Clause Plus Patent License
             logo: vmaf.svg
@@ -1671,82 +1279,6 @@ landscape:
       - subcategory:
         name: Display and Review
         items:
-          - item:
-            name: Digital Production Example Library (DPEL)
-            homepage_url: https://dpel.aswf.io/
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
-            logo: dpel.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/dpel/
-              mailing_list_url: https://lists.aswf.io/g/assets-discussion
-              slack_channel: '#assets'
-              LFX_insights: None
-              wiki_page: https://wiki.aswf.io/display/ARW/DPEL+Wiki
-              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
-              calendar: https://lists.aswf.io/g/assets-discussion/calendar
-              leads: Matthew Low
-              date_accepted: ^2022-03-10
-              last_review_date: ^2023-09-20
-              next_review_date: ^2024-09-18
-              contributed_by: Academy Software Foundation
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: Astro
-                  value: 34636
-                - name: CSS
-                  value: 1742
-                  color: '#563d7c'
-                - name: JavaScript
-                  value: 1523
-                  color: '#f1e05a'
-              contributions: 0;0;0;1;0;0;0;3;0;0;2;3;0;5;0;1;0;0;0;0;2;3;3;2;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0
-              firstWeek: 2023-07-09Z
-              stars: 7
-              license: Creative Commons Attribution 4.0 International
-              description: Website for the Digital Production Example Library
-              latest_commit_date: '2024-06-04T03:49:50Z'
-              latest_commit_link: /AcademySoftwareFoundation/dpel-website/commit/c87e59661c73db9045c5cb1fe585fb6f75429937
-              contributors_count: 11
-              contributors_link: https://github.com/AcademySoftwareFoundation/dpel-website/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/dpel-website
-                stars: 7
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/dpel-website/commit/44d380fc53c1f65f8b0d5c4ab1f23448f5a08ee8
-              start_date: '2022-03-10T14:40:15Z'
-            image_data:
-              fileName: digital-production-example-library-dpel.svg
-              hash: KEf1AdvxUHPmww+2MCo3Nz7IiQWsf1+6lpJ0mr58ATU=
-            best_practice_data:
-              badge: 8737
-              percentage: 99
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
             name: DJV Imaging
             homepage_url: https://darbyjohnston.github.io/DJV/
@@ -1967,70 +1499,13 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Open Review Initiative
-            description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
-            homepage_url: https://openreviewinitiative.org
-            project: sandbox
-            repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
-            logo: openreview.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/openreviewinitiative/
-              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
-              slack_channel: '#open-review-initiative'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openreviewio/trends
-              LFX_security: none
-              TSC_meeting_notes: https://docs.google.com/document/d/1JBh0wVLGLPHIQS7n05iq20ix2HlSEBX9NrIF2sPiMHY/edit?usp=sharing
-              calendar: https://lists.aswf.io/g/open-review-initiative-discussion/calendar
-              leads: Erik Strauss
-              date_accepted: ^2022-08-08
-              last_review_date: ^2023-08-23
-              next_review_date: ^2024-08-21
-              contributed_by: Academy Software Foundation
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
-              - url: https://github.com/AcademySoftwareFoundation/OpenRV
-              - url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
-              - url: https://github.com/AcademySoftwareFoundation/xstudio
-            image_data:
-              fileName: open-review-initiative.svg
-              hash: Ej4+tgKrO/tF/jOhGa4q2vdQ7qHVvnZgxmL9W/1dPjQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
             name: Open RV
             homepage_url: https://aswf-openrv.readthedocs.io
             repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
             logo: openrv.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork: https://artwork.aswf.io/projects/openrv/
+              artwork_url: https://artwork.aswf.io/projects/openrv/
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -3875,56 +3350,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-20T16:28:58.000Z
           - item:
-            name: USD Working Group
-            description: Assisting with issues raised in USD support channels, consolidating and sharing best practices for deployment of USD technologies.
-            homepage_url: https://wiki.aswf.io/display/WGUSD
-            project: working-group
-            license: Creative Commons Attribution 4.0 International
-            logo: usdwg.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              mailing_list_url: https://lists.aswf.io/g/wg-usd
-              slack_channel: '#wg-usd'
-              TSC_meeting_notes: https://wiki.aswf.io/pages/viewpage.action?pageId=1736722
-              calendar: https://lists.aswf.io/g/wg-usd/calendar
-              leads: Alexander Schwank and Nick Porcino
-              date_accepted: ^2020-03-04
-              last_review_date: ^2024-05-01
-              next_review_date: ^2025-04-30
-              contributed_by: Pixar
-              artwork: https://artwork.aswf.io/working-groups/usd-wg/
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            image_data:
-              fileName: usd-working-group.svg
-              hash: FStPNc3zk6Ox9MoK7Zt0TLBRv58jdVrugeDN7H3lOY8=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
             name: 'USD: Universal Scene Description'
             homepage_url: https://openusd.org/
             repo_url: https://github.com/PixarAnimationStudios/OpenUSD
@@ -4153,94 +3578,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-02-25T20:05:48.000Z
-          - item:
-            name: OpenTimelineIO
-            second_path: Dev Days 2024 / Participating Project
-            homepage_url: https://opentimeline.io
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
-            logo: opentimelineio.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/opentimelineio/
-              mailing_list_url: https://lists.aswf.io/g/otio-discussion
-              slack_channel: '#opentimelineio'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-timeline-io/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
-              documentation: https://opentimelineio.readthedocs.io
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
-              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              calendar: https://lists.aswf.io/g/otio-discussion/calendar
-              contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
-              leads: Joshua Minor
-              date_accepted: ^2019-07-29
-              last_review_date: ^2023-12-13
-              next_review_date: ^2024-12-11
-              contributed_by: Pixar Animation Studios
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: Python
-                  value: 750268
-                  color: '#3572A5'
-                - name: C++
-                  value: 642942
-                  color: '#f34b7d'
-                - name: CMake
-                  value: 25118
-                - name: Makefile
-                  value: 9892
-                  color: '#427819'
-                - name: C
-                  value: 438
-                  color: '#555555'
-              contributions: 0;1;1;0;0;0;1;2;0;0;0;0;1;1;0;1;1;0;0;0;0;2;1;0;0;0;0;0;1;0;0;2;1;0;0;2;0;3;3;3;9;0;0;0;0;1;0;0;2;1;5;1
-              firstWeek: 2023-07-09Z
-              stars: 1401
-              license: Apache License 2.0
-              description: Open Source API and interchange format for editorial timeline information.
-              latest_commit_date: '2024-07-01T19:42:09Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/5dff8be58d1c4b63040fc70c8afd261bd31d6e55
-              release_date: '2024-06-24T23:48:18Z'
-              release_link: https://github.com/AcademySoftwareFoundation/OpenTimelineIO/releases
-              contributors_count: 77
-              contributors_link: https://github.com/AcademySoftwareFoundation/OpenTimelineIO/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
-                stars: 1401
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/0f685780a69e491dd8b8f0e720671a8be22349cf
-              start_date: '2016-09-06T19:52:15Z'
-            image_data:
-              fileName: open-timeline-io.svg
-              hash: VhZ4unfiiZLvP/fXOEwsRq6QzrJy4p+YeO08j/GwAwQ=
-            best_practice_data:
-              badge: 2288
-              percentage: 90
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
             name: timecode
             homepage_url: https://github.com/guerilla-di/timecode
@@ -5127,180 +4464,8 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-03-12T19:25:23.000Z
           - item:
-            name: OpenAssetIO
-            homepage_url: https://openassetio.org
-            project: sandbox
-            repo_url: https://github.com/OpenAssetIO/OpenAssetIO
-            project_org: https://github.com/OpenAssetIO
-            logo: openassetio.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/openassetio/
-              mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
-              slack_channel: '#openassetio'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openassetio/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001L17vCQAR/overview
-              documentation: https://openassetio.github.io/OpenAssetIO/
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
-              TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
-              calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
-              contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
-              leads: Elliot Morris
-              date_accepted: ^2022-08-08
-              last_review_date: ^2023-07-12
-              next_review_date: ^2024-07-10
-              contributed_by: Foundry
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              description: An open-source interoperability standard for tools and content management systems used in media production.
-              contributors_count: 407
-              contributions: 10;15;6;14;26;11;21;20;28;16;24;20;30;25;26;7;12;18;18;14;23;7;11;10;0;24;6;2;16;13;10;10;19;18;7;6;12;3;9;11;8;2;2;5;10;10;11;12;19;16;5;5
-              stars: 338
-              languages:
-                - name: Python
-                  value: 9704165
-                  color: '#3572A5'
-                - name: C++
-                  value: 1785202
-                  color: '#f34b7d'
-                - name: CMake
-                  value: 1175119
-                - name: C
-                  value: 737787
-                  color: '#555555'
-                - name: Makefile
-                  value: 23268
-                  color: '#427819'
-                - name: Assembly
-                  value: 7369
-                  color: '#6E4C13'
-                - name: Shell
-                  value: 7158
-                  color: '#89e051'
-                - name: Cap'n Proto
-                  value: 6379
-                - name: M4
-                  value: 4824
-                - name: Dockerfile
-                  value: 4717
-                  color: '#384d54'
-                - name: Lex
-                  value: 4025
-                  color: '#DBCA00'
-                - name: Yacc
-                  value: 3946
-                  color: '#4B6C4B'
-                - name: Perl
-                  value: 3355
-                  color: '#0298c3'
-                - name: Meson
-                  value: 3215
-                  color: '#007800'
-                - name: Batchfile
-                  value: 2179
-                  color: '#C1F12E'
-                - name: Thrift
-                  value: 2062
-                - name: Verilog
-                  value: 1034
-                  color: '#b2b7f8'
-                - name: Objective-C++
-                  value: 804
-                  color: '#6866fb'
-                - name: JetBrains MPS
-                  value: 598
-                - name: XSLT
-                  value: 542
-                  color: '#EB8CEB'
-                - name: Lua
-                  value: 534
-                  color: '#000080'
-                - name: QMake
-                  value: 441
-                - name: GLSL
-                  value: 334
-                - name: LLVM
-                  value: 263
-                  color: '#185619'
-                - name: Groovy
-                  value: 230
-                  color: '#e69f56'
-                - name: HTML
-                  value: 131
-                  color: '#e34c26'
-                - name: SWIG
-                  value: 87
-                - name: WebAssembly
-                  value: 84
-                  color: '#04133b'
-                - name: Tcl
-                  value: 28
-                  color: '#e4cc98'
-              latest_commit_link: /OpenAssetIO/OpenAssetIO/commit/d003ee99ca941e32815f1c0121e5957a7d763273
-              latest_commit_date: '2024-07-05T16:45:14Z'
-              firstWeek: 2023-07-09Z
-              license: Apache License 2.0
-              contributors_link: https://github.com/OpenAssetIO/OpenAssetIO/graphs/contributors
-            repos:
-              - url: https://github.com/OpenAssetIO/OpenAssetIO
-                stars: 274
-              - url: https://github.com/OpenAssetIO/usdOpenAssetIOResolver
-                stars: 24
-              - url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
-                stars: 11
-              - url: https://github.com/OpenAssetIO/otio-openassetio
-                stars: 10
-              - url: https://github.com/OpenAssetIO/OpenAssetIO-WG
-                stars: 6
-              - url: https://github.com/OpenAssetIO/OpenAssetIO-Manager-BAL
-                stars: 5
-              - url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
-                stars: 5
-              - url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
-                stars: 3
-              - url: https://github.com/OpenAssetIO/openassetio.github.io
-                stars: 0
-              - url: https://github.com/OpenAssetIO/OpenAssetIO-Test-CMake
-                stars: 0
-              - url: https://github.com/OpenAssetIO/conan-center-index
-                stars: 0
-            github_start_commit_data:
-              start_commit_link: /OpenAssetIO/OpenAssetIO/commit/a6303fa9e2dcef654ce88f7cb5056932843ac60b
-              start_date: '2021-08-23T10:54:51Z'
-            image_data:
-              fileName: open-asset-io.svg
-              hash: Iioz2fBUcuE8Ho3UMW5oVMu90gwbFGgvflfuCmnY82w=
-            best_practice_data:
-              badge: 6046
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
             name: OpenProductionDataIO
             homepage_url: https://googlecloudplatform.github.io/opdio/
-            project: null
             repo_url: https://github.com/googlecloudplatform/opdio
             logo: OpenProductionDataIO.svg
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
@@ -5944,89 +5109,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-20T22:21:32.000Z
-          - item:
-            name: Rez
-            homepage_url: https://rez-project.io
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/rez
-            logo: rez.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/rez/
-              mailing_list_url: https://lists.aswf.io/g/rez-discussion
-              slack_channel: '#Rez'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rez/trends
-              LFX_security: none
-              documentation: https://github.com/AcademySoftwareFoundation/rez/wiki
-              TSC_meeting_notes: Request links
-              contribution_guidelines: Request links
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rez
-              leads: Stephen Mackenzie and Jean-Christophe Morin
-              date_accepted: ^2022-03-10
-              last_review_date: ^2024-04-17
-              next_review_date: ^2025-04-02
-              contributed_by: Allan Johns
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: Python
-                  value: 1956004
-                  color: '#3572A5'
-                - name: CMake
-                  value: 61812
-                - name: Shell
-                  value: 3081
-                  color: '#89e051'
-                - name: Batchfile
-                  value: 13
-                  color: '#C1F12E'
-              contributions: 0;3;1;1;0;0;0;1;2;11;0;0;1;0;0;3;0;5;10;8;4;0;3;0;1;0;2;0;0;5;9;5;3;2;3;4;1;5;2;1;10;0;3;1;4;0;0;0;0;0;6;7
-              firstWeek: 2023-07-09Z
-              stars: 916
-              license: Apache License 2.0
-              description: An integrated package configuration, build and deployment system for software
-              latest_commit_date: '2024-07-01T20:42:07Z'
-              latest_commit_link: /AcademySoftwareFoundation/rez/commit/6c36578ac3a7ff8da0000c2e8e6e3c8d87c1c6ce
-              release_date: '2024-04-14T19:41:14Z'
-              release_link: https://github.com/AcademySoftwareFoundation/rez/releases
-              contributors_count: 82
-              contributors_link: https://github.com/AcademySoftwareFoundation/rez/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/rez
-                stars: 916
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/rez/commit/2f66a76462ee778927b67a9a6385f776cb553b54
-              start_date: '2011-10-24T02:26:33Z'
-            image_data:
-              fileName: rez.svg
-              hash: 6T5sPJmX1OFjkHuF4WOSQE/vupwpWbkglB5s4/lyGNM=
-            best_practice_data:
-              badge: 8389
-              percentage: 94
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
             name: Scala Migrations
             homepage_url: https://github.com/blair/scala-migrations
@@ -6916,124 +5998,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-20T07:01:01.000Z
           - item:
-            name: MaterialX
-            second_path: Dev Days 2024 / Participating Project
-            homepage_url: https://www.materialx.org
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/MaterialX
-            logo: materialx.svg
-            twitter: https://twitter.com/MaterialXCG
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/materialx/
-              mailing_list_url: https://lists.aswf.io/g/materialx-discussion
-              slack_channel: '#materialx'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
-              documentation: https://materialx.org/docs/api/index.html
-              TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
-              calendar: https://lists.aswf.io/g/materialx-discussion/calendar
-              contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/materialx
-              leads: Jonathan Stone
-              date_accepted: ^2021-08-04
-              last_review_date: ^2024-02-07
-              next_review_date: ^2025-02-05
-              contributed_by: Lucasfilm
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C++
-                  value: 2629104
-                  color: '#f34b7d'
-                - name: JavaScript
-                  value: 169752
-                  color: '#f1e05a'
-                - name: Objective-C++
-                  value: 166520
-                  color: '#6866fb'
-                - name: Python
-                  value: 165710
-                  color: '#3572A5'
-                - name: CSS
-                  value: 116807
-                  color: '#563d7c'
-                - name: GLSL
-                  value: 106246
-                - name: HTML
-                  value: 103306
-                  color: '#e34c26'
-                - name: CMake
-                  value: 75694
-                - name: C
-                  value: 55242
-                  color: '#555555'
-                - name: Objective-C
-                  value: 34692
-                  color: '#438eff'
-                - name: Metal
-                  value: 13340
-                  color: '#8f14e9'
-                - name: EJS
-                  value: 1713
-                - name: Batchfile
-                  value: 1557
-                  color: '#C1F12E'
-                - name: TeX
-                  value: 408
-                  color: '#3D6117'
-              contributions: 24;18;9;1;0;4;19;13;11;8;6;2;9;27;12;4;4;1;2;3;6;3;1;7;2;7;10;6;11;7;17;5;5;2;2;0;1;4;5;4;1;1;5;7;14;1;11;16;12;6;11;12
-              firstWeek: 2023-07-09Z
-              stars: 2175
-              license: Apache License 2.0
-              description: MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.
-              latest_commit_date: '2024-07-05T17:39:25Z'
-              latest_commit_link: /AcademySoftwareFoundation/MaterialX/commit/f679db7875a928fd0162cd38bdc7461b2aa81c0f
-              release_date: '2024-07-05T17:43:57Z'
-              release_link: https://github.com/AcademySoftwareFoundation/MaterialX/releases
-              contributors_count: 83
-              contributors_link: https://github.com/AcademySoftwareFoundation/MaterialX/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/MaterialX
-                stars: 1775
-              - url: https://github.com/AcademySoftwareFoundation/OpenPBR
-                stars: 397
-              - url: https://github.com/AcademySoftwareFoundation/materialx-website
-                stars: 3
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
-              start_date: '2017-07-05T22:18:25Z'
-            image_data:
-              fileName: material-x.svg
-              hash: czwvZ5gwD3XS6yg1xJTHaa+vtZqhHd153dqF5YWQELQ=
-            best_practice_data:
-              badge: 6025
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-19T02:09:24.000Z
-          - item:
             name: MoonRay
             description: >-
               MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer, which has been used on feature films such as How to
@@ -7512,117 +6476,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-21T00:35:50.000Z
           - item:
-            name: Open Shading Language (OSL)
-            second_path: Dev Days 2024 / Participating Project
-            homepage_url: https://openshadinglanguage.org
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
-            logo: osl.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/openshadinglanguage/
-              mailing_list_url: https://lists.aswf.io/g/osl-dev
-              Slack_Channel: '#openshadinglanguage'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
-              documentation: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/tree/main/doc
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
-              TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
-              calendar: https://lists.aswf.io/g/osl-dev/calendar
-              contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
-              leads: Chris Kulla
-              date_accepted: ^2020-04-16
-              last_review_date: ^2023-09-06
-              next_review_date: ^2024-09-04
-              contributed_by: Sony Pictures Imageworks
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C++
-                  value: 4929790
-                  color: '#f34b7d'
-                - name: Python
-                  value: 353782
-                  color: '#3572A5'
-                - name: C
-                  value: 334193
-                  color: '#555555'
-                - name: TeX
-                  value: 268317
-                  color: '#3D6117'
-                - name: CMake
-                  value: 193281
-                - name: Cuda
-                  value: 51327
-                  color: '#3A4E3A'
-                - name: Yacc
-                  value: 51172
-                  color: '#4B6C4B'
-                - name: HTML
-                  value: 43863
-                  color: '#e34c26'
-                - name: Shell
-                  value: 41677
-                  color: '#89e051'
-                - name: Lex
-                  value: 26864
-                  color: '#DBCA00'
-                - name: Makefile
-                  value: 15331
-                  color: '#427819'
-                - name: CSS
-                  value: 4165
-                  color: '#563d7c'
-                - name: GLSL
-                  value: 939
-              contributions: 0;1;0;0;1;6;3;2;3;5;1;4;8;0;0;5;1;0;4;2;1;2;0;3;3;0;2;1;1;1;0;4;1;5;5;1;0;3;3;0;1;0;7;5;1;0;1;2;2;1;4;0
-              firstWeek: 2023-07-09Z
-              stars: 2048
-              license: BSD 3-Clause "New" or "Revised" License
-              description: Advanced shading language for production GI renderers
-              latest_commit_date: '2024-06-25T18:58:12Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/321c803d78f5740ff4e237ebf3e70e5bdecfb573
-              release_date: '2024-06-02T17:12:48Z'
-              release_link: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/releases
-              contributors_count: 83
-              contributors_link: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
-                stars: 2048
-            github_start_commit_data:
-              start_commit_link: /imageworks/OpenShadingLanguage/commit/ed210bbb0c5c74ad0b82c4a8a949ab97d1aa0ad6
-              start_date: '2008-09-03T22:01:13Z'
-            image_data:
-              fileName: open-shading-language-osl.svg
-              hash: MKU0NoEraEgWmyza6YystiTGzh0he/DPAd+m8Hwqt5k=
-            best_practice_data:
-              badge: 3061
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
             name: Pixie
             homepage_url: http://www.renderpixie.com/
             repo_url: https://github.com/blkdev2/pixie
@@ -7880,7 +6733,6 @@ landscape:
           - item:
             name: Open Job Description
             homepage_url: https://github.com/OpenJobDescription/openjd-specifications/wiki
-            project: null
             repo_url: https://github.com/OpenJobDescription/openjd-specifications
             project_org: https://github.com/OpenJobDescription
             logo: OpenJobDescription.svg
@@ -7975,109 +6827,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: OpenCue
-            homepage_url: https://www.opencue.io/
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
-            logo: opencue.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/opencue/
-              user_mailing_list_url: https://lists.aswf.io/g/opencue-user
-              dev_mailing_list_url: https://lists.aswf.io/g/opencue-dev
-              slack_channel: '#opencue'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencue/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
-              documentation: https://www.opencue.io/docs/
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
-              calendar: https://lists.aswf.io/g/ocio-dev/calendar
-              contribution_guidelines: https://www.opencue.io/contributing/
-              leads: Diego Tavares Da Silva
-              date_accepted: ^2019-05-01
-              last_review_date: ^2024-05-29
-              next_review_date: ^2025-05-28
-              contributed_by: Sony Pictures Imageworks and Google Cloud
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: Python
-                  value: 3406542
-                  color: '#3572A5'
-                - name: Java
-                  value: 2384403
-                  color: '#b07219'
-                - name: PLpgSQL
-                  value: 141257
-                - name: Shell
-                  value: 34955
-                  color: '#89e051'
-                - name: HTML
-                  value: 22752
-                  color: '#e34c26'
-                - name: Dockerfile
-                  value: 13367
-                  color: '#384d54'
-                - name: C++
-                  value: 6377
-                  color: '#f34b7d'
-                - name: SCSS
-                  value: 3895
-                - name: Vim Script
-                  value: 2297
-                - name: CSS
-                  value: 1604
-                  color: '#563d7c'
-              contributions: 5;0;0;0;1;0;0;0;0;0;0;4;2;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;2;3;1;2;0;0;1;0;0;0;1;0;0;1;6;2;1;3;0;1;9;20;0;3
-              firstWeek: 2023-07-09Z
-              stars: 830
-              license: Apache License 2.0
-              description: A render management system you can deploy for visual effects and animation productions.
-              latest_commit_date: '2024-07-05T03:39:36Z'
-              latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/c345dffa9c5bc1a5186d377a7f2c9b1691a9a544
-              release_date: '2023-07-13T18:31:16Z'
-              release_link: https://github.com/AcademySoftwareFoundation/OpenCue/releases
-              contributors_count: 50
-              contributors_link: https://github.com/AcademySoftwareFoundation/OpenCue/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/OpenCue
-                stars: 816
-              - url: https://github.com/AcademySoftwareFoundation/opencue.io
-                stars: 14
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/OpenCue/commit/ea128e00aa7127b9ba7e19f82cc7fd6627f4c155
-              start_date: '2018-05-16T23:55:35Z'
-            image_data:
-              fileName: open-cue.svg
-              hash: +A/QyQls6QaRcyFM8zZBizYi0zYR3bv7Y/wQr8BU7JA=
-            best_practice_data:
-              badge: 2837
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
   - category:
     name: Math and Simulation
     subcategories:
@@ -8158,229 +6907,9 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-20T01:42:27.000Z
           - item:
-            name: OpenFX
-            homepage_url: https://openeffects.org/
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/openfx
-            logo: OFXLogo.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/openfx/
-              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
-              slack_channel: '#openfx'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openfx/trends
-              contribution_guidelines: https://github.com/ofxa/openfx/wiki/Extending-OpenFX-Guidelines
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openfx
-              leads: Gary Oberbrunner
-              date_accepted: ^2022-08-08
-              last_review_date: ^2024-06-12
-              next_review_date: ^2025-06-11
-              contributed_by: Open Effects Association
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C++
-                  value: 1206579
-                  color: '#f34b7d'
-                - name: C
-                  value: 312115
-                  color: '#555555'
-                - name: CSS
-                  value: 25573
-                  color: '#563d7c'
-                - name: Shell
-                  value: 13753
-                  color: '#89e051'
-                - name: Makefile
-                  value: 8474
-                  color: '#427819'
-                - name: CMake
-                  value: 8142
-                - name: Python
-                  value: 7032
-                  color: '#3572A5'
-                - name: Objective-C++
-                  value: 5960
-                  color: '#6866fb'
-                - name: HTML
-                  value: 3350
-                  color: '#e34c26'
-                - name: Cuda
-                  value: 1136
-                  color: '#3A4E3A'
-              contributions: 0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;8;2;8;5;0;0;7;0;0;0;0;6;0;0;0;12;21;10;1;2;15;0;0;0;0;5;0;0;0;0;0;0;0;0
-              firstWeek: 2023-07-09Z
-              stars: 392
-              license: Other
-              description: OpenFX effects API
-              latest_commit_date: '2024-05-07T22:30:59Z'
-              latest_commit_link: /AcademySoftwareFoundation/openfx/commit/b7723137e9fcfd9306e36a6991339a7715d7f4cb
-              release_date: '2015-09-01T02:19:20Z'
-              release_link: https://github.com/AcademySoftwareFoundation/openfx/releases
-              contributors_count: 22
-              contributors_link: https://github.com/AcademySoftwareFoundation/openfx/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/openfx
-                stars: 392
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/openfx/commit/0cd61763b848efa8daceccb9e19cdad98433cea4
-              start_date: '2004-04-27T12:13:45Z'
-            image_data:
-              fileName: open-fx.svg
-              hash: yvyGcTKUZJDuglu5KfEURaEfilJuI35HC3neMNeIbJ4=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
-            name: OpenVDB
-            homepage_url: https://www.openvdb.org/
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/openvdb
-            logo: openvdb.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork: https://artwork.aswf.io/projects/openvdb/
-              user_mailing_list_url: https://lists.aswf.io/g/openvdb-user
-              dev_mailing_list_url: https://lists.aswf.io/g/openvdb-dev
-              slack_channel: '#openvdb'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openvdb/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
-              documentation: https://www.openvdb.org/documentation/doxygen/
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
-              calendar: https://lists.aswf.io/g/openvdb-dev/calendar
-              contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
-              leads: Ken Museth
-              date_accepted: ^2018-10-23
-              last_review_date: ^2022-11-30
-              next_review_date: ^2025-01-08
-              contributed_by: Dreamworks Animation
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              languages:
-                - name: C++
-                  value: 15713190
-                  color: '#f34b7d'
-                - name: Mathematica
-                  value: 674029
-                - name: CMake
-                  value: 299536
-                - name: Cuda
-                  value: 275844
-                  color: '#3A4E3A'
-                - name: C
-                  value: 221058
-                  color: '#555555'
-                - name: Batchfile
-                  value: 194966
-                  color: '#C1F12E'
-                - name: JavaScript
-                  value: 122430
-                  color: '#f1e05a'
-                - name: CSS
-                  value: 49815
-                  color: '#563d7c'
-                - name: HTML
-                  value: 48052
-                  color: '#e34c26'
-                - name: Python
-                  value: 45340
-                  color: '#3572A5'
-                - name: Yacc
-                  value: 24927
-                  color: '#4B6C4B'
-                - name: Shell
-                  value: 19890
-                  color: '#89e051'
-                - name: Lex
-                  value: 15353
-                  color: '#DBCA00'
-                - name: PowerShell
-                  value: 8285
-                  color: '#012456'
-                - name: NASL
-                  value: 2705
-                - name: QML
-                  value: 1098
-                  color: '#44a51c'
-              contributions: 4;5;6;14;1;1;6;1;2;1;1;5;6;20;9;13;16;0;0;0;0;6;4;9;0;2;11;8;8;4;1;3;0;3;3;2;2;3;0;0;0;2;2;2;3;10;12;5;10;0;7;0
-              firstWeek: 2023-07-09Z
-              stars: 2506
-              license: Mozilla Public License 2.0
-              description: OpenVDB - Sparse volume data structure and tools
-              latest_commit_date: '2024-06-27T20:10:46Z'
-              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/ffdc8810cad785cd3ee6d00955be63e5b023cc11
-              release_date: '2023-11-01T23:28:55Z'
-              release_link: https://github.com/AcademySoftwareFoundation/openvdb/releases
-              contributors_count: 61
-              contributors_link: https://github.com/AcademySoftwareFoundation/openvdb/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/openvdb
-                stars: 2493
-              - url: https://github.com/AcademySoftwareFoundation/openvdb-website
-                stars: 13
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/openvdb/commit/b2af9eb1e91715445a4e18e67c07b70ad0609d3f
-              start_date: '2013-04-12T19:13:20Z'
-            image_data:
-              fileName: open-vdb.svg
-              hash: LXSXOmkNPOrRAkxLHINIjYYqMn69t7wIaNZ1uLfLRnA=
-            best_practice_data:
-              badge: 2774
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
             name: OpenVPCal
             description: OpenVPCal is an open-source calibration tool for In-Camera Visual Effects pipelines.
             homepage_url: https://github.com/Netflix/OpenVPCal
-            project: null
             repo_url: https://github.com/Netflix/OpenVPCal
             logo: openvpcal.svg
             crunchbase: https://www.crunchbase.com/organization/netflix
@@ -9105,139 +7634,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-20T21:02:31.000Z
-          - item:
-            name: Working Group for Rust Bindings
-            description: >-
-              The Working Group for Rust Bindings is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
-              entertainment industry.
-            homepage_url: https://github.com/vfx-rs/organization
-            project: working-group
-            repo_url: https://github.com/vfx-rs/organization
-            project_org: https://github.com/vfx-rs
-            logo: rustwg.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              mailing_list_url: https://lists.aswf.io/g/wg-rust
-              slack_channel: '#rust'
-              TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/wg-rust/calendar
-              leads: Scott Wilson
-              date_accepted: ^2021-03-04
-              last_review_date: ^2024-03-20
-              next_review_date: ^2025-03-19
-              contributed_by: Scott Wilson
-              artwork: https://artwork.aswf.io/working-groups/working-group-for-rust-bindings/
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              description: ''
-              contributors_count: 10
-              contributions: 0;0;6;26;10;0;1;0;3;1;0;1;0;8;0;1;0;0;6;14;1;0;0;0;0;0;0;0;0;0;0;2;7;16;0;0;2;15;8;6;21;0;5;0;0;0;0;0;0;0;0;0
-              stars: 234
-              languages:
-                - name: C++
-                  value: 29264874
-                  color: '#f34b7d'
-                - name: C
-                  value: 11454846
-                  color: '#555555'
-                - name: Rust
-                  value: 3969941
-                  color: '#dea584'
-                - name: SCSS
-                  value: 842306
-                - name: CMake
-                  value: 84614
-                - name: Python
-                  value: 49829
-                  color: '#3572A5'
-                - name: HTML
-                  value: 26144
-                  color: '#e34c26'
-                - name: Shell
-                  value: 11882
-                  color: '#89e051'
-                - name: Dockerfile
-                  value: 3144
-                  color: '#384d54'
-              latest_commit_link: /vfx-rs/organization/commit/e119f8cd993eb3dcd2eac14d052dbf9729d71a56
-              latest_commit_date: '2022-07-06T04:21:31Z'
-              firstWeek: 2023-07-09Z
-              license: Creative Commons Zero v1.0 Universal
-              contributors_link: https://github.com/vfx-rs/organization/graphs/contributors
-            repos:
-              - url: https://github.com/vfx-rs/organization
-                stars: 52
-              - url: https://github.com/vfx-rs/cppmm
-                stars: 65
-              - url: https://github.com/vfx-rs/usd-bind
-                stars: 44
-              - url: https://github.com/vfx-rs/babble
-                stars: 14
-              - url: https://github.com/vfx-rs/openexr-bind
-                stars: 11
-              - url: https://github.com/vfx-rs/openexr-rs
-                stars: 10
-              - url: https://github.com/vfx-rs/oiio-bind
-                stars: 7
-              - url: https://github.com/vfx-rs/opentimelineio-bind
-                stars: 7
-              - url: https://github.com/vfx-rs/meeting-minutes
-                stars: 5
-              - url: https://github.com/vfx-rs/ptex-bind
-                stars: 5
-              - url: https://github.com/vfx-rs/usd-rs
-                stars: 5
-              - url: https://github.com/vfx-rs/template-project
-                stars: 3
-              - url: https://github.com/vfx-rs/ocio-bind
-                stars: 2
-              - url: https://github.com/vfx-rs/imath-traits
-                stars: 2
-              - url: https://github.com/vfx-rs/rfcs
-                stars: 1
-              - url: https://github.com/vfx-rs/arewevfxyet
-                stars: 1
-              - url: https://github.com/vfx-rs/openexr-core-rs
-                stars: 0
-              - url: https://github.com/vfx-rs/openexr-sys
-                stars: 0
-              - url: https://github.com/vfx-rs/cppmm-build
-                stars: 0
-              - url: https://github.com/vfx-rs/cppmm-refptr
-                stars: 0
-            github_start_commit_data:
-              start_commit_link: /vfx-rs/usd-rs/commit/e477bdea1b45c9f68c8f7e823f2741d166220bf6
-              start_date: '2020-09-16T15:11:32Z'
-            image_data:
-              fileName: working-group-for-rust-bindings.svg
-              hash: EDtnKI8Ty7iHnDPx2au+tAmiGj6DbHiTVNg2SUtHbZY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
   - category:
     name: ASWF Member Company
     subcategories:
@@ -12520,30 +10916,1008 @@ landscape:
               badge: false
               percentage: null
   - category:
-    name: Other
+    name: Dev Days 2024
     subcategories:
       - subcategory:
-        name: Other
+        name: Participating Project
+        items: []
+      - subcategory:
+        name: Supporting Company
         items:
           - item:
-            name: CI Working Group
-            description: Managing multiple version builds, plus requirements for dependencies via the VFX Reference Platform.
-            homepage_url: https://github.com/AcademySoftwareFoundation/wg-ci
+            name: Sony Imageworks
+            second_path: Dev Days 2024 / Supporting Company
+            homepage_url: https://sonypictures.com/
+            logo: sony_pictures_entertainment.svg
+            twitter: https://twitter.com/SonyPictures
+            crunchbase: https://www.crunchbase.com/organization/sony-pictures-entertainment
+            crunchbase_data:
+              name: Sony Pictures Entertainment
+              description: Sony Pictures Entertainment (SPE) is a subsidiary of Sony Entertainment Inc., a subsidiary of Tokyo-based Sony Corporation.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://sonypictures.com
+              city: Culver City
+              region: California
+              country: United States
+              twitter: http://twitter.com/sonypictures
+              linkedin: https://www.linkedin.com/company/sony-pictures-entertainment
+              acquisitions:
+                - date: '2006-08-23'
+                  acquiree: Grouper Networks Inc
+                - date: '2006-08-23'
+                  acquiree: Sony Crackle
+                - date: '2011-06-30'
+                  acquiree: Game Show Network
+                - date: '2012-08-23'
+                  acquiree: Left Bank Pictures
+                - date: '2014-06-26'
+                  acquiree: CSC Media Group
+                - date: '2019-07-08'
+                  acquiree: Nurulize Inc.
+                - date: '2022-10-25'
+                  acquiree: PIXOMONDO
+                - date: '2024-06-12'
+                  acquiree: Alamo Drafthouse
+              parents:
+                - https://www.crunchbase.com/organization/sony
+                - https://www.crunchbase.com/organization/sony-biz-networks-corporation
+                - https://www.crunchbase.com/organization/so-net
+              ticker: SNEJF
+              funding: 1000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Content
+                - Film Distribution
+                - Film Production
+                - Media and Entertainment
+                - TV Production
+            yahoo_finance_data:
+              effective_ticker: SNEJF
+            image_data:
+              fileName: sony-imageworks.svg
+              hash: UjuvzaY2grMl6Mfjx3WtkQailtFf4FyGtW++3YJ8PSU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Walt Disney Studios
+            second_path: Dev Days 2024 / Supporting Company
+            homepage_url: https://disney.com/
+            logo: the_walt_disney_studios.svg
+            twitter: https://twitter.com/Disney
+            crunchbase: https://www.crunchbase.com/organization/walt-disney-internet-group
+            crunchbase_data:
+              name: Disney Interactive
+              description: Disney Interactive develops and distributes multi-platform video games.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://disney.com
+              city: Garden City
+              region: New York
+              country: United States
+              twitter: http://twitter.com/disney
+              linkedin: https://www.linkedin.com/company/disney-interactive-studios/
+              acquisitions:
+                - date: '2006-09-28'
+                  acquiree: Climax Racing
+                - date: '2008-04-07'
+                  acquiree: Gamestar
+                - date: '2008-08-04'
+                  acquiree: RaisingKids
+                - date: '2009-09-08'
+                  acquiree: Wideload Games
+                - date: '2011-02-23'
+                  acquiree: Togetherville
+              parents:
+                - https://www.crunchbase.com/organization/the-walt-disney-company
+              ticker: DIS
+              funding: 11000000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Gaming
+                - Video Games
+                - Virtual World
+                - Web Development
+            yahoo_finance_data:
+              effective_ticker: DIS
+            image_data:
+              fileName: walt-disney-studios.svg
+              hash: uYpy2dvlmMk3fnlgUQXk4C4r7ObVummBnzl87VumgB0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T00:30:00.000Z
+          - item:
+            name: Wētā FX
+            second_path: Dev Days 2024 / Supporting Company
+            homepage_url: https://wetafx.co.nz/
+            logo: weta_fx_limited.svg
+            twitter: https://twitter.com/weta_digital
+            crunchbase: https://www.crunchbase.com/organization/weta-digital
+            crunchbase_data:
+              name: Weta Digital
+              description: Weta Digital is a film production company that offers visual effects and 3D animations.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.wetafx.co.nz/
+              city: Wellington
+              region: Wellington
+              country: New Zealand
+              twitter: https://twitter.com/wetafx
+              linkedin: https://in.linkedin.com/company/weta-digital
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Film
+                - Film Production
+                - TV
+            image_data:
+              fileName: w-t-fx.svg
+              hash: LSTNuLPbrBnbiMA+vBcbvwP1BLQgYnkFRqvFW+/BOEM=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T16:00:25.000Z
+  - category:
+    name: ASWF Projects
+    subcategories:
+      - subcategory:
+        name: All
+        items:
+          - item:
+            name: Continuous Integration Working Group
+            description: >-
+              The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to
+              improve best practices and address the unique challenges we face.
+            homepage_url: https://wiki.aswf.io/display/CIWG
             project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
-            logo: ciwg.svg
+            repo_url: https://github.com/AcademySoftwareFoundation/ci-wg
+            logo: continuous_integration_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               mailing_list_url: https://lists.aswf.io/g/tac
               slack_channel: '#wg-ci'
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/wg-ci/tree/main/meetings
+              slug: continuous-integration-wg
               calendar: https://lists.aswf.io/g/tac/calendar
               leads: Jean-Francois Panisset
               date_accepted: ^2018-10-01
               last_review_date: ^2023-05-17
               next_review_date: ^2024-05-15
               contributed_by: Academy Software Foundation
-              artwork: https://artwork.aswf.io/working-groups/continuous-integration-wg/
+              artwork_url: https://artwork.aswf.io/working-groups/continuous-integration-wg/
+              accepted: '2018-11-01'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/ci-wg
+              - url: https://github.com/AcademySoftwareFoundation/aswf-docker
+            image_data:
+              fileName: continuous-integration-working-group.svg
+              hash: CXemJGFrOTI12YRYa6ttd2AUN7dlIGEYycdK57ncZLU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: Digital Production Example Library (DPEL)
+            second_path:
+              - Imaging and Color / Display and Review
+            description: >-
+              In order to encourage development and research that addresses the true scale, scope and requirements of computer graphics film production, the
+              Asset Repository seeks to publish and maintain curated exemplars of the data sets used in our industry. Research projects and commercial
+              development projects often have trouble obtaining input datasets with full film complexity, and that are licensed to allow publishing research
+              results and software demonstrations. Disney’s Moana Island is a prime example of what we want to encourage, but in addition to 3D scene data,
+              assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
+            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
+            logo: digital_production_example_library_dpel.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/dpel/
+              mailing_list_url: https://lists.aswf.io/g/assets-discussion
+              slack_channel: '#assets'
+              LFX_insights: None
+              wiki_page: https://wiki.aswf.io/display/ARW/DPEL+Wiki
+              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
+              calendar: https://lists.aswf.io/g/assets-discussion/calendar
+              leads: Matthew Low
+              date_accepted: ^2022-03-10
+              last_review_date: ^2023-09-20
+              next_review_date: ^2024-09-18
+              contributed_by: Academy Software Foundation
+              slug: aswf-assets-repository
+              accepted: '2021-09-02'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: Astro
+                  value: 34636
+                - name: CSS
+                  value: 1742
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 1523
+                  color: '#f1e05a'
+              contributions: 0;0;0;1;0;0;0;3;0;0;2;3;0;5;0;1;0;0;0;0;2;3;3;2;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0
+              firstWeek: 2023-07-09Z
+              stars: 7
+              license: Creative Commons Attribution 4.0 International
+              description: Website for the Digital Production Example Library
+              latest_commit_date: '2024-06-04T03:49:50Z'
+              latest_commit_link: /AcademySoftwareFoundation/dpel-website/commit/c87e59661c73db9045c5cb1fe585fb6f75429937
+              contributors_count: 11
+              contributors_link: https://github.com/AcademySoftwareFoundation/dpel-website/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/dpel-website
+                stars: 7
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/dpel-website/commit/44d380fc53c1f65f8b0d5c4ab1f23448f5a08ee8
+              start_date: '2022-03-10T14:40:15Z'
+            image_data:
+              fileName: digital-production-example-library-dpel.svg
+              hash: KEf1AdvxUHPmww+2MCo3Nz7IiQWsf1+6lpJ0mr58ATU=
+            best_practice_data:
+              badge: 8737
+              percentage: 99
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: Diversity & Inclusion Working Group
+            description: >-
+              The purpose of this Working Group is to create a cross-industry effort to encourage diversity and inclusion across the open source software
+              ecosystem for vfx and animation. The WG will bring together software engineers/developers, marketing/communications professionals, HR, and anyone
+              else passionate about D&I within vfx and animation.
+            homepage_url: https://lists.aswf.io/g/diversity
+            project: working-group
+            repo_url: https://github.com/chaoss/wg-diversity-inclusion
+            license: Creative Commons Attribution 4.0 International
+            logo: diversity_inclusion_working_group.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/diversity
+              slack_channel: '#diversity'
+              slug: diversity-inclusion-wg
+              TSC_meeting_notes: none
+              calendar: https://lists.aswf.io/g/diversity/calendar
+              leads: Rachel Rose and Carol Payne
+              date_accepted: ^2020-06-07
+              last_review_date: ^2023-10-04
+              next_review_date: ^2024-10-16
+              contributed_by: Academy Software Foundation
+              artwork_url: https://artwork.aswf.io/working-groups/diversity-inclusion-wg/
+              accepted: '2020-06-11'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages: []
+              contributions: 0;0;2;3;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-07-16Z
+              stars: 84
+              license: MIT License
+              description: CHAOSS Working Group focused on Diversity, Equity, and Inclusion metrics
+              latest_commit_date: '2024-02-29T17:52:22Z'
+              latest_commit_link: /chaoss/wg-dei/commit/ec537e917d81ac29423a0223e2d88d8ad576d19c
+              release_date: '2021-03-06T17:03:48Z'
+              release_link: https://github.com/chaoss/wg-diversity-inclusion/releases
+              contributors_count: 35
+              contributors_link: https://github.com/chaoss/wg-diversity-inclusion/graphs/contributors
+            repos:
+              - url: https://github.com/chaoss/wg-diversity-inclusion
+                stars: 84
+            github_start_commit_data:
+              start_commit_link: /chaoss/wg-dei/commit/65b00e0879de971968eeb16e653f8c31412df1c8
+              start_date: '2017-12-20T11:50:37Z'
+            image_data:
+              fileName: diversity-inclusion-working-group.svg
+              hash: U0CVYYJTQQvVoHPdL1f/U08TQ5E3f//EvffkVqKx1Zo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: MaterialX
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+              - Dev Days 2024 / Participating Project
+            description: >-
+              MaterialX addresses the need for a common, open standard to represent the data values and relationships required to transfer the complete look of
+              a computer graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex
+              nested materials and geometric assignments.
+            homepage_url: https://www.materialx.org/
+            project: incubating
+            repo_url: https://github.com/materialx/MaterialX
+            logo: materialx.svg
+            twitter: https://twitter.com/MaterialXCG
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/materialx/
+              mailing_list_url: https://lists.aswf.io/g/materialx-discussion
+              slack_channel: '#materialx'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
+              documentation: https://materialx.org/docs/api/index.html
+              TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
+              calendar: https://lists.aswf.io/g/materialx-discussion/calendar
+              contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/materialx
+              leads: Jonathan Stone
+              date_accepted: ^2021-08-04
+              last_review_date: ^2024-02-07
+              next_review_date: ^2025-02-05
+              contributed_by: Lucasfilm
+              slug: materialx
+              accepted: '2021-09-15'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 2629104
+                  color: '#f34b7d'
+                - name: JavaScript
+                  value: 169752
+                  color: '#f1e05a'
+                - name: Objective-C++
+                  value: 166520
+                  color: '#6866fb'
+                - name: Python
+                  value: 165710
+                  color: '#3572A5'
+                - name: CSS
+                  value: 116807
+                  color: '#563d7c'
+                - name: GLSL
+                  value: 106246
+                - name: HTML
+                  value: 100925
+                  color: '#e34c26'
+                - name: CMake
+                  value: 76553
+                - name: C
+                  value: 55242
+                  color: '#555555'
+                - name: Objective-C
+                  value: 34692
+                  color: '#438eff'
+                - name: Metal
+                  value: 13340
+                  color: '#8f14e9'
+                - name: EJS
+                  value: 1713
+                - name: Batchfile
+                  value: 1557
+                  color: '#C1F12E'
+                - name: TeX
+                  value: 408
+                  color: '#3D6117'
+              contributions: 18;20;7;1;1;7;18;13;9;11;2;3;13;27;8;5;2;1;3;4;4;3;2;7;2;12;6;9;7;11;14;4;6;0;2;1;2;4;3;4;1;3;3;10;11;1;19;13;9;7;12;15
+              firstWeek: 2023-07-16Z
+              stars: 2181
+              license: Apache License 2.0
+              description: MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.
+              latest_commit_date: '2024-07-08T23:57:08Z'
+              latest_commit_link: /AcademySoftwareFoundation/MaterialX/commit/e0e69ca6badc2a4b22661b5cf0b295b0872713ee
+              release_date: '2024-07-05T17:43:57Z'
+              release_link: https://github.com/materialx/MaterialX/releases
+              contributors_count: 83
+              contributors_link: https://github.com/materialx/MaterialX/graphs/contributors
+            repos:
+              - url: https://github.com/materialx/MaterialX
+                stars: 1777
+              - url: https://github.com/AcademySoftwareFoundation/OpenPBR
+                stars: 401
+              - url: https://github.com/AcademySoftwareFoundation/materialx-website
+                stars: 3
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/MaterialX/commit/7924f5dd07b9494a434ed0ced39592635aa68c5d
+              start_date: '2017-07-05T22:18:25Z'
+            image_data:
+              fileName: material-x.svg
+              hash: czwvZ5gwD3XS6yg1xJTHaa+vtZqhHd153dqF5YWQELQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-19T02:09:24.000Z
+          - item:
+            name: Open Review Initiative
+            second_path:
+              - Imaging and Color / Display and Review
+            description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
+            homepage_url: https://openreviewinitiative.org
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
+            logo: open_review_initiative.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/openreviewinitiative/
+              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
+              slack_channel: '#open-review-initiative'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openreviewio/trends
+              LFX_security: none
+              TSC_meeting_notes: https://docs.google.com/document/d/1JBh0wVLGLPHIQS7n05iq20ix2HlSEBX9NrIF2sPiMHY/edit?usp=sharing
+              calendar: https://lists.aswf.io/g/open-review-initiative-discussion/calendar
+              leads: Erik Strauss
+              date_accepted: ^2022-08-08
+              last_review_date: ^2023-08-23
+              next_review_date: ^2024-08-21
+              contributed_by: Academy Software Foundation
+              slug: openreviewio
+              accepted: '2022-09-07'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
+              - url: https://github.com/AcademySoftwareFoundation/OpenRV
+              - url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
+              - url: https://github.com/AcademySoftwareFoundation/xstudio
+            image_data:
+              fileName: open-review-initiative.svg
+              hash: Ej4+tgKrO/tF/jOhGa4q2vdQ7qHVvnZgxmL9W/1dPjQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: Open Shading Language
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+              - Dev Days 2024 / Participating Project
+            description: >-
+              Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for
+              describing materials, lights, displacement, and pattern generation.
+            homepage_url: https://opensource.imageworks.com/osl.html
+            project: adopted
+            repo_url: https://github.com/imageworks/openshadinglanguage
+            logo: open_shading_language.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/openshadinglanguage/
+              mailing_list_url: https://lists.aswf.io/g/osl-dev
+              Slack_Channel: '#openshadinglanguage'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
+              documentation: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/tree/main/doc
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
+              TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
+              calendar: https://lists.aswf.io/g/osl-dev/calendar
+              contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
+              leads: Chris Kulla
+              date_accepted: ^2020-04-16
+              last_review_date: ^2023-09-06
+              next_review_date: ^2024-09-04
+              contributed_by: Sony Pictures Imageworks
+              slug: open-shading-language
+              accepted: '2020-12-11'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 4929832
+                  color: '#f34b7d'
+                - name: Python
+                  value: 353782
+                  color: '#3572A5'
+                - name: C
+                  value: 334193
+                  color: '#555555'
+                - name: TeX
+                  value: 268317
+                  color: '#3D6117'
+                - name: CMake
+                  value: 193281
+                - name: Cuda
+                  value: 51327
+                  color: '#3A4E3A'
+                - name: Yacc
+                  value: 51172
+                  color: '#4B6C4B'
+                - name: HTML
+                  value: 43863
+                  color: '#e34c26'
+                - name: Shell
+                  value: 42160
+                  color: '#89e051'
+                - name: Lex
+                  value: 26864
+                  color: '#DBCA00'
+                - name: Makefile
+                  value: 15331
+                  color: '#427819'
+                - name: CSS
+                  value: 4165
+                  color: '#563d7c'
+                - name: GLSL
+                  value: 939
+              contributions: 0;1;0;0;1;6;4;2;3;4;1;4;8;0;0;5;1;0;6;0;3;0;0;3;3;0;2;1;1;1;0;4;4;3;5;0;1;2;3;0;1;7;2;4;0;1;1;2;1;4;1;3
+              firstWeek: 2023-07-16Z
+              stars: 2050
+              license: BSD 3-Clause "New" or "Revised" License
+              description: Advanced shading language for production GI renderers
+              latest_commit_date: '2024-07-07T23:16:38Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/27a8bdebca298fd4f0b5d4dc447de834666ee71a
+              release_date: '2024-06-02T17:12:48Z'
+              release_link: https://github.com/imageworks/openshadinglanguage/releases
+              contributors_count: 83
+              contributors_link: https://github.com/imageworks/openshadinglanguage/graphs/contributors
+            repos:
+              - url: https://github.com/imageworks/openshadinglanguage
+                stars: 2050
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/ed210bbb0c5c74ad0b82c4a8a949ab97d1aa0ad6
+              start_date: '2008-09-03T22:01:13Z'
+            image_data:
+              fileName: open-shading-language.svg
+              hash: 6Thugjej81LUWX5XcXSiHVBZnkyxQ5+PdzW28yhNBg0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: OpenAssetIO
+            second_path:
+              - Assets and Workflow / Pipelines and Frameworks
+            description: >-
+              The mission of the Project is to develop an open-source interoperability standard for tools and content management systems used in media
+              production.
+            homepage_url: https://openassetio.org/
+            project: sandbox
+            repo_url: https://github.com/OpenAssetIO/OpenAssetIO
+            project_org: https://github.com/OpenAssetIO
+            logo: openassetio.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/openassetio/
+              mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
+              slack_channel: '#openassetio'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openassetio/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001L17vCQAR/overview
+              documentation: https://openassetio.github.io/OpenAssetIO/
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
+              TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
+              calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
+              contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
+              leads: Elliot Morris
+              date_accepted: ^2022-08-08
+              last_review_date: ^2023-07-12
+              next_review_date: ^2024-07-10
+              contributed_by: Foundry
+              slug: openassetio
+              accepted: '2022-11-01'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              description: An open-source interoperability standard for tools and content management systems used in media production.
+              contributors_count: 407
+              contributions: 10;15;6;14;26;11;21;20;28;16;24;20;30;25;26;7;12;18;18;14;23;7;11;10;0;24;6;2;16;13;10;10;19;18;7;6;12;3;9;11;8;2;2;5;10;10;11;12;19;16;5;5
+              stars: 338
+              languages:
+                - name: Python
+                  value: 9704165
+                  color: '#3572A5'
+                - name: C++
+                  value: 1785202
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 1175119
+                - name: C
+                  value: 737787
+                  color: '#555555'
+                - name: Makefile
+                  value: 23268
+                  color: '#427819'
+                - name: Assembly
+                  value: 7369
+                  color: '#6E4C13'
+                - name: Shell
+                  value: 7158
+                  color: '#89e051'
+                - name: Cap'n Proto
+                  value: 6379
+                - name: M4
+                  value: 4824
+                - name: Dockerfile
+                  value: 4717
+                  color: '#384d54'
+                - name: Lex
+                  value: 4025
+                  color: '#DBCA00'
+                - name: Yacc
+                  value: 3946
+                  color: '#4B6C4B'
+                - name: Perl
+                  value: 3355
+                  color: '#0298c3'
+                - name: Meson
+                  value: 3215
+                  color: '#007800'
+                - name: Batchfile
+                  value: 2179
+                  color: '#C1F12E'
+                - name: Thrift
+                  value: 2062
+                - name: Verilog
+                  value: 1034
+                  color: '#b2b7f8'
+                - name: Objective-C++
+                  value: 804
+                  color: '#6866fb'
+                - name: JetBrains MPS
+                  value: 598
+                - name: XSLT
+                  value: 542
+                  color: '#EB8CEB'
+                - name: Lua
+                  value: 534
+                  color: '#000080'
+                - name: QMake
+                  value: 441
+                - name: GLSL
+                  value: 334
+                - name: LLVM
+                  value: 263
+                  color: '#185619'
+                - name: Groovy
+                  value: 230
+                  color: '#e69f56'
+                - name: HTML
+                  value: 131
+                  color: '#e34c26'
+                - name: SWIG
+                  value: 87
+                - name: WebAssembly
+                  value: 84
+                  color: '#04133b'
+                - name: Tcl
+                  value: 28
+                  color: '#e4cc98'
+              latest_commit_link: /OpenAssetIO/OpenAssetIO/commit/d003ee99ca941e32815f1c0121e5957a7d763273
+              latest_commit_date: '2024-07-05T16:45:14Z'
+              firstWeek: 2023-07-09Z
+              license: Apache License 2.0
+              contributors_link: https://github.com/OpenAssetIO/OpenAssetIO/graphs/contributors
+            repos:
+              - url: https://github.com/OpenAssetIO/OpenAssetIO
+                stars: 274
+              - url: https://github.com/OpenAssetIO/usdOpenAssetIOResolver
+                stars: 24
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
+                stars: 11
+              - url: https://github.com/OpenAssetIO/otio-openassetio
+                stars: 10
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-WG
+                stars: 6
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-Manager-BAL
+                stars: 5
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
+                stars: 5
+              - url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
+                stars: 3
+              - url: https://github.com/OpenAssetIO/openassetio.github.io
+                stars: 0
+              - url: https://github.com/OpenAssetIO/OpenAssetIO-Test-CMake
+                stars: 0
+              - url: https://github.com/OpenAssetIO/conan-center-index
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /OpenAssetIO/OpenAssetIO/commit/a6303fa9e2dcef654ce88f7cb5056932843ac60b
+              start_date: '2021-08-23T10:54:51Z'
+            image_data:
+              fileName: open-asset-io.svg
+              hash: Iioz2fBUcuE8Ho3UMW5oVMu90gwbFGgvflfuCmnY82w=
+            best_practice_data:
+              badge: 6046
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: OpenColorIO
+            second_path:
+              - Imaging and Color / Color Science
+              - Dev Days 2024 / Participating Project
+            description: >-
+              The OpenColorIO project is committed to providing an industry standard solution for highly precise, performant, and consistent color management
+              across digital content creation applications and pipelines.
+            homepage_url: https://opencolorio.org/
+            project: adopted
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
+            logo: opencolorio.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/opencolorio/
+              mailing_list_url: https://lists.aswf.io/g/ocio-user
+              slack_channel_url: https://slack.opencolorio.org
+              documentation: https://opencolorio.readthedocs.io/
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
+              wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
+              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
+              calendar: https://lists.aswf.io/g/ocio-dev/calendar
+              contribution_guidelines: https://opencolorio.readthedocs.io/en/latest/guides/contributing/contributing.html
+              leads: Carol Payne
+              date_accepted: ^2019-02-08
+              last_review_date: ^2023-11-01
+              next_review_date: ^2024-11-05
+              contributed_by: Sony Pictures Imageworks
+              slug: opencolorio
+              accepted: '2020-04-24'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 7991286
+                  color: '#f34b7d'
+                - name: Python
+                  value: 1609194
+                  color: '#3572A5'
+                - name: Roff
+                  value: 867637
+                  color: '#ecdebe'
+                - name: CMake
+                  value: 286197
+                - name: Java
+                  value: 73341
+                  color: '#b07219'
+                - name: C
+                  value: 61491
+                  color: '#555555'
+                - name: Objective-C++
+                  value: 37712
+                  color: '#6866fb'
+                - name: Batchfile
+                  value: 25991
+                  color: '#C1F12E'
+                - name: Shell
+                  value: 19174
+                  color: '#89e051'
+                - name: Objective-C
+                  value: 6826
+                  color: '#438eff'
+                - name: Dockerfile
+                  value: 1814
+                  color: '#384d54'
+              contributions: 1;0;3;0;0;0;3;12;1;2;1;4;0;1;1;2;3;2;7;1;0;3;0;0;0;0;0;0;7;1;1;0;0;0;0;1;2;0;3;0;1;0;2;2;1;0;0;0;1;0;1;0
+              firstWeek: 2023-07-09Z
+              stars: 1994
+              license: BSD 3-Clause "New" or "Revised" License
+              description: A color management framework for visual effects and animation.
+              latest_commit_date: '2024-06-24T19:30:30Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenColorIO/commit/dc13f2933c935596251218b157f6676ed7a2720f
+              release_date: '2024-01-30T08:03:19Z'
+              release_link: https://github.com/AcademySoftwareFoundation/OpenColorIO/releases
+              contributors_count: 94
+              contributors_link: https://github.com/AcademySoftwareFoundation/OpenColorIO/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/OpenColorIO
+                stars: 1737
+              - url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
+                stars: 257
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/OpenColorIO/commit/3a4a30dba6be65613e80c9858169cd9d53e58ff2
+              start_date: '2010-06-17T02:34:03Z'
+            image_data:
+              fileName: open-color-io.svg
+              hash: BDX99eHn8bJuuaWsuRC6aeE3Eip6UnBF7Zelg0/O7W0=
+            best_practice_data:
+              badge: 2612
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: OpenCue
+            second_path:
+              - Rendering and Queueing / Queueing and Render Management
+            description: >-
+              OpenCue is an open source render management system. You can use OpenCue in visual effects and animation production to break down complex jobs into
+              individual tasks. You can submit jobs to a configurable dispatch queue that allocates the necessary computational resources.
+            homepage_url: https://opencue.io/
+            project: adopted
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
+            logo: opencue.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/opencue/
+              mailing_list_url: https://lists.aswf.io/g/opencue-user
+              slack_channel: '#opencue'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencue/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
+              documentation: https://www.opencue.io/docs/
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
+              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
+              calendar: https://lists.aswf.io/g/ocio-dev/calendar
+              contribution_guidelines: https://www.opencue.io/contributing/
+              leads: Diego Tavares Da Silva
+              date_accepted: ^2019-05-01
+              last_review_date: ^2024-05-29
+              next_review_date: ^2025-05-28
+              contributed_by: Sony Pictures Imageworks and Google Cloud
+              slug: opencue
+              accepted: '2020-04-24'
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12570,76 +11944,90 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 326270
+                  value: 3406542
                   color: '#3572A5'
+                - name: Java
+                  value: 2384403
+                  color: '#b07219'
+                - name: PLpgSQL
+                  value: 141257
                 - name: Shell
-                  value: 61605
+                  value: 34955
                   color: '#89e051'
+                - name: HTML
+                  value: 22752
+                  color: '#e34c26'
                 - name: Dockerfile
-                  value: 40109
+                  value: 13367
                   color: '#384d54'
                 - name: C++
-                  value: 28358
+                  value: 6377
                   color: '#f34b7d'
-                - name: CMake
-                  value: 17608
-                - name: Jinja
-                  value: 5616
-                - name: C
-                  value: 3461
-                  color: '#555555'
-                - name: Meson
-                  value: 320
-                  color: '#007800'
-                - name: LLVM
-                  value: 263
-                  color: '#185619'
-                - name: QMake
-                  value: 237
-              contributions: 0;2;0;0;3;16;0;0;0;2;0;0;0;2;0;0;0;5;1;0;0;2;0;0;0;2;0;0;0;17;3;0;6;2;0;2;0;0;0;0;0;2;0;0;0;4;0;0;0;2;0;0
+                - name: SCSS
+                  value: 3895
+                - name: Vim Script
+                  value: 2297
+                - name: CSS
+                  value: 1604
+                  color: '#563d7c'
+              contributions: 5;0;0;0;1;0;0;0;0;0;0;4;2;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;2;3;1;2;0;0;1;0;0;0;1;0;0;1;6;2;1;3;0;1;9;20;0;3
               firstWeek: 2023-07-09Z
-              stars: 153
-              license: Creative Commons Attribution 4.0 International
-              description: ASWF Continuous Integration Working Group
-              latest_commit_date: '2024-06-19T21:06:59Z'
-              latest_commit_link: /AcademySoftwareFoundation/wg-ci/commit/d654ee81505ecdc3ce3ac855ef9a6e18f4414482
-              contributors_count: 9
-              contributors_link: https://github.com/AcademySoftwareFoundation/wg-ci/graphs/contributors
+              stars: 830
+              license: Apache License 2.0
+              description: A render management system you can deploy for visual effects and animation productions.
+              latest_commit_date: '2024-07-05T03:39:36Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenCue/commit/c345dffa9c5bc1a5186d377a7f2c9b1691a9a544
+              release_date: '2023-07-13T18:31:16Z'
+              release_link: https://github.com/AcademySoftwareFoundation/OpenCue/releases
+              contributors_count: 50
+              contributors_link: https://github.com/AcademySoftwareFoundation/OpenCue/graphs/contributors
             repos:
-              - url: https://github.com/AcademySoftwareFoundation/wg-ci
-                stars: 8
-              - url: https://github.com/AcademySoftwareFoundation/aswf-docker
-                stars: 145
+              - url: https://github.com/AcademySoftwareFoundation/OpenCue
+                stars: 816
+              - url: https://github.com/AcademySoftwareFoundation/opencue.io
+                stars: 14
             github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/aswf-docker/commit/f98da06be4cd33a2e6566d33d0c211d235af03e3
-              start_date: '2019-05-29T20:51:19Z'
+              start_commit_link: /AcademySoftwareFoundation/OpenCue/commit/ea128e00aa7127b9ba7e19f82cc7fd6627f4c155
+              start_date: '2018-05-16T23:55:35Z'
             image_data:
-              fileName: ci-working-group.svg
-              hash: CXemJGFrOTI12YRYa6ttd2AUN7dlIGEYycdK57ncZLU=
+              fileName: open-cue.svg
+              hash: +A/QyQls6QaRcyFM8zZBizYi0zYR3bv7Y/wQr8BU7JA=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 2837
+              percentage: 100
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
-            name: D&I Working Group
-            description: Encouraging diversity and inclusion across the open source software ecosystem for VFX and animation.
-            homepage_url: https://www.aswf.io/diversity/
-            project: working-group
-            license: Creative Commons Attribution 4.0 International
-            logo: diwg.svg
+            name: OpenEXR
+            second_path:
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+              - Dev Days 2024 / Participating Project
+            description: >-
+              The goal of the OpenEXR project is to keep the format reliable and modern and to maintain its place as the preferred image format for
+              entertainment content creation.
+            homepage_url: https://www.openexr.com/
+            project: adopted
+            repo_url: https://github.com/AcademySoftwareFoundation/openexr
+            logo: openexr.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              mailing_list_url: https://lists.aswf.io/g/diversity
-              slack_channel: '#diversity'
-              TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/diversity/calendar
-              leads: Rachel Rose and Carol Payne
-              date_accepted: ^2020-06-07
-              last_review_date: ^2023-10-04
-              next_review_date: ^2024-10-16
-              contributed_by: Academy Software Foundation
-              artwork: https://artwork.aswf.io/working-groups/diversity-inclusion-wg/
+              artwork_url: https://artwork.aswf.io/projects/openexr/
+              mailing_list_url: https://lists.aswf.io/g/openexr-dev
+              slack_channel: '#openexr'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
+              documentation: https://openexr.readthedocs.io
+              wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
+              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
+              calendar: https://lists.aswf.io/g/openexr-dev/calendar
+              leads: Cary Phillips
+              date_accepted: ^2019-05-01
+              last_review_date: ^2024-04-17
+              next_review_date: ^2025-04-16
+              contributed_by: Lucasfilm
+              slug: openexr
+              accepted: '2020-04-24'
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12663,24 +12051,882 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
+            github_data:
+              languages:
+                - name: C
+                  value: 10396606
+                  color: '#555555'
+                - name: C++
+                  value: 5972052
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 149822
+                - name: Python
+                  value: 117243
+                  color: '#3572A5'
+                - name: M4
+                  value: 26297
+                - name: Shell
+                  value: 23979
+                  color: '#89e051'
+                - name: Starlark
+                  value: 22764
+                - name: Batchfile
+                  value: 6522
+                  color: '#C1F12E'
+                - name: PowerShell
+                  value: 3917
+                  color: '#012456'
+                - name: HTML
+                  value: 1144
+                  color: '#e34c26'
+              contributions: 7;2;7;10;5;12;0;11;0;5;8;4;0;6;4;0;0;1;0;0;0;0;1;7;0;1;1;0;11;4;5;12;4;7;15;9;15;8;7;12;5;9;0;5;3;0;0;3;0;0;0;0
+              firstWeek: 2023-07-09Z
+              stars: 2055
+              license: BSD 3-Clause "New" or "Revised" License
+              description: >-
+                The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format
+                of the motion picture industry.
+              latest_commit_date: '2024-06-02T17:17:42Z'
+              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/8169016e5cf9a6fe84ef55009f38589b3e410f15
+              release_date: '2024-03-26T16:52:40Z'
+              release_link: https://github.com/AcademySoftwareFoundation/openexr/releases
+              contributors_count: 133
+              contributors_link: https://github.com/AcademySoftwareFoundation/openexr/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/openexr
+                stars: 1597
+              - url: https://github.com/AcademySoftwareFoundation/Imath
+                stars: 357
+              - url: https://github.com/AcademySoftwareFoundation/openexr-images
+                stars: 95
+              - url: https://github.com/AcademySoftwareFoundation/openexr-examples
+                stars: 5
+              - url: https://github.com/AcademySoftwareFoundation/openexr-website
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
+              start_date: '2003-01-21T06:34:28Z'
             image_data:
-              fileName: d-i-working-group.svg
-              hash: U0CVYYJTQQvVoHPdL1f/U08TQ5E3f//EvffkVqKx1Zo=
+              fileName: open-exr.svg
+              hash: k4f/wYPCQyNQytS590ldXMhL97lQkfHWzrRT42eijlA=
+            best_practice_data:
+              badge: 2799
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: OpenFX
+            second_path:
+              - Math and Simulation / File Formats and Interchange
+            description: The mission of the OpenFX Project is to promote and develop an image processing plug-in standard.
+            homepage_url: https://openeffects.org/
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/openfx
+            logo: openfx.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/openfx/
+              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
+              slack_channel: '#openfx'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openfx/trends
+              contribution_guidelines: https://github.com/ofxa/openfx/wiki/Extending-OpenFX-Guidelines
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openfx
+              leads: Gary Oberbrunner
+              date_accepted: ^2022-08-08
+              last_review_date: ^2024-06-12
+              next_review_date: ^2025-06-11
+              contributed_by: Open Effects Association
+              slug: openfx
+              accepted: '2022-09-02'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 1206579
+                  color: '#f34b7d'
+                - name: C
+                  value: 312115
+                  color: '#555555'
+                - name: CSS
+                  value: 25573
+                  color: '#563d7c'
+                - name: Shell
+                  value: 13753
+                  color: '#89e051'
+                - name: Makefile
+                  value: 8474
+                  color: '#427819'
+                - name: CMake
+                  value: 8142
+                - name: Python
+                  value: 7032
+                  color: '#3572A5'
+                - name: Objective-C++
+                  value: 5960
+                  color: '#6866fb'
+                - name: HTML
+                  value: 3350
+                  color: '#e34c26'
+                - name: Cuda
+                  value: 1136
+                  color: '#3A4E3A'
+              contributions: 0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;8;2;8;5;0;0;7;0;0;0;0;6;0;0;0;12;21;10;1;2;15;0;0;0;0;5;0;0;0;0;0;0;0;0
+              firstWeek: 2023-07-09Z
+              stars: 392
+              license: Other
+              description: OpenFX effects API
+              latest_commit_date: '2024-05-07T22:30:59Z'
+              latest_commit_link: /AcademySoftwareFoundation/openfx/commit/b7723137e9fcfd9306e36a6991339a7715d7f4cb
+              release_date: '2015-09-01T02:19:20Z'
+              release_link: https://github.com/AcademySoftwareFoundation/openfx/releases
+              contributors_count: 22
+              contributors_link: https://github.com/AcademySoftwareFoundation/openfx/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/openfx
+                stars: 392
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/openfx/commit/0cd61763b848efa8daceccb9e19cdad98433cea4
+              start_date: '2004-04-27T12:13:45Z'
+            image_data:
+              fileName: open-fx.svg
+              hash: 3c/o1Yw4KBTSVHcSQpKIPEjWMindTEpkHXXMYhe9PHc=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
-  - category:
-    name: Dev Days 2024
-    subcategories:
-      - subcategory:
-        name: Participating Project
-        items: []
-      - subcategory:
-        name: Supporting Company
-        items: []
+          - item:
+            name: OpenImageIO
+            second_path:
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+              - Dev Days 2024 / Participating Project
+            description: >-
+              The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation
+              via a format- agnostic API, with a feature set, scalability, and robustness needed for production. 
+            homepage_url: https://openimageio.org
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+            logo: openimageio.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/openimageio/
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
+              slack_channel: '#openimageio'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
+              LFX_security: none
+              documentation: https://openimageio.readthedocs.io
+              wiki_page: none
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
+              TSC_meeting_notes: none
+              calendar: https://lists.aswf.io/g/oiio-dev/calendar
+              leads: Daniel Greenstein
+              date_accepted: ^2023-05-03
+              last_review_date: ^2024-05-01
+              next_review_date: ^2025-04-30
+              contributed_by: Larry Gritz
+              slug: openimageio
+              accepted: '2023-06-27'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 7095095
+                  color: '#f34b7d'
+                - name: POV-Ray SDL
+                  value: 5056106
+                - name: Python
+                  value: 342646
+                  color: '#3572A5'
+                - name: CMake
+                  value: 258661
+                - name: C
+                  value: 131894
+                  color: '#555555'
+                - name: Shell
+                  value: 70497
+                  color: '#89e051'
+                - name: Makefile
+                  value: 16404
+                  color: '#427819'
+              contributions: 4;3;8;10;1;0;11;9;6;5;9;5;3;9;13;2;2;0;5;9;3;1;3;6;5;10;4;7;7;12;7;2;4;6;8;7;8;10;10;8;9;8;5;4;5;8;6;3;6;6;8;12
+              firstWeek: 2023-07-09Z
+              stars: 1945
+              license: Apache License 2.0
+              description: Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.
+              latest_commit_date: '2024-07-03T15:24:42Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/979e5f99f7c02efdf8da0ab92d64486153577394
+              release_date: '2024-07-01T18:37:59Z'
+              release_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/releases
+              contributors_count: 200
+              contributors_link: https://github.com/AcademySoftwareFoundation/OpenImageIO/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+                stars: 1910
+              - url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
+                stars: 35
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/OpenImageIO/commit/70121c7e5dcc1e83656fd3d029d3f3a9590aae26
+              start_date: '2008-04-21T20:46:21Z'
+            image_data:
+              fileName: open-image-io.svg
+              hash: 3iBey5aeZa4zvuHXm56nyCEYK0p7l7cppvRT+SdLwWw=
+            best_practice_data:
+              badge: 2694
+              percentage: 100
+          - item:
+            name: OpenTimelineIO
+            second_path:
+              - Assets and Workflow / Timelines and Animation
+              - Dev Days 2024 / Participating Project
+            description: >-
+              OpenTimelineIO (OTIO) is an API and interchange format for editorial cut information. You can think of it as a modern Edit Decision List (EDL)
+              that also includes an API for reading, writing, and manipulating editorial data. It also includes a plugin system for translating to/from existing
+              editorial formats as well as a plugin system for linking to proprietary media storage schemas.
+            homepage_url: http://opentimeline.io/
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+            logo: opentimelineio.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/opentimelineio/
+              mailing_list_url: https://lists.aswf.io/g/otio-discussion
+              slack_channel: '#opentimelineio'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-timeline-io/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
+              documentation: https://opentimelineio.readthedocs.io
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
+              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
+              calendar: https://lists.aswf.io/g/otio-discussion/calendar
+              contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
+              leads: Joshua Minor
+              date_accepted: ^2019-07-29
+              last_review_date: ^2023-12-13
+              next_review_date: ^2024-12-11
+              contributed_by: Pixar Animation Studios
+              slug: open-timeline-io
+              accepted: '2021-03-08'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: Python
+                  value: 750268
+                  color: '#3572A5'
+                - name: C++
+                  value: 642942
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 25118
+                - name: Makefile
+                  value: 9892
+                  color: '#427819'
+                - name: C
+                  value: 438
+                  color: '#555555'
+              contributions: 0;1;1;0;0;0;1;2;0;0;0;0;1;1;0;1;1;0;0;0;0;2;1;0;0;0;0;0;1;0;0;2;1;0;0;2;0;3;3;3;9;0;0;0;0;1;0;0;2;1;5;1
+              firstWeek: 2023-07-09Z
+              stars: 1401
+              license: Apache License 2.0
+              description: Open Source API and interchange format for editorial timeline information.
+              latest_commit_date: '2024-07-01T19:42:09Z'
+              latest_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/5dff8be58d1c4b63040fc70c8afd261bd31d6e55
+              release_date: '2024-06-24T23:48:18Z'
+              release_link: https://github.com/AcademySoftwareFoundation/OpenTimelineIO/releases
+              contributors_count: 77
+              contributors_link: https://github.com/AcademySoftwareFoundation/OpenTimelineIO/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+                stars: 1401
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/OpenTimelineIO/commit/0f685780a69e491dd8b8f0e720671a8be22349cf
+              start_date: '2016-09-06T19:52:15Z'
+            image_data:
+              fileName: open-timeline-io.svg
+              hash: VhZ4unfiiZLvP/fXOEwsRq6QzrJy4p+YeO08j/GwAwQ=
+            best_practice_data:
+              badge: 2288
+              percentage: 90
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: OpenVDB
+            second_path:
+              - Math and Simulation / File Formats and Interchange
+            description: >-
+              OpenVDB provides an industry standard for authoring, processing and storing of high-resolution volumetric data. As such, we are committed to
+              improving and maintaining both the hierarchical VDB data structure and the large suite of tools for its efficient traversal and manipulation.
+            homepage_url: https://www.openvdb.org/
+            project: adopted
+            repo_url: https://github.com/AcademySoftwareFoundation/openvdb
+            logo: openvdb.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/openvdb/
+              mailing_list_url: https://lists.aswf.io/g/openvdb-user
+              slack_channel: '#openvdb'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openvdb/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
+              documentation: https://www.openvdb.org/documentation/doxygen/
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
+              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
+              calendar: https://lists.aswf.io/g/openvdb-dev/calendar
+              contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
+              leads: Ken Museth
+              date_accepted: ^2018-10-23
+              last_review_date: ^2022-11-30
+              next_review_date: ^2025-01-08
+              contributed_by: Dreamworks Animation
+              slug: openvdb
+              accepted: '2019-01-11'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 15713190
+                  color: '#f34b7d'
+                - name: Mathematica
+                  value: 674029
+                - name: CMake
+                  value: 299536
+                - name: Cuda
+                  value: 275844
+                  color: '#3A4E3A'
+                - name: C
+                  value: 221058
+                  color: '#555555'
+                - name: Batchfile
+                  value: 194966
+                  color: '#C1F12E'
+                - name: JavaScript
+                  value: 122430
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 49815
+                  color: '#563d7c'
+                - name: HTML
+                  value: 48052
+                  color: '#e34c26'
+                - name: Python
+                  value: 45340
+                  color: '#3572A5'
+                - name: Yacc
+                  value: 24927
+                  color: '#4B6C4B'
+                - name: Shell
+                  value: 19890
+                  color: '#89e051'
+                - name: Lex
+                  value: 15353
+                  color: '#DBCA00'
+                - name: PowerShell
+                  value: 8285
+                  color: '#012456'
+                - name: NASL
+                  value: 2705
+                - name: QML
+                  value: 1098
+                  color: '#44a51c'
+              contributions: 4;5;6;14;1;1;6;1;2;1;1;5;6;20;9;13;16;0;0;0;0;6;4;9;0;2;11;8;8;4;1;3;0;3;3;2;2;3;0;0;0;2;2;2;3;10;12;5;10;0;7;0
+              firstWeek: 2023-07-09Z
+              stars: 2506
+              license: Mozilla Public License 2.0
+              description: OpenVDB - Sparse volume data structure and tools
+              latest_commit_date: '2024-06-27T20:10:46Z'
+              latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/ffdc8810cad785cd3ee6d00955be63e5b023cc11
+              release_date: '2023-11-01T23:28:55Z'
+              release_link: https://github.com/AcademySoftwareFoundation/openvdb/releases
+              contributors_count: 61
+              contributors_link: https://github.com/AcademySoftwareFoundation/openvdb/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/openvdb
+                stars: 2493
+              - url: https://github.com/AcademySoftwareFoundation/openvdb-website
+                stars: 13
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/openvdb/commit/b2af9eb1e91715445a4e18e67c07b70ad0609d3f
+              start_date: '2013-04-12T19:13:20Z'
+            image_data:
+              fileName: open-vdb.svg
+              hash: LXSXOmkNPOrRAkxLHINIjYYqMn69t7wIaNZ1uLfLRnA=
+            best_practice_data:
+              badge: 2774
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: RAW to ACES Utility
+            second_path:
+              - Imaging and Color / Color Science
+            homepage_url: https://rawtoaces.org
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            logo: rawtoaces.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
+              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
+              slack_channel: '#rawtoaces'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
+              TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
+              calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rawtoaces
+              leads: Alexander Forsythe
+              date_accepted: ^2022-03-10
+              last_review_date: ^2024-01-10
+              next_review_date: ^2025-01-08
+              contributed_by: The Academy of Motion Picture Arts and Sciences
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 674759
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 15448
+                - name: C
+                  value: 4579
+                  color: '#555555'
+                - name: Shell
+                  value: 1551
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 1408
+                  color: '#384d54'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;5;3;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-07-16Z
+              stars: 138
+              license: Unknown License
+              description: RAW to ACES Utility
+              latest_commit_date: '2023-12-15T21:20:34Z'
+              latest_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/e022b7e78baa8cdc3475ff7b42137a23579961fd
+              contributors_count: 15
+              contributors_link: https://github.com/AcademySoftwareFoundation/rawtoaces/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/rawtoaces
+                stars: 138
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/92adb20a08f549ab6574cda5480c03275f80a985
+              start_date: '2016-07-08T21:31:48Z'
+            image_data:
+              fileName: raw-to-aces-utility.svg
+              hash: Fji15PsvZQbxZTi+WkyZ94fW3I1MkJuEvw+TRduk/Xg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: Rez
+            second_path:
+              - Assets and Workflow / Software Foundation and System Administration
+            description: |-
+              Rez is a cross-platform package manager. Using Rez you can create runtimes
+              configured for a given set of packages.
+            homepage_url: https://github.com/nerdvegas/rez
+            project: incubating
+            repo_url: https://github.com/nerdvegas/rez
+            logo: rez.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              artwork_url: https://artwork.aswf.io/projects/rez/
+              mailing_list_url: https://lists.aswf.io/g/rez-discussion
+              slack_channel: '#Rez'
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rez/trends
+              LFX_security: none
+              documentation: https://github.com/AcademySoftwareFoundation/rez/wiki
+              TSC_meeting_notes: Request links
+              contribution_guidelines: Request links
+              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rez
+              leads: Stephen Mackenzie and Jean-Christophe Morin
+              date_accepted: ^2022-03-10
+              last_review_date: ^2024-04-17
+              next_review_date: ^2025-04-02
+              contributed_by: Allan Johns
+              slug: rez
+              accepted: '2022-03-08'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages:
+                - name: Python
+                  value: 1956004
+                  color: '#3572A5'
+                - name: CMake
+                  value: 61812
+                - name: Shell
+                  value: 3081
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 13
+                  color: '#C1F12E'
+              contributions: 0;4;0;1;0;0;1;1;7;5;0;1;0;0;1;2;0;14;4;5;4;1;2;0;1;2;0;0;5;3;8;5;1;2;3;5;0;7;1;6;4;1;3;4;0;0;0;0;0;6;7;2
+              firstWeek: 2023-07-16Z
+              stars: 916
+              license: Apache License 2.0
+              description: An integrated package configuration, build and deployment system for software
+              latest_commit_date: '2024-07-08T18:27:03Z'
+              latest_commit_link: /AcademySoftwareFoundation/rez/commit/226bc37b0d0c1bc8731f0017e3d6f97977cedcea
+              release_date: '2024-04-14T19:41:14Z'
+              release_link: https://github.com/nerdvegas/rez/releases
+              contributors_count: 82
+              contributors_link: https://github.com/nerdvegas/rez/graphs/contributors
+            repos:
+              - url: https://github.com/nerdvegas/rez
+                stars: 916
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/rez/commit/2f66a76462ee778927b67a9a6385f776cb553b54
+              start_date: '2011-10-24T02:26:33Z'
+            image_data:
+              fileName: rez.svg
+              hash: 6T5sPJmX1OFjkHuF4WOSQE/vupwpWbkglB5s4/lyGNM=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: Universal Scene Description Working Group
+            second_path:
+              - Assets and Workflow / Scenes and Geometry
+            description: >-
+              The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond
+              the capacity of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best
+              practices and helping with issues raised in various USD support channels where possible.
+            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
+            project: working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
+            license: Creative Commons Attribution 4.0 International
+            logo: universal_scene_description_working_group.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/wg-usd
+              slack_channel: '#wg-usd'
+              slug: usd-wg
+              TSC_meeting_notes: https://wiki.aswf.io/pages/viewpage.action?pageId=1736722
+              calendar: https://lists.aswf.io/g/wg-usd/calendar
+              leads: Alexander Schwank and Nick Porcino
+              date_accepted: ^2020-03-04
+              last_review_date: ^2024-05-01
+              next_review_date: ^2025-04-30
+              contributed_by: Pixar
+              artwork_url: https://artwork.aswf.io/working-groups/usd-wg/
+              accepted: '2020-03-04'
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-07-16Z
+              stars: 60
+              license: Apache License 2.0
+              description: USD Working Group collaboration and resources
+              latest_commit_date: '2024-05-01T11:50:37Z'
+              latest_commit_link: /AcademySoftwareFoundation/wg-usd/commit/566bdadac97c146df761a1b0d3cb7a45a8853e73
+              contributors_count: 3
+              contributors_link: https://github.com/AcademySoftwareFoundation/wg-usd/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/wg-usd
+                stars: 60
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/wg-usd/commit/157b7b7ddbe853c9925351fa31872ca4cc7d4cbe
+              start_date: '2020-03-06T21:13:13Z'
+            image_data:
+              fileName: universal-scene-description-working-group.svg
+              hash: FStPNc3zk6Ox9MoK7Zt0TLBRv58jdVrugeDN7H3lOY8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
+            name: Working Group for Rust Bindings
+            second_path:
+              - Math and Simulation / Math Foundations
+            description: >-
+              The Working Group for Rust Bindings is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
+              entertainment industry.
+            homepage_url: https://github.com/vfx-rs/organization
+            project: working-group
+            repo_url: https://github.com/vfx-rs/organization
+            project_org: https://github.com/vfx-rs
+            logo: rustwg.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              mailing_list_url: https://lists.aswf.io/g/wg-rust
+              slack_channel: '#rust'
+              TSC_meeting_notes: none
+              calendar: https://lists.aswf.io/g/wg-rust/calendar
+              leads: Scott Wilson
+              date_accepted: ^2021-03-04
+              last_review_date: ^2024-03-20
+              next_review_date: ^2025-03-19
+              contributed_by: Scott Wilson
+              artwork_url: https://artwork.aswf.io/working-groups/working-group-for-rust-bindings/
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              description: ''
+              contributors_count: 10
+              contributions: 0;0;6;26;10;0;1;0;3;1;0;1;0;8;0;1;0;0;6;14;1;0;0;0;0;0;0;0;0;0;0;2;7;16;0;0;2;15;8;6;21;0;5;0;0;0;0;0;0;0;0;0
+              stars: 234
+              languages:
+                - name: C++
+                  value: 29264874
+                  color: '#f34b7d'
+                - name: C
+                  value: 11454846
+                  color: '#555555'
+                - name: Rust
+                  value: 3969941
+                  color: '#dea584'
+                - name: SCSS
+                  value: 842306
+                - name: CMake
+                  value: 84614
+                - name: Python
+                  value: 49829
+                  color: '#3572A5'
+                - name: HTML
+                  value: 26144
+                  color: '#e34c26'
+                - name: Shell
+                  value: 11882
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 3144
+                  color: '#384d54'
+              latest_commit_link: /vfx-rs/organization/commit/e119f8cd993eb3dcd2eac14d052dbf9729d71a56
+              latest_commit_date: '2022-07-06T04:21:31Z'
+              firstWeek: 2023-07-09Z
+              license: Creative Commons Zero v1.0 Universal
+              contributors_link: https://github.com/vfx-rs/organization/graphs/contributors
+            repos:
+              - url: https://github.com/vfx-rs/organization
+                stars: 52
+              - url: https://github.com/vfx-rs/cppmm
+                stars: 65
+              - url: https://github.com/vfx-rs/usd-bind
+                stars: 44
+              - url: https://github.com/vfx-rs/babble
+                stars: 14
+              - url: https://github.com/vfx-rs/openexr-bind
+                stars: 11
+              - url: https://github.com/vfx-rs/openexr-rs
+                stars: 10
+              - url: https://github.com/vfx-rs/oiio-bind
+                stars: 7
+              - url: https://github.com/vfx-rs/opentimelineio-bind
+                stars: 7
+              - url: https://github.com/vfx-rs/meeting-minutes
+                stars: 5
+              - url: https://github.com/vfx-rs/ptex-bind
+                stars: 5
+              - url: https://github.com/vfx-rs/usd-rs
+                stars: 5
+              - url: https://github.com/vfx-rs/template-project
+                stars: 3
+              - url: https://github.com/vfx-rs/ocio-bind
+                stars: 2
+              - url: https://github.com/vfx-rs/imath-traits
+                stars: 2
+              - url: https://github.com/vfx-rs/rfcs
+                stars: 1
+              - url: https://github.com/vfx-rs/arewevfxyet
+                stars: 1
+              - url: https://github.com/vfx-rs/openexr-core-rs
+                stars: 0
+              - url: https://github.com/vfx-rs/openexr-sys
+                stars: 0
+              - url: https://github.com/vfx-rs/cppmm-build
+                stars: 0
+              - url: https://github.com/vfx-rs/cppmm-refptr
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /vfx-rs/usd-rs/commit/e477bdea1b45c9f68c8f7e823f2741d166220bf6
+              start_date: '2020-09-16T15:11:32Z'
+            image_data:
+              fileName: working-group-for-rust-bindings.svg
+              hash: EDtnKI8Ty7iHnDPx2au+tAmiGj6DbHiTVNg2SUtHbZY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-07-06T04:23:32.872Z
+updated_at: 2024-07-09T04:30:39.680Z
