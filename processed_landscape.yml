@@ -11089,7 +11089,8 @@ landscape:
               slack_channel: '#wg-ci'
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/wg-ci/tree/main/meetings
               slug: continuous-integration-wg
-              calendar: https://lists.aswf.io/g/tac/calendar
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/continuous-integration-wg
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
               leads: Jean-Francois Panisset
               date_accepted: ^2018-10-01
               last_review_date: ^2023-05-17
@@ -11141,7 +11142,7 @@ landscape:
               development projects often have trouble obtaining input datasets with full film complexity, and that are licensed to allow publishing research
               results and software demonstrations. Disney’s Moana Island is a prime example of what we want to encourage, but in addition to 3D scene data,
               assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
-            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
+            homepage_url: https://dpel.org
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             logo: digital_production_example_library_dpel.svg
@@ -11151,9 +11152,10 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/assets-discussion
               slack_channel: '#assets'
               LFX_insights: None
-              wiki_page: https://wiki.aswf.io/display/ARW/DPEL+Wiki
+              wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
               TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
-              calendar: https://lists.aswf.io/g/assets-discussion/calendar
+              calendar_url: https://calendar.dpel.org
+              ical_url: https://ical.dpel.org
               leads: Matthew Low
               date_accepted: ^2022-03-10
               last_review_date: ^2023-09-20
@@ -11225,7 +11227,6 @@ landscape:
               else passionate about D&I within vfx and animation.
             homepage_url: https://lists.aswf.io/g/diversity
             project: working-group
-            repo_url: https://github.com/chaoss/wg-diversity-inclusion
             license: Creative Commons Attribution 4.0 International
             logo: diversity_inclusion_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -11234,7 +11235,8 @@ landscape:
               slack_channel: '#diversity'
               slug: diversity-inclusion-wg
               TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/diversity/calendar
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/diversity-inclusion-wg
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
               leads: Rachel Rose and Carol Payne
               date_accepted: ^2020-06-07
               last_review_date: ^2023-10-04
@@ -11265,25 +11267,6 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
-            github_data:
-              languages: []
-              contributions: 0;0;2;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-07-16Z
-              stars: 84
-              license: MIT License
-              description: CHAOSS Working Group focused on Diversity, Equity, and Inclusion metrics
-              latest_commit_date: '2024-02-29T17:52:22Z'
-              latest_commit_link: /chaoss/wg-dei/commit/ec537e917d81ac29423a0223e2d88d8ad576d19c
-              release_date: '2021-03-06T17:03:48Z'
-              release_link: https://github.com/chaoss/wg-diversity-inclusion/releases
-              contributors_count: 35
-              contributors_link: https://github.com/chaoss/wg-diversity-inclusion/graphs/contributors
-            repos:
-              - url: https://github.com/chaoss/wg-diversity-inclusion
-                stars: 84
-            github_start_commit_data:
-              start_commit_link: /chaoss/wg-dei/commit/65b00e0879de971968eeb16e653f8c31412df1c8
-              start_date: '2017-12-20T11:50:37Z'
             image_data:
               fileName: diversity-inclusion-working-group.svg
               hash: U0CVYYJTQQvVoHPdL1f/U08TQ5E3f//EvffkVqKx1Zo=
@@ -11313,9 +11296,10 @@ landscape:
               slack_channel: '#materialx'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
-              documentation: https://materialx.org/docs/api/index.html
+              docs_url: https://docs.materialx.org
               TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
-              calendar: https://lists.aswf.io/g/materialx-discussion/calendar
+              calendar_url: https://calendar.materialx.org
+              ical_url: https://ical.materialx.org
               contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/materialx
               leads: Jonathan Stone
@@ -11435,7 +11419,8 @@ landscape:
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openreviewio/trends
               LFX_security: none
               TSC_meeting_notes: https://docs.google.com/document/d/1JBh0wVLGLPHIQS7n05iq20ix2HlSEBX9NrIF2sPiMHY/edit?usp=sharing
-              calendar: https://lists.aswf.io/g/open-review-initiative-discussion/calendar
+              calendar_url: https://calendar.openreviewinitiative.org
+              ical_url: https://ical.openreviewinitiative.org
               leads: Erik Strauss
               date_accepted: ^2022-08-08
               last_review_date: ^2023-08-23
@@ -11487,9 +11472,9 @@ landscape:
             description: >-
               Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for
               describing materials, lights, displacement, and pattern generation.
-            homepage_url: https://opensource.imageworks.com/osl.html
+            homepage_url: https://openshadinglanguage.org
             project: adopted
-            repo_url: https://github.com/imageworks/openshadinglanguage
+            repo_url: https://github.com/AcademySoftwareFoundation/openshadinglanguage
             logo: open_shading_language.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -11498,10 +11483,11 @@ landscape:
               Slack_Channel: '#openshadinglanguage'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
-              documentation: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/tree/main/doc
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
               TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
-              calendar: https://lists.aswf.io/g/osl-dev/calendar
+              calendar_url: https://calendar.openshadinglanguage.org
+              ical_url: https://ical.openshadinglanguage.org
+              docs_url: https://docs.openshadinglanguage.org
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
               leads: Chris Kulla
               date_accepted: ^2020-04-16
@@ -11580,11 +11566,11 @@ landscape:
               latest_commit_date: '2024-07-11T03:33:17Z'
               latest_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/142426d62b3d79b98d3d14413368dbb7a24c1bee
               release_date: '2024-06-02T17:12:48Z'
-              release_link: https://github.com/imageworks/openshadinglanguage/releases
+              release_link: https://github.com/AcademySoftwareFoundation/openshadinglanguage/releases
               contributors_count: 83
-              contributors_link: https://github.com/imageworks/openshadinglanguage/graphs/contributors
+              contributors_link: https://github.com/AcademySoftwareFoundation/openshadinglanguage/graphs/contributors
             repos:
-              - url: https://github.com/imageworks/openshadinglanguage
+              - url: https://github.com/AcademySoftwareFoundation/openshadinglanguage
                 stars: 2050
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/ed210bbb0c5c74ad0b82c4a8a949ab97d1aa0ad6
@@ -11593,8 +11579,8 @@ landscape:
               fileName: open-shading-language.svg
               hash: 6Thugjej81LUWX5XcXSiHVBZnkyxQ5+PdzW28yhNBg0=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 3061
+              percentage: 100
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
@@ -11616,10 +11602,11 @@ landscape:
               slack_channel: '#openassetio'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openassetio/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001L17vCQAR/overview
-              documentation: https://openassetio.github.io/OpenAssetIO/
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
-              calendar: https://lists.aswf.io/g/openassetio-discussion/calendar
+              calendar_url: https://calendar.openassetio.org
+              ical_url: https://ical.openassetio.org
+              docs_url: https://docs.openassetio.org
               contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
               leads: Elliot Morris
               date_accepted: ^2022-08-08
@@ -11792,13 +11779,14 @@ landscape:
               artwork_url: https://artwork.aswf.io/projects/opencolorio/
               mailing_list_url: https://lists.aswf.io/g/ocio-user
               slack_channel_url: https://slack.opencolorio.org
-              documentation: https://opencolorio.readthedocs.io/
+              calendar_url: https://calendar.opencolorio.org
+              ical_url: https://ical.opencolorio.org
+              docs_url: https://docs.opencolorio.org
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
               wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              calendar: https://lists.aswf.io/g/ocio-dev/calendar
               contribution_guidelines: https://opencolorio.readthedocs.io/en/latest/guides/contributing/contributing.html
               leads: Carol Payne
               date_accepted: ^2019-02-08
@@ -11909,10 +11897,11 @@ landscape:
               slack_channel: '#opencue'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencue/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
-              documentation: https://www.opencue.io/docs/
+              calendar_url: https://calendar.opencue.io
+              ical_url: https://ical.opencue.io
+              docs_url: https://docs.opencue.io
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
-              calendar: https://lists.aswf.io/g/ocio-dev/calendar
               contribution_guidelines: https://www.opencue.io/contributing/
               leads: Diego Tavares Da Silva
               date_accepted: ^2019-05-01
@@ -12019,11 +12008,12 @@ landscape:
               slack_channel: '#openexr'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
-              documentation: https://openexr.readthedocs.io
+              calendar_url: https://calendar.openexr.com
+              ical_url: https://ical.openexr.com
+              docs_url: https://docs.openexr.com
               wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
               TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
-              calendar: https://lists.aswf.io/g/openexr-dev/calendar
               leads: Cary Phillips
               date_accepted: ^2019-05-01
               last_review_date: ^2024-04-17
@@ -12135,6 +12125,9 @@ landscape:
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openfx/trends
               contribution_guidelines: https://github.com/ofxa/openfx/wiki/Extending-OpenFX-Guidelines
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openfx
+              calendar_url: https://calendar.openeffects.org
+              ical_url: https://ical.openeffects.org
+              docs_url: https://docs.openeffects.org
               leads: Gary Oberbrunner
               date_accepted: ^2022-08-08
               last_review_date: ^2024-06-12
@@ -12241,7 +12234,9 @@ landscape:
               slack_channel: '#openimageio'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
               LFX_security: none
-              documentation: https://openimageio.readthedocs.io
+              calendar_url: https://calendar.openimageio.org
+              ical_url: https://ical.openimageio.org
+              docs_url: https://docs.openimageio.org
               wiki_page: none
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
               TSC_meeting_notes: none
@@ -12342,10 +12337,11 @@ landscape:
               slack_channel: '#opentimelineio'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-timeline-io/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
-              documentation: https://opentimelineio.readthedocs.io
+              calendar_url: https://calendar.opentimeline.io
+              ical_url: https://ical.opentimeline.io
+              docs_url: https://docs.opentimeline.io
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              calendar: https://lists.aswf.io/g/otio-discussion/calendar
               contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
               leads: Joshua Minor
               date_accepted: ^2019-07-29
@@ -12436,10 +12432,11 @@ landscape:
               slack_channel: '#openvdb'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openvdb/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
-              documentation: https://www.openvdb.org/documentation/doxygen/
+              calendar_url: https://calendar.openvdb.org
+              ical_url: https://ical.openvdb.org
+              docs_url: https://docs.openvdb.org
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
-              calendar: https://lists.aswf.io/g/openvdb-dev/calendar
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
               leads: Ken Museth
               date_accepted: ^2018-10-23
@@ -12560,7 +12557,9 @@ landscape:
               slack_channel: '#rawtoaces'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
               TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
-              calendar: https://lists.aswf.io/g/rawtoaces-discussion/calendar
+              calendar_url: https://calendar.rawtoaces.org
+              ical_url: https://ical.rawtoaces.org
+              docs_url: https://docs.rawtoaces.org
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rawtoaces
               leads: Alexander Forsythe
               date_accepted: ^2022-03-10
@@ -12636,9 +12635,9 @@ landscape:
             description: |-
               Rez is a cross-platform package manager. Using Rez you can create runtimes
               configured for a given set of packages.
-            homepage_url: https://github.com/nerdvegas/rez
+            homepage_url: https://rez-project.io
             project: incubating
-            repo_url: https://github.com/nerdvegas/rez
+            repo_url: https://github.com/AcademySoftwareFoundation/rez
             logo: rez.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
@@ -12647,7 +12646,9 @@ landscape:
               slack_channel: '#Rez'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rez/trends
               LFX_security: none
-              documentation: https://github.com/AcademySoftwareFoundation/rez/wiki
+              calendar_url: https://calendar.rez-project.io
+              ical_url: https://ical.rez-project.io
+              docs_url: https://docs.rez-project.io
               TSC_meeting_notes: Request links
               contribution_guidelines: Request links
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rez
@@ -12696,18 +12697,18 @@ landscape:
                   color: '#C1F12E'
               contributions: 2;2;0;1;0;0;1;2;6;5;0;1;0;0;1;2;0;14;4;9;0;3;0;1;0;2;0;0;5;3;10;4;0;4;3;3;0;7;1;10;0;2;2;4;0;0;0;0;0;6;7;2
               firstWeek: 2023-07-16Z
-              stars: 917
+              stars: 918
               license: Apache License 2.0
               description: An integrated package configuration, build and deployment system for software
               latest_commit_date: '2024-07-08T18:27:03Z'
               latest_commit_link: /AcademySoftwareFoundation/rez/commit/226bc37b0d0c1bc8731f0017e3d6f97977cedcea
               release_date: '2024-04-14T19:41:14Z'
-              release_link: https://github.com/nerdvegas/rez/releases
+              release_link: https://github.com/AcademySoftwareFoundation/rez/releases
               contributors_count: 82
-              contributors_link: https://github.com/nerdvegas/rez/graphs/contributors
+              contributors_link: https://github.com/AcademySoftwareFoundation/rez/graphs/contributors
             repos:
-              - url: https://github.com/nerdvegas/rez
-                stars: 917
+              - url: https://github.com/AcademySoftwareFoundation/rez
+                stars: 918
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/rez/commit/2f66a76462ee778927b67a9a6385f776cb553b54
               start_date: '2011-10-24T02:26:33Z'
@@ -12715,8 +12716,8 @@ landscape:
               fileName: rez.svg
               hash: 6T5sPJmX1OFjkHuF4WOSQE/vupwpWbkglB5s4/lyGNM=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 8389
+              percentage: 94
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
@@ -12727,9 +12728,8 @@ landscape:
               The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond
               the capacity of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best
               practices and helping with issues raised in various USD support channels where possible.
-            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
+            homepage_url: https://wiki.aswf.io/display/WGUSD
             project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
             license: Creative Commons Attribution 4.0 International
             logo: universal_scene_description_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -12739,6 +12739,8 @@ landscape:
               slug: usd-wg
               TSC_meeting_notes: https://wiki.aswf.io/pages/viewpage.action?pageId=1736722
               calendar: https://lists.aswf.io/g/wg-usd/calendar
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/usd-wg
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
               leads: Alexander Schwank and Nick Porcino
               date_accepted: ^2020-03-04
               last_review_date: ^2024-05-01
@@ -12769,23 +12771,6 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
-            github_data:
-              languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-07-16Z
-              stars: 60
-              license: Apache License 2.0
-              description: USD Working Group collaboration and resources
-              latest_commit_date: '2024-05-01T11:50:37Z'
-              latest_commit_link: /AcademySoftwareFoundation/wg-usd/commit/566bdadac97c146df761a1b0d3cb7a45a8853e73
-              contributors_count: 3
-              contributors_link: https://github.com/AcademySoftwareFoundation/wg-usd/graphs/contributors
-            repos:
-              - url: https://github.com/AcademySoftwareFoundation/wg-usd
-                stars: 60
-            github_start_commit_data:
-              start_commit_link: /AcademySoftwareFoundation/wg-usd/commit/157b7b7ddbe853c9925351fa31872ca4cc7d4cbe
-              start_date: '2020-03-06T21:13:13Z'
             image_data:
               fileName: universal-scene-description-working-group.svg
               hash: FStPNc3zk6Ox9MoK7Zt0TLBRv58jdVrugeDN7H3lOY8=
@@ -12811,7 +12796,8 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/wg-rust
               slack_channel: '#rust'
               TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/wg-rust/calendar
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/working-group-for-rust-bindings
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
               leads: Scott Wilson
               date_accepted: ^2021-03-04
               last_review_date: ^2024-03-20
