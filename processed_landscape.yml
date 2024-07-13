@@ -7836,7 +7836,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/amd
             crunchbase_data:
               name: AMD
-              description: Advanced Micro Devices (AMD) is a semiconductor company that designs and develops graphics units, processors, and media solutions.
+              description: Advanced Micro Devices is a semiconductor company that designs and develops graphics units, processors, and media solutions.
               num_employees_min: 10001
               num_employees_max: 1000000
               homepage: http://www.amd.com
@@ -7864,6 +7864,8 @@ landscape:
                   acquiree: Mipsology
                 - date: '2023-10-10'
                   acquiree: Nod
+                - date: '2024-07-10'
+                  acquiree: Silo.AI
               parents: []
               ticker: AMD
               funding: 0
@@ -12592,7 +12594,7 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 674759
+                  value: 674761
                   color: '#f34b7d'
                 - name: CMake
                   value: 15448
@@ -12605,18 +12607,18 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;10;1;1;2;7;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2
               firstWeek: 2023-07-16Z
-              stars: 138
+              stars: 139
               license: Unknown License
               description: RAW to ACES Utility
-              latest_commit_date: '2023-12-15T21:20:34Z'
-              latest_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/e022b7e78baa8cdc3475ff7b42137a23579961fd
+              latest_commit_date: '2024-07-12T05:05:35Z'
+              latest_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/0c5e142f2e48c2ea811224bb4d1c0dcff2877c5a
               contributors_count: 15
               contributors_link: https://github.com/AcademySoftwareFoundation/rawtoaces/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/rawtoaces
-                stars: 138
+                stars: 139
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/rawtoaces/commit/92adb20a08f549ab6574cda5480c03275f80a985
               start_date: '2016-07-08T21:31:48Z'
@@ -12918,4 +12920,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-07-11T04:44:10.967Z
+updated_at: 2024-07-13T04:26:37.006Z
