@@ -2789,7 +2789,6 @@ landscape:
                   acquiree: Datum360
               parents: []
               ticker: ADSK
-              funding: 0
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -5589,7 +5588,6 @@ landscape:
                   acquiree: Datum360
               parents: []
               ticker: ADSK
-              funding: 0
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -7878,7 +7876,6 @@ landscape:
                   acquiree: Silo.AI
               parents: []
               ticker: AMD
-              funding: 0
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -8148,7 +8145,6 @@ landscape:
                   acquiree: Datum360
               parents: []
               ticker: ADSK
-              funding: 0
               stockExchange: nasdaq
               company_type: For Profit
               industries:
@@ -10106,7 +10102,6 @@ landscape:
                 - date: '2020-11-04'
                   acquiree: Company 3
               parents: []
-              funding: 0
               stockExchange: null
               company_type: For Profit
               industries:
@@ -10491,7 +10486,6 @@ landscape:
                 - date: '2014-02-20'
                   acquiree: AppSlingr
               parents: []
-              funding: 0
               stockExchange: null
               company_type: For Profit
               industries:
@@ -10574,7 +10568,6 @@ landscape:
               parents:
                 - https://www.crunchbase.com/organization/ibm
               ticker: IBM
-              funding: 0
               stockExchange: nyse
               company_type: For Profit
               industries:
@@ -10648,7 +10641,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/20479/
               acquisitions: []
               parents: []
-              funding: 0
               stockExchange: null
               company_type: For Profit
               industries:
@@ -10687,7 +10679,6 @@ landscape:
                 - date: '2012-09-25'
                   acquiree: Luxology
               parents: []
-              funding: 0
               stockExchange: null
               company_type: For Profit
               industries:
@@ -11312,7 +11303,7 @@ landscape:
               slack_channel: '#materialx'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
-              docs_url: https://docs.materialx.org
+              documentation_url: https://docs.materialx.org
               TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
               calendar_url: https://calendar.materialx.org
               ical_url: https://ical.materialx.org
@@ -11467,11 +11458,85 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
+            github_data:
+              languages:
+                - name: C++
+                  value: 25026417
+                  color: '#f34b7d'
+                - name: HTML
+                  value: 2402894
+                  color: '#e34c26'
+                - name: mupad
+                  value: 1629909
+                - name: QML
+                  value: 1533175
+                  color: '#44a51c'
+                - name: Python
+                  value: 1403035
+                  color: '#3572A5'
+                - name: CMake
+                  value: 482731
+                - name: Dockerfile
+                  value: 227539
+                  color: '#384d54'
+                - name: GLSL
+                  value: 176947
+                - name: Shell
+                  value: 133573
+                  color: '#89e051'
+                - name: ZIL
+                  value: 75141
+                  color: '#dc75e5'
+                - name: C
+                  value: 54214
+                  color: '#555555'
+                - name: Objective-C++
+                  value: 32352
+                  color: '#6866fb'
+                - name: Jinja
+                  value: 26540
+                - name: Yacc
+                  value: 16822
+                  color: '#4B6C4B'
+                - name: JavaScript
+                  value: 9176
+                  color: '#f1e05a'
+                - name: Batchfile
+                  value: 8373
+                  color: '#C1F12E'
+                - name: Lex
+                  value: 5630
+                  color: '#DBCA00'
+                - name: CSS
+                  value: 3056
+                  color: '#563d7c'
+                - name: sed
+                  value: 712
+                  color: '#64b970'
+                - name: Perl
+                  value: 430
+                  color: '#0298c3'
+              contributions: 7;7;6;5;4;0;4;3;5;4;11;6;6;25;14;9;8;6;1;13;6;4;0;0;6;6;4;3;1;3;6;0;3;2;4;1;3;2;1;0;7;0;2;3;4;1;1;6;0;2;7;4
+              firstWeek: 2023-07-30Z
+              stars: 1203
+              license: Unknown License
+              description: null
+              latest_commit_date: '2024-07-23T00:33:24Z'
+              latest_commit_link: /AcademySoftwareFoundation/ori-shared-platform/commit/07f0365016c97243d282ed01d7ee1a67374c4d20
+              contributors_count: 15
+              contributors_link: https://github.com/AcademySoftwareFoundation/ori-shared-platform/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
-              - url: https://github.com/AcademySoftwareFoundation/OpenRV
-              - url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
+                stars: 2
               - url: https://github.com/AcademySoftwareFoundation/xstudio
+                stars: 615
+              - url: https://github.com/AcademySoftwareFoundation/OpenRV
+                stars: 556
+              - url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
+                stars: 30
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/EncodingGuidelines/commit/d36a8d77fac9c882e66c76420d482c4428a9222b
+              start_date: '2021-10-30T18:40:41Z'
             image_data:
               fileName: open-review-initiative.svg
               hash: Ej4+tgKrO/tF/jOhGa4q2vdQ7qHVvnZgxmL9W/1dPjQ=
@@ -11503,7 +11568,7 @@ landscape:
               TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
               calendar_url: https://calendar.openshadinglanguage.org
               ical_url: https://ical.openshadinglanguage.org
-              docs_url: https://docs.openshadinglanguage.org
+              documentation_url: https://docs.openshadinglanguage.org
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
               leads: Chris Kulla
               date_accepted: ^2020-04-16
@@ -11622,7 +11687,7 @@ landscape:
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
               calendar_url: https://calendar.openassetio.org
               ical_url: https://ical.openassetio.org
-              docs_url: https://docs.openassetio.org
+              documentation_url: https://docs.openassetio.org
               contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
               leads: Elliot Morris
               date_accepted: ^2022-08-08
@@ -11797,7 +11862,7 @@ landscape:
               slack_channel_url: https://slack.opencolorio.org
               calendar_url: https://calendar.opencolorio.org
               ical_url: https://ical.opencolorio.org
-              docs_url: https://docs.opencolorio.org
+              documentation_url: https://docs.opencolorio.org
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
               wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
@@ -11915,7 +11980,7 @@ landscape:
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
               calendar_url: https://calendar.opencue.io
               ical_url: https://ical.opencue.io
-              docs_url: https://docs.opencue.io
+              documentation_url: https://docs.opencue.io
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
               contribution_guidelines: https://www.opencue.io/contributing/
@@ -12026,7 +12091,7 @@ landscape:
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
               calendar_url: https://calendar.openexr.com
               ical_url: https://ical.openexr.com
-              docs_url: https://docs.openexr.com
+              documentation_url: https://docs.openexr.com
               wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
               TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
@@ -12143,7 +12208,7 @@ landscape:
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openfx
               calendar_url: https://calendar.openeffects.org
               ical_url: https://ical.openeffects.org
-              docs_url: https://docs.openeffects.org
+              documentation_url: https://docs.openeffects.org
               leads: Gary Oberbrunner
               date_accepted: ^2022-08-08
               last_review_date: ^2024-06-12
@@ -12255,7 +12320,7 @@ landscape:
               LFX_security: none
               calendar_url: https://calendar.openimageio.org
               ical_url: https://ical.openimageio.org
-              docs_url: https://docs.openimageio.org
+              documentation_url: https://docs.openimageio.org
               wiki_page: none
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
               TSC_meeting_notes: none
@@ -12358,7 +12423,7 @@ landscape:
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
               calendar_url: https://calendar.opentimeline.io
               ical_url: https://ical.opentimeline.io
-              docs_url: https://docs.opentimeline.io
+              documentation_url: https://docs.opentimeline.io
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
               TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
               contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
@@ -12453,7 +12518,7 @@ landscape:
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
               calendar_url: https://calendar.openvdb.org
               ical_url: https://ical.openvdb.org
-              docs_url: https://docs.openvdb.org
+              documentation_url: https://docs.openvdb.org
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
               TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
@@ -12578,7 +12643,7 @@ landscape:
               TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
               calendar_url: https://calendar.rawtoaces.org
               ical_url: https://ical.rawtoaces.org
-              docs_url: https://docs.rawtoaces.org
+              documentation_url: https://docs.rawtoaces.org
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rawtoaces
               leads: Alexander Forsythe
               date_accepted: ^2022-03-10
@@ -12624,7 +12689,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;4;4;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;10;1;2;5;3;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0
               firstWeek: 2023-07-30Z
               stars: 139
               license: Unknown License
@@ -12667,7 +12732,7 @@ landscape:
               LFX_security: none
               calendar_url: https://calendar.rez-project.io
               ical_url: https://ical.rez-project.io
-              docs_url: https://docs.rez-project.io
+              documentation_url: https://docs.rez-project.io
               TSC_meeting_notes: Request links
               contribution_guidelines: Request links
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rez
@@ -12937,4 +13002,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-07-22T04:28:57.584Z
+updated_at: 2024-07-23T04:29:21.789Z
