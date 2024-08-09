@@ -637,7 +637,6 @@ landscape:
             homepage_url: https://adobe.com/
             logo: adobe_inc.svg
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
-            joined: '2022-10-13'
           - item:
             name: Advanced Micro Devices (AMD)
             homepage_url: https://amd.com/
@@ -650,7 +649,6 @@ landscape:
             logo: amazon_web_services_inc.svg
             twitter: https://twitter.com/amazon
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
-            joined: '2017-08-01'
           - item:
             name: Autodesk
             homepage_url: https://autodesk.com/
@@ -742,7 +740,6 @@ landscape:
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-            joined: '2017-01-01'
           - item:
             name: CoreWeave, Inc.
             homepage_url: https://coreweave.com/
@@ -750,6 +747,7 @@ landscape:
             twitter: https://twitter.com/CoreWeave
             organization:
               name: CoreWeave, Inc.
+              linkedin: https://www.linkedin.com/company/coreweave
           - item:
             name: Framestore
             homepage_url: https://framestore.com/
@@ -778,6 +776,7 @@ landscape:
             logo: mod_tech_labs.svg
             organization:
               name: Mod Tech Labs
+              linkedin: https://www.linkedin.com/company/modtechlabs
           - item:
             name: OTOY, Inc.
             homepage_url: https://otoy.com/
@@ -789,7 +788,6 @@ landscape:
             logo: red_hat_inc.svg
             twitter: https://twitter.com/RedHat
             crunchbase: https://www.crunchbase.com/organization/red-hat
-            joined: '2016-01-01'
           - item:
             name: RodeoFX
             homepage_url: https://rodeofx.com/
@@ -953,6 +951,7 @@ landscape:
               else passionate about D&I within vfx and animation.
             homepage_url: https://lists.aswf.io/g/diversity
             project: working-group
+            repo_url: https://github.com/chaoss/wg-diversity-inclusion
             license: Creative Commons Attribution 4.0 International
             logo: diversity_inclusion_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -972,7 +971,6 @@ landscape:
               artwork_url: https://artwork.aswf.io/working-groups/diversity-inclusion-wg/
               accepted: '2020-06-11'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=diversity-inclusion-wg
-            repo_url: https://github.com/chaoss/wg-diversity-inclusion
           - item:
             name: MaterialX
             second_path:
@@ -1253,8 +1251,8 @@ landscape:
               - Imaging and Color / Image Formats, I/O, and Processing Libraries
               - Dev Days 2024 / Participating Project
             description: >-
-              The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation via a format- agnostic
-              API, with a feature set, scalability, and robustness needed for production.
+              The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation
+              via a format- agnostic API, with a feature set, scalability, and robustness needed for production.
             homepage_url: https://openimageio.org/
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
@@ -1403,6 +1401,7 @@ landscape:
               practices and helping with issues raised in various USD support channels where possible.
             homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
             project: working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
             license: Creative Commons Attribution 4.0 International
             logo: universal_scene_description_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -1420,7 +1419,6 @@ landscape:
               artwork_url: https://artwork.aswf.io/working-groups/usd-wg/
               accepted: '2020-03-04'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=usd-wg
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
           - item:
             name: Working Group for Rust Bindings
             second_path:
