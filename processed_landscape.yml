@@ -7688,7 +7688,6 @@ landscape:
             homepage_url: https://adobe.com/
             logo: adobe_inc.svg
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
-            joined: '2022-10-13'
             crunchbase_data:
               name: Adobe
               description: Adobe is a software company that provides its users with digital marketing and media solutions.
@@ -7823,6 +7822,7 @@ landscape:
               stockExchange: nasdaq
               company_type: For Profit
               industries:
+                - Artificial Intelligence (AI)
                 - Consulting
                 - Enterprise Software
                 - Graphic Design
@@ -7885,6 +7885,7 @@ landscape:
               stockExchange: nasdaq
               company_type: For Profit
               industries:
+                - Artificial Intelligence (AI)
                 - Cloud Computing
                 - Computer
                 - Embedded Systems
@@ -7905,7 +7906,6 @@ landscape:
             logo: amazon_web_services_inc.svg
             twitter: https://twitter.com/amazon
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
-            joined: '2017-08-01'
             crunchbase_data:
               name: Amazon Web Services
               description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
@@ -10051,7 +10051,6 @@ landscape:
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-            joined: '2017-01-01'
             crunchbase_data:
               name: Canonical
               description: Canonical is a software company that markets commercial support and services for Ubuntu (Linux OS) and related projects.
@@ -10090,8 +10089,10 @@ landscape:
             twitter: https://twitter.com/CoreWeave
             organization:
               name: CoreWeave, Inc.
+              linkedin: https://www.linkedin.com/company/coreweave
             crunchbase_data:
               name: CoreWeave, Inc.
+              linkedin: https://www.linkedin.com/company/coreweave
               parents: []
             image_data:
               fileName: core-weave-inc.svg
@@ -10477,8 +10478,10 @@ landscape:
             logo: mod_tech_labs.svg
             organization:
               name: Mod Tech Labs
+              linkedin: https://www.linkedin.com/company/modtechlabs
             crunchbase_data:
               name: Mod Tech Labs
+              linkedin: https://www.linkedin.com/company/modtechlabs
               parents: []
             image_data:
               fileName: mod-tech-labs.svg
@@ -10524,7 +10527,6 @@ landscape:
             logo: red_hat_inc.svg
             twitter: https://twitter.com/RedHat
             crunchbase: https://www.crunchbase.com/organization/red-hat
-            joined: '2016-01-01'
             crunchbase_data:
               name: Red Hat
               description: Red Hat is a software company that offers enterprise open source software solutions.
@@ -11108,23 +11110,23 @@ landscape:
               improve best practices and address the unique challenges we face.
             homepage_url: https://wiki.aswf.io/display/CIWG
             project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/ci-wg
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
             logo: continuous_integration_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               mailing_list_url: https://lists.aswf.io/g/tac
-              slack_channel: '#wg-ci'
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/wg-ci/tree/main/meetings
+              slack_url: https://slack.aswf.io
+              chat_channel: '#wg-ci'
               slug: continuous-integration-wg
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/continuous-integration-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
               leads: Jean-Francois Panisset
-              date_accepted: ^2018-10-01
               last_review_date: ^2023-05-17
               next_review_date: ^2024-05-15
               contributed_by: Academy Software Foundation
               artwork_url: https://artwork.aswf.io/working-groups/continuous-integration-wg/
               accepted: '2018-11-01'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=continuous-integration-wg
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11148,12 +11150,55 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
+            github_data:
+              languages:
+                - name: Python
+                  value: 355115
+                  color: '#3572A5'
+                - name: Shell
+                  value: 61770
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 41073
+                  color: '#384d54'
+                - name: C++
+                  value: 29893
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 18620
+                - name: Jinja
+                  value: 5616
+                - name: C
+                  value: 3461
+                  color: '#555555'
+                - name: Meson
+                  value: 320
+                  color: '#007800'
+                - name: LLVM
+                  value: 263
+                  color: '#185619'
+                - name: QMake
+                  value: 237
+              contributions: 19;0;0;0;2;0;0;0;2;0;0;0;5;1;0;0;2;0;0;0;2;0;0;0;13;7;0;6;2;0;2;0;0;0;0;0;0;2;0;0;4;0;0;0;2;0;6;0;5;0;0;0
+              firstWeek: 2023-08-13Z
+              stars: 155
+              license: Creative Commons Attribution 4.0 International
+              description: ASWF Continuous Integration Working Group
+              latest_commit_date: '2024-07-17T21:00:20Z'
+              latest_commit_link: /AcademySoftwareFoundation/wg-ci/commit/7a45d0509197986d257d5966d36869f694cdb8e1
+              contributors_count: 9
+              contributors_link: https://github.com/AcademySoftwareFoundation/wg-ci/graphs/contributors
             repos:
-              - url: https://github.com/AcademySoftwareFoundation/ci-wg
+              - url: https://github.com/AcademySoftwareFoundation/wg-ci
+                stars: 8
               - url: https://github.com/AcademySoftwareFoundation/aswf-docker
+                stars: 147
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/aswf-docker/commit/f98da06be4cd33a2e6566d33d0c211d235af03e3
+              start_date: '2019-05-29T20:51:19Z'
             image_data:
               fileName: continuous-integration-working-group.svg
-              hash: CXemJGFrOTI12YRYa6ttd2AUN7dlIGEYycdK57ncZLU=
+              hash: VRl28UL1YWLoefdDp5ChW2JsAJOr1Pw4vquxsu7DdwQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -11169,7 +11214,7 @@ landscape:
               development projects often have trouble obtaining input datasets with full film complexity, and that are licensed to allow publishing research
               results and software demonstrations. Disney’s Moana Island is a prime example of what we want to encourage, but in addition to 3D scene data,
               assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
-            homepage_url: https://dpel.org
+            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             logo: digital_production_example_library_dpel.svg
@@ -11177,12 +11222,13 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/dpel/
               mailing_list_url: https://lists.aswf.io/g/assets-discussion
-              slack_channel: '#assets'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#assets'
               LFX_insights: None
               wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
               TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
-              calendar_url: https://calendar.dpel.org
-              ical_url: https://ical.dpel.org
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-assets-repository
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
               leads: Matthew Low
               date_accepted: ^2022-03-10
               last_review_date: ^2023-09-20
@@ -11190,6 +11236,7 @@ landscape:
               contributed_by: Academy Software Foundation
               slug: aswf-assets-repository
               accepted: '2021-09-02'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-assets-repository
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11254,12 +11301,14 @@ landscape:
               else passionate about D&I within vfx and animation.
             homepage_url: https://lists.aswf.io/g/diversity
             project: working-group
+            repo_url: https://github.com/chaoss/wg-diversity-inclusion
             license: Creative Commons Attribution 4.0 International
             logo: diversity_inclusion_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               mailing_list_url: https://lists.aswf.io/g/diversity
-              slack_channel: '#diversity'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#diversity'
               slug: diversity-inclusion-wg
               TSC_meeting_notes: none
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/diversity-inclusion-wg
@@ -11271,6 +11320,7 @@ landscape:
               contributed_by: Academy Software Foundation
               artwork_url: https://artwork.aswf.io/working-groups/diversity-inclusion-wg/
               accepted: '2020-06-11'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=diversity-inclusion-wg
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11294,6 +11344,25 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0
+              firstWeek: 2023-08-13Z
+              stars: 84
+              license: MIT License
+              description: CHAOSS Working Group focused on Diversity, Equity, and Inclusion metrics
+              latest_commit_date: '2024-07-24T15:06:23Z'
+              latest_commit_link: /chaoss/wg-dei/commit/e4230991dbdf7df50bff77d47694efd5aca68740
+              release_date: '2021-03-06T17:03:48Z'
+              release_link: https://github.com/chaoss/wg-diversity-inclusion/releases
+              contributors_count: 36
+              contributors_link: https://github.com/chaoss/wg-diversity-inclusion/graphs/contributors
+            repos:
+              - url: https://github.com/chaoss/wg-diversity-inclusion
+                stars: 84
+            github_start_commit_data:
+              start_commit_link: /chaoss/wg-dei/commit/65b00e0879de971968eeb16e653f8c31412df1c8
+              start_date: '2017-12-20T11:50:37Z'
             image_data:
               fileName: diversity-inclusion-working-group.svg
               hash: U0CVYYJTQQvVoHPdL1f/U08TQ5E3f//EvffkVqKx1Zo=
@@ -11320,13 +11389,14 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/materialx/
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
-              slack_channel: '#materialx'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#materialx'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
               documentation_url: https://docs.materialx.org
               TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
-              calendar_url: https://calendar.materialx.org
-              ical_url: https://ical.materialx.org
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
               contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/materialx
               leads: Jonathan Stone
@@ -11336,6 +11406,11 @@ landscape:
               contributed_by: Lucasfilm
               slug: materialx
               accepted: '2021-09-15'
+              annual_review_date: '2024-02-07'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
+              next_annual_review_date: '2025-02-05'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=materialx
+              chair: Jonathan Stone
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11423,7 +11498,7 @@ landscape:
               start_date: '2017-07-05T22:18:25Z'
             image_data:
               fileName: material-x.svg
-              hash: czwvZ5gwD3XS6yg1xJTHaa+vtZqhHd153dqF5YWQELQ=
+              hash: OibREv3hjmYgGyzUFim/bEUy5OoE1AvGssRUSWZdnO8=
             best_practice_data:
               badge: false
               percentage: null
@@ -11442,12 +11517,13 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openreviewinitiative/
               mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
-              slack_channel: '#open-review-initiative'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#open-review-initiative'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openreviewio/trends
               LFX_security: none
               TSC_meeting_notes: https://docs.google.com/document/d/1JBh0wVLGLPHIQS7n05iq20ix2HlSEBX9NrIF2sPiMHY/edit?usp=sharing
-              calendar_url: https://calendar.openreviewinitiative.org
-              ical_url: https://ical.openreviewinitiative.org
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openreviewio
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
               leads: Erik Strauss
               date_accepted: ^2022-08-08
               last_review_date: ^2023-08-23
@@ -11455,6 +11531,11 @@ landscape:
               contributed_by: Academy Software Foundation
               slug: openreviewio
               accepted: '2022-09-07'
+              annual_review_date: '2023-08-23'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
+              next_annual_review_date: '2024-08-21'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openreviewio
+              chair: Erik Strauss
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11573,21 +11654,22 @@ landscape:
             description: >-
               Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for
               describing materials, lights, displacement, and pattern generation.
-            homepage_url: https://openshadinglanguage.org
+            homepage_url: https://opensource.imageworks.com/osl.html
             project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/openshadinglanguage
+            repo_url: https://github.com/imageworks/openshadinglanguage
             logo: open_shading_language.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               artwork_url: https://artwork.aswf.io/projects/openshadinglanguage/
               mailing_list_url: https://lists.aswf.io/g/osl-dev
-              Slack_Channel: '#openshadinglanguage'
+              slack_url: https://slack.aswf.io
+              chat_Channel: '#openshadinglanguage'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
               TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
-              calendar_url: https://calendar.openshadinglanguage.org
-              ical_url: https://ical.openshadinglanguage.org
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
               documentation_url: https://docs.openshadinglanguage.org
               contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
               leads: Chris Kulla
@@ -11597,6 +11679,10 @@ landscape:
               contributed_by: Sony Pictures Imageworks
               slug: open-shading-language
               accepted: '2020-12-11'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
+              next_annual_review_date: '2024-09-04'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
+              chair: Chris Kulla
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11659,7 +11745,7 @@ landscape:
                   color: '#563d7c'
                 - name: GLSL
                   value: 939
-              contributions: 1;7;3;3;4;2;2;8;3;0;0;5;1;0;6;1;2;0;1;3;2;2;0;2;0;1;0;5;3;3;5;0;1;3;2;0;1;7;4;2;0;1;1;3;0;5;0;5;2;5;2;0
+              contributions: 3;6;2;3;4;3;4;8;0;0;2;4;0;1;5;1;2;0;3;3;0;2;1;1;1;0;4;1;5;1;5;0;3;2;1;1;0;7;5;1;0;1;1;3;0;5;0;7;0;6;1;0
               firstWeek: 2023-08-13Z
               stars: 2057
               license: BSD 3-Clause "New" or "Revised" License
@@ -11667,11 +11753,11 @@ landscape:
               latest_commit_date: '2024-07-29T15:27:03Z'
               latest_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/b865cb0258e8f6a5e8a446c3f64a2f97d421a33d
               release_date: '2024-06-02T17:12:48Z'
-              release_link: https://github.com/AcademySoftwareFoundation/openshadinglanguage/releases
+              release_link: https://github.com/imageworks/openshadinglanguage/releases
               contributors_count: 83
-              contributors_link: https://github.com/AcademySoftwareFoundation/openshadinglanguage/graphs/contributors
+              contributors_link: https://github.com/imageworks/openshadinglanguage/graphs/contributors
             repos:
-              - url: https://github.com/AcademySoftwareFoundation/openshadinglanguage
+              - url: https://github.com/imageworks/openshadinglanguage
                 stars: 2057
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/OpenShadingLanguage/commit/ed210bbb0c5c74ad0b82c4a8a949ab97d1aa0ad6
@@ -11680,8 +11766,8 @@ landscape:
               fileName: open-shading-language.svg
               hash: 6Thugjej81LUWX5XcXSiHVBZnkyxQ5+PdzW28yhNBg0=
             best_practice_data:
-              badge: 3061
-              percentage: 100
+              badge: false
+              percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
@@ -11700,13 +11786,14 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openassetio/
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
-              slack_channel: '#openassetio'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openassetio'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openassetio/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001L17vCQAR/overview
               SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
               TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
-              calendar_url: https://calendar.openassetio.org
-              ical_url: https://ical.openassetio.org
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
               documentation_url: https://docs.openassetio.org
               contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
               leads: Elliot Morris
@@ -11716,6 +11803,11 @@ landscape:
               contributed_by: Foundry
               slug: openassetio
               accepted: '2022-11-01'
+              annual_review_date: '2023-07-12'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/516
+              next_annual_review_date: '2024-08-07'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openassetio
+              chair: David Feltell
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11857,7 +11949,7 @@ landscape:
               start_date: '2021-08-23T10:54:51Z'
             image_data:
               fileName: open-asset-io.svg
-              hash: Iioz2fBUcuE8Ho3UMW5oVMu90gwbFGgvflfuCmnY82w=
+              hash: JUplsw0aVXlsfm972krm3egqIGiD/yHPA5qD1uLKkZo=
             best_practice_data:
               badge: 6046
               percentage: 100
@@ -11879,23 +11971,18 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/opencolorio/
               mailing_list_url: https://lists.aswf.io/g/ocio-user
-              slack_channel_url: https://slack.opencolorio.org
-              calendar_url: https://calendar.opencolorio.org
-              ical_url: https://ical.opencolorio.org
+              slack_url: https://slack.opencolorio.org
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
               documentation_url: https://docs.opencolorio.org
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencolorio/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9v8QAB/overview
-              wiki_page: https://wiki.aswf.io/display/OCIO/OpenColorIO
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencolorio
-              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              contribution_guidelines: https://opencolorio.readthedocs.io/en/latest/guides/contributing/contributing.html
-              leads: Carol Payne
-              date_accepted: ^2019-02-08
-              last_review_date: ^2023-11-01
-              next_review_date: ^2024-11-05
               contributed_by: Sony Pictures Imageworks
               slug: opencolorio
               accepted: '2020-04-24'
+              annual_review_date: '2023-11-01'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/474
+              next_annual_review_date: '2024-11-05'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencolorio
+              chair: Carol Payne
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -11995,22 +12082,19 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/opencue/
               mailing_list_url: https://lists.aswf.io/g/opencue-user
-              slack_channel: '#opencue'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/opencue/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV3znQAD/overview
-              calendar_url: https://calendar.opencue.io
-              ical_url: https://ical.opencue.io
+              slack_url: https://slack.aswf.io
+              chat_channel: '#opencue'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
               documentation_url: https://docs.opencue.io
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opencue
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/OpenCue/tree/master/tsc/meetings
-              contribution_guidelines: https://www.opencue.io/contributing/
-              leads: Diego Tavares Da Silva
-              date_accepted: ^2019-05-01
-              last_review_date: ^2024-05-29
-              next_review_date: ^2025-05-28
               contributed_by: Sony Pictures Imageworks and Google Cloud
               slug: opencue
               accepted: '2020-04-24'
+              annual_review_date: '2024-05-29'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
+              next_annual_review_date: '2025-05-28'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencue
+              chair: Diego Tavares da Silva
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12084,7 +12168,7 @@ landscape:
               start_date: '2018-05-16T23:55:35Z'
             image_data:
               fileName: open-cue.svg
-              hash: +A/QyQls6QaRcyFM8zZBizYi0zYR3bv7Y/wQr8BU7JA=
+              hash: 7JQObb3m7XfejqYJRcP9K2xXKqjH65UekOnGwtw0aoY=
             best_practice_data:
               badge: 2837
               percentage: 100
@@ -12106,22 +12190,19 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openexr/
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
-              slack_channel: '#openexr'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9ujQAB/overview
-              calendar_url: https://calendar.openexr.com
-              ical_url: https://ical.openexr.com
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openexr'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
               documentation_url: https://docs.openexr.com
-              wiki_page: https://wiki.aswf.io/display/OEXR/OpenEXR+Wiki
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openexr
-              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
-              leads: Cary Phillips
-              date_accepted: ^2019-05-01
-              last_review_date: ^2024-04-17
-              next_review_date: ^2025-04-16
               contributed_by: Lucasfilm
               slug: openexr
               accepted: '2020-04-24'
+              annual_review_date: '2024-04-17'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/483
+              next_annual_review_date: '2025-04-16'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openexr
+              chair: Cary Phillips
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12222,20 +12303,19 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openfx/
               mailing_list_url: https://lists.aswf.io/g/openfx-discussion
-              slack_channel: '#openfx'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openfx/trends
-              contribution_guidelines: https://github.com/ofxa/openfx/wiki/Extending-OpenFX-Guidelines
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openfx
-              calendar_url: https://calendar.openeffects.org
-              ical_url: https://ical.openeffects.org
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openfx'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
               documentation_url: https://docs.openeffects.org
-              leads: Gary Oberbrunner
-              date_accepted: ^2022-08-08
-              last_review_date: ^2024-06-12
-              next_review_date: ^2025-06-11
               contributed_by: Open Effects Association
               slug: openfx
               accepted: '2022-09-02'
+              annual_review_date: '2024-06-12'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/514
+              next_annual_review_date: '2025-06-11'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openfx
+              chair: Gary Oberbrunner
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12325,8 +12405,8 @@ landscape:
               - Dev Days 2024 / Participating Project
             description: >-
               The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation
-              via a format- agnostic API, with a feature set, scalability, and robustness needed for production. 
-            homepage_url: https://openimageio.org
+              via a format- agnostic API, with a feature set, scalability, and robustness needed for production.
+            homepage_url: https://openimageio.org/
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
             logo: openimageio.svg
@@ -12335,23 +12415,19 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openimageio/
               mailing_list_url: https://lists.aswf.io/g/oiio-dev
-              slack_channel: '#openimageio'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openexr/trends
-              LFX_security: none
-              calendar_url: https://calendar.openimageio.org
-              ical_url: https://ical.openimageio.org
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openimageio'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
               documentation_url: https://docs.openimageio.org
-              wiki_page: none
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openimageio
-              TSC_meeting_notes: none
-              calendar: https://lists.aswf.io/g/oiio-dev/calendar
-              leads: Daniel Greenstein
-              date_accepted: ^2023-05-03
-              last_review_date: ^2024-05-01
-              next_review_date: ^2025-04-30
               contributed_by: Larry Gritz
               slug: openimageio
               accepted: '2023-06-27'
+              annual_review_date: '2024-05-01'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
+              next_annual_review_date: '2025-04-30'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openimageio
+              chair: DANIEL GREENSTEIN
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12417,7 +12493,7 @@ landscape:
               start_date: '2008-04-21T20:46:21Z'
             image_data:
               fileName: open-image-io.svg
-              hash: 3iBey5aeZa4zvuHXm56nyCEYK0p7l7cppvRT+SdLwWw=
+              hash: OkP9WX7Q+hf35fsExY9Uvzb+WZ+kWqJ/1dej+nYuOVA=
             best_practice_data:
               badge: 2694
               percentage: 100
@@ -12438,22 +12514,18 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/opentimelineio/
               mailing_list_url: https://lists.aswf.io/g/otio-discussion
-              slack_channel: '#opentimelineio'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-timeline-io/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9uZQAR/overview
-              calendar_url: https://calendar.opentimeline.io
-              ical_url: https://ical.opentimeline.io
-              documentation_url: https://docs.opentimeline.io
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/opentimelineio
-              TSC_meeting_notes: https://drive.google.com/drive/u/2/folders/1tEfoB886aeRU655_pYoc6bPYS4Dk5AaW
-              contribution_guidelines: https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
-              leads: Joshua Minor
-              date_accepted: ^2019-07-29
-              last_review_date: ^2023-12-13
-              next_review_date: ^2024-12-11
+              slack_url: https://slack.aswf.io
+              chat_channel: '#opentimelineio'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
               contributed_by: Pixar Animation Studios
               slug: open-timeline-io
               accepted: '2021-03-08'
+              annual_review_date: '2023-12-13'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/477
+              next_annual_review_date: '2024-12-11'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-timeline-io
+              chair: Eric Reinecke
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12512,7 +12584,7 @@ landscape:
               start_date: '2016-09-06T19:52:15Z'
             image_data:
               fileName: open-timeline-io.svg
-              hash: VhZ4unfiiZLvP/fXOEwsRq6QzrJy4p+YeO08j/GwAwQ=
+              hash: D4fmoO/l4Kwm4btytY1X8EFf+pNDv9F/fUeGeZsmi5E=
             best_practice_data:
               badge: 2288
               percentage: 90
@@ -12533,22 +12605,19 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openvdb/
               mailing_list_url: https://lists.aswf.io/g/openvdb-user
-              slack_channel: '#openvdb'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openvdb/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001If9vIQAR/overview
-              calendar_url: https://calendar.openvdb.org
-              ical_url: https://ical.openvdb.org
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openvdb'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
               documentation_url: https://docs.openvdb.org
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openvdb
-              TSC_meeting_notes: https://github.com/AcademySoftwareFoundation/openvdb/tree/master/tsc/meetings
-              contribution_guidelines: https://github.com/AcademySoftwareFoundation/openvdb/blob/master/CONTRIBUTING.md
-              leads: Ken Museth
-              date_accepted: ^2018-10-23
-              last_review_date: ^2022-11-30
-              next_review_date: ^2025-01-08
               contributed_by: Dreamworks Animation
               slug: openvdb
               accepted: '2019-01-11'
+              annual_review_date: '2024-01-10'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/480
+              next_annual_review_date: '2025-01-08'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openvdb
+              chair: Ken Museth
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12658,7 +12727,8 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/rawtoaces/
               mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
-              slack_channel: '#rawtoaces'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#rawtoaces'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
               TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
               calendar_url: https://calendar.rawtoaces.org
@@ -12709,7 +12779,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;2;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;10;0;2;1;8;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;2;0;0;0
               firstWeek: 2023-08-13Z
               stars: 141
               license: Unknown License
@@ -12739,30 +12809,27 @@ landscape:
             description: |-
               Rez is a cross-platform package manager. Using Rez you can create runtimes
               configured for a given set of packages.
-            homepage_url: https://rez-project.io
+            homepage_url: https://github.com/nerdvegas/rez
             project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/rez
+            repo_url: https://github.com/nerdvegas/rez
             logo: rez.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               artwork_url: https://artwork.aswf.io/projects/rez/
               mailing_list_url: https://lists.aswf.io/g/rez-discussion
-              slack_channel: '#Rez'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rez/trends
-              LFX_security: none
-              calendar_url: https://calendar.rez-project.io
-              ical_url: https://ical.rez-project.io
+              slack_url: https://slack.aswf.io
+              chat_channel: '#Rez'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
               documentation_url: https://docs.rez-project.io
-              TSC_meeting_notes: Request links
-              contribution_guidelines: Request links
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rez
-              leads: Stephen Mackenzie and Jean-Christophe Morin
-              date_accepted: ^2022-03-10
-              last_review_date: ^2024-04-17
-              next_review_date: ^2025-04-02
               contributed_by: Allan Johns
               slug: rez
               accepted: '2022-03-08'
+              annual_review_date: '2024-04-17'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/492
+              next_annual_review_date: '2025-04-02'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rez
+              chair: Jean-Christophe Morin
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12799,7 +12866,7 @@ landscape:
                 - name: Batchfile
                   value: 13
                   color: '#C1F12E'
-              contributions: 0;0;1;2;6;5;0;1;0;0;1;2;0;14;4;9;0;3;0;1;0;2;0;0;5;3;10;4;0;4;3;3;0;7;1;10;0;2;2;4;0;0;0;0;0;6;7;2;2;1;0;0
+              contributions: 0;0;1;2;10;1;0;1;0;0;2;1;0;14;4;9;0;3;0;1;0;2;0;0;5;9;4;4;0;4;4;2;0;7;1;10;0;3;1;4;0;0;0;0;0;6;7;2;2;1;0;0
               firstWeek: 2023-08-13Z
               stars: 930
               license: Apache License 2.0
@@ -12807,21 +12874,21 @@ landscape:
               latest_commit_date: '2024-07-21T21:41:04Z'
               latest_commit_link: /AcademySoftwareFoundation/rez/commit/3d0f22489827f8def994cb2e5590d51445e55123
               release_date: '2024-04-14T19:41:14Z'
-              release_link: https://github.com/AcademySoftwareFoundation/rez/releases
+              release_link: https://github.com/nerdvegas/rez/releases
               contributors_count: 83
-              contributors_link: https://github.com/AcademySoftwareFoundation/rez/graphs/contributors
+              contributors_link: https://github.com/nerdvegas/rez/graphs/contributors
             repos:
-              - url: https://github.com/AcademySoftwareFoundation/rez
+              - url: https://github.com/nerdvegas/rez
                 stars: 930
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/rez/commit/2f66a76462ee778927b67a9a6385f776cb553b54
               start_date: '2011-10-24T02:26:33Z'
             image_data:
               fileName: rez.svg
-              hash: 6T5sPJmX1OFjkHuF4WOSQE/vupwpWbkglB5s4/lyGNM=
+              hash: R8YmlQEcBVlbNYXJpdFkHpuSSSAXR0QLAmxfn6CIDIo=
             best_practice_data:
-              badge: 8389
-              percentage: 94
+              badge: false
+              percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
@@ -12832,26 +12899,26 @@ landscape:
               The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond
               the capacity of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best
               practices and helping with issues raised in various USD support channels where possible.
-            homepage_url: https://wiki.aswf.io/display/WGUSD
+            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
             project: working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
             license: Creative Commons Attribution 4.0 International
             logo: universal_scene_description_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               mailing_list_url: https://lists.aswf.io/g/wg-usd
-              slack_channel: '#wg-usd'
+              slack_url: https://slack.aswf.io
+              chat_channel: '#wg-usd'
               slug: usd-wg
-              TSC_meeting_notes: https://wiki.aswf.io/pages/viewpage.action?pageId=1736722
-              calendar: https://lists.aswf.io/g/wg-usd/calendar
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/usd-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
               leads: Alexander Schwank and Nick Porcino
-              date_accepted: ^2020-03-04
               last_review_date: ^2024-05-01
               next_review_date: ^2025-04-30
               contributed_by: Pixar
               artwork_url: https://artwork.aswf.io/working-groups/usd-wg/
               accepted: '2020-03-04'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=usd-wg
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -12875,6 +12942,23 @@ landscape:
                 - Media and Entertainment
                 - Open Source
                 - Software
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-08-13Z
+              stars: 60
+              license: Apache License 2.0
+              description: USD Working Group collaboration and resources
+              latest_commit_date: '2024-05-01T11:50:37Z'
+              latest_commit_link: /AcademySoftwareFoundation/wg-usd/commit/566bdadac97c146df761a1b0d3cb7a45a8853e73
+              contributors_count: 3
+              contributors_link: https://github.com/AcademySoftwareFoundation/wg-usd/graphs/contributors
+            repos:
+              - url: https://github.com/AcademySoftwareFoundation/wg-usd
+                stars: 60
+            github_start_commit_data:
+              start_commit_link: /AcademySoftwareFoundation/wg-usd/commit/157b7b7ddbe853c9925351fa31872ca4cc7d4cbe
+              start_date: '2020-03-06T21:13:13Z'
             image_data:
               fileName: universal-scene-description-working-group.svg
               hash: FStPNc3zk6Ox9MoK7Zt0TLBRv58jdVrugeDN7H3lOY8=
@@ -12898,16 +12982,17 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               mailing_list_url: https://lists.aswf.io/g/wg-rust
-              slack_channel: '#rust'
-              TSC_meeting_notes: none
+              slack_url: https://slack.aswf.io
+              chat_channel: '#rust'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/working-group-for-rust-bindings
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-              leads: Scott Wilson
               date_accepted: ^2021-03-04
-              last_review_date: ^2024-03-20
-              next_review_date: ^2025-03-19
               contributed_by: Scott Wilson
               artwork_url: https://artwork.aswf.io/working-groups/working-group-for-rust-bindings/
+              annual_review_date: '2024-03-20'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
+              next_annual_review_date: '2025-03-19'
+              chair: Scott Wilson
             crunchbase_data:
               name: Academy Software Foundation
               description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
@@ -13022,4 +13107,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-08-08T04:11:13.103Z
+updated_at: 2024-08-09T04:13:46.982Z
