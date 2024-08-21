@@ -8,7 +8,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Amwam/issue-comment-action@v1.3.1
+      - name: Harden Runner
+        uses: step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde # v2.9.1
+        with:
+          egress-policy: audit
+
+      - uses: Amwam/issue-comment-action@04d3936db1a2fc02f86cad9db71cf24006019c4d # v1.3.1
         if: ${{ github.event.issue.pull_request && contains(github.event.issue.labels.*.name, 'automated-build') }}
         with:
           keywords: '["Deploy preview for *awsf-landscape* ready"]'
