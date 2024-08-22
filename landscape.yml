@@ -909,11 +909,11 @@ landscape:
               slug: aswf-continuous-integration-wg
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
-              leads: Jean-Francois Panisset
-              last_review_date: ^2023-05-17
-              next_review_date: ^2024-05-15
+              chair: Jean-Francois Panisset
+              annual_review_date: '2023-05-17'
+              next_annual_review_date: '2024-05-15'
               contributed_by: Academy Software Foundation
-              artwork_url: https://artwork.aswf.io/working-groups/continuous-integration-wg/
+              artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
               accepted: '2018-11-01'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-continuous-integration-wg
           - item:
@@ -936,15 +936,12 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/assets-discussion
               slack_url: https://slack.aswf.io
               chat_channel: '#assets'
-              LFX_insights: None
               wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
-              TSC_meeting_notes: https://wiki.aswf.io/display/OEXR/TSC+Meetings
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
-              leads: Matthew Low
-              date_accepted: ^2022-03-10
-              last_review_date: ^2023-09-20
-              next_review_date: ^2024-09-18
+              chair: Matthew Low
+              annual_review_date: '2023-09-20'
+              next_annual_review_date: '2024-09-18'
               contributed_by: Academy Software Foundation
               slug: dpel
               accepted: '2021-09-02'
@@ -966,15 +963,13 @@ landscape:
               slack_url: https://slack.aswf.io
               chat_channel: '#diversity'
               slug: aswf-diversity-inclusion-wg
-              TSC_meeting_notes: none
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
-              leads: Rachel Rose and Carol Payne
-              date_accepted: ^2020-06-07
-              last_review_date: ^2023-10-04
-              next_review_date: ^2024-10-16
+              chair: Rachel Rose, Carol Payne
+              annual_review_date: '2023-10-04'
+              next_annual_review_date: '2024-10-16'
               contributed_by: Academy Software Foundation
-              artwork_url: https://artwork.aswf.io/working-groups/diversity-inclusion-wg/
+              artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
               accepted: '2020-06-11'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-diversity-inclusion-wg
           - item:
@@ -1000,18 +995,9 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_url: https://slack.aswf.io
               chat_channel: '#materialx'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/materialx/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWrdoQAD/overview
               documentation_url: https://docs.materialx.org
-              TSC_meeting_notes: https://app.slack.com/client/TKA297NS0/C0230LWBE2X
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
-              contribution_guidelines: https://github.com/materialx/MaterialX/blob/main/CONTRIBUTING.md
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/materialx
-              leads: Jonathan Stone
-              date_accepted: ^2021-08-04
-              last_review_date: ^2024-02-07
-              next_review_date: ^2025-02-05
               contributed_by: Lucasfilm
               slug: materialx
               accepted: '2021-09-15'
@@ -1025,7 +1011,7 @@ landscape:
             second_path:
               - Imaging and Color / Display and Review
             description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
-            homepage_url: https://openreviewinitiative.org
+            homepage_url: https://openreviewinitiative.org/
             project: sandbox
             repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
             additional_repos:
@@ -1035,19 +1021,12 @@ landscape:
             logo: open_review_initiative.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/openreviewinitiative/
+              artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
               mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
               slack_url: https://slack.aswf.io
               chat_channel: '#open-review-initiative'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openreviewio/trends
-              LFX_security: none
-              TSC_meeting_notes: https://docs.google.com/document/d/1JBh0wVLGLPHIQS7n05iq20ix2HlSEBX9NrIF2sPiMHY/edit?usp=sharing
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
-              leads: Erik Strauss
-              date_accepted: ^2022-08-08
-              last_review_date: ^2023-08-23
-              next_review_date: ^2024-08-21
               contributed_by: Academy Software Foundation
               slug: open-review-initiative
               accepted: '2022-09-07'
@@ -1070,27 +1049,19 @@ landscape:
             logo: open_shading_language.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/openshadinglanguage/
+              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
               mailing_list_url: https://lists.aswf.io/g/osl-dev
               slack_url: https://slack.aswf.io
-              chat_Channel: '#openshadinglanguage'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/open-shading-language/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkWtEQAV/overview
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openshadinglanguage
-              TSC_meeting_notes: https://docs.google.com/document/d/1yf0bG6eoE2EvKZBNZX3nskdTvu99ADTDTNOknCDJd1I/
+              chat_channel: '#openshadinglanguage'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
               documentation_url: https://docs.openshadinglanguage.org
-              contribution_guidelines: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/CONTRIBUTING.md
-              leads: Chris Kulla
-              date_accepted: ^2020-04-16
-              last_review_date: ^2023-09-06
-              next_review_date: ^2024-09-04
+              annual_review_date: '2023-09-06'
+              next_annual_review_date: '2024-09-04'
               contributed_by: Sony Pictures Imageworks
               slug: open-shading-language
               accepted: '2020-12-11'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
-              next_annual_review_date: '2024-09-04'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
               chair: Chris Kulla
           - item:
@@ -1111,18 +1082,10 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
               slack_url: https://slack.aswf.io
               chat_channel: '#openassetio'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/openassetio/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001L17vCQAR/overview
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/openassetio
-              TSC_meeting_notes: https://github.com/OpenAssetIO/OpenAssetIO-WG
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
               documentation_url: https://docs.openassetio.org
               contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
-              leads: Elliot Morris
-              date_accepted: ^2022-08-08
-              last_review_date: ^2023-07-12
-              next_review_date: ^2024-07-10
               contributed_by: Foundry
               slug: openassetio
               accepted: '2022-11-01'
@@ -1298,7 +1261,7 @@ landscape:
             logo: opentimelineio.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/opentimelineio/
+              artwork_url: https://artwork.aswf.io/projects/open-timeline-io/
               mailing_list_url: https://lists.aswf.io/g/otio-discussion
               slack_url: https://slack.aswf.io
               chat_channel: '#opentimelineio'
@@ -1342,33 +1305,6 @@ landscape:
               next_annual_review_date: '2025-01-08'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openvdb
               chair: Ken Museth
-          - item:
-            name: RAW to ACES Utility
-            second_path:
-              - Imaging and Color / Color Science
-            homepage_url: https://rawtoaces.org
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces-data
-            logo: rawtoaces.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
-              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
-              slack_url: https://slack.aswf.io
-              chat_channel: '#rawtoaces'
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/rawtoaces/trends
-              TSC_meeting_notes: https://wiki.aswf.io/collector/pages.action?key=RAW
-              calendar_url: https://calendar.rawtoaces.org
-              ical_url: https://ical.rawtoaces.org
-              documentation_url: https://docs.rawtoaces.org
-              SBOM: https://github.com/lfscanning/spdx-aswf/tree/master/rawtoaces
-              leads: Alexander Forsythe
-              date_accepted: ^2022-03-10
-              last_review_date: ^2024-01-10
-              next_review_date: ^2025-01-08
-              contributed_by: The Academy of Motion Picture Arts and Sciences
           - item:
             name: Rez
             second_path:
@@ -1419,26 +1355,26 @@ landscape:
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
               leads: Alexander Schwank and Nick Porcino
-              last_review_date: ^2024-05-01
-              next_review_date: ^2025-04-30
+              annual_review_date: '2024-05-01'
+              next_annual_review_date: '2025-04-30'
               contributed_by: Pixar
-              artwork_url: https://artwork.aswf.io/working-groups/usd-wg/
+              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
               accepted: '2020-03-04'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
           - item:
-            name: Working Group for Rust Bindings
+            name: Working Group for RUST Bindings
             second_path:
               - Math and Simulation / Math Foundations
             description: >-
-              The Working Group for Rust Bindings is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and
-              entertainment industry.
-            homepage_url: https://github.com/vfx-rs/organization
+              The mission of the Working Group for RUST Bindings is to enable development of Rust bindings for C++ libraries used by the media and entertainment industry.
+            homepage_url: https://github.com/vfx-rs
             project: working-group
             repo_url: https://github.com/vfx-rs/organization
             project_org: https://github.com/vfx-rs
-            logo: rustwg.svg
+            logo: working_group_for_rust_bindings.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
+              slug: working-group-for-rust-bindings
               mailing_list_url: https://lists.aswf.io/g/wg-rust
               slack_url: https://slack.aswf.io
               chat_channel: '#rust'
@@ -1446,8 +1382,39 @@ landscape:
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
               date_accepted: ^2021-03-04
               contributed_by: Scott Wilson
-              artwork_url: https://artwork.aswf.io/working-groups/working-group-for-rust-bindings/
+              artwork_url: https://artwork.aswf.io/projects/working-group-for-rust-bindings/
               annual_review_date: '2024-03-20'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
               next_annual_review_date: '2025-03-19'
               chair: Scott Wilson
+              accepted: '2023-10-20'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=working-group-for-rust-bindings
+          - item:
+            name: rawtoaces
+            second_path:
+              - Imaging and Color / Color Science
+            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            project: incubating
+            logo: rawtoaces.svg
+            repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces-data
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            description: The rawtoaces project seeks to provide a reliable and extensible software framework for the conversion of digital camera RAW files to a high dynamic range scene
+              referred format, along with establishing a database of camera and related data to enable this framework.
+            extra:
+              slug: rawtoaces
+              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
+              documentation_url: https://docs.rawtoaces.org
+              slack_url: https://slack.aswf.io
+              chat_channel: '#rawtoaces'
+              accepted: '2021-12-03'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rawtoaces
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
+              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
+              annual_review_date: '2024-01-10'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
+              next_annual_review_date: '2025-01-22'
+              contributed_by: The Academy of Motion Picture Arts and Sciences
+              chair: Alexander Forsythe
