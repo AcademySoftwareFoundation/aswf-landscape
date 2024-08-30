@@ -10541,7 +10541,7 @@ landscape:
                   acquiree: Poly
               parents: []
               ticker: HPQ
-              funding: 4200000000
+              funding: 4250000000
               stockExchange: nyse
               company_type: For Profit
               industries:
@@ -11234,6 +11234,146 @@ landscape:
       - subcategory:
         name: All
         items:
+          - item:
+            name: ASWF Language Interop Project
+            second_path:
+              - Math and Simulation / Math Foundations
+            description: >-
+              The mission of the Project is to enable interoperability between various programming languages across each of the libraries used by the media and
+              entertainment industry.
+            homepage_url: https://github.com/vfx-rs
+            project: working-group
+            repo_url: https://github.com/vfx-rs/organization
+            project_org: https://github.com/vfx-rs
+            logo: aswf_language_interop_project.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              slug: working-group-for-rust-bindings
+              mailing_list_url: https://lists.aswf.io/g/wg-rust
+              slack_url: https://slack.aswf.io
+              chat_channel: '#rust'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/working-group-for-rust-bindings
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
+              date_accepted: ^2021-03-04
+              contributed_by: Scott Wilson
+              artwork_url: https://artwork.aswf.io/projects/working-group-for-rust-bindings/
+              annual_review_date: '2024-03-20'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
+              next_annual_review_date: '2025-03-19'
+              chair: Scott Wilson
+              accepted: '2023-10-20'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=working-group-for-rust-bindings
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            github_data:
+              description: ''
+              contributors_count: 10
+              contributions: 3;0;1;1;0;0;8;1;0;0;6;4;11;0;0;0;0;0;0;0;0;0;0;2;0;23;0;0;0;6;13;10;14;9;4;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 239
+              languages:
+                - name: C++
+                  value: 29264874
+                  color: '#f34b7d'
+                - name: C
+                  value: 11454846
+                  color: '#555555'
+                - name: Rust
+                  value: 3969941
+                  color: '#dea584'
+                - name: SCSS
+                  value: 842306
+                - name: CMake
+                  value: 84614
+                - name: Python
+                  value: 49829
+                  color: '#3572A5'
+                - name: HTML
+                  value: 26144
+                  color: '#e34c26'
+                - name: Shell
+                  value: 11882
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 3144
+                  color: '#384d54'
+              latest_commit_link: /vfx-rs/organization/commit/e119f8cd993eb3dcd2eac14d052dbf9729d71a56
+              latest_commit_date: '2022-07-06T04:21:31Z'
+              firstWeek: 2023-09-03Z
+              license: Creative Commons Zero v1.0 Universal
+              contributors_link: https://github.com/vfx-rs/organization/graphs/contributors
+            repos:
+              - url: https://github.com/vfx-rs/organization
+                stars: 53
+              - url: https://github.com/vfx-rs/cppmm
+                stars: 65
+              - url: https://github.com/vfx-rs/usd-bind
+                stars: 47
+              - url: https://github.com/vfx-rs/babble
+                stars: 14
+              - url: https://github.com/vfx-rs/openexr-rs
+                stars: 11
+              - url: https://github.com/vfx-rs/openexr-bind
+                stars: 11
+              - url: https://github.com/vfx-rs/oiio-bind
+                stars: 7
+              - url: https://github.com/vfx-rs/opentimelineio-bind
+                stars: 7
+              - url: https://github.com/vfx-rs/meeting-minutes
+                stars: 5
+              - url: https://github.com/vfx-rs/ptex-bind
+                stars: 5
+              - url: https://github.com/vfx-rs/usd-rs
+                stars: 5
+              - url: https://github.com/vfx-rs/template-project
+                stars: 3
+              - url: https://github.com/vfx-rs/ocio-bind
+                stars: 2
+              - url: https://github.com/vfx-rs/imath-traits
+                stars: 2
+              - url: https://github.com/vfx-rs/rfcs
+                stars: 1
+              - url: https://github.com/vfx-rs/arewevfxyet
+                stars: 1
+              - url: https://github.com/vfx-rs/openexr-core-rs
+                stars: 0
+              - url: https://github.com/vfx-rs/openexr-sys
+                stars: 0
+              - url: https://github.com/vfx-rs/cppmm-build
+                stars: 0
+              - url: https://github.com/vfx-rs/cppmm-refptr
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /vfx-rs/usd-rs/commit/e477bdea1b45c9f68c8f7e823f2741d166220bf6
+              start_date: '2020-09-16T15:11:32Z'
+            image_data:
+              fileName: aswf-language-interop-project.svg
+              hash: GjWgfq7MSwjpJLTqVtgw+IVQxLVn+mlfT/J7mgu0hwI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
           - item:
             name: Continuous Integration Working Group
             description: >-
@@ -12592,6 +12732,53 @@ landscape:
               badge: 2694
               percentage: 100
           - item:
+            name: OpenQMC
+            description: The mission of the Project is to provide an API to deliver high quality QMC sample points.
+            homepage_url: https://github.com/framestore/openqmc
+            repo_url: https://github.com/framestore/openqmc
+            logo: openqmc.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              slug: openqmc
+              accepted: '2024-07-25'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openqmc
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openqmc
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
+              artwork_url: https://artwork.aswf.io/projects/openqmc/
+            crunchbase_data:
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
+              acquisitions:
+                - date: '2023-04-01'
+                  acquiree: OpenImageIO
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
+            repos:
+              - url: https://github.com/framestore/openqmc
+            image_data:
+              fileName: open-qmc.svg
+              hash: n1ZzSFWeAwIYkkDvZhAwoTK9fbMKimbUadXqU5GPwTs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T17:25:09.000Z
+          - item:
             name: OpenTimelineIO
             second_path:
               - Assets and Workflow / Timelines and Animation
@@ -12876,7 +13063,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;10;0;2;1;8;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0
               firstWeek: 2023-09-03Z
               stars: 141
               license: Unknown License
@@ -13064,147 +13251,7 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-12T17:25:09.000Z
-          - item:
-            name: Working Group for RUST Bindings
-            second_path:
-              - Math and Simulation / Math Foundations
-            description: >-
-              The mission of the Working Group for RUST Bindings is to enable development of Rust bindings for C++ libraries used by the media and entertainment
-              industry.
-            homepage_url: https://github.com/vfx-rs
-            project: working-group
-            repo_url: https://github.com/vfx-rs/organization
-            project_org: https://github.com/vfx-rs
-            logo: working_group_for_rust_bindings.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              slug: working-group-for-rust-bindings
-              mailing_list_url: https://lists.aswf.io/g/wg-rust
-              slack_url: https://slack.aswf.io
-              chat_channel: '#rust'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/working-group-for-rust-bindings
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-              date_accepted: ^2021-03-04
-              contributed_by: Scott Wilson
-              artwork_url: https://artwork.aswf.io/projects/working-group-for-rust-bindings/
-              annual_review_date: '2024-03-20'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
-              next_annual_review_date: '2025-03-19'
-              chair: Scott Wilson
-              accepted: '2023-10-20'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=working-group-for-rust-bindings
-            crunchbase_data:
-              name: Academy Software Foundation
-              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://www.aswf.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/AcademySwf
-              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
-              acquisitions:
-                - date: '2023-04-01'
-                  acquiree: OpenImageIO
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Film
-                - Media and Entertainment
-                - Open Source
-                - Software
-            github_data:
-              description: ''
-              contributors_count: 10
-              contributions: 3;0;1;1;0;0;8;1;0;0;6;4;11;0;0;0;0;0;0;0;0;0;0;2;0;23;0;0;0;6;13;10;14;9;4;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              stars: 239
-              languages:
-                - name: C++
-                  value: 29264874
-                  color: '#f34b7d'
-                - name: C
-                  value: 11454846
-                  color: '#555555'
-                - name: Rust
-                  value: 3969941
-                  color: '#dea584'
-                - name: SCSS
-                  value: 842306
-                - name: CMake
-                  value: 84614
-                - name: Python
-                  value: 49829
-                  color: '#3572A5'
-                - name: HTML
-                  value: 26144
-                  color: '#e34c26'
-                - name: Shell
-                  value: 11882
-                  color: '#89e051'
-                - name: Dockerfile
-                  value: 3144
-                  color: '#384d54'
-              latest_commit_link: /vfx-rs/organization/commit/e119f8cd993eb3dcd2eac14d052dbf9729d71a56
-              latest_commit_date: '2022-07-06T04:21:31Z'
-              firstWeek: 2023-09-03Z
-              license: Creative Commons Zero v1.0 Universal
-              contributors_link: https://github.com/vfx-rs/organization/graphs/contributors
-            repos:
-              - url: https://github.com/vfx-rs/organization
-                stars: 53
-              - url: https://github.com/vfx-rs/cppmm
-                stars: 65
-              - url: https://github.com/vfx-rs/usd-bind
-                stars: 47
-              - url: https://github.com/vfx-rs/babble
-                stars: 14
-              - url: https://github.com/vfx-rs/openexr-rs
-                stars: 11
-              - url: https://github.com/vfx-rs/openexr-bind
-                stars: 11
-              - url: https://github.com/vfx-rs/oiio-bind
-                stars: 7
-              - url: https://github.com/vfx-rs/opentimelineio-bind
-                stars: 7
-              - url: https://github.com/vfx-rs/meeting-minutes
-                stars: 5
-              - url: https://github.com/vfx-rs/ptex-bind
-                stars: 5
-              - url: https://github.com/vfx-rs/usd-rs
-                stars: 5
-              - url: https://github.com/vfx-rs/template-project
-                stars: 3
-              - url: https://github.com/vfx-rs/ocio-bind
-                stars: 2
-              - url: https://github.com/vfx-rs/imath-traits
-                stars: 2
-              - url: https://github.com/vfx-rs/rfcs
-                stars: 1
-              - url: https://github.com/vfx-rs/arewevfxyet
-                stars: 1
-              - url: https://github.com/vfx-rs/openexr-core-rs
-                stars: 0
-              - url: https://github.com/vfx-rs/openexr-sys
-                stars: 0
-              - url: https://github.com/vfx-rs/cppmm-build
-                stars: 0
-              - url: https://github.com/vfx-rs/cppmm-refptr
-                stars: 0
-            github_start_commit_data:
-              start_commit_link: /vfx-rs/usd-rs/commit/e477bdea1b45c9f68c8f7e823f2741d166220bf6
-              start_date: '2020-09-16T15:11:32Z'
-            image_data:
-              fileName: working-group-for-rust-bindings.svg
-              hash: GjWgfq7MSwjpJLTqVtgw+IVQxLVn+mlfT/J7mgu0hwI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-12T17:25:09.000Z
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-08-29T04:28:48.122Z
+updated_at: 2024-08-30T04:27:22.662Z
