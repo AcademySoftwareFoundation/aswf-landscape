@@ -891,6 +891,35 @@ landscape:
         name: All
         items:
           - item:
+            name: ASWF Language Interop Project
+            second_path:
+              - Math and Simulation / Math Foundations
+            description: >-
+              The mission of the Project is to enable interoperability between various programming languages across each of the libraries used by the media and
+              entertainment industry.
+            homepage_url: https://github.com/vfx-rs
+            project: working-group
+            repo_url: https://github.com/vfx-rs/organization
+            project_org: https://github.com/vfx-rs
+            logo: aswf_language_interop_project.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              slug: working-group-for-rust-bindings
+              mailing_list_url: https://lists.aswf.io/g/wg-rust
+              slack_url: https://slack.aswf.io
+              chat_channel: '#rust'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/working-group-for-rust-bindings
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
+              date_accepted: ^2021-03-04
+              contributed_by: Scott Wilson
+              artwork_url: https://artwork.aswf.io/projects/working-group-for-rust-bindings/
+              annual_review_date: '2024-03-20'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
+              next_annual_review_date: '2025-03-19'
+              chair: Scott Wilson
+              accepted: '2023-10-20'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=working-group-for-rust-bindings
+          - item:
             name: Continuous Integration Working Group
             description: >-
               The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to
@@ -1247,6 +1276,20 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openimageio
               chair: Daniel Greenstein
           - item:
+            name: OpenQMC
+            description: The mission of the Project is to provide an API to deliver high quality QMC sample points.
+            homepage_url: https://github.com/framestore/openqmc
+            repo_url: https://github.com/framestore/openqmc
+            logo: openqmc.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              slug: openqmc
+              accepted: '2024-07-25'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openqmc
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openqmc
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
+              artwork_url: https://artwork.aswf.io/projects/openqmc/
+          - item:
             name: OpenTimelineIO
             second_path:
               - Assets and Workflow / Timelines and Animation
@@ -1391,32 +1434,3 @@ landscape:
               artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
               accepted: '2020-03-04'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
-          - item:
-            name: Working Group for RUST Bindings
-            second_path:
-              - Math and Simulation / Math Foundations
-            description: >-
-              The mission of the Working Group for RUST Bindings is to enable development of Rust bindings for C++ libraries used by the media and entertainment
-              industry.
-            homepage_url: https://github.com/vfx-rs
-            project: working-group
-            repo_url: https://github.com/vfx-rs/organization
-            project_org: https://github.com/vfx-rs
-            logo: working_group_for_rust_bindings.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              slug: working-group-for-rust-bindings
-              mailing_list_url: https://lists.aswf.io/g/wg-rust
-              slack_url: https://slack.aswf.io
-              chat_channel: '#rust'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/working-group-for-rust-bindings
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-              date_accepted: ^2021-03-04
-              contributed_by: Scott Wilson
-              artwork_url: https://artwork.aswf.io/projects/working-group-for-rust-bindings/
-              annual_review_date: '2024-03-20'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
-              next_annual_review_date: '2025-03-19'
-              chair: Scott Wilson
-              accepted: '2023-10-20'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=working-group-for-rust-bindings
