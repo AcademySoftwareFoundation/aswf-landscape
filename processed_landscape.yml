@@ -8328,14 +8328,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/google
             crunchbase_data:
               name: Google
-              description: Google is a multinational corporation that specializes in Internet-related services and products.
+              description: Google is a multinational corporation that specializes in Internet-related services and organizes the world’s information.
               num_employees_min: 10001
               num_employees_max: 1000000
               homepage: https://www.google.com
               city: Mountain View
               region: California
               country: United States
-              twitter: https://www.twitter.com/google
+              twitter: https://x.com/google
               linkedin: https://www.linkedin.com/company/google
               acquisitions:
                 - date: '2001-02-12'
@@ -8840,6 +8840,8 @@ landscape:
                   acquiree: Dysonics
                 - date: '2021-05-07'
                   acquiree: Provino Technologies
+                - date: '2021-09-04'
+                  acquiree: Playspace
                 - date: '2021-10-01'
                   acquiree: CompilerWorks
                 - date: '2021-11-17'
@@ -8873,10 +8875,13 @@ landscape:
               stockExchange: nasdaq
               company_type: For Profit
               industries:
+                - Apps
                 - Artificial Intelligence (AI)
-                - Cloud Computing
                 - Cloud Storage
+                - Information Technology
+                - Office Administration
                 - SEO
+                - Search Engine
                 - Software
             yahoo_finance_data:
               effective_ticker: GOOG
@@ -9161,7 +9166,7 @@ landscape:
               city: Redmond
               region: Washington
               country: United States
-              twitter: https://www.twitter.com/Microsoft
+              twitter: https://x.com/Microsoft
               linkedin: https://www.linkedin.com/company/microsoft
               acquisitions:
                 - date: '1987-07-30'
@@ -9693,8 +9698,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-20T22:00:00.000Z
           - item:
             name: Netflix, Inc.
             homepage_url: https://netflix.com/
@@ -9850,10 +9853,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/samsung-electronics
             crunchbase_data:
               name: Samsung Electronics
-              description: Samsung Electronics is an electronics company that engages in consumer electronics, IT and mobile communications, and device solutions.
+              description: Samsung Electronics is a technology company that engages in consumer electronics, IT and mobile communications, and device solutions.
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: http://www.samsung.com
+              homepage: https://www.samsung.com/
               city: Seoul
               region: Seoul-t'ukpyolsi
               country: South Korea
@@ -13062,7 +13065,7 @@ landscape:
                 - name: Dockerfile
                   value: 1408
                   color: '#384d54'
-              contributions: 0;0;0;0;10;1;2;5;3;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;10;1;2;6;2;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0
               firstWeek: 2023-09-24Z
               stars: 141
               license: Unknown License
@@ -13253,4 +13256,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1443199929917267968'
-updated_at: 2024-09-17T04:34:49.228Z
+updated_at: 2024-09-18T04:35:56.964Z
