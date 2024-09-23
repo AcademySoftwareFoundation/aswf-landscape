@@ -947,8 +947,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-continuous-integration-wg
           - item:
             name: Digital Production Example Library (DPEL)
-            second_path:
-              - Imaging and Color / Display and Review
+            second_path: Imaging and Color / Display and Review
             description: >-
               In order to encourage development and research that addresses the true scale, scope and requirements of computer graphics film production, the
               Asset Repository seeks to publish and maintain curated exemplars of the data sets used in our industry. Research projects and commercial
@@ -956,7 +955,7 @@ landscape:
               results and software demonstrations. Disney’s Moana Island is a prime example of what we want to encourage, but in addition to 3D scene data,
               assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
             homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
-            project: incubating
+            project: adopted
             repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             logo: digital_production_example_library_dpel.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -969,8 +968,8 @@ landscape:
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
               chair: Matthew Low
-              annual_review_date: '2023-09-20'
-              next_annual_review_date: '2024-09-18'
+              annual_review_date: '2024-09-18'
+              next_annual_review_date: '2025-09-17'
               contributed_by: Academy Software Foundation
               slug: dpel
               accepted: '2021-09-02'
@@ -1011,7 +1010,7 @@ landscape:
               a computer graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex
               nested materials and geometric assignments.
             homepage_url: https://www.materialx.org/
-            project: incubating
+            project: adopted
             repo_url: https://github.com/materialx/MaterialX
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
