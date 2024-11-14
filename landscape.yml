@@ -1124,8 +1124,8 @@ landscape:
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
               documentation_url: https://docs.openshadinglanguage.org
-              annual_review_date: '2023-09-06'
-              next_annual_review_date: '2024-10-30'
+              annual_review_date: '2024-10-30'
+              next_annual_review_date: '2025-10-29'
               contributed_by: Sony Pictures Imageworks
               slug: open-shading-language
               accepted: '2020-12-11'
@@ -1497,3 +1497,23 @@ landscape:
               artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
               accepted: '2020-03-04'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
+          - item:
+            name: Zero Trust Working Group
+            description: >-
+              To support ASWF projects that need to function in a Zero Trust operating environment. Assist ASWF projects in determining their zero trust
+              security needs and share best practices on implementation approaches.
+            homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
+            project: working-group
+            logo: zero_trust_working_group.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              slug: aswf-zero-trust-wg
+              accepted: '2024-04-03'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-zero-trust-wg
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
+              artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
+              annual_review_date: '2024-10-30'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
+              next_annual_review_date: '2025-10-29'
+              chair: James Helman
