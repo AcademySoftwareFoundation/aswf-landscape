@@ -14,7 +14,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: jmertic/lfx-landscape-tools@5599db2b9fde244ec33c3e470602b4ef65de7400 # main
+      - uses: jmertic/lfx-landscape-tools@main
         env:
           token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
