@@ -33,6 +33,12 @@ landscape:
         name: Image Formats, I/O, and Processing Libraries
         items:
           - item:
+            name: camdkit
+            homepage_url: https://github.com/SMPTE/ris-osvp-metadata-camdkit
+            repo_url: https://github.com/SMPTE/ris-osvp-metadata-camdkit
+            logo: camdkit.svg
+            crunchbase: https://www.crunchbase.com/organization/smpte
+          - item:
             name: depix
             homepage_url: https://github.com/guerilla-di/depix
             repo_url: https://github.com/guerilla-di/depix
@@ -126,12 +132,6 @@ landscape:
               - repo_url: https://github.com/Netflix/vmaf_resource
             logo: vmaf.svg
             crunchbase: https://www.crunchbase.com/organization/netflix
-          - item:
-            name: camdkit
-            homepage_url: https://github.com/SMPTE/ris-osvp-metadata-camdkit
-            repo_url: https://github.com/SMPTE/ris-osvp-metadata-camdkit
-            logo: camdkit.svg
-            crunchbase: https://www.crunchbase.com/organization/smpte
       - subcategory:
         name: Display and Review
         items:
