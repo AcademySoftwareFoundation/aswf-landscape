@@ -140,7 +140,8 @@ landscape:
             homepage_url: https://darbyjohnston.github.io/DJV/
             repo_url: https://github.com/darbyjohnston/DJV
             logo: djv.svg
-            crunchbase: https://www.crunchbase.com/organization/djv
+            organization:
+              name: Darby Johnston
           - item:
             name: Jeri
             homepage_url: https://jeri.io/
@@ -219,7 +220,8 @@ landscape:
             homepage_url: http://aferrero2707.github.io/PhotoFlow/
             repo_url: https://github.com/aferrero2707/PhotoFlow
             logo: photoflow.svg
-            crunchbase: https://www.crunchbase.com/organization/photoflow-0f6b
+            organization:
+              name: Andrea Ferrero
           - item:
             name: tracksperanto
             homepage_url: https://github.com/guerilla-di/tracksperanto
@@ -1212,721 +1214,607 @@ landscape:
     name: ASWF Projects
     subcategories:
       - subcategory:
-        name: All
+        name: Adopted
         items:
           - item:
-            name: ASWF Language Interop Project
+            name: OpenColorIO
+            homepage_url: https://opencolorio.org/
+            logo: opencolorio.svg
+            description: >-
+              The OpenColorIO project is committed to providing an industry standard solution for highly precise, performant, and consistent color management
+              across digital content creation applications and pipelines.
             second_path:
-              - Math and Simulation / Math Foundations
-            description: >-
-              The mission of the Project is to enable interoperability between various programming languages across each of the libraries used by the media and
-              entertainment industry.
-            homepage_url: https://github.com/vfx-rs
-            project: working-group
-            repo_url: https://github.com/vfx-rs/organization
-            project_org: https://github.com/vfx-rs
-            logo: aswf_language_interop_project.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              slug: aswf-language-interop-project
-              mailing_list_url: https://lists.aswf.io/g/wg-rust
-              slack_url: https://slack.aswf.io
-              chat_channel: '#rust'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-language-interop-project
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-              date_accepted: ^2021-03-04
-              contributed_by: Scott Wilson
-              artwork_url: https://artwork.aswf.io/projects/aswf-language-interop-project/
-              annual_review_date: '2024-06-26'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/704
-              next_annual_review_date: '2025-03-19'
-              chair: Scott Wilson
-              accepted: '2023-10-20'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-language-interop-project
-              annotations:
-                slug: aswf-language-interop-project
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-language-interop-project
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-                next_annual_review_date: '2025-06-25'
-                chair: ''
-          - item:
-            name: Continuous Integration Working Group
-            description: >-
-              The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to
-              improve best practices and address the unique challenges we face.
-            homepage_url: https://wiki.aswf.io/display/CIWG
-            project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
+              - Imaging and Color / Color Science
+              - Dev Days 2024 / Participating Project
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
             additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/aswf-docker
-            logo: continuous_integration_working_group.svg
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              mailing_list_url: https://lists.aswf.io/g/tac
-              slack_url: https://slack.aswf.io
-              chat_channel: '#wg-ci'
-              slug: aswf-continuous-integration-wg
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
-              chair: Jean-Francois Panisset
-              annual_review_date: '2024-05-29'
-              next_annual_review_date: '2024-05-15'
-              contributed_by: Academy Software Foundation
-              artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
-              accepted: '2018-11-01'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-continuous-integration-wg
+              accepted: '2020-04-24'
               annotations:
-                slug: aswf-continuous-integration-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
-                next_annual_review_date: '2025-05-28'
-                chair: Jean-Francois Panisset
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
+                slug: opencolorio
+                next_annual_review_date: '2025-01-22'
+                chair: Carol Payne
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
+                contributed_by: Sony Pictures Imageworks
+              annual_review_date: '2023-11-01'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/474
+              artwork_url: https://artwork.aswf.io/projects/opencolorio/
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencolorio
+              documentation_url: https://docs.opencolorio.org
+              mailing_list_url: https://lists.aswf.io/g/ocio-user
+              slack_url: https://slack.opencolorio.org
           - item:
             name: Digital Production Example Library (DPEL)
-            second_path:
-              - Imaging and Color / Display and Review
+            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
+            logo: digital_production_example_library_dpel.svg
             description: >-
               In order to encourage development and research that addresses the true scale, scope and requirements of computer graphics film production, the
               Asset Repository seeks to publish and maintain curated exemplars of the data sets used in our industry. Research projects and commercial
               development projects often have trouble obtaining input datasets with full film complexity, and that are licensed to allow publishing research
               results and software demonstrations. Disney’s Moana Island is a prime example of what we want to encourage, but in addition to 3D scene data,
               assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
-            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
-            logo: digital_production_example_library_dpel.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/dpel/
-              mailing_list_url: https://lists.aswf.io/g/assets-discussion
-              slack_url: https://slack.aswf.io
-              chat_channel: '#assets'
-              wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
-              chair: Matthew Low
-              annual_review_date: '2024-09-18'
-              next_annual_review_date: '2025-09-17'
-              contributed_by: Academy Software Foundation
-              slug: dpel
-              accepted: '2021-09-02'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=dpel
-              annotations:
-                slug: dpel
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
-                next_annual_review_date: '2025-09-17'
-                chair: Matthew Low
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/472
-          - item:
-            name: Diversity & Inclusion Working Group
-            description: >-
-              The purpose of this Working Group is to create a cross-industry effort to encourage diversity and inclusion across the open source software
-              ecosystem for vfx and animation. The WG will bring together software engineers/developers, marketing/communications professionals, HR, and anyone
-              else passionate about D&I within vfx and animation.
-            homepage_url: https://lists.aswf.io/g/diversity
-            project: working-group
-            repo_url: https://github.com/chaoss/wg-diversity-inclusion
-            license: Creative Commons Attribution 4.0 International
-            logo: diversity_inclusion_working_group.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              mailing_list_url: https://lists.aswf.io/g/diversity
-              slack_url: https://slack.aswf.io
-              chat_channel: '#diversity'
-              slug: aswf-diversity-inclusion-wg
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
-              chair: Rachel Rose, Carol Payne
-              annual_review_date: '2023-10-04'
-              next_annual_review_date: '2024-10-16'
-              contributed_by: Academy Software Foundation
-              artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
-              accepted: '2020-06-11'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-diversity-inclusion-wg
-              annotations:
-                slug: aswf-diversity-inclusion-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
-                next_annual_review_date: '2025-01-08'
-                chair: Carol Payne, Rachel Rose
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
-          - item:
-            name: MaterialX
-            second_path:
-              - Rendering and Queueing / Rendering, Lighting, and Lookdev
-              - Dev Days 2024 / Participating Project
-            description: >-
-              MaterialX addresses the need for a common, open standard to represent the data values and relationships required to transfer the complete look of
-              a computer graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex
-              nested materials and geometric assignments.
-            homepage_url: https://www.materialx.org/
-            project: adopted
-            repo_url: https://github.com/materialx/MaterialX
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
-              - repo_url: https://github.com/AcademySoftwareFoundation/materialx-website
-            logo: materialx.svg
-            twitter: https://twitter.com/MaterialXCG
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/materialx/
-              mailing_list_url: https://lists.aswf.io/g/materialx-discussion
-              slack_url: https://slack.aswf.io
-              chat_channel: '#materialx'
-              documentation_url: https://docs.materialx.org
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
-              contributed_by: Lucasfilm
-              slug: materialx
-              accepted: '2021-09-15'
-              annual_review_date: '2024-02-07'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
-              next_annual_review_date: '2025-02-05'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=materialx
-              chair: Jonathan Stone
-              annotations:
-                slug: materialx
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
-                next_annual_review_date: '2025-02-05'
-                chair: Jonathan Stone
-          - item:
-            name: Open Review Initiative
             second_path:
               - Imaging and Color / Display and Review
-            description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
-            homepage_url: https://openreviewinitiative.org/
-            project: sandbox
-            repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
-              - repo_url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
-              - repo_url: https://github.com/AcademySoftwareFoundation/xstudio
-            logo: open_review_initiative.svg
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
-              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
+              accepted: '2021-09-02'
+              annotations:
+                slug: dpel
+                next_annual_review_date: '2025-09-17'
+                chair: Matthew Low
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
+                wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
+                contributed_by: Academy Software Foundation
+              annual_review_date: '2024-09-18'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/472
+              artwork_url: https://artwork.aswf.io/projects/dpel/
+              chat_channel: '#assets'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=dpel
+              mailing_list_url: https://lists.aswf.io/g/assets-discussion
               slack_url: https://slack.aswf.io
-              chat_channel: '#open-review-initiative'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
-              contributed_by: Academy Software Foundation
-              slug: open-review-initiative
-              accepted: '2022-09-07'
-              annual_review_date: '2024-08-21'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
-              next_annual_review_date: '2025-08-20'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-review-initiative
-              chair: Erik Strauss
-              annotations:
-                slug: open-review-initiative
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
-                next_annual_review_date: '2025-08-20'
-                chair: Erik Strauss
-          - item:
-            name: Open Shading Language
-            second_path:
-              - Rendering and Queueing / Rendering, Lighting, and Lookdev
-              - Dev Days 2024 / Participating Project
-            description: >-
-              Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for
-              describing materials, lights, displacement, and pattern generation.
-            homepage_url: https://opensource.imageworks.com/osl.html
-            project: incubating
-            repo_url: https://github.com/imageworks/openshadinglanguage
-            logo: open_shading_language.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
-              mailing_list_url: https://lists.aswf.io/g/osl-dev
-              slack_url: https://slack.aswf.io
-              chat_channel: '#openshadinglanguage'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
-              documentation_url: https://docs.openshadinglanguage.org
-              annual_review_date: '2024-10-30'
-              next_annual_review_date: '2025-10-29'
-              contributed_by: Sony Pictures Imageworks
-              slug: open-shading-language
-              accepted: '2020-12-11'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
-              chair: Chris Kulla
-              annotations:
-                slug: open-shading-language
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
-                next_annual_review_date: '2025-10-29'
-                chair: Chris Kulla
-          - item:
-            name: OpenAPV
-            second_path:
-              - Imaging and Color / Image Formats, I/O, and Processing Libraries
-            description: >-
-              The mission of the Project is to develop a royalty-free, open-source, open standard video codec for professional video capturing and
-              post-production.
-            homepage_url: https://github.com/openapv
-            project: sandbox
-            repo_url: https://github.com/openapv/openapv
-            project_org: https://github.com/openapv
-            logo: openapv.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              slug: openapv
-              accepted: '2024-09-26'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openapv
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openapv
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
-              artwork_url: https://artwork.aswf.io/projects/openapv/
-              annual_review_date: '2024-10-16'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/803
-              next_annual_review_date: '2025-10-15'
-              chair: ''
-              annotations:
-                slug: openapv
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openapv
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
-                next_annual_review_date: '2025-10-15'
-                chair: ''
-          - item:
-            name: OpenAssetIO
-            second_path:
-              - Assets and Workflow / Pipelines and Frameworks
-            description: >-
-              The mission of the Project is to develop an open-source interoperability standard for tools and content management systems used in media
-              production.
-            homepage_url: https://openassetio.org/
-            project: sandbox
-            repo_url: https://github.com/OpenAssetIO/OpenAssetIO
-            project_org: https://github.com/OpenAssetIO
-            logo: openassetio.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/openassetio/
-              mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
-              slack_url: https://slack.aswf.io
-              chat_channel: '#openassetio'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
-              documentation_url: https://docs.openassetio.org
-              contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
-              contributed_by: Foundry
-              slug: openassetio
-              accepted: '2022-11-01'
-              annual_review_date: '2024-08-14'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/516
-              next_annual_review_date: '2025-08-20'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openassetio
-              chair: David Feltell
-              annotations:
-                slug: openassetio
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
-                next_annual_review_date: '2025-08-20'
-                chair: David Feltell
-          - item:
-            name: OpenColorIO
-            second_path:
-              - Imaging and Color / Color Science
-              - Dev Days 2024 / Participating Project
-            description: >-
-              The OpenColorIO project is committed to providing an industry standard solution for highly precise, performant, and consistent color management
-              across digital content creation applications and pipelines.
-            homepage_url: https://opencolorio.org/
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
-            logo: opencolorio.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/opencolorio/
-              mailing_list_url: https://lists.aswf.io/g/ocio-user
-              slack_url: https://slack.opencolorio.org
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
-              documentation_url: https://docs.opencolorio.org
-              contributed_by: Sony Pictures Imageworks
-              slug: opencolorio
-              accepted: '2020-04-24'
-              annual_review_date: '2023-11-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/474
-              next_annual_review_date: '2025-01-22'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencolorio
-              chair: Carol Payne
-              annotations:
-                slug: opencolorio
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
-                next_annual_review_date: '2025-01-22'
-                chair: Carol Payne
-          - item:
-            name: OpenCue
-            second_path:
-              - Rendering and Queueing / Queueing and Render Management
-            description: >-
-              OpenCue is an open source render management system. You can use OpenCue in visual effects and animation production to break down complex jobs into
-              individual tasks. You can submit jobs to a configurable dispatch queue that allocates the necessary computational resources.
-            homepage_url: https://opencue.io/
-            project: adopted
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
-            logo: opencue.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/opencue/
-              mailing_list_url: https://lists.aswf.io/g/opencue-user
-              slack_url: https://slack.aswf.io
-              chat_channel: '#opencue'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
-              documentation_url: https://docs.opencue.io
-              contributed_by: Sony Pictures Imageworks and Google Cloud
-              slug: opencue
-              accepted: '2020-04-24'
-              annual_review_date: '2024-05-29'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
-              next_annual_review_date: '2025-05-28'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencue
-              chair: Diego Tavares Da Silva
-              annotations:
-                slug: opencue
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
-                next_annual_review_date: '2025-05-28'
-                chair: Diego Tavares Da Silva
           - item:
             name: OpenEXR
-            second_path:
-              - Imaging and Color / Image Formats, I/O, and Processing Libraries
-              - Dev Days 2024 / Participating Project
+            homepage_url: https://www.openexr.com/
+            logo: openexr.svg
             description: >-
               The goal of the OpenEXR project is to keep the format reliable and modern and to maintain its place as the preferred image format for
               entertainment content creation.
-            homepage_url: https://www.openexr.com/
-            project: adopted
+            second_path:
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+              - Dev Days 2024 / Participating Project
+            project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openexr
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/Imath
               - repo_url: https://github.com/AcademySoftwareFoundation/openexr-images
               - repo_url: https://github.com/AcademySoftwareFoundation/openexr-examples
               - repo_url: https://github.com/AcademySoftwareFoundation/openexr-website
-            logo: openexr.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/openexr/
-              mailing_list_url: https://lists.aswf.io/g/openexr-dev
-              slack_url: https://slack.aswf.io
-              chat_channel: '#openexr'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
-              documentation_url: https://docs.openexr.com
-              contributed_by: Lucasfilm
-              slug: openexr
               accepted: '2020-04-24'
-              annual_review_date: '2024-04-17'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/483
-              next_annual_review_date: '2025-04-16'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openexr
-              chair: Cary Phillips
               annotations:
                 slug: openexr
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
                 next_annual_review_date: '2025-04-16'
                 chair: Cary Phillips
-          - item:
-            name: OpenFX
-            second_path:
-              - Math and Simulation / File Formats and Interchange
-            description: The mission of the OpenFX Project is to promote and develop an image processing plug-in standard.
-            homepage_url: https://openeffects.org/
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/openfx
-            logo: openfx.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              artwork_url: https://artwork.aswf.io/projects/openfx/
-              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
+                contributed_by: Lucasfilm
+              annual_review_date: '2024-04-17'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/483
+              artwork_url: https://artwork.aswf.io/projects/openexr/
+              chat_channel: '#openexr'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openexr
+              documentation_url: https://docs.openexr.com
+              mailing_list_url: https://lists.aswf.io/g/openexr-dev
               slack_url: https://slack.aswf.io
-              chat_channel: '#openfx'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
-              documentation_url: https://docs.openeffects.org
-              contributed_by: Open Effects Association
-              slug: openfx
-              accepted: '2022-09-02'
-              annual_review_date: '2024-06-12'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/514
-              next_annual_review_date: '2025-06-11'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openfx
-              chair: Gary Oberbrunner
-              annotations:
-                slug: openfx
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
-                next_annual_review_date: '2025-06-11'
-                chair: Gary Oberbrunner
           - item:
-            name: OpenImageIO
-            second_path:
-              - Imaging and Color / Image Formats, I/O, and Processing Libraries
-              - Dev Days 2024 / Participating Project
+            name: MaterialX
+            homepage_url: https://www.materialx.org/
+            logo: materialx.svg
             description: >-
-              The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation
-              via a format- agnostic API, with a feature set, scalability, and robustness needed for production.
-            homepage_url: https://openimageio.org/
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+              MaterialX addresses the need for a common, open standard to represent the data values and relationships required to transfer the complete look of
+              a computer graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex
+              nested materials and geometric assignments.
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+              - Dev Days 2024 / Participating Project
+            project: graduated
+            repo_url: https://github.com/materialx/MaterialX
             additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
-            logo: openimageio.svg
-            twitter: null
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
+              - repo_url: https://github.com/AcademySoftwareFoundation/materialx-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            twitter: https://twitter.com/MaterialXCG
             extra:
-              artwork_url: https://artwork.aswf.io/projects/openimageio/
-              mailing_list_url: https://lists.aswf.io/g/oiio-dev
+              accepted: '2021-09-15'
+              annotations:
+                slug: materialx
+                next_annual_review_date: '2025-02-05'
+                chair: Jonathan Stone
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
+                contributed_by: Lucasfilm
+              annual_review_date: '2024-02-07'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
+              artwork_url: https://artwork.aswf.io/projects/materialx/
+              chat_channel: '#materialx'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=materialx
+              documentation_url: https://docs.materialx.org
+              mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_url: https://slack.aswf.io
-              chat_channel: '#openimageio'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
-              documentation_url: https://docs.openimageio.org
-              contributed_by: Larry Gritz
-              slug: openimageio
-              accepted: '2023-06-27'
-              annual_review_date: '2024-05-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
-              next_annual_review_date: '2025-04-30'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openimageio
-              chair: Daniel Greenstein
-              annotations:
-                slug: openimageio
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
-                next_annual_review_date: '2025-04-30'
-                chair: Daniel Greenstein
           - item:
-            name: OpenQMC
-            description: The mission of the Project is to provide an API to deliver high quality QMC sample points.
-            homepage_url: https://github.com/openqmc
-            repo_url: https://github.com/framestore/openqmc
-            logo: openqmc.svg
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              slug: openqmc
-              accepted: '2024-07-25'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openqmc
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openqmc
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
-              artwork_url: https://artwork.aswf.io/projects/openqmc/
-              annotations:
-                slug: openqmc
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openqmc
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
-          - item:
-            name: OpenTimelineIO
-            second_path:
-              - Assets and Workflow / Timelines and Animation
-              - Dev Days 2024 / Participating Project
+            name: OpenCue
+            homepage_url: https://opencue.io/
+            logo: opencue.svg
             description: >-
-              OpenTimelineIO (OTIO) is an API and interchange format for editorial cut information. You can think of it as a modern Edit Decision List (EDL)
-              that also includes an API for reading, writing, and manipulating editorial data. It also includes a plugin system for translating to/from existing
-              editorial formats as well as a plugin system for linking to proprietary media storage schemas.
-            homepage_url: http://opentimeline.io/
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
-            logo: opentimelineio.svg
+              OpenCue is an open source render management system. You can use OpenCue in visual effects and animation production to break down complex jobs into
+              individual tasks. You can submit jobs to a configurable dispatch queue that allocates the necessary computational resources.
+            second_path:
+              - Rendering and Queueing / Queueing and Render Management
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/open-timeline-io/
-              mailing_list_url: https://lists.aswf.io/g/otio-discussion
-              slack_url: https://slack.aswf.io
-              chat_channel: '#opentimelineio'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
-              contributed_by: Pixar Animation Studios
-              slug: open-timeline-io
-              accepted: '2021-03-08'
-              annual_review_date: '2025-11-12'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/477
-              next_annual_review_date: '2024-11-13'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-timeline-io
-              chair: Eric Reinecke
+              accepted: '2020-04-24'
               annotations:
-                slug: open-timeline-io
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
-                next_annual_review_date: '2024-11-13'
-                chair: Eric Reinecke
+                slug: opencue
+                next_annual_review_date: '2025-05-28'
+                chair: Diego Tavares Da Silva
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
+                contributed_by: Sony Pictures Imageworks and Google Cloud
+              annual_review_date: '2024-05-29'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
+              artwork_url: https://artwork.aswf.io/projects/opencue/
+              chat_channel: '#opencue'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencue
+              documentation_url: https://docs.opencue.io
+              mailing_list_url: https://lists.aswf.io/g/opencue-user
+              slack_url: https://slack.aswf.io
           - item:
             name: OpenVDB
-            second_path:
-              - Math and Simulation / File Formats and Interchange
+            homepage_url: https://www.openvdb.org/
+            logo: openvdb.svg
             description: >-
               OpenVDB provides an industry standard for authoring, processing and storing of high-resolution volumetric data. As such, we are committed to
               improving and maintaining both the hierarchical VDB data structure and the large suite of tools for its efficient traversal and manipulation.
-            homepage_url: https://www.openvdb.org/
-            project: adopted
+            second_path:
+              - Math and Simulation / File Formats and Interchange
+            project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openvdb
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/openvdb-website
-            logo: openvdb.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/openvdb/
-              mailing_list_url: https://lists.aswf.io/g/openvdb-user
-              slack_url: https://slack.aswf.io
-              chat_channel: '#openvdb'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
-              documentation_url: https://docs.openvdb.org
-              contributed_by: Dreamworks Animation
-              slug: openvdb
               accepted: '2019-01-11'
-              annual_review_date: '2024-01-10'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/480
-              next_annual_review_date: '2025-01-08'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openvdb
-              chair: Ken Museth
               annotations:
                 slug: openvdb
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
                 next_annual_review_date: '2025-01-08'
                 chair: Ken Museth
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
+                contributed_by: Dreamworks Animation
+              annual_review_date: '2024-01-10'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/480
+              artwork_url: https://artwork.aswf.io/projects/openvdb/
+              chat_channel: '#openvdb'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openvdb
+              documentation_url: https://docs.openvdb.org
+              mailing_list_url: https://lists.aswf.io/g/openvdb-user
+              slack_url: https://slack.aswf.io
+      - subcategory:
+        name: Incubating
+        items:
           - item:
             name: rawtoaces
-            second_path:
-              - Imaging and Color / Color Science
+            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            logo: rawtoaces.svg
             description: >-
               The rawtoaces project seeks to provide a reliable and extensible software framework for the conversion of digital camera RAW files to a high
               dynamic range scene referred format, along with establishing a database of camera and related data to enable this framework.
-            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            second_path:
+              - Imaging and Color / Color Science
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces-data
-            logo: rawtoaces.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              slug: rawtoaces
-              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
-              documentation_url: https://docs.rawtoaces.org
-              slack_url: https://slack.aswf.io
-              chat_channel: '#rawtoaces'
               accepted: '2021-12-03'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rawtoaces
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
-              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
-              annual_review_date: '2024-01-10'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
-              next_annual_review_date: '2025-01-22'
-              contributed_by: The Academy of Motion Picture Arts and Sciences
-              chair: Alexander Forsythe
               annotations:
                 slug: rawtoaces
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
                 next_annual_review_date: '2025-01-22'
                 chair: Alexander Forsythe
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
+                contributed_by: The Academy of Motion Picture Arts and Sciences
+              annual_review_date: '2024-01-10'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
+              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
+              chat_channel: '#rawtoaces'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rawtoaces
+              documentation_url: https://docs.rawtoaces.org
+              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
+              slack_url: https://slack.aswf.io
+          - item:
+            name: OpenTimelineIO
+            homepage_url: http://opentimeline.io/
+            logo: opentimelineio.svg
+            description: >-
+              OpenTimelineIO (OTIO) is an API and interchange format for editorial cut information. You can think of it as a modern Edit Decision List (EDL)
+              that also includes an API for reading, writing, and manipulating editorial data. It also includes a plugin system for translating to/from existing
+              editorial formats as well as a plugin system for linking to proprietary media storage schemas.
+            second_path:
+              - Assets and Workflow / Timelines and Animation
+              - Dev Days 2024 / Participating Project
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2021-03-08'
+              annotations:
+                slug: open-timeline-io
+                next_annual_review_date: '2024-11-13'
+                chair: Eric Reinecke
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
+                contributed_by: Pixar Animation Studios
+              annual_review_date: '2025-11-12'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/477
+              artwork_url: https://artwork.aswf.io/projects/open-timeline-io/
+              chat_channel: '#opentimelineio'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-timeline-io
+              mailing_list_url: https://lists.aswf.io/g/otio-discussion
+              slack_url: https://slack.aswf.io
+          - item:
+            name: Open Shading Language
+            homepage_url: https://opensource.imageworks.com/osl.html
+            logo: open_shading_language.svg
+            description: >-
+              Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for
+              describing materials, lights, displacement, and pattern generation.
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+              - Dev Days 2024 / Participating Project
+            project: incubating
+            repo_url: https://github.com/imageworks/openshadinglanguage
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2020-12-11'
+              annotations:
+                slug: open-shading-language
+                next_annual_review_date: '2025-10-29'
+                chair: Chris Kulla
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
+                contributed_by: Sony Pictures Imageworks
+              annual_review_date: '2024-10-30'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
+              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
+              chat_channel: '#openshadinglanguage'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
+              documentation_url: https://docs.openshadinglanguage.org
+              mailing_list_url: https://lists.aswf.io/g/osl-dev
+              slack_url: https://slack.aswf.io
           - item:
             name: Rez
-            second_path:
-              - Assets and Workflow / Software Foundation and System Administration
+            homepage_url: https://rez-project.io/
+            logo: rez.svg
             description: |-
               Rez is a cross-platform package manager. Using Rez you can create runtimes
               configured for a given set of packages.
-            homepage_url: https://rez-project.io/
+            second_path:
+              - Assets and Workflow / Software Foundation and System Administration
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rez
-            logo: rez.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              artwork_url: https://artwork.aswf.io/projects/rez/
-              mailing_list_url: https://lists.aswf.io/g/rez-discussion
-              slack_url: https://slack.aswf.io
-              chat_channel: '#Rez'
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
-              documentation_url: https://rez.readthedocs.io/
-              contributed_by: Allan Johns
-              slug: rez
               accepted: '2022-03-08'
-              annual_review_date: '2024-04-17'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/492
-              next_annual_review_date: '2025-04-02'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rez
-              chair: Jean-Christophe Morin, Stephen Mackenzie
               annotations:
                 slug: rez
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
                 next_annual_review_date: '2025-04-02'
                 chair: Jean-Christophe Morin, Stephen Mackenzie
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
+                contributed_by: Allan Johns
+              annual_review_date: '2024-04-17'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/492
+              artwork_url: https://artwork.aswf.io/projects/rez/
+              chat_channel: '#Rez'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rez
+              documentation_url: https://rez.readthedocs.io/
+              mailing_list_url: https://lists.aswf.io/g/rez-discussion
+              slack_url: https://slack.aswf.io
+          - item:
+            name: OpenFX
+            homepage_url: https://openeffects.org/
+            logo: openfx.svg
+            description: The mission of the OpenFX Project is to promote and develop an image processing plug-in standard.
+            second_path:
+              - Math and Simulation / File Formats and Interchange
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/openfx
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2022-09-02'
+              annotations:
+                slug: openfx
+                next_annual_review_date: '2025-06-11'
+                chair: Gary Oberbrunner
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
+                contributed_by: Open Effects Association
+              annual_review_date: '2024-06-12'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/514
+              artwork_url: https://artwork.aswf.io/projects/openfx/
+              chat_channel: '#openfx'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openfx
+              documentation_url: https://docs.openeffects.org
+              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
+              slack_url: https://slack.aswf.io
+          - item:
+            name: OpenImageIO
+            homepage_url: https://openimageio.org/
+            logo: openimageio.svg
+            description: >-
+              The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation
+              via a format- agnostic API, with a feature set, scalability, and robustness needed for production.
+            second_path:
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+              - Dev Days 2024 / Participating Project
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2023-06-27'
+              annotations:
+                slug: openimageio
+                next_annual_review_date: '2025-04-30'
+                chair: Daniel Greenstein
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
+                contributed_by: Larry Gritz
+              annual_review_date: '2024-05-01'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
+              artwork_url: https://artwork.aswf.io/projects/openimageio/
+              chat_channel: '#openimageio'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openimageio
+              documentation_url: https://docs.openimageio.org
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
+              slack_url: https://slack.aswf.io
+      - subcategory:
+        name: Sandbox
+        items:
+          - item:
+            name: OpenAPV
+            homepage_url: https://github.com/openapv
+            logo: openapv.svg
+            description: >-
+              The mission of the Project is to develop a royalty-free, open-source, open standard video codec for professional video capturing and
+              post-production.
+            second_path:
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+            project: sandbox
+            repo_url: https://github.com/openapv/openapv
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2024-09-26'
+              annotations:
+                slug: openapv
+                next_annual_review_date: '2025-10-15'
+                chair: ''
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openapv
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
+              annual_review_date: '2024-10-16'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/803
+              artwork_url: https://artwork.aswf.io/projects/openapv/
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openapv
+          - item:
+            name: OpenAssetIO
+            homepage_url: https://openassetio.org/
+            logo: openassetio.svg
+            description: >-
+              The mission of the Project is to develop an open-source interoperability standard for tools and content management systems used in media
+              production.
+            second_path:
+              - Assets and Workflow / Pipelines and Frameworks
+            project: sandbox
+            repo_url: https://github.com/OpenAssetIO/OpenAssetIO
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2022-11-01'
+              annotations:
+                slug: openassetio
+                next_annual_review_date: '2025-08-20'
+                chair: David Feltell
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
+                contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
+                contributed_by: Foundry
+              annual_review_date: '2024-08-14'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/516
+              artwork_url: https://artwork.aswf.io/projects/openassetio/
+              chat_channel: '#openassetio'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openassetio
+              documentation_url: https://docs.openassetio.org
+              mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
+              slack_url: https://slack.aswf.io
+          - item:
+            name: Open Review Initiative
+            homepage_url: https://openreviewinitiative.org/
+            logo: open_review_initiative.svg
+            description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
+            second_path:
+              - Imaging and Color / Display and Review
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
+              - repo_url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
+              - repo_url: https://github.com/AcademySoftwareFoundation/xstudio
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2022-09-07'
+              annotations:
+                slug: open-review-initiative
+                next_annual_review_date: '2025-08-20'
+                chair: Erik Strauss
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
+                contributed_by: Academy Software Foundation
+              annual_review_date: '2024-08-21'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
+              artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
+              chat_channel: '#open-review-initiative'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-review-initiative
+              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
+              slack_url: https://slack.aswf.io
+      - subcategory:
+        name: Working Group
+        items:
+          - item:
+            name: Zero Trust Working Group
+            homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
+            logo: zero_trust_working_group.svg
+            description: >-
+              To support ASWF projects that need to function in a Zero Trust operating environment. Assist ASWF projects in determining their zero trust
+              security needs and share best practices on implementation approaches.
+            project: working-group
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2024-04-03'
+              annotations:
+                slug: aswf-zero-trust-wg
+                next_annual_review_date: '2025-10-29'
+                chair: James Helman
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
+              annual_review_date: '2024-10-30'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
+              artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-zero-trust-wg
+          - item:
+            name: Continuous Integration Working Group
+            homepage_url: https://wiki.aswf.io/display/CIWG
+            logo: continuous_integration_working_group.svg
+            description: >-
+              The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to
+              improve best practices and address the unique challenges we face.
+            project: working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/aswf-docker
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2018-11-01'
+              annotations:
+                slug: aswf-continuous-integration-wg
+                next_annual_review_date: '2024-05-15'
+                chair: Jean-Francois Panisset
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
+                contributed_by: Academy Software Foundation
+              annual_review_date: '2024-05-29'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
+              artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
+              chat_channel: '#wg-ci'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-continuous-integration-wg
+              mailing_list_url: https://lists.aswf.io/g/tac
+              slack_url: https://slack.aswf.io
           - item:
             name: Universal Scene Description Working Group
-            second_path:
-              - Assets and Workflow / Scenes and Geometry
+            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
+            logo: universal_scene_description_working_group.svg
             description: >-
               The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond
               the capacity of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best
               practices and helping with issues raised in various USD support channels where possible.
-            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
+            second_path:
+              - Assets and Workflow / Scenes and Geometry
             project: working-group
             repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
-            license: Creative Commons Attribution 4.0 International
-            logo: universal_scene_description_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              mailing_list_url: https://lists.aswf.io/g/wg-usd
-              slack_url: https://slack.aswf.io
-              chat_channel: '#wg-usd'
-              slug: aswf-usd-wg
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
-              leads: Alexander Schwank and Nick Porcino
-              annual_review_date: '2024-05-01'
-              next_annual_review_date: '2025-04-30'
-              contributed_by: Pixar
-              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
               accepted: '2020-03-04'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
               annotations:
                 slug: aswf-usd-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
                 next_annual_review_date: '2025-04-30'
                 chair: Alexander Schwank, Nick Porcino
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
+                leads: Alexander Schwank and Nick Porcino
+                contributed_by: Pixar
+              annual_review_date: '2024-05-01'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
+              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
+              chat_channel: '#wg-usd'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
+              mailing_list_url: https://lists.aswf.io/g/wg-usd
+              slack_url: https://slack.aswf.io
           - item:
-            name: Zero Trust Working Group
+            name: ASWF Language Interop Project
+            homepage_url: https://github.com/vfx-rs
+            logo: aswf_language_interop_project.svg
             description: >-
-              To support ASWF projects that need to function in a Zero Trust operating environment. Assist ASWF projects in determining their zero trust
-              security needs and share best practices on implementation approaches.
-            homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
+              The mission of the Project is to enable interoperability between various programming languages across each of the libraries used by the media and
+              entertainment industry.
+            second_path:
+              - Math and Simulation / Math Foundations
             project: working-group
-            logo: zero_trust_working_group.svg
+            repo_url: https://github.com/vfx-rs/organization
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              slug: aswf-zero-trust-wg
-              accepted: '2024-04-03'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-zero-trust-wg
-              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
-              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
-              artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
-              annual_review_date: '2024-10-30'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
-              next_annual_review_date: '2025-10-29'
-              chair: James Helman
+              accepted: '2023-10-20'
               annotations:
-                slug: aswf-zero-trust-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
-                next_annual_review_date: '2025-10-29'
-                chair: Daryll Strauss
+                slug: aswf-language-interop-project
+                next_annual_review_date: '2025-03-19'
+                chair: Scott Wilson
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-language-interop-project
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
+                date_accepted: ^2021-03-04
+                contributed_by: Scott Wilson
+              annual_review_date: '2024-03-20'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
+              artwork_url: https://artwork.aswf.io/projects/aswf-language-interop-project/
+              chat_channel: '#rust'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-language-interop-project
+              mailing_list_url: https://lists.aswf.io/g/wg-rust
+              slack_url: https://slack.aswf.io
+          - item:
+            name: Diversity & Inclusion Working Group
+            homepage_url: https://lists.aswf.io/g/diversity
+            logo: diversity_inclusion_working_group.svg
+            description: >-
+              The purpose of this Working Group is to create a cross-industry effort to encourage diversity and inclusion across the open source software
+              ecosystem for vfx and animation. The WG will bring together software engineers/developers, marketing/communications professionals, HR, and anyone
+              else passionate about D&I within vfx and animation.
+            project: working-group
+            repo_url: https://github.com/chaoss/wg-diversity-inclusion
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2020-06-11'
+              annotations:
+                slug: aswf-diversity-inclusion-wg
+                next_annual_review_date: '2024-10-16'
+                chair: Rachel Rose, Carol Payne
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
+                contributed_by: Academy Software Foundation
+              annual_review_date: '2023-10-04'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
+              artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
+              chat_channel: '#diversity'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-diversity-inclusion-wg
+              mailing_list_url: https://lists.aswf.io/g/diversity
+              slack_url: https://slack.aswf.io

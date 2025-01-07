@@ -12,11 +12,17 @@ landscapefile: landscape.yml
 missingcsvfile: missing.csv
 landscapeProjectsCategory: ASWF Projects
 landscapeProjectsSubcategories:
-  - name: All
-    category: All
+  - name: Adopted
+    category: Adopted
+  - name: Incubating
+    category: Incubating
+  - name: Sandbox
+    category: Sandbox
+  - name: Working Group
+    category: Working Group
 landscapeProjectsLevels:
   - name: Adopted
-    level: adopted
+    level: graduated
   - name: Incubating
     level: incubating
   - name: Sandbox
