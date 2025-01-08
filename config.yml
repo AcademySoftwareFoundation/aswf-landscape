@@ -1,0 +1,34 @@
+slug: aswf
+landscapeMemberClasses:
+   - name: Premier Membership
+     category: Premier
+   - name: General Membership
+     category: General
+   - name: Associate Membership
+     category: Associate
+project: a09410000182dD2AAI # Academy Software Foundation
+landscapeMemberCategory: ASWF Member Company
+landscapefile: landscape.yml
+missingcsvfile: missing.csv
+landscapeProjectsCategory: ASWF Projects
+landscapeProjectsSubcategories:
+  - name: Adopted
+    category: Adopted
+  - name: Incubating
+    category: Incubating
+  - name: Sandbox
+    category: Sandbox
+  - name: Working Group
+    category: Working Group
+landscapeProjectsLevels:
+  - name: Adopted
+    level: graduated
+  - name: Incubating
+    level: incubating
+  - name: Sandbox
+    level: sandbox
+  - name: Working Group
+    level: working-group
+projectsDefaultCrunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+artworkRepoUrl: https://artwork.aswf.io/projects/{slug}/
+tacAgendaProjectUrl: https://github.com/orgs/AcademySoftwareFoundation/projects/19/views/1
