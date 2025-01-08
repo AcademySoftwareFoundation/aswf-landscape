@@ -25,7 +25,7 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
 ### Updating Academy Software Foundation Member and Projects
 
-Academy Software Foundation Member and Project data in this repository are built nightly using the [LFX Landscape Tools](https://github.com/jmertic/lfx-landscape-tools). Any changes made directly in the data files in this repository for Academy Software Foundation Members and Projects will be overwritten.
+Academy Software Foundation Member and Project data in this repository ( which in the [landscape.yml](landscape.yml) file are under `ASWF Member Company` and `ASWF Projects` ) are built nightly using the [LFX Landscape Tools](https://github.com/jmertic/lfx-landscape-tools). Any changes made directly in the data files in this repository for Academy Software Foundation Members and Projects will be overwritten.
 
 - For member entries, you can make these changes in [LFX Organization Dashboard](https://docs.linuxfoundation.org/lfx/organization-dashboard/organization-profile).
 - For project entries, those changes can be made in [LFX Project Control Center (PCC)](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/operations/project-definition).
