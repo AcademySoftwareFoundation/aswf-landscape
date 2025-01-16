@@ -721,16 +721,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/epic-games
           - item:
-            name: Google LLC
-            homepage_url: https://google.com/
-            logo: google_llc.svg
-            description: Founded in 1998, Google, Inc. is a multinational corporation that provides Internet-related services and products, including an internet search engine, software,
-              cloud computing, and advertising technologies.
-            crunchbase: https://www.crunchbase.com/organization/google
-            twitter: https://twitter.com/Google
-            extra:
-              linkedin_url: https://www.linkedin.com/company/google
-          - item:
             name: Intel Corporation
             homepage_url: https://intel.com/
             logo: intel_corporation.svg
@@ -1178,7 +1168,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             twitter: https://twitter.com/MaterialXCG
             extra:
-              accepted: '2021-09-15'
+              accepted: '2021-04-21'
               annotations:
                 slug: materialx
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
@@ -1192,6 +1182,8 @@ landscape:
               chat_channel: '#materialx'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=materialx
               documentation_url: https://docs.materialx.org
+              graduated: '2024-09-23'
+              incubating: '2021-04-21'
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               slack_url: https://slack.aswf.io
           - item:
@@ -1653,12 +1645,12 @@ landscape:
                 slug: aswf-language-interop-project
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-language-interop-project
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-                next_annual_review_date: '2025-03-19'
+                next_annual_review_date: '2025-06-25'
                 chair: Scott Wilson
                 date_accepted: ^2021-03-04
                 contributed_by: Scott Wilson
-              annual_review_date: '2024-03-20'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
+              annual_review_date: '2024-06-26'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/704
               artwork_url: https://artwork.aswf.io/projects/aswf-language-interop-project/
               chat_channel: '#rust'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-language-interop-project
