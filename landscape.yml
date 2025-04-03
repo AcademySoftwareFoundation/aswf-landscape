@@ -1331,6 +1331,35 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
               slack_url: https://slack.aswf.io
           - item:
+            name: Open Shading Language
+            homepage_url: https://openshadinglanguage.org/
+            logo: open_shading_language.svg
+            description: Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for describing materials,
+              lights, displacement, and pattern generation.
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+              - Dev Days 2024 / Participating Project
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2020-12-11'
+              annotations:
+                slug: open-shading-language
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
+                next_annual_review_date: '2025-10-29'
+                chair: Chris Kulla
+                contributed_by: Sony Pictures Imageworks
+              annual_review_date: '2024-10-30'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
+              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
+              chat_channel: '#openshadinglanguage'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
+              documentation_url: https://docs.openshadinglanguage.org
+              mailing_list_url: https://lists.aswf.io/g/osl-dev
+              slack_url: https://slack.aswf.io
+          - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
             logo: openvdb.svg
@@ -1420,35 +1449,6 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openimageio
               documentation_url: https://docs.openimageio.org
               mailing_list_url: https://lists.aswf.io/g/oiio-dev
-              slack_url: https://slack.aswf.io
-          - item:
-            name: Open Shading Language
-            homepage_url: https://opensource.imageworks.com/osl.html
-            logo: open_shading_language.svg
-            description: Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for describing materials,
-              lights, displacement, and pattern generation.
-            second_path:
-              - Rendering and Queueing / Rendering, Lighting, and Lookdev
-              - Dev Days 2024 / Participating Project
-            project: incubating
-            repo_url: https://github.com/imageworks/openshadinglanguage
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2020-12-11'
-              annotations:
-                slug: open-shading-language
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
-                next_annual_review_date: '2025-10-29'
-                chair: Chris Kulla
-                contributed_by: Sony Pictures Imageworks
-              annual_review_date: '2024-10-30'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
-              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
-              chat_channel: '#openshadinglanguage'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
-              documentation_url: https://docs.openshadinglanguage.org
-              mailing_list_url: https://lists.aswf.io/g/osl-dev
               slack_url: https://slack.aswf.io
           - item:
             name: OpenTimelineIO
