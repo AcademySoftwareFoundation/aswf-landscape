@@ -1688,32 +1688,6 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/tac
               slack_url: https://slack.aswf.io
           - item:
-            name: Diversity & Inclusion Working Group
-            homepage_url: https://lists.aswf.io/g/diversity
-            logo: diversity_inclusion_working_group.svg
-            description: The purpose of this Working Group is to create a cross-industry effort to encourage diversity and inclusion across the open source software ecosystem for vfx
-              and animation. The WG will bring together software engineers/developers, marketing/communications professionals, HR, and anyone else passionate about D&I within vfx and
-              animation.
-            project: working-group
-            repo_url: https://github.com/chaoss/wg-diversity-inclusion
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2020-06-11'
-              annotations:
-                slug: aswf-diversity-inclusion-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
-                next_annual_review_date: '2026-01-07'
-                chair: Carol Payne, Rachel Rose
-                contributed_by: Academy Software Foundation
-              annual_review_date: '2025-01-08'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
-              artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
-              chat_channel: '#diversity'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-diversity-inclusion-wg
-              mailing_list_url: https://lists.aswf.io/g/diversity
-              slack_url: https://slack.aswf.io
-          - item:
             name: Universal Scene Description Working Group
             homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
             logo: universal_scene_description_working_group.svg
@@ -1731,7 +1705,7 @@ landscape:
                 slug: aswf-usd-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
-                next_annual_review_date: '2025-04-30'
+                next_annual_review_date: '2025-06-25'
                 chair: Alexander Schwank, Nick Porcino
                 leads: Alexander Schwank and Nick Porcino
                 contributed_by: Pixar
@@ -1762,3 +1736,6 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
               artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-zero-trust-wg
+      - subcategory:
+        name: Long Term Working Group
+        items: []
