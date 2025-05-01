@@ -1688,35 +1688,6 @@ landscape:
               mailing_list_url: https://lists.aswf.io/g/tac
               slack_url: https://slack.aswf.io
           - item:
-            name: Universal Scene Description Working Group
-            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
-            logo: universal_scene_description_working_group.svg
-            description: The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond the capacity
-              of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best practices and helping with issues raised
-              in various USD support channels where possible.
-            second_path:
-              - Assets and Workflow / Scenes and Geometry
-            project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2020-03-04'
-              annotations:
-                slug: aswf-usd-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
-                next_annual_review_date: '2025-06-25'
-                chair: Alexander Schwank, Nick Porcino
-                leads: Alexander Schwank and Nick Porcino
-                contributed_by: Pixar
-              annual_review_date: '2024-05-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
-              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
-              chat_channel: '#wg-usd'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
-              mailing_list_url: https://lists.aswf.io/g/wg-usd
-              slack_url: https://slack.aswf.io
-          - item:
             name: Zero Trust Working Group
             homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
             logo: zero_trust_working_group.svg
@@ -1760,3 +1731,32 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
               artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-diversity-inclusion-wg
+          - item:
+            name: Universal Scene Description Working Group
+            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
+            logo: universal_scene_description_working_group.svg
+            description: The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond the capacity
+              of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best practices and helping with issues raised
+              in various USD support channels where possible.
+            second_path:
+              - Assets and Workflow / Scenes and Geometry
+            project: long-term-working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2020-03-04'
+              annotations:
+                slug: aswf-usd-wg
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
+                next_annual_review_date: '2025-06-25'
+                chair: Alexander Schwank, Nick Porcino
+                leads: Alexander Schwank and Nick Porcino
+                contributed_by: Pixar
+              annual_review_date: '2024-05-01'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
+              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
+              chat_channel: '#wg-usd'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
+              mailing_list_url: https://lists.aswf.io/g/wg-usd
+              slack_url: https://slack.aswf.io
