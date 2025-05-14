@@ -841,16 +841,6 @@ landscape:
         name: General
         items:
           - item:
-            name: Animal Logic Pty Ltd
-            homepage_url: https://animallogic.com/
-            logo: animal_logic_pty_ltd.svg
-            description: Animal Logic is an Australian animation and visual effects digital studio based at Fox Studios in Sydney, Yaletown, Vancouver in Canada, and Rideback Ranch in
-              Los Angeles, California.
-            crunchbase: https://www.crunchbase.com/organization/animal-logic
-            twitter: https://twitter.com/animallogic
-            extra:
-              linkedin_url: https://www.linkedin.com/company/animal-logic
-          - item:
             name: Bolt Graphics
             homepage_url: https://bolt.graphics/
             logo: bolt_graphics.svg
@@ -935,6 +925,16 @@ landscape:
             twitter: https://twitter.com/MaxonVFX
             extra:
               linkedin_url: https://www.linkedin.com/company/maxonvfx
+          - item:
+            name: Netflix Animation Studio
+            homepage_url: https://animallogic.com/
+            logo: netflix_animation_studio.svg
+            description: Animal Logic is an Australian animation and visual effects digital studio based at Fox Studios in Sydney, Yaletown, Vancouver in Canada, and Rideback Ranch in
+              Los Angeles, California.
+            crunchbase: https://www.crunchbase.com/organization/animal-logic
+            twitter: https://twitter.com/animallogic
+            extra:
+              linkedin_url: https://www.linkedin.com/company/animal-logic
           - item:
             name: OTOY, Inc.
             homepage_url: https://otoy.com/
@@ -1525,10 +1525,10 @@ landscape:
                 slug: rez
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
-                next_annual_review_date: '2025-04-02'
+                next_annual_review_date: '2026-04-01'
                 chair: Jean-Christophe Morin, Stephen Mackenzie
                 contributed_by: Allan Johns
-              annual_review_date: '2024-04-17'
+              annual_review_date: '2025-04-02'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/492
               artwork_url: https://artwork.aswf.io/projects/rez/
               chat_channel: '#Rez'
@@ -1648,7 +1648,7 @@ landscape:
                 slug: aswf-language-interop-project
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-language-interop-project
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-                next_annual_review_date: '2025-06-25'
+                next_annual_review_date: '2025-05-14'
                 chair: Scott Wilson
                 date_accepted: ^2021-03-04
                 contributed_by: Scott Wilson
