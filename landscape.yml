@@ -1308,10 +1308,10 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
                 charter_url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/opencue-charter.md
-                next_annual_review_date: '2025-05-28'
+                next_annual_review_date: '2026-05-13'
                 chair: Diego Tavares Da Silva
                 contributed_by: Sony Pictures Imageworks and Google Cloud
-              annual_review_date: '2024-05-29'
+              annual_review_date: '2025-05-28'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
               artwork_url: https://artwork.aswf.io/projects/opencue/
               chat_channel: '#opencue'
@@ -1357,6 +1357,39 @@ landscape:
               graduated: '2019-11-05'
               incubating: '2019-04-10'
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
+              slack_url: https://slack.aswf.io
+          - item:
+            name: OpenImageIO
+            homepage_url: https://openimageio.org/
+            logo: openimageio.svg
+            description: The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation via a 
+              format- agnostic API, with a feature set, scalability, and robustness needed for production.
+            second_path:
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+              - Dev Days 2024 / Participating Project
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2023-05-03'
+              annotations:
+                slug: openimageio
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
+                charter_url: ' '
+                next_annual_review_date: '2026-06-10'
+                chair: Daniel Greenstein
+                contributed_by: Larry Gritz
+              annual_review_date: '2025-06-11'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
+              artwork_url: https://artwork.aswf.io/projects/openimageio/
+              chat_channel: '#openimageio'
+              dev_stats_url: https://insights.linuxfoundation.org/project/openimageio
+              documentation_url: https://docs.openimageio.org
+              incubating: '2023-05-03'
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
               slack_url: https://slack.aswf.io
           - item:
             name: Open Shading Language
@@ -1454,39 +1487,6 @@ landscape:
               documentation_url: https://docs.openeffects.org
               incubating: '2022-04-20'
               mailing_list_url: https://lists.aswf.io/g/openfx-discussion
-              slack_url: https://slack.aswf.io
-          - item:
-            name: OpenImageIO
-            homepage_url: https://openimageio.org/
-            logo: openimageio.svg
-            description: The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation via a 
-              format- agnostic API, with a feature set, scalability, and robustness needed for production.
-            second_path:
-              - Imaging and Color / Image Formats, I/O, and Processing Libraries
-              - Dev Days 2024 / Participating Project
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2023-05-03'
-              annotations:
-                slug: openimageio
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
-                charter_url: ' '
-                next_annual_review_date: '2026-06-10'
-                chair: Daniel Greenstein
-                contributed_by: Larry Gritz
-              annual_review_date: '2025-06-11'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
-              artwork_url: https://artwork.aswf.io/projects/openimageio/
-              chat_channel: '#openimageio'
-              dev_stats_url: https://insights.linuxfoundation.org/project/openimageio
-              documentation_url: https://docs.openimageio.org
-              incubating: '2023-05-03'
-              mailing_list_url: https://lists.aswf.io/g/oiio-dev
               slack_url: https://slack.aswf.io
           - item:
             name: OpenTimelineIO
