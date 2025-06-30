@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
 landscape:
   - category:
     name: Imaging and Color
@@ -153,7 +155,6 @@ landscape:
             homepage_url: https://jeri.io/
             repo_url: https://github.com/disneyresearch/jeri
             logo: jeri.svg
-            twitter: null
             crunchbase: https://www.crunchbase.com/organization/disney-research
           - item:
             name: mrv2
@@ -1475,7 +1476,6 @@ landscape:
                 slug: openfx
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
-                charter_url: null
                 next_annual_review_date: '2025-07-23'
                 chair: Gary Oberbrunner
                 contributed_by: Open Effects Association
@@ -1615,10 +1615,6 @@ landscape:
               - Assets and Workflow / Pipelines and Frameworks
             project: sandbox
             repo_url: https://github.com/OpenAssetIO/OpenAssetIO
-            additional_repos:
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
-              - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               accepted: '2022-11-01'
@@ -1640,6 +1636,7 @@ landscape:
               documentation_url: https://docs.openassetio.org
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
               slack_url: https://slack.aswf.io
+            additional_repos: []
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
@@ -1691,7 +1688,6 @@ landscape:
                 slug: aswf-continuous-integration-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
-                charter_url: null
                 next_annual_review_date: '2025-06-25'
                 chair: Jean-Francois Panisset
                 contributed_by: Academy Software Foundation
@@ -1716,7 +1712,6 @@ landscape:
                 slug: aswf-zero-trust-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
-                charter_url: null
                 next_annual_review_date: '2025-10-29'
                 chair: Daryll Strauss
               annual_review_date: '2024-10-30'
@@ -1741,7 +1736,6 @@ landscape:
                 slug: aswf-diversity-inclusion-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
-                charter_url: null
                 next_annual_review_date: '2026-01-07'
                 chair: Carol Payne, Rachel Rose
               annual_review_date: '2025-01-08'
@@ -1766,7 +1760,6 @@ landscape:
                 slug: aswf-usd-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
-                charter_url: null
                 next_annual_review_date: '2025-07-09'
                 chair: Alexander Schwank, Nick Porcino
                 leads: Alexander Schwank and Nick Porcino
