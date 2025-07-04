@@ -949,12 +949,15 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/maxonvfx
           - item:
             name: Netflix Animation Studios Australia Pty Ltd
-            homepage_url: https://animallogic.com/
+            homepage_url: https://netflixanimation.com/
             logo: netflix_animation_studios_australia_pty_ltd.svg
-            description: Animal Logic is an Australian animation and visual effects digital studio based at Fox Studios in Sydney, Yaletown, Vancouver in Canada, and Rideback Ranch
-              in Los Angeles, California.
-            crunchbase: https://www.crunchbase.com/organization/animal-logic
+            description: Netflix is one of the world's leading entertainment services, members in over 190 countries enjoy TV series, films and games across a wide variety of 
+              genres and languages. Netflix Animation Studios is an internal end-to-end animation studio focused on delivering world class animated films for our streaming 
+              platform.
             twitter: https://twitter.com/animallogic
+            organization:
+              name: Netflix Animation Studios Australia Pty Ltd
+              linkedin: https://www.linkedin.com/company/animal-logic
             extra:
               linkedin_url: https://www.linkedin.com/company/animal-logic
           - item:
@@ -1647,7 +1650,10 @@ landscape:
               documentation_url: https://docs.openassetio.org
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
               slack_url: https://slack.aswf.io
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
+              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
+              - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
