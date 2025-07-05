@@ -1629,6 +1629,10 @@ landscape:
               - Assets and Workflow / Pipelines and Frameworks
             project: sandbox
             repo_url: https://github.com/OpenAssetIO/OpenAssetIO
+            additional_repos:
+              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
+              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
+              - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               accepted: '2022-06-29'
@@ -1650,10 +1654,6 @@ landscape:
               documentation_url: https://docs.openassetio.org
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
               slack_url: https://slack.aswf.io
-            additional_repos:
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
-              - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
