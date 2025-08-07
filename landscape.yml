@@ -8,12 +8,6 @@ landscape:
         name: Color Science
         items:
           - item:
-            name: 'ACES: Academy Color Encoding System'
-            homepage_url: https://www.oscars.org/science-technology/sci-tech-projects/aces
-            repo_url: https://github.com/ampas/aces-dev
-            logo: aces.svg
-            crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
-          - item:
             name: Color Transformation Language (CTL)
             homepage_url: https://www.oscars.org/science-technology/sci-tech-projects/color-transformation-language
             repo_url: https://github.com/ampas/CTL
@@ -1460,6 +1454,35 @@ landscape:
         name: Incubating
         items:
           - item:
+            name: Academy Color Encoding System (ACES)
+            homepage_url: https://github.com/ampas/aces
+            logo: academy_color_encoding_system_aces.svg
+            description: The mission of the project is to develop a global standard for interchanging digital image files, managing color workflows, and creating masters for delivery and archiving.
+            second_path:
+              - Imaging and Color / Color Science
+            project: incubating
+            repo_url: https://github.com/ampas/aces
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-07-15'
+              annotations:
+                slug: aces
+                next_annual_review_date: '2026-07-08'
+                contributed_by: Academy of Motion Picture Arts and Sciences
+                chair: ''
+              annual_review_date: '2025-07-09'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1091
+              artwork_url: https://artwork.aswf.io/projects/aces/
+              dev_stats_url: https://insights.linuxfoundation.org/project/aces
+              incubating: '2025-07-15'
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aces
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfXJcd7sytTjCn40g9
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1754503129100
+          - item:
             name: OpenFX
             homepage_url: https://openeffects.org/
             logo: openfx.svg
@@ -1606,6 +1629,32 @@ landscape:
         name: Sandbox
         items:
           - item:
+            name: Dailies Notes Assistant
+            homepage_url: https://github.com/AcademySoftwareFoundation/dna
+            logo: dailies_notes_assistant.svg
+            description: The mission of the Project is to develop a tool designed to transcribe dailies meetings, analyze the content using an LLM, and provide a plugin system to integrate into production tracking software.
+            second_path:
+              - Imaging and Color / Display and Review
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/dna
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-05-27'
+              annotations:
+                slug: dailies-transcription-notes-taking-tool
+                next_annual_review_date: '2026-05-27'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1040
+              artwork_url: https://artwork.aswf.io/projects/dailies-transcription-notes-taking-tool/
+              dev_stats_url: https://insights.linuxfoundation.org/project/dailies-transcription-notes-taking-tool
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dailies-transcription-notes-taking-tool
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggVZllmLaTYZFChi
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/dailies-transcription-notes-taking-tool/dailies-transcription-notes-taking-tool_Charter.pdf?v=1752019072458
+          - item:
             name: OpenAPV
             homepage_url: https://openapv.io/
             logo: openapv.svg
@@ -1715,6 +1764,32 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-review-initiative_charter.pdf
               slack_url: https://slack.aswf.io
+          - item:
+            name: Rongotai Model Train Club (RMTC)
+            homepage_url: https://rmtc.ai/
+            logo: rongotai_model_train_club_rmtc.svg
+            description: RMTC is a VFX-specific framework for simplifying the production and deployment of AI/ML models using well-tracked and rights-cleared datasets.
+            second_path: 
+              - Assets and Workflow / Pipelines and Frameworks
+            project: sandbox
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-07-15'
+              annotations:
+                slug: rongotai-model-train-club-rmtc
+                next_annual_review_date: '2026-06-24'
+                chair: ''
+              annual_review_date: '2025-06-25'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1075
+              artwork_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/
+              dev_stats_url: https://insights.linuxfoundation.org/project/rongotai-model-train-club-rmtc
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rongotai-model-train-club-rmtc
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfVbn6YwcC4WwCLufz
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
       - subcategory:
         name: Working Group
         items:
