@@ -164,12 +164,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               artwork_url: https://artwork.aswf.io/projects/openrv/
+              parent_project: Open Review Initiative
           - item:
             name: xSTUDIO
             homepage_url: https://github.com/AcademySoftwareFoundation/xstudio
             repo_url: https://github.com/AcademySoftwareFoundation/xstudio
             logo: xstudio.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              parent_project: Open Review Initiative
           - item:
             name: tlRender
             homepage_url: https://github.com/darbyjohnston/tlRender
@@ -539,6 +542,8 @@ landscape:
             homepage_url: https://academysoftwarefoundation.github.io/OpenPBR/
             repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
             logo: openpbr.svg
+            extra:
+              parent_project: MaterialX
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: Pixie
@@ -643,6 +648,8 @@ landscape:
             homepage_url: https://github.com/AcademySoftwareFoundation/Imath
             repo_url: https://github.com/AcademySoftwareFoundation/Imath
             logo: lmath.svg
+            extra:
+              parent_project: OpenEXR
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: pimath
