@@ -562,9 +562,32 @@ landscape:
             name: Slang
             homepage_url: https://shader-slang.com/
             repo_url: https://github.com/shader-slang/slang
-            project_org: https://github.com/shader-slang
+            additional_repos:
+              - repo_url: https://github.com/shader-slang/slang-rhi
+              - repo_url: https://github.com/shader-slang/slangpy
+              - repo_url: https://github.com/shader-slang/slang-material-modules-benchmark
+              - repo_url: https://github.com/shader-slang/slang-coverage-reports
+              - repo_url: https://github.com/shader-slang/shader-slang.github.io
+              - repo_url: https://github.com/shader-slang/slang-vscode-extension
+              - repo_url: https://github.com/shader-slang/stdlib-reference
+              - repo_url: https://github.com/shader-slang/slangpy-samples
+              - repo_url: https://github.com/shader-slang/neural-shading-s25
+              - repo_url: https://github.com/shader-slang/slang-torch
+              - repo_url: https://github.com/shader-slang/slang-binaries
+              - repo_url: https://github.com/shader-slang/spec
+              - repo_url: https://github.com/shader-slang/slang-vs-extension
+              - repo_url: https://github.com/shader-slang/slang-playground
+              - repo_url: https://github.com/shader-slang/slangpy-data
+              - repo_url: https://github.com/shader-slang/falcor-compile-perf-test
+              - repo_url: https://github.com/shader-slang/.github
             logo: slang.svg
             crunchbase: https://www.crunchbase.com/organization/khronos-group-2
+            extra:
+              blog_url: https://shader-slang.org/news/blogs/
+              bluesky_url: https://bsky.app/profile/shader-slang.bsky.social
+              discord_url: https://khr.io/slangdiscord
+              reddit_url: https://www.reddit.com/r/shaderslang/
+              youtube_url: https://www.youtube.com/playlist?list=PLYO7XTAX41FNNKUBI6BogkPFGwZ6x4-NE
           - item:
             name: StratusGFX
             homepage_url: https://ktstephano.github.io/portfolio
