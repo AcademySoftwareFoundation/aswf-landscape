@@ -1264,7 +1264,7 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
                 charter_url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/materialx-charter.md
-                next_annual_review_date: '2026-02-04'
+                next_annual_review_date: '2027-02-03'
                 chair: Jonathan Stone
                 contributed_by: Lucasfilm
               audits:
@@ -1272,7 +1272,7 @@ landscape:
                   type: audit
                   vendor: Shielder
                   url: https://ostif.org/wp-content/uploads/2025/07/OSTIF-MaterialX-Report-PT-v1.2.pdf
-              annual_review_date: '2025-02-05'
+              annual_review_date: '2026-02-04'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
               artwork_url: https://artwork.aswf.io/projects/materialx/
               chat_channel: '#materialx'
@@ -1855,6 +1855,31 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-asset-io_charter.pdf
               slack_url: https://slack.aswf.io
+          - item:
+            name: 'Open Path Guiding Library (OpenPGL) '
+            homepage_url: http://www.openpgl.org/
+            logo: open_path_guiding_library_openpgl.svg
+            description: Open Path Guiding Library (OpenPGL) is an open-source library, that improves the rendering efficiency of a renderer by providing easy to integrate and production-ready implementations of state-of-the-art path guiding algorithms. Especially in challenging illumination setups (complex indirect illumination, volumetric multi scattering) these algorithms significantly improve rendering performance.
+            project: sandbox
+            repo_url: https://github.com/RenderKit/openpgl
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-01-12'
+              annotations:
+                slug: openpgl
+                next_annual_review_date: '2026-12-09'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1218
+              artwork_url: https://artwork.aswf.io/projects/openpgl/
+              dev_stats_url: https://insights.linuxfoundation.org/project/openpgl
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openpgl
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYjuePa6OtmW5KjGs
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openpgl/openpgl_Charter.pdf?v=1762986909995
           - item:
             name: OpenQMC
             homepage_url: https://openqmc.org/
