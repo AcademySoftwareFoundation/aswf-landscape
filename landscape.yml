@@ -1220,6 +1220,7 @@ landscape:
               graduated: '2023-09-20'
               incubating: '2021-07-28'
               lfx_slug: dpel
+              mailing_list_url: https://lists.aswf.io/g/assets-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
@@ -1241,6 +1242,12 @@ landscape:
               annotations:
                 next_annual_review_date: '2027-02-03'
                 chair: Jonathan Stone
+                contributed_by: Lucasfilm
+              audits:
+                - date: '2025-07-31'
+                  type: audit
+                  vendor: Shielder
+                  url: https://ostif.org/wp-content/uploads/2025/07/OSTIF-MaterialX-Report-PT-v1.2.pdf
               annual_review_date: '2026-02-04'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
               artwork_url: https://artwork.aswf.io/projects/materialx/
@@ -1248,6 +1255,7 @@ landscape:
               graduated: '2024-09-23'
               incubating: '2021-04-21'
               lfx_slug: materialx
+              mailing_list_url: https://lists.aswf.io/g/materialx-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
@@ -1276,6 +1284,7 @@ landscape:
               graduated: '2019-09-11'
               incubating: '2019-01-16'
               lfx_slug: opencolorio
+              mailing_list_url: https://lists.aswf.io/g/ocio-user
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
@@ -1304,6 +1313,7 @@ landscape:
               graduated: '2021-03-24'
               incubating: '2019-04-03'
               lfx_slug: opencue
+              mailing_list_url: https://lists.aswf.io/g/opencue-user
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
@@ -1332,6 +1342,7 @@ landscape:
               graduated: '2019-11-05'
               incubating: '2019-04-10'
               lfx_slug: openexr
+              mailing_list_url: https://lists.aswf.io/g/openexr-dev
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
@@ -1360,6 +1371,7 @@ landscape:
               graduated: '2025-06-17'
               incubating: '2023-05-03'
               lfx_slug: openimageio
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
@@ -1388,6 +1400,7 @@ landscape:
               graduated: '2023-09-06'
               incubating: '2020-02-12'
               lfx_slug: open-shading-language
+              mailing_list_url: https://lists.aswf.io/g/osl-dev
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
@@ -1416,6 +1429,7 @@ landscape:
               graduated: '2019-07-24'
               incubating: '2018-09-05'
               lfx_slug: openvdb
+              mailing_list_url: https://lists.aswf.io/g/openvdb-user
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
@@ -1423,6 +1437,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openvdb/openvdb_Charter.pdf?v=1770049984910
+              slack_url: https://slack.aswf.io
       - subcategory:
         name: Incubating
         items:
@@ -1475,6 +1490,7 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/openfx
               incubating: '2022-04-20'
               lfx_slug: openfx
+              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
@@ -1502,6 +1518,7 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/open-timeline-io
               incubating: '2019-07-26'
               lfx_slug: open-timeline-io
+              mailing_list_url: https://lists.aswf.io/g/otio-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
@@ -1529,6 +1546,7 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/rawtoaces
               incubating: '2020-12-16'
               lfx_slug: rawtoaces
+              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
@@ -1558,6 +1576,7 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/rez
               incubating: '2022-01-12'
               lfx_slug: rez
+              mailing_list_url: https://lists.aswf.io/g/rez-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
@@ -1638,7 +1657,9 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/516
               artwork_url: https://artwork.aswf.io/projects/openassetio/
               dev_stats_url: https://insights.linuxfoundation.org/project/openassetio
+              documentation_url: https://docs.openassetio.org
               lfx_slug: openassetio
+              mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
@@ -1650,6 +1671,31 @@ landscape:
               - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
               - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
               - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
+          - item:
+            name: 'Open Path Guiding Library (OpenPGL) '
+            homepage_url: http://www.openpgl.org/
+            logo: open_path_guiding_library_openpgl.svg
+            description: Open Path Guiding Library (OpenPGL) is an open-source library, that improves the rendering efficiency of a renderer by providing easy to integrate and production-ready implementations of state-of-the-art path guiding algorithms. Especially in challenging illumination setups (complex indirect illumination, volumetric multi scattering) these algorithms significantly improve rendering performance.
+            project: sandbox
+            repo_url: https://github.com/RenderKit/openpgl
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-01-12'
+              annotations:
+                next_annual_review_date: '2026-12-09'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1218
+              artwork_url: https://artwork.aswf.io/projects/openpgl/
+              dev_stats_url: https://insights.linuxfoundation.org/project/openpgl
+              lfx_slug: openpgl
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openpgl
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYjuePa6OtmW5KjGs
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openpgl/openpgl_Charter.pdf?v=1762986909995
           - item:
             name: 'Open Path Guiding Library (OpenPGL) '
             homepage_url: http://www.openpgl.org/
@@ -1720,6 +1766,7 @@ landscape:
               artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
               dev_stats_url: https://insights.linuxfoundation.org/project/open-review-initiative
               lfx_slug: open-review-initiative
+              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
@@ -1774,6 +1821,7 @@ landscape:
               artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-continuous-integration-wg
               lfx_slug: aswf-continuous-integration-wg
+              mailing_list_url: https://lists.aswf.io/g/tac
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
@@ -1844,6 +1892,7 @@ landscape:
               artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-usd-wg
               lfx_slug: aswf-usd-wg
+              mailing_list_url: https://lists.aswf.io/g/wg-usd
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
