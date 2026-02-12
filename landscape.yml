@@ -1282,8 +1282,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/materialx/materialx_Charter.pdf?v=1763650361119
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/materialx-charter.md
               slack_url: https://slack.aswf.io
           - item:
             name: OpenColorIO
@@ -1322,8 +1320,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencolorio/opencolorio_Charter.pdf?v=1763650583017
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-color-io_charter.md
               slack_url: https://slack.aswf.io
           - item:
             name: OpenCue
@@ -1416,8 +1412,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openexr/openexr_Charter.pdf?v=1763650546302
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/openexr-charter.md
               slack_url: https://slack.aswf.io
           - item:
             name: OpenImageIO
@@ -1492,8 +1486,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-shading-language_charter.md
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/open-shading-language-charter.md
               slack_url: https://slack.aswf.io
           - item:
             name: OpenVDB
@@ -1531,8 +1523,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openvdb/openvdb_Charter.pdf?v=1770049984910
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/openvdb-charter.md
               slack_url: https://slack.aswf.io
       - subcategory:
         name: Incubating
@@ -1566,8 +1556,6 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aces
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfXJcd7sytTjCn40g9
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1763476981785
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1754503129100
             additional_repos: []
@@ -1638,8 +1626,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-timeline-io_charter.md
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/opentimelineio-charter.md
               slack_url: https://slack.aswf.io
           - item:
             name: rawtoaces
@@ -1674,8 +1660,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rawtoaces/rawtoaces_Charter.pdf?v=1763485158376
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/rawtoaces-charter.pdf
               slack_url: https://slack.aswf.io
           - item:
             name: Rez
@@ -1712,8 +1696,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rez/rez_Charter.pdf?v=1763485197122
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/rez-charter.pdf
               slack_url: https://slack.aswf.io
       - subcategory:
         name: Sandbox
@@ -1819,6 +1801,8 @@ landscape:
             homepage_url: http://www.openpgl.org/
             logo: open_path_guiding_library_openpgl.svg
             description: Open Path Guiding Library (OpenPGL) is an open-source library, that improves the rendering efficiency of a renderer by providing easy to integrate and production-ready implementations of state-of-the-art path guiding algorithms. Especially in challenging illumination setups (complex indirect illumination, volumetric multi scattering) these algorithms significantly improve rendering performance.
+            second_path:
+              - Rendering and Queueing / Queueing and Render Management
             project: sandbox
             repo_url: https://github.com/RenderKit/openpgl
             license: Apache-2.0
@@ -1931,8 +1915,6 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rongotai-model-train-club-rmtc
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfVbn6YwcC4WwCLufz
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1763492766002
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
       - subcategory:
