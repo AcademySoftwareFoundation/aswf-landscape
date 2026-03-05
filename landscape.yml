@@ -995,16 +995,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/side-effects-software
           - item:
-            name: Stability AI Ltd
-            homepage_url: https://stability.ai/
-            logo: stability_ai_ltd.svg
-            description: Stability AI activates human potential with generative AI, offering open models and innovative solutions like SDXL Turbo for transformative technology interaction.
-            organization:
-              name: Stability AI Ltd
-              linkedin: https://www.linkedin.com/company/stability-ai
-            extra:
-              linkedin_url: https://www.linkedin.com/company/stability-ai
-          - item:
             name: The Foundry Visionmongers Limited
             homepage_url: https://foundry.com/
             logo: the_foundry_visionmongers_limited.svg
@@ -1928,35 +1918,6 @@ landscape:
         name: Working Group
         items:
           - item:
-            name: Continuous Integration Working Group
-            homepage_url: https://wiki.aswf.io/display/CIWG
-            logo: continuous_integration_working_group.svg
-            description: The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to improve best practices and address the unique challenges we face.
-            project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/aswf-docker
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2018-10-31'
-              annotations:
-                next_annual_review_date: '2026-06-24'
-                chair: Jean-Francois Panisset
-                contributed_by: Academy Software Foundation
-              annual_review_date: '2025-06-25'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
-              artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
-              chat_channel: '#wg-ci'
-              dev_stats_url: https://insights.linuxfoundation.org/project/aswf-continuous-integration-wg
-              lfx_slug: aswf-continuous-integration-wg
-              mailing_list_url: https://lists.aswf.io/g/tac
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
-              slack_url: https://slack.aswf.io
-          - item:
             name: Zero Trust Working Group
             homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
             logo: zero_trust_working_group.svg
@@ -1982,6 +1943,35 @@ landscape:
       - subcategory:
         name: Long Term Working Group
         items:
+          - item:
+            name: Continuous Integration Working Group
+            homepage_url: https://wiki.aswf.io/display/CIWG
+            logo: continuous_integration_working_group.svg
+            description: The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to improve best practices and address the unique challenges we face.
+            project: long-term-working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/aswf-docker
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2018-10-31'
+              annotations:
+                next_annual_review_date: '2026-06-24'
+                chair: Jean-Francois Panisset
+                contributed_by: Academy Software Foundation
+              annual_review_date: '2025-06-25'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
+              artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
+              chat_channel: '#wg-ci'
+              dev_stats_url: https://insights.linuxfoundation.org/project/aswf-continuous-integration-wg
+              lfx_slug: aswf-continuous-integration-wg
+              mailing_list_url: https://lists.aswf.io/g/tac
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
+              slack_url: https://slack.aswf.io
           - item:
             name: Diversity & Inclusion Working Group
             homepage_url: https://lists.aswf.io/g/diversity
