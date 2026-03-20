@@ -167,7 +167,7 @@ landscape:
               parent_project: Open Review Initiative
               slack_url: https://slack.aswf.io
               blog_url: https://www.aswf.io/category/openrv/
-              chat_channel: "#ori-xstudio-discussion"
+              chat_channel: '#ori-xstudio-discussion'
               youtube_url: https://www.youtube.com/watch?v=i-YDIb2Bj_E&list=PL9dZxafYCWmzhmseHdGfZT4Q_2wJbeyuH
           - item:
             name: xSTUDIO
@@ -179,7 +179,7 @@ landscape:
               parent_project: Open Review Initiative
               slack_url: https://slack.aswf.io
               blog_url: https://www.aswf.io/category/xstudio/
-              chat_channel: "#ori-openrv-discussion"
+              chat_channel: '#ori-openrv-discussion'
               youtube_url: https://www.youtube.com/watch?v=gydXcckrduA&list=PL9dZxafYCWmxemM-8SSOxigrbr5jvy1GJ&pp=sAgC
           - item:
             name: tlRender
@@ -555,7 +555,7 @@ landscape:
               parent_project: MaterialX
               blog_url: https://www.aswf.io/category/blog/openpbr/
               slack_url: https://slack.aswf.io
-              chat_channel: "#openpbr"
+              chat_channel: '#openpbr'
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: Pixie
@@ -1362,7 +1362,6 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/opencue-charter.md
               slack_url: https://slack.aswf.io
-              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzSBEwVT2AQinmZolYqBzdp
               summary_use_case: |
                 OpenCue is an open source render management system. Scale your rendering pipeline with job scheduling, resource optimization, and integration across your production workflow.
 
@@ -1372,6 +1371,7 @@ landscape:
                 - Built for visual effects and animation: Sony Pictures Imageworks in-house render manager used on hundreds of films.
                 - Render at scale: Highly scalable architecture supporting numerous concurrent machines.
                 - Flexible deployment: Support for multi-facility, on-premise, cloud, and hybrid deployments.
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzSBEwVT2AQinmZolYqBzdp
           - item:
             name: OpenEXR
             homepage_url: https://www.openexr.com/
@@ -1565,7 +1565,7 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1091
               artwork_url: https://artwork.aswf.io/projects/aces/
               blog_url: https://www.aswf.io/category/aces/
-              chat_channel: "#aces"
+              chat_channel: '#aces'
               dev_stats_url: https://insights.linuxfoundation.org/project/aces
               incubating: '2025-07-15'
               lfx_slug: aces
@@ -1580,6 +1580,7 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1754503129100
               slack_url: https://slack.aswf.io
               youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyGvvPfnirZjhT8MQI_6dda
+            additional_repos: []
           - item:
             name: OpenFX
             homepage_url: https://openeffects.org/
@@ -1747,10 +1748,9 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1040
               artwork_url: https://artwork.aswf.io/projects/dailies-transcription-notes-taking-tool/
               blog_url: https://www.aswf.io/category/dna/
-              chat_channel: "#dailies-note-assistant-tech"
+              chat_channel: '#dailies-note-assistant-tech'
               dev_stats_url: https://insights.linuxfoundation.org/project/dailies-transcription-notes-taking-tool
               lfx_slug: dailies-transcription-notes-taking-tool
-              slack_url: https://slack.aswf.io
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dailies-transcription-notes-taking-tool
@@ -1758,6 +1758,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggVZllmLaTYZFChi
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/dailies-transcription-notes-taking-tool/dailies-transcription-notes-taking-tool_Charter.pdf?v=1752019072458
+              slack_url: https://slack.aswf.io
           - item:
             name: MoonRay
             homepage_url: https://www.openmoonray.org/
@@ -1776,10 +1777,9 @@ landscape:
                 chair: Jon Lanz
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1287
               artwork_url: https://artwork.aswf.io/projects/moonray/
-              chat_channel: "#moonray"
+              chat_channel: '#moonray'
               dev_stats_url: https://insights.linuxfoundation.org/project/moonray
               lfx_slug: moonray
-              slack_url: https://slack.aswf.io
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/moonray
@@ -1787,6 +1787,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfaDrcxHo8MzJFIMzN
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/moonray/moonray_Charter.pdf?v=1773345969627
+              slack_url: https://slack.aswf.io
           - item:
             name: OpenAPV
             homepage_url: https://openapv.io/
@@ -1808,10 +1809,9 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/803
               artwork_url: https://artwork.aswf.io/projects/openapv/
               blog_url: https://www.aswf.io/category/openapv/
-              chat_channel: "#open-apv"
+              chat_channel: '#open-apv'
               dev_stats_url: https://insights.linuxfoundation.org/project/openapv
               lfx_slug: openapv
-              slack_url: https://slack.aswf.io
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openapv
@@ -1819,6 +1819,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/openapv_charter.pdf
+              slack_url: https://slack.aswf.io
           - item:
             name: OpenAssetIO
             homepage_url: https://openassetio.org/
@@ -1880,10 +1881,9 @@ landscape:
                 project_org: https://github.com/OpenPathGuidingLibrary
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1218
               artwork_url: https://artwork.aswf.io/projects/openpgl/
-              chat_channel: "#openpgl"
+              chat_channel: '#openpgl'
               dev_stats_url: https://insights.linuxfoundation.org/project/openpgl
               lfx_slug: openpgl
-              slack_url: https://slack.aswf.io
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openpgl
@@ -1891,6 +1891,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYjuePa6OtmW5KjGs
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openpgl/openpgl_Charter.pdf?v=1762986909995
+              slack_url: https://slack.aswf.io
             additional_repos: []
           - item:
             name: OpenQMC
@@ -1913,10 +1914,9 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/434
               artwork_url: https://artwork.aswf.io/projects/openqmc/
               blog_url: https://www.aswf.io/category/openqmc/
-              chat_channel: "#openqmc"
+              chat_channel: '#openqmc'
               dev_stats_url: https://insights.linuxfoundation.org/project/openqmc
               lfx_slug: openqmc
-              slack_url: https://slack.aswf.io
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openqmc
@@ -1924,6 +1924,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openqmc/openqmc_Charter.pdf?v=1755109437753
+              slack_url: https://slack.aswf.io
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
@@ -1983,7 +1984,7 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1075
               artwork_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/
               blog_url: https://www.aswf.io/category/rmtc/
-              chat_channel: "#rmtc"
+              chat_channel: '#rmtc'
               dev_stats_url: https://insights.linuxfoundation.org/project/rongotai-model-train-club-rmtc
               lfx_slug: rongotai-model-train-club-rmtc
               other_links:
@@ -2016,7 +2017,7 @@ landscape:
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
               artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
               blog_url: https://www.aswf.io/category/zerotrust/
-              chat_channel: "#wg-zerotrust"
+              chat_channel: '#wg-zerotrust'
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-zero-trust-wg
               lfx_slug: aswf-zero-trust-wg
               other_links:
@@ -2069,12 +2070,12 @@ landscape:
               annotations:
                 next_annual_review_date: '2027-01-06'
                 contributed_by: Academy Software Foundation
-                chair: Carol Payne, Rachel Rose
+                chair: Karen Ruggles
               annual_review_date: '2026-01-21'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
               artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
               blog_url: https://www.aswf.io/category/diversity/
-              chat_channel: "#diversity"
+              chat_channel: '#diversity'
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-diversity-inclusion-wg
               lfx_slug: aswf-diversity-inclusion-wg
               other_links:
