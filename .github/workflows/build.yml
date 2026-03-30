@@ -13,8 +13,7 @@ jobs:
         uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
         with:
           egress-policy: audit
-
-      - uses: jmertic/lfx-landscape-tools@main
+      - uses: jmertic/lfx-landscape-tools@4a1b2a68b4110e5528b1df83bf41bdf9ac8413f1 # 20260330
         env:
           token: ${{ secrets.PAT }}
           ghid_token: ${{ secrets.PAT }}
