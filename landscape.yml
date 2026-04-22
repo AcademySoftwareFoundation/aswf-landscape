@@ -138,6 +138,12 @@ landscape:
         name: Display and Review
         items:
           - item:
+            name: ASC Framing Decision List (FDL)
+            homepage_url: https://github.com/ascmitc/fdl
+            repo_url: https://github.com/ascmitc/fdl
+            logo: fdl.svg
+            crunchbase: https://www.crunchbase.com/organization/asc
+          - item:
             name: DJV Imaging
             homepage_url: https://darbyjohnston.github.io/DJV/
             repo_url: https://github.com/darbyjohnston/DJV
@@ -165,6 +171,10 @@ landscape:
             extra:
               artwork_url: https://artwork.aswf.io/projects/openrv/
               parent_project: Open Review Initiative
+              slack_url: https://slack.aswf.io
+              blog_url: https://www.aswf.io/category/openrv/
+              chat_channel: '#ori-xstudio-discussion'
+              youtube_url: https://www.youtube.com/watch?v=i-YDIb2Bj_E&list=PL9dZxafYCWmzhmseHdGfZT4Q_2wJbeyuH
           - item:
             name: xSTUDIO
             homepage_url: https://github.com/AcademySoftwareFoundation/xstudio
@@ -173,6 +183,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               parent_project: Open Review Initiative
+              slack_url: https://slack.aswf.io
+              blog_url: https://www.aswf.io/category/xstudio/
+              chat_channel: '#ori-openrv-discussion'
+              youtube_url: https://www.youtube.com/watch?v=gydXcckrduA&list=PL9dZxafYCWmxemM-8SSOxigrbr5jvy1GJ&pp=sAgC
           - item:
             name: tlRender
             homepage_url: https://github.com/darbyjohnston/tlRender
@@ -526,17 +540,6 @@ landscape:
             logo: io_blender_mtlx.svg
             crunchbase: https://www.crunchbase.com/organization/activision
           - item:
-            name: MoonRay
-            description: >-
-              MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer, which has been used on feature films such as How to
-              Train Your Dragon: The Hidden World, Trolls World Tour, The Bad Guys, the upcoming Puss In Boots: The Last Wish, as well as future titles. MoonRay
-              was developed at DreamWorks and is in continuous active development and includes an extensive library of production-tested, physically based
-              materials, a USD Hydra render delegate, multi-machine and cloud rendering via the Arras distributed computation framework.
-            homepage_url: https://openmoonray.org/
-            repo_url: https://github.com/dreamworksanimation/openmoonray
-            logo: moonray.svg
-            crunchbase: https://www.crunchbase.com/organization/dreamworks-9660
-          - item:
             name: NVIDIA MDL SDK
             homepage_url: https://github.com/NVIDIA/MDL-SDK
             repo_url: https://github.com/NVIDIA/MDL-SDK
@@ -556,6 +559,9 @@ landscape:
             logo: openpbr.svg
             extra:
               parent_project: MaterialX
+              blog_url: https://www.aswf.io/category/blog/openpbr/
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openpbr'
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: Pixie
@@ -783,7 +789,7 @@ landscape:
             name: Intel Corporation
             homepage_url: https://intel.com/
             logo: intel_corporation.svg
-            description: Intel Corporation designs, manufactures, and sells computer, networking, and communications platforms worldwide. The company offers microprocessors, chipsets, and input, display, and storage devices, such as keyboard, mouse, monitor, hard drive or solid-state drive, and optical disc drives; and system-on-chip and multichip packaging products. In addition, the company develops computer vision and machine learning-based sensing products, mapping and driving policy technology solutions for advanced driver assistance systems, and autonomous driving technologies. It serves original equipment manufacturers, original design manufacturers, cloud and communications service providers, and industrial, communications, and automotive equipment manufacturers. The company was founded in 1968 and is based in Santa Clara, California.
+            description: Intel Corporation designs, manufactures, and sells computer, networking, and communications platforms worldwide. The company offers microprocessors, chipsets, and input, display, and storage devices such as keyboards, mice, monitors, hard drives or solid-state drives, and optical disc drives; as well as system-on-chip and multichip packaging products. Additionally, the company develops computer vision and machine learning-based sensing products, mapping and driving policy technology solutions for advanced driver assistance systems, and autonomous driving technologies. It serves original equipment manufacturers, original design manufacturers, cloud and communications service providers, and industrial, communications, and automotive equipment manufacturers. Founded in 1968 and based in Santa Clara, California, Intel underpins everyday life. We design and manufacture technology that helps us all connect, create, and achieve great things—together. We deliver AI experiences that power businesses with industry-leading platforms. With 50 years of unmatched innovation and global scale, you get the reliability and resilience needed to launch into a future full of creativity and ingenuity.
             crunchbase: https://www.crunchbase.com/organization/intel
             twitter: https://twitter.com/intel
             extra:
@@ -793,9 +799,6 @@ landscape:
             homepage_url: https://laika.com/
             logo: laika.svg
             description: LAIKA Studios, an award-winning animation studio, blends stop motion and CG animation to create captivating films like Coraline and Kubo and the Two Strings. Founded in 2005, LAIKA's innovative work has garnered prestigious awards and nominations.
-            organization:
-              name: Laika
-              linkedin: https://www.linkedin.com/company/laika
             extra:
               linkedin_url: https://www.linkedin.com/company/laika
           - item:
@@ -893,8 +896,6 @@ landscape:
               Most people don’t write code or manage data, and consumer devices are designed accordingly. But change isn’t made by most people. Progress comes from the people whose work improves our understanding and ability. Scientists and artists. Engineers and designers. Hackers and painters. We think the world needs a brand of computing that stands behind creative technical work, dedicated to creating instead of consuming. Our goal is to help you make the future.
 
               Caligra has developed Workbench a brand-new Linux based operating system and the C100 Developer Terminal, computing hardware optimised for Workbench.
-            organization:
-              name: Caligra
           - item:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
@@ -959,17 +960,12 @@ landscape:
             homepage_url: https://miris.com/
             logo: miris.svg
             description: Miris specializes in providing patented technology that enables the streaming of interactive spatial content with six degrees of freedom, addressing a critical challenge in the spatial computing industry to facilitate mass adoption.
-            organization:
-              name: Miris
           - item:
             name: Netflix Animation Studios Australia Pty Ltd
             homepage_url: https://netflixanimation.com/
             logo: netflix_animation_studios_australia_pty_ltd.svg
             description: Netflix is one of the world's leading entertainment services, members in over 190 countries enjoy TV series, films and games across a wide variety of genres and languages. Netflix Animation Studios is an internal end-to-end animation studio focused on delivering world class animated films for our streaming platform.
             twitter: https://twitter.com/animallogic
-            organization:
-              name: Netflix Animation Studios Australia Pty Ltd
-              linkedin: https://www.linkedin.com/company/animal-logic
             extra:
               linkedin_url: https://www.linkedin.com/company/animal-logic
           - item:
@@ -986,9 +982,6 @@ landscape:
             homepage_url: https://raynault.com/
             logo: raynault_vfx.svg
             description: Raynault VFX is a visual effects studio based in Montreal, specializing in creating visually stunning and technically sophisticated effects for feature films and high-profile episodic content.
-            organization:
-              name: Raynault VFX
-              linkedin: https://www.linkedin.com/company/raynault-com
             extra:
               linkedin_url: https://www.linkedin.com/company/raynault-com
           - item:
@@ -1118,8 +1111,6 @@ landscape:
             homepage_url: https://o3df.org/
             logo: o3de.svg
             description: O3DE focuses on creating a fully featured, high fidelity, real-time, modular open source 3D engine designed for diverse applications, including game development, robotics, automotive, and immersive augmented and virtual reality experiences.
-            organization:
-              name: O3DE
           - item:
             name: Society of Motion Picture and Television Engineers
             homepage_url: https://smpte.org/
@@ -1217,9 +1208,11 @@ landscape:
                 chair: Matthew Low
                 wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
                 contributed_by: Academy Software Foundation
+                submitted_date: '2023-09-18'
               annual_review_date: '2025-09-17'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/472
               artwork_url: https://artwork.aswf.io/projects/dpel/
+              blog_url: https://www.aswf.io/category/dpel/
               chat_channel: '#assets'
               dev_stats_url: https://insights.linuxfoundation.org/project/dpel
               graduated: '2023-09-20'
@@ -1234,6 +1227,7 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/dpel_charter.pdf
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzSD3v4mA7z-XHf5wwAhrCy
           - item:
             name: MaterialX
             homepage_url: https://www.materialx.org/
@@ -1256,6 +1250,7 @@ landscape:
                 next_annual_review_date: '2027-02-03'
                 chair: Jonathan Stone
                 contributed_by: Lucasfilm
+                submitted_date: '2023-09-18'
               audits:
                 - date: '2025-07-31'
                   type: audit
@@ -1264,6 +1259,7 @@ landscape:
               annual_review_date: '2026-02-04'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
               artwork_url: https://artwork.aswf.io/projects/materialx/
+              blog_url: https://www.aswf.io/category/materialx/
               chat_channel: '#materialx'
               dev_stats_url: https://insights.linuxfoundation.org/project/materialx
               documentation_url: https://docs.materialx.org
@@ -1279,6 +1275,7 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/materialx/materialx_Charter.pdf?v=1763650361119
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmxHDHI2tx9lhakwdY15OTvk
           - item:
             name: OpenColorIO
             homepage_url: https://opencolorio.org/
@@ -1296,12 +1293,14 @@ landscape:
             extra:
               accepted: '2019-01-16'
               annotations:
-                next_annual_review_date: '2026-03-18'
+                next_annual_review_date: '2027-01-13'
                 chair: Carol Payne
                 contributed_by: Sony Pictures Imageworks
-              annual_review_date: '2025-03-19'
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-03-18'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/474
               artwork_url: https://artwork.aswf.io/projects/opencolorio/
+              blog_url: https://www.aswf.io/category/ocio/
               chat_channel: '#opencolorio'
               dev_stats_url: https://insights.linuxfoundation.org/project/opencolorio
               documentation_url: https://docs.opencolorio.org
@@ -1317,6 +1316,8 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencolorio/opencolorio_Charter.pdf?v=1763650583017
               slack_url: https://slack.aswf.io
+              summary_intro_url: https://youtu.be/sa7WqKxDRKY?si=lRR4a4ogdl31axmN
+              youtube_url: https://youtube.com/playlist?list=PL9dZxafYCWmynmQAvJWqhcVO5aZaEDgvG&si=TvTcWTCQQ1DefCgA
           - item:
             name: OpenCue
             homepage_url: https://opencue.io/
@@ -1336,9 +1337,11 @@ landscape:
                 next_annual_review_date: '2026-05-13'
                 chair: Diego Tavares Da Silva
                 contributed_by: Sony Pictures Imageworks and Google Cloud
+                submitted_date: '2023-09-18'
               annual_review_date: '2025-05-28'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
               artwork_url: https://artwork.aswf.io/projects/opencue/
+              blog_url: https://www.aswf.io/tag/opencue/
               chat_channel: '#opencue'
               dev_stats_url: https://insights.linuxfoundation.org/project/opencue
               documentation_url: https://docs.opencue.io
@@ -1363,6 +1366,7 @@ landscape:
                 - Built for visual effects and animation: Sony Pictures Imageworks in-house render manager used on hundreds of films.
                 - Render at scale: Highly scalable architecture supporting numerous concurrent machines.
                 - Flexible deployment: Support for multi-facility, on-premise, cloud, and hybrid deployments.
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzSBEwVT2AQinmZolYqBzdp
           - item:
             name: OpenEXR
             homepage_url: https://www.openexr.com/
@@ -1383,9 +1387,10 @@ landscape:
             extra:
               accepted: '2019-04-10'
               annotations:
-                next_annual_review_date: '2026-04-15'
+                next_annual_review_date: '2026-08-19'
                 chair: Cary Phillips
                 contributed_by: Lucasfilm
+                submitted_date: '2023-09-18'
               audits:
                 - date: '2025-07-31'
                   type: audit
@@ -1394,6 +1399,7 @@ landscape:
               annual_review_date: '2025-04-16'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/483
               artwork_url: https://artwork.aswf.io/projects/openexr/
+              blog_url: https://www.aswf.io/category/openexr/
               chat_channel: '#openexr'
               dev_stats_url: https://insights.linuxfoundation.org/project/openexr
               documentation_url: https://docs.openexr.com
@@ -1409,6 +1415,8 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openexr/openexr_Charter.pdf?v=1763650546302
               slack_url: https://slack.aswf.io
+              summary_intro_url: https://youtu.be/X0khNMmEJEI?si=XlGAniT8vzCKcvCd
+              youtube_url: https://youtube.com/playlist?list=PL9dZxafYCWmzipPUvmSQ8RVZDNwCVe-ss&si=GGRcD2sLO5yQ0eLi
           - item:
             name: OpenImageIO
             homepage_url: https://openimageio.org/
@@ -1429,9 +1437,11 @@ landscape:
                 next_annual_review_date: '2026-06-10'
                 chair: Daniel Greenstein
                 contributed_by: Larry Gritz
+                submitted_date: '2023-10-02'
               annual_review_date: '2025-06-11'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
               artwork_url: https://artwork.aswf.io/projects/openimageio/
+              blog_url: https://www.aswf.io/category/openimageio/
               chat_channel: '#openimageio'
               dev_stats_url: https://insights.linuxfoundation.org/project/openimageio
               documentation_url: https://docs.openimageio.org
@@ -1447,6 +1457,7 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-image-io_charter.pdf
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyXAky41GrQmDvOZBmwGH8f
           - item:
             name: Open Shading Language
             homepage_url: https://openshadinglanguage.org/
@@ -1465,9 +1476,11 @@ landscape:
                 next_annual_review_date: '2026-10-28'
                 chair: Chris Kulla
                 contributed_by: Sony Pictures Imageworks
+                submitted_date: '2023-07-19'
               annual_review_date: '2025-10-29'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
               artwork_url: https://artwork.aswf.io/projects/open-shading-language/
+              blog_url: https://www.aswf.io/category/osl/
               chat_channel: '#openshadinglanguage'
               dev_stats_url: https://insights.linuxfoundation.org/project/open-shading-language
               documentation_url: https://docs.openshadinglanguage.org
@@ -1483,6 +1496,8 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-shading-language_charter.md
               slack_url: https://slack.aswf.io
+              summary_intro_url: https://www.youtube.com/watch?v=nmwMz1YnGPA&list=PL9dZxafYCWmyxu4FJ2PBtme5GGQELfa0M&index=1
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyxu4FJ2PBtme5GGQELfa0M
           - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
@@ -1502,9 +1517,11 @@ landscape:
                 next_annual_review_date: '2027-02-03'
                 chair: Ken Museth
                 contributed_by: Dreamworks Animation
+                submitted_date: '2023-09-18'
               annual_review_date: '2026-02-18'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/480
               artwork_url: https://artwork.aswf.io/projects/openvdb/
+              blog_url: https://www.aswf.io/category/openvdb/
               chat_channel: '#openvdb'
               dev_stats_url: https://insights.linuxfoundation.org/project/openvdb
               documentation_url: https://docs.openvdb.org
@@ -1520,6 +1537,8 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openvdb/openvdb_Charter.pdf?v=1770049984910
               slack_url: https://slack.aswf.io
+              summary_intro_url: https://www.youtube.com/watch?v=GR2_8d9Bkc0&list=PL9dZxafYCWmwzRocyLymTwfrj6WWx3KZM&index=1
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmwzRocyLymTwfrj6WWx3KZM
       - subcategory:
         name: Incubating
         items:
@@ -1541,9 +1560,12 @@ landscape:
                 contributed_by: Academy of Motion Picture Arts and Sciences
                 chair: Scott Dyer
                 project_org: https://github.com/aces-aswf
+                submitted_date: '2025-06-30'
               annual_review_date: '2025-07-09'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1091
               artwork_url: https://artwork.aswf.io/projects/aces/
+              blog_url: https://www.aswf.io/category/aces/
+              chat_channel: '#aces'
               dev_stats_url: https://insights.linuxfoundation.org/project/aces
               incubating: '2025-07-15'
               lfx_slug: aces
@@ -1556,6 +1578,8 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1763476981785
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1754503129100
+              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyGvvPfnirZjhT8MQI_6dda
             additional_repos: []
           - item:
             name: OpenFX
@@ -1574,9 +1598,11 @@ landscape:
                 next_annual_review_date: '2026-07-22'
                 chair: Gary Oberbrunner
                 contributed_by: Open Effects Association
+                submitted_date: '2023-10-03'
               annual_review_date: '2025-07-23'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/514
               artwork_url: https://artwork.aswf.io/projects/openfx/
+              blog_url: https://www.aswf.io/category/openfx/
               chat_channel: '#openfx'
               dev_stats_url: https://insights.linuxfoundation.org/project/openfx
               documentation_url: https://docs.openeffects.org
@@ -1591,6 +1617,7 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openfx/openfx_Charter.pdf?v=1763484679475
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy0NYfTz3ESD_4bTLqxo4mW
           - item:
             name: OpenTimelineIO
             homepage_url: http://opentimeline.io/
@@ -1609,9 +1636,11 @@ landscape:
                 next_annual_review_date: '2026-11-11'
                 chair: Eric Reinecke
                 contributed_by: Pixar Animation Studios
+                submitted_date: '2023-09-18'
               annual_review_date: '2025-11-12'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/477
               artwork_url: https://artwork.aswf.io/projects/open-timeline-io/
+              blog_url: https://www.aswf.io/category/otio/
               chat_channel: '#opentimelineio'
               dev_stats_url: https://insights.linuxfoundation.org/project/open-timeline-io
               incubating: '2019-07-26'
@@ -1625,6 +1654,7 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-timeline-io_charter.md
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzgGM3FWKw5gQJ1DAXyw78_
           - item:
             name: rawtoaces
             homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
@@ -1642,6 +1672,7 @@ landscape:
                 next_annual_review_date: '2026-09-02'
                 chair: Anton Dukhovnikov
                 contributed_by: The Academy of Motion Picture Arts and Sciences
+                submitted_date: '2023-09-18'
               annual_review_date: '2025-09-03'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
               artwork_url: https://artwork.aswf.io/projects/rawtoaces/
@@ -1675,12 +1706,14 @@ landscape:
             extra:
               accepted: '2022-01-12'
               annotations:
-                next_annual_review_date: '2026-04-01'
+                next_annual_review_date: '2026-04-29'
                 chair: Jean-Christophe Morin, Stephen Mackenzie
                 contributed_by: Allan Johns
+                submitted_date: '2023-09-18'
               annual_review_date: '2025-04-02'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/492
               artwork_url: https://artwork.aswf.io/projects/rez/
+              blog_url: https://www.aswf.io/category/rez/
               chat_channel: '#Rez'
               dev_stats_url: https://insights.linuxfoundation.org/project/rez
               documentation_url: https://rez.readthedocs.io/
@@ -1695,6 +1728,7 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rez/rez_Charter.pdf?v=1763485197122
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmw6BuPTCrAbwxwsdQk9i2y-
       - subcategory:
         name: Sandbox
         items:
@@ -1715,8 +1749,11 @@ landscape:
                 next_annual_review_date: '2026-05-27'
                 chair: Tommy Burnette
                 contributed_by: Industrial Light & Magic (ILM)
+                submitted_date: '2025-05-11'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1040
               artwork_url: https://artwork.aswf.io/projects/dailies-transcription-notes-taking-tool/
+              blog_url: https://www.aswf.io/category/dna/
+              chat_channel: '#dailies-note-assistant-tech'
               dev_stats_url: https://insights.linuxfoundation.org/project/dailies-transcription-notes-taking-tool
               lfx_slug: dailies-transcription-notes-taking-tool
               other_links:
@@ -1726,18 +1763,27 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggVZllmLaTYZFChi
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/dailies-transcription-notes-taking-tool/dailies-transcription-notes-taking-tool_Charter.pdf?v=1752019072458
+              slack_url: https://slack.aswf.io
           - item:
             name: MoonRay
             homepage_url: https://www.openmoonray.org/
             logo: moonray.svg
             description: develop a state-of-the-art production MCRT renderer
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
             project: sandbox
             repo_url: https://github.com/dreamworksanimation/openmoonray
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2026-03-10'
+              accepted: '2026-02-26'
+              annotations:
+                next_annual_review_date: '2027-02-17'
+                chair: Jon Lanz
+                submitted_date: '2026-02-16'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1287
               artwork_url: https://artwork.aswf.io/projects/moonray/
+              chat_channel: '#moonray'
               dev_stats_url: https://insights.linuxfoundation.org/project/moonray
               lfx_slug: moonray
               other_links:
@@ -1747,6 +1793,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfaDrcxHo8MzJFIMzN
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/moonray/moonray_Charter.pdf?v=1773345969627
+              slack_url: https://slack.aswf.io
           - item:
             name: OpenAPV
             homepage_url: https://openapv.io/
@@ -1764,9 +1811,12 @@ landscape:
                 next_annual_review_date: '2026-10-14'
                 contributed_by: Samsung Electronics
                 chair: Youngkwon Lim
+                submitted_date: '2024-08-19'
               annual_review_date: '2025-10-15'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/803
               artwork_url: https://artwork.aswf.io/projects/openapv/
+              blog_url: https://www.aswf.io/category/openapv/
+              chat_channel: '#open-apv'
               dev_stats_url: https://insights.linuxfoundation.org/project/openapv
               lfx_slug: openapv
               other_links:
@@ -1776,6 +1826,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/openapv_charter.pdf
+              slack_url: https://slack.aswf.io
           - item:
             name: OpenAssetIO
             homepage_url: https://openassetio.org/
@@ -1795,13 +1846,15 @@ landscape:
               accepted: '2022-06-29'
               annotations:
                 next_annual_review_date: '2026-09-16'
-                chair: Steven Shapiro
+                chair: Philip  Grobler, Steven Shapiro
                 contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
                 contributed_by: Foundry
                 project_org: https://github.com/OpenAssetIO
+                submitted_date: '2023-10-04'
               annual_review_date: '2025-09-17'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/516
               artwork_url: https://artwork.aswf.io/projects/openassetio/
+              blog_url: https://www.aswf.io/category/openassetio/
               chat_channel: '#openassetio'
               dev_stats_url: https://insights.linuxfoundation.org/project/openassetio
               documentation_url: https://docs.openassetio.org
@@ -1815,13 +1868,14 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-asset-io_charter.pdf
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmxhSgcFejAACYQBbQCNDpWV
           - item:
-            name: 'Open Path Guiding Library (OpenPGL) '
+            name: Open Path Guiding Library (OpenPGL)
             homepage_url: http://www.openpgl.org/
             logo: open_path_guiding_library_openpgl.svg
             description: Open Path Guiding Library (OpenPGL) is an open-source library, that improves the rendering efficiency of a renderer by providing easy to integrate and production-ready implementations of state-of-the-art path guiding algorithms. Especially in challenging illumination setups (complex indirect illumination, volumetric multi scattering) these algorithms significantly improve rendering performance.
             second_path:
-              - Rendering and Queueing / Queueing and Render Management
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
             project: sandbox
             repo_url: https://github.com/OpenPathGuidingLibrary/openpgl
             license: Apache-2.0
@@ -1833,8 +1887,10 @@ landscape:
                 contributed_by: Intel
                 chair: Sebastian Herholz
                 project_org: https://github.com/OpenPathGuidingLibrary
+                submitted_date: '2025-11-20'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1218
               artwork_url: https://artwork.aswf.io/projects/openpgl/
+              chat_channel: '#openpgl'
               dev_stats_url: https://insights.linuxfoundation.org/project/openpgl
               lfx_slug: openpgl
               other_links:
@@ -1844,6 +1900,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYjuePa6OtmW5KjGs
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openpgl/openpgl_Charter.pdf?v=1762986909995
+              slack_url: https://slack.aswf.io
             additional_repos: []
           - item:
             name: OpenQMC
@@ -1862,9 +1919,12 @@ landscape:
                 next_annual_review_date: '2026-08-05'
                 chair: Josh Bainbridge
                 contributed_by: Framestore
+                submitted_date: '2023-07-19'
               annual_review_date: '2025-08-06'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/434
               artwork_url: https://artwork.aswf.io/projects/openqmc/
+              blog_url: https://www.aswf.io/category/openqmc/
+              chat_channel: '#openqmc'
               dev_stats_url: https://insights.linuxfoundation.org/project/openqmc
               lfx_slug: openqmc
               other_links:
@@ -1874,6 +1934,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openqmc/openqmc_Charter.pdf?v=1755109437753
+              slack_url: https://slack.aswf.io
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
@@ -1895,9 +1956,11 @@ landscape:
                 next_annual_review_date: '2026-09-30'
                 chair: Erik Strauss
                 contributed_by: Academy Software Foundation
+                submitted_date: '2023-07-19'
               annual_review_date: '2025-10-01'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
               artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
+              blog_url: https://www.aswf.io/category/open-review-initiative/
               chat_channel: '#open-review-initiative'
               dev_stats_url: https://insights.linuxfoundation.org/project/open-review-initiative
               lfx_slug: open-review-initiative
@@ -1910,6 +1973,7 @@ landscape:
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-review-initiative_charter.pdf
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy3dcfmyh7WTjZZDqYWzpqB
           - item:
             name: Rongotai Model Train Club (RMTC)
             homepage_url: https://rmtc.ai/
@@ -1927,9 +1991,12 @@ landscape:
                 next_annual_review_date: '2026-06-24'
                 chair: John Mccarten
                 contributed_by: Wētā FX
+                submitted_date: '2025-06-04'
               annual_review_date: '2025-06-25'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1075
               artwork_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/
+              blog_url: https://www.aswf.io/category/rmtc/
+              chat_channel: '#rmtc'
               dev_stats_url: https://insights.linuxfoundation.org/project/rongotai-model-train-club-rmtc
               lfx_slug: rongotai-model-train-club-rmtc
               other_links:
@@ -1941,6 +2008,7 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1763492766002
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
+              slack_url: https://slack.aswf.io
       - subcategory:
         name: Working Group
         items:
@@ -1957,9 +2025,12 @@ landscape:
                 next_annual_review_date: '2026-10-28'
                 contributed_by: MovieLabs
                 chair: Daryll Strauss
+                submitted_date: '2024-03-06'
               annual_review_date: '2025-10-29'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
               artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
+              blog_url: https://www.aswf.io/category/zerotrust/
+              chat_channel: '#wg-zerotrust'
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-zero-trust-wg
               lfx_slug: aswf-zero-trust-wg
               other_links:
@@ -1967,6 +2038,7 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
+              slack_url: https://slack.aswf.io
       - subcategory:
         name: Long Term Working Group
         items:
@@ -1986,6 +2058,7 @@ landscape:
                 next_annual_review_date: '2026-06-24'
                 chair: Jean-Francois Panisset
                 contributed_by: Academy Software Foundation
+                submitted_date: '2023-10-02'
               annual_review_date: '2025-06-25'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
               artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
@@ -2011,10 +2084,13 @@ landscape:
               annotations:
                 next_annual_review_date: '2027-01-06'
                 contributed_by: Academy Software Foundation
-                chair: Carol Payne, Rachel Rose
+                chair: Karen Ruggles
+                submitted_date: '2023-09-18'
               annual_review_date: '2026-01-21'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
               artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
+              blog_url: https://www.aswf.io/category/diversity/
+              chat_channel: '#diversity'
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-diversity-inclusion-wg
               lfx_slug: aswf-diversity-inclusion-wg
               other_links:
@@ -2022,6 +2098,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
+              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzFr8vwC1Q0lf0SrH3CJ2ym
           - item:
             name: Universal Scene Description Working Group
             homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
@@ -2038,9 +2116,11 @@ landscape:
                 next_annual_review_date: '2026-07-08'
                 chair: Alexander Schwank, Nick Porcino
                 contributed_by: Pixar
+                submitted_date: '2023-10-04'
               annual_review_date: '2025-07-09'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
               artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
+              blog_url: https://www.aswf.io/category/usd/
               chat_channel: '#wg-usd'
               dev_stats_url: https://insights.linuxfoundation.org/project/aswf-usd-wg
               lfx_slug: aswf-usd-wg
@@ -2051,3 +2131,4 @@ landscape:
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzo-PO2aI0O6QQI_eWXuC80
