@@ -1361,6 +1361,8 @@ landscape:
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
                 - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencue/opencue_Charter.pdf?v=1781649669261
+                - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/opencue-charter.md
               slack_url: https://slack.aswf.io
               summary_use_case: |
@@ -1460,6 +1462,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openimageio/openimageio_Charter.pdf?v=1781649853005
                 - name: Charter
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-image-io_charter.pdf
               slack_url: https://slack.aswf.io
@@ -1743,8 +1747,6 @@ landscape:
             homepage_url: https://github.com/AcademySoftwareFoundation/dna
             logo: dailies_notes_assistant.svg
             description: The mission of the Project is to develop a tool designed to transcribe dailies meetings, analyze the content using an LLM, and provide a plugin system to integrate into production tracking software.
-            second_path:
-              - Imaging and Color / Display and Review
             project: sandbox
             repo_url: https://github.com/AcademySoftwareFoundation/dna
             license: Apache-2.0
@@ -1753,23 +1755,19 @@ landscape:
               accepted: '2025-05-27'
               annotations:
                 next_annual_review_date: '2026-05-27'
-                chair: Tommy Burnette
-                contributed_by: Industrial Light & Magic (ILM)
                 submitted_date: '2025-05-11'
+                chair: Tommy Burnette
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1040
-              artwork_url: https://artwork.aswf.io/projects/dailies-transcription-notes-taking-tool/
-              blog_url: https://www.aswf.io/category/dna/
-              chat_channel: '#dailies-note-assistant-tech'
-              dev_stats_url: https://insights.linuxfoundation.org/project/dailies-transcription-notes-taking-tool
-              lfx_slug: dailies-transcription-notes-taking-tool
+              artwork_url: https://artwork.aswf.io/projects/dailies-notes-assistant/
+              dev_stats_url: https://insights.linuxfoundation.org/project/dailies-notes-assistant
+              lfx_slug: dailies-notes-assistant
               other_links:
                 - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dailies-transcription-notes-taking-tool
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dailies-notes-assistant
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggVZllmLaTYZFChi
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/dailies-transcription-notes-taking-tool/dailies-transcription-notes-taking-tool_Charter.pdf?v=1752019072458
-              slack_url: https://slack.aswf.io
           - item:
             name: MoonRay
             homepage_url: https://www.openmoonray.org/
@@ -1851,7 +1849,7 @@ landscape:
             extra:
               accepted: '2022-06-29'
               annotations:
-                next_annual_review_date: '2026-09-16'
+                next_annual_review_date: '2026-09-30'
                 chair: Philip  Grobler
                 contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
                 contributed_by: Foundry
