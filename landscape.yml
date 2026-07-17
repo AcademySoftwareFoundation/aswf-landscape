@@ -1950,44 +1950,30 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openqmc/openqmc_Charter.pdf?v=1755109437753
               slack_url: https://slack.aswf.io
           - item:
-            name: Open Review Initiative
-            homepage_url: https://openreviewinitiative.org/
-            logo: open_review_initiative.svg
-            description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
-            second_path:
-              - Imaging and Color / Display and Review
+            name: Open RV
+            homepage_url: https://github.com/AcademySoftwareFoundation/OpenRV
+            logo: open_rv.svg
+            description: Open RV is an image and sequence viewer for VFX and animation artists. Open RV is high-performant, hardware accelerated, and pipeline-friendly.
             project: sandbox
-            repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
             license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
-              - repo_url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
-              - repo_url: https://github.com/AcademySoftwareFoundation/xstudio
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2022-07-13'
+              accepted: '2026-07-14'
               annotations:
-                next_annual_review_date: '2026-09-30'
-                chair: Erik Strauss
-                contributed_by: Academy Software Foundation
-                submitted_date: '2023-07-19'
-              annual_review_date: '2025-10-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
-              artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
-              blog_url: https://www.aswf.io/category/open-review-initiative/
-              chat_channel: '#open-review-initiative'
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-review-initiative
-              lfx_slug: open-review-initiative
-              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
+                submitted_date: '2026-04-02'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1327
+              artwork_url: https://artwork.aswf.io/projects/openrv/
+              dev_stats_url: https://insights.linuxfoundation.org/project/openrv
+              lfx_slug: openrv
               other_links:
                 - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openrv
                 - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfbkTM2SDFcVI6Okq1
                 - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-review-initiative_charter.pdf
-              slack_url: https://slack.aswf.io
-              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy3dcfmyh7WTjZZDqYWzpqB
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openrv/openrv_Charter.pdf?v=1784058223790
           - item:
             name: Rongotai Model Train Club (RMTC)
             homepage_url: https://rmtc.ai/
@@ -2023,9 +2009,73 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
               slack_url: https://slack.aswf.io
+          - item:
+            name: xStudio
+            homepage_url: https://github.com/AcademySoftwareFoundation/xstudio
+            logo: xstudio.svg
+            description: xSTUDIO is a media playback and review application designed for professionals working in the film and TV post production industries, particularly the Visual Effects and Feature Animation sectors. xSTUDIO is focused on providing an intuitive, easy to use interface with a high performance playback engine at its core and C++ and Python APIs for pipeline integration and customisation for total flexibility.
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/xstudio
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-07-14'
+              annotations:
+                submitted_date: '2026-04-02'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1329
+              artwork_url: https://artwork.aswf.io/projects/xstudio/
+              dev_stats_url: https://insights.linuxfoundation.org/project/xstudio
+              lfx_slug: xstudio
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/xstudio
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwQ4NyydjBcDCKMwn
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/xstudio/xstudio_Charter.pdf?v=1784051302888
       - subcategory:
         name: Working Group
         items:
+          - item:
+            name: Open Review Initiative
+            homepage_url: https://openreviewinitiative.org/
+            logo: open_review_initiative.svg
+            description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
+            second_path:
+              - Imaging and Color / Display and Review
+            project: working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
+            license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
+              - repo_url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
+              - repo_url: https://github.com/AcademySoftwareFoundation/xstudio
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2022-07-13'
+              annotations:
+                next_annual_review_date: '2026-09-30'
+                chair: Erik Strauss
+                contributed_by: Academy Software Foundation
+                submitted_date: '2023-07-19'
+              annual_review_date: '2025-10-01'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
+              artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
+              blog_url: https://www.aswf.io/category/open-review-initiative/
+              chat_channel: '#open-review-initiative'
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-review-initiative
+              lfx_slug: open-review-initiative
+              mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-review-initiative_charter.pdf
+              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy3dcfmyh7WTjZZDqYWzpqB
           - item:
             name: Zero Trust Working Group
             homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
