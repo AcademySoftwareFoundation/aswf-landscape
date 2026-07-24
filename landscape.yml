@@ -540,11 +540,30 @@ landscape:
             twitter: https://twitter.com/IntelSoftware
             crunchbase: https://www.crunchbase.com/organization/intel
           - item:
+            name: hdMitsuba
+            homepage_url: https://github.com/google/hdmitsuba
+            repo_url: https://github.com/google/hdmitsuba
+            logo: hdmitsuba.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
             name: IO Blender MTLX
             homepage_url: https://github.com/Activision/io_blender_mtlx
             repo_url: https://github.com/Activision/io_blender_mtlx
             logo: io_blender_mtlx.svg
             crunchbase: https://www.crunchbase.com/organization/activision
+          - item:
+            name: Mitsuba
+            homepage_url: https://www.mitsuba-renderer.org/
+            repo_url: https://github.com/mitsuba-renderer/mitsuba3
+            logo: mitsuba.svg
+            additional_repos:
+              - repo_url: https://github.com/mitsuba-renderer/mitsuba2
+              - repo_url: https://github.com/mitsuba-renderer/nanogui
+              - repo_url: https://github.com/mitsuba-renderer/mitsuba
+              - repo_url: https://github.com/mitsuba-renderer/drjit
+            extra:
+              documentation_url: https://mitsuba.readthedocs.io
+              youtube_url: https://www.youtube.com/playlist?list=PLI9y-85z_Po6da-pyTNGTns2n4fhpbLe5
           - item:
             name: NVIDIA MDL SDK
             homepage_url: https://github.com/NVIDIA/MDL-SDK
@@ -896,8 +915,8 @@ landscape:
             homepage_url: https://bolt.graphics/
             logo: bolt_graphics.svg
             description: |-
-              A well-funded startup developing a flexible, scalable ray tracing engine 
-                with best in-class performance for VR and mobile handsets, cloud and mobile 
+              A well-funded startup developing a flexible, scalable ray tracing engine
+                with best in-class performance for VR and mobile handsets, cloud and mobile
                 gaming, and cinema rendering.
             crunchbase: https://www.crunchbase.com/organization/bolt-graphics
             extra:
@@ -907,7 +926,7 @@ landscape:
             homepage_url: https://caligra.com/
             logo: caligra.svg
             description: |-
-              Caligra is a new computer company. 
+              Caligra is a new computer company.
 
               Most people don’t write code or manage data, and consumer devices are designed accordingly. But change isn’t made by most people. Progress comes from the people whose work improves our understanding and ability. Scientists and artists. Engineers and designers. Hackers and painters. We think the world needs a brand of computing that stands behind creative technical work, dedicated to creating instead of consuming. Our goal is to help you make the future.
 
