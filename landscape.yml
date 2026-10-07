@@ -27,6 +27,11 @@ landscape:
             repo_url: https://github.com/wetadigital/physlight
             logo: PhysLight.svg
             crunchbase: https://www.crunchbase.com/organization/weta-digital
+          - item:
+            name: Open Test Patterns
+            homepage_url: https://open-test-patterns.onrender.com/
+            repo_url: https://github.com/jdvandenberg/Open-Test-Patterns
+            logo: open_test_patterns.svg
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -114,6 +119,13 @@ landscape:
             repo_url: https://github.com/Breakthrough/PySceneDetect
             logo: pyscenedetect.svg
             crunchbase: https://www.crunchbase.com/organization/pyscenedetect
+          - item:
+            name: pyseq
+            homepage_url: https://pyseq.dev
+            repo_url: https://github.com/rsgalloway/pyseq
+            logo: pyseq.svg
+            organization:
+              name: Ryan Galloway
           - item:
             name: sequencer
             homepage_url: https://github.com/guerilla-di/sequencer
@@ -540,11 +552,30 @@ landscape:
             twitter: https://twitter.com/IntelSoftware
             crunchbase: https://www.crunchbase.com/organization/intel
           - item:
+            name: hdMitsuba
+            homepage_url: https://github.com/google/hdmitsuba
+            repo_url: https://github.com/google/hdmitsuba
+            logo: hdmitsuba.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
             name: IO Blender MTLX
             homepage_url: https://github.com/Activision/io_blender_mtlx
             repo_url: https://github.com/Activision/io_blender_mtlx
             logo: io_blender_mtlx.svg
             crunchbase: https://www.crunchbase.com/organization/activision
+          - item:
+            name: Mitsuba
+            homepage_url: https://www.mitsuba-renderer.org/
+            repo_url: https://github.com/mitsuba-renderer/mitsuba3
+            logo: mitsuba.svg
+            additional_repos:
+              - repo_url: https://github.com/mitsuba-renderer/mitsuba2
+              - repo_url: https://github.com/mitsuba-renderer/nanogui
+              - repo_url: https://github.com/mitsuba-renderer/mitsuba
+              - repo_url: https://github.com/mitsuba-renderer/drjit
+            extra:
+              documentation_url: https://mitsuba.readthedocs.io
+              youtube_url: https://www.youtube.com/playlist?list=PLI9y-85z_Po6da-pyTNGTns2n4fhpbLe5
           - item:
             name: NVIDIA MDL SDK
             homepage_url: https://github.com/NVIDIA/MDL-SDK
@@ -762,6 +793,17 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/autodesk
           - item:
+            name: CIQ
+            homepage_url: https://ciq.com/
+            logo: ciq.svg
+            description: |-
+              CIQ reimagines software infrastructure with Rocky Linux, offering solutions for security, HPC computing, and cluster management. They empower people to do great things with support, certified hardware, and open source software.
+
+              --- Merged Data:
+
+              CIQ is reimagining software infrastructure with Rocky Linux as its foundation stone. Apptainer, Warewulf, and Fuzzball aid in security, HPC computing, and cluster management.
+            crunchbase: https://www.crunchbase.com/organization/ciq-bec8
+          - item:
             name: Double Negative Limited
             homepage_url: https://dneg.com/
             logo: double_negative_limited.svg
@@ -835,6 +877,11 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/nvidia
           - item:
+            name: Paramount Skydance Corporation
+            homepage_url: https://paramount.com/
+            logo: paramount_skydance_corporation.svg
+            description: Paramount is a prominent producer of premium entertainment content, offering a diverse range of feature films, television shows, and streaming services that engage audiences globally.
+          - item:
             name: Samsung Electronics Co. Ltd.
             homepage_url: https://samsung.com/
             logo: samsung_electronics_co_ltd.svg
@@ -843,14 +890,6 @@ landscape:
             twitter: https://twitter.com/Samsung
             extra:
               linkedin_url: https://www.linkedin.com/company/samsung-electronics
-          - item:
-            name: Skydance Animation, LLC
-            homepage_url: https://skydance.com/
-            logo: skydance_animation_llc.svg
-            description: Skydance Media is a leading entertainment company founded in 2010, creating immersive worlds and compelling stories through feature films, TV shows, and interactive platforms.
-            crunchbase: https://www.crunchbase.com/organization/skydance-media
-            extra:
-              linkedin_url: https://www.linkedin.com/company/skydancemedia
           - item:
             name: Sony Pictures Entertainment
             homepage_url: https://sonypictures.com/
@@ -920,6 +959,11 @@ landscape:
             twitter: https://twitter.com/CoreWeave
             extra:
               linkedin_url: https://www.linkedin.com/company/coreweave
+          - item:
+            name: Evercast
+            homepage_url: https://evercast.com/
+            logo: evercast.svg
+            description: 'Evercast: Leading video collaboration platform for remote creators. Stream, chat, and create in real time with HD live streaming and video conferencing.'
           - item:
             name: Framestore
             homepage_url: https://framestore.com/
@@ -1008,76 +1052,22 @@ landscape:
             twitter: https://twitter.com/TheFoundryTeam
             extra:
               linkedin_url: https://www.linkedin.com/company/foundryteam
-          - item:
-            name: Warner Bros. Entertainment Inc.
-            homepage_url: https://warnerbros.com/
-            logo: warner_bros_entertainment_inc.svg
-            description: |-
-              About us
-              WARNER BROS. ENTERTAINMENT is a global leader in all forms of entertainment and their related businesses across all current and emerging media and platforms. A WarnerMedia Company, the fully integrated, broad-based Studio is home to one of the most successful collections of brands in the world and stands at the forefront of every aspect of the entertainment industry from feature film, television and home entertainment production and worldwide distribution to DVD and Blu-ray, digital distribution, animation, comic books, video games, product and brand licensing, and broadcasting. The company’s vast library, one of the most prestigious and valuable in the world, consists of more than 61,000 hours of programming, including nearly 6,500 feature films and 3,000 television programs comprised of tens of thousands of individual episodes.
-
-              Warner Bros. Entertainment has employees in over 30 countries. The company is headquartered at the Warner Bros. Studios lot, 142 acres in Burbank, California, which is considered one of the foremost motion picture and television production and post-production facilities in the world and is also home to 35 soundstages (including one of the world’s tallest stages, which has an in-ground tank capable of holding more than two million gallons of water). Warner Bros. Studio Facilities also manages the company’s studio in the U.K., Warner Bros. Studios Leavesden, which is a 160-acre production facility that has been the production site of many highly acclaimed Warner Bros. movies including the eight Harry Potter films.
-
-              Recent updateSee all See all recent updates
-              Image accompanying recent update
-              AQUAMAN – Extended Video – Only in Theaters December 21
-
-              youtube.com
-
-              497 Likes 13 Comments
-              Company details
-              Website
-              http://www.warnerbros.com/
-              Headquarters
-              Burbank, CA
-
-              Year founded
-              1923
-
-              Company type
-              Public Company
-
-              Company size
-              10,001+ employees
-              Specialties
-              Digital Media, Television, Motion Pictures, Interactive Entertainment (Games), DC Comics, Studio Operations, Consumer Products, Technology, and Video Games
-
-              7 Office locations
-              Warner Bros. Studios  Main
-              4000 Warner Boulevard, Burbank, CA 91522, us
-
-              Get directions Get directions to 4000 Warner Boulevard, Burbank, CA 91522, us
-              Warner Bros. UK
-              Warner House, 98 Theobald's Road, London, WC1X 8WB, gb
-
-              Get directions Get directions to Warner House, 98 Theobald&#39;s Road, London, WC1X 8WB, gb
-              WB Games Montreal
-              888, Boul. De Maisonneuve, Montreal, Quebec QC H2L 4S8, ca
-
-              Get directions Get directions to 888, Boul. De Maisonneuve, Montreal, Quebec QC H2L 4S8, ca
-              Warner Entertainment Japan
-              Hibiya Central Bldg., 1-2-9 Nishi-Shimbashi, Minato-ku, Tokyo, 105-0003, jp
-
-              Get directions Get directions to Hibiya Central Bldg., 1-2-9 Nishi-Shimbashi, Minato-ku, Tokyo, 105-0003, jp
-              WB Games Seattle
-              113th Avenue, Kirkland, WA us
-
-              Get directions Get directions to 113th Avenue, Kirkland, WA us
-              Warner Bros. Toronto
-              5000 Yonge St, Toronto, ON M2N 6P1, ca
-
-              Get directions Get directions to 5000 Yonge St, Toronto, ON M2N 6P1, ca
-              Turbine
-              117 Kendrick St, Needham, MA 02494, us
-
-              Get directions
-            crunchbase: https://www.crunchbase.com/organization/new-line-cinema
-            twitter: https://twitter.com/warnerbros
-            extra:
-              linkedin_url: https://www.linkedin.com/company/warner-bros.-pictures
       - subcategory:
         name: Associate
         items:
+          - item:
+            name: AlmaLinux OS Foundation
+            homepage_url: https://almalinux.org/
+            logo: almalinux_os_foundation.svg
+            description: |-
+              AlmaLinux OS is an enterprise Linux (EL) operating system used across the globe by people and organizations that need a stable operating system in the EL ecosystem that's free and doesn't require a commercial license agreement. This includes everything from non-profit organizations to Fortune 500 companies, from hobbyists managing their home automation to professionals managing supercomputers that are expanding our understanding of the universe - and everything in between. 
+
+              As the first downstream RHEL-compatible operating system to be released after the announcement that support for CentOS Linux was ending, our goal is to provide a stable, long-term option for anyone who has historically used CentOS Linux, and for whom CentOS Stream is not an option. 
+
+              The AlmaLinux OS Foundation is a 501(c)(6) non-profit entity created as the central collaboration point for everything to do with AlmaLinux, and for the benefit of the AlmaLinux OS community.
+            twitter: https://twitter.com/AlmaLinux
+            extra:
+              linkedin_url: https://www.linkedin.com/company/almalinuxos
           - item:
             name: Blender Foundation
             homepage_url: https://blender.org/
@@ -1117,6 +1107,15 @@ landscape:
             homepage_url: https://o3df.org/
             logo: o3de.svg
             description: O3DE focuses on creating a fully featured, high fidelity, real-time, modular open source 3D engine designed for diverse applications, including game development, robotics, automotive, and immersive augmented and virtual reality experiences.
+          - item:
+            name: Rochester Institute of Technology
+            homepage_url: https://rit.edu/
+            logo: rochester_institute_of_technology.svg
+            description: Rochester Institute of Technology is a private, coeducational university located in Rochester, New York. The institute also has international campuses in Dubai and Eastern Europe.
+            crunchbase: https://www.crunchbase.com/organization/rochester-institute-of-technology
+            twitter: https://twitter.com/RITtigers
+            extra:
+              linkedin_url: https://www.linkedin.com/company/rochester-institute-of-technology
           - item:
             name: Society of Motion Picture and Television Engineers
             homepage_url: https://smpte.org/
@@ -1210,12 +1209,12 @@ landscape:
             extra:
               accepted: '2021-07-28'
               annotations:
-                next_annual_review_date: '2026-09-16'
+                next_annual_review_date: '2027-09-15'
                 chair: Matthew Low
                 wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
                 contributed_by: Academy Software Foundation
                 submitted_date: '2023-09-18'
-              annual_review_date: '2025-09-17'
+              annual_review_date: '2026-09-16'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/472
               artwork_url: https://artwork.aswf.io/projects/dpel/
               blog_url: https://www.aswf.io/category/dpel/
@@ -1362,8 +1361,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencue/opencue_Charter.pdf?v=1781649669261
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/master/project_charters/opencue-charter.md
               slack_url: https://slack.aswf.io
               summary_use_case: |
                 OpenCue is an open source render management system. Scale your rendering pipeline with job scheduling, resource optimization, and integration across your production workflow.
@@ -1395,7 +1392,7 @@ landscape:
             extra:
               accepted: '2019-04-10'
               annotations:
-                next_annual_review_date: '2026-08-19'
+                next_annual_review_date: '2027-07-07'
                 chair: Cary Phillips
                 contributed_by: Lucasfilm
                 submitted_date: '2023-09-18'
@@ -1404,7 +1401,7 @@ landscape:
                   type: audit
                   vendor: Shielder
                   url: https://ostif.org/wp-content/uploads/2025/07/OSTIF-OpenEXR-Report-PT-v1.2.pdf
-              annual_review_date: '2025-04-16'
+              annual_review_date: '2026-07-08'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/483
               artwork_url: https://artwork.aswf.io/projects/openexr/
               blog_url: https://www.aswf.io/category/openexr/
@@ -1442,11 +1439,11 @@ landscape:
             extra:
               accepted: '2023-05-03'
               annotations:
-                next_annual_review_date: '2026-06-10'
+                next_annual_review_date: '2027-08-18'
                 chair: Daniel Greenstein
                 contributed_by: Larry Gritz
                 submitted_date: '2023-10-02'
-              annual_review_date: '2025-06-11'
+              annual_review_date: '2026-08-19'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
               artwork_url: https://artwork.aswf.io/projects/openimageio/
               blog_url: https://www.aswf.io/category/openimageio/
@@ -1464,8 +1461,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openimageio/openimageio_Charter.pdf?v=1781649853005
-                - name: Charter
-                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-image-io_charter.pdf
               slack_url: https://slack.aswf.io
               youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyXAky41GrQmDvOZBmwGH8f
           - item:
@@ -1566,12 +1561,12 @@ landscape:
             extra:
               accepted: '2025-07-15'
               annotations:
-                next_annual_review_date: '2026-07-08'
+                next_annual_review_date: '2027-07-07'
                 contributed_by: Academy of Motion Picture Arts and Sciences
                 chair: Scott Dyer
                 project_org: https://github.com/aces-aswf
                 submitted_date: '2025-06-30'
-              annual_review_date: '2025-07-09'
+              annual_review_date: '2026-07-08'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1091
               artwork_url: https://artwork.aswf.io/projects/aces/
               blog_url: https://www.aswf.io/category/aces/
@@ -1586,8 +1581,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfXJcd7sytTjCn40g9
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1763476981785
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1754503129100
               slack_url: https://slack.aswf.io
               youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyGvvPfnirZjhT8MQI_6dda
             additional_repos: []
@@ -1605,7 +1598,7 @@ landscape:
             extra:
               accepted: '2022-04-20'
               annotations:
-                next_annual_review_date: '2026-07-22'
+                next_annual_review_date: '2026-10-14'
                 chair: Gary Oberbrunner
                 contributed_by: Open Effects Association
                 submitted_date: '2023-10-03'
@@ -1679,11 +1672,11 @@ landscape:
             extra:
               accepted: '2020-12-16'
               annotations:
-                next_annual_review_date: '2026-09-02'
+                next_annual_review_date: '2027-09-01'
                 chair: Anton Dukhovnikov
                 contributed_by: The Academy of Motion Picture Arts and Sciences
                 submitted_date: '2023-09-18'
-              annual_review_date: '2025-09-03'
+              annual_review_date: '2026-09-02'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
               artwork_url: https://artwork.aswf.io/projects/rawtoaces/
               chat_channel: '#rawtoaces'
@@ -1754,7 +1747,7 @@ landscape:
             extra:
               accepted: '2025-05-27'
               annotations:
-                next_annual_review_date: '2026-05-27'
+                next_annual_review_date: '2026-11-11'
                 submitted_date: '2025-05-11'
                 chair: Tommy Burnette
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1040
@@ -1812,11 +1805,11 @@ landscape:
             extra:
               accepted: '2024-10-14'
               annotations:
-                next_annual_review_date: '2026-10-14'
+                next_annual_review_date: '2027-09-29'
                 contributed_by: Samsung Electronics
                 chair: Youngkwon Lim
                 submitted_date: '2024-08-19'
-              annual_review_date: '2025-10-15'
+              annual_review_date: '2026-09-30'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/803
               artwork_url: https://artwork.aswf.io/projects/openapv/
               blog_url: https://www.aswf.io/category/openapv/
@@ -1849,7 +1842,7 @@ landscape:
             extra:
               accepted: '2022-06-29'
               annotations:
-                next_annual_review_date: '2026-09-30'
+                next_annual_review_date: '2026-10-14'
                 chair: Philip  Grobler
                 contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
                 contributed_by: Foundry
@@ -1920,11 +1913,11 @@ landscape:
             extra:
               accepted: '2025-08-12'
               annotations:
-                next_annual_review_date: '2026-08-05'
+                next_annual_review_date: '2027-08-04'
                 chair: Josh Bainbridge
                 contributed_by: Framestore
                 submitted_date: '2023-07-19'
-              annual_review_date: '2025-08-06'
+              annual_review_date: '2026-08-05'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/434
               artwork_url: https://artwork.aswf.io/projects/openqmc/
               blog_url: https://www.aswf.io/category/openqmc/
@@ -1937,8 +1930,96 @@ landscape:
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
                 - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openqmc/openqmc_Charter.pdf?v=1755109437753
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openqmc/openqmc_Charter.pdf?v=1785336825352
               slack_url: https://slack.aswf.io
+          - item:
+            name: Open RV
+            homepage_url: https://github.com/AcademySoftwareFoundation/OpenRV
+            logo: open_rv.svg
+            description: Open RV is an image and sequence viewer for VFX and animation artists. Open RV is high-performant, hardware accelerated, and pipeline-friendly.
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-07-14'
+              annotations:
+                submitted_date: '2026-04-02'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1327
+              artwork_url: https://artwork.aswf.io/projects/openrv/
+              dev_stats_url: https://insights.linuxfoundation.org/project/openrv
+              lfx_slug: openrv
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openrv
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfbkTM2SDFcVI6Okq1
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openrv/openrv_Charter.pdf?v=1784058223790
+          - item:
+            name: Rongotai Model Train Club (RMTC)
+            homepage_url: https://rmtc.ai/
+            logo: rongotai_model_train_club_rmtc.svg
+            description: RMTC is a VFX-specific framework for simplifying the production and deployment of AI/ML models using well-tracked and rights-cleared datasets.
+            second_path:
+              - Assets and Workflow / Pipelines and Frameworks
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/rmtc
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-07-15'
+              annotations:
+                next_annual_review_date: '2027-06-23'
+                chair: John Mccarten
+                contributed_by: Wētā FX
+                submitted_date: '2025-06-04'
+              annual_review_date: '2026-06-24'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1075
+              artwork_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/
+              blog_url: https://www.aswf.io/category/rmtc/
+              chat_channel: '#rmtc'
+              dev_stats_url: https://insights.linuxfoundation.org/project/rongotai-model-train-club-rmtc
+              lfx_slug: rongotai-model-train-club-rmtc
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rongotai-model-train-club-rmtc
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfVbn6YwcC4WwCLufz
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1763492766002
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
+              slack_url: https://slack.aswf.io
+          - item:
+            name: xStudio
+            homepage_url: https://github.com/AcademySoftwareFoundation/xstudio
+            logo: xstudio.svg
+            description: xSTUDIO is a media playback and review application designed for professionals working in the film and TV post production industries, particularly the Visual Effects and Feature Animation sectors. xSTUDIO is focused on providing an intuitive, easy to use interface with a high performance playback engine at its core and C++ and Python APIs for pipeline integration and customisation for total flexibility.
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/xstudio
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-07-14'
+              annotations:
+                submitted_date: '2026-04-02'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1329
+              artwork_url: https://artwork.aswf.io/projects/xstudio/
+              dev_stats_url: https://insights.linuxfoundation.org/project/xstudio
+              lfx_slug: xstudio
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/xstudio
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwQ4NyydjBcDCKMwn
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/xstudio/xstudio_Charter.pdf?v=1784051302888
+      - subcategory:
+        name: Working Group
+        items:
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
@@ -1946,7 +2027,7 @@ landscape:
             description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
             second_path:
               - Imaging and Color / Display and Review
-            project: sandbox
+            project: working-group
             repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
             license: Apache-2.0
             additional_repos:
@@ -1957,7 +2038,7 @@ landscape:
             extra:
               accepted: '2022-07-13'
               annotations:
-                next_annual_review_date: '2026-09-30'
+                next_annual_review_date: '2026-12-09'
                 chair: Erik Strauss
                 contributed_by: Academy Software Foundation
                 submitted_date: '2023-07-19'
@@ -1978,44 +2059,6 @@ landscape:
                   url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-review-initiative_charter.pdf
               slack_url: https://slack.aswf.io
               youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy3dcfmyh7WTjZZDqYWzpqB
-          - item:
-            name: Rongotai Model Train Club (RMTC)
-            homepage_url: https://rmtc.ai/
-            logo: rongotai_model_train_club_rmtc.svg
-            description: RMTC is a VFX-specific framework for simplifying the production and deployment of AI/ML models using well-tracked and rights-cleared datasets.
-            second_path:
-              - Assets and Workflow / Pipelines and Frameworks
-            project: sandbox
-            repo_url: https://github.com/AcademySoftwareFoundation/rmtc
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2025-07-15'
-              annotations:
-                next_annual_review_date: '2026-06-24'
-                chair: John Mccarten
-                contributed_by: Wētā FX
-                submitted_date: '2025-06-04'
-              annual_review_date: '2025-06-25'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1075
-              artwork_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/
-              blog_url: https://www.aswf.io/category/rmtc/
-              chat_channel: '#rmtc'
-              dev_stats_url: https://insights.linuxfoundation.org/project/rongotai-model-train-club-rmtc
-              lfx_slug: rongotai-model-train-club-rmtc
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rongotai-model-train-club-rmtc
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfVbn6YwcC4WwCLufz
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1763492766002
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
-              slack_url: https://slack.aswf.io
-      - subcategory:
-        name: Working Group
-        items:
           - item:
             name: Zero Trust Working Group
             homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
@@ -2059,11 +2102,11 @@ landscape:
             extra:
               accepted: '2018-10-31'
               annotations:
-                next_annual_review_date: '2026-06-24'
+                next_annual_review_date: '2027-06-23'
                 chair: Jean-Francois Panisset
                 contributed_by: Academy Software Foundation
                 submitted_date: '2023-10-02'
-              annual_review_date: '2025-06-25'
+              annual_review_date: '2026-06-24'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
               artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
               chat_channel: '#wg-ci'
@@ -2117,11 +2160,11 @@ landscape:
             extra:
               accepted: '2020-02-26'
               annotations:
-                next_annual_review_date: '2026-07-08'
-                chair: Alexander Schwank, Nick Porcino
+                next_annual_review_date: '2027-08-04'
+                chair: Nick Porcino, Alexander Schwank
                 contributed_by: Pixar
                 submitted_date: '2023-10-04'
-              annual_review_date: '2025-07-09'
+              annual_review_date: '2026-08-05'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
               artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
               blog_url: https://www.aswf.io/category/usd/
