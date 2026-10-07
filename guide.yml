@@ -1,0 +1,305 @@
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/guide.schema.json
+
+categories:
+  - category: "Introduction"
+    content: |
+      The entertainment industry’s transition to open-source software was born out of operational necessity. As visual effects (VFX), animation, and digital media creation grew more complex, studios realized they were all independently writing the identical core engineering layers to handle colors, pixels, and 3D scenes. 
+
+      The Academy Software Foundation (ASWF) provides these foundational, shared tools a neutral, secure home. Unlike general-purpose software ecosystems, the ASWF Landscape is strictly curated to map the vetted technical foundation of modern cinema.
+
+      If you look at the landscape as a whole, it can feel overwhelming. However, it follows a highly logical structure modeled precisely on how a digital production pipeline operates. The categories build on top of each other, starting from fundamental colors and moving up to the orchestration of thousands of compute nodes.
+
+    subcategories:
+      - subcategory: "What is the Landscape"
+        content: |
+          The ASWF Landscape is an interactive map of the production-proven, open-source technologies that power the global entertainment industry. It aggregates critical projects across visual effects, animation, and digital media creation to serve as a trusted architectural blueprint for studios. Every project included here must be designed specifically for the entertainment ecosystem and demonstrate a successful track record of rendering or delivering frames in a released theatrical, broadcast, or streaming production.
+
+      - subcategory: "How to Use the Guide"
+        content: |
+          This guide is designed to walk you through the ecosystem from the ground up, following the logical flow of a standard studio production pipeline. It begins with the fundamental pixels and color transformations, progresses into the asset scene graphs and geometric data layers that model 3D worlds, details the heavy math and simulation backends, and concludes with the high-performance rendering engines and queue management platforms that compute the final image data. Each section breaks down what a technology category is, the real-world problem it solves, and how it executes its task technically.
+
+      - subcategory: "How to Contribute"
+        content: |
+          The landscape is a living document maintained directly by the community. If you manage or contribute to an open-source project that meets the industry-specific criteria and has been battle-tested in a released production, you can propose its inclusion. 
+
+          To do so, fork the `AcademySoftwareFoundation/aswf-landscape` repository on GitHub and append your project's metadata directly into the central `landscape.yml` data file. You must also supply a clean vector SVG logo to the `hosted_logos` directory. To prevent rendering breaks, the SVG must consist purely of flattened path shapes, containing zero embedded base64 raster components and no raw font or text elements.
+
+  - category: "Imaging and Color"
+    content: |
+      Every digital image is ultimately a matrix of pixels, but in professional production, how those pixels are mathematically treated determines whether a movie looks identical on an artist’s monitor, a supervisor's tablet, or a dual-laser IMAX screen. This section forms the bedrock of the landscape, defining how data is captured, preserved, and read.
+
+    subcategories:
+      - subcategory: "Color Science"
+        keywords:
+          - "color"
+          - "ocio"
+          - "grading"
+          - "calibration"
+          - "aces"
+        content: |
+          ### What It Is
+          The deterministic, math-driven frameworks, lookup schemas, and conversion spaces that manage how color values are interpreted across cameras, artist monitors, and theater projectors.
+
+          ### The Problem It Addresses
+          Digital sensors capture raw light values differently than how monitors emit them. Without strict color science, an image passed from a modeler to an animator, a compositor, and a final colorist will shift hue and saturation wildly, breaking artistic continuity.
+
+          ### How It Helps
+          It establishes an infallible, software-agnostic translation matrix. Artists see pixel-perfect representations of the final intent, regardless of whether they are working in a standalone graphics engine or a grading theater.
+
+          ### Technical 101
+          Relying heavily on **OpenColorIO (OCIO)**, it works by separating color configurations into dedicated YAML profiles. These transform raw floating-point pixel arrays across standard spaces (like ACES, linear, or Rec.709) using specific multi-dimensional Look-Up Tables (LUTs) baked directly into the application graphics viewport pipeline.
+
+      - subcategory: "Image Formats, I/O, and Processing Libraries"
+        keywords:
+          - "exr"
+          - "hdr"
+          - "pixels"
+          - "channels"
+          - "texture"
+        content: |
+          ### What It Is
+          The core standard data structures, read/write APIs, and pixel-processing libraries engineered to compress, store, and access multi-layered, high-dynamic-range image assets.
+
+          ### The Problem It Addresses
+          Standard consumer image formats (like JPEG or PNG) are limited to 8 or 16-bit color depths and hard-clip highlight information. Furthermore, they lack the ability to encapsulate secondary spatial channels required for visual effects blending.
+
+          ### How It Helps
+          It grants pipelines the ability to read and write uncompromised, floating-point luminance information along with custom structural metadata layers, optimized for maximum input/output speeds.
+
+          ### Technical 101
+          Built upon **OpenEXR** and **OpenImageIO**, this layer reads arbitrarily deep channel schemas. A single file can contain not just red, green, and blue, but deep pixel depth data, object IDs via **Cryptomatte**, and render passes like specular reflections—all encoded using highly optimized multi-threaded file serialization structures.
+
+      - subcategory: "Display and Review"
+        keywords:
+          - "playback"
+          - "dailies"
+          - "review"
+          - "frames"
+          - "annotations"
+        content: |
+          ### What It Is
+          High-performance, frame-accurate playback applications and streaming sync architectures used to evaluate production frames, playback uncompressed imagery, and track review notes.
+
+          ### The Problem It Addresses
+          Uncompressed film frames can easily choke standard system media players, causing dropped frames or distorted color profiles that make accurate quality assessment or directorial sign-offs impossible.
+
+          ### How It Helps
+          It provides a real-time, hardware-accelerated presentation layer that guarantees smooth playback at precise film speeds while fully respecting embedded color transformation standards.
+
+          ### Technical 101
+          Represented by platforms like **xSTUDIO**, these review ecosystems utilize aggressive RAM and NVMe pre-caching loops coupled with specialized audio/video synchronization clocks to play back massive image sequences natively, while providing collaborative, metadata-linked annotation frameworks.
+
+      - subcategory: "Interactive Compositing and Painting"
+        keywords:
+          - "canvas"
+          - "layers"
+          - "compositing"
+          - "paint"
+          - "buffer"
+        content: |
+          ### What It Is
+          Interactive, artist-facing toolkits and execution modules capable of layering, masking, paint-stroke tracking, and merging separate visual elements directly within a real-time responsive UI environment.
+
+          ### The Problem It Addresses
+          Manipulating high-resolution frame buffers iteratively during interactive paint or keying tasks demands intense memory control. Poor thread scheduling or memory leaks immediately shatter artist workflow fluidity.
+
+          ### How It Helps
+          It yields highly predictable execution loops for combining layered raster graphs, enabling low-latency, real-time brush strokes and pixel masking operations.
+
+          ### Technical 101
+          These systems abstract frame manipulation matrices into high-performance cache tiles, driving fast spatial evaluation functions across the GPU/CPU memory boundaries to update viewports dynamically as adjustments are made to paint curves or compositing nodes.
+
+  - category: "Assets and Workflow"
+    content: |
+      If the Imaging section defines the pixels, the **Assets and Workflow** section defines the *3D data structures* and environment baselines behind them. This area handles the translation of massive, complex 3D worlds alongside system orchestration profiles across studio structures.
+
+    subcategories:
+      - subcategory: "Scenes and Geometry"
+        keywords:
+          - "usd"
+          - "geometry"
+          - "mesh"
+          - "assets"
+          - "hierarchy"
+        content: |
+          ### What It Is
+          The universal data structures, scene graphs, and geometric serialization platforms used to construct, represent, and pass complex virtual 3D environments between separate applications.
+
+          ### The Problem It Addresses
+          Studios use different software for modeling, animation, and lighting. Historically, moving an environment between these tools meant exporting flat, fragmented geometry that stripped away structural hierarchies, variations, and active asset overrides.
+
+          ### How It Helps
+          It enables multi-department collaboration on a single global scene graph, allowing non-destructive edits to exist seamlessly alongside raw geometric definition layers.
+
+          ### Technical 101
+          Driven primarily by **Universal Scene Description (OpenUSD)** and **Alembic**, this technology relies on a system of layered files (.usd, .usdc, .usda) that stack over each other. It computes a final, resolved runtime scene graph by dynamically evaluating composition arcs like sublayering, references, and variations without destroying original asset files.
+
+      - subcategory: "Timelines and Animation"
+        keywords:
+          - "timeline"
+          - "editorial"
+          - "track"
+          - "sequence"
+          - "cut"
+        content: |
+          ### What It Is
+          An open schema definition and API toolkit built to share chronological track alignments, edit cuts, and track timing metadata across production groups.
+
+          ### The Problem It Addresses
+          VFX and animation artists build shots based on specific frame ranges provided by editors. When an editor trims or rearranges a sequence, tracking down which frames need adjusting across thousands of shots is a massive manual pipeline bottleneck.
+
+          ### How It Helps
+          It completely automates timeline communication by enabling editorial data to move fluidly between editing suites, asset managers, and shot production tracking architectures.
+
+          ### Technical 101
+          Using **OpenTimelineIO (OTIO)**, editorial timelines are abstracted into a standardized object model (Tracks, Clips, Gaps, Transitions). Rather than locking data into video containers or heavy XML formats, OTIO serializes the pure structural timeline as a lightweight JSON document, readable by any Python or C++ endpoint down the line.
+
+      - subcategory: "Pipelines and Frameworks"
+        keywords:
+          - "pipeline"
+          - "tracking"
+          - "integration"
+          - "api"
+          - "workflow"
+        content: |
+          ### What It Is
+          Standardized API abstractions and integration backends that allow digital content creation (DCC) software to natively query, write, and reference assets within studio database managers.
+
+          ### The Problem It Addresses
+          Every studio writes a custom asset management database, and every creative tool uses a proprietary plugin structure. Writing hard-coded integration bridges for every unique tool-to-database pairing leads to unstable, unmaintainable codebase bloat.
+
+          ### How It Helps
+          It creates a universal, plug-and-play translation layer. Tools can request asset data without needing to know the specific backend mechanics of the studio's database.
+
+          ### Technical 101
+          Utilizing frameworks like **OpenAssetIO**, this layer decouples host tools from asset management systems. It functions as an un-opinionated proxy interface, translating generic application requests (such as "give me the texture path for version 2") into specific database queries using standard string tokens and resolution maps.
+
+      - subcategory: "Software Foundation and System Administration"
+        keywords:
+          - "engineering"
+          - "environment"
+          - "docker"
+          - "deployment"
+          - "rez"
+        content: |
+          ### What It Is
+          The structural base configurations, build systems, reference container graphs, and dependency mapping strategies that keep production applications running inside stable targets across the global ecosystem.
+
+          ### The Problem It Addresses
+          Different film projects often require different, conflicting versions of core development libraries (like Python, Qt, or boost). Installing these libraries globally on a machine creates version conflicts that quickly disrupt pipeline operations.
+
+          ### How It Helps
+          It dynamically builds isolated environment containers on demand, ensuring that any application launches with its specific, required dependency graph perfectly intact.
+
+          ### Technical 101
+          Anchored by **Rez** and **aswf-docker**, these systems avoid global installation paths. Rez reads declarative package definition files and dynamically resolves a strict dependency graph, instantly configuring a user's `PATH` and environment variable structures to point to isolated package repositories at execution runtime.
+
+  - category: "Math and Simulation"
+    content: |
+      Visual effects and 3D modeling relies entirely on heavy math libraries and complex physics orchestration engines to compute realistic actions, from muscle movements and fluid splashing to foundational matrix math calculations.
+
+    subcategories:
+      - subcategory: "File Formats and Interchange"
+        keywords:
+          - "particles"
+          - "cache"
+          - "fields"
+          - "vectors"
+          - "interchange"
+        content: |
+          ### What It Is
+          Highly optimized file representations and serialization routines built to handle, read, and write massive mathematical point clouds, vector structures, and geometric particle channels.
+
+          ### The Problem It Addresses
+          Simulations can generate hundreds of millions of changing data points per frame. Standard database formats or text arrays cannot stream this point data fast enough, resulting in storage exhaustion and long pipeline read delays.
+
+          ### How It Helps
+          It provides high-performance, compressed, streamable on-disk file formats engineered for high-frequency parallel sampling operations.
+
+          ### Technical 101
+          Through systems like **Partio**, the pipeline serializes complex multi-channel attributes (position, velocity, age, mass) into highly optimized binary data matrices. This allows simulation engines and rendering shaders to access specific spatial data via random-access file seeks, completely avoiding the overhead of loading an entire frame file into memory.
+
+      - subcategory: "Math Foundations"
+        keywords:
+          - "calculus"
+          - "expression"
+          - "procedural"
+          - "coordinates"
+          - "noise"
+        content: |
+          ### What It Is
+          The low-level mathematical building blocks, algorithmic functions, and arithmetic expression evaluators that power complex computer graphics computations.
+
+          ### The Problem It Addresses
+          Artists need a way to build procedural behaviors, expressions, and geometric variations dynamically without recompiling core application source code every time they adjust an equation.
+
+          ### How It Helps
+          It exposes an embeddable, secure mathematical expression parser that safely evaluates equations at execution runtime with minimal processing overhead.
+
+          ### Technical 101
+          A prime example is **SeExpr**, an embeddable expression engine developed by Disney. It tokenizes, parses, and dynamically interprets text-based mathematical scripts—evaluating spatial coordinates, noise functions, and matrix transformations across pixels or vertices via highly optimized vector execution registers.
+
+      - subcategory: "Simulation"
+        keywords:
+          - "volumes"
+          - "physics"
+          - "rigid body"
+          - "smoke"
+          - "fluid"
+        content: |
+          ### What It Is
+          The spatial data structures, voxel management libraries, and physics calculation loops used to compute natural, complex physical phenomena like fire, smoke, and liquid dynamics.
+
+          ### The Problem It Addresses
+          Volumetric calculations across 3D space are incredibly expensive. Storing a dense 3D grid for an entire scene requires unmanageable amounts of memory, since most of that virtual space is actually empty air.
+
+          ### How It Helps
+          It uses sparse memory configurations to only allocate RAM where actual volumetric simulation data (like smoke density or fire velocity) exists.
+
+          ### Technical 101
+          Driven by the industry standard **OpenVDB**, these systems replace flat 3D arrays with a specialized, highly compressed B+ tree structure. This multi-tier tree structure branches out dynamically, allowing simulation solvers to store, access, and run calculus algorithms on high-resolution sparse volumetric voxels with a remarkably small memory footprint.
+
+  - category: "Rendering and Queueing"
+    content: |
+      The Rendering and Queueing layer handles the translation of virtual scenes into concrete frame files and the large-scale workload distribution that enables computation over production clusters.
+
+    subcategories:
+      - subcategory: "Rendering, Lighting, and Lookdev"
+        keywords:
+          - "ray tracing"
+          - "path tracing"
+          - "shading"
+          - "lookdev"
+          - "materials"
+        content: |
+          ### What It Is
+          The programmable shading languages, material definitions, and heavy ray-tracing calculations that simulate how light physically moves through an environment to generate a final photorealistic image.
+
+          ### The Problem It Addresses
+          Simulating millions of light rays bouncing off complex surfaces requires massive physical and geometric calculations. Doing this efficiently requires highly parallel shading and rendering architectures.
+
+          ### How It Helps
+          It provides standard shading runtimes and multi-threaded rendering platforms built to process complex light transport equations without clipping visual or performance limits.
+
+          ### Technical 101
+          Using **Open Shading Language (OSL)**, **MaterialX**, and **MoonRay**, this layer evaluates light interactions at shading points. OSL compiles code down to LLVM instructions on the fly, while production path-tracers like MoonRay use SIMD vector lanes to trace multiple light rays across complex scene geometry simultaneously.
+
+      - subcategory: "Queueing and Render Management"
+        keywords:
+          - "render farm"
+          - "scheduler"
+          - "orchestration"
+          - "cloud bursting"
+          - "compute"
+        content: |
+          ### What It Is
+          The cluster management tools, job dispatch engines, and resource schedulers built to distribute rendering and simulation tasks across massive on-premise compute farms and cloud instances.
+
+          ### The Problem It Addresses
+          A high-end animated feature film can require millions of compute hours. Without a highly scalable queue coordinator, compute nodes end up idling, high-priority jobs get stuck in logjams, and cluster hardware resources are wasted.
+
+          ### How It Helps
+          It functions as an advanced workload dispatcher that breaks long sequence renders down into individual frame tasks, routing them to appropriate compute nodes based on strict priority logic.
+
+          ### Technical 101
+          Using frameworks like **OpenCue**, the orchestrator tracks job submissions via a centralized dispatcher service. It reads pipeline job dependency maps, evaluates system memory and CPU demands per frame, and dynamically allocates worker threads across large compute clusters using a microservice architecture built for high throughput.
