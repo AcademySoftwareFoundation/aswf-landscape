@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
 landscape:
   - category:
     name: Imaging and Color
@@ -6,17 +8,13 @@ landscape:
         name: Color Science
         items:
           - item:
-            name: 'ACES: Academy Color Encoding System'
-            homepage_url: https://www.oscars.org/science-technology/sci-tech-projects/aces
-            repo_url: https://github.com/ampas/aces-dev
-            logo: aces.svg
-            crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
-          - item:
             name: Color Transformation Language (CTL)
             homepage_url: https://www.oscars.org/science-technology/sci-tech-projects/color-transformation-language
-            repo_url: https://github.com/ampas/CTL
+            repo_url: https://github.com/aces-aswf/CTL
             logo: ctl.svg
-            crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              parent_project: Academy Color Encoding System (ACES)
           - item:
             name: Colour
             homepage_url: https://www.colour-science.org/
@@ -29,6 +27,11 @@ landscape:
             repo_url: https://github.com/wetadigital/physlight
             logo: PhysLight.svg
             crunchbase: https://www.crunchbase.com/organization/weta-digital
+          - item:
+            name: Open Test Patterns
+            homepage_url: https://open-test-patterns.onrender.com/
+            repo_url: https://github.com/jdvandenberg/Open-Test-Patterns
+            logo: open_test_patterns.svg
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -86,6 +89,12 @@ landscape:
             twitter: https://twitter.com/opencvlibrary
             crunchbase: https://www.crunchbase.com/organization/open-source-vision-foundation
           - item:
+            name: OpenJPH
+            homepage_url: https://openjph.org/
+            repo_url: https://github.com/aous72/OpenJPH
+            logo: openjph.svg
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+          - item:
             name: OpenMVG
             homepage_url: https://opensource.mikrosimage.eu/
             repo_url: https://github.com/openMVG/openMVG
@@ -110,6 +119,13 @@ landscape:
             repo_url: https://github.com/Breakthrough/PySceneDetect
             logo: pyscenedetect.svg
             crunchbase: https://www.crunchbase.com/organization/pyscenedetect
+          - item:
+            name: pyseq
+            homepage_url: https://pyseq.dev
+            repo_url: https://github.com/rsgalloway/pyseq
+            logo: pyseq.svg
+            organization:
+              name: Ryan Galloway
           - item:
             name: sequencer
             homepage_url: https://github.com/guerilla-di/sequencer
@@ -136,6 +152,12 @@ landscape:
         name: Display and Review
         items:
           - item:
+            name: ASC Framing Decision List (FDL)
+            homepage_url: https://github.com/ascmitc/fdl
+            repo_url: https://github.com/ascmitc/fdl
+            logo: fdl.svg
+            crunchbase: https://www.crunchbase.com/organization/asc
+          - item:
             name: DJV Imaging
             homepage_url: https://darbyjohnston.github.io/DJV/
             repo_url: https://github.com/darbyjohnston/DJV
@@ -147,7 +169,6 @@ landscape:
             homepage_url: https://jeri.io/
             repo_url: https://github.com/disneyresearch/jeri
             logo: jeri.svg
-            twitter: null
             crunchbase: https://www.crunchbase.com/organization/disney-research
           - item:
             name: mrv2
@@ -163,6 +184,23 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               artwork_url: https://artwork.aswf.io/projects/openrv/
+              parent_project: Open Review Initiative
+              slack_url: https://slack.aswf.io
+              blog_url: https://www.aswf.io/category/openrv/
+              chat_channel: '#ori-xstudio-discussion'
+              youtube_url: https://www.youtube.com/watch?v=i-YDIb2Bj_E&list=PL9dZxafYCWmzhmseHdGfZT4Q_2wJbeyuH
+          - item:
+            name: xSTUDIO
+            homepage_url: https://github.com/AcademySoftwareFoundation/xstudio
+            repo_url: https://github.com/AcademySoftwareFoundation/xstudio
+            logo: xstudio.svg
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              parent_project: Open Review Initiative
+              slack_url: https://slack.aswf.io
+              blog_url: https://www.aswf.io/category/xstudio/
+              chat_channel: '#ori-openrv-discussion'
+              youtube_url: https://www.youtube.com/watch?v=gydXcckrduA&list=PL9dZxafYCWmxemM-8SSOxigrbr5jvy1GJ&pp=sAgC
           - item:
             name: tlRender
             homepage_url: https://github.com/darbyjohnston/tlRender
@@ -250,6 +288,11 @@ landscape:
             logo: alicevision.svg
             twitter: https://twitter.com/mikrosanimation
             crunchbase: https://www.crunchbase.com/organization/mikros-image
+          - item:
+            name: BowerBot
+            homepage_url: https://binarycore.us/bowerbot
+            repo_url: https://github.com/binary-core-llc/bowerbot
+            logo: bowerbot.svg
           - item:
             name: Collada
             homepage_url: https://www.khronos.org/collada/
@@ -443,6 +486,13 @@ landscape:
             logo: munki.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
           - item:
+            name: OpenDCC
+            homepage_url: https://github.com/shapefx/OpenDCC
+            repo_url: https://github.com/shapefx/OpenDCC
+            logo: opendcc.svg
+            organization:
+              name: ShapeFX Loki
+          - item:
             name: PyMEL
             homepage_url: https://github.com/LumaPictures/pymel
             repo_url: https://github.com/LumaPictures/pymel
@@ -466,6 +516,11 @@ landscape:
             repo_url: https://github.com/imageworks/scala-migrations
             logo: scalamigrations.svg
             crunchbase: https://www.crunchbase.com/organization/sony-pictures-imageworks
+          - item:
+            name: TSDuck
+            homepage_url: https://tsduck.io/
+            repo_url: https://github.com/tsduck/tsduck
+            logo: tsduck.svg
   - category:
     name: Rendering and Queueing
     subcategories:
@@ -501,16 +556,30 @@ landscape:
             twitter: https://twitter.com/IntelSoftware
             crunchbase: https://www.crunchbase.com/organization/intel
           - item:
-            name: MoonRay
-            description: >-
-              MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer, which has been used on feature films such as How to
-              Train Your Dragon: The Hidden World, Trolls World Tour, The Bad Guys, the upcoming Puss In Boots: The Last Wish, as well as future titles. MoonRay
-              was developed at DreamWorks and is in continuous active development and includes an extensive library of production-tested, physically based
-              materials, a USD Hydra render delegate, multi-machine and cloud rendering via the Arras distributed computation framework.
-            homepage_url: https://openmoonray.org/
-            repo_url: https://github.com/dreamworksanimation/openmoonray
-            logo: moonray.svg
-            crunchbase: https://www.crunchbase.com/organization/dreamworks-9660
+            name: hdMitsuba
+            homepage_url: https://github.com/google/hdmitsuba
+            repo_url: https://github.com/google/hdmitsuba
+            logo: hdmitsuba.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: IO Blender MTLX
+            homepage_url: https://github.com/Activision/io_blender_mtlx
+            repo_url: https://github.com/Activision/io_blender_mtlx
+            logo: io_blender_mtlx.svg
+            crunchbase: https://www.crunchbase.com/organization/activision
+          - item:
+            name: Mitsuba
+            homepage_url: https://www.mitsuba-renderer.org/
+            repo_url: https://github.com/mitsuba-renderer/mitsuba3
+            logo: mitsuba.svg
+            additional_repos:
+              - repo_url: https://github.com/mitsuba-renderer/mitsuba2
+              - repo_url: https://github.com/mitsuba-renderer/nanogui
+              - repo_url: https://github.com/mitsuba-renderer/mitsuba
+              - repo_url: https://github.com/mitsuba-renderer/drjit
+            extra:
+              documentation_url: https://mitsuba.readthedocs.io
+              youtube_url: https://www.youtube.com/playlist?list=PLI9y-85z_Po6da-pyTNGTns2n4fhpbLe5
           - item:
             name: NVIDIA MDL SDK
             homepage_url: https://github.com/NVIDIA/MDL-SDK
@@ -524,6 +593,17 @@ landscape:
             project_org: https://github.com/OpenImageDenoise
             logo: OpenImageDenoise.svg
             crunchbase: https://www.crunchbase.com/organization/intel
+          - item:
+            name: OpenPBR
+            homepage_url: https://academysoftwarefoundation.github.io/OpenPBR/
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
+            logo: openpbr.svg
+            extra:
+              parent_project: MaterialX
+              blog_url: https://www.aswf.io/category/blog/openpbr/
+              slack_url: https://slack.aswf.io
+              chat_channel: '#openpbr'
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: Pixie
             homepage_url: http://www.renderpixie.com/
@@ -541,9 +621,32 @@ landscape:
             name: Slang
             homepage_url: https://shader-slang.com/
             repo_url: https://github.com/shader-slang/slang
-            project_org: https://github.com/shader-slang
+            additional_repos:
+              - repo_url: https://github.com/shader-slang/slang-rhi
+              - repo_url: https://github.com/shader-slang/slangpy
+              - repo_url: https://github.com/shader-slang/slang-material-modules-benchmark
+              - repo_url: https://github.com/shader-slang/slang-coverage-reports
+              - repo_url: https://github.com/shader-slang/shader-slang.github.io
+              - repo_url: https://github.com/shader-slang/slang-vscode-extension
+              - repo_url: https://github.com/shader-slang/stdlib-reference
+              - repo_url: https://github.com/shader-slang/slangpy-samples
+              - repo_url: https://github.com/shader-slang/neural-shading-s25
+              - repo_url: https://github.com/shader-slang/slang-torch
+              - repo_url: https://github.com/shader-slang/slang-binaries
+              - repo_url: https://github.com/shader-slang/spec
+              - repo_url: https://github.com/shader-slang/slang-vs-extension
+              - repo_url: https://github.com/shader-slang/slang-playground
+              - repo_url: https://github.com/shader-slang/slangpy-data
+              - repo_url: https://github.com/shader-slang/falcor-compile-perf-test
+              - repo_url: https://github.com/shader-slang/.github
             logo: slang.svg
             crunchbase: https://www.crunchbase.com/organization/khronos-group-2
+            extra:
+              blog_url: https://shader-slang.org/news/blogs/
+              bluesky_url: https://bsky.app/profile/shader-slang.bsky.social
+              discord_url: https://khr.io/slangdiscord
+              reddit_url: https://www.reddit.com/r/shaderslang/
+              youtube_url: https://www.youtube.com/playlist?list=PLYO7XTAX41FNNKUBI6BogkPFGwZ6x4-NE
           - item:
             name: StratusGFX
             homepage_url: https://ktstephano.github.io/portfolio
@@ -573,12 +676,6 @@ landscape:
       - subcategory:
         name: File Formats and Interchange
         items:
-          - item:
-            name: Field3D
-            homepage_url: https://github.com/imageworks/Field3D
-            repo_url: https://github.com/imageworks/Field3D
-            logo: field3d.svg
-            crunchbase: https://www.crunchbase.com/organization/sony-pictures-imageworks
           - item:
             name: OpenVPCal
             description: OpenVPCal is an open-source calibration tool for In-Camera Visual Effects pipelines.
@@ -629,6 +726,14 @@ landscape:
             logo: cgal.svg
             crunchbase: https://www.crunchbase.com/organization/computational-geometry-algorithms-library
           - item:
+            name: lmath
+            homepage_url: https://github.com/AcademySoftwareFoundation/Imath
+            repo_url: https://github.com/AcademySoftwareFoundation/Imath
+            logo: lmath.svg
+            extra:
+              parent_project: OpenEXR
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+          - item:
             name: pimath
             homepage_url: https://github.com/madpianist/pimath
             repo_url: https://github.com/madpianist/pimath
@@ -650,10 +755,7 @@ landscape:
             name: Academy of Motion Picture Arts and Sciences
             homepage_url: https://oscars.org/
             logo: academy_of_motion_picture_arts_and_sciences.svg
-            description: Founded in 1927, The Academy of Motion Picture Arts and Sciences is a nonprofit organization that specializes in advancing the arts and sciences of motion pictures.  Membership
-              of the organization is by invitation only and the Academy already has over 6,000 motion picture professionals in their roster. While The Academy hosts a number of annual
-              award shows, including The Governors Awards, their most well-known award show is The Academy Awards, officially known as The Oscars. The organization is headquartered in
-              Beverly Hills, California.
+            description: Founded in 1927, The Academy of Motion Picture Arts and Sciences is a nonprofit organization that specializes in advancing the arts and sciences of motion pictures.  Membership of the organization is by invitation only and the Academy already has over 6,000 motion picture professionals in their roster. While The Academy hosts a number of annual award shows, including The Governors Awards, their most well-known award show is The Academy Awards, officially known as The Oscars. The organization is headquartered in Beverly Hills, California.
             crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
             twitter: https://twitter.com/TheAcademy
             extra:
@@ -662,19 +764,25 @@ landscape:
             name: Adobe Inc.
             homepage_url: https://adobe.com/
             logo: adobe_inc.svg
-            description: Founded in 1982, Adobe is an American multinational computer software company that engages in the provision of digital marketing and digital media solutions.
-              Adobe is headquartered in San Jose, California.
+            description: Founded in 1982, Adobe is an American multinational computer software company that engages in the provision of digital marketing and digital media solutions. Adobe is headquartered in San Jose, California.
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
             twitter: https://twitter.com/Adobe
             extra:
               linkedin_url: https://www.linkedin.com/company/adobe
           - item:
+            name: Advanced Micro Devices (AMD)
+            homepage_url: https://amd.com/
+            logo: advanced_micro_devices_amd.svg
+            description: For more than 45 years AMD has driven innovation in high-performance computing, graphics, and visualization technologies; the building blocks for gaming, immersive platforms, and the data center. Hundreds of millions of consumers, leading Fortune 500 businesses, and cutting-edge scientific research facilities around the world rely on AMD technology daily to improve how they live, work, and play. AMD employees around the world are focused on building great products that push the boundaries of what is possible.
+            crunchbase: https://www.crunchbase.com/organization/amd
+            twitter: https://twitter.com/AMD
+            extra:
+              linkedin_url: https://www.linkedin.com/company/amd
+          - item:
             name: Amazon Web Services, Inc.
-            homepage_url: https://amazon.com/
+            homepage_url: https://aws.amazon.com/
             logo: amazon_web_services_inc.svg
-            description: Amazon.com, Inc. is an online retailer, offering new, refurbished and used products including books, DVDs, CDs, MP3 downloads, software, video games, electronics,
-              furniture, apparel, jewelry, and toys. The company also manufactures consumer electronics (notably the Amazon Kindle and the Kindle Fire) and provides cloud computing services.
-              Amazon is a publicly owned company and is based out of Seattle, WA.
+            description: Amazon.com, Inc. is an online retailer, offering new, refurbished and used products including books, DVDs, CDs, MP3 downloads, software, video games, electronics, furniture, apparel, jewelry, and toys. The company also manufactures consumer electronics (notably the Amazon Kindle and the Kindle Fire) and provides cloud computing services. Amazon is a publicly owned company and is based out of Seattle, WA.
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
             twitter: https://twitter.com/amazon
             extra:
@@ -683,19 +791,27 @@ landscape:
             name: Autodesk
             homepage_url: https://autodesk.com/
             logo: autodesk.svg
-            description: Founded in 1982, Autodesk is an American multinational corporation that focuses on 2D and 3D design software for use in architecture, engineering and building
-              construction, manufacturing, and media and entertainment. Autodesk helps people imagine, design and create a better world. Design professionals, engineers, digital artists,
-              and architects use Autodesk software. Autodesk has its global headquarters located in San Rafael, California.
+            description: Founded in 1982, Autodesk is an American multinational corporation that focuses on 2D and 3D design software for use in architecture, engineering and building construction, manufacturing, and media and entertainment. Autodesk helps people imagine, design and create a better world. Design professionals, engineers, digital artists, and architects use Autodesk software. Autodesk has its global headquarters located in San Rafael, California.
             crunchbase: https://www.crunchbase.com/organization/autodesk
             twitter: https://twitter.com/autodesk
             extra:
               linkedin_url: https://www.linkedin.com/company/autodesk
           - item:
-            name: DNEG
+            name: CIQ
+            homepage_url: https://ciq.com/
+            logo: ciq.svg
+            description: |-
+              CIQ reimagines software infrastructure with Rocky Linux, offering solutions for security, HPC computing, and cluster management. They empower people to do great things with support, certified hardware, and open source software.
+
+              --- Merged Data:
+
+              CIQ is reimagining software infrastructure with Rocky Linux as its foundation stone. Apptainer, Warewulf, and Fuzzball aid in security, HPC computing, and cluster management.
+            crunchbase: https://www.crunchbase.com/organization/ciq-bec8
+          - item:
+            name: Double Negative Limited
             homepage_url: https://dneg.com/
-            logo: dneg.svg
-            description: We are DNEG, one of the world's leading visual effects, animation and stereo conversion companies for feature film and television, with studios in London, Vancouver,
-              Mumbai, Los Angeles, Chennai, Montréal, Chandigarh, Hyderabad and Goa.
+            logo: double_negative_limited.svg
+            description: We are DNEG, one of the world's leading visual effects, animation and stereo conversion companies for feature film and television, with studios in London, Vancouver, Mumbai, Los Angeles, Chennai, Montréal, Chandigarh, Hyderabad and Goa.
             crunchbase: https://www.crunchbase.com/organization/double-negative
             twitter: https://twitter.com/dneg
             extra:
@@ -716,44 +832,32 @@ landscape:
             name: Epic Games, Inc
             homepage_url: https://epicgames.com/
             logo: epic_games_inc.svg
-            description: Epic Games has spent the past couple of decades building our own games and providing our game engine technology to other developers. We’ve created the “Unreal”
-              series of games, the “Gears of War” franchise and the “Infinity Blade” line of mobile games. We’re currently hard at work on our next games, Fortnite and Paragon. Sign
-              up for the betas at Fortnite.com and Paragon.com. Our Unreal Engine technology is available for free for everyone at www.unrealengine.com. To learn more about our company,
-              visit www.epicgames.com.
+            description: Epic Games has spent the past couple of decades building our own games and providing our game engine technology to other developers. We’ve created the “Unreal” series of games, the “Gears of War” franchise and the “Infinity Blade” line of mobile games. We’re currently hard at work on our next games, Fortnite and Paragon. Sign up for the betas at Fortnite.com and Paragon.com. Our Unreal Engine technology is available for free for everyone at www.unrealengine.com. To learn more about our company, visit www.epicgames.com.
             crunchbase: https://www.crunchbase.com/organization/epic-games-2
             twitter: https://twitter.com/EpicGames
             extra:
               linkedin_url: https://www.linkedin.com/company/epic-games
           - item:
-            name: Google LLC
-            homepage_url: https://google.com/
-            logo: google_llc.svg
-            description: Founded in 1998, Google, Inc. is a multinational corporation that provides Internet-related services and products, including an internet search engine, software,
-              cloud computing, and advertising technologies.
-            crunchbase: https://www.crunchbase.com/organization/google
-            twitter: https://twitter.com/Google
-            extra:
-              linkedin_url: https://www.linkedin.com/company/google
-          - item:
             name: Intel Corporation
             homepage_url: https://intel.com/
             logo: intel_corporation.svg
-            description: Intel Corporation designs, manufactures, and sells computer, networking, and communications platforms worldwide. The company offers microprocessors, chipsets,
-              and input, display, and storage devices, such as keyboard, mouse, monitor, hard drive or solid-state drive, and optical disc drives; and system-on-chip and multichip packaging
-              products. In addition, the company develops computer vision and machine learning-based sensing products, mapping and driving policy technology solutions for advanced driver
-              assistance systems, and autonomous driving technologies. It serves original equipment manufacturers, original design manufacturers, cloud and communications service providers,
-              and industrial, communications, and automotive equipment manufacturers. The company was founded in 1968 and is based in Santa Clara, California.
+            description: Intel Corporation designs, manufactures, and sells computer, networking, and communications platforms worldwide. The company offers microprocessors, chipsets, and input, display, and storage devices such as keyboards, mice, monitors, hard drives or solid-state drives, and optical disc drives; as well as system-on-chip and multichip packaging products. Additionally, the company develops computer vision and machine learning-based sensing products, mapping and driving policy technology solutions for advanced driver assistance systems, and autonomous driving technologies. It serves original equipment manufacturers, original design manufacturers, cloud and communications service providers, and industrial, communications, and automotive equipment manufacturers. Founded in 1968 and based in Santa Clara, California, Intel underpins everyday life. We design and manufacture technology that helps us all connect, create, and achieve great things—together. We deliver AI experiences that power businesses with industry-leading platforms. With 50 years of unmatched innovation and global scale, you get the reliability and resilience needed to launch into a future full of creativity and ingenuity.
             crunchbase: https://www.crunchbase.com/organization/intel
             twitter: https://twitter.com/intel
             extra:
               linkedin_url: https://www.linkedin.com/company/intel-corporation
           - item:
+            name: Laika
+            homepage_url: https://laika.com/
+            logo: laika.svg
+            description: LAIKA Studios, an award-winning animation studio, blends stop motion and CG animation to create captivating films like Coraline and Kubo and the Two Strings. Founded in 2005, LAIKA's innovative work has garnered prestigious awards and nominations.
+            extra:
+              linkedin_url: https://www.linkedin.com/company/laika
+          - item:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
-            description: The Microsoft Corporation is a publicly owned American software corporation headquartered in Redmond, Washington. Founded in 1975, the company develops, manufactures,
-              licenses and supports a variety of computing products used by consumers and businesses. Some of their popular products include Windows, Xbox, Microsoft HoloLens, Microsoft
-              Lumia, Outlook, Skype, OneDrive and Microsoft Band.
+            description: The Microsoft Corporation is a publicly owned American software corporation headquartered in Redmond, Washington. Founded in 1975, the company develops, manufactures, licenses and supports a variety of computing products used by consumers and businesses. Some of their popular products include Windows, Xbox, Microsoft HoloLens, Microsoft Lumia, Outlook, Skype, OneDrive and Microsoft Band.
             crunchbase: https://www.crunchbase.com/organization/microsoft
             twitter: https://twitter.com/Microsoft
             extra:
@@ -762,8 +866,7 @@ landscape:
             name: Netflix, Inc.
             homepage_url: https://netflix.com/
             logo: netflix_inc.svg
-            description: Netflix, founded in 1997 and headquartered in Los Gatos, California, is an Internet subscription service for watching television shows and movies. Subscribers
-              can instantly watch unlimited television shows and movies streamed over the Internet to their televisions, computers, and mobile devices.
+            description: Netflix, founded in 1997 and headquartered in Los Gatos, California, is an Internet subscription service for watching television shows and movies. Subscribers can instantly watch unlimited television shows and movies streamed over the Internet to their televisions, computers, and mobile devices.
             crunchbase: https://www.crunchbase.com/organization/netflix
             twitter: https://twitter.com/netflix
             extra:
@@ -778,12 +881,15 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/nvidia
           - item:
+            name: Paramount Skydance Corporation
+            homepage_url: https://paramount.com/
+            logo: paramount_skydance_corporation.svg
+            description: Paramount is a prominent producer of premium entertainment content, offering a diverse range of feature films, television shows, and streaming services that engage audiences globally.
+          - item:
             name: Samsung Electronics Co. Ltd.
             homepage_url: https://samsung.com/
             logo: samsung_electronics_co_ltd.svg
-            description: Founded in 1938, Samsung Electronics is a South Korean multinational electronics company engaged in consumer electronics, information technology, mobile communications,
-              and device solutions businesses worldwide. The company develops, manufactures, and sells various consumer products, including mobile phones, tablets, televisions, Blu-ray
-              players, and more. The company is headquartered in Suwon-si, South Korea.
+            description: Founded in 1938, Samsung Electronics is a South Korean multinational electronics company engaged in consumer electronics, information technology, mobile communications, and device solutions businesses worldwide. The company develops, manufactures, and sells various consumer products, including mobile phones, tablets, televisions, Blu-ray players, and more. The company is headquartered in Suwon-si, South Korea.
             crunchbase: https://www.crunchbase.com/organization/samsung-electronics
             twitter: https://twitter.com/Samsung
             extra:
@@ -792,10 +898,7 @@ landscape:
             name: Sony Pictures Entertainment
             homepage_url: https://sonypictures.com/
             logo: sony_pictures_entertainment.svg
-            description: Sony Pictures Entertainment (SPE) is a subsidiary of Sony Corporation of America (SCA), a subsidiary of Tokyo-based Sony Corporation. SPE's global operations
-              encompass motion picture production and distribution; television production and distribution; digital content creation and distribution; worldwide channel investments;
-              home entertainment acquisition and distribution, operation of studio facilities; development of new entertainment products, services and technologies; and distribution
-              of filmed entertainment in 67 countries.
+            description: Sony Pictures Entertainment (SPE) is a subsidiary of Sony Corporation of America (SCA), a subsidiary of Tokyo-based Sony Corporation. SPE's global operations encompass motion picture production and distribution; television production and distribution; digital content creation and distribution; worldwide channel investments; home entertainment acquisition and distribution, operation of studio facilities; development of new entertainment products, services and technologies; and distribution of filmed entertainment in 67 countries.
             crunchbase: https://www.crunchbase.com/organization/sony-pictures-entertainment
             twitter: https://twitter.com/SonyPictures
             extra:
@@ -804,10 +907,7 @@ landscape:
             name: The Walt Disney Studios
             homepage_url: https://disney.com/
             logo: the_walt_disney_studios.svg
-            description: (Disney) - Disney Parks Talent Casting is the Entertainment Casting group within Walt Disney Parks & Resorts. Many are surprised to learn that Disney is one
-              of the largest live entertainment companies in the world. We produce thousands of special events around the world and entertain millions of Guests every year in our Theme
-              Parks & Resorts. With such a huge scope of entertainment, there are countless ways to share your talent with our Disney Guests. From professional musical theater actors
-              looking for their next adventure, to aspiring performers looking for a place to hone their talent and learn the business. We have a spot for just about everyone.
+            description: (Disney) - Disney Parks Talent Casting is the Entertainment Casting group within Walt Disney Parks & Resorts. Many are surprised to learn that Disney is one of the largest live entertainment companies in the world. We produce thousands of special events around the world and entertain millions of Guests every year in our Theme Parks & Resorts. With such a huge scope of entertainment, there are countless ways to share your talent with our Disney Guests. From professional musical theater actors looking for their next adventure, to aspiring performers looking for a place to hone their talent and learn the business. We have a spot for just about everyone.
             crunchbase: https://www.crunchbase.com/organization/walt-disney-internet-group
             twitter: https://twitter.com/Disney
             extra:
@@ -825,16 +925,6 @@ landscape:
         name: General
         items:
           - item:
-            name: Animal Logic Pty Ltd
-            homepage_url: https://animallogic.com/
-            logo: animal_logic_pty_ltd.svg
-            description: Animal Logic is an Australian animation and visual effects digital studio based at Fox Studios in Sydney, Yaletown, Vancouver in Canada, and Rideback Ranch in
-              Los Angeles, California.
-            crunchbase: https://www.crunchbase.com/organization/animal-logic
-            twitter: https://twitter.com/animallogic
-            extra:
-              linkedin_url: https://www.linkedin.com/company/animal-logic
-          - item:
             name: Bolt Graphics
             homepage_url: https://bolt.graphics/
             logo: bolt_graphics.svg
@@ -849,14 +939,17 @@ landscape:
             name: Caligra
             homepage_url: https://caligra.com/
             logo: caligra.svg
-            organization:
-              name: Caligra
+            description: |-
+              Caligra is a new computer company. 
+
+              Most people don’t write code or manage data, and consumer devices are designed accordingly. But change isn’t made by most people. Progress comes from the people whose work improves our understanding and ability. Scientists and artists. Engineers and designers. Hackers and painters. We think the world needs a brand of computing that stands behind creative technical work, dedicated to creating instead of consuming. Our goal is to help you make the future.
+
+              Caligra has developed Workbench a brand-new Linux based operating system and the C100 Developer Terminal, computing hardware optimised for Workbench.
           - item:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            description: Canonical Ltd. is a UK-based privately held computer software company founded and funded by South African entrepreneur Mark Shuttleworth to market commercial
-              support and related services for Ubuntu and related projects.
+            description: Canonical Ltd. is a UK-based privately held computer software company founded and funded by South African entrepreneur Mark Shuttleworth to market commercial support and related services for Ubuntu and related projects.
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             twitter: https://twitter.com/Canonical
             extra:
@@ -866,18 +959,20 @@ landscape:
             homepage_url: https://coreweave.com/
             logo: coreweave_inc.svg
             description: CoreWeave - Accelerating the way the world creates.  NVIDIA GTC Registration 👇  https://t.co/twAghCKTyP
+            crunchbase: https://www.crunchbase.com/organization/coreweave
             twitter: https://twitter.com/CoreWeave
-            organization:
-              name: CoreWeave, Inc.
-              linkedin: https://www.linkedin.com/company/coreweave
             extra:
               linkedin_url: https://www.linkedin.com/company/coreweave
+          - item:
+            name: Evercast
+            homepage_url: https://evercast.com/
+            logo: evercast.svg
+            description: 'Evercast: Leading video collaboration platform for remote creators. Stream, chat, and create in real time with HD live streaming and video conferencing.'
           - item:
             name: Framestore
             homepage_url: https://framestore.com/
             logo: framestore.svg
-            description: Framestore brings extraordinary ideas to life in any space or screen through craft, imagination and technology. Offices in London, New York, Los Angeles, Montréal,
-              and Chicago.
+            description: Framestore brings extraordinary ideas to life in any space or screen through craft, imagination and technology. Offices in London, New York, Los Angeles, Montréal, and Chicago.
             crunchbase: https://www.crunchbase.com/organization/framestore
             twitter: https://twitter.com/Framestore
             extra:
@@ -909,16 +1004,24 @@ landscape:
             name: Maxon Computer GmbH
             homepage_url: https://maxon.net/
             logo: maxon_computer_gmbh.svg
-            description: Maxon makes powerful, yet approachable software solutions for content creators working in 2D and 3D design, motion graphics, visual effects and visualization.
-              Maxon's innovative product portfolio helps artists supercharge their creative workflows. Its product lines include the award-winning Cinema 4D suite of 3D modeling, simulation
-              and animation technology, the diverse Red Giant lineup of revolutionary editing, motion design and filmmaking tools, the high-end production, blazingly fast Redshift rendering
-              solutions and the intuitive forger mobile sculpting app. Maxon's team is comprised of fun, passionate people who believe in building and empowering a successful artistic
-              community. From its popular, inclusive events to its free Cineversity educational resources, Maxon recognizes that developing strong connections with creatives and fostering
-              their professional growth is integral to Maxon's ability to stay on top of industry trends and better serve customers. Maxon is part of the Nemetschek Group.
+            description: Maxon makes powerful, yet approachable software solutions for content creators working in 2D and 3D design, motion graphics, visual effects and visualization. Maxon's innovative product portfolio helps artists supercharge their creative workflows. Its product lines include the award-winning Cinema 4D suite of 3D modeling, simulation and animation technology, the diverse Red Giant lineup of revolutionary editing, motion design and filmmaking tools, the high-end production, blazingly fast Redshift rendering solutions and the intuitive forger mobile sculpting app. Maxon's team is comprised of fun, passionate people who believe in building and empowering a successful artistic community. From its popular, inclusive events to its free Cineversity educational resources, Maxon recognizes that developing strong connections with creatives and fostering their professional growth is integral to Maxon's ability to stay on top of industry trends and better serve customers. Maxon is part of the Nemetschek Group.
             crunchbase: https://www.crunchbase.com/organization/maxon-computer
             twitter: https://twitter.com/MaxonVFX
             extra:
               linkedin_url: https://www.linkedin.com/company/maxonvfx
+          - item:
+            name: Miris
+            homepage_url: https://miris.com/
+            logo: miris.svg
+            description: Miris specializes in providing patented technology that enables the streaming of interactive spatial content with six degrees of freedom, addressing a critical challenge in the spatial computing industry to facilitate mass adoption.
+          - item:
+            name: Netflix Animation Studios Australia Pty Ltd
+            homepage_url: https://netflixanimation.com/
+            logo: netflix_animation_studios_australia_pty_ltd.svg
+            description: Netflix is one of the world's leading entertainment services, members in over 190 countries enjoy TV series, films and games across a wide variety of genres and languages. Netflix Animation Studios is an internal end-to-end animation studio focused on delivering world class animated films for our streaming platform.
+            twitter: https://twitter.com/animallogic
+            extra:
+              linkedin_url: https://www.linkedin.com/company/animal-logic
           - item:
             name: OTOY, Inc.
             homepage_url: https://otoy.com/
@@ -929,17 +1032,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/otoy
           - item:
-            name: Red Hat, Inc.
-            homepage_url: https://redhat.com/
-            logo: red_hat_inc.svg
-            description: Red Hat was established in 1993 and is headquartered in Raleigh, North Carolina. Red Hat is the provider of open source software solutions, using a community-powered
-              approach to provide reliable and high-performing cloud, Linux, middleware, storage, and virtualization technologies. Red Hat also offers support, training, and consulting
-              services. As the connective hub in a global network of enterprises, partners, and open source communities, Red Hat helps create relevant, innovative technologies that liberate
-              resources for growth and prepare customers for the future of IT.
-            crunchbase: https://www.crunchbase.com/organization/red-hat
-            twitter: https://twitter.com/RedHat
+            name: Raynault VFX
+            homepage_url: https://raynault.com/
+            logo: raynault_vfx.svg
+            description: Raynault VFX is a visual effects studio based in Montreal, specializing in creating visually stunning and technically sophisticated effects for feature films and high-profile episodic content.
             extra:
-              linkedin_url: https://www.linkedin.com/company/red-hat
+              linkedin_url: https://www.linkedin.com/company/raynault-com
           - item:
             name: SideFX
             homepage_url: https://sidefx.com/
@@ -953,90 +1051,32 @@ landscape:
             name: The Foundry Visionmongers Limited
             homepage_url: https://foundry.com/
             logo: the_foundry_visionmongers_limited.svg
-            description: The Foundry Visionmongers was founded in 1996. The company offers VFX software, NUKE, compositing, MARI, texture painting, etc. It is headquartered in United
-              Kingdom.
+            description: The Foundry Visionmongers was founded in 1996. The company offers VFX software, NUKE, compositing, MARI, texture painting, etc. It is headquartered in United Kingdom.
             crunchbase: https://www.crunchbase.com/organization/foundry
             twitter: https://twitter.com/TheFoundryTeam
             extra:
               linkedin_url: https://www.linkedin.com/company/foundryteam
-          - item:
-            name: Warner Bros. Entertainment Inc.
-            homepage_url: https://warnerbros.com/
-            logo: warner_bros_entertainment_inc.svg
-            description: |-
-              About us
-              WARNER BROS. ENTERTAINMENT is a global leader in all forms of entertainment and their related businesses across all current and emerging media and platforms. A WarnerMedia Company, the fully integrated, broad-based Studio is home to one of the most successful collections of brands in the world and stands at the forefront of every aspect of the entertainment industry from feature film, television and home entertainment production and worldwide distribution to DVD and Blu-ray, digital distribution, animation, comic books, video games, product and brand licensing, and broadcasting. The company’s vast library, one of the most prestigious and valuable in the world, consists of more than 61,000 hours of programming, including nearly 6,500 feature films and 3,000 television programs comprised of tens of thousands of individual episodes.
-
-              Warner Bros. Entertainment has employees in over 30 countries. The company is headquartered at the Warner Bros. Studios lot, 142 acres in Burbank, California, which is considered one of the foremost motion picture and television production and post-production facilities in the world and is also home to 35 soundstages (including one of the world’s tallest stages, which has an in-ground tank capable of holding more than two million gallons of water). Warner Bros. Studio Facilities also manages the company’s studio in the U.K., Warner Bros. Studios Leavesden, which is a 160-acre production facility that has been the production site of many highly acclaimed Warner Bros. movies including the eight Harry Potter films.
-
-              Recent updateSee all See all recent updates
-              Image accompanying recent update
-              AQUAMAN – Extended Video – Only in Theaters December 21
-
-              youtube.com
-
-              497 Likes 13 Comments
-              Company details
-              Website
-              http://www.warnerbros.com/
-              Headquarters
-              Burbank, CA
-
-              Year founded
-              1923
-
-              Company type
-              Public Company
-
-              Company size
-              10,001+ employees
-              Specialties
-              Digital Media, Television, Motion Pictures, Interactive Entertainment (Games), DC Comics, Studio Operations, Consumer Products, Technology, and Video Games
-
-              7 Office locations
-              Warner Bros. Studios  Main
-              4000 Warner Boulevard, Burbank, CA 91522, us
-
-              Get directions Get directions to 4000 Warner Boulevard, Burbank, CA 91522, us
-              Warner Bros. UK
-              Warner House, 98 Theobald's Road, London, WC1X 8WB, gb
-
-              Get directions Get directions to Warner House, 98 Theobald&#39;s Road, London, WC1X 8WB, gb
-              WB Games Montreal
-              888, Boul. De Maisonneuve, Montreal, Quebec QC H2L 4S8, ca
-
-              Get directions Get directions to 888, Boul. De Maisonneuve, Montreal, Quebec QC H2L 4S8, ca
-              Warner Entertainment Japan
-              Hibiya Central Bldg., 1-2-9 Nishi-Shimbashi, Minato-ku, Tokyo, 105-0003, jp
-
-              Get directions Get directions to Hibiya Central Bldg., 1-2-9 Nishi-Shimbashi, Minato-ku, Tokyo, 105-0003, jp
-              WB Games Seattle
-              113th Avenue, Kirkland, WA us
-
-              Get directions Get directions to 113th Avenue, Kirkland, WA us
-              Warner Bros. Toronto
-              5000 Yonge St, Toronto, ON M2N 6P1, ca
-
-              Get directions Get directions to 5000 Yonge St, Toronto, ON M2N 6P1, ca
-              Turbine
-              117 Kendrick St, Needham, MA 02494, us
-
-              Get directions
-            crunchbase: https://www.crunchbase.com/organization/new-line-cinema
-            twitter: https://twitter.com/warnerbros
-            extra:
-              linkedin_url: https://www.linkedin.com/company/warner-bros.-pictures
       - subcategory:
         name: Associate
         items:
           - item:
+            name: AlmaLinux OS Foundation
+            homepage_url: https://almalinux.org/
+            logo: almalinux_os_foundation.svg
+            description: |-
+              AlmaLinux OS is an enterprise Linux (EL) operating system used across the globe by people and organizations that need a stable operating system in the EL ecosystem that's free and doesn't require a commercial license agreement. This includes everything from non-profit organizations to Fortune 500 companies, from hobbyists managing their home automation to professionals managing supercomputers that are expanding our understanding of the universe - and everything in between. 
+
+              As the first downstream RHEL-compatible operating system to be released after the announcement that support for CentOS Linux was ending, our goal is to provide a stable, long-term option for anyone who has historically used CentOS Linux, and for whom CentOS Stream is not an option. 
+
+              The AlmaLinux OS Foundation is a 501(c)(6) non-profit entity created as the central collaboration point for everything to do with AlmaLinux, and for the benefit of the AlmaLinux OS community.
+            twitter: https://twitter.com/AlmaLinux
+            extra:
+              linkedin_url: https://www.linkedin.com/company/almalinuxos
+          - item:
             name: Blender Foundation
             homepage_url: https://blender.org/
             logo: blender_foundation.svg
-            description: The Blender Foundation (2002) is an independent public benefit organization with the purpose to provide a complete, free and open source 3D creation pipeline,
-              managed by public projects on blender.org. The foundation offers grants to individual contributors to Blender, worldwide. Its spin-off corporation Blender Institute (2007)
-              has been established in Amsterdam the Netherlands, it hosts the foundation's offices and currently employs over 20 people who work on the Blender software and creative
-              projects to validate and stress Blender in production environments.
+            description: The Blender Foundation (2002) is an independent public benefit organization with the purpose to provide a complete, free and open source 3D creation pipeline, managed by public projects on blender.org. The foundation offers grants to individual contributors to Blender, worldwide. Its spin-off corporation Blender Institute (2007) has been established in Amsterdam the Netherlands, it hosts the foundation's offices and currently employs over 20 people who work on the Blender software and creative projects to validate and stress Blender in production environments.
             crunchbase: https://www.crunchbase.com/organization/blender-org
             twitter: https://twitter.com/Blender
             extra:
@@ -1067,21 +1107,42 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/movielabs
           - item:
+            name: O3DE
+            homepage_url: https://o3df.org/
+            logo: o3de.svg
+            description: O3DE focuses on creating a fully featured, high fidelity, real-time, modular open source 3D engine designed for diverse applications, including game development, robotics, automotive, and immersive augmented and virtual reality experiences.
+          - item:
+            name: Rochester Institute of Technology
+            homepage_url: https://rit.edu/
+            logo: rochester_institute_of_technology.svg
+            description: Rochester Institute of Technology is a private, coeducational university located in Rochester, New York. The institute also has international campuses in Dubai and Eastern Europe.
+            crunchbase: https://www.crunchbase.com/organization/rochester-institute-of-technology
+            twitter: https://twitter.com/RITtigers
+            extra:
+              linkedin_url: https://www.linkedin.com/company/rochester-institute-of-technology
+          - item:
             name: Society of Motion Picture and Television Engineers
             homepage_url: https://smpte.org/
             logo: society_of_motion_picture_and_television_engineers.svg
-            description: The Society of Motion Picture and Television Engineers, founded in 1916 as the Society of Motion Picture Engineers or SMPE, is a global professional association,
-              of engineers, technologists, and executives working in the media and entertainment industry.
+            description: The Society of Motion Picture and Television Engineers, founded in 1916 as the Society of Motion Picture Engineers or SMPE, is a global professional association, of engineers, technologists, and executives working in the media and entertainment industry.
             crunchbase: https://www.crunchbase.com/organization/smpte
             twitter: https://twitter.com/smpteconnect
             extra:
               linkedin_url: https://www.linkedin.com/company/smpte
           - item:
+            name: Texas A&M University
+            homepage_url: https://tamu.edu/
+            logo: texas_a_m_university.svg
+            description: Texas A&M University is a public research university in College Station, Texas.
+            crunchbase: https://www.crunchbase.com/organization/texas-a-m-university
+            twitter: https://twitter.com/TAMU
+            extra:
+              linkedin_url: https://www.linkedin.com/company/texas-a&m-university
+          - item:
             name: The Khronos Group Inc
             homepage_url: https://khronos.org/
             logo: the_khronos_group_inc.svg
-            description: The Khronos Group, Inc. is an American non-profit member-funded industry consortium based in Beaverton, Oregon, focused on the creation of open standard, royalty-free
-              application programming interfaces for authoring and accelerated playback of dynamic ...
+            description: The Khronos Group, Inc. is an American non-profit member-funded industry consortium based in Beaverton, Oregon, focused on the creation of open standard, royalty-free application programming interfaces for authoring and accelerated playback of dynamic ...
             crunchbase: https://www.crunchbase.com/organization/khronos-group-2
             twitter: https://twitter.com/thekhronosgroup
             extra:
@@ -1090,8 +1151,7 @@ landscape:
             name: Visual Effects Society
             homepage_url: https://vesglobal.org/
             logo: visual_effects_society.svg
-            description: The Visual Effects Society (VES) is the entertainment industry's only organization representing the full breadth of visual effects practitioners including artists,
-              animators, technologists, model makers, educators, studio leaders, supervisors, PR/marke...
+            description: The Visual Effects Society (VES) is the entertainment industry's only organization representing the full breadth of visual effects practitioners including artists, animators, technologists, model makers, educators, studio leaders, supervisors, PR/marke...
             crunchbase: https://www.crunchbase.com/organization/visual-effects-society
             twitter: https://twitter.com/VFXSociety
             extra:
@@ -1158,71 +1218,189 @@ landscape:
     name: ASWF Projects
     subcategories:
       - subcategory:
-        name: Adopted
+        name: Graduated
         items:
+          - item:
+            name: Digital Production Example Library (DPEL)
+            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
+            logo: digital_production_example_library_dpel.svg
+            description: In order to encourage development and research that addresses the true scale, scope and requirements of computer graphics film production, the Asset Repository seeks to publish and maintain curated exemplars of the data sets used in our industry. Research projects and commercial development projects often have trouble obtaining input datasets with full film complexity, and that are licensed to allow publishing research results and software demonstrations. Disney’s Moana Island is a prime example of what we want to encourage, but in addition to 3D scene data, assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
+            second_path:
+              - Assets and Workflow / Scenes and Geometry
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
+            license: Other
+            additional_repos:
+              - repo_url: https://github.com/DigitalProductionExampleLibrary/ALab
+              - repo_url: https://github.com/DigitalProductionExampleLibrary/OpenPBRShaderPlayground
+              - repo_url: https://github.com/DigitalProductionExampleLibrary/SoleMates
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2021-07-28'
+              annotations:
+                next_annual_review_date: '2027-09-15'
+                chair: Matthew Low
+                wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
+                contributed_by: Academy Software Foundation
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-09-16'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/472
+              artwork_url: https://artwork.aswf.io/projects/dpel/
+              blog_url: https://www.aswf.io/category/dpel/
+              chat_channel: '#assets'
+              dev_stats_url: https://insights.linuxfoundation.org/project/dpel
+              graduated: '2023-09-20'
+              incubating: '2021-07-28'
+              lfx_slug: dpel
+              mailing_list_url: https://lists.aswf.io/g/assets-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/dpel_charter.pdf
+              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzSD3v4mA7z-XHf5wwAhrCy
           - item:
             name: MaterialX
             homepage_url: https://www.materialx.org/
             logo: materialx.svg
-            description: MaterialX addresses the need for a common, open standard to represent the data values and relationships required to transfer the complete look of a computer
-              graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex nested materials and geometric assignments.
+            description: MaterialX addresses the need for a common, open standard to represent the data values and relationships required to transfer the complete look of a computer graphics model from one application or rendering platform to another, including shading networks, patterns and texturing, complex nested materials and geometric assignments.
             second_path:
               - Rendering and Queueing / Rendering, Lighting, and Lookdev
               - Dev Days 2024 / Participating Project
             project: graduated
-            repo_url: https://github.com/materialx/MaterialX
+            repo_url: https://github.com/AcademySoftwareFoundation/MaterialX
+            license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/OpenPBR
               - repo_url: https://github.com/AcademySoftwareFoundation/materialx-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             twitter: https://twitter.com/MaterialXCG
             extra:
-              accepted: '2021-09-15'
+              accepted: '2021-04-21'
               annotations:
-                slug: materialx
-                next_annual_review_date: '2025-02-05'
+                next_annual_review_date: '2027-02-03'
                 chair: Jonathan Stone
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
                 contributed_by: Lucasfilm
-              annual_review_date: '2024-02-07'
+                submitted_date: '2023-09-18'
+              audits:
+                - date: '2025-07-31'
+                  type: audit
+                  vendor: Shielder
+                  url: https://ostif.org/wp-content/uploads/2025/07/OSTIF-MaterialX-Report-PT-v1.2.pdf
+              annual_review_date: '2026-02-04'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/486
               artwork_url: https://artwork.aswf.io/projects/materialx/
+              blog_url: https://www.aswf.io/category/materialx/
               chat_channel: '#materialx'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=materialx
+              dev_stats_url: https://insights.linuxfoundation.org/project/materialx
               documentation_url: https://docs.materialx.org
+              graduated: '2024-09-23'
+              incubating: '2021-04-21'
+              lfx_slug: materialx
               mailing_list_url: https://lists.aswf.io/g/materialx-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/materialx
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdoQAD
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/materialx/materialx_Charter.pdf?v=1763650361119
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmxHDHI2tx9lhakwdY15OTvk
           - item:
-            name: Digital Production Example Library (DPEL)
-            homepage_url: https://wiki.aswf.io/display/DPEL/DPEL+Wiki
-            logo: digital_production_example_library_dpel.svg
-            description: In order to encourage development and research that addresses the true scale, scope and requirements of computer graphics film production, the Asset Repository
-              seeks to publish and maintain curated exemplars of the data sets used in our industry. Research projects and commercial development projects often have trouble obtaining
-              input datasets with full film complexity, and that are licensed to allow publishing research results and software demonstrations. Disney’s Moana Island is a prime example
-              of what we want to encourage, but in addition to 3D scene data, assets could also be images, image sequences, volumetric data, animation rigs, edit decision lists, etc.
+            name: OpenColorIO
+            homepage_url: https://opencolorio.org/
+            logo: opencolorio.svg
+            description: The OpenColorIO project is committed to providing an industry standard solution for highly precise, performant, and consistent color management across digital content creation applications and pipelines.
             second_path:
-              - Imaging and Color / Display and Review
+              - Imaging and Color / Color Science
+              - Dev Days 2024 / Participating Project
             project: graduated
-            repo_url: https://github.com/AcademySoftwareFoundation/dpel-website
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
+            license: BSD-3-Clause
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2021-09-02'
+              accepted: '2019-01-16'
               annotations:
-                slug: dpel
-                next_annual_review_date: '2025-09-17'
-                chair: Matthew Low
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dpel
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001Lk6x8QAB
-                wiki_url: https://wiki.aswf.io/display/ARW/DPEL+Wiki
-                contributed_by: Academy Software Foundation
-              annual_review_date: '2024-09-18'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/472
-              artwork_url: https://artwork.aswf.io/projects/dpel/
-              chat_channel: '#assets'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=dpel
-              mailing_list_url: https://lists.aswf.io/g/assets-discussion
+                next_annual_review_date: '2027-01-13'
+                chair: Carol Payne
+                contributed_by: Sony Pictures Imageworks
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-03-18'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/474
+              artwork_url: https://artwork.aswf.io/projects/opencolorio/
+              blog_url: https://www.aswf.io/category/ocio/
+              chat_channel: '#opencolorio'
+              dev_stats_url: https://insights.linuxfoundation.org/project/opencolorio
+              documentation_url: https://docs.opencolorio.org
+              graduated: '2019-09-11'
+              incubating: '2019-01-16'
+              lfx_slug: opencolorio
+              mailing_list_url: https://lists.aswf.io/g/ocio-user
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencolorio/opencolorio_Charter.pdf?v=1763650583017
               slack_url: https://slack.aswf.io
+              summary_intro_url: https://youtu.be/sa7WqKxDRKY?si=lRR4a4ogdl31axmN
+              youtube_url: https://youtube.com/playlist?list=PL9dZxafYCWmynmQAvJWqhcVO5aZaEDgvG&si=TvTcWTCQQ1DefCgA
+          - item:
+            name: OpenCue
+            homepage_url: https://opencue.io/
+            logo: opencue.svg
+            description: OpenCue is an open source render management system. You can use OpenCue in visual effects and animation production to break down complex jobs into individual tasks. You can submit jobs to a configurable dispatch queue that allocates the necessary computational resources.
+            second_path:
+              - Rendering and Queueing / Queueing and Render Management
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
+            license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2019-04-03'
+              annotations:
+                next_annual_review_date: '2027-05-12'
+                chair: Diego Tavares Da Silva
+                contributed_by: Sony Pictures Imageworks and Google Cloud
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-05-13'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
+              artwork_url: https://artwork.aswf.io/projects/opencue/
+              blog_url: https://www.aswf.io/tag/opencue/
+              chat_channel: '#opencue'
+              dev_stats_url: https://insights.linuxfoundation.org/project/opencue
+              documentation_url: https://docs.opencue.io
+              graduated: '2021-03-24'
+              incubating: '2019-04-03'
+              lfx_slug: opencue
+              mailing_list_url: https://lists.aswf.io/g/opencue-user
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencue/opencue_Charter.pdf?v=1781649669261
+              slack_url: https://slack.aswf.io
+              summary_use_case: |
+                OpenCue is an open source render management system. Scale your rendering pipeline with job scheduling, resource optimization, and integration across your production workflow.
+
+                Use Cases:
+
+                - High-scale rendering: OpenCue provides features to manage rendering jobs at high scale.
+                - Built for visual effects and animation: Sony Pictures Imageworks in-house render manager used on hundreds of films.
+                - Render at scale: Highly scalable architecture supporting numerous concurrent machines.
+                - Flexible deployment: Support for multi-facility, on-premise, cloud, and hybrid deployments.
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzSBEwVT2AQinmZolYqBzdp
           - item:
             name: OpenEXR
             homepage_url: https://www.openexr.com/
@@ -1233,6 +1411,7 @@ landscape:
               - Dev Days 2024 / Participating Project
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openexr
+            license: BSD-3-Clause
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/Imath
               - repo_url: https://github.com/AcademySoftwareFoundation/openexr-images
@@ -1240,202 +1419,308 @@ landscape:
               - repo_url: https://github.com/AcademySoftwareFoundation/openexr-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2020-04-24'
+              accepted: '2019-04-10'
               annotations:
-                slug: openexr
-                next_annual_review_date: '2025-04-16'
+                next_annual_review_date: '2027-07-07'
                 chair: Cary Phillips
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
                 contributed_by: Lucasfilm
-              annual_review_date: '2024-04-17'
+                submitted_date: '2023-09-18'
+              audits:
+                - date: '2025-07-31'
+                  type: audit
+                  vendor: Shielder
+                  url: https://ostif.org/wp-content/uploads/2025/07/OSTIF-OpenEXR-Report-PT-v1.2.pdf
+              annual_review_date: '2026-07-08'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/483
               artwork_url: https://artwork.aswf.io/projects/openexr/
+              blog_url: https://www.aswf.io/category/openexr/
               chat_channel: '#openexr'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openexr
+              dev_stats_url: https://insights.linuxfoundation.org/project/openexr
               documentation_url: https://docs.openexr.com
+              graduated: '2019-11-05'
+              incubating: '2019-04-10'
+              lfx_slug: openexr
               mailing_list_url: https://lists.aswf.io/g/openexr-dev
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openexr
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9ujQAB
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openexr/openexr_Charter.pdf?v=1763650546302
               slack_url: https://slack.aswf.io
+              summary_intro_url: https://youtu.be/X0khNMmEJEI?si=XlGAniT8vzCKcvCd
+              youtube_url: https://youtube.com/playlist?list=PL9dZxafYCWmzipPUvmSQ8RVZDNwCVe-ss&si=GGRcD2sLO5yQ0eLi
           - item:
-            name: OpenCue
-            homepage_url: https://opencue.io/
-            logo: opencue.svg
-            description: OpenCue is an open source render management system. You can use OpenCue in visual effects and animation production to break down complex jobs into individual
-              tasks. You can submit jobs to a configurable dispatch queue that allocates the necessary computational resources.
+            name: OpenImageIO
+            homepage_url: https://openimageio.org/
+            logo: openimageio.svg
+            description: The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation via a format- agnostic API, with a feature set, scalability, and robustness needed for production.
             second_path:
-              - Rendering and Queueing / Queueing and Render Management
+              - Imaging and Color / Image Formats, I/O, and Processing Libraries
+              - Dev Days 2024 / Participating Project
             project: graduated
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
+            license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
+              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2020-04-24'
+              accepted: '2023-05-03'
               annotations:
-                slug: opencue
-                next_annual_review_date: '2025-05-28'
-                chair: Diego Tavares Da Silva
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencue
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV3znQAD
-                contributed_by: Sony Pictures Imageworks and Google Cloud
-              annual_review_date: '2024-05-29'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/495
-              artwork_url: https://artwork.aswf.io/projects/opencue/
-              chat_channel: '#opencue'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencue
-              documentation_url: https://docs.opencue.io
-              mailing_list_url: https://lists.aswf.io/g/opencue-user
+                next_annual_review_date: '2027-08-18'
+                chair: Daniel Greenstein
+                contributed_by: Larry Gritz
+                submitted_date: '2023-10-02'
+              annual_review_date: '2026-08-19'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
+              artwork_url: https://artwork.aswf.io/projects/openimageio/
+              blog_url: https://www.aswf.io/category/openimageio/
+              chat_channel: '#openimageio'
+              dev_stats_url: https://insights.linuxfoundation.org/project/openimageio
+              documentation_url: https://docs.openimageio.org
+              graduated: '2025-06-17'
+              incubating: '2023-05-03'
+              lfx_slug: openimageio
+              mailing_list_url: https://lists.aswf.io/g/oiio-dev
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openimageio/openimageio_Charter.pdf?v=1781649853005
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyXAky41GrQmDvOZBmwGH8f
+          - item:
+            name: Open Shading Language
+            homepage_url: https://openshadinglanguage.org/
+            logo: open_shading_language.svg
+            description: Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for describing materials, lights, displacement, and pattern generation.
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+              - Dev Days 2024 / Participating Project
+            project: graduated
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
+            license: BSD-3-Clause
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2020-02-12'
+              annotations:
+                next_annual_review_date: '2026-10-28'
+                chair: Chris Kulla
+                contributed_by: Sony Pictures Imageworks
+                submitted_date: '2023-07-19'
+              annual_review_date: '2025-10-29'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
+              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
+              blog_url: https://www.aswf.io/category/osl/
+              chat_channel: '#openshadinglanguage'
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-shading-language
+              documentation_url: https://docs.openshadinglanguage.org
+              graduated: '2023-09-06'
+              incubating: '2020-02-12'
+              lfx_slug: open-shading-language
+              mailing_list_url: https://lists.aswf.io/g/osl-dev
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-shading-language_charter.md
+              slack_url: https://slack.aswf.io
+              summary_intro_url: https://www.youtube.com/watch?v=nmwMz1YnGPA&list=PL9dZxafYCWmyxu4FJ2PBtme5GGQELfa0M&index=1
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyxu4FJ2PBtme5GGQELfa0M
           - item:
             name: OpenVDB
             homepage_url: https://www.openvdb.org/
             logo: openvdb.svg
-            description: OpenVDB provides an industry standard for authoring, processing and storing of high-resolution volumetric data. As such, we are committed to improving and maintaining
-              both the hierarchical VDB data structure and the large suite of tools for its efficient traversal and manipulation.
+            description: OpenVDB provides an industry standard for authoring, processing and storing of high-resolution volumetric data. As such, we are committed to improving and maintaining both the hierarchical VDB data structure and the large suite of tools for its efficient traversal and manipulation.
             second_path:
               - Math and Simulation / File Formats and Interchange
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openvdb
+            license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/openvdb-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2019-01-11'
+              accepted: '2018-09-05'
               annotations:
-                slug: openvdb
-                next_annual_review_date: '2025-01-08'
+                next_annual_review_date: '2027-02-03'
                 chair: Ken Museth
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
                 contributed_by: Dreamworks Animation
-              annual_review_date: '2024-01-10'
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-02-18'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/480
               artwork_url: https://artwork.aswf.io/projects/openvdb/
+              blog_url: https://www.aswf.io/category/openvdb/
               chat_channel: '#openvdb'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openvdb
+              dev_stats_url: https://insights.linuxfoundation.org/project/openvdb
               documentation_url: https://docs.openvdb.org
+              graduated: '2019-07-24'
+              incubating: '2018-09-05'
+              lfx_slug: openvdb
               mailing_list_url: https://lists.aswf.io/g/openvdb-user
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openvdb
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9vIQAR
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openvdb/openvdb_Charter.pdf?v=1770049984910
               slack_url: https://slack.aswf.io
-          - item:
-            name: OpenColorIO
-            homepage_url: https://opencolorio.org/
-            logo: opencolorio.svg
-            description: The OpenColorIO project is committed to providing an industry standard solution for highly precise, performant, and consistent color management across digital
-              content creation applications and pipelines.
-            second_path:
-              - Imaging and Color / Color Science
-              - Dev Days 2024 / Participating Project
-            project: graduated
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2020-04-24'
-              annotations:
-                slug: opencolorio
-                next_annual_review_date: '2025-01-22'
-                chair: Carol Payne
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencolorio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9v8QAB
-                contributed_by: Sony Pictures Imageworks
-              annual_review_date: '2023-11-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/474
-              artwork_url: https://artwork.aswf.io/projects/opencolorio/
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=opencolorio
-              documentation_url: https://docs.opencolorio.org
-              mailing_list_url: https://lists.aswf.io/g/ocio-user
-              slack_url: https://slack.opencolorio.org
+              summary_intro_url: https://www.youtube.com/watch?v=GR2_8d9Bkc0&list=PL9dZxafYCWmwzRocyLymTwfrj6WWx3KZM&index=1
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmwzRocyLymTwfrj6WWx3KZM
       - subcategory:
         name: Incubating
         items:
           - item:
-            name: rawtoaces
-            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
-            logo: rawtoaces.svg
-            description: The rawtoaces project seeks to provide a reliable and extensible software framework for the conversion of digital camera RAW files to a high dynamic range scene
-              referred format, along with establishing a database of camera and related data to enable this framework.
+            name: Academy Color Encoding System (ACES)
+            homepage_url: https://acescentral.com/
+            logo: academy_color_encoding_system_aces.svg
+            description: The mission of the project is to develop a global standard for interchanging digital image files, managing color workflows, and creating masters for delivery and archiving.
             second_path:
               - Imaging and Color / Color Science
             project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces-data
+            repo_url: https://github.com/aces-aswf/aces-core
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2021-12-03'
+              accepted: '2025-07-15'
               annotations:
-                slug: rawtoaces
-                next_annual_review_date: '2025-01-22'
-                chair: Alexander Forsythe
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
-                contributed_by: The Academy of Motion Picture Arts and Sciences
-              annual_review_date: '2024-01-10'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
-              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
-              chat_channel: '#rawtoaces'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rawtoaces
-              documentation_url: https://docs.rawtoaces.org
-              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
+                next_annual_review_date: '2027-07-07'
+                contributed_by: Academy of Motion Picture Arts and Sciences
+                chair: Scott Dyer
+                project_org: https://github.com/aces-aswf
+                submitted_date: '2025-06-30'
+              annual_review_date: '2026-07-08'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1091
+              artwork_url: https://artwork.aswf.io/projects/aces/
+              blog_url: https://www.aswf.io/category/aces/
+              chat_channel: '#aces'
+              dev_stats_url: https://insights.linuxfoundation.org/project/aces
+              incubating: '2025-07-15'
+              lfx_slug: aces
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aces
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfXJcd7sytTjCn40g9
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/aces/aces_Charter.pdf?v=1763476981785
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmyGvvPfnirZjhT8MQI_6dda
+            additional_repos: []
+          - item:
+            name: OpenFX
+            homepage_url: https://openeffects.org/
+            logo: openfx.svg
+            description: The mission of the OpenFX Project is to promote and develop an image processing plug-in standard.
+            second_path:
+              - Imaging and Color / Interactive Compositing and Painting
+            project: incubating
+            repo_url: https://github.com/AcademySoftwareFoundation/openfx
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2022-04-20'
+              annotations:
+                next_annual_review_date: '2026-10-14'
+                chair: Gary Oberbrunner
+                contributed_by: Open Effects Association
+                submitted_date: '2023-10-03'
+              annual_review_date: '2025-07-23'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/514
+              artwork_url: https://artwork.aswf.io/projects/openfx/
+              blog_url: https://www.aswf.io/category/openfx/
+              chat_channel: '#openfx'
+              dev_stats_url: https://insights.linuxfoundation.org/project/openfx
+              documentation_url: https://docs.openeffects.org
+              incubating: '2022-04-20'
+              lfx_slug: openfx
+              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openfx/openfx_Charter.pdf?v=1763484679475
+              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy0NYfTz3ESD_4bTLqxo4mW
           - item:
             name: OpenTimelineIO
             homepage_url: http://opentimeline.io/
             logo: opentimelineio.svg
-            description: OpenTimelineIO (OTIO) is an API and interchange format for editorial cut information. You can think of it as a modern Edit Decision List (EDL) that also includes
-              an API for reading, writing, and manipulating editorial data. It also includes a plugin system for translating to/from existing editorial formats as well as a plugin system
-              for linking to proprietary media storage schemas.
+            description: OpenTimelineIO (OTIO) is an API and interchange format for editorial cut information. You can think of it as a modern Edit Decision List (EDL) that also includes an API for reading, writing, and manipulating editorial data. It also includes a plugin system for translating to/from existing editorial formats as well as a plugin system for linking to proprietary media storage schemas.
             second_path:
               - Assets and Workflow / Timelines and Animation
               - Dev Days 2024 / Participating Project
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2021-03-08'
+              accepted: '2019-07-26'
               annotations:
-                slug: open-timeline-io
-                next_annual_review_date: '2024-11-13'
+                next_annual_review_date: '2026-11-11'
                 chair: Eric Reinecke
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
                 contributed_by: Pixar Animation Studios
+                submitted_date: '2023-09-18'
               annual_review_date: '2025-11-12'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/477
               artwork_url: https://artwork.aswf.io/projects/open-timeline-io/
+              blog_url: https://www.aswf.io/category/otio/
               chat_channel: '#opentimelineio'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-timeline-io
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-timeline-io
+              incubating: '2019-07-26'
+              lfx_slug: open-timeline-io
               mailing_list_url: https://lists.aswf.io/g/otio-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-timeline-io
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If9uZQAR
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-timeline-io_charter.md
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzgGM3FWKw5gQJ1DAXyw78_
           - item:
-            name: Open Shading Language
-            homepage_url: https://opensource.imageworks.com/osl.html
-            logo: open_shading_language.svg
-            description: Open Shading Language (OSL) is a small but rich language for programmable shading in advanced renderers and other applications, ideal for describing materials,
-              lights, displacement, and pattern generation.
+            name: rawtoaces
+            homepage_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            logo: rawtoaces.svg
+            description: The rawtoaces project seeks to provide a reliable and extensible software framework for the conversion of digital camera RAW files to a high dynamic range scene referred format, along with establishing a database of camera and related data to enable this framework.
             second_path:
-              - Rendering and Queueing / Rendering, Lighting, and Lookdev
-              - Dev Days 2024 / Participating Project
+              - Imaging and Color / Color Science
             project: incubating
-            repo_url: https://github.com/imageworks/openshadinglanguage
+            repo_url: https://github.com/AcademySoftwareFoundation/rawtoaces
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2020-12-11'
+              accepted: '2020-12-16'
               annotations:
-                slug: open-shading-language
-                next_annual_review_date: '2025-10-29'
-                chair: Chris Kulla
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-shading-language
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWtEQAV
-                contributed_by: Sony Pictures Imageworks
-              annual_review_date: '2024-10-30'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/437
-              artwork_url: https://artwork.aswf.io/projects/open-shading-language/
-              chat_channel: '#openshadinglanguage'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-shading-language
-              documentation_url: https://docs.openshadinglanguage.org
-              mailing_list_url: https://lists.aswf.io/g/osl-dev
+                next_annual_review_date: '2027-09-01'
+                chair: Anton Dukhovnikov
+                contributed_by: The Academy of Motion Picture Arts and Sciences
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-09-02'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/475
+              artwork_url: https://artwork.aswf.io/projects/rawtoaces/
+              chat_channel: '#rawtoaces'
+              dev_stats_url: https://insights.linuxfoundation.org/project/rawtoaces
+              documentation_url: https://docs.rawtoaces.org
+              incubating: '2020-12-16'
+              lfx_slug: rawtoaces
+              mailing_list_url: https://lists.aswf.io/g/rawtoaces-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rawtoaces
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkKVeQAN
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rawtoaces/rawtoaces_Charter.pdf?v=1763485158376
               slack_url: https://slack.aswf.io
           - item:
             name: Rez
@@ -1448,108 +1733,126 @@ landscape:
               - Assets and Workflow / Software Foundation and System Administration
             project: incubating
             repo_url: https://github.com/AcademySoftwareFoundation/rez
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2022-03-08'
+              accepted: '2022-01-12'
               annotations:
-                slug: rez
-                next_annual_review_date: '2025-04-02'
+                next_annual_review_date: '2027-04-28'
                 chair: Jean-Christophe Morin, Stephen Mackenzie
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
                 contributed_by: Allan Johns
-              annual_review_date: '2024-04-17'
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-04-29'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/492
               artwork_url: https://artwork.aswf.io/projects/rez/
+              blog_url: https://www.aswf.io/category/rez/
               chat_channel: '#Rez'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=rez
+              dev_stats_url: https://insights.linuxfoundation.org/project/rez
               documentation_url: https://rez.readthedocs.io/
+              incubating: '2022-01-12'
+              lfx_slug: rez
               mailing_list_url: https://lists.aswf.io/g/rez-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rez
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkM0JQAV
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rez/rez_Charter.pdf?v=1763485197122
               slack_url: https://slack.aswf.io
-          - item:
-            name: OpenFX
-            homepage_url: https://openeffects.org/
-            logo: openfx.svg
-            description: The mission of the OpenFX Project is to promote and develop an image processing plug-in standard.
-            second_path:
-              - Math and Simulation / File Formats and Interchange
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/openfx
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2022-09-02'
-              annotations:
-                slug: openfx
-                next_annual_review_date: '2025-06-11'
-                chair: Gary Oberbrunner
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openfx
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MSuGfQAL
-                contributed_by: Open Effects Association
-              annual_review_date: '2024-06-12'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/514
-              artwork_url: https://artwork.aswf.io/projects/openfx/
-              chat_channel: '#openfx'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openfx
-              documentation_url: https://docs.openeffects.org
-              mailing_list_url: https://lists.aswf.io/g/openfx-discussion
-              slack_url: https://slack.aswf.io
-          - item:
-            name: OpenImageIO
-            homepage_url: https://openimageio.org/
-            logo: openimageio.svg
-            description: The mission of the Project is to develop software to read, write, and manipulate image files of any image file format relevant to vfx / animation via a format-
-              agnostic API, with a feature set, scalability, and robustness needed for production.
-            second_path:
-              - Imaging and Color / Image Formats, I/O, and Processing Libraries
-              - Dev Days 2024 / Participating Project
-            project: incubating
-            repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO
-            additional_repos:
-              - repo_url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2023-06-27'
-              annotations:
-                slug: openimageio
-                next_annual_review_date: '2025-04-30'
-                chair: Daniel Greenstein
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openimageio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MtJNPQA3
-                contributed_by: Larry Gritz
-              annual_review_date: '2024-05-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/509
-              artwork_url: https://artwork.aswf.io/projects/openimageio/
-              chat_channel: '#openimageio'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openimageio
-              documentation_url: https://docs.openimageio.org
-              mailing_list_url: https://lists.aswf.io/g/oiio-dev
-              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmw6BuPTCrAbwxwsdQk9i2y-
       - subcategory:
         name: Sandbox
         items:
           - item:
+            name: Dailies Notes Assistant
+            homepage_url: https://github.com/AcademySoftwareFoundation/dna
+            logo: dailies_notes_assistant.svg
+            description: The mission of the Project is to develop a tool designed to transcribe dailies meetings, analyze the content using an LLM, and provide a plugin system to integrate into production tracking software.
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/dna
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-05-27'
+              annotations:
+                next_annual_review_date: '2026-11-11'
+                submitted_date: '2025-05-11'
+                chair: Tommy Burnette
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1040
+              artwork_url: https://artwork.aswf.io/projects/dailies-notes-assistant/
+              dev_stats_url: https://insights.linuxfoundation.org/project/dailies-notes-assistant
+              lfx_slug: dailies-notes-assistant
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dailies-notes-assistant
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggVZllmLaTYZFChi
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/dailies-transcription-notes-taking-tool/dailies-transcription-notes-taking-tool_Charter.pdf?v=1752019072458
+          - item:
+            name: MoonRay
+            homepage_url: https://www.openmoonray.org/
+            logo: moonray.svg
+            description: develop a state-of-the-art production MCRT renderer
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+            project: sandbox
+            repo_url: https://github.com/dreamworksanimation/openmoonray
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-02-26'
+              annotations:
+                next_annual_review_date: '2027-02-17'
+                chair: Jon Lanz
+                submitted_date: '2026-02-16'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1287
+              artwork_url: https://artwork.aswf.io/projects/moonray/
+              chat_channel: '#moonray'
+              dev_stats_url: https://insights.linuxfoundation.org/project/moonray
+              lfx_slug: moonray
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/moonray
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfaDrcxHo8MzJFIMzN
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/moonray/moonray_Charter.pdf?v=1773345969627
+              slack_url: https://slack.aswf.io
+          - item:
             name: OpenAPV
-            homepage_url: https://github.com/openapv
+            homepage_url: https://openapv.io/
             logo: openapv.svg
             description: The mission of the Project is to develop a royalty-free, open-source, open standard video codec for professional video capturing and post-production.
             second_path:
               - Imaging and Color / Image Formats, I/O, and Processing Libraries
             project: sandbox
-            repo_url: https://github.com/openapv/openapv
+            repo_url: https://github.com/AcademySoftwareFoundation/openapv
+            license: BSD-3-Clause
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2024-09-26'
+              accepted: '2024-10-14'
               annotations:
-                slug: openapv
-                next_annual_review_date: '2025-10-15'
-                chair: ''
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openapv
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
-              annual_review_date: '2024-10-16'
+                next_annual_review_date: '2027-09-29'
+                contributed_by: Samsung Electronics
+                chair: Youngkwon Lim
+                submitted_date: '2024-08-19'
+              annual_review_date: '2026-09-30'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/803
               artwork_url: https://artwork.aswf.io/projects/openapv/
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openapv
-            additional_repos: []
+              blog_url: https://www.aswf.io/category/openapv/
+              chat_channel: '#open-apv'
+              dev_stats_url: https://insights.linuxfoundation.org/project/openapv
+              lfx_slug: openapv
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openapv
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGqZxGXF1gkJmn1Un
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/openapv_charter.pdf
+              slack_url: https://slack.aswf.io
           - item:
             name: OpenAssetIO
             homepage_url: https://openassetio.org/
@@ -1559,44 +1862,193 @@ landscape:
               - Assets and Workflow / Pipelines and Frameworks
             project: sandbox
             repo_url: https://github.com/OpenAssetIO/OpenAssetIO
+            license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-Manager-BAL
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-Manager-BAL
               - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-Test-CMake
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-Test-CMake
               - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-WG
-              - repo_url: https://github.com/OpenAssetIO/OpenAssetIO-WG
               - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
-              - repo_url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
-              - repo_url: https://github.com/OpenAssetIO/openassetio.github.io
-              - repo_url: https://github.com/OpenAssetIO/openassetio.github.io
-              - repo_url: https://github.com/OpenAssetIO/otio-openassetio
-              - repo_url: https://github.com/OpenAssetIO/otio-openassetio
-              - repo_url: https://github.com/OpenAssetIO/usdOpenAssetIOResolver
-              - repo_url: https://github.com/OpenAssetIO/usdOpenAssetIOResolver
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2022-11-01'
+              accepted: '2022-06-29'
               annotations:
-                slug: openassetio
-                next_annual_review_date: '2025-08-20'
-                chair: David Feltell
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
+                next_annual_review_date: '2026-10-14'
+                chair: Philip  Grobler
                 contribution_guidelines: https://github.com/OpenAssetIO/OpenAssetIO/blob/main/contributing/PROCESS.md
                 contributed_by: Foundry
-              annual_review_date: '2024-08-14'
+                project_org: https://github.com/OpenAssetIO
+                submitted_date: '2023-10-04'
+              annual_review_date: '2025-09-17'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/516
               artwork_url: https://artwork.aswf.io/projects/openassetio/
+              blog_url: https://www.aswf.io/category/openassetio/
               chat_channel: '#openassetio'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=openassetio
+              dev_stats_url: https://insights.linuxfoundation.org/project/openassetio
               documentation_url: https://docs.openassetio.org
+              lfx_slug: openassetio
               mailing_list_url: https://lists.aswf.io/g/openassetio-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openassetio
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L17vCQAR
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-asset-io_charter.pdf
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmxhSgcFejAACYQBbQCNDpWV
+          - item:
+            name: Open Path Guiding Library (OpenPGL)
+            homepage_url: http://www.openpgl.org/
+            logo: open_path_guiding_library_openpgl.svg
+            description: Open Path Guiding Library (OpenPGL) is an open-source library, that improves the rendering efficiency of a renderer by providing easy to integrate and production-ready implementations of state-of-the-art path guiding algorithms. Especially in challenging illumination setups (complex indirect illumination, volumetric multi scattering) these algorithms significantly improve rendering performance.
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+            project: sandbox
+            repo_url: https://github.com/OpenPathGuidingLibrary/openpgl
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-01-12'
+              annotations:
+                next_annual_review_date: '2026-12-09'
+                contributed_by: Intel
+                chair: Sebastian Herholz
+                project_org: https://github.com/OpenPathGuidingLibrary
+                submitted_date: '2025-11-20'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1218
+              artwork_url: https://artwork.aswf.io/projects/openpgl/
+              chat_channel: '#openpgl'
+              dev_stats_url: https://insights.linuxfoundation.org/project/openpgl
+              lfx_slug: openpgl
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openpgl
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYjuePa6OtmW5KjGs
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openpgl/openpgl_Charter.pdf?v=1762986909995
+              slack_url: https://slack.aswf.io
+            additional_repos: []
+          - item:
+            name: OpenQMC
+            homepage_url: https://openqmc.org/
+            logo: openqmc.svg
+            description: The mission of the Project is to provide an API to deliver high quality QMC sample points.
+            second_path:
+              - Rendering and Queueing / Rendering, Lighting, and Lookdev
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/openqmc
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-08-12'
+              annotations:
+                next_annual_review_date: '2027-08-04'
+                chair: Josh Bainbridge
+                contributed_by: Framestore
+                submitted_date: '2023-07-19'
+              annual_review_date: '2026-08-05'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/434
+              artwork_url: https://artwork.aswf.io/projects/openqmc/
+              blog_url: https://www.aswf.io/category/openqmc/
+              chat_channel: '#openqmc'
+              dev_stats_url: https://insights.linuxfoundation.org/project/openqmc
+              lfx_slug: openqmc
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openqmc
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFn5GZ7ccsXkcmxHC
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openqmc/openqmc_Charter.pdf?v=1785336825352
+              slack_url: https://slack.aswf.io
+          - item:
+            name: Open RV
+            homepage_url: https://github.com/AcademySoftwareFoundation/OpenRV
+            logo: open_rv.svg
+            description: Open RV is an image and sequence viewer for VFX and animation artists. Open RV is high-performant, hardware accelerated, and pipeline-friendly.
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-07-14'
+              annotations:
+                submitted_date: '2026-04-02'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1327
+              artwork_url: https://artwork.aswf.io/projects/openrv/
+              dev_stats_url: https://insights.linuxfoundation.org/project/openrv
+              lfx_slug: openrv
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openrv
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfbkTM2SDFcVI6Okq1
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/openrv/openrv_Charter.pdf?v=1784058223790
+          - item:
+            name: Rongotai Model Train Club (RMTC)
+            homepage_url: https://rmtc.ai/
+            logo: rongotai_model_train_club_rmtc.svg
+            description: RMTC is a VFX-specific framework for simplifying the production and deployment of AI/ML models using well-tracked and rights-cleared datasets.
+            second_path:
+              - Assets and Workflow / Pipelines and Frameworks
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/rmtc
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2025-07-15'
+              annotations:
+                next_annual_review_date: '2027-06-23'
+                chair: John Mccarten
+                contributed_by: Wētā FX
+                submitted_date: '2025-06-04'
+              annual_review_date: '2026-06-24'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1075
+              artwork_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/
+              blog_url: https://www.aswf.io/category/rmtc/
+              chat_channel: '#rmtc'
+              dev_stats_url: https://insights.linuxfoundation.org/project/rongotai-model-train-club-rmtc
+              lfx_slug: rongotai-model-train-club-rmtc
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rongotai-model-train-club-rmtc
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfVbn6YwcC4WwCLufz
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1763492766002
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rongotai-model-train-club-rmtc/rongotai-model-train-club-rmtc_Charter.pdf?v=1754504351394
+              slack_url: https://slack.aswf.io
+          - item:
+            name: xStudio
+            homepage_url: https://github.com/AcademySoftwareFoundation/xstudio
+            logo: xstudio.svg
+            description: xSTUDIO is a media playback and review application designed for professionals working in the film and TV post production industries, particularly the Visual Effects and Feature Animation sectors. xSTUDIO is focused on providing an intuitive, easy to use interface with a high performance playback engine at its core and C++ and Python APIs for pipeline integration and customisation for total flexibility.
+            project: sandbox
+            repo_url: https://github.com/AcademySoftwareFoundation/xstudio
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2026-07-14'
+              annotations:
+                submitted_date: '2026-04-02'
+                chair: ''
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/1329
+              artwork_url: https://artwork.aswf.io/projects/xstudio/
+              dev_stats_url: https://insights.linuxfoundation.org/project/xstudio
+              lfx_slug: xstudio
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/xstudio
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwQ4NyydjBcDCKMwn
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/xstudio/xstudio_Charter.pdf?v=1784051302888
+      - subcategory:
+        name: Working Group
+        items:
           - item:
             name: Open Review Initiative
             homepage_url: https://openreviewinitiative.org/
@@ -1604,196 +2056,157 @@ landscape:
             description: Unified open source toolset for playback, review, and approval of motion picture and related professional media.
             second_path:
               - Imaging and Color / Display and Review
-            project: sandbox
+            project: working-group
             repo_url: https://github.com/AcademySoftwareFoundation/ori-shared-platform
+            license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/OpenRV
               - repo_url: https://github.com/AcademySoftwareFoundation/EncodingGuidelines
               - repo_url: https://github.com/AcademySoftwareFoundation/xstudio
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2022-09-07'
+              accepted: '2022-07-13'
               annotations:
-                slug: open-review-initiative
-                next_annual_review_date: '2025-08-20'
+                next_annual_review_date: '2026-12-09'
                 chair: Erik Strauss
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
                 contributed_by: Academy Software Foundation
-              annual_review_date: '2024-08-21'
+                submitted_date: '2023-07-19'
+              annual_review_date: '2025-10-01'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/436
               artwork_url: https://artwork.aswf.io/projects/open-review-initiative/
+              blog_url: https://www.aswf.io/category/open-review-initiative/
               chat_channel: '#open-review-initiative'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=open-review-initiative
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-review-initiative
+              lfx_slug: open-review-initiative
               mailing_list_url: https://lists.aswf.io/g/open-review-initiative-discussion
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-review-initiative
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1EL3QAN
+                - name: Charter
+                  url: https://github.com/AcademySoftwareFoundation/foundation/blob/main/project_charters/open-review-initiative_charter.pdf
               slack_url: https://slack.aswf.io
-      - subcategory:
-        name: Working Group
-        items:
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmy3dcfmyh7WTjZZDqYWzpqB
           - item:
             name: Zero Trust Working Group
             homepage_url: https://lf-aswf.atlassian.net/wiki/spaces/ZTWG/overview
             logo: zero_trust_working_group.svg
-            description: To support ASWF projects that need to function in a Zero Trust operating environment. Assist ASWF projects in determining their zero trust security needs and
-              share best practices on implementation approaches.
+            description: To support ASWF projects that need to function in a Zero Trust operating environment. Assist ASWF projects in determining their zero trust security needs and share best practices on implementation approaches.
             project: working-group
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
               accepted: '2024-04-03'
               annotations:
-                slug: aswf-zero-trust-wg
-                next_annual_review_date: '2025-10-29'
-                chair: James Helman
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
-              annual_review_date: '2024-10-30'
+                next_annual_review_date: '2026-10-28'
+                contributed_by: MovieLabs
+                chair: Daryll Strauss
+                submitted_date: '2024-03-06'
+              annual_review_date: '2025-10-29'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/621
               artwork_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-zero-trust-wg
+              blog_url: https://www.aswf.io/category/zerotrust/
+              chat_channel: '#wg-zerotrust'
+              dev_stats_url: https://insights.linuxfoundation.org/project/aswf-zero-trust-wg
+              lfx_slug: aswf-zero-trust-wg
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-zero-trust-wg
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf06ycC7yskev1oAsa
+              slack_url: https://slack.aswf.io
+      - subcategory:
+        name: Long Term Working Group
+        items:
           - item:
             name: Continuous Integration Working Group
             homepage_url: https://wiki.aswf.io/display/CIWG
             logo: continuous_integration_working_group.svg
-            description: The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to improve best
-              practices and address the unique challenges we face.
-            project: working-group
+            second_path:
+              - Assets and Workflow / Software Foundation and System Administration
+            description: The ASWF’s investment in CI build infrastructure will provide the industry’s open source software community with the solid foundation needed to improve best practices and address the unique challenges we face.
+            project: long-term-working-group
             repo_url: https://github.com/AcademySoftwareFoundation/wg-ci
             additional_repos:
               - repo_url: https://github.com/AcademySoftwareFoundation/aswf-docker
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2018-11-01'
+              accepted: '2018-10-31'
               annotations:
-                slug: aswf-continuous-integration-wg
-                next_annual_review_date: '2024-05-15'
+                next_annual_review_date: '2027-06-23'
                 chair: Jean-Francois Panisset
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
                 contributed_by: Academy Software Foundation
-              annual_review_date: '2024-05-29'
+                submitted_date: '2023-10-02'
+              annual_review_date: '2026-06-24'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/511
               artwork_url: https://artwork.aswf.io/projects/aswf-continuous-integration-wg/
               chat_channel: '#wg-ci'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-continuous-integration-wg
+              dev_stats_url: https://insights.linuxfoundation.org/project/aswf-continuous-integration-wg
+              lfx_slug: aswf-continuous-integration-wg
               mailing_list_url: https://lists.aswf.io/g/tac
-              slack_url: https://slack.aswf.io
-          - item:
-            name: Universal Scene Description Working Group
-            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
-            logo: universal_scene_description_working_group.svg
-            description: The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond the capacity
-              of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best practices and helping with issues raised
-              in various USD support channels where possible.
-            second_path:
-              - Assets and Workflow / Scenes and Geometry
-            project: working-group
-            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2020-03-04'
-              annotations:
-                slug: aswf-usd-wg
-                next_annual_review_date: '2025-04-30'
-                chair: Alexander Schwank, Nick Porcino
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
-                leads: Alexander Schwank and Nick Porcino
-                contributed_by: Pixar
-              annual_review_date: '2024-05-01'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
-              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
-              chat_channel: '#wg-usd'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-usd-wg
-              mailing_list_url: https://lists.aswf.io/g/wg-usd
-              slack_url: https://slack.aswf.io
-          - item:
-            name: ASWF Language Interop Project
-            homepage_url: https://github.com/vfx-rs
-            logo: aswf_language_interop_project.svg
-            description: The mission of the Project is to enable interoperability between various programming languages across each of the libraries used by the media and entertainment
-              industry.
-            second_path:
-              - Math and Simulation / Math Foundations
-            project: working-group
-            repo_url: https://github.com/vfx-rs/organization
-            additional_repos:
-              - repo_url: https://github.com/vfx-rs/arewevfxyet
-              - repo_url: https://github.com/vfx-rs/arewevfxyet
-              - repo_url: https://github.com/vfx-rs/babble
-              - repo_url: https://github.com/vfx-rs/babble
-              - repo_url: https://github.com/vfx-rs/cppmm
-              - repo_url: https://github.com/vfx-rs/cppmm
-              - repo_url: https://github.com/vfx-rs/cppmm-build
-              - repo_url: https://github.com/vfx-rs/cppmm-build
-              - repo_url: https://github.com/vfx-rs/cppmm-refptr
-              - repo_url: https://github.com/vfx-rs/cppmm-refptr
-              - repo_url: https://github.com/vfx-rs/imath-traits
-              - repo_url: https://github.com/vfx-rs/imath-traits
-              - repo_url: https://github.com/vfx-rs/meeting-minutes
-              - repo_url: https://github.com/vfx-rs/meeting-minutes
-              - repo_url: https://github.com/vfx-rs/ocio-bind
-              - repo_url: https://github.com/vfx-rs/ocio-bind
-              - repo_url: https://github.com/vfx-rs/oiio-bind
-              - repo_url: https://github.com/vfx-rs/oiio-bind
-              - repo_url: https://github.com/vfx-rs/openexr-bind
-              - repo_url: https://github.com/vfx-rs/openexr-bind
-              - repo_url: https://github.com/vfx-rs/openexr-core-rs
-              - repo_url: https://github.com/vfx-rs/openexr-core-rs
-              - repo_url: https://github.com/vfx-rs/openexr-rs
-              - repo_url: https://github.com/vfx-rs/openexr-rs
-              - repo_url: https://github.com/vfx-rs/openexr-sys
-              - repo_url: https://github.com/vfx-rs/openexr-sys
-              - repo_url: https://github.com/vfx-rs/opentimelineio-bind
-              - repo_url: https://github.com/vfx-rs/opentimelineio-bind
-              - repo_url: https://github.com/vfx-rs/ptex-bind
-              - repo_url: https://github.com/vfx-rs/ptex-bind
-              - repo_url: https://github.com/vfx-rs/rfcs
-              - repo_url: https://github.com/vfx-rs/rfcs
-              - repo_url: https://github.com/vfx-rs/template-project
-              - repo_url: https://github.com/vfx-rs/template-project
-              - repo_url: https://github.com/vfx-rs/usd-bind
-              - repo_url: https://github.com/vfx-rs/usd-bind
-            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
-            extra:
-              accepted: '2023-10-20'
-              annotations:
-                slug: aswf-language-interop-project
-                next_annual_review_date: '2025-03-19'
-                chair: Scott Wilson
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-language-interop-project
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfv8NMKI8tcp96N5tb
-                date_accepted: ^2021-03-04
-                contributed_by: Scott Wilson
-              annual_review_date: '2024-03-20'
-              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/489
-              artwork_url: https://artwork.aswf.io/projects/aswf-language-interop-project/
-              chat_channel: '#rust'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-language-interop-project
-              mailing_list_url: https://lists.aswf.io/g/wg-rust
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-continuous-integration-wg
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDLQA1
               slack_url: https://slack.aswf.io
           - item:
             name: Diversity & Inclusion Working Group
             homepage_url: https://lists.aswf.io/g/diversity
             logo: diversity_inclusion_working_group.svg
-            description: The purpose of this Working Group is to create a cross-industry effort to encourage diversity and inclusion across the open source software ecosystem for vfx
-              and animation. The WG will bring together software engineers/developers, marketing/communications professionals, HR, and anyone else passionate about D&I within vfx and
-              animation.
-            project: working-group
-            repo_url: https://github.com/chaoss/wg-diversity-inclusion
+            description: The purpose of this Working Group is to create a cross-industry effort to encourage diversity and inclusion across the open source software ecosystem for vfx and animation. The WG will bring together software engineers/developers, marketing/communications professionals, HR, and anyone else passionate about D&I within vfx and animation.
+            project: long-term-working-group
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             extra:
-              accepted: '2020-06-11'
+              accepted: '2020-08-26'
               annotations:
-                slug: aswf-diversity-inclusion-wg
-                next_annual_review_date: '2024-10-16'
-                chair: Rachel Rose, Carol Payne
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
+                next_annual_review_date: '2027-01-06'
                 contributed_by: Academy Software Foundation
-              annual_review_date: '2023-10-04'
+                chair: Karen Ruggles
+                submitted_date: '2023-09-18'
+              annual_review_date: '2026-01-21'
               annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/473
               artwork_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/
+              blog_url: https://www.aswf.io/category/diversity/
               chat_channel: '#diversity'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/aswf/overview?project=aswf-diversity-inclusion-wg
-              mailing_list_url: https://lists.aswf.io/g/diversity
+              dev_stats_url: https://insights.linuxfoundation.org/project/aswf-diversity-inclusion-wg
+              lfx_slug: aswf-diversity-inclusion-wg
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-diversity-inclusion-wg
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDZQA1
               slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzFr8vwC1Q0lf0SrH3CJ2ym
+          - item:
+            name: Universal Scene Description Working Group
+            homepage_url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group?src=breadcrumbs-parent
+            logo: universal_scene_description_working_group.svg
+            description: The purpose of the USD working group is to support the USD project as it is adopted and deployed. Strong industry-wide interest in USD is beyond the capacity of Pixar alone to support. The aim of this working group is to assist adoption efforts through consolidation and sharing of best practices and helping with issues raised in various USD support channels where possible.
+            second_path:
+              - Assets and Workflow / Scenes and Geometry
+            project: long-term-working-group
+            repo_url: https://github.com/AcademySoftwareFoundation/wg-usd
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
+            extra:
+              accepted: '2020-02-26'
+              annotations:
+                next_annual_review_date: '2027-08-04'
+                chair: Nick Porcino, Alexander Schwank
+                contributed_by: Pixar
+                submitted_date: '2023-10-04'
+              annual_review_date: '2026-08-05'
+              annual_review_url: https://github.com/AcademySoftwareFoundation/tac/issues/518
+              artwork_url: https://artwork.aswf.io/projects/aswf-usd-wg/
+              blog_url: https://www.aswf.io/category/usd/
+              chat_channel: '#wg-usd'
+              dev_stats_url: https://insights.linuxfoundation.org/project/aswf-usd-wg
+              lfx_slug: aswf-usd-wg
+              mailing_list_url: https://lists.aswf.io/g/wg-usd
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf-usd-wg
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWjDUQA1
+              slack_url: https://slack.aswf.io
+              youtube_url: https://www.youtube.com/playlist?list=PL9dZxafYCWmzo-PO2aI0O6QQI_eWXuC80

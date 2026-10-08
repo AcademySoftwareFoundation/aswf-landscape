@@ -13,15 +13,21 @@ missingcsvfile: missing.csv
 landscapeProjectsCategory: ASWF Projects
 landscapeProjectsSubcategories:
   - name: Adopted
-    category: Adopted
+    category: Graduated
+  - name: Graduated
+    category: Graduated
   - name: Incubating
     category: Incubating
   - name: Sandbox
     category: Sandbox
   - name: Working Group
     category: Working Group
+  - name: SIG
+    category: Long Term Working Group
 landscapeProjectsLevels:
   - name: Adopted
+    level: graduated
+  - name: Graduated
     level: graduated
   - name: Incubating
     level: incubating
@@ -29,6 +35,8 @@ landscapeProjectsLevels:
     level: sandbox
   - name: Working Group
     level: working-group
+  - name: SIG
+    level: long-term-working-group
 projectsDefaultCrunchbase: https://www.crunchbase.com/organization/academy-software-foundation
 artworkRepoUrl: https://artwork.aswf.io/projects/{slug}/
 tacAgendaProjectUrl: https://github.com/orgs/AcademySoftwareFoundation/projects/19/views/1

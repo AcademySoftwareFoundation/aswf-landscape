@@ -1,4 +1,4 @@
-name: Validate
+name: Validate Landscape
 
 on:
   merge_group:
@@ -7,20 +7,23 @@ on:
       - main
       - master
 
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate-landscape:
     runs-on: ubuntu-latest
     name: "Validate landscape.yml file"
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: cncf/landscape2-validate-action@v2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: cncf/landscape2-validate-action@6381e8747c73412e638670807b402ef2b863e9f8 # v2.0.1
         with:
           target_kind: data
           target_path: ./landscape.yml
-      - uses: pascalgn/automerge-action@v0.16.4
-        if: success() && ${{ github.secret_source == 'Actions' }}
-        env:
-          GITHUB_TOKEN: "${{ secrets.PAT }}"
-          MERGE_LABELS: "automated-build"
-          MERGE_RETRY_SLEEP: 300000
-          MERGE_METHOD: "squash"

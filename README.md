@@ -4,7 +4,7 @@
 
 This landscape is intended as a map to explore open source projects hosted by the Academy Software Foundation, open source projects in the visual and special effects industries, and also shows the Academy Software Foundation member companies. It is modeled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open-source code.
 
-This repository contains the data files and images required to generate the [Academy Software Found landscape](https://landscape.aswf.io). The software that generates it can be found at the [cncf/landscape2](https://github.com/cncf/landscape2) repository. Please see its [README file](https://github.com/cncf/landscape2#landscape2) for more information about how it works.
+This repository contains the data files and images required to generate the [Academy Software Foundation landscape](https://landscape.aswf.io). The software that generates it can be found at the [cncf/landscape2](https://github.com/cncf/landscape2) repository. Please see its [README file](https://github.com/cncf/landscape2#landscape2) for more information about how it works.
 
 ## New Entries
 
